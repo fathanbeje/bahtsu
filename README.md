@@ -1,6 +1,9 @@
 # 📚 Skill `/bahtsu` — Asisten Perumus Bahtsul Masail Pesantren (Standar Munas & Konbes NU)
 
-Skill resmi untuk AI coding assistant dan agent (Google Antigravity, Claude Desktop, Cursor, Windsurf, dll.) untuk meneliti masalah hukum, mencari multi-ibarat kitab kuning secara 100% online, dan merumuskan draf keputusan Bahtsul Masail berstandar resmi **Musyawarah Nasional (Munas) Alim Ulama, Konferensi Besar (Konbes) Nahdlatul Ulama, dan LBM PBNU**.
+Skill resmi untuk AI coding assistant dan agent (Google Antigravity, Claude Desktop, Cursor, Windsurf, dll.) untuk meneliti masalah hukum, mencari multi-ibarat kitab kuning secara 100% online, dan merumuskan draf taswidah bahan kajian Bahtsul Masail berstandar resmi **Musyawarah Nasional (Munas) Alim Ulama, Konferensi Besar (Konbes) Nahdlatul Ulama, dan LBM PBNU**.
+
+> **⚠️ Catatan Etika & Status Dokumen:**  
+> Seluruh naskah yang dihasilkan melalui skill ini berstatus sebagai **DRAF TASWIDAH & BAHAN KAJIAN AWAL** (*Taswīdah al-Mabāhits*). Hasil sintesis AI ini disiapkan sebagai materi persidangan dan telaah awal, **bukan keputusan final musyawarah**, karena keabsahan fatwa dan keputusan hukum syar'i di lingkungan Nahdlatul Ulama mutlak membutuhkan musyawarah para alim ulama (*al-munāzharah wal munāqasyah*) serta pengesahan (*tashīh*) dari jajaran Syuriyah Nahdlatul Ulama.
 
 ---
 
@@ -23,6 +26,8 @@ Skill ini secara komprehensif mengintegrasikan seluruh konsensus metodologis Bah
    Kalimat krusial dalil/titik temu hukum (*mahallus syahid*) disoroti dengan format kombinasi `<u>**【 ... 】**</u>` yang teruji kompatibel sempurna baik di **Capacities** maupun **Microsoft Word**.
 3. **Wajhul Istidlal & Wajhul Ilhāq yang Argumentatif:**  
    Setiap kutipan teks wajib disertai penjelasan korelasi mengapa teks turats tersebut menjadi landasan hukum bagi kasus kontemporer yang dibahas.
+4. **Otomatisasi Pengarsipan Repositori (.md):**  
+   Setiap rumusan yang telah dituntaskan otomatis disimpan ke berkas `kajian/YYYY-MM-DD-slug-tema.md` dan di-push ke repositori GitHub.
 
 ---
 
@@ -71,6 +76,8 @@ bahtsu/
 ├── .gitignore                                         # File pengabaian git
 ├── docs/
 │   └── planning_and_architecture.md                  # Peta arsitektur, 5 lapisan kitab & alur kerja
+├── kajian/                                            # Arsip berkas taswidah hasil kajian (.md)
+│   └── README.md                                     # Panduan & kredensial dokumen arsip
 ├── scripts/
 │   └── turath_search.js                              # CLI pencarian multi-ibarat online Turath.io API v3
 └── references/
@@ -79,7 +86,7 @@ bahtsu/
     ├── klasifikasi_masail_nu.md                          # Panduan Masail Waqi'iyyah, Maudlu'iyyah, Qanuniyyah
     ├── metodologi_ilhaq_taqrir.md                        # Naskah Taqrīr Jamā'i & Ilhāq Munas NU 2017 & rukun ilhaq
     ├── hierarki_tarjih_syafii.md                         # Panduan urutan qaul mu'tamad & tarjih madzhab Syafi'i
-    └── template_keputusan.md                             # Format baku keputusan komprehensif Munas/Konbes NU
+    └── template_keputusan.md                             # Format baku draf taswidah bahan kajian Bahtsul Masail
 ```
 
 ---

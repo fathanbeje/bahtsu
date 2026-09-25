@@ -1,17 +1,19 @@
-# Template Format Keputusan Bahtsul Masail Pesantren
+# Template Format Draf Taswidah Bahtsul Masail
 *(Standar Resmi Munas Alim Ulama, Konbes Nahdlatul Ulama, & LBM PBNU)*
 
-Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf hasil keputusan Bahtsul Masail, baik untuk kategori **Masā'il Wāqi'iyyah**, **Masā'il Maudlū'iyyah**, maupun **Masā'il Qānūniyyah**.
+Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf taswidah bahan kajian Bahtsul Masail, baik untuk kategori **Masā'il Wāqi'iyyah**, **Masā'il Maudlū'iyyah**, maupun **Masā'il Qānūniyyah**.
 
 ---
 
 ```markdown
-# HASIL KEPUTUSAN BAHTSUL MASA'IL
+# DRAF TASWIDAH & BAHAN KAJIAN BAHTSUL MASA'IL
+> **Status Dokumen:** Draf telaah awal berbasis penelusuran turats & sintesis AI — *Belum menjadi keputusan resmi musyawarah dan memerlukan pembahasan serta tashīh alim ulama dalam sidang resmi Bahtsul Masail.*
+
 **Tema:** [Judul Masalah]
 **Klasifikasi:** [Masâil Wâqi’iyyah / Maudlû’iyyah / Qanûniyyah]
 **Kajian Fan:** [Fiqih Muamalah / Ibadah / Jinayah / Siyasah Syar'iyyah / Bi'ah / Bioetika]
-**Forum:** [Nama Forum: Munas / Konbes / Bahtsul Masail Cabang / Pesantren]
-**Waktu & Tempat:** [Hari, Tanggal Hijriyah & Masehi | Lokasi Sidang]
+**Disusun Oleh:** Tim Asistensi Telaah Bahtsul Masail (AI Research Assistant)
+**Waktu Penyusunan:** [Hari, Tanggal Hijriyah & Masehi]
 
 ---
 
@@ -27,15 +29,15 @@ Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf
 
 ---
 
-### III. Rumusan Keputusan Hukum (Al-Qarar)
+### III. Rumusan Draf Hukum (Taswīdah al-Qarār)
 
-#### 1. Jawaban Pertanyaan 1:
-[Uraikan rumusan keputusan secara tegas, bernas, dan argumentatif. Sebutkan status qaul: Qaul Mu'tamad, Muqabil Mu'tamad, atau Tafshil (terinci) beserta syarat-syaratnya yang ketat.]
+#### 1. Rumusan Jawaban Pertanyaan 1:
+[Uraikan usulan rumusan secara tegas, bernas, dan argumentatif. Sebutkan status qaul: Qaul Mu'tamad, Muqabil Mu'tamad, atau Tafshil (terinci) beserta syarat-syaratnya yang ketat.]
 
-#### 2. Jawaban Pertanyaan 2:
+#### 2. Rumusan Jawaban Pertanyaan 2:
 [Uraikan konsekuensi hukum perdata/akad, tanggung jawab para pihak, atau status kepemilikan/hak.]
 
-#### 3. Jawaban Pertanyaan 3:
+#### 3. Rumusan Jawaban Pertanyaan 3:
 [Uraikan solusi alternatif syar'i (makharij fiqhiyyah) dan panduan praktis bagi masyarakat atau pemangku kebijakan.]
 
 ---

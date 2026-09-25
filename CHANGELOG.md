@@ -6,6 +6,15 @@ Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelo
 
 ---
 
+## [2.2.0] - 2026-09-25
+
+### ✨ New Features
+- **Redefinisi Header & Etika Dokumen (*Taswidah Al-Mabahits*):** Mengubah header default dari `HASIL KEPUTUSAN BAHTSUL MASA'IL` menjadi `# DRAF TASWIDAH & BAHAN KAJIAN BAHTSUL MASA'IL` yang dilengkapi dengan catatan penegasan resmi: *"Draf telaah awal berbasis penelusuran turats & sintesis AI — Belum menjadi keputusan resmi musyawarah dan memerlukan pembahasan serta tashīh alim ulama dalam sidang resmi Bahtsul Masail."*
+- **Otomatisasi Arsip Repositori (`kajian/`):** Mewajibkan AI untuk secara otomatis menulis seluruh naskah hasil perumusan ke dalam berkas `kajian/YYYY-MM-DD-slug-tema.md` dan langsung mengeksekusi `git add`, `git commit`, serta `git push origin main` ke GitHub setiap kali pembahasan selesai.
+- **Penyediaan Direktori `kajian/`:** Membuat folder `kajian/` beserta `kajian/README.md` sebagai repositori permanen naskah-naskah taswidah Bahtsul Masail di GitHub.
+
+---
+
 ## [2.1.0] - 2026-09-25
 
 ### ✨ New Features
