@@ -4,21 +4,25 @@ Skill resmi untuk AI coding assistant dan agent (Google Antigravity, Claude Desk
 
 ---
 
-## 🏛️ Fondasi Metodologis (Munas Alim Ulama NU 2017)
+## 🏛️ Fondasi Metodologis Resmi Nahdlatul Ulama
 
-Skill ini secara ketat mengintegrasikan ketetapan metodologis Komisi Bahtsul Masail Maudlu'iyyah Munas Alim Ulama NU 2017 di NTB (Hal. 73–82):
-1. **Kebijakan Multi-Referensi Mutlak (*Multi-Source Mandate*):**
-   - Mengharamkan kutipan referensi tunggal (*la yajuzu al-iqtishar 'ala marja'in wahid*).
-   - Setiap sub-pertanyaan/hukum wajib didukung **minimal 3 sampai 7+ ibarat berantai** dari berbagai tingkatan kitab (*Kutubul Mutaqaddimin, Syaikhoni, Muta'akhirin, Hawasyi, Qawa'id Fiqhiyyah/Ushul, dan Muqaranah 4 Madzhab*).
-2. **Prosedur *Taqrīr Jamā'i* (Pentarjihan Kolektif):**
-   - Mengutamakan metode *Al-Jam'u wat Taufīq* (kompromi multidimensi) sebelum mentarjih qaul.
-   - Mengukur maslahat berbasis *Al-Kulliyātul Khams* dan mendahulukan *Mashlahah 'Āmmah* atas *Mashlahah Khashshah*.
-   - Mengakomodasi kaidah perubahan fatwa:
-     $$\text{لا ينكر تغير الأحكام بتغير الأزمان والأمكنة والأحوال والظروف والعوائد}$$
-3. **Prosedur *Ilhāqul Masā'il bi Nazhā'irihā* (Analogi Kasus Baru):**
-   - *Takhrīj al-Furū' 'alal Furū'* (menyamakan kasus modern dengan furu' klasik sejenis).
-   - *Takhrīj al-Furū' 'alal Qawā'id* (menarik kasus ke bawah kaidah fiqhiyyah/ushuliyyah universal).
-   - Mewajibkan sub-bagian **Wajhul Istidlal / Wajhul Ilhāq** untuk menguraikan titik temu 'illat hukum antara teks klasik dan realitas kontemporer.
+Skill ini secara komprehensif mengintegrasikan seluruh konsensus metodologis Bahtsul Masail Nahdlatul Ulama:
+1. **Muktamar NU ke-1 (Surabaya 1926):** Peletakan asas bermazhab empat dan urutan hierarki pentarjihan madzhab Syafi'i (Syaikhoni $\rightarrow$ Nawawi $\rightarrow$ Rafi'i $\rightarrow$ Jumhur $\rightarrow$ Al-A'lam $\rightarrow$ Al-Awro').
+2. **Munas Alim Ulama (Bandar Lampung 1992):** Piagam *"Sistem Pengambilan Keputusan Hukum dalam Bahtsul Masail di Lingkungan NU"*, melembagakan konsep **Bermadzhab secara Qauli** dan **Bermadzhab secara Manhaji**, serta prosedur 4 tingkat: *Qauli $\rightarrow$ Taqrir Jama'i $\rightarrow$ Ilhaq al-Masail bi Nazha'iriha $\rightarrow$ Istinbath Jama'i*.
+3. **Muktamar NU ke-33 (Jombang 2015):** Formulasi tiga instrumen operasional *Istinbath al-Ahkam*: **Metode Bayani** (semantik kebahasaan teks suci), **Metode Qiyasi** (analogi ushuli dan tahqiqul manath), dan **Metode Istishlahi / Maqashidi** (kemaslahatan publik dan *maqashid asy-syari'ah*).
+4. **Munas Alim Ulama & Konbes NU (NTB 2017):** Keputusan Komisi Maudlu'iyyah tentang pematangan prosedur *Taqrir Jama'i*, *Ilhaqul Masail bi Nazha'iriha*, Teori Multidimensi (*Nadhariyyatu Ta'addudil Ab'ad*), serta kaidah perubahan fatwa (*Taghayyur al-Ahkam*).
+5. **Munas Banjar (2019), Muktamar 34 (2021), & Perkum LBM-NU (2022):** Penataan tri-matra forum Bahtsul Masail: *Masā'il Wāqi'iyyah* (kasuistik aktual), *Masā'il Maudlū'iyyah* (tematik peradaban/kebangsaan seperti konsep *muwathanah*), dan *Masā'il Qānūniyyah* (telaah yuridis undang-undang negara).
+
+---
+
+## ⚠️ Aturan Mutlak Perumusan (Mandatory Protocols)
+
+1. **Larangan Referensi Tunggal (*Zero Single-Source Policy*):**  
+   Setiap rumusan jawaban/sub-pertanyaan **WAJIB menyertakan minimal 3 hingga 7+ ibarat** dari lapisan kitab yang berbeda (*Kutubul Mutaqaddimin, Syaikhoni/Muta'akhirin, Hawasyi/Fatawa, Qawa'id Fiqhiyyah/Ushul, dan Muqaranah 4 Madzhab*).
+2. **Penyorotan Kalimat Kunci Ibarat (*Multi-App Highlight*):**  
+   Kalimat krusial dalil/titik temu hukum (*mahallus syahid*) disoroti dengan format kombinasi `<u>**【 ... 】**</u>` yang teruji kompatibel sempurna baik di **Capacities** maupun **Microsoft Word**.
+3. **Wajhul Istidlal & Wajhul Ilhāq yang Argumentatif:**  
+   Setiap kutipan teks wajib disertai penjelasan korelasi mengapa teks turats tersebut menjadi landasan hukum bagi kasus kontemporer yang dibahas.
 
 ---
 
@@ -30,7 +34,7 @@ Skill ini otomatis aktif di sistem Anda. Cukup ketik perintah slash command:
 /bahtsu [masalah fiqih]
 ```
 atau gunakan prompt alami:
-> *"Gunakan skill bahtsu untuk merumuskan hukum status wakalah shalat mayit..."*
+> *"Gunakan skill bahtsu untuk merumuskan hukum status transaksi cryptocurrency..."*
 
 ### 2. Di Komputer Lain (Via Git)
 Clone repositori ini langsung ke direktori skills perangkat Anda:
@@ -61,15 +65,21 @@ node scripts/turath_search.js -q "الاستصناع" --json
 
 ```
 bahtsu/
-├── SKILL.md                          # Instruksi utama & mandatory multi-source protocol
-├── README.md                         # Dokumentasi lengkap sistem
-├── .gitignore                        # File pengabaian git
+├── SKILL.md                                           # Instruksi utama & mandatory multi-source protocol
+├── README.md                                          # Dokumentasi lengkap sistem
+├── CHANGELOG.md                                       # Catatan rilis dan evolusi metodologis
+├── .gitignore                                         # File pengabaian git
+├── docs/
+│   └── planning_and_architecture.md                  # Peta arsitektur, 5 lapisan kitab & alur kerja
 ├── scripts/
-│   └── turath_search.js             # CLI pencarian multi-ibarat online Turath.io API v3
+│   └── turath_search.js                              # CLI pencarian multi-ibarat online Turath.io API v3
 └── references/
-    ├── metodologi_ilhaq_taqrir.md    # Naskah metodologi resmi Taqrīr Jamā'i & Ilhāq Munas NU 2017
-    ├── hierarki_tarjih_syafii.md    # Panduan urutan qaul mu'tamad & tarjih madzhab Syafi'i
-    └── template_keputusan.md        # Format baku keputusan komprehensif Munas/Konbes NU
+    ├── sistem_pengambilan_keputusan_munas_lampung_1992.md  # Naskah keputusan sistem keputusan Munas Lampung 1992
+    ├── metode_istinbath_muktamar_jombang_2015.md         # Panduan operasional Bayani, Qiyasi, Maqashidi
+    ├── klasifikasi_masail_nu.md                          # Panduan Masail Waqi'iyyah, Maudlu'iyyah, Qanuniyyah
+    ├── metodologi_ilhaq_taqrir.md                        # Naskah Taqrīr Jamā'i & Ilhāq Munas NU 2017 & rukun ilhaq
+    ├── hierarki_tarjih_syafii.md                         # Panduan urutan qaul mu'tamad & tarjih madzhab Syafi'i
+    └── template_keputusan.md                             # Format baku keputusan komprehensif Munas/Konbes NU
 ```
 
 ---

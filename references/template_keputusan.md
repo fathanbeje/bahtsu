@@ -1,7 +1,7 @@
 # Template Format Keputusan Bahtsul Masail Pesantren
-*(Standar Resmi Munas Alim Ulama & Konbes Nahdlatul Ulama / LBM PBNU)*
+*(Standar Resmi Munas Alim Ulama, Konbes Nahdlatul Ulama, & LBM PBNU)*
 
-Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf hasil keputusan Bahtsul Masail.
+Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf hasil keputusan Bahtsul Masail, baik untuk kategori **Masā'il Wāqi'iyyah**, **Masā'il Maudlū'iyyah**, maupun **Masā'il Qānūniyyah**.
 
 ---
 
@@ -9,20 +9,21 @@ Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf
 # HASIL KEPUTUSAN BAHTSUL MASA'IL
 **Tema:** [Judul Masalah]
 **Klasifikasi:** [Masâil Wâqi’iyyah / Maudlû’iyyah / Qanûniyyah]
+**Kajian Fan:** [Fiqih Muamalah / Ibadah / Jinayah / Siyasah Syar'iyyah / Bi'ah / Bioetika]
 **Forum:** [Nama Forum: Munas / Konbes / Bahtsul Masail Cabang / Pesantren]
 **Waktu & Tempat:** [Hari, Tanggal Hijriyah & Masehi | Lokasi Sidang]
 
 ---
 
-### I. Deskripsi Masalah & Latar Belakang (Waqi'iyyah)
-[Uraikan latar belakang masalah secara faktual, sosiologis, yuridis, dan teknis pelaksanaan di lapangan secara tajam, berimbang, dan sistematis. Jelaskan titik sengkarut masalah yang memerlukan kepastian hukum syariat.]
+### I. Deskripsi Masalah & Latar Belakang (Waqi'iyyah / Kerangka Konseptual)
+[Uraikan latar belakang masalah secara faktual, sosiologis, yuridis, dan teknis pelaksanaan di lapangan secara tajam, berimbang, dan sistematis. Jelaskan titik sengkarut masalah yang memerlukan kepastian hukum syariat berdasarkan kaidah: al-hukmu 'ala syai'in far'un 'an tashawwurihi.]
 
 ---
 
 ### II. Pokok Masalah (As'ilah)
 1. [Rumusan pertanyaan pertama mengenai status hukum pokok perbuatan]?
 2. [Rumusan pertanyaan kedua mengenai konsekuensi hukum, akad, atau kompensasi]?
-3. [Rumusan pertanyaan ketiga mengenai solusi / alternatif kebijakan]?
+3. [Rumusan pertanyaan ketiga mengenai solusi / alternatif kebijakan / rekomendasi]?
 
 ---
 
@@ -32,59 +33,84 @@ Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf
 [Uraikan rumusan keputusan secara tegas, bernas, dan argumentatif. Sebutkan status qaul: Qaul Mu'tamad, Muqabil Mu'tamad, atau Tafshil (terinci) beserta syarat-syaratnya yang ketat.]
 
 #### 2. Jawaban Pertanyaan 2:
-[Uraikan konsekuensi hukum perdata/akad, tanggung jawab para pihak, atau status harta yang berpindah.]
+[Uraikan konsekuensi hukum perdata/akad, tanggung jawab para pihak, atau status kepemilikan/hak.]
 
 #### 3. Jawaban Pertanyaan 3:
 [Uraikan solusi alternatif syar'i (makharij fiqhiyyah) dan panduan praktis bagi masyarakat atau pemangku kebijakan.]
 
 ---
 
-### IV. Dhawabith & Rekomendasi Solutif (Kaidah Batasan)
+### IV. Dhawabith & Rekomendasi Solutif (Makharij Fiqhiyyah)
 - [Poin batasan agar hukum tidak disalahgunakan atau diterapkan serampangan]
-- [Rekomendasi teknis atau himbauan keagamaan]
+- [Rekomendasi teknis atau himbauan keagamaan untuk masyarakat dan pemerintah]
+- [Advokasi regulasi jika berupa Masail Qanuniyyah]
 
 ---
 
 ### V. Dasar Pengambilan Hukum (Al-Marāji' wal Ibarāt)
 
-*(Catatan: Setiap sub-pertanyaan WAJIB didukung minimal 3 sampai 7+ ibarat dari kitab yang berbeda: Mutaqaddimin, Muta'akhirin, Hawasyi, dan Qawa'id Fiqhiyyah).*
+*(Catatan Mutlak: Setiap sub-pertanyaan WAJIB didukung minimal 3 sampai 7+ ibarat dari kitab yang berbeda: Mutaqaddimin, Syaikhoni/Muta'akhirin, Hawasyi, Qawa'id Fiqhiyyah/Ushul, dan Muqaranah 4 Madzhab. Kalimat kunci/mahallus syahid WAJIB disorot menggunakan format kombinasi Bold, Tanda Kurung Turats `【 ... 】`, dan tag Underline `<u>` agar terbaca sempurna di Capacities dan Microsoft Word).*
 
 #### A. Rujukan untuk Pertanyaan 1:
 
 1. **[Nama Kitab Induk 1] (Juz/Halaman)**  
-   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Induk Syafi'iyyah*  
-   > [Teks asli ibarat berbahasa Arab lengkap dengan harakat pada bagian-bagian krusial]  
+   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Induk Mutaqaddimin / Syaikhoni*  
+   > [Teks asli ibarat berbahasa Arab lengkap dengan harakat] <u>**【Teks kalimat krusial / mahallus syāhid yang menjadi titik temu hukum】**</u> [kelanjutan teks ibarat jika ada...]
+
    *Makna Murod / Terjemahan:*  
-   [Terjemahan bahasa Indonesia kontekstual yang mudah dipahami]  
+   [Terjemahan bahasa Indonesia kontekstual yang mudah dipahami]
+
    *Wajhul Istidlal / Wajhul Ilhāq:*  
-   [Penjelasan logis korelasi teks dengan pokok masalah]  
+   [Penjelasan logis korelasi mengapa kalimat yang disorot menjadi landasan hukum kasus tersebut]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
 
 2. **[Nama Kitab 2] (Juz/Halaman)**  
-   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Syarah Muktamadah*  
-   > [Teks asli ibarat berbahasa Arab lengkap]  
+   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Syarah Muktamadah Muta'akhirin*  
+   > [Teks asli ibarat berbahasa Arab lengkap] <u>**【Kalimat kunci yang menjadi dasar hukum】**</u> [kelanjutan teks...]
+
    *Makna Murod / Terjemahan:*  
-   [Terjemahan bahasa Indonesia]  
+   [Terjemahan bahasa Indonesia kontekstual]
+
    *Wajhul Istidlal / Wajhul Ilhāq:*  
-   [Korelasi dan elaborasi hukum]  
+   [Korelasi dan elaborasi hukum]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
 
 3. **[Nama Kitab 3] (Juz/Halaman)**  
-   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Hasyiyah / Fatawa*  
-   > [Teks asli ibarat berbahasa Arab lengkap]  
+   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Hasyiyah / Fatawa Muktamadah*  
+   > [Teks asli ibarat berbahasa Arab lengkap] <u>**【Batasan dan syarat operasional yang disorot】**</u> [kelanjutan teks...]
+
    *Makna Murod / Terjemahan:*  
-   [Terjemahan bahasa Indonesia]  
+   [Terjemahan bahasa Indonesia kontekstual]
+
    *Wajhul Istidlal / Wajhul Ilhāq:*  
-   [Penjelasan rincian/taqyid hukum]  
+   [Penjelasan rincian/taqyid hukum]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
 
 4. **[Nama Kitab 4: Qawa'id Fiqhiyyah / Ushul] (Juz/Halaman)**  
    *Karya: [Pengarang] (Wafat: [Tahun] H)*  
-   > [Teks Kaidah Fiqhiyyah Arab Berharakat Beserta Penjelasannya]  
+   > [Teks Kaidah Fiqhiyyah Arab Berharakat Beserta Penjelasannya] <u>**【Pernyataan kaidah universal】**</u> [kelanjutan teks...]
+
    *Makna Murod / Terjemahan:*  
-   [Terjemahan bahasa Indonesia]  
+   [Terjemahan bahasa Indonesia kontekstual]
+
    *Wajhul Istidlal / Wajhul Ilhāq:*  
-   [Penyandaran pada kaidah universal syariat]  
+   [Penyandaran pada kaidah universal syariat dan maqashidus syari'ah]
+
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+
+5. **[Nama Kitab 5: Muqaranah 4 Madzhab (Bila Ada Ikhtilaf / Solusi Alternatif)] (Juz/Halaman)**  
+   *Karya: [Pengarang] (Wafat: [Tahun] H)*  
+   > [Teks ibarat madzhab lain yang menjadi makhraj syar'i] <u>**【Pendapat madzhab alternatif】**</u> [kelanjutan teks...]
+
+   *Makna Murod / Terjemahan:*  
+   [Terjemahan bahasa Indonesia kontekstual]
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [Alasan penggunaan qaul madzhab lain demi hajat dan kemaslahatan umum tanpa talfiq bathil]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
 
 ---
