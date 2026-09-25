@@ -1,70 +1,94 @@
 # Template Format Keputusan Bahtsul Masail Pesantren
-*(Mengadopsi Standar Ma'had Aly Lirboyo / LBM-NU)*
+*(Standar Resmi Munas Alim Ulama & Konbes Nahdlatul Ulama / LBM PBNU)*
 
-Gunakan format ini sebagai kerangka standar setiap kali menyusun draf hasil keputusan Bahtsul Masail.
+Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf hasil keputusan Bahtsul Masail.
 
 ---
 
 ```markdown
-### [JUDUL BESAR MASALAH]
-**Sub-Tema:** [Uraian singkat fokus kajian hukum]
-**Forum:** Bahtsul Masa'il [Nama Lembaga / Pondok Pesantren]
-**Waktu:** [Hari, Tanggal Hijriyah / Masehi]
+# HASIL KEPUTUSAN BAHTSUL MASA'IL
+**Tema:** [Judul Masalah]
+**Klasifikasi:** [Masâil Wâqi’iyyah / Maudlû’iyyah / Qanûniyyah]
+**Forum:** [Nama Forum: Munas / Konbes / Bahtsul Masail Cabang / Pesantren]
+**Waktu & Tempat:** [Hari, Tanggal Hijriyah & Masehi | Lokasi Sidang]
 
 ---
 
-#### Deskripsi Masalah:
-[Tuliskan latar belakang masalah secara obyektif, runut, dan memuat fakta-fakta lapangan yang terjadi (waqi'iyyah). Jelaskan mengapa masalah ini perlu dibahas dan apa saja titik kritis sosial/ekonomi/moral yang terdampak.]
+### I. Deskripsi Masalah & Latar Belakang (Waqi'iyyah)
+[Uraikan latar belakang masalah secara faktual, sosiologis, yuridis, dan teknis pelaksanaan di lapangan secara tajam, berimbang, dan sistematis. Jelaskan titik sengkarut masalah yang memerlukan kepastian hukum syariat.]
 
 ---
 
-#### Pertanyaan (As'ilah):
-1. [Rumusan pertanyaan pertama, biasanya mengenai status hukum pokok perbuatan]?
-2. [Rumusan pertanyaan kedua, biasanya mengenai konsekuensi, alternatif solusi, atau batasan syariat]?
+### II. Pokok Masalah (As'ilah)
+1. [Rumusan pertanyaan pertama mengenai status hukum pokok perbuatan]?
+2. [Rumusan pertanyaan kedua mengenai konsekuensi hukum, akad, atau kompensasi]?
+3. [Rumusan pertanyaan ketiga mengenai solusi / alternatif kebijakan]?
 
 ---
 
-#### Rumusan Jawaban / Keputusan:
+### III. Rumusan Keputusan Hukum (Al-Qarar)
 
-**Jawaban Pertanyaan 1:**
-[Uraikan status hukum secara tegas dan komprehensif: Wajib / Sunnah / Mubah / Makruh / Haram / Tafshil (terinci). Jika hukumnya tafshil, buatkan poin-poin syarat dan ketentuannya dengan jelas.]
+#### 1. Jawaban Pertanyaan 1:
+[Uraikan rumusan keputusan secara tegas, bernas, dan argumentatif. Sebutkan status qaul: Qaul Mu'tamad, Muqabil Mu'tamad, atau Tafshil (terinci) beserta syarat-syaratnya yang ketat.]
 
-**Jawaban Pertanyaan 2 (jika ada):**
-[Uraikan solusi alternatif syar'i (*makharij fiqhiyyah*) atau batasan tanggung jawab para pihak yang terlibat.]
+#### 2. Jawaban Pertanyaan 2:
+[Uraikan konsekuensi hukum perdata/akad, tanggung jawab para pihak, atau status harta yang berpindah.]
 
----
-
-#### Catatan Penting / Dhawabith (Kaidah Batasan):
-- [Poin batasan agar keputusan tidak disalahgunakan atau ditafsirkan secara berlebihan]
-- [Kondisi darurat atau dispensasi (*rukhshah*) jika ada]
+#### 3. Jawaban Pertanyaan 3:
+[Uraikan solusi alternatif syar'i (makharij fiqhiyyah) dan panduan praktis bagi masyarakat atau pemangku kebijakan.]
 
 ---
 
-#### Referensi & Ibarat Kitab:
-
-1. **[Nama Kitab Lengkap] (Juz/Halaman)**  
-   *Karya: [Nama Pengarang] (Wafat: [Tahun] H)*  
-   *Kategori / Fan: [Fiqh / Adab / Syarah Hadits / Ushul Fiqh]*
-
-   > [Kutipan teks asli ibarat berbahasa Arab lengkap dengan harakat pada bagian-bagian krusial]
-
-   **Makna Murod / Terjemah:**  
-   [Terjemahan bahasa Indonesia yang jelas, kontekstual, dan mudah dipahami oleh musyawirin]
-
-   🔗 **Tautan Verifikasi:** [Buka Teks Asli di Turath.io](https://app.turath.io/book/{id}?page={id})
+### IV. Dhawabith & Rekomendasi Solutif (Kaidah Batasan)
+- [Poin batasan agar hukum tidak disalahgunakan atau diterapkan serampangan]
+- [Rekomendasi teknis atau himbauan keagamaan]
 
 ---
 
-2. **[Nama Kitab Kedua] (Juz/Halaman)**  
-   *Karya: [Nama Pengarang] (Wafat: [Tahun] H)*  
-   *Kategori / Fan: [Nama Fan]*
+### V. Dasar Pengambilan Hukum (Al-Marāji' wal Ibarāt)
 
-   > [Kutipan teks ibarat pendukung / muqaranah]
+*(Catatan: Setiap sub-pertanyaan WAJIB didukung minimal 3 sampai 7+ ibarat dari kitab yang berbeda: Mutaqaddimin, Muta'akhirin, Hawasyi, dan Qawa'id Fiqhiyyah).*
 
-   **Makna Murod / Terjemah:**  
-   [Terjemahan ibarat kedua]
+#### A. Rujukan untuk Pertanyaan 1:
 
-   🔗 **Tautan Verifikasi:** [Buka Teks Asli di Turath.io](https://app.turath.io/book/{id}?page={id})
+1. **[Nama Kitab Induk 1] (Juz/Halaman)**  
+   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Induk Syafi'iyyah*  
+   > [Teks asli ibarat berbahasa Arab lengkap dengan harakat pada bagian-bagian krusial]  
+   *Makna Murod / Terjemahan:*  
+   [Terjemahan bahasa Indonesia kontekstual yang mudah dipahami]  
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [Penjelasan logis korelasi teks dengan pokok masalah]  
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+
+2. **[Nama Kitab 2] (Juz/Halaman)**  
+   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Syarah Muktamadah*  
+   > [Teks asli ibarat berbahasa Arab lengkap]  
+   *Makna Murod / Terjemahan:*  
+   [Terjemahan bahasa Indonesia]  
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [Korelasi dan elaborasi hukum]  
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+
+3. **[Nama Kitab 3] (Juz/Halaman)**  
+   *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Hasyiyah / Fatawa*  
+   > [Teks asli ibarat berbahasa Arab lengkap]  
+   *Makna Murod / Terjemahan:*  
+   [Terjemahan bahasa Indonesia]  
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [Penjelasan rincian/taqyid hukum]  
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+
+4. **[Nama Kitab 4: Qawa'id Fiqhiyyah / Ushul] (Juz/Halaman)**  
+   *Karya: [Pengarang] (Wafat: [Tahun] H)*  
+   > [Teks Kaidah Fiqhiyyah Arab Berharakat Beserta Penjelasannya]  
+   *Makna Murod / Terjemahan:*  
+   [Terjemahan bahasa Indonesia]  
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [Penyandaran pada kaidah universal syariat]  
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
 
 ---
+
+#### B. Rujukan untuk Pertanyaan 2:
+(Sajikan 3-5+ ibarat pendukung lainnya mengikuti struktur yang sama)
 ```

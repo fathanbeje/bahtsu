@@ -1,64 +1,58 @@
-# 📚 Skill `/bahtsu` — Asisten Ibarat Bahtsul Masail Pesantren
+# 📚 Skill `/bahtsu` — Asisten Perumus Bahtsul Masail Pesantren (Standar Munas & Konbes NU)
 
-Skill khusus untuk AI coding assistant dan agent (Google Antigravity, Claude Desktop, Cursor, Windsurf, dll.) untuk meneliti, mencari *ibarat* kitab kuning secara 100% online, dan merumuskan draf keputusan Bahtsul Masail berstandar tradisi pesantren salaf (khususnya Ma'had Aly Lirboyo / LBM-NU).
-
----
-
-## ✨ Fitur Unggulan
-
-1. **100% Online (Zero-Storage Footprint):**
-   - Tidak perlu mendownload database Maktabah Syamilah offline yang memakan puluhan Gigabyte.
-   - Menggunakan REST API v3 dari **[Turath.io](https://turath.io)** dan/atau remote endpoint **[shamela.link](https://shamela.link)**.
-2. **Pencarian Lintas Fan Ilmu:**
-   - Tidak terpaku pada Fiqh Syafi'i teknis saja.
-   - Mencakup kitab Ushul Fiqh, Qawa'id Fiqhiyyah, Adab Syar'iyyah, Syarah Hadits, Tafsir, dan Fatwa Muta'akhirin.
-3. **Disiplin Tarjih Madzhab Syafi'i:**
-   - Menghormati hierarki fatwa Syafi'iyyah (Syaikhoni $\rightarrow$ Zakariyya Al-Anshari $\rightarrow$ Ibnu Hajar Al-Haitami & Syamsuddin Ar-Ramli $\rightarrow$ Khatib Asy-Syarbini $\rightarrow$ Ashabul Hawasyi).
-   - Memisahkan secara ketat mana teks **Matan**, **Syarah**, dan **Hasyiyah**.
-4. **Verifikasi Teks Langsung:**
-   - Setiap kutipan ibarat menyertakan link verifikasi yang dapat diklik langsung di browser: `https://app.turath.io/book/{id}?page={page}`.
-5. **Format Keputusan Resmi:**
-   - Menghasilkan format standar Bahtsul Masail: Deskripsi Masalah, As'ilah, Rumusan Keputusan, Dhawabith, Nash Arab berharakat, dan Terjemah Makna Murod.
+Skill resmi untuk AI coding assistant dan agent (Google Antigravity, Claude Desktop, Cursor, Windsurf, dll.) untuk meneliti masalah hukum, mencari multi-ibarat kitab kuning secara 100% online, dan merumuskan draf keputusan Bahtsul Masail berstandar resmi **Musyawarah Nasional (Munas) Alim Ulama, Konferensi Besar (Konbes) Nahdlatul Ulama, dan LBM PBNU**.
 
 ---
 
-## 🚀 Cara Pemasangan di Berbagai Lingkungan AI
+## 🏛️ Fondasi Metodologis (Munas Alim Ulama NU 2017)
 
-### 1. Di Google Antigravity (Saat ini)
-Skill ini tersimpan di:
+Skill ini secara ketat mengintegrasikan ketetapan metodologis Komisi Bahtsul Masail Maudlu'iyyah Munas Alim Ulama NU 2017 di NTB (Hal. 73–82):
+1. **Kebijakan Multi-Referensi Mutlak (*Multi-Source Mandate*):**
+   - Mengharamkan kutipan referensi tunggal (*la yajuzu al-iqtishar 'ala marja'in wahid*).
+   - Setiap sub-pertanyaan/hukum wajib didukung **minimal 3 sampai 7+ ibarat berantai** dari berbagai tingkatan kitab (*Kutubul Mutaqaddimin, Syaikhoni, Muta'akhirin, Hawasyi, Qawa'id Fiqhiyyah/Ushul, dan Muqaranah 4 Madzhab*).
+2. **Prosedur *Taqrīr Jamā'i* (Pentarjihan Kolektif):**
+   - Mengutamakan metode *Al-Jam'u wat Taufīq* (kompromi multidimensi) sebelum mentarjih qaul.
+   - Mengukur maslahat berbasis *Al-Kulliyātul Khams* dan mendahulukan *Mashlahah 'Āmmah* atas *Mashlahah Khashshah*.
+   - Mengakomodasi kaidah perubahan fatwa:
+     $$\text{لا ينكر تغير الأحكام بتغير الأزمان والأمكنة والأحوال والظروف والعوائد}$$
+3. **Prosedur *Ilhāqul Masā'il bi Nazhā'irihā* (Analogi Kasus Baru):**
+   - *Takhrīj al-Furū' 'alal Furū'* (menyamakan kasus modern dengan furu' klasik sejenis).
+   - *Takhrīj al-Furū' 'alal Qawā'id* (menarik kasus ke bawah kaidah fiqhiyyah/ushuliyyah universal).
+   - Mewajibkan sub-bagian **Wajhul Istidlal / Wajhul Ilhāq** untuk menguraikan titik temu 'illat hukum antara teks klasik dan realitas kontemporer.
+
+---
+
+## 🚀 Cara Pemasangan & Penggunaan
+
+### 1. Di Google Antigravity
+Skill ini otomatis aktif di sistem Anda. Cukup ketik perintah slash command:
 ```
-~/.gemini/config/skills/bahtsu/
+/bahtsu [masalah fiqih]
 ```
-Antigravity akan otomatis mengenali skill ini. Anda cukup memanggil:
-```
-/bahtsu
-```
-atau dengan prompt alami: *"Carikan ibarat bahtsul masail untuk kasus..."*
+atau gunakan prompt alami:
+> *"Gunakan skill bahtsu untuk merumuskan hukum status wakalah shalat mayit..."*
 
 ### 2. Di Komputer Lain (Via Git)
-Clone repositori ini langsung ke folder skills AI Anda:
+Clone repositori ini langsung ke direktori skills perangkat Anda:
 ```bash
 git clone https://github.com/fathanbeje/bahtsu.git
 ```
 
-### 3. Di Claude Code / Claude Desktop
-Anda dapat menyertakan berkas `SKILL.md` ke dalam instruksi kustom (*System Prompt* atau file `CLAUDE.md`) pada proyek riset fiqih Anda.
-
 ---
 
-## 🛠️ Utilitas Mandiri: `turath_search.js`
+## 🛠️ Utilitas Pencari: `turath_search.js`
 
-Skill ini dilengkapi skrip CLI Node.js untuk mencari ibarat langsung dari terminal tanpa membuka web browser:
+Dilengkapi skrip CLI canggih untuk menarik multi-ibarat langsung dari **Turath.io REST API v3** secara real-time tanpa perlu download database offline:
 
 ```bash
-# Pencarian umum lintas kitab
-node scripts/turath_search.js -q "الاستصناع"
+# Pencarian kueri tunggal khusus Kategori 16 (Fiqh Syafi'i)
+node scripts/turath_search.js -q "تكبيرة الإحرام" -c 16 -l 3
 
-# Pencarian khusus Kategori 16 (Fiqh Syafi'i)
-node scripts/turath_search.js -q "تكبيرة الإحرام" -c 16
+# Pencarian Multi-Kueri Berantai (Batch Search)
+node scripts/turath_search.js -m "من مات وعليه صلاة,فدية الصلاة,الاستئجار على الصلاة" -l 3
 
-# Format JSON output (untuk integrasi programmatic)
-node scripts/turath_search.js -q "النية في الوضوء" -c 16 --json
+# Format JSON untuk pemrosesan script lanjutan
+node scripts/turath_search.js -q "الاستصناع" --json
 ```
 
 ---
@@ -67,17 +61,18 @@ node scripts/turath_search.js -q "النية في الوضوء" -c 16 --json
 
 ```
 bahtsu/
-├── SKILL.md                          # Instruksi inti workflow dan metodologi bahtsu
-├── README.md                         # Dokumentasi instalasi dan penggunaan
+├── SKILL.md                          # Instruksi utama & mandatory multi-source protocol
+├── README.md                         # Dokumentasi lengkap sistem
 ├── .gitignore                        # File pengabaian git
 ├── scripts/
-│   └── turath_search.js             # Skrip pencarian online Turath.io API v3
+│   └── turath_search.js             # CLI pencarian multi-ibarat online Turath.io API v3
 └── references/
-    ├── hierarki_tarjih_syafii.md    # Panduan urutan qaul mu'tamad madzhab Syafi'i
-    └── template_keputusan.md        # Template baku hasil Bahtsul Masail Lirboyo
+    ├── metodologi_ilhaq_taqrir.md    # Naskah metodologi resmi Taqrīr Jamā'i & Ilhāq Munas NU 2017
+    ├── hierarki_tarjih_syafii.md    # Panduan urutan qaul mu'tamad & tarjih madzhab Syafi'i
+    └── template_keputusan.md        # Format baku keputusan komprehensif Munas/Konbes NU
 ```
 
 ---
 
 ## 📜 Lisensi
-MIT License — Dirancang untuk kemaslahatan khazanah keilmuan pesantren dan santri nusantara.
+MIT License — Didedikasikan untuk kemajuan kajian fiqih dan khazanah Bahtsul Masail Pesantren Nahdlatul Ulama.
