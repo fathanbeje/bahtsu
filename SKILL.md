@@ -249,14 +249,16 @@ Setiap kali asisten selesai membahas dan menyusun rumusan suatu masalah keagamaa
    - Tulis seluruh isi naskah draf tersebut ke dalam berkas Markdown di direktori `kajian/` pada repositori proyek (`c:\xampp\htdocs\bahtsu`).
    - Format penamaan berkas: `kajian/YYYY-MM-DD-slug-tema.md` (Gunakan tanggal hari ini dalam format angka ISO `YYYY-MM-DD` dan slug deskriptif bahasa Indonesia tanpa spasi).
      *Contoh:* `kajian/2026-09-25-status-transaksi-cryptocurrency.md`.
-3. **Otomatisasi Git Commit & Push:**
+3. **Pembaruan Berkas CHANGELOG.md (Skill changelog-generator):**
+   - **WAJIB:** Setiap kali ada penambahan bahan kajian baru, perubahan metodologi, atau pembaruan repositori/keamanan, asisten **WAJIB memperbarui berkas `CHANGELOG.md`** mengadopsi standar Keep a Changelog (menggunakan panduan skill `changelog-generator`).
+4. **Otomatisasi Git Commit & Push:**
    - Jalankan perintah terminal untuk menyimpan dan mengirim perubahan ke GitHub:
      ```powershell
-     git add kajian/YYYY-MM-DD-slug-tema.md
+     git add kajian/YYYY-MM-DD-slug-tema.md CHANGELOG.md
      git commit -m "docs(kajian): tambah bahan kajian [tema]"
      git push origin main
      ```
-   - Laporkan kepada pengguna bahwa berkas naskah kajian telah diarsipkan di direktori `kajian/` dan berhasil di-push ke repositori GitHub.
+   - Laporkan kepada pengguna bahwa berkas naskah kajian telah diarsipkan di direktori `kajian/`, `CHANGELOG.md` telah diperbarui, dan seluruh perubahan berhasil di-push ke repositori GitHub.
 
 ---
 
