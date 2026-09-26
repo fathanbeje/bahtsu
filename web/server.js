@@ -175,20 +175,47 @@ app.post('/api/chat', checkAuth, async (req, res) => {
       });
     }
 
+    // Disable socket timeout for long generation
+    if (req.socket) {
+      req.socket.setTimeout(0);
+      req.socket.setNoDelay(true);
+      req.socket.setKeepAlive(true, 5000);
+    }
+
     // Set headers for Server-Sent Events (SSE)
     res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
     res.setHeader('Cache-Control', 'no-cache, no-transform');
     res.setHeader('Connection', 'keep-alive');
     res.setHeader('X-Accel-Buffering', 'no');
+    if (typeof res.flushHeaders === 'function') {
+      res.flushHeaders();
+    }
+
+    // Send periodic SSE comment heartbeat to keep mobile 4G/5G connections alive
+    const heartbeat = setInterval(() => {
+      if (!res.writableEnded) {
+        res.write(':\n\n');
+      }
+    }, 5000);
 
     const reader = routerResponse.body.getReader();
     const decoder = new TextDecoder('utf-8');
 
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      const chunk = decoder.decode(value, { stream: true });
-      res.write(chunk);
+    // Handle client disconnect
+    req.on('close', () => {
+      clearInterval(heartbeat);
+      reader.cancel().catch(() => {});
+    });
+
+    try {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value, { stream: true });
+        res.write(chunk);
+      }
+    } finally {
+      clearInterval(heartbeat);
     }
 
     res.end();

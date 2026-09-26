@@ -121,10 +121,17 @@ export default function App() {
         console.error('Streaming error:', err);
         setMessages(prev => {
           const next = [...prev];
-          next[assistantIndex] = {
-            role: 'assistant',
-            content: fullAssistantResponse + `\n\n> ⚠️ *Kendala Komunikasi 9Router: ${err.message}*`,
-          };
+          if (fullAssistantResponse.length > 50) {
+            next[assistantIndex] = {
+              role: 'assistant',
+              content: fullAssistantResponse + `\n\n*(Aliran terhenti sejenak karena timeout jaringan. Anda dapat mengetik "Lanjutkan" untuk meneruskan)*`,
+            };
+          } else {
+            next[assistantIndex] = {
+              role: 'assistant',
+              content: fullAssistantResponse + `\n\n> ⚠️ *Kendala Komunikasi Jaringan: ${err.message}. Silakan coba kirim ulang.*`,
+            };
+          }
           return next;
         });
         setIsStreaming(false);
