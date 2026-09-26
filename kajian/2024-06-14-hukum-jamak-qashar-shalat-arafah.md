@@ -10,12 +10,27 @@
 ---
 
 ### I. Deskripsi Masalah & Kerangka Konseptual
-Hari Arafah merupakan salah satu rukun haji yang paling fundamental, yaitu wukuf di Arafah. Jamaah haji dari berbagai belahan dunia, termasuk Indonesia, berkumpul di padang Arafah pada tanggal 9 Dzulhijjah. Mayoritas jamaah haji Indonesia tiba di Makkah jauh sebelum hari Arafah dan akan menetap di sana untuk beberapa waktu.
+Hari Arafah merupakan salah satu rukun haji yang paling fundamental, yaitu wukuf di Arafah. Jamaah haji dari berbagai belahan dunia, termasuk Indonesia, berkumpul di padang Arafah pada tanggal 9 Dzulhijjah. 
 
-**Status Musafir vs. Mukim bagi Jamaah Haji Indonesia**:
-Dalam Mazhab Syafi'i, seorang musafir yang berniat menetap di suatu tempat selama **empat hari penuh atau lebih** (tidak termasuk hari kedatangan dan keberangkatan) akan berubah statusnya menjadi *mukim* (penduduk). Dengan berubahnya status menjadi mukim, maka *rukhsah* (keringanan) qashar shalat tidak lagi berlaku baginya. Hanya *rukhsah* jamak saja yang masih mungkin, dengan pertimbangan khusus.
+Secara faktual operasional (Kementerian Agama RI), keberangkatan jamaah haji Indonesia terbagi ke dalam dua gelombang dengan pola perjalanan dan durasi masa tinggal yang telah terjadwal secara definitif (*itinerary* pasti dan kontrak akomodasi hotel):
+1. **Gelombang 1:** Embarkasi Tanah Air $\rightarrow$ Madinah ($\approx 8\text{--}9$ hari) $\rightarrow$ Makkah ($\approx 18\text{--}25$ hari) $\rightarrow$ Bandara Jeddah $\rightarrow$ Kepulangan.
+2. **Gelombang 2:** Embarkasi Tanah Air $\rightarrow$ Bandara Jeddah $\rightarrow$ Makkah ($\approx 15\text{--}22$ hari sebelum puncak Armuzna) $\rightarrow$ Masya'ir (Arafah, Muzdalifah, Mina) $\rightarrow$ Madinah $\rightarrow$ Kepulangan.
 
-Mengingat durasi tinggal jamaah haji Indonesia di Makkah yang seringkali melebihi empat hari sebelum bergerak ke Arafah, banyak dari mereka kemungkinan besar sudah berstatus *mukim* saat wukuf di Arafah. Hal ini sangat krusial dalam menentukan kebolehan qashar shalat. Praktik Nabi Muhammad ﷺ saat haji wada' di Arafah, di mana beliau menjamak dan meng-qashar shalat, adalah bagi beliau yang berstatus musafir. Oleh karena itu, penting untuk mengkaji status dan preferensi pelaksanaan shalat Dhuhur dan Ashar di Arafah bagi jamaah haji Indonesia, apakah cukup jamak saja atau jamak sekaligus qashar, dengan membedakan secara tegas antara yang masih berstatus musafir dan yang sudah berstatus mukim.
+Dari realitas faktual ini, jamaah haji Indonesia:
+- Tidak datang dalam status *menunggu urusan yang tak tentu waktunya* (*hajah ghairu ma'lumati al-waqt* seperti menunggu barang dagangan laku), melainkan terikat jadwal resmi manifes penerbangan dan pemondokan maktab.
+- Berada dan berdiam di hotel pemondokan Makkah dalam durasi yang jauh melampaui 4 hari, bahkan umumnya mencapai 2 hingga 4 pekan ($\ge 15$ hari).
+
+**Batasan Durasi Musafir vs. Mukim Lintas Mazhab:**
+1. **Mazhab Syafi'i (Pendapat Mu'tamad Ulama Indonesia) & Mazhab Maliki:**
+   Batas niat mukim adalah **4 hari penuh** di luar hari masuk (*yaum ad-dukhul*) dan hari keluar (*yaum al-khuruj*). Seseorang yang sejak awal sudah mengetahui atau berniat tinggal $\ge 4$ hari penuh di suatu kota tujuan, maka status musafirnya gugur seketika saat memasuki batas kota tersebut dan langsung berstatus **Mukim**. Keringanan mengqashar hingga 18 hari hanya berlaku bagi yang memiliki urusan yang diharapkan selesai setiap saat tanpa niat menetap.
+2. **Mazhab Hanbali:**
+   Batas niat mukim adalah **lebih dari 4 hari** (atau lebih dari 20 waktu shalat fardhu). Jika berniat tinggal melampaui itu, wajib menyempurnakan shalat (*tamam*) sejak tiba di kota tujuan.
+3. **Mazhab Hanafi:**
+   Batas niat mukim adalah **15 hari**. Jika berniat tinggal 15 hari atau lebih dalam satu *baldah*, statusnya otomatis mukim. Sebagian besar jamaah Indonesia di Makkah tinggal $\ge 15$ hari, sehingga menurut Mazhab Hanafi pun telah berstatus mukim.
+4. **Pendapat Syaikhul Islam Ibnu Taimiyyah & Sebagian Kontemporer:**
+   Memandang safar tidak dibatasi hitungan hari tertentu melainkan *'urf* (selama tidak berniat pindah domisili/menjadikan tempat tinggal permanen). Namun pandangan ini tidak dijadikan pegangan utama dalam keputusan Bahtsul Masail ormas Islam (NU/MUI) di pemondokan Makkah karena menyalahi konsensus empat mazhab mu'tabar.
+
+Oleh karena itu, diperlukan klasifikasi tegas antara **Fase Pemondokan Hotel di Makkah** dan **Fase Puncak Manasik di Masya'ir Muqaddasah (Arafah, Muzdalifah, Mina)** terkait status fiqih serta tata cara shalat jamaah haji.
 
 ---
 
