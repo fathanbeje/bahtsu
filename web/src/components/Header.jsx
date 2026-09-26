@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { 
   BookOpen, 
   Search, 
@@ -85,7 +86,7 @@ export default function Header({
     <header className="border-b border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 backdrop-blur-md sticky top-0 z-40 transition-colors duration-200">
       <div className="max-w-[1720px] mx-auto px-2.5 sm:px-6 py-1.5 sm:py-2 flex items-center justify-between gap-1.5 sm:gap-3">
         {/* Left: Brand + Matra Indicator */}
-        <div className="flex items-center gap-1.5 sm:gap-3 min-w-0">
+        <div className="flex items-center gap-1.5 sm:gap-2.5 min-w-0">
           <div className="w-7 h-7 sm:w-9 sm:h-9 rounded-xl bg-turath-emerald text-parchment-50 flex items-center justify-center shadow-md border border-turath-gold/40 shrink-0">
             <BookOpen className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-turath-gold" />
           </div>
@@ -94,7 +95,8 @@ export default function Header({
             <div>
               <div className="flex items-center gap-1.5">
                 <h1 className="font-serif font-bold text-sm sm:text-lg tracking-tight text-ink-900 dark:text-parchment-50 truncate">
-                  Bahtsu Klangopan
+                  <span className="sm:hidden font-bold">Bahtsu</span>
+                  <span className="hidden sm:inline font-bold">Bahtsu Klangopan</span>
                 </h1>
                 <span className="hidden 2xl:inline-block font-arabic text-xs text-turath-emerald dark:text-emerald-400 font-medium px-2 py-0.2 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft border border-turath-emerald/20">
                   بَحْثُ كِلَانْغُوفَانْ
@@ -128,14 +130,13 @@ export default function Header({
               </div>
             </div>
 
-            {/* Mobile Compact Matra Selector Pill (Saves 42px vertical space) */}
+            {/* Mobile Compact Matra Selector Pill (Ultra compact, no horizontal overflow) */}
             <button
               onClick={onOpenMatraInfo}
-              className="md:hidden flex items-center gap-1 px-2 py-1 rounded-xl bg-turath-emerald/10 dark:bg-turath-emerald/20 border border-turath-emerald/25 text-[11px] font-sans font-semibold text-turath-emerald dark:text-emerald-300 shrink-0"
+              className="md:hidden flex items-center gap-1 px-1.5 py-0.5 rounded-lg bg-turath-emerald/10 dark:bg-turath-emerald/20 border border-turath-emerald/25 text-[11px] font-sans font-semibold text-turath-emerald dark:text-emerald-300 shrink-0"
               title="Ganti Matra Metodologi Fiqih"
             >
               <span>{currentMatra.icon}</span>
-              <span className="truncate max-w-[85px]">{currentMatra.label}</span>
               <ChevronDown className="w-3 h-3 opacity-60" />
             </button>
           </div>
@@ -195,7 +196,7 @@ export default function Header({
           </button>
         </div>
 
-        {/* Right Tools Bar (Unified Desktop & Mobile) */}
+        {/* Right Tools Bar (Clean Mobile Spacing, Zero Overlap) */}
         <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
           {/* Desktop 9Router Cockpit Button */}
           <button
@@ -210,10 +211,10 @@ export default function Header({
           {/* Canonical AI Model Selector (Sole Primary Model Picker) */}
           <button
             onClick={onOpenModelSelector}
-            className="flex items-center gap-1 px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-xl border border-turath-emerald/30 bg-turath-emerald-soft/80 dark:bg-turath-emerald-dark-soft/70 text-turath-emerald dark:text-emerald-300 hover:border-turath-emerald text-[11px] sm:text-xs font-mono font-semibold transition-all max-w-[95px] sm:max-w-[190px] truncate shadow-2xs"
+            className="flex items-center gap-1 px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-xl border border-turath-emerald/30 bg-turath-emerald-soft/80 dark:bg-turath-emerald-dark-soft/70 text-turath-emerald dark:text-emerald-300 hover:border-turath-emerald text-[11px] sm:text-xs font-mono font-semibold transition-all max-w-[85px] sm:max-w-[190px] truncate shadow-2xs"
             title="Klik untuk memilih model AI"
           >
-            <Cpu className="w-3.5 h-3.5 shrink-0 text-turath-gold" />
+            <Cpu className="w-3 h-3 shrink-0 text-turath-gold" />
             <span className="truncate sm:hidden">
               {formatShortModel(selectedModel)}
             </span>
@@ -222,10 +223,10 @@ export default function Header({
             </span>
           </button>
 
-          {/* Turath Search Button */}
+          {/* Turath Search Button (Desktop & Tablet) */}
           <button
             onClick={onOpenTurath}
-            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium bg-turath-emerald text-parchment-50 hover:bg-turath-emerald-light transition-all shadow-2xs border border-turath-gold/30 flex items-center gap-1 shrink-0"
+            className="hidden sm:flex p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium bg-turath-emerald text-parchment-50 hover:bg-turath-emerald-light transition-all shadow-2xs border border-turath-gold/30 items-center gap-1 shrink-0"
             title="Pencarian Kitab Turath.io"
           >
             <Search className="w-3.5 h-3.5 text-turath-gold" />
@@ -330,7 +331,7 @@ export default function Header({
           {/* Mobile All-in-One Menu Button (Opens Drawer) */}
           <button
             onClick={() => setIsMobileMenuOpen(true)}
-            className="md:hidden p-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:text-turath-emerald"
+            className="md:hidden p-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:text-turath-emerald shrink-0"
             title="Menu Fitur Lengkap"
           >
             <MoreVertical className="w-4 h-4" />
@@ -338,11 +339,15 @@ export default function Header({
         </div>
       </div>
 
-      {/* Mobile Drawer Menu */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 z-50 flex flex-col justify-end bg-ink-950/60 backdrop-blur-xs animate-fade-in font-sans">
-          <div className="bg-white dark:bg-ink-900 rounded-t-3xl border-t border-parchment-300 dark:border-ink-800 p-4 space-y-4 shadow-manuscript-lg max-h-[85vh] overflow-y-auto">
-            {/* Header */}
+      {/* Mobile Drawer Menu rendered in React Portal to escape Header stacking context */}
+      {isMobileMenuOpen && typeof document !== 'undefined' && createPortal(
+        <div className="fixed inset-0 z-50 flex flex-col justify-end bg-ink-950/65 backdrop-blur-xs animate-fade-in font-sans">
+          <div 
+            className="fixed inset-0"
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
+          <div className="relative bg-white dark:bg-ink-900 rounded-t-3xl border-t border-parchment-300 dark:border-ink-800 p-4 space-y-4 shadow-manuscript-lg max-h-[85vh] overflow-y-auto">
+            {/* Drawer Header */}
             <div className="flex items-center justify-between pb-2 border-b border-parchment-200 dark:border-ink-800">
               <div className="flex items-center gap-2">
                 <BookOpen className="w-4 h-4 text-turath-emerald" />
@@ -382,6 +387,21 @@ export default function Header({
                 <span>Riwayat Sesi</span>
               </button>
             </div>
+
+            {/* Turath Search Button */}
+            <button
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                onOpenTurath();
+              }}
+              className="w-full flex items-center justify-between p-2.5 rounded-xl bg-turath-emerald text-parchment-50 text-xs font-semibold shadow-xs"
+            >
+              <span className="flex items-center gap-2">
+                <Search className="w-4 h-4 text-turath-gold" />
+                <span>Pencarian Kitab Turath.io</span>
+              </span>
+              <span className="text-[10px] opacity-80">Buka ↗</span>
+            </button>
 
             {/* 9Router Status & Cockpit */}
             <button
@@ -484,7 +504,8 @@ export default function Header({
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </header>
   );

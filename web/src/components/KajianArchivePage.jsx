@@ -200,11 +200,11 @@ export default function KajianArchivePage({
         <div className="flex items-center gap-2 min-w-0">
           <button
             onClick={onBackToStudio}
-            className="flex items-center gap-1.5 px-2.5 py-1 rounded-xl border border-turath-emerald/30 bg-turath-emerald/10 text-turath-emerald dark:text-emerald-300 hover:bg-turath-emerald/20 text-xs font-semibold transition-all shrink-0 group shadow-2xs"
+            className="flex items-center gap-1 px-2 py-1 rounded-xl border border-turath-emerald/30 bg-turath-emerald/10 text-turath-emerald dark:text-emerald-300 hover:bg-turath-emerald/20 text-xs font-semibold transition-all shrink-0 group shadow-2xs"
             title="Kembali ke Studio Musyawarah"
           >
             <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" />
-            <span>Studio</span>
+            <span className="hidden sm:inline">Studio</span>
           </button>
 
           <div className="flex items-center gap-1.5 min-w-0">
@@ -213,7 +213,7 @@ export default function KajianArchivePage({
               Arsip Kajian
             </span>
             <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-parchment-200/80 dark:bg-ink-800 text-ink-600 dark:text-ink-400 shrink-0">
-              {totalDocs} naskah
+              {totalDocs}
             </span>
           </div>
         </div>
