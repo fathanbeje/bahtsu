@@ -8,6 +8,8 @@ import PasscodeModal from './components/PasscodeModal';
 import SettingsModal from './components/SettingsModal';
 import ModelSelectorModal from './components/ModelSelectorModal';
 import SessionHistoryModal from './components/SessionHistoryModal';
+import RouterCockpitModal from './components/RouterCockpitModal';
+import MatraInfoModal from './components/MatraInfoModal';
 import { getAuthToken, clearAuthToken, checkStatus, streamChat } from './utils/api';
 import { 
   getActiveSessionOrDefault, 
@@ -34,6 +36,7 @@ export default function App() {
     () => initialSession?.model || localStorage.getItem('bahtsu_selected_model') || 'ag/gemini-3.8-flash-high'
   );
   const [temperature, setTemperature] = useState(0.3);
+  const [dockLayout, setDockLayout] = useState(() => localStorage.getItem('bahtsu_dock_layout') || 'balanced');
 
   // Data & State
   const [messages, setMessages] = useState(() => initialSession?.messages || []);
@@ -50,6 +53,8 @@ export default function App() {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isModelSelectorOpen, setIsModelSelectorOpen] = useState(false);
   const [isHistoryOpen, setIsHistoryOpen] = useState(false);
+  const [isRouterCockpitOpen, setIsRouterCockpitOpen] = useState(false);
+  const [isMatraInfoOpen, setIsMatraInfoOpen] = useState(false);
 
   const abortControllerRef = useRef(null);
 
@@ -98,6 +103,11 @@ export default function App() {
   const handleModelChange = (model) => {
     setSelectedModel(model);
     localStorage.setItem('bahtsu_selected_model', model);
+  };
+
+  const handleDockLayoutChange = (layout) => {
+    setDockLayout(layout);
+    localStorage.setItem('bahtsu_dock_layout', layout);
   };
 
   const handleAuthSuccess = (newToken) => {
@@ -260,6 +270,8 @@ export default function App() {
         onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenModelSelector={() => setIsModelSelectorOpen(true)}
         onOpenHistory={() => setIsHistoryOpen(true)}
+        onOpenRouterCockpit={() => setIsRouterCockpitOpen(true)}
+        onOpenMatraInfo={() => setIsMatraInfoOpen(true)}
         onNewSession={handleNewSession}
         onLock={handleLock}
         routerStatus={routerStatus}
@@ -291,8 +303,14 @@ export default function App() {
 
         {/* Right Column: Taswīdah & Ibarat Dock */}
         <div
-          className={`h-full w-full md:w-[420px] lg:w-[480px] xl:w-[540px] flex-shrink-0 transition-all ${
-            mobileTab === 'dock' ? 'flex' : 'hidden md:flex'
+          className={`h-full transition-all duration-300 flex-shrink-0 ${
+            mobileTab === 'dock' ? 'w-full flex' : 'hidden md:flex'
+          } ${
+            dockLayout === 'wide'
+              ? 'md:w-[58%] lg:w-[60%] xl:w-[62%]'
+              : dockLayout === 'balanced'
+              ? 'md:w-1/2 lg:w-1/2'
+              : 'md:w-[420px] lg:w-[460px] xl:w-[500px]'
           }`}
         >
           <TaswidahDock
@@ -303,6 +321,8 @@ export default function App() {
             arabicFontFamily={arabicFontFamily}
             matraMode={matraMode}
             selectedModel={selectedModel}
+            dockLayout={dockLayout}
+            setDockLayout={handleDockLayoutChange}
           />
         </div>
       </main>
@@ -379,6 +399,22 @@ export default function App() {
         activeSessionId={activeSessionId}
         onSelectSession={handleSelectSession}
         onNewSession={handleNewSession}
+      />
+
+      {/* 9Router Mission Control Cockpit */}
+      <RouterCockpitModal
+        isOpen={isRouterCockpitOpen}
+        onClose={() => setIsRouterCockpitOpen(false)}
+        currentModel={selectedModel}
+        onSelectModel={handleModelChange}
+      />
+
+      {/* Tri-Matra Metodologi Info Modal */}
+      <MatraInfoModal
+        isOpen={isMatraInfoOpen}
+        onClose={() => setIsMatraInfoOpen(false)}
+        currentMatra={matraMode}
+        onSelectMatra={setMatraMode}
       />
     </div>
   );

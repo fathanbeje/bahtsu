@@ -120,16 +120,18 @@ export default function KajianArchiveModal({ isOpen, onClose, onLoadToTaswidah }
                         : 'bg-white dark:bg-ink-900 border-parchment-200 dark:border-ink-800 hover:border-parchment-300 dark:hover:border-ink-700'
                     }`}
                   >
-                    <div className="font-semibold text-ink-900 dark:text-parchment-100 line-clamp-1 font-serif text-[13px]">
+                    <div className="font-serif font-bold text-ink-900 dark:text-parchment-100 line-clamp-2 text-[13px] leading-snug">
                       {k.title}
                     </div>
-                    <div className="flex items-center gap-2 text-[10px] text-ink-500 dark:text-ink-400">
-                      <span className="flex items-center gap-0.5">
-                        <Calendar className="w-3 h-3" />
+                    <div className="flex items-center gap-2 text-[10px] text-ink-500 dark:text-ink-400 mt-0.5">
+                      <span className="flex items-center gap-0.5 font-mono">
+                        <Calendar className="w-3 h-3 text-ink-400" />
                         <span>{k.filename.substring(0, 10)}</span>
                       </span>
                       <span>•</span>
-                      <span className="font-mono text-ink-400">{(k.size / 1024).toFixed(1)} KB</span>
+                      <span className="font-mono text-ink-400 truncate max-w-[130px]">{k.filename.replace(/^\d{4}-\d{2}-\d{2}-/, '')}</span>
+                      <span>•</span>
+                      <span className="font-mono text-ink-400 ml-auto">{(k.size / 1024).toFixed(1)} KB</span>
                     </div>
                   </button>
                 ))
@@ -141,16 +143,18 @@ export default function KajianArchiveModal({ isOpen, onClose, onLoadToTaswidah }
           <div className="flex flex-col h-full overflow-hidden p-4 space-y-3 bg-parchment-50/50 dark:bg-ink-950/50">
             {selectedFile ? (
               <>
-                <div className="flex items-center justify-between">
-                  <span className="font-mono text-[11px] text-ink-500 truncate max-w-[200px]">
-                    {selectedFile}
-                  </span>
+                <div className="flex items-center justify-between gap-2">
+                  <div className="min-w-0 flex-1">
+                    <div className="font-mono text-[11px] text-turath-emerald dark:text-emerald-400 truncate font-semibold">
+                      {selectedFile}
+                    </div>
+                  </div>
                   <button
                     onClick={() => {
                       onLoadToTaswidah(fileContent);
                       onClose();
                     }}
-                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-turath-emerald hover:bg-turath-emerald-light text-white text-xs font-semibold shadow-xs transition-colors"
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-turath-emerald hover:bg-turath-emerald-light text-white text-xs font-semibold shadow-xs transition-colors flex-shrink-0"
                   >
                     <span>Buka di Dock</span>
                     <ArrowRight className="w-3.5 h-3.5" />

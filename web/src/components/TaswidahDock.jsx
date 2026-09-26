@@ -11,9 +11,12 @@ import {
   ExternalLink,
   Edit3,
   Eye,
-  Trash2
+  Trash2,
+  X,
+  FolderArchive
 } from 'lucide-react';
 import { extractIbaratFromText, formatIbaratForWord } from '../utils/ibaratExtractor';
+import { extractTemaFromContent, generateKajianSlug } from '../utils/kajianMeta';
 import { saveKajian } from '../utils/api';
 
 export default function TaswidahDock({
@@ -24,6 +27,8 @@ export default function TaswidahDock({
   arabicFontFamily,
   matraMode,
   selectedModel,
+  dockLayout = 'balanced',
+  setDockLayout,
 }) {
   const [activeTab, setActiveTab] = useState('ibarat'); // 'ibarat' | 'naskah'
   const [editorMode, setEditorMode] = useState('preview'); // 'preview' | 'edit'
@@ -34,9 +39,14 @@ export default function TaswidahDock({
   // Extract ibarat dynamically from current taswidahContent
   const ibaratList = extractIbaratFromText(taswidahContent);
 
-  // Derive title from content
-  const titleMatch = taswidahContent.match(/^#\s+(.+)$/m);
-  const derivedTitle = titleMatch ? titleMatch[1].trim() : 'Draf Taswidah Bahtsul Masail';
+  // Derive true Tema from content (not generic # DRAF TASWIDAH)
+  const derivedTitle = extractTemaFromContent(taswidahContent, 'Draf Taswidah Bahtsul Masail');
+  const derivedSlug = generateKajianSlug(derivedTitle);
+
+  // Save Modal state
+  const [isSaveModalOpen, setIsSaveModalOpen] = useState(false);
+  const [saveTitleInput, setSaveTitleInput] = useState('');
+  const [saveSlugInput, setSaveSlugInput] = useState('');
 
   // Stats by layer
   const syaikhoniCount = ibaratList.filter(i => i.layer.includes('Syaikhoni')).length;
@@ -67,24 +77,30 @@ export default function TaswidahDock({
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     const now = new Date().toISOString().split('T')[0];
-    const slug = derivedTitle.toLowerCase().replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-');
+    const slug = generateKajianSlug(derivedTitle);
     link.href = url;
-    link.download = `${now}-${slug || 'taswidah'}.md`;
+    link.download = `${now}-${slug}.md`;
     link.click();
     URL.revokeObjectURL(url);
   };
 
-  const handleSaveToRepo = async () => {
+  const openSaveModal = () => {
     if (!taswidahContent.trim()) return;
+    const currentTema = extractTemaFromContent(taswidahContent, 'Draf Taswidah Bahtsul Masail');
+    const currentSlug = generateKajianSlug(currentTema);
+    setSaveTitleInput(currentTema);
+    setSaveSlugInput(currentSlug);
+    setIsSaveModalOpen(true);
+  };
+
+  const handleConfirmSave = async () => {
     setIsSaving(true);
     setSaveMessage('');
 
     try {
-      const now = new Date().toISOString().split('T')[0];
-      const slug = derivedTitle.toLowerCase().replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-');
       const res = await saveKajian({
-        title: derivedTitle,
-        slug,
+        title: saveTitleInput || derivedTitle,
+        slug: saveSlugInput || derivedSlug,
         content: taswidahContent,
         model: selectedModel,
         matraMode,
@@ -92,13 +108,14 @@ export default function TaswidahDock({
 
       if (res.ok) {
         setSaveMessage(`Tersimpan: ${res.filename}`);
+        setIsSaveModalOpen(false);
         if (onSaveSuccess) onSaveSuccess(res.filename);
-        setTimeout(() => setSaveMessage(''), 4000);
+        setTimeout(() => setSaveMessage(''), 4500);
       } else {
-        setSaveMessage(`Gagal: ${res.error}`);
+        alert(`Gagal menyimpan ke repositori: ${res.error}`);
       }
     } catch (err) {
-      setSaveMessage(`Error: ${err.message}`);
+      alert(`Error menyimpan berkas: ${err.message}`);
     } finally {
       setIsSaving(false);
     }
@@ -114,9 +131,9 @@ export default function TaswidahDock({
   };
 
   return (
-    <div className="flex flex-col h-full bg-parchment-100/70 dark:bg-ink-900/60 border-l border-parchment-200 dark:border-ink-800 transition-colors">
+    <div className="flex flex-col h-full bg-parchment-100/70 dark:bg-ink-900/60 border-l border-parchment-200 dark:border-ink-800 transition-colors w-full overflow-hidden">
       {/* Dock Top Tabs */}
-      <div className="px-4 py-3 border-b border-parchment-200 dark:border-ink-800 bg-parchment-50/80 dark:bg-ink-950/80 flex items-center justify-between gap-2">
+      <div className="px-3 sm:px-4 py-2.5 sm:py-3 border-b border-parchment-200 dark:border-ink-800 bg-parchment-50/90 dark:bg-ink-950/90 flex items-center justify-between gap-2 flex-wrap sm:flex-nowrap">
         <div className="flex items-center gap-1 bg-parchment-200/70 dark:bg-ink-900 p-1 rounded-lg">
           <button
             onClick={() => setActiveTab('ibarat')}
@@ -146,7 +163,46 @@ export default function TaswidahDock({
           </button>
         </div>
 
-        <div className="flex items-center gap-1.5">
+        {/* Right Tools: Width Switcher + Auto-Sync + Clear */}
+        <div className="flex items-center gap-1.5 ml-auto">
+          {setDockLayout && (
+            <div className="hidden sm:flex items-center bg-parchment-200/60 dark:bg-ink-900 p-0.5 rounded-lg text-[10px] font-sans font-medium border border-parchment-300/40 dark:border-ink-800">
+              <button
+                onClick={() => setDockLayout('compact')}
+                className={`px-2 py-0.5 rounded transition-all ${
+                  dockLayout === 'compact'
+                    ? 'bg-white dark:bg-ink-800 text-turath-emerald font-bold shadow-2xs'
+                    : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-200'
+                }`}
+                title="Lebar Kompak (460px)"
+              >
+                Kompak
+              </button>
+              <button
+                onClick={() => setDockLayout('balanced')}
+                className={`px-2 py-0.5 rounded transition-all ${
+                  dockLayout === 'balanced'
+                    ? 'bg-white dark:bg-ink-800 text-turath-emerald font-bold shadow-2xs'
+                    : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-200'
+                }`}
+                title="Seimbang 50% Obrolan : 50% Taswidah"
+              >
+                50:50
+              </button>
+              <button
+                onClick={() => setDockLayout('wide')}
+                className={`px-2 py-0.5 rounded transition-all ${
+                  dockLayout === 'wide'
+                    ? 'bg-white dark:bg-ink-800 text-turath-emerald font-bold shadow-2xs'
+                    : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-200'
+                }`}
+                title="Lebar Penuh (62% Layar - Nyaman untuk Teks Arab Besar)"
+              >
+                Lebar
+              </button>
+            </div>
+          )}
+
           <div 
             className="flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-sans font-medium bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-300 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300 shadow-2xs"
             title="Auto-Sync aktif: ibarat dan draf otomatis terisi saat AI menghasilkan respon"
@@ -291,7 +347,8 @@ export default function TaswidahDock({
 
                     {/* Arabic Text Quote */}
                     <div
-                      className={`p-3 rounded-lg bg-parchment-50 dark:bg-ink-950/80 border border-parchment-200/60 dark:border-ink-800/60 arabic-text ${
+                      dir="rtl"
+                      className={`p-3.5 sm:p-4 rounded-xl bg-parchment-50 dark:bg-ink-950/80 border border-parchment-200/60 dark:border-ink-800/60 arabic-text break-words overflow-x-hidden ${
                         arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'
                       }`}
                       style={{ fontSize: `${arabicFontSize}px` }}
@@ -354,26 +411,67 @@ export default function TaswidahDock({
               <div className="p-4 rounded-xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-sm flex-1 overflow-y-auto space-y-3 font-serif text-sm leading-relaxed text-ink-900 dark:text-parchment-100">
                 {taswidahContent ? (
                   taswidahContent.split('\n').map((line, idx) => {
-                    if (line.startsWith('#')) {
-                      return <h3 key={idx} className="font-bold text-turath-emerald dark:text-emerald-300 mt-3 mb-1">{line.replace(/^#+\s*/, '')}</h3>;
+                    const trimmedLine = line.trim();
+                    if (!trimmedLine) return <div key={idx} className="h-1.5" />;
+
+                    if (trimmedLine.startsWith('#')) {
+                      return (
+                        <h3 key={idx} className="font-serif font-bold text-base sm:text-lg text-turath-emerald dark:text-emerald-300 mt-4 mb-2 pb-1 border-b border-parchment-200 dark:border-ink-800">
+                          {trimmedLine.replace(/^#+\s*/, '')}
+                        </h3>
+                      );
                     }
-                    if (line.startsWith('>')) {
+
+                    if (trimmedLine.startsWith('>')) {
+                      const quoteContent = trimmedLine.replace(/^>\s*/, '');
+                      const arabicChars = (quoteContent.match(/[\u0600-\u06FF]/g) || []).length;
+                      const isArabicQuote = arabicChars > 15 || (arabicChars / (quoteContent.length || 1) > 0.35);
+
+                      if (isArabicQuote) {
+                        return (
+                          <blockquote
+                            key={idx}
+                            dir="rtl"
+                            className={`my-3 p-3.5 sm:p-4 rounded-xl border-r-4 border-r-turath-gold border-l-0 bg-parchment-50/95 dark:bg-ink-950/90 text-right arabic-text break-words overflow-x-hidden ${
+                              arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'
+                            }`}
+                            style={{ fontSize: `${arabicFontSize}px` }}
+                            dangerouslySetInnerHTML={{ __html: formatTextToHtml(quoteContent) }}
+                          />
+                        );
+                      }
+
                       return (
                         <blockquote
                           key={idx}
-                          className="my-1.5 pl-3 py-1 border-l-2 border-turath-gold bg-parchment-50 dark:bg-ink-950 rounded-r text-xs leading-relaxed"
-                          dangerouslySetInnerHTML={{ __html: formatTextToHtml(line.replace(/^>\s*/, '')) }}
+                          dir="ltr"
+                          className="my-2.5 px-3.5 py-2 border-l-3 border-turath-gold bg-parchment-50/80 dark:bg-ink-950/80 rounded-r-lg text-sm sm:text-base leading-relaxed text-ink-800 dark:text-parchment-200"
+                          dangerouslySetInnerHTML={{ __html: formatTextToHtml(quoteContent) }}
                         />
                       );
                     }
-                    const arabicCount = (line.match(/[\u0600-\u06FF]/g) || []).length;
-                    const isArabic = arabicCount > 15;
+
+                    if (trimmedLine.includes('Makna Murod') || trimmedLine.includes('Wajhul Istidlal') || trimmedLine.includes('Wajhul Ilhaq')) {
+                      return (
+                        <div key={idx} className="mt-3.5 pt-1 text-xs sm:text-sm font-sans font-bold uppercase tracking-wider text-turath-emerald dark:text-emerald-300">
+                          <span dangerouslySetInnerHTML={{ __html: formatTextToHtml(trimmedLine) }} />
+                        </div>
+                      );
+                    }
+
+                    const arabicCount = (trimmedLine.match(/[\u0600-\u06FF]/g) || []).length;
+                    const isArabic = arabicCount > 15 || (arabicCount / (trimmedLine.length || 1) > 0.4);
+
                     return (
                       <p
                         key={idx}
-                        className={isArabic ? 'arabic-text font-arabic my-1' : 'my-1'}
+                        dir={isArabic ? 'rtl' : 'ltr'}
+                        className={isArabic 
+                          ? `arabic-text ${arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'} my-2 px-1 break-words overflow-x-hidden` 
+                          : 'my-2 text-sm sm:text-[15.5px] leading-relaxed text-ink-800 dark:text-parchment-100 break-words'
+                        }
                         style={isArabic ? { fontSize: `${arabicFontSize}px` } : undefined}
-                        dangerouslySetInnerHTML={{ __html: formatTextToHtml(line) }}
+                        dangerouslySetInnerHTML={{ __html: formatTextToHtml(trimmedLine) }}
                       />
                     );
                   })
@@ -446,9 +544,9 @@ export default function TaswidahDock({
           </button>
         </div>
 
-        {/* 1-Click Save to Repository (kajian/) */}
+        {/* 1-Click Save to Repository (kajian/) with Tema & Slug confirmation */}
         <button
-          onClick={handleSaveToRepo}
+          onClick={openSaveModal}
           disabled={!taswidahContent || isSaving}
           className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-xs font-semibold bg-turath-emerald hover:bg-turath-emerald-light text-parchment-50 disabled:opacity-40 transition-all shadow-sm border border-turath-gold/30"
           title="Simpan langsung ke repositori berkas kajian/ di server"
@@ -457,6 +555,97 @@ export default function TaswidahDock({
           <span>{isSaving ? 'Menyimpan ke Repositori...' : 'Simpan ke kajian/ Repositori'}</span>
         </button>
       </div>
+
+      {/* Save to Kajian Repository Modal Dialog */}
+      {isSaveModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-ink-950/75 backdrop-blur-xs animate-fade-in font-sans">
+          <div className="bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 rounded-2xl w-full max-w-lg shadow-manuscript-lg overflow-hidden">
+            <div className="px-5 py-4 border-b border-parchment-200 dark:border-ink-800 bg-parchment-50 dark:bg-ink-950 flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-lg bg-turath-emerald text-parchment-50 flex items-center justify-center font-bold">
+                  <Save className="w-4 h-4 text-turath-gold" />
+                </div>
+                <div>
+                  <h3 className="font-serif font-bold text-sm text-ink-900 dark:text-parchment-50">
+                    Simpan Naskah ke Repositori Kajian
+                  </h3>
+                  <p className="text-[11px] text-ink-500">
+                    Folder: <code className="font-mono text-turath-emerald font-semibold">kajian/</code> | Branch: <code className="font-mono text-ink-600 dark:text-ink-400">private/bahtsu-klangopan-app</code>
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setIsSaveModalOpen(false)}
+                className="p-1 rounded-lg text-ink-400 hover:text-ink-900 dark:hover:text-parchment-100"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <div className="p-5 space-y-4 text-xs">
+              <div>
+                <label className="block font-semibold text-ink-800 dark:text-parchment-200 mb-1">
+                  Tema / Judul Kajian
+                </label>
+                <textarea
+                  rows={2}
+                  value={saveTitleInput}
+                  onChange={(e) => {
+                    const newTitle = e.target.value;
+                    setSaveTitleInput(newTitle);
+                    setSaveSlugInput(generateKajianSlug(newTitle));
+                  }}
+                  placeholder="Contoh: Hukum Meletakkan Batu Kerikil di Atas Makam..."
+                  className="w-full px-3 py-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-parchment-50 dark:bg-ink-950 text-xs text-ink-900 dark:text-parchment-50 focus:outline-none focus:ring-1 focus:ring-turath-emerald font-serif leading-relaxed"
+                />
+                <p className="text-[10px] text-ink-500 mt-1">
+                  Judul ini akan menjadi nama tema di arsip kajian dan riwayat musyawarah.
+                </p>
+              </div>
+
+              <div>
+                <label className="block font-semibold text-ink-800 dark:text-parchment-200 mb-1">
+                  Slug / Nama Berkas Markdown
+                </label>
+                <input
+                  type="text"
+                  value={saveSlugInput}
+                  onChange={(e) => setSaveSlugInput(e.target.value.toLowerCase().replace(/[^\w-]/g, ''))}
+                  placeholder="slug-nama-berkas"
+                  className="w-full px-3 py-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-parchment-50 dark:bg-ink-950 text-xs font-mono text-ink-900 dark:text-parchment-50 focus:outline-none focus:ring-1 focus:ring-turath-emerald"
+                />
+                <div className="mt-1.5 p-2 rounded-lg bg-parchment-100 dark:bg-ink-950 border border-parchment-200 dark:border-ink-800 text-[11px] font-mono text-ink-600 dark:text-parchment-300 truncate">
+                  📁 kajian/{new Date().toISOString().split('T')[0]}-{saveSlugInput || 'kajian-bahtsu'}.md
+                </div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 text-emerald-800 dark:text-emerald-300 text-[11px] flex items-start gap-2">
+                <Check className="w-3.5 h-3.5 mt-0.5 flex-shrink-0 text-emerald-600" />
+                <div>
+                  Naskah akan otomatis di-commit dan di-push ke repositori GitHub secara aman pada branch private.
+                </div>
+              </div>
+            </div>
+
+            <div className="px-5 py-3 border-t border-parchment-200 dark:border-ink-800 bg-parchment-50 dark:bg-ink-950 flex items-center justify-end gap-2">
+              <button
+                onClick={() => setIsSaveModalOpen(false)}
+                className="px-3.5 py-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 text-ink-700 dark:text-parchment-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors text-xs font-medium"
+              >
+                Batal
+              </button>
+              <button
+                onClick={handleConfirmSave}
+                disabled={isSaving || !saveTitleInput.trim()}
+                className="flex items-center gap-1.5 px-4 py-1.5 rounded-xl bg-turath-emerald hover:bg-turath-emerald-light text-white text-xs font-semibold shadow-xs disabled:opacity-40 transition-colors"
+              >
+                <Save className="w-3.5 h-3.5 text-turath-gold" />
+                <span>{isSaving ? 'Menyimpan & Push...' : 'Simpan & Push ke GitHub'}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

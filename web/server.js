@@ -96,6 +96,162 @@ app.get('/api/status', async (req, res) => {
   });
 });
 
+const ROUTER_DB_PATH = process.env.ROUTER_DB_PATH || '/home/hermes/.9router/db/data.sqlite';
+
+// 9Router Remote Control - Overview & Telemetry
+app.get('/api/9router/overview', checkAuth, async (req, res) => {
+  const startTime = Date.now();
+  let routerConnected = false;
+  let latencyMs = 0;
+  let availableModels = [];
+
+  // 1. Measure ping latency and check connectivity
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3500);
+
+    const checkRes = await fetch(`${ROUTER_URL}/models`, {
+      headers: {
+        'Authorization': `Bearer ${ROUTER_API_KEY}`,
+      },
+      signal: controller.signal,
+    });
+    clearTimeout(timeout);
+    latencyMs = Date.now() - startTime;
+
+    if (checkRes.ok) {
+      routerConnected = true;
+      const data = await checkRes.json();
+      if (data && Array.isArray(data.data)) {
+        availableModels = data.data.map(m => m.id);
+      }
+    }
+  } catch (err) {
+    routerConnected = false;
+  }
+
+  // 2. Fetch Provider Accounts & Today's Usage from 9Router SQLite DB
+  let accounts = [];
+  let usageToday = null;
+  let hasDbAccess = false;
+
+  if (fs.existsSync(ROUTER_DB_PATH)) {
+    try {
+      hasDbAccess = true;
+      // Fetch provider connections
+      const { stdout: accStdout } = await execAsync(
+        `sqlite3 -json "${ROUTER_DB_PATH}" "SELECT id, provider, authType, name, email, isActive, priority, updatedAt FROM providerConnections ORDER BY priority ASC, name ASC;"`,
+        { timeout: 4000 }
+      );
+      if (accStdout && accStdout.trim()) {
+        accounts = JSON.parse(accStdout.trim());
+      }
+
+      // Fetch today's usage row
+      const todayKey = new Date().toISOString().split('T')[0];
+      const { stdout: usageStdout } = await execAsync(
+        `sqlite3 -json "${ROUTER_DB_PATH}" "SELECT dateKey, data FROM usageDaily WHERE dateKey = '${todayKey}';"`,
+        { timeout: 4000 }
+      );
+      if (usageStdout && usageStdout.trim()) {
+        const usageRows = JSON.parse(usageStdout.trim());
+        if (usageRows.length > 0 && usageRows[0].data) {
+          usageToday = JSON.parse(usageRows[0].data);
+        }
+      }
+    } catch (dbErr) {
+      console.warn('Error reading 9Router sqlite:', dbErr.message);
+    }
+  }
+
+  // Fallback data if DB is not present
+  if (accounts.length === 0) {
+    accounts = [
+      { id: 'ag-fathanbejo', provider: 'antigravity', name: 'Antigravity (fathanbejo@gmail.com)', email: 'fathanbejo@gmail.com', isActive: 1, priority: 1 },
+      { id: 'ag-fathanbeje', provider: 'antigravity', name: 'Antigravity (fathanbeje@gmail.com)', email: 'fathanbeje@gmail.com', isActive: 1, priority: 1 },
+      { id: 'ag-mia02database', provider: 'antigravity', name: 'Antigravity (mia02database@gmail.com)', email: 'mia02database@gmail.com', isActive: 1, priority: 1 },
+      { id: 'ag-mia02sgs', provider: 'antigravity', name: 'Antigravity (mia02sgs@gmail.com)', email: 'mia02sgs@gmail.com', isActive: 1, priority: 1 },
+    ];
+  }
+
+  res.json({
+    ok: true,
+    routerConnected,
+    latencyMs,
+    routerUrl: ROUTER_URL,
+    defaultModel: DEFAULT_MODEL,
+    hasDbAccess,
+    accounts,
+    usageToday,
+    availableModels,
+    webConsoleUrl: 'http://103.177.95.140:20128',
+    masterKeyMasked: `${ROUTER_API_KEY.substring(0, 10)}...${ROUTER_API_KEY.substring(ROUTER_API_KEY.length - 6)}`,
+  });
+});
+
+// 9Router Remote Control - Toggle Account Node Active State
+app.post('/api/9router/toggle-account', checkAuth, async (req, res) => {
+  const { id, isActive } = req.body;
+  if (!id || typeof isActive === 'undefined') {
+    return res.status(400).json({ ok: false, error: 'Parameter id dan isActive wajib diisi.' });
+  }
+
+  const newActiveVal = isActive ? 1 : 0;
+
+  if (fs.existsSync(ROUTER_DB_PATH)) {
+    try {
+      await execAsync(
+        `sqlite3 "${ROUTER_DB_PATH}" "UPDATE providerConnections SET isActive = ${newActiveVal}, updatedAt = datetime('now') WHERE id = '${id.replace(/'/g, "''")}';"`,
+        { timeout: 4000 }
+      );
+      return res.json({ ok: true, id, isActive: newActiveVal, message: `Akun ${id} berhasil di-${newActiveVal ? 'aktifkan' : 'nonaktifkan'}.` });
+    } catch (err) {
+      return res.status(500).json({ ok: false, error: `Gagal mengubah status di database 9Router: ${err.message}` });
+    }
+  }
+
+  return res.json({ ok: true, id, isActive: newActiveVal, message: `(Mock) Akun ${id} berhasil diperbarui.` });
+});
+
+// 9Router Remote Control - Quick Ping Latency Test
+app.post('/api/9router/ping-model', checkAuth, async (req, res) => {
+  const { model } = req.body;
+  const targetModel = model || DEFAULT_MODEL;
+  const start = Date.now();
+
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
+
+    const testRes = await fetch(`${ROUTER_URL}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${ROUTER_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: targetModel,
+        messages: [{ role: 'user', content: 'Ping' }],
+        max_tokens: 2,
+        temperature: 0,
+      }),
+      signal: controller.signal,
+    });
+    clearTimeout(timeout);
+    const latency = Date.now() - start;
+
+    if (!testRes.ok) {
+      const errText = await testRes.text();
+      return res.json({ ok: false, model: targetModel, latency, error: `HTTP ${testRes.status}: ${errText}` });
+    }
+
+    res.json({ ok: true, model: targetModel, latency, status: 'online' });
+  } catch (err) {
+    const latency = Date.now() - start;
+    res.json({ ok: false, model: targetModel, latency, error: err.message });
+  }
+});
+
 // Load System Prompt from SKILL.md
 function getSystemPrompt(matraMode = 'waqi_iyyah') {
   let basePrompt = '';
@@ -331,7 +487,81 @@ app.get('/api/turath/search', async (req, res) => {
   }
 });
 
-// Kajian Repository - List all files
+// Helper: Extract Tema or non-generic Title from Kajian markdown
+function extractTemaFromContent(content = '', fallback = '') {
+  if (!content || typeof content !== 'string') return fallback || 'Draf Taswidah Bahtsul Masail';
+
+  // 1. Look for explicit **Tema:**, **Judul:**, or **Topik:**
+  const temaMatch = content.match(/\*\*(?:Tema|Judul|Topik)\s*:\*\*\s*([^\n\r]+)/i)
+                 || content.match(/(?:^|\n)(?:Tema|Judul|Topik)\s*:\s*([^\n\r]+)/i);
+  if (temaMatch && temaMatch[1].trim()) {
+    const raw = temaMatch[1]
+      .replace(/[#*`_~[\]]/g, '')
+      .replace(/<[^>]*>/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (raw.length > 3) return raw;
+  }
+
+  // 2. Look for H1 (# ...), ignoring generic headings
+  const h1Match = content.match(/^#\s+(.+)$/m);
+  if (h1Match) {
+    const rawH1 = h1Match[1]
+      .replace(/^[^\w\s\u0600-\u06FF]+/, '')
+      .replace(/[#*`_~[\]]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const isGeneric = /draf\s+tasw[iī]dah|bahan\s+kajian\s+bahtsul|studio\s+bahtsu/i.test(rawH1);
+    if (!isGeneric && rawH1.length > 3) return rawH1;
+  }
+
+  // 3. Fallback derived from filename if provided (e.g. 2026-09-26-hukum-azimat.md -> Hukum Azimat)
+  if (fallback && fallback.endsWith('.md')) {
+    return fallback
+      .replace(/\.md$/i, '')
+      .replace(/^\d{4}-\d{2}-\d{2}-/, '')
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, c => c.toUpperCase());
+  }
+
+  return fallback || 'Draf Taswidah Bahtsul Masail';
+}
+
+// Helper: Generate clean, concise slug from tema
+function generateKajianSlug(titleOrTema = '') {
+  if (!titleOrTema || typeof titleOrTema !== 'string') return 'kajian-bahtsu';
+
+  const normalized = titleOrTema
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/['’`ʻʿ]/g, '')
+    .toLowerCase();
+
+  let clean = normalized
+    .replace(/[^\w\s-]/g, ' ')
+    .trim()
+    .replace(/\s+/g, '-');
+
+  const parts = clean.split('-').filter(Boolean);
+  let relevantParts = parts;
+  if (parts.length > 3 && (parts[0] === 'draf' || parts[0] === 'taswidah')) {
+    relevantParts = parts.filter(p => !['draf', 'taswidah', 'bahan', 'kajian', 'bahtsul', 'masail', 'dan'].includes(p));
+    if (relevantParts.length === 0) relevantParts = parts;
+  }
+
+  if (relevantParts.length > 7) {
+    relevantParts = relevantParts.slice(0, 7);
+  }
+
+  let result = relevantParts.join('-');
+  if (result.length > 55) {
+    result = result.substring(0, 55).replace(/-[^-]*$/, '');
+  }
+
+  return result || 'kajian-bahtsu';
+}
+
+// Kajian Repository - List all files with true Tema
 app.get('/api/kajian', checkAuth, (req, res) => {
   try {
     const files = fs.readdirSync(KAJIAN_DIR)
@@ -344,9 +574,8 @@ app.get('/api/kajian', checkAuth, (req, res) => {
       const stat = fs.statSync(fullPath);
       const content = fs.readFileSync(fullPath, 'utf-8');
 
-      // Extract title from first # heading
-      const titleMatch = content.match(/^#\s+(.+)$/m);
-      const title = titleMatch ? titleMatch[1].replace(/^[^\w\s\u0600-\u06FF]+/, '').trim() : filename;
+      // Extract true Tema from content
+      const title = extractTemaFromContent(content, filename);
 
       return {
         filename,
@@ -374,7 +603,8 @@ app.get('/api/kajian/:filename', checkAuth, (req, res) => {
 
   try {
     const content = fs.readFileSync(fullPath, 'utf-8');
-    res.json({ ok: true, filename: safeFilename, content });
+    const title = extractTemaFromContent(content, safeFilename);
+    res.json({ ok: true, filename: safeFilename, title, content });
   } catch (err) {
     res.status(500).json({ ok: false, error: `Gagal membaca isi berkas: ${err.message}` });
   }
@@ -390,13 +620,23 @@ app.post('/api/kajian/save', checkAuth, async (req, res) => {
 
   const now = new Date();
   const dateStr = now.toISOString().split('T')[0];
-  const safeSlug = (slug || title || 'kajian-bahtsu')
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .trim()
-    .replace(/\s+/g, '-');
 
-  const filename = `${dateStr}-${safeSlug}.md`;
+  // Resolve best Tema and Slug
+  const extractedTema = extractTemaFromContent(content);
+  const finalTitle = (title && !/draf\s+tasw[iī]dah/i.test(title)) ? title : extractedTema;
+  
+  let finalSlug = slug;
+  if (!finalSlug || finalSlug.startsWith('draf-taswidah')) {
+    finalSlug = generateKajianSlug(finalTitle);
+  } else {
+    finalSlug = finalSlug
+      .toLowerCase()
+      .replace(/[^\w\s-]/g, '')
+      .trim()
+      .replace(/\s+/g, '-');
+  }
+
+  const filename = `${dateStr}-${finalSlug}.md`;
   const fullPath = path.join(KAJIAN_DIR, filename);
 
   try {
@@ -408,7 +648,7 @@ app.post('/api/kajian/save', checkAuth, async (req, res) => {
 
     if (fs.existsSync(path.join(repoRoot, '.git'))) {
       try {
-        const commitTitle = (title || safeSlug).replace(/"/g, "'").substring(0, 72);
+        const commitTitle = finalTitle.replace(/"/g, "'").substring(0, 72);
         await execAsync(`git add "kajian/${filename}" && git commit -m "docs(kajian): tambah bahan kajian ${commitTitle}" && git push origin private/bahtsu-klangopan-app`, {
           cwd: repoRoot,
           timeout: 25000,
@@ -425,6 +665,7 @@ app.post('/api/kajian/save', checkAuth, async (req, res) => {
       ok: true,
       message: `Kajian berhasil disimpan${gitNote}.`,
       filename,
+      title: finalTitle,
       fullPath,
       gitPushed,
     });

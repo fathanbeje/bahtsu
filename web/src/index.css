@@ -48,24 +48,32 @@
 .arabic-text {
   direction: rtl;
   text-align: right;
-  line-height: 2.2;
+  line-height: 2.3;
   letter-spacing: 0;
   font-feature-settings: "liga" 1, "dlig" 1;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 /* Penyorotan Mahallus Syahid (Multi-App Highlight) */
 u strong, strong u, .mahallus-syahid {
   text-decoration: none;
-  background-color: rgba(181, 141, 61, 0.18);
+  background-color: rgba(181, 141, 61, 0.22);
   border-bottom: 2px solid #B58D3D;
-  padding: 0.1em 0.3em;
-  border-radius: 3px;
+  padding: 0.12em 0.35em;
+  margin: 0 0.15em;
+  border-radius: 4px;
   font-weight: 700;
   color: #123322;
+  display: inline;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .dark u strong, .dark strong u, .dark .mahallus-syahid {
-  background-color: rgba(200, 163, 89, 0.25);
+  background-color: rgba(200, 163, 89, 0.30);
   border-bottom: 2px solid #C8A359;
   color: #E8D5A7;
 }

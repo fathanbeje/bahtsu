@@ -162,3 +162,49 @@ export async function saveKajian({ title, slug, content, model, matraMode }) {
     return { ok: false, error: err.message };
   }
 }
+
+// 9Router Remote Control Client API
+export async function getRouterOverview() {
+  try {
+    const res = await fetch(`${API_BASE}/9router/overview`, {
+      headers: { 'Authorization': `Bearer ${getAuthToken()}` },
+    });
+    if (!res.ok) return { ok: false, error: `HTTP ${res.status}` };
+    return await res.json();
+  } catch (err) {
+    return { ok: false, error: err.message };
+  }
+}
+
+export async function toggleRouterAccount(id, isActive) {
+  try {
+    const res = await fetch(`${API_BASE}/9router/toggle-account`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${getAuthToken()}`,
+      },
+      body: JSON.stringify({ id, isActive }),
+    });
+    return await res.json();
+  } catch (err) {
+    return { ok: false, error: err.message };
+  }
+}
+
+export async function pingRouterModel(model) {
+  try {
+    const res = await fetch(`${API_BASE}/9router/ping-model`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${getAuthToken()}`,
+      },
+      body: JSON.stringify({ model }),
+    });
+    return await res.json();
+  } catch (err) {
+    return { ok: false, error: err.message, latency: 0 };
+  }
+}
+

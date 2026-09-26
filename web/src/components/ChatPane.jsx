@@ -130,17 +130,29 @@ export default function ChatPane({
           if (p.startsWith('>')) {
             const quoteContent = p.replace(/^>\s*/, '');
             const arabicChars = (quoteContent.match(/[\u0600-\u06FF]/g) || []).length;
-            const isArabic = arabicChars > 15;
+            const isArabicQuote = arabicChars > 15 || (arabicChars / (quoteContent.length || 1) > 0.35);
+
+            if (isArabicQuote) {
+              return (
+                <blockquote
+                  key={idx}
+                  dir="rtl"
+                  className={`my-3 p-4 sm:p-5 rounded-2xl border-r-4 border-r-turath-gold border-l-0 bg-parchment-100/70 dark:bg-ink-900/60 text-right arabic-text break-words overflow-x-hidden ${
+                    arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'
+                  }`}
+                  style={{ fontSize: `${arabicFontSize}px` }}
+                  dangerouslySetInnerHTML={{
+                    __html: formatTextToHtml(quoteContent),
+                  }}
+                />
+              );
+            }
 
             return (
               <blockquote
                 key={idx}
-                className={`my-2 pl-3.5 pr-2 py-1.5 border-l-3 border-turath-gold bg-parchment-100/60 dark:bg-ink-900/50 rounded-r-lg text-ink-800 dark:text-parchment-200 ${
-                  isArabic 
-                    ? `arabic-text ${arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'}` 
-                    : ''
-                }`}
-                style={isArabic ? { fontSize: `${arabicFontSize}px` } : undefined}
+                dir="ltr"
+                className="my-2.5 px-4 py-2.5 border-l-4 border-turath-gold bg-parchment-100/60 dark:bg-ink-900/50 rounded-r-xl text-sm sm:text-base leading-relaxed text-ink-800 dark:text-parchment-200"
                 dangerouslySetInnerHTML={{
                   __html: formatTextToHtml(quoteContent),
                 }}
@@ -148,16 +160,33 @@ export default function ChatPane({
             );
           }
 
+          if (p.includes('Makna Murod') || p.includes('Wajhul Istidlal') || p.includes('Wajhul Ilhaq')) {
+            return (
+              <div key={idx} className="mt-3.5 pt-1 text-xs sm:text-sm font-sans font-bold uppercase tracking-wider text-turath-emerald dark:text-emerald-300">
+                <span dangerouslySetInnerHTML={{ __html: formatTextToHtml(p) }} />
+              </div>
+            );
+          }
+
+          if (p.startsWith('Karya:') || p.startsWith('*Karya:')) {
+            return (
+              <div key={idx} className="text-xs sm:text-[13.5px] text-ink-600 dark:text-ink-400 font-sans my-1 bg-parchment-100/60 dark:bg-ink-900/40 p-2 rounded-lg border border-parchment-200 dark:border-ink-800">
+                <span dangerouslySetInnerHTML={{ __html: formatTextToHtml(p) }} />
+              </div>
+            );
+          }
+
           const arabicCount = (p.match(/[\u0600-\u06FF]/g) || []).length;
-          const isArabic = arabicCount > 20 && (arabicCount / p.length > 0.4);
+          const isArabic = arabicCount > 20 && (arabicCount / (p.length || 1) > 0.4);
 
           return (
             <p
               key={idx}
-              className={`leading-relaxed text-ink-800 dark:text-parchment-100 ${
+              dir={isArabic ? 'rtl' : 'ltr'}
+              className={`leading-relaxed text-ink-900 dark:text-parchment-50 break-words ${
                 isArabic 
-                  ? `arabic-text ${arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'}` 
-                  : 'text-[15px]'
+                  ? `arabic-text ${arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'} my-2.5 px-1` 
+                  : 'text-base sm:text-[17px] leading-[1.85] my-1.5'
               }`}
               style={isArabic ? { fontSize: `${arabicFontSize}px` } : undefined}
               dangerouslySetInnerHTML={{

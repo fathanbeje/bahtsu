@@ -11,7 +11,9 @@ import {
   Type,
   ChevronDown,
   History,
-  Plus
+  Plus,
+  Activity,
+  HelpCircle
 } from 'lucide-react';
 
 export default function Header({
@@ -29,6 +31,8 @@ export default function Header({
   onOpenModelSelector,
   onOpenHistory,
   onNewSession,
+  onOpenRouterCockpit,
+  onOpenMatraInfo,
   onLock,
   routerStatus,
   selectedModel,
@@ -78,11 +82,20 @@ export default function Header({
                 بَحْثُ كِلَانْغُوفَانْ
               </span>
             </div>
-            <p className="hidden md:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1 font-sans">
+            
+            {/* Interactive 9Router status button */}
+            <button
+              onClick={onOpenRouterCockpit}
+              className="hidden md:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1.5 font-sans hover:text-turath-emerald transition-colors cursor-pointer group text-left"
+              title="Klik untuk membuka 9Router Remote Cockpit"
+            >
               <span>Studio Bahtsul Masail</span>
               <span>•</span>
-              <span className="text-emerald-700 dark:text-emerald-400 font-medium">9Router Aktif</span>
-            </p>
+              <span className="flex items-center gap-1 text-emerald-700 dark:text-emerald-400 font-semibold bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.2 rounded-full border border-emerald-300 dark:border-emerald-800 group-hover:border-turath-emerald">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                <span>9Router Cockpit</span>
+              </span>
+            </button>
           </div>
 
           {/* Quick Session History & New Buttons */}
@@ -108,30 +121,50 @@ export default function Header({
         </div>
 
         {/* Center: Tri-Matra Mode Switcher (Desktop only) */}
-        <div className="hidden lg:flex items-center p-1 rounded-xl bg-parchment-100 dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-inner">
-          {matraList.map(matra => {
-            const isActive = matraMode === matra.id;
-            return (
-              <button
-                key={matra.id}
-                onClick={() => setMatraMode(matra.id)}
-                title={matra.desc}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-sans transition-all duration-150 ${
-                  isActive
-                    ? 'bg-card-parchment dark:bg-ink-800 text-turath-emerald dark:text-emerald-300 font-semibold shadow-sm border border-parchment-200 dark:border-ink-700'
-                    : 'text-ink-600 dark:text-ink-400 hover:text-ink-900 dark:hover:text-parchment-200'
-                }`}
-              >
-                <span>{matra.icon}</span>
-                <span>{matra.label}</span>
-                <span className="font-arabic text-[11px] opacity-75">({matra.arabic})</span>
-              </button>
-            );
-          })}
+        <div className="hidden lg:flex items-center gap-1">
+          <div className="flex items-center p-1 rounded-xl bg-parchment-100 dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-inner">
+            {matraList.map(matra => {
+              const isActive = matraMode === matra.id;
+              return (
+                <button
+                  key={matra.id}
+                  onClick={() => setMatraMode(matra.id)}
+                  title={matra.desc}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-sans transition-all duration-150 ${
+                    isActive
+                      ? 'bg-card-parchment dark:bg-ink-800 text-turath-emerald dark:text-emerald-300 font-semibold shadow-sm border border-parchment-200 dark:border-ink-700'
+                      : 'text-ink-600 dark:text-ink-400 hover:text-ink-900 dark:hover:text-parchment-200'
+                  }`}
+                >
+                  <span>{matra.icon}</span>
+                  <span>{matra.label}</span>
+                  <span className="font-arabic text-[11px] opacity-75">({matra.arabic})</span>
+                </button>
+              );
+            })}
+          </div>
+
+          <button
+            onClick={onOpenMatraInfo}
+            className="p-1.5 rounded-lg text-ink-400 hover:text-turath-emerald hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+            title="Pelajari fungsi ketiga Matra Bahtsul Masail (Waqi'iyyah, Maudlu'iyyah, Qanuniyyah)"
+          >
+            <HelpCircle className="w-4 h-4" />
+          </button>
         </div>
 
         {/* Right Tools Bar */}
         <div className="flex items-center gap-1 sm:gap-1.5">
+          {/* Direct 9Router Cockpit Button */}
+          <button
+            onClick={onOpenRouterCockpit}
+            className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-xl border border-emerald-300 dark:border-emerald-800 bg-emerald-50/80 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 hover:bg-emerald-100 dark:hover:bg-emerald-900 text-xs font-mono font-semibold transition-all shadow-2xs"
+            title="Buka 9Router Remote Cockpit (Kuota, Node Akun, Latensi)"
+          >
+            <Activity className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+            <span className="hidden xl:inline">9Router</span>
+          </button>
+
           {/* Direct Model Picker Button */}
           <button
             onClick={onOpenModelSelector}
@@ -142,7 +175,6 @@ export default function Header({
             <span className="truncate text-[11px] sm:text-xs">
               {formatModelBadge(selectedModel)}
             </span>
-            <ChevronDown className="w-3 h-3 flex-shrink-0 opacity-70" />
           </button>
 
           {/* Turath Search Button */}
