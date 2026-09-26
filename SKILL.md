@@ -34,13 +34,21 @@ AI **DIHARAMKAN KERAS** hanya mencantumkan 1 atau 2 referensi untuk satu pokok m
 4. **Lapisan 4: Kaidah Fiqhiyyah & Ushul Fiqh** (*Al-Asybah wan Nazha'ir As-Suyuthi, Qawa'idul Ahkam Izzuddin bin Abdis Salam, Al-Mantsur fil Qawa'id Az-Zarkasyi, Al-Mustashfa Al-Ghazali, Jam'ul Jawami'*).
 5. **Lapisan 5: Muqaranah 4 Madzhab (Bila Ada Ikhtilaf / Solusi Alternatif)** (*Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah, Bidayatul Mujtahid, Al-Mughni Ibnu Qudamah, Bada'i' ash-Shana'i'*).
 
-### 2. Penyorotan Kalimat Kunci Ibarat (Khatht Tahta Mahallis Syahid / Multi-App Highlight)
+### 2. Penyorotan Kalimat Kunci Ibarat & Protokol Kompatibilitas BiDi Multi-Bahasa
 Pada setiap kutipan teks Arab, **kalimat yang menjadi fokus dalil / titik temu hukum (*mahallus syāhid* dan *wajhul istidlāl*) WAJIB disoroti menggunakan format kombinasi Bold, Tanda Kurung Turats `【 ... 】`, dan tag Underline HTML `<u>`**.
 - Format: `> [Konteks awal ibarat...] <u>**【Kalimat krusial / manāth hukum yang disorot】**</u> [kelanjutan teks jika ada...]`
+- **Aturan Mutlak BiDi & Pemisahan Blok (Anti-Scrambled BiDi Layout):**
+  GitHub Markdown dan web browser mengandalkan atribut bawaan `dir="auto"`. Jika teks Arab dan Latin bercampur dalam satu kesatuan paragraf (hanya dipisah `<br>`), tata letak akan rusak total (teks Latin terdorong rata kanan dan tanda baca terbalik). Untuk mencegah kerusakan tampilan ini, terapkan 4 protokol wajib:
+  1. **Jangkar Judul Rujukan (BiDi LTR Anchor):** Judul nomor rujukan **WAJIB diawali dengan label/transliterasi Latin**, misalnya:  
+     `1. **Kitab: Al-Majmu' Syarah Al-Muhadzdzab (المجموع شرح المهذب) — (Juz 4, Hal. 361)**`  
+     *Dilarang keras mengawali nomor rujukan langsung dengan huruf Arab* agar nomor urut daftar `1.` tidak terpisah jauh dari judulnya di margin kiri.
+  2. **Pemisah Baris Kosong Ganda (`\n\n`):** Setiap komponen rujukan (Judul/Karya, Blok Kutipan Ibarat Arab, Makna Murod, Wajhul Istidlal, Tautan) **WAJIB dipisahkan dengan baris kosong ganda (`\n\n`)**. Dilarang menyambungnya hanya dengan spasi ganda di akhir baris (`<br>`).
+  3. **Isolasi Kutipan Arab (`>`):** Blok kutipan Arab harus berdiri sendiri sebagai *blockquote* (`> `). Karena isinya murni Arab, GitHub Markdown otomatis merendernya sebagai blok RTL yang rapi dan elegan.
+  4. **Paragraf Analisis Latin Berdiri Sendiri:** Paragraf *Makna Murod* dan *Wajhul Istidlal* harus berdiri di paragraf terpisah diawali huruf Latin (`*Makna Murod...*`), sehingga otomatis di-render sebagai LTR (rata kiri, tanda baca rapi di sisi kanan).
 - **Catatan Kompatibilitas Multi-Aplikasi:**
-  - **Aplikasi Capacities (app.capacities.io):** Adanya format **Bold (`**...**`)** dan tanda kurung turats `【 ... 】` menjamin kalimat kunci **tetap terlihat tebal hitam pekat dan mencolok** di Capacities.
+  - **GitHub Flavored Markdown:** Bebas bug pembalikan arah BiDi, kutipan ibarat memiliki bilah kutipan elegan di sisi yang tepat, dan terjemahan rata kiri sempurna.
+  - **Aplikasi Capacities (app.capacities.io):** Format **Bold (`**...**`)** dan `【 ... 】` menjamin kalimat kunci **tetap terlihat tebal hitam pekat dan mencolok**, serta tidak menggumpal menjadi satu paragraf.
   - **Microsoft Word:** Format `<u>` dan `**` otomatis terbaca sebagai **Tebal + Bergaris Bawah** (*Bold Underline*).
-  - **Pemisah Blok Baris:** Gunakan selalu spasi ganda antar-baris (`\n\n`) agar saat di-paste ke Capacities tidak menggumpal menjadi satu paragraf.
 
 ### 3. Asas Kejelasan Tashawwur Masalah
 Sesuai kaidah:
@@ -165,39 +173,69 @@ Setiap kajian wajib disajikan dalam struktur naskah taswidah lengkap berikut:
 
 #### [Sub-Masalah / Pertanyaan A]
 
-1. **[Nama Kitab 1] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i (Mu'tamad) | Lapisan: [Kitab Induk Mutaqaddimin/Muta'akhirin]*  
-   > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci / Mahallus Syāhid yang Menjadi Inti Dalil Diberi Sorotan Khusus】**</u> [Kelanjutan teks jika ada]  
-   *Makna Murod / Terjemah:* [Terjemahan bahasa Indonesia kontekstual]  
-   *Wajhul Istidlal / Wajhul Ilhāq:* [Penjelasan korelasi mengapa kalimat yang disorot menjadi landasan hukum kasus tersebut]  
+1. **Kitab: [Nama Transliterasi Kitab 1] ([Nama Asli Arab]) — ([Juz/Halaman])**  
+   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i (Mu'tamad) | Lapisan: [Kitab Induk Mutaqaddimin/Muta'akhirin]*
+
+   > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci / Mahallus Syāhid yang Menjadi Inti Dalil Diberi Sorotan Khusus】**</u> [Kelanjutan teks jika ada]
+
+   *Makna Murod / Terjemah:*  
+   [Terjemahan bahasa Indonesia kontekstual]
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [Penjelasan korelasi mengapa kalimat yang disorot menjadi landasan hukum kasus tersebut]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
-2. **[Nama Kitab 2] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i | Lapisan: [Kitab Syarah / Hasyiyah]*  
-   > [Teks Ibarat Arab] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]  
-   *Makna Murod / Terjemah:* [...]  
-   *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
+2. **Kitab: [Nama Transliterasi Kitab 2] ([Nama Asli Arab]) — ([Juz/Halaman])**  
+   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i | Lapisan: [Kitab Syarah / Hasyiyah]*
+
+   > [Teks Ibarat Arab] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]
+
+   *Makna Murod / Terjemah:*  
+   [...]
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [...]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
-3. **[Nama Kitab 3] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i | Lapisan: [Fatawa / Hawasyi]*  
-   > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]  
-   *Makna Murod / Terjemah:* [...]  
-   *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
+3. **Kitab: [Nama Transliterasi Kitab 3] ([Nama Asli Arab]) — ([Juz/Halaman])**  
+   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i | Lapisan: [Fatawa / Hawasyi]*
+
+   > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]
+
+   *Makna Murod / Terjemah:*  
+   [...]
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [...]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
-4. **[Nama Kitab 4: Qawa'id Fiqhiyyah / Ushul] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat] | Madzhab: [Syafi'i / Ushul 'Am]*  
-   > [Teks Kaidah Fiqhiyyah Arab Berharakat Beserta Uraiannya] <u>**【Pernyataan Kaidah Universal】**</u> [Kelanjutan teks...]  
-   *Makna Murod / Terjemah:* [...]  
-   *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
+4. **Kitab: [Nama Transliterasi Kaidah / Ushul] ([Nama Asli Arab]) — ([Juz/Halaman])**  
+   *Karya: [Pengarang & Wafat] | Madzhab: [Syafi'i / Ushul 'Am]*
+
+   > [Teks Kaidah Fiqhiyyah Arab Berharakat Beserta Uraiannya] <u>**【Pernyataan Kaidah Universal】**</u> [Kelanjutan teks...]
+
+   *Makna Murod / Terjemah:*  
+   [...]
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   [...]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
-5. **[Nama Kitab 5: Rujukan Non-Syafi'iyyah / Muqaranah] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat] | Madzhab: [Hanafi / Maliki / Hanbali / Muqaranah 4 Madzhab] (WAJIB TERCANTUM TEGAS) | Lapisan: [Kitab Induk / Syarah / Fatawa]*  
-   > [Teks Ibarat Arab Berharakat Lengkap dari Madzhab Non-Syafi'i] <u>**【Pendapat Madzhab Alternatif / Titik Temu Dalil】**</u> [Kelanjutan teks...]  
-   *Makna Murod / Terjemah:* [Terjemahan bahasa Indonesia kontekstual]  
-   *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):* [Jelaskan status qaul ini di madzhab asalnya (mu'tamad/wajh) dan alasan pengambilannya sebagai makhraj syar'i / bahan komparasi di Bahtsul Masail NU dengan penegasan syarat intiqal al-madzhab serta pencegahan talfiq bathil]  
+5. **Kitab: [Nama Transliterasi Rujukan Non-Syafi'iyyah] ([Nama Asli Arab]) — ([Juz/Halaman])**  
+   *Karya: [Pengarang & Wafat] | Madzhab: [Hanafi / Maliki / Hanbali / Muqaranah 4 Madzhab] (WAJIB TERCANTUM TEGAS) | Lapisan: [Kitab Induk / Syarah / Fatawa]*
+
+   > [Teks Ibarat Arab Berharakat Lengkap dari Madzhab Non-Syafi'i] <u>**【Pendapat Madzhab Alternatif / Titik Temu Dalil】**</u> [Kelanjutan teks...]
+
+   *Makna Murod / Terjemah:*  
+   [Terjemahan bahasa Indonesia kontekstual]
+
+   *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):*  
+   [Jelaskan status qaul ini di madzhab asalnya (mu'tamad/wajh) dan alasan pengambilannya sebagai makhraj syar'i / bahan komparasi di Bahtsul Masail NU dengan penegasan syarat intiqal al-madzhab serta pencegahan talfiq bathil]
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 ```
 

@@ -71,57 +71,99 @@ Berdasarkan telaah mendalam terhadap kaidah fiqih, ushul, dan nash kitab-kitab m
 
 #### A. Konsep Akad Tabarru' & Ketiadaan Gharar/Riba dalam Asuransi Sosial (Jaminan Sosial)
 
-1. **المعاملات المالية أصالة ومعاصرة (4/225)**  
-   *Karya: دبيان الدبيان | Madzhab: Muqaranah 4 Madzhab / Fiqh 'Am | Lapisan: Fiqih Kontemporer Muktabar*  
-   > إن التأمين التعاوني التكافلي مبناه على عقد التبرع والإحسان، <u>**【والغرر والجهالة متسامح فيهما في عقود التبرعات، لأن المتبرع يقصد الإرفاق والمواساة لا المعاوضة والاسترباح】**</u>، فلا يدخله الربا ولا القمار المحرم.  
-   *Makna Murod / Terjemah:* "Sesungguhnya asuransi gotong-royong (takaful) fondasinya dibangun di atas akad kebajikan (*tabarru'*) dan kebaikan. <u>**【Dan unsur ketidakpastian (gharar) serta ketidaktahuan (jahalah) dimaafkan dalam akad-akad kebajikan/sumbangan, sebab orang yang menyumbang bertujuan membantu dan berbelas kasih, bukan untuk transaksi bisnis timbal balik maupun mencari keuntungan komersial】**</u>, sehingga ke dalamnya tidak masuk unsur riba dan perjudian yang diharamkan."  
-   *Wajhul Istidlal / Wajhul Ilhāq:* Asuransi sosial BPJS Kesehatan berakar pada akad tabarru' gotong-royong (*takaful*). Larangan gharar dan riba hanya berlaku mutlak pada akad bisnis tukar-menukar uang/harta (*mu'awadhah*), sedangkan pada akad dana sosial penolong sesama, ketidaktahuan besaran santunan medis yang kelak diterima hukumnya sah dan halal.  
+1. **Kitab: Al-Mu'amalat al-Maliyyah Ashalah wa Mu'ashirah (المعاملات المالية أصالة ومعاصرة) — (Juz 4, Hal. 225)**  
+   *Karya: دبيان الدبيان | Madzhab: Muqaranah 4 Madzhab / Fiqh 'Am | Lapisan: Fiqih Kontemporer Muktabar*
+
+   > إن التأمين التعاوني التكافلي مبناه على عقد التبرع والإحسان، <u>**【والغرر والجهالة متسامح فيهما في عقود التبرعات، لأن المتبرع يقصد الإرفاق والمواساة لا المعاوضة والاسترباح】**</u>، فلا يدخله الربا ولا القمار المحرم.
+
+   *Makna Murod / Terjemah:*  
+   "Sesungguhnya asuransi gotong-royong (takaful) fondasinya dibangun di atas akad kebajikan (*tabarru'*) dan kebaikan. <u>**【Dan unsur ketidakpastian (gharar) serta ketidaktahuan (jahalah) dimaafkan dalam akad-akad kebajikan/sumbangan, sebab orang yang menyumbang bertujuan membantu dan berbelas kasih, bukan untuk transaksi bisnis timbal balik maupun mencari keuntungan komersial】**</u>, sehingga ke dalamnya tidak masuk unsur riba dan perjudian yang diharamkan."
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Asuransi sosial BPJS Kesehatan berakar pada akad tabarru' gotong-royong (*takaful*). Larangan gharar dan riba hanya berlaku mutlak pada akad bisnis tukar-menukar uang/harta (*mu'awadhah*), sedangkan pada akad dana sosial penolong sesama, ketidaktahuan besaran santunan medis yang kelak diterima hukumnya sah dan halal.
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/14474?page=1630#:~:text=%D8%A7%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86%20%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A)
 
-2. **فقه المعاملات (2/44)**  
-   *Karya: نخبة من العلماء | Madzhab: Muqaranah 4 Madzhab | Lapisan: Kitab Fiqih Kontemporer*  
-   > وقد استقر رأي جماهير الفقهاء على أن عقد المعاوضة إذا شابه غرر أفسده، <u>**【بخلاف عقود التبرعات فإن الغرر فيها لا يفسدها، لأن مبناها على المسامحة لا المكايسة】**</u>.  
-   *Makna Murod / Terjemah:* "Dan telah mantap pandangan jumhur fuqaha bahwa akad mu'awadhah (pertukaran bisnis) apabila tercampur unsur gharar maka menjadi rusak, <u>**【berbeda halnya dengan akad-akad kebajikan (tabarru'at), maka unsur ketidakpastian di dalamnya tidak merusaknya, karena fondasi tabarru' adalah kerelaan dan tolong-menolong, bukan adu hitung untung-rugi】**</u>."  
-   *Wajhul Istidlal / Wajhul Ilhāq:* Dalam BPJS Kesehatan, iuran yang dibayarkan bukan premi pembelian 'kompensasi medis' secara spekulatif, melainkan hibah sukarela untuk kas sosial. Oleh karenanya, tidak adanya kepastian apakah peserta akan sakit atau tidak sama sekali tidak merusak keabsahan syariat program ini.  
+2. **Kitab: Fiqh al-Mu'amalat (فقه المعاملات) — (Juz 2, Hal. 44)**  
+   *Karya: نخبة من العلماء | Madzhab: Muqaranah 4 Madzhab | Lapisan: Kitab Fiqih Kontemporer*
+
+   > وقد استقر رأي جماهير الفقهاء على أن عقد المعاوضة إذا شابه غرر أفسده، <u>**【بخلاف عقود التبرعات فإن الغرر فيها لا يفسدها، لأن مبناها على المسامحة لا المكايسة】**</u>.
+
+   *Makna Murod / Terjemah:*  
+   "Dan telah mantap pandangan jumhur fuqaha bahwa akad mu'awadhah (pertukaran bisnis) apabila tercampur unsur gharar maka menjadi rusak, <u>**【berbeda halnya dengan akad-akad kebajikan (tabarru'at), maka unsur ketidakpastian di dalamnya tidak merusaknya, karena fondasi tabarru' adalah kerelaan dan tolong-menolong, bukan adu hitung untung-rugi】**</u>."
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Dalam BPJS Kesehatan, iuran yang dibayarkan bukan premi pembelian 'kompensasi medis' secara spekulatif, melainkan hibah sukarela untuk kas sosial. Oleh karenanya, tidak adanya kepastian apakah peserta akan sakit atau tidak sama sekali tidak merusak keabsahan syariat program ini.
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/968?page=1146#:~:text=%D8%A7%D9%84%D8%BA%D8%B1%D8%B1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%A8%D8%B1%D8%B9%D8%A7%D8%AA)
 
-3. **الأشباه والنظائر للسيوطي (1/382)**  
-   *Karya: جلال الدين السيوطي (ت 911 هـ) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Qawa'id Fiqhiyyah & Ushul*  
-   > القاعدة: <u>**【يغتفر في التبرعات ما لا يغتفر في المعاوضات】**</u>، ومن ثم صح النذر والوقف والهبة للمجهول وغير المعين في صور كثيرة.  
-   *Makna Murod / Terjemah:* "Kaidah fiqhiyyah: <u>**【Dimaafkan di dalam akad-akad kebajikan (sumbangan/tabarru') apa-apa yang tidak dimaafkan di dalam akad tukar-menukar bisnis komersial】**</u>. Oleh karena itulah sah nadzar, wakaf, dan hibah terhadap perkara yang belum diketahui jumlah persisnya pada banyak keadaan."  
-   *Wajhul Istidlal / Wajhul Ilhāq:* Kaidah induk dalam madzhab Syafi'i ini menegaskan bahwa ketidakpastian klaim biaya rumah sakit peserta BPJS yang tidak sebanding dengan total iuran yang pernah disetorkan sama sekali tidak melanggar syariat, karena kedudukannya adalah ta'awun dan tabarru'.  
+3. **Kitab: Al-Asybah wan Nazha'ir As-Suyuthi (الأشباه والنظائر للسيوطي) — (Juz 1, Hal. 382)**  
+   *Karya: جلال الدين السيوطي (ت 911 هـ) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Qawa'id Fiqhiyyah & Ushul*
+
+   > القاعدة: <u>**【يغتفر في التبرعات ما لا يغتفر في المعاوضات】**</u>، ومن ثم صح النذر والوقف والهبة للمجهول وغير المعين في صور كثيرة.
+
+   *Makna Murod / Terjemah:*  
+   "Kaidah fiqhiyyah: <u>**【Dimaafkan di dalam akad-akad kebajikan (sumbangan/tabarru') apa-apa yang tidak dimaafkan di dalam akad tukar-menukar bisnis komersial】**</u>. Oleh karena itulah sah nadzar, wakaf, dan hibah terhadap perkara yang belum diketahui jumlah persisnya pada banyak keadaan."
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Kaidah induk dalam madzhab Syafi'i ini menegaskan bahwa ketidakpastian klaim biaya rumah sakit peserta BPJS yang tidak sebanding dengan total iuran yang pernah disetorkan sama sekali tidak melanggar syariat, karena kedudukannya adalah ta'awun dan tabarru'.
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2002#:~:text=%D8%AA%D8%B5%D8%B1%D9%81%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85)
 
 ---
 
 #### B. Kewenangan Pemerintah Mewajibkan Iuran demi Maslahat Umum (*Siyasah Syar'iyyah*)
 
-4. **ترشيح التوشيح وتوضيح الترجيح (1/589)**  
-   *Karya: تاج الدين ابن السبكي (ت 771 هـ) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*  
-   > قال أصحابنا: <u>**【تصرُّف الإمام على الرعايا منوطٌ بالمصلحة، وهذا منصوص للشافعي رضي الله عنه】**</u>.  
-   *Makna Murod / Terjemah:* "Para ulama madzhab kami (Syafi'iyyah) berkata: <u>**【Kebijakan dan tindakan pemimpin terhadap rakyat terikat mutlak dengan kemaslahatan umum, dan ini merupakan nash sharih dari Imam Asy-Syafi'i radhiyallahu 'anhu】**</u>."  
-   *Wajhul Istidlal / Wajhul Ilhāq:* Kewajiban seluruh rakyat untuk mendaftar BPJS yang ditetapkan oleh Undang-Undang adalah kebijakan (*tasharruf al-imam*) yang bermuara langsung pada terwujudnya jaminan kesehatan semesta (*universal health coverage*). Karena membawa kemaslahatan vital bagi rakyat, maka penetapan kewajiban tersebut sah dan mengikat.  
+4. **Kitab: Tarsyihut Tausyih wa Taudhihut Tarjih (ترشيح التوشيح وتوضيح الترجيح) — (Juz 1, Hal. 589)**  
+   *Karya: تاج الدين ابن السبكي (ت 771 هـ) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
+
+   > قال أصحابنا: <u>**【تصرُّف الإمام على الرعايا منوطٌ بالمصلحة، وهذا منصوص للشافعي رضي الله عنه】**</u>.
+
+   *Makna Murod / Terjemah:*  
+   "Para ulama madzhab kami (Syafi'iyyah) berkata: <u>**【Kebijakan dan tindakan pemimpin terhadap rakyat terikat mutlak dengan kemaslahatan umum, dan ini merupakan nash sharih dari Imam Asy-Syafi'i radhiyallahu 'anhu】**</u>."
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Kewajiban seluruh rakyat untuk mendaftar BPJS yang ditetapkan oleh Undang-Undang adalah kebijakan (*tasharruf al-imam*) yang bermuara langsung pada terwujudnya jaminan kesehatan semesta (*universal health coverage*). Karena membawa kemaslahatan vital bagi rakyat, maka penetapan kewajiban tersebut sah dan mengikat.
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30157?page=553#:~:text=%D9%85%D9%86%D9%88%D8%B7%20%D8%A8%D8%A7%D9%84%D9%85%D8%B5%D9%84%D8%AD%D8%A9)
 
-5. **فتاوى الرملي (3/177)**  
-   *Karya: شهاب الدين الرملي (ت 1004 هـ) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Fatawa Muktamadah*  
-   > إن <u>**【صِحَّةَ تَصَرُّفِ الْوَلِيِّ وَالْإِمَامِ مَنُوطَةٌ بِالْمَصْلَحَةِ】**</u>، فكل ما يراه ولي الأمر محققاً لحفظ دماء المسلمين وصحة أبدانهم فله إلزام الرعية به.  
-   *Makna Murod / Terjemah:* "Sesungguhnya <u>**【keabsahan tindakan wali/pemimpin negara itu digantungkan pada kemaslahatan】**</u>, maka segala hal yang dipandang oleh penguasa mewujudkan penjagaan terhadap darah kaum muslimin dan kesehatan jasmani mereka, maka penguasa berhak mewajibkannya kepada rakyat."  
-   *Wajhul Istidlal / Wajhul Ilhāq:* Pemerintah berhak membuat regulasi kewajiban iuran jaminan kesehatan demi menopang biaya pengobatan rakyat banyak yang kurang mampu melalui mekanisme subsidi silang nasional.  
+5. **Kitab: Fatawa Ar-Ramli (فتاوى الرملي) — (Juz 3, Hal. 177)**  
+   *Karya: شهاب الدين الرملي (ت 1004 هـ) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Fatawa Muktamadah*
+
+   > إن <u>**【صِحَّةَ تَصَرُّفِ الْوَلِيِّ وَالْإِمَامِ مَنُوطَةٌ بِالْمَصْلَحَةِ】**</u>، فكل ما يراه ولي الأمر محققاً لحفظ دماء المسلمين وصحة أبدانهم فله إلزام الرعية به.
+
+   *Makna Murod / Terjemah:*  
+   "Sesungguhnya <u>**【keabsahan tindakan wali/pemimpin negara itu digantungkan pada kemaslahatan】**</u>, maka segala hal yang dipandang oleh penguasa mewujudkan penjagaan terhadap darah kaum muslimin dan kesehatan jasmani mereka, maka penguasa berhak mewajibkannya kepada rakyat."
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Pemerintah berhak membuat regulasi kewajiban iuran jaminan kesehatan demi menopang biaya pengobatan rakyat banyak yang kurang mampu melalui mekanisme subsidi silang nasional.
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21623?page=742#:~:text=%D9%85%D9%86%D9%88%D8%B7%20%D8%A8%D8%A7%D9%84%D9%85%D8%B5%D9%84%D8%AD%D8%A9)
 
-6. **الفقه المنهجي على مذهب الإمام الشافعي (8/271)**  
-   *Karya: د. مصطفى الخن، د. مصطفى البغا، علي الشربجي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Fiqih Kontemporer*  
-   > باب: السمع والطاعة للإمام ما لم تكن معصية، <u>**【فإذا أمر الإمام بأمر فيه مصلحة عامة للأمة ولم يكن فيه مخالفة لحكم شرعي، وجبت طاعته حرمت مخالفته】**</u>.  
-   *Makna Murod / Terjemah:* "Bab: Wajib mendengar dan taat kepada pemimpin selama bukan dalam perkara maksiat. <u>**【Maka apabila pemimpin negara memerintahkan suatu perkara yang mengandung kemaslahatan umum bagi umat dan tidak bertentangan dengan hukum syariat, maka wajib menaatinya dan haram menentangnya】**</u>."  
-   *Wajhul Istidlal / Wajhul Ilhāq:* Mewajibkan keikutsertaan BPJS bukanlah perintah maksiat, melainkan rekayasa sosial demi kemaslahatan kesehatan publik. Oleh karenanya, perintah pemerintah tersebut melahirkan kewajiban taat bagi warga negara (*wujubul imtisal*).  
+6. **Kitab: Al-Fiqh Al-Manhaji 'ala Madzhab Al-Imam Asy-Syafi'i (الفقه المنهجي على مذهب الإمام الشافعي) — (Juz 8, Hal. 271)**  
+   *Karya: د. مصطفى الخن، د. مصطفى البغا، علي الشربجي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Fiqih Kontemporer*
+
+   > باب: السمع والطاعة للإمام ما لم تكن معصية، <u>**【فإذا أمر الإمام بأمر فيه مصلحة عامة للأمة ولم يكن فيه مخالفة لحكم شرعي، وجبت طاعته حرمت مخالفته】**</u>.
+
+   *Makna Murod / Terjemah:*  
+   "Bab: Wajib mendengar dan taat kepada pemimpin selama bukan dalam perkara maksiat. <u>**【Maka apabila pemimpin negara memerintahkan suatu perkara yang mengandung kemaslahatan umum bagi umat dan tidak bertentangan dengan hukum syariat, maka wajib menaatinya dan haram menentangnya】**</u>."
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Mewajibkan keikutsertaan BPJS bukanlah perintah maksiat, melainkan rekayasa sosial demi kemaslahatan kesehatan publik. Oleh karenanya, perintah pemerintah tersebut melahirkan kewajiban taat bagi warga negara (*wujubul imtisal*).
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6369?page=1671#:~:text=%D8%B7%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20%D9%81%D9%8A%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D8%B5%D9%8A%D8%A9)
 
-7. **الموسوعة الفقهية الكويتية (11/157)**  
-   *Karya: نخبة من كبار العلماء | Madzhab: Muqaranah 4 Madzhab (WAJIB TERCANTUM) | Lapisan: Ensiklopedia Fiqih Kontemporer*  
-   > اتفق الفقهاء على أن لولي الأمر أن يفرض على القادرين من الرعية ما تدعو إليه حاجة الدولة من أموال <u>**【عند قصور موارد بيت المال عن كفاية النفقات العامة الضرورية للمصالح، ومنها الرعاية الصحية والمواساة】**</u>، دفعاً للضرر عن المجتمع.  
-   *Makna Murod / Terjemah:* "Para ahli fiqih sepakat bahwa pemimpin negara berhak menetapkan kewajiban iuran/pungutan harta atas orang-orang yang mampu dari rakyatnya saat kas negara tidak mencukupi untuk memenuhi kebutuhan anggaran belanja publik yang mendesak, <u>**【di antaranya adalah jaminan pemeliharaan kesehatan dan tolong-menolong sosial】**</u>, demi menolak bahaya dari masyarakat luas."  
-   *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):* Disepakati oleh 4 madzhab (khususnya Malikiyyah dan Hanabilah dalam bab *Dharibah 'Adilah / Nawaib*) bahwa negara berhak menarik iuran gotong royong teratur dari masyarakat untuk membiayai sektor-sektor darurat kemaslahatan umum (*hifzh an-nafs*) apabila APBN memerlukan penopang dana iuran bersama.  
+7. **Kitab: Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (الموسوعة الفقهية الكويتية) — (Juz 11, Hal. 157)**  
+   *Karya: نخبة من كبار العلماء | Madzhab: Muqaranah 4 Madzhab (WAJIB TERCANTUM) | Lapisan: Ensiklopedia Fiqih Kontemporer*
+
+   > اتفق الفقهاء على أن لولي الأمر أن يفرض على القادرين من الرعية ما تدعو إليه حاجة الدولة من أموال <u>**【عند قصور موارد بيت المال عن كفاية النفقات العامة الضرورية للمصالح، ومنها الرعاية الصحية والمواساة】**</u>، دفعاً للضرر عن المجتمع.
+
+   *Makna Murod / Terjemah:*  
+   "Para ahli fiqih sepakat bahwa pemimpin negara berhak menetapkan kewajiban iuran/pungutan harta atas orang-orang yang mampu dari rakyatnya saat kas negara tidak mencukupi untuk memenuhi kebutuhan anggaran belanja publik yang mendesak, <u>**【di antaranya adalah jaminan pemeliharaan kesehatan dan tolong-menolong sosial】**</u>, demi menolak bahaya dari masyarakat luas."
+
+   *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):*  
+   Disepakati oleh 4 madzhab (khususnya Malikiyyah dan Hanabilah dalam bab *Dharibah 'Adilah / Nawaib*) bahwa negara berhak menarik iuran gotong royong teratur dari masyarakat untuk membiayai sektor-sektor darurat kemaslahatan umum (*hifzh an-nafs*) apabila APBN memerlukan penopang dana iuran bersama.
+
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=2800#:~:text=%D8%A7%D9%84%D8%AA%D9%83%D8%A7%D9%81%D9%84)
 
 ---

@@ -100,7 +100,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 
 #### A. Dalil Batas Maksimal Sepertiga Harta & Keabsahan Wasiat Tanpa Izin Ahli Waris
 
-1. **Al-Hawi Al-Kabir fi Fiqhi Madzhab Al-Imam Asy-Syafi'i (Juz 8, Hal. 263)**  
+1. **Kitab: Al-Hawi Al-Kabir fi Fiqhi Madzhab Al-Imam Asy-Syafi'i (Juz 8, Hal. 263)**  
    *Karya: Al-Imam Abul Hasan Ali bin Muhammad Al-Mawardi (Wafat: 450 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*  
 
    > وَالْأَصْلُ فِي الْوَصَايَا الْكِتَابُ وَالسُّنَّةُ وَالْإِجْمَاعُ: ... <u>**【وَأَمَّا السُّنَّةُ فَمَا رَوَاهُ الزُّهْرِيُّ عَنْ عَامِرِ بْنِ سَعْدٍ عَنْ أَبِيهِ قَالَ: قُلْتُ يَا رَسُولَ اللَّهِ أُوصِي بِمَالِي كُلِّهِ؟ قَالَ: لَا، قُلْتُ: فَبِالشَّطْرِ؟ قَالَ: لَا، قُلْتُ: فَبِالثُّلُثِ؟ قَالَ: الثُّلُثُ وَالثُّلُثُ كَثِيرٌ】**</u>. وَأَجْمَعَتِ الْأُمَّةُ عَلَى جَوَازِ الْوَصِيَّةِ بِالثُّلُثِ فَأَقَلَّ، <u>**【فَإِنْ أَوْصَى بِمَا دُونَ الثُّلُثِ كَالرُّبُعِ أَوِ الْخُمُسِ كَانَ جَائِزًا نَافِذًا مِنْ غَيْرِ إِذْنِ الْوَرَثَةِ بِإِجْمَاعِ الْمُسْلِمِينَ】**</u>.  
@@ -113,9 +113,8 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=3632#:~:text=%D8%A7%D9%84%D8%AB%D9%84%D8%AB%20%D9%88%D8%A7%D9%84%D8%AB%D9%84%D8%AB%20%D9%83%D8%AB%D9%8A%D8%B1)
 
-\n\n
 
-2. **Hasyiyata Qalyubi wa 'Umairah (Juz 4, Hal. 361)**  
+2. **Kitab: Hasyiyata Qalyubi wa 'Umairah (Juz 4, Hal. 361)**  
    *Karya: Al-Imam Syihabuddin Ahmad bin Ahmad bin Salamah Al-Qalyubi (Wafat: 1069 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Hawasyi Muktamadah*  
 
    > قَوْلُهُ: (مِنَ الثُّلُثِ) <u>**【وَشَرْطُ مَا يَنْفُذُ مِنَ الثُّلُثِ بَقَاءُ الثُّلُثَيْنِ لِلْوَرَثَةِ】**</u>، فَمَتَى خَرَجَ الْمُوصَى بِهِ مِنْ ثُلُثِ جَمِيعِ التَّرِكَةِ نَفَذَتِ الْوَصِيَّةُ قَهْرًا عَلَى الْوَرَثَةِ وَلَا عِبْرَةَ بِرِضَاهُمْ أَوْ كَرَاهَتِهِمْ، لِأَنَّ حَقَّهُمْ إِنَّمَا يَتَعَلَّقُ بِمَا فَضَلَ عَنِ الثُّلُثِ لِقَوْلِهِ تَعَالَى: {مِنْ بَعْدِ وَصِيَّةٍ يُوصَى بِهَا أَوْ دَيْنٍ}.  
@@ -132,7 +131,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 
 #### B. Dalil Pembolehan Wasiat Memberi Makan Jamaah & Dzikir Haul
 
-3. **Tuhfatul Muhtaj fi Syarh Al-Minhaj (Juz 3, Hal. 208)**  
+3. **Kitab: Tuhfatul Muhtaj fi Syarh Al-Minhaj (Juz 3, Hal. 208)**  
    *Karya: Al-Imam Syihabuddin Ahmad bin Hajar Al-Haitami (Wafat: 974 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*  
 
    > وَدَعْوَى ذَلِكَ التَّضَمُّنِ مَمْنُوعَةٌ، <u>**【وَمِنْ ثَمَّ خَالَفَ ذَلِكَ بَعْضُهُمْ فَأَفْتَى بِصِحَّةِ الْوَصِيَّةِ بِإِطْعَامِ الْمُعَزِّينَ وَأَنَّهُ يَنْفُذُ مِنَ الثُّلُثِ وَبَالَغَ فَنَقَلَهُ عَنِ الْأَئِمَّةِ】**</u>، وَعَلَيْهِ فَالتَّقْيِيدُ بِالْيَوْمِ وَاللَّيْلَةِ فِي كَلَامِهِمْ لَعَلَّهُ لِلْأَفْضَلِ... <u>**【وَلَا يَحِلُّ فِعْلُ مَا لِلنَّائِحَاتِ أَوْ الْمُعَزِّينَ عَلَى الْأَوَّلِ مِنَ التَّرِكَةِ إِلَّا إِذَا لَمْ يَكُنْ عَلَيْهِ دَيْنٌ وَلَيْسَ فِي الْوَرَثَةِ مَحْجُورٌ وَلَا غَائِبٌ】**</u>.  
@@ -145,9 +144,8 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=1206#:~:text=%D8%A8%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D8%A5%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%B9%D8%B2%D9%8A%D9%86%20%D9%88%D8%A3%D9%86%D9%87%20%D9%8A%D9%86%D9%81%D8%B0%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AB%D9%84%D8%AB)
 
-\n\n
 
-4. **I'anatuth Thalibin 'ala Halli Alfazhi Fathil Mu'in (Juz 2, Hal. 165)**  
+4. **Kitab: I'anatuth Thalibin 'ala Halli Alfazhi Fathil Mu'in (Juz 2, Hal. 165)**  
    *Karya: As-Sayyid Abu Bakar bin Muhammad Syatha Ad-Dimyathi (Wafat: 1310 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Hawasyi & Fatawa Muktamadah*  
 
    > وَيُكْرَهُ لِأَهْلِ الْمَيِّتِ الْجُلُوسُ لِلتَّعْزِيَةِ، وَصَنْعُ طَعَامٍ يَجْمَعُونَ النَّاسَ عَلَيْهِ، لِمَا رَوَى أَحْمَدُ عَنْ جَرِيرِ بْنِ عَبْدِ اللَّهِ الْبَجَلِيِّ، قَالَ: كُنَّا نَعُدُّ الِاجْتِمَاعَ إِلَى أَهْلِ الْمَيِّتِ وَصَنْعَهُمُ الطَّعَامَ بَعْدَ دَفْنِهِ مِنَ النِّيَاحَةِ... <u>**【بَلْ كُلُّ ذَلِكَ حَرَامٌ إِنْ كَانَ مِنْ مَالِ مَحْجُورٍ وَلَوْ مِنَ التَّرِكَةِ أَوْ مِنْ مَالِ مَيِّتٍ عَلَيْهِ دَيْنٌ أَوْ تَرَتَّبَ عَلَيْهِ ضَرَرٌ】**</u>.  
@@ -164,7 +162,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 
 #### C. Dalil Status Sawah 2.000 m² sebagai Wasiat Manfaat Abadi (*Wasiyyah bil-Manfa'ah al-Mu'abbadah*)
 
-5. **Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazh Al-Minhaj (Juz 4, Hal. 75)**  
+5. **Kitab: Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazh Al-Minhaj (Juz 4, Hal. 75)**  
    *Karya: Al-Imam Muhammad Al-Khatib Asy-Syirbini (Wafat: 977 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*  
 
    > <u>**【(وَ) تَصِحُّ الْوَصِيَّةُ (بِالْمَنَافِعِ) الْمُبَاحَةِ كَسُكْنَى دَارٍ وَخِدْمَةِ عَبْدٍ وَزِرَاعَةِ أَرْضٍ مُؤَبَّدَةً وَمُؤَقَّتَةً】**</u> لِأَنَّهَا أَمْوَالٌ تُقَابَلُ بِالْأَعْوَاضِ، وَيَجُوزُ إِفْرَادُهَا بِالْعَقْدِ كَالْإِجَارَةِ، فَجَازَتِ الْوَصِيَّةُ بِهَا كَالْأَعْيَانِ، <u>**【فَإِنْ أَوْصَى بِمَنْفَعَةِ أَرْضٍ مُؤَبَّدَةً لِجِهَةِ بِرٍّ انْتَقَلَتِ الْمَنْفَعَةُ إِلَيْهِمْ وَبَقِيَتِ الْعَيْنُ مَحْبُوسَةً عَلَى حُكْمِ الْوَقْفِ】**</u>.  
@@ -181,7 +179,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 
 #### D. Dalil Kaidah Fiqhiyyah & Ushul Fiqh
 
-6. **Al-Qawa'id al-Fiqhiyyah wa Tathbiqatuha fil Madzahib al-Arba'ah (Juz 1, Hal. 365)**  
+6. **Kitab: Al-Qawa'id al-Fiqhiyyah wa Tathbiqatuha fil Madzahib al-Arba'ah (Juz 1, Hal. 365)**  
    *Karya: Prof. Dr. Muhammad Musthafa Az-Zuhaili | Madzhab: Qawa'id Ushul 'Am / Muqaranah | Lapisan: Kaidah Fiqhiyyah Universal*  
 
    > الْقَاعِدَةُ: [٥٣] <u>**【إِعْمَالُ الْكَلَامِ أَوْلَى مِنْ إِهْمَالِهِ】**</u>  
@@ -199,7 +197,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 
 #### E. Dalil Muqaranah Madzhab (Komparasi 4 Madzhab)
 
-7. **Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 5, Hal. 122)**  
+7. **Kitab: Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 5, Hal. 122)**  
    *Karya: Tim Ahli Fiqih Kementerian Wakaf Kuwait | Madzhab: Muqaranah 4 Madzhab (Hanafi, Maliki, Syafi'i, Hanbali) | Lapisan: Ensiklopedia Fiqih Komparatif*  
 
    > [الْوَصِيَّةُ بِالإِطْعَامِ]  
@@ -216,9 +214,8 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=3119#:~:text=%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%A5%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A5%D8%B0%D8%A7%20%D8%A3%D8%B9%D8%A7%D9%86%D8%AA%20%D8%B9%D9%84%D9%89%20%D9%85%D8%AD%D8%B1%D9%85)
 
-\n\n
 
-8. **Kasyful Qina' 'an Matnil Iqna' (Juz 10, Hal. 265) & Al-Mumti' fi Syarh Al-Muqni' (Juz 3, Hal. 258)**  
+8. **Kitab: Kasyful Qina' 'an Matnil Iqna' (Juz 10, Hal. 265) & Al-Mumti' fi Syarh Al-Muqni' (Juz 3, Hal. 258)**  
    *Karya: Al-Imam Manshur bin Yunus Al-Buhuti (Wafat: 1051 H) & Ibnu Munajja | Madzhab: Hanbali (WAJIB TERCANTUM) | Lapisan: Kitab Syarah Induk Hanabilah*  
 
    > <u>**【فَصْلٌ: وَتَصِحُّ الْوَصِيَّةُ بِالْمَنْفَعَةِ الْمُفْرَدَةِ، فَلَوْ وَصَّى لِجِهَةِ بِرٍّ بِمَنَافِعِ دَارِهِ أَوْ أَرْضِهِ أَبَدًا أَوْ مُدَّةً مَعْلُومَةً صَحَّتِ الْوَصِيَّةُ】**</u>، لِأَنَّ الْمَنَافِعَ يَصِحُّ تَمْلِيكُهَا فِي الْحَيَاةِ بِعِوَضٍ وَبِغَيْرِ عِوَضٍ فَصَحَّتِ الْوَصِيَّةُ بِهَا كَالْأَعْيَانِ، <u>**【وَتَكُونُ الْعَيْنُ مَمْلُوكَةً لِلْوَرَثَةِ لَكِنْ لَا يَمْلِكُونَ التَّصَرُّفَ فِيهَا بِمَا يُبْطِلُ الْمَنْفَعَةَ الْمُوصَى بِهَا】**</u>.  

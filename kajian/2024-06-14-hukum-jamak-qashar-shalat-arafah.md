@@ -72,115 +72,126 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 
 ### V. Dasar Pengambilan Hukum (Al-Marāji' wal Ibarāt)
 
-#### Pokok Masalah: Hukum Jamak dan Qashar Shalat di Arafah
+#### A. Batasan Niat Iqamah & Gugurnya Hak Qashar bagi Jamaah Mukim
 
-1.  **المجموع شرح المهذب - ط المنيرية (4/361) — Batasan Niat Iqamah yang Membatalkan Safar**
-    *Karya: النووي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
-    > أَكْثَرَ **<u>**【مِنْ ثَلَاثَةِ أَيَّامٍ قَالَ الشَّافِعِيُّ وَالْأَصْحَابُ إنْ نَوَى إقَامَةَ أَرْبَعَةِ أَيَّامٍ صَارَ مُقِيمًا】**</u>**
-    *Makna Murod / Terjemah:* Lebih dari **<u>**【tiga hari, Imam Syafi'i dan para Ashhab (ulama Syafi'iyyah) berkata: Jika seseorang berniat menetap empat hari, maka ia menjadi mukim】**</u>**.
+1. **Kitab: Al-Majmu' Syarah Al-Muhadzdzab (المجموع شرح المهذب) — (Juz 4, Hal. 361)**  
+   *Karya: Al-Imam Abu Zakariya Yahya bin Syaraf An-Nawawi (Wafat: 676 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini adalah dasar utama dalam Mazhab Syafi'i yang menetapkan batas niat menetap 4 hari (tidak termasuk hari masuk dan keluar) yang mengubah status musafir menjadi mukim, sehingga gugur hak untuk meng-qashar shalat. Ini sangat relevan bagi jamaah haji yang tinggal lama di Makkah sebelum wukuf.
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2018#:~:text=%D9%85%D9%86%20%D9%86%D9%88%D9%89%20%D8%A7%D9%84%D8%A5%D9%82%D8%A7%D9%85%D8%A9%20%D8%A3%D8%B1%D8%A8%D8%B9%D8%A9%20%D8%A3%D9%8A%D8%A7%D9%85)
+   > أَكْثَرَ **<u>**【مِنْ ثَلَاثَةِ أَيَّامٍ قَالَ الشَّافِعِيُّ وَالْأَصْحَابُ إنْ نَوَى إقَامَةَ أَرْبَعَةِ أَيَّامٍ صَارَ مُقِيمًا】**</u>**
 
-2.  **البيان في مذهب الإمام الشافعي (2/478) — Penegasan Niat Iqamah dan Gugurnya Qashar**
-    *Karya: العمراني | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
+   *Makna Murod / Terjemah:*  
+   Lebih dari **<u>**【tiga hari, Imam Syafi'i dan para Ashhab (ulama Syafi'iyyah) berkata: Jika seseorang berniat menetap empat hari, maka ia menjadi mukim】**</u>**.
 
-    > وإن **<u>**【نوى إقامة أربعة أيام، فما زاد على ذلك لم يقصر】**</u>**.
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ibarat ini adalah dasar utama dalam Madzhab Syafi'i yang menetapkan batas niat menetap 4 hari (tidak termasuk hari masuk dan keluar) yang mengubah status musafir menjadi mukim, sehingga gugur hak untuk meng-qashar shalat. Ini sangat relevan bagi jamaah haji yang tinggal lama di Makkah sebelum wukuf.
 
-    *Makna Murod / Terjemah:* Dan jika ia **<u>**【berniat menetap empat hari, maka yang lebih dari itu ia tidak boleh meng-qashar shalat】**</u>**.
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2018#:~:text=%D9%85%D9%86%20%D9%86%D9%88%D9%89%20%D8%A7%D9%84%D8%A5%D9%82%D8%A7%D9%85%D8%A9%20%D8%A3%D8%B1%D8%A8%D8%B9%D8%A9%20%D8%A3%D9%8A%D8%A7%D9%85)
 
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini menegaskan bahwa niat menetap 4 hari atau lebih secara otomatis membatalkan hak qashar shalat bagi musafir. Ini merupakan penopang argumen bahwa jamaah haji yang sudah mukim di Makkah tidak boleh meng-qashar di Arafah.
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21721?page=916#:~:text=%D9%85%D9%86%20%D9%86%D9%88%D9%89%20%D8%A7%D9%84%D8%A5%D9%82%D8%A7%D9%85%D8%A9%20%D8%A3%D8%B1%D8%A8%D8%B9%D8%A9%20%D8%A3%D9%8A%D8%A7%D9%85)
+2. **Kitab: Al-Bayan fi Madzhab Al-Imam Asy-Syafi'i (البيان في مذهب الإمام الشافعي) — (Juz 2, Hal. 478)**  
+   *Karya: Al-Imam Abul Husain Yahya bin Abil Khair Al-'Imrani (Wafat: 558 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-3.  **بحر المذهب للروياني (3/508) — Larangan Qashar bagi Mukim di Arafah**
-    *Karya: عَبْد الواحِد الرُّوْياني | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
+   > وإن **<u>**【نوى إقامة أربعة أيام، فما زاد على ذلك لم يقصر】**</u>**.
 
-    > يجوز ذلك.\n> فرْعٌ آخرُ\n> قد ذكرنا في كتاب الصلاة ما قيل في كتاب الجمع بين الصلاتين بعرفة، وأن **<u>**【المقيمين بعرفة لا يجوز لهم القصر】**</u>**.
+   *Makna Murod / Terjemah:*  
+   Dan jika ia **<u>**【berniat menetap empat hari, maka yang lebih dari itu ia tidak boleh meng-qashar shalat】**</u>**.
 
-    *Makna Murod / Terjemah:* Itu dibolehkan. Cabang masalah lain: Kami telah sebutkan dalam Kitab Shalat apa yang dikatakan mengenai menjamak dua shalat di Arafah, dan bahwa **<u>**【bagi yang mukim di Arafah tidak boleh meng-qashar shalat】**</u>**.
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ibarat ini menegaskan bahwa niat menetap 4 hari atau lebih secara otomatis membatalkan hak qashar shalat bagi musafir. Ini merupakan penopang argumen bahwa jamaah haji yang sudah mukim di Makkah tidak boleh meng-qashar di Arafah.
 
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini secara eksplisit menyatakan larangan qashar bagi mereka yang berstatus mukim di Arafah. Ini adalah dalil kuat yang mendukung rumusan hukum bahwa jamaah haji yang sudah mukim tidak boleh meng-qashar shalatnya di Arafah.
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21721?page=916#:~:text=%D9%85%D9%86%20%D9%86%D9%88%D9%89%20%D8%A7%D9%84%D8%A5%D9%82%D8%A7%D9%85%D8%A9%20%D8%A3%D8%B1%D8%A8%D8%B9%D8%A9%20%D8%A3%D9%8A%D8%A7%D9%85)
 
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/16934?page=1568#:~:text=%D8%A7%D9%84%D9%85%D9%82%D9%8A%D9%85%D9%8A%D9%86%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9%20%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2)
+3. **Kitab: Bahrul Madzhab li Ar-Ruyani (بحر المذهب للروياني) — (Juz 3, Hal. 508)**  
+   *Karya: Al-Imam Abu Al-Mahasin Abdul Wahid Ar-Ruyani (Wafat: 502 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-4.  **الحاوي الكبير (4/169) — Praktik Jamak Nabi ﷺ di Arafah**
-    *Karya: الماوردي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
+   > يجوز ذلك. فَرْعٌ آخَرُ: قد ذكرنا في كتاب الصلاة ما قيل في كتاب الجمع بين الصلاتين بعرفة، وأن **<u>**【المقيمين بعرفة لا يجوز لهم القصر】**</u>**.
 
-    > رِوَايَةُ ابْنِ عُمَرَ أَنَّ النَّبِيَّ - ﷺ َ - **<u>**【جَمَعَ بَيْنَ الظُّهْرِ وَالْعَصْرِ بِعَرَفَةَ بأذانٍ وَإِقَامَتَيْنِ】**</u>**
+   *Makna Murod / Terjemah:*  
+   Itu dibolehkan. Cabang masalah lain: Kami telah sebutkan dalam Kitab Shalat apa yang dikatakan mengenai menjamak dua shalat di Arafah, dan bahwa **<u>**【bagi yang mukim di Arafah tidak boleh meng-qashar shalat】**</u>**.
 
-    *Makna Murod / Terjemah:* Riwayat dari Ibnu Umar bahwa Nabi ﷺ **<u>**【menggabungkan shalat Dhuhur dan Ashar di Arafah dengan satu azan dan dua iqamah】**</u>**.
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ibarat ini secara eksplisit menyatakan larangan qashar bagi mereka yang berstatus mukim di Arafah. Ini adalah dalil kuat yang mendukung rumusan hukum bahwa jamaah haji yang sudah mukim tidak boleh meng-qashar shalatnya di Arafah.
 
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ini adalah dalil sarih (tegas) yang menunjukkan praktik Nabi Muhammad ﷺ dalam menjamak shalat Dhuhur dan Ashar di Arafah. Ini menjadi dasar utama kesunnahan jamak di Arafah bagi jamaah haji, baik musafir (dengan qashar) maupun mukim (dengan khilaf jamak saja sebagai *makhraj syar'i*).
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/16934?page=1568#:~:text=%D8%A7%D9%84%D9%85%D9%82%D9%8A%D9%85%D9%8A%D9%86%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9%20%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2)
 
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=1635#:~:text=%D8%AC%D9%85%D8%B9%20%D9%88%D9%82%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D9%81%D8%A9%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9)
+4. **Kitab: Asna Al-Mathalib fi Syarhi Raudh Ath-Thalib (أسنى المطالب في شرح روض الطالب) — (Juz 2, Hal. 83)**  
+   *Karya: Syaikhul Islam Zakariya Al-Anshari (Wafat: 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
 
-5.  **نهاية المطلب في دراية المذهب (2/466) — Khilaf Jamak bagi Mukim karena Nusuk**
-    *Karya: الجويني، أبو المعالي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
+   > فَقَالَ وَإِذَا ثَبَتَ أَنَّهُ لَا يَتَرَخَّصُ فَلَا يَجُوزُ لَهُ **<u>**【الْقَصْرُ فِي الصَّلَاةِ】**</u>**، وَالْفِطْرُ فِي شَهْرِ رَمَضَانَ إِلَى آخِرِهِ، فَاسْتَفَدْنَا مِنْ كَلَامِهِ أَنَّ كُلَّ مَنْ لَا يَتَرَخَّصُ لَا يَقْصُرُ.
 
-    > النسك، فعلى هذا **<u>**【يجمع المكي، ويجمع العَرفي بعرفة أيضًا】**</u>**، فهذا تفصيل القول في السبب الذي يقتضي الجمع في هذا الفن.
+   *Makna Murod / Terjemah:*  
+   Ia berkata, "Dan jika telah tetap bahwa ia tidak mendapatkan *rukhshah*, maka **<u>**【tidak boleh baginya meng-qashar shalat】**</u>**, dan berbuka puasa di bulan Ramadhan..." Dari perkataannya ini kita mengambil faidah bahwa setiap orang yang tidak berhak atas rukhshah musafir maka tidak boleh meng-qashar shalat.
 
-    *Makna Murod / Terjemah:* ...manasik haji. Maka berdasarkan ini, **<u>**【penduduk Makkah menjamak, dan penduduk Arafah juga menjamak di Arafah】**</u>**. Inilah perincian pendapat tentang sebab yang mewajibkan jamak dalam masalah ini.
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ibarat ini secara kaidah umum menegaskan bahwa seseorang yang tidak memenuhi syarat rukhshah safar maka haram baginya meng-qashar shalat. Hal ini mengunci status jamaah haji yang telah berniat mukim di Makkah agar tidak memotong rakaat shalatnya di Arafah.
 
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini menunjukkan adanya pendapat (walaupun tidak selalu yang paling kuat) yang membolehkan jamak bagi *mukim* (penduduk Makkah atau Arafah) di Arafah, dengan alasan *nusuk* (manasik haji), bukan karena safar. Ini menjadi dasar bagi pendapat *muqabilul ashoh* yang disebutkan dalam rumusan hukum, bahwa mereka tetap shalat secara *ittmam* (empat rakaat) jika menjamak.
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9851?page=1326#:~:text=%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%84%D9%84%D8%AD%D8%A7%D8%A7%D8%AC%20%D9%84%D9%84%D9%85%D9%82%D9%8A%D9%85)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30130?page=722#:~:text=%D9%82%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%84%D9%84%D8%AD%D8%A7%D8%AC%20%D9%84%D9%84%D9%85%D9%82%D9%8A%D9%85)
 
-6.  **التنبيه في الفقه الشافعي (1/41) — Syarat Itmam bagi Mukim**
-    *Karya: أبو إسحاق الشيرازي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
+5. **Kitab: At-Tanbih fil Fiqh Asy-Syafi'i (التنبيه في الفقه الشافعي) — (Juz 1, Hal. 41)**  
+   *Karya: Al-Imam Abu Ishaq Asy-Syirazi (Wafat: 476 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-    > ينو **<u>**【القصر، أو ائتم بمقيم في جزءٍ من صلاته، أو بمن لا يعرف أنه مسافر أو مقيم؛ لزمه أن يتمّ】**</u>**.
+   > وَإِنْ لَمْ يَنْوِ **<u>**【الْقَصْرَ، أَوْ ائْتَمَّ بِمُقِيمٍ فِي جُزْءٍ مِنْ صَلَاتِهِ، أَوْ بِمَنْ لَا يَعْرِفُ أَنَّهُ مُسَافِرٌ أَوْ مُقِيمٌ؛ لَزِمَهُ أَنْ يُتِمَّ】**</u>**.
 
-    *Makna Murod / Terjemah:* Jika ia berniat **<u>**【qashar, atau bermakmum kepada mukim dalam sebagian shalatnya, atau kepada orang yang tidak diketahui apakah ia musafir atau mukim; maka ia wajib menyempurnakan shalat (ittmam)】**</u>**.
+   *Makna Murod / Terjemah:*  
+   Jika ia tidak berniat **<u>**【qashar, atau bermakmum kepada imam yang mukim dalam sebagian shalatnya, atau kepada orang yang tidak diketahui apakah ia musafir atau mukim; maka ia wajib menyempurnakan shalat (ittmam 4 rakaat)】**</u>**.
 
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini memperkuat bahwa status mukim mengharuskan *ittmam* (menyempurnakan shalat). Ini juga menggarisbawahi keharusan *ittmam* jika bermakmum pada imam mukim, atau bahkan jika status imam tidak jelas.
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7589?page=29#:~:text=%D9%82%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%84%D9%84%D8%AD%D8%A7%D8%A7%D8%AC%20%D9%84%D9%84%D9%85%D9%82%D9%8A%D9%85)
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ibarat ini memperkuat bahwa status mukim mengharuskan *ittmam* (menyempurnakan shalat 4 rakaat), serta menggarisbawahi keharusan *ittmam* jika bermakmum pada imam mukim di Arafah.
 
-
----
-
-### V. Dasar Pengambilan Hukum (Al-Marāji' wal Ibarāt)
-
-#### Pokok Masalah: Hukum Jamak dan Qashar Shalat di Arafah
-
-1.  **الحاوي الكبير (4/169)**
-    *Karya: الماوردي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
-    > رِوَايَةُ ابْنِ عُمَرَ أَنَّ النَّبِيَّ - ﷺ َ - **<u>**【جَمَعَ بَيْنَ الظُّهْرِ وَالْعَصْرِ بِعَرَفَةَ بأذانٍ وَإِقَامَتَيْنِ】**</u>**
-    *Makna Murod / Terjemah:* Riwayat dari Ibnu Umar bahwa Nabi ﷺ **<u>**【menggabungkan shalat Dhuhur dan Ashar di Arafah dengan satu azan dan dua iqamah】**</u>.**
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ini adalah dalil sarih (tegas) yang menunjukkan praktik Nabi Muhammad ﷺ dalam menjamak shalat Dhuhur dan Ashar di Arafah. Ini menjadi dasar utama kesunnahan jamak di Arafah bagi jamaah haji, baik musafir (dengan qashar) maupun mukim (dengan khilaf jamak saja).
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=1635#:~:text=%D8%AC%D9%85%D8%B9%20%D9%88%D9%82%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D9%81%D8%A9%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9)
-
-2.  **أسنى المطالب في شرح روض الطالب - ط العلمية (2/97)**
-    *Karya: زكريا الأنصاري | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
-    > الترمذي وحسنه، والبيهقي وصححه (^٢). وروى مسلم عن جابر أنه ﷺ \"**<u>**【جمع بين الظهر، والعصر بعرفة في وقت الظهر】**</u>\" وروى الشيخان
-    *Makna Murod / Terjemah:* At-Tirmidzi menghasankannya, dan Al-Baihaqi mensahihkannya. Dan Muslim meriwayatkan dari Jabir bahwa Nabi ﷺ **<u>**【menggabungkan antara Dhuhur dan Ashar di Arafah pada waktu Dhuhur】**</u>**. Dan diriwayatkan oleh Asy-Syaikhani (Bukhari-Muslim)...
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini menguatkan dalil praktik Nabi ﷺ menjamak shalat Dhuhur dan Ashar di Arafah pada waktu Dhuhur (jamak taqdim). Ini menegaskan status sunnah jamak taqdim di Arafah, yang menjadi dasar bagi musafir untuk jamak qashar, dan menjadi titik pembahasan khilaf bagi mukim untuk jamak saja.
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30130?page=737#:~:text=%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%B8%D9%87%D8%B1%20%D9%88%D9%82%D8%B5%D8%B1%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9)
-
-3.  **فقه العبادات على المذهب الشافعي (1/450)**
-    *Karya: درية العيطة | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Fiqih Kontemporer/Penjelasan*
-    > -٢- حالات يفضل **فيها** القصور والجمع:\n> (١) **<u>**【حالة الحاج المسافر في مزدلفة وعرفة】**</u>، لما روى عبد
-    *Makna Murod / Terjemah:* -2- Keadaan-keadaan yang dianjurkan padanya qashar dan jamak: (1) **<u>**【Keadaan haji yang musafir di Muzdalifah dan Arafah】**</u>**, berdasarkan apa yang diriwayatkan oleh Abd...
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini secara eksplisit menyebutkan bahwa qashar dan jamak dianjurkan (yufaddhalu) bagi jamaah haji yang berstatus musafir saat berada di Muzdalifah dan Arafah. Ini mengkonfirmasi bahwa praktik jamak qashar adalah yang utama bagi musafir di Arafah.
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/12895?page=450#:~:text=%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%B1%20%D9%81%D9%8A%20%D8%B9%D8%B1%D9%81%D8%A9)
-
-4.  **أسنى المطالب في شرح روض الطالب - ط العلمية (2/83) — Penegasan Qashar bagi Mukim**
-    *Karya: زكريا الأنصاري | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
-    > فقال وإذا ثبت أنه لا يترخص فلا يجوز له **<u>**【القصر في الصلاة】**</u>**، والفطر في شهر رمضان إلى آخره فاستفدنا من كلامه أن كل من
-    *Makna Murod / Terjemah:* Ia berkata, "Dan jika telah tetap bahwa ia tidak mendapatkan *rukhsah*, maka **<u>**【tidak boleh baginya meng-qashar shalat】**</u>**, dan berbuka puasa di bulan Ramadhan..." Dari perkataannya ini kita mengambil pelajaran bahwa setiap orang...
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini secara umum menegaskan bahwa seseorang yang tidak memenuhi syarat untuk mendapatkan *rukhsah* (seperti safar), maka tidak boleh baginya meng-qashar shalat. Ini menjadi dasar bahwa mukim di Arafah tidak boleh meng-qashar shalatnya.
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30130?page=722#:~:text=%D9%82%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%84%D9%84%D8%AD%D8%A7%D8%AC%20%D9%84%D9%84%D9%85%D9%82%D9%8A%D9%85)
-
-5.  **التنبيه في الفقه الشافعي (1/41) — Syarat Itmam bagi Mukim**
-    *Karya: أبو إسحاق الشيرازي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
-    > ينو **<u>**【القصر، أو ائتم بمقيم في جزءٍ من صلاته، أو بمن لا يعرف أنه مسافر أو مقيم؛ لزمه أن يتمّ】**</u>**.
-    *Makna Murod / Terjemah:* Jika ia berniat **<u>**【qashar, atau bermakmum kepada mukim dalam sebagian shalatnya, atau kepada orang yang tidak diketahui apakah ia musafir atau mukim; maka ia wajib menyempurnakan shalat (ittmam)】**</u>**.
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini memperkuat bahwa status mukim mengharuskan *ittmam* (menyempurnakan shalat). Ini juga menggarisbawahi keharusan *ittmam* jika bermakmum pada imam mukim, atau bahkan jika status imam tidak jelas.
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7589?page=29#:~:text=%D9%82%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%84%D9%84%D8%AD%D8%A7%D8%A7%D8%AC%20%D9%84%D9%84%D9%85%D9%82%D9%8A%D9%85)
-
-6.  **نهاية المطلب في دراية المذهب (2/466) — Khilaf Jamak bagi Mukim karena Nusuk**
-    *Karya: الجويني، أبو المعالي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
-    > النسك، فعلى هذا **<u>**【يجمع المكي، ويجمع العَرفي بعرفة أيضًا】**</u>**، فهذا تفصيل القول في السبب الذي يقتضي الجمع في هذا الفن.
-    *Makna Murod / Terjemah:* ...manasik haji. Maka berdasarkan ini, **<u>**【penduduk Makkah menjamak, dan penduduk Arafah juga menjamak di Arafah】**</u>**. Inilah perincian pendapat tentang sebab yang mewajibkan jamak dalam masalah ini.
-    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini menunjukkan adanya pendapat (walaupun tidak selalu yang paling kuat) yang membolehkan jamak bagi *mukim* (penduduk Makkah atau Arafah) di Arafah, dengan alasan *nusuk* (manasik haji), bukan karena safar. Ini menjadi dasar bagi pendapat *muqabilul ashoh* yang disebutkan dalam rumusan hukum. Mereka tetap shalat secara *ittmam* (empat rakaat).
-    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9851?page=1326#:~:text=%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%84%D9%84%D8%AD%D8%A7%D8%AC%20%D9%84%D9%84%D9%85%D9%82%D9%8A%D9%85)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7589?page=29#:~:text=%D9%82%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%84%D9%84%D8%AD%D8%A7%D8%AC%20%D9%84%D9%84%D9%85%D9%82%D9%8A%D9%85)
 
 ---
+
+#### B. Dalil Kesunnahan Jamak di Arafah & Pendapat Jamak bagi Mukim
+
+6. **Kitab: Al-Hawi Al-Kabir (الحاوي الكبير) — (Juz 4, Hal. 169)**  
+   *Karya: Al-Imam Abul Hasan Ali bin Muhammad Al-Mawardi (Wafat: 450 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
+
+   > رِوَايَةُ ابْنِ عُمَرَ أَنَّ النَّبِيَّ - ﷺ َ - **<u>**【جَمَعَ بَيْنَ الظُّهْرِ وَالْعَصْرِ بِعَرَفَةَ بأذانٍ وَإِقَامَتَيْنِ】**</u>**
+
+   *Makna Murod / Terjemah:*  
+   Riwayat dari Ibnu Umar bahwa Nabi ﷺ **<u>**【menggabungkan shalat Dhuhur dan Ashar di Arafah dengan satu azan dan dua iqamah】**</u>**.
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ini adalah dalil sharih yang menunjukkan praktik Rasulullah ﷺ dalam menjamak shalat Dhuhur dan Ashar di Arafah. Ini menjadi dasar utama kesunnahan jamak di Arafah bagi seluruh jamaah haji.
+
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=1635#:~:text=%D8%AC%D9%85%D8%B9%20%D9%88%D9%82%D8%B5%D8%B1%20%D8%A7%D9%84%D8%B5%D9%81%D8%A9%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9)
+
+7. **Kitab: Asna Al-Mathalib fi Syarhi Raudh Ath-Thalib (أسنى المطالب في شرح روض الطالب) — (Juz 2, Hal. 97)**  
+   *Karya: Syaikhul Islam Zakariya Al-Anshari (Wafat: 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
+
+   > رَوَى التِّرْمِذِيُّ وَحَسَّنَهُ، وَالْبَيْهَقِيُّ وَصَحَّحَهُ. وَرَوَى مُسْلِمٌ عَنْ جَابِرٍ أَنَّهُ ﷺ "**<u>**【جَمَعَ بَيْنَ الظُّهْرِ وَالْعَصْرِ بِعَرَفَةَ فِي وَقْتِ الظُّهْرِ】**</u>**" وَرَوَى الشَّيْخَانِ.
+
+   *Makna Murod / Terjemah:*  
+   At-Tirmidzi menghasankannya, dan Al-Baihaqi mensahihkannya. Dan Muslim meriwayatkan dari Jabir bahwa Nabi ﷺ **<u>**【menggabungkan antara Dhuhur dan Ashar di Arafah pada waktu Dhuhur (jamak taqdim)】**</u>**. Dan diriwayatkan pula oleh Asy-Syaikhani (Bukhari-Muslim)...
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ibarat ini menguatkan dalil praktik Nabi ﷺ menjamak shalat Dhuhur dan Ashar di Arafah pada waktu Dhuhur (jamak taqdim), yang menjadi dasar bagi musafir untuk jamak qashar, dan menjadi titik pembahasan khilaf bagi mukim untuk jamak shalat secara ittmam.
+
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30130?page=737#:~:text=%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%B8%D9%87%D8%B1%20%D9%88%D9%82%D8%B5%D8%B1%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9)
+
+8. **Kitab: Fiqhul Ibadat 'ala Madzhab Asy-Syafi'i (فقه العبادات على المذهب الشافعي) — (Juz 1, Hal. 450)**  
+   *Karya: Dr. Durriyah Al-'Aithah | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Fiqih Kontemporer Muktabar*
+
+   > حَالَاتٌ يُفَضَّلُ فِيهَا الْقَصْرُ وَالْجَمْعُ: (١) **<u>**【حَالَةُ الْحَاجِّ الْمُسَافِرِ فِي مُزْدَلِفَةَ وَعَرَفَةَ】**</u>**، لِمَا رَوَى عَبْدُ اللَّهِ بْنُ عُمَرَ.
+
+   *Makna Murod / Terjemah:*  
+   Keadaan-keadaan yang dianjurkan padanya qashar dan jamak: (1) **<u>**【Keadaan haji yang musafir di Muzdalifah dan Arafah】**</u>**, berdasarkan apa yang diriwayatkan oleh Abdullah bin Umar.
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ibarat ini secara eksplisit menegaskan bahwa qashar dan jamak dianjurkan (*yufadhdhalu*) bagi jamaah haji yang berstatus musafir saat berada di Arafah dan Muzdalifah.
+
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/12895?page=450#:~:text=%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%B1%20%D9%81%D9%8A%20%D8%B9%D8%B1%D9%81%D8%A9)
+
+9. **Kitab: Nihayatul Mathlab fi Dirayatil Madzhab (نهاية المطلب في دراية المذهب) — (Juz 2, Hal. 466)**  
+   *Karya: Imamul Haramain Abu Al-Ma'ali Abdul Malik Al-Juwaini (Wafat: 478 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
+
+   > النُّسُكُ، فَعَلَى هَذَا **<u>**【يَجْمَعُ الْمَكِّيُّ، وَيَجْمَعُ الْعَرَفِيُّ بِعَرَفَةَ أَيْضًا】**</u>**، فَهَذَا تَفْصِيلُ الْقَوْلِ فِي السَّبَبِ الَّذِي يَقْتَضِي الْجَمْعَ فِي هَذَا الْفَنِّ.
+
+   *Makna Murod / Terjemah:*  
+   ...karena faktor manasik haji (*nusuk*). Maka berdasarkan pendapat ini, **<u>**【penduduk Makkah menjamak, dan penduduk Arafah juga menjamak di Arafah】**</u>**. Inilah perincian pendapat tentang sebab yang membolehkan jamak dalam masalah ini.
+
+   *Wajhul Istidlal / Wajhul Ilhāq:*  
+   Ibarat ini menunjukkan adanya jalan keluar fiqih (*makhraj syar'i / muqabilul ashah*) yang membolehkan jamak saja (tanpa qashar, yakni 4 rakaat sempurna / ittmam) bagi jamaah mukim di Arafah semata-mata karena faktor kesibukan ibadah wukuf (*li ajlin nusuk*).
+
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9851?page=1326#:~:text=%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9%20%D9%84%D9%84%D8%AD%D8%A7%D8%AC%20%D9%84%D9%84%D9%85%D9%82%D9%8A%D9%85)
+
