@@ -103,14 +103,14 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    > (مَسْأَلَةٌ): <u>**【عِلْمُ الْأَوْفَاقِ لَيْسَ بِسِحْرٍ إِذَا كَانَتِ الْأَعْدَادُ وَالْحُرُوفُ مُنْتَزَعَةً مِنَ الْقُرْآنِ وَالْأَسْمَاءِ الْإِلَهِيَّةِ، وَإِنَّمَا هُوَ عِلْمٌ شَرِيفٌ يَعْتَمِدُ عَلَى خَوَاصِّ الْأَعْدَادِ وَمُنَاسَبَاتِ الْحُرُوفِ】**</u>، فَيَجُوزُ اسْتِعْمَالُهَا وَتَعْلِيقُهَا إِذَا قَصَدَ بِهَا الْخَيْرَ وَالتَّدَاوِيَ، بِخِلَافِ مَا إِذَا كَانَتْ مُشْتَمِلَةً عَلَى أَسْمَاءِ الشَّيَاطِينِ أَوْ طَلَاسِمَ مَجْهُولَةٍ أَوْ قُصِدَ بِهَا الْإِضْرَارُ بِالْغَيْرِ فَإِنَّهُ يَحْرُمُ قَطْعًا.  
    *Makna Murod / Terjemah:* "(Masalah): Ilmu al-awfaq (wifiq/rajahan kotak angka) bukanlah termasuk sihir apabila angka-angka dan huruf-hurufnya diambil dari Al-Qur'an dan Asma-Asma Ilahi. Ilmu tersebut adalah cabang ilmu yang mulia yang bertumpu pada khasiat bilangan dan kesesuaian huruf. Maka diperbolehkan menggunakannya dan menggantungkannya jika diniatkan untuk kebaikan dan pengobatan. Berbeda halnya apabila wifiq tersebut memuat nama-nama setan, rajahan jimat asing yang tidak dikenal, atau ditujukan untuk mencelakai orang lain, maka hukumnya haram secara mutlak."  
    *Wajhul Istidlal / Wajhul Ilhāq:* Menjadi dalil spesifik pembeda hukum ilmu wifiq/rajah. Wifiq Al-Qur'an untuk ikhtiar kebaikan hukumnya mubah, sedangkan wifiq sihir dengan bantuan jin/setan hukumnya haram qath'i.  
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=598)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Shamela / Turats](https://shamela.ws/book/12000/298)
 
 6. **Al-Fatawa Al-Haditsiyyah (Hal. 4-5)**  
    *Karya: Al-Imam Ibnu Hajar Al-Haitami (Wafat: 974 H) | Lapisan: Kitab Fatawa Muta'akhirin*  
    > وَسُئِلَ رَحِمَهُ اللَّهُ عَنْ كِتَابَةِ الْحُرُوزِ وَالْعَزَائِمِ؟ فَأَجَابَ: <u>**【إِنْ كَانَتْ مَكْتُوبَةً بِالْقُرْآنِ أَوْ أَسْمَاءِ اللَّهِ تَعَالَى وَصِفَاتِهِ وَدَعَوَاتٍ مَأْثُورَةٍ جَازَتْ كِتَابَتُهَا وَحَمْلُهَا، وَكَذَا الْأَوْفَاقُ الْعَدَدِيَّةُ الْمُسْتَمَدَّةُ مِنْهَا】**</u>. وَأَمَّا مَا كَانَ فِيهِ كَلَامٌ لَا يُعْرَفُ مَعْنَاهُ أَوْ شَيْءٌ مِنْ عِبَادَاتِ الْجِنِّ وَتَعْظِيمِهِمْ فَهُوَ سِحْرٌ مُحَرَّمٌ كُفْرٌ أَوْ فَسَادٌ.  
    *Makna Murod / Terjemah:* "Beliau ditanya tentang penulisan jimat/azimat perlindungan (*al-hurūz*) dan 'azimah? Beliau menjawab: 'Jika ditulis dengan Al-Qur'an atau Asma Allah Ta'ala dan sifat-Nya serta doa-doa ma'tsur, maka boleh menulis dan membawanya, demikian pula wifiq angka-angka yang disarikan darinya. Adapun apa yang memuat perkataan yang tidak dipahami maknanya atau pemujaan dan pengagungan terhadap bangsa jin, maka itu adalah sihir yang diharamkan, bahkan bisa berujung kekufuran atau kefasikan'."  
    *Wajhul Istidlal / Wajhul Ilhāq:* Penegasan fatwa Ibnu Hajar Al-Haitami bahwa rajah/wifiq yang mengagungkan jin atau menggunakan mantra tidak jelas (*syubhat*) diharamkan, sedangkan yang bersumber dari asmaullah diperbolehkan.  
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=150)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Shamela / Turath](https://shamela.ws/book/21711/4)
 
 ---
 
@@ -121,11 +121,11 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    > <u>**【الْقَاعِدَةُ الْأُولَى: الْأُمُورُ بِمَقَاصِدِهَا】**</u>. وَمِنْ فُرُوعِهَا أَنَّ اتِّخَاذَ الْأَسْبَابِ الظَّاهِرَةِ مِنَ التَّدَاوِي وَالتَّعْوِيذِ بِالْقُرْآنِ لَا يُنَافِي التَّوَكُّلَ إِذَا كَانَ الْقَصْدُ التَّبَرُّكَ وَاعْتِقَادَ أَنَّ الْمُؤَثِّرَ هُوَ اللَّهُ وَحْدَهُ، <u>**【فَالْوَسَائِلُ لَهَا أَحْكَامُ الْمَقَاصِدِ】**</u>.  
    *Makna Murod / Terjemah:* "Kaidah Pertama: Segala perkara bergantung pada maksud tujuannya. Di antara cabangnya adalah bahwa mengambil sebab-sebab lahiriah seperti berobat dan memohon perlindungan (*ta'wīdz*) dengan ayat Al-Qur'an tidak menafikan tawakal apabila tujuannya untuk mengambil berkah dan berkeyakinan bahwa yang memberi pengaruh hanyalah Allah semata, karena sarana/wasilah mengikuti hukum tujuannya."  
    *Wajhul Istidlal / Wajhul Ilhāq:* Azimat yang dijadikan wasilah ikhtiar dengan tujuan ridha Allah berstatus mubah mengikuti hukum niat tujuannya (*al-wasā'ilu lahā ahkāmul maqāshid*).  
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=598)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah)](https://app.turath.io/book/2186?page=598)
 
 8. **I'anatuth Thalibin 'ala Hall Alfazh Fathil Mu'in (Juz 1, Hal. 84)**  
    *Karya: As-Sayyid Abu Bakar bin Muhammad Syatha Ad-Dimyathi (Wafat: 1310 H) | Lapisan: Kitab Hawasyi Fiqh Syafi'i*  
    > قَوْلُهُ: (وَيُكْرَهُ دُخُولُ خَلَاءٍ بِذِكْرٍ) أَيْ بِمَا كُتِبَ عَلَيْهِ ذِكْرُ اللَّهِ أَوْ قُرْآنٌ. <u>**【نَعَمْ إِذَا كَانَ مَسْتُورًا بِحِرْزٍ كَجِلْدٍ أَوْ فِضَّةٍ أَوْ نَحْوِهِمَا بِحَيْثُ لَا يَظْهَرُ شَيْءٌ مِنْهُ فَلَا كَرَاهَةَ حِينَئِذٍ فِي الدُّخُولِ بِهِ لِلْخَلَاءِ، وَخُصُوصًا إِذَا خَافَ ضَيَاعَهُ أَوْ سَرِقَتَهُ】**</u>.  
    *Makna Murod / Terjemah:* "Ucapannya: (Dan dimakruhkan masuk ke tempat buang air dengan membawa sesuatu yang memuat dzikir) yakni benda yang tertulis asma Allah atau ayat Al-Qur'an. Benar demikian, namun apabila benda/azimat tersebut telah tertutup rapat di dalam wadah penutup seperti kulit, perak, atau sejenisnya sekira tulisan suci tidak tampak sedikit pun, maka tidak ada kemakruhan sama sekali untuk membawanya masuk ke toilet, terlebih apabila ia khawatir azimat tersebut hilang atau dicuri jika ditinggal di luar."  
    *Wajhul Istidlal / Wajhul Ilhāq:* Memberikan panduan praktis dan jalan keluar fiqih (*makhraj syar'i*) bahwa kemakruhan membawa azimat ke kamar mandi gugur apabila azimat terbungkus rapat atau dalam kondisi hajat/khawatir hilang.  
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=66)
+   🔗 *Tautan Verifikasi:* [Buka Teks I'anatuth Thalibin di Turath.io (Book ID 963)](https://app.turath.io/book/963) | Rujukan Serupa: [Al-Majmu' (2/71)](https://app.turath.io/book/2186?page=599)
