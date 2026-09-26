@@ -25,6 +25,8 @@ export default function Header({
   setArabicFontFamily,
   darkMode,
   setDarkMode,
+  activeMainView = 'studio',
+  setActiveMainView,
   onOpenTurath,
   onOpenArchive,
   onOpenSettings,
@@ -83,19 +85,31 @@ export default function Header({
               </span>
             </div>
             
-            {/* Interactive 9Router status button */}
-            <button
-              onClick={onOpenRouterCockpit}
-              className="hidden md:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1.5 font-sans hover:text-turath-emerald transition-colors cursor-pointer group text-left"
-              title="Klik untuk membuka 9Router Remote Cockpit"
-            >
-              <span>Studio Bahtsul Masail</span>
+            {/* Interactive View Switcher & 9Router status */}
+            <div className="hidden md:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1.5 font-sans">
+              <button
+                onClick={() => setActiveMainView && setActiveMainView('studio')}
+                className={`transition-colors font-medium cursor-pointer ${activeMainView === 'studio' ? 'text-turath-emerald font-bold' : 'hover:text-ink-900 dark:hover:text-parchment-200'}`}
+              >
+                Studio Musyawarah
+              </button>
               <span>•</span>
-              <span className="flex items-center gap-1 text-emerald-700 dark:text-emerald-400 font-semibold bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.2 rounded-full border border-emerald-300 dark:border-emerald-800 group-hover:border-turath-emerald">
+              <button
+                onClick={() => setActiveMainView && setActiveMainView('arsip')}
+                className={`transition-colors font-medium cursor-pointer ${activeMainView === 'arsip' ? 'text-turath-emerald font-bold' : 'hover:text-ink-900 dark:hover:text-parchment-200'}`}
+              >
+                Arsip Repositori
+              </button>
+              <span>•</span>
+              <button
+                onClick={onOpenRouterCockpit}
+                className="flex items-center gap-1 text-emerald-700 dark:text-emerald-400 font-semibold bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.2 rounded-full border border-emerald-300 dark:border-emerald-800 hover:border-turath-emerald group"
+                title="Klik untuk membuka 9Router Remote Cockpit"
+              >
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                <span>9Router Cockpit</span>
-              </span>
-            </button>
+                <span>9Router</span>
+              </button>
+            </div>
           </div>
 
           {/* Quick Session History & New Buttons */}
@@ -187,13 +201,23 @@ export default function Header({
             <span className="hidden xl:inline">Turath</span>
           </button>
 
-          {/* Kajian Archive Button */}
+          {/* Kajian Archive Button / Full Tab Switch */}
           <button
-            onClick={onOpenArchive}
-            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium bg-parchment-100 dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-all border border-parchment-200 dark:border-ink-800 flex items-center gap-1 flex-shrink-0"
-            title="Arsip Kajian"
+            onClick={() => {
+              if (activeMainView === 'arsip') {
+                setActiveMainView && setActiveMainView('studio');
+              } else {
+                setActiveMainView && setActiveMainView('arsip');
+              }
+            }}
+            className={`p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium transition-all border flex items-center gap-1 flex-shrink-0 ${
+              activeMainView === 'arsip'
+                ? 'bg-turath-emerald text-white border-turath-emerald shadow-xs font-semibold'
+                : 'bg-parchment-100 dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:bg-parchment-200 dark:hover:bg-ink-800 border-parchment-200 dark:border-ink-800'
+            }`}
+            title={activeMainView === 'arsip' ? "Kembali ke Studio Musyawarah" : "Buka Repositori Arsip Kajian (Full Tab)"}
           >
-            <FolderArchive className="w-3.5 h-3.5 text-ink-500" />
+            <FolderArchive className={`w-3.5 h-3.5 ${activeMainView === 'arsip' ? 'text-turath-gold' : 'text-ink-500'}`} />
             <span className="hidden xl:inline">Arsip</span>
           </button>
 

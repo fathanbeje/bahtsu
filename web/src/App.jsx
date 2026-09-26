@@ -3,7 +3,7 @@ import Header from './components/Header';
 import ChatPane from './components/ChatPane';
 import TaswidahDock from './components/TaswidahDock';
 import TurathModal from './components/TurathModal';
-import KajianArchiveModal from './components/KajianArchiveModal';
+import KajianArchivePage from './components/KajianArchivePage';
 import PasscodeModal from './components/PasscodeModal';
 import SettingsModal from './components/SettingsModal';
 import ModelSelectorModal from './components/ModelSelectorModal';
@@ -44,12 +44,14 @@ export default function App() {
   const [taswidahContent, setTaswidahContent] = useState(() => initialSession?.taswidahContent || '');
   const [routerStatus, setRouterStatus] = useState(null);
 
+  // Main App View: 'studio' (Dual Pane) | 'arsip' (Full Repositori Page)
+  const [activeMainView, setActiveMainView] = useState('studio');
+
   // Mobile View Toggle ('chat' | 'dock')
   const [mobileTab, setMobileTab] = useState('chat');
 
   // Modals
   const [isTurathOpen, setIsTurathOpen] = useState(false);
-  const [isArchiveOpen, setIsArchiveOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isModelSelectorOpen, setIsModelSelectorOpen] = useState(false);
   const [isHistoryOpen, setIsHistoryOpen] = useState(false);
@@ -265,8 +267,10 @@ export default function App() {
         setArabicFontFamily={setArabicFontFamily}
         darkMode={darkMode}
         setDarkMode={setDarkMode}
+        activeMainView={activeMainView}
+        setActiveMainView={setActiveMainView}
         onOpenTurath={() => setIsTurathOpen(true)}
-        onOpenArchive={() => setIsArchiveOpen(true)}
+        onOpenArchive={() => setActiveMainView('arsip')}
         onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenModelSelector={() => setIsModelSelectorOpen(true)}
         onOpenHistory={() => setIsHistoryOpen(true)}
@@ -278,89 +282,109 @@ export default function App() {
         selectedModel={selectedModel}
       />
 
-      {/* Main Dual-Pane Research Studio */}
-      <main className="flex-1 flex overflow-hidden pb-12 md:pb-0">
-        {/* Left Column: Chat & Formulasi */}
-        <div
-          className={`h-full flex-1 flex flex-col min-w-0 transition-all ${
-            mobileTab === 'chat' ? 'flex' : 'hidden md:flex'
-          }`}
-        >
-          <ChatPane
-            messages={messages}
-            isStreaming={isStreaming}
-            onSendMessage={handleSendMessage}
-            onStopStreaming={handleStopStreaming}
-            onResetChat={handleResetChat}
-            onTransferToTaswidah={handleTransferToTaswidah}
-            onOpenModelSelector={() => setIsModelSelectorOpen(true)}
-            onOpenTurath={() => setIsTurathOpen(true)}
-            onOpenArchive={() => setIsArchiveOpen(true)}
-            onOpenRouterCockpit={() => setIsRouterCockpitOpen(true)}
-            onOpenHistory={() => setIsHistoryOpen(true)}
-            onNewSession={handleNewSession}
-            matraMode={matraMode}
+      {/* Main Workspace: Studio Bahtsu or Full Archive Page */}
+      {activeMainView === 'arsip' ? (
+        <main className="flex-1 flex overflow-hidden">
+          <KajianArchivePage
+            onBackToStudio={() => setActiveMainView('studio')}
+            onLoadToTaswidah={(content) => {
+              handleLoadToTaswidah(content);
+              setActiveMainView('studio');
+            }}
+            onLoadToChat={(prompt) => {
+              setActiveMainView('studio');
+              handleSendMessage(prompt);
+            }}
             arabicFontSize={arabicFontSize}
             arabicFontFamily={arabicFontFamily}
-            selectedModel={selectedModel}
           />
+        </main>
+      ) : (
+        <main className="flex-1 flex overflow-hidden pb-12 md:pb-0">
+          {/* Left Column: Chat & Formulasi */}
+          <div
+            className={`h-full flex-1 flex flex-col min-w-0 transition-all ${
+              mobileTab === 'chat' ? 'flex' : 'hidden md:flex'
+            }`}
+          >
+            <ChatPane
+              messages={messages}
+              isStreaming={isStreaming}
+              onSendMessage={handleSendMessage}
+              onStopStreaming={handleStopStreaming}
+              onResetChat={handleResetChat}
+              onTransferToTaswidah={handleTransferToTaswidah}
+              onOpenModelSelector={() => setIsModelSelectorOpen(true)}
+              onOpenTurath={() => setIsTurathOpen(true)}
+              onOpenArchive={() => setActiveMainView('arsip')}
+              onOpenRouterCockpit={() => setIsRouterCockpitOpen(true)}
+              onOpenHistory={() => setIsHistoryOpen(true)}
+              onNewSession={handleNewSession}
+              matraMode={matraMode}
+              arabicFontSize={arabicFontSize}
+              arabicFontFamily={arabicFontFamily}
+              selectedModel={selectedModel}
+            />
+          </div>
+
+          {/* Right Column: Taswīdah & Ibarat Dock */}
+          <div
+            className={`h-full transition-all duration-300 flex-shrink-0 ${
+              mobileTab === 'dock' ? 'w-full flex' : 'hidden md:flex'
+            } ${
+              dockLayout === 'wide'
+                ? 'md:w-[58%] lg:w-[60%] xl:w-[62%]'
+                : dockLayout === 'balanced'
+                ? 'md:w-1/2 lg:w-1/2'
+                : 'md:w-[420px] lg:w-[460px] xl:w-[500px]'
+            }`}
+          >
+            <TaswidahDock
+              taswidahContent={taswidahContent}
+              setTaswidahContent={setTaswidahContent}
+              onSaveSuccess={fetchRouterStatus}
+              arabicFontSize={arabicFontSize}
+              arabicFontFamily={arabicFontFamily}
+              matraMode={matraMode}
+              selectedModel={selectedModel}
+              dockLayout={dockLayout}
+              setDockLayout={handleDockLayoutChange}
+            />
+          </div>
+        </main>
+      )}
+
+      {/* Mobile Fixed Bottom Navigation Bar (Only in Studio mode) */}
+      {activeMainView === 'studio' && (
+        <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 flex items-center justify-around border-t border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 backdrop-blur-md text-xs font-sans font-medium h-12 shadow-lg">
+          <button
+            onClick={() => setMobileTab('chat')}
+            className={`flex items-center gap-1.5 h-full flex-1 justify-center transition-all ${
+              mobileTab === 'chat'
+                ? 'text-turath-emerald dark:text-emerald-400 font-bold bg-turath-emerald/10 dark:bg-turath-emerald/15 border-t-2 border-turath-emerald'
+                : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-100'
+            }`}
+          >
+            <MessageSquare className="w-4 h-4" />
+            <span>Musyawarah (Chat)</span>
+          </button>
+
+          <button
+            onClick={() => setMobileTab('dock')}
+            className={`flex items-center gap-1.5 h-full flex-1 justify-center transition-all ${
+              mobileTab === 'dock'
+                ? 'text-turath-emerald dark:text-emerald-400 font-bold bg-turath-emerald/10 dark:bg-turath-emerald/15 border-t-2 border-turath-emerald'
+                : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-100'
+            }`}
+          >
+            <BookOpen className="w-4 h-4" />
+            <span>Taswīdah & Ibarat</span>
+            {taswidahContent && (
+              <span className="w-2 h-2 rounded-full bg-turath-emerald" />
+            )}
+          </button>
         </div>
-
-        {/* Right Column: Taswīdah & Ibarat Dock */}
-        <div
-          className={`h-full transition-all duration-300 flex-shrink-0 ${
-            mobileTab === 'dock' ? 'w-full flex' : 'hidden md:flex'
-          } ${
-            dockLayout === 'wide'
-              ? 'md:w-[58%] lg:w-[60%] xl:w-[62%]'
-              : dockLayout === 'balanced'
-              ? 'md:w-1/2 lg:w-1/2'
-              : 'md:w-[420px] lg:w-[460px] xl:w-[500px]'
-          }`}
-        >
-          <TaswidahDock
-            taswidahContent={taswidahContent}
-            setTaswidahContent={setTaswidahContent}
-            onSaveSuccess={fetchRouterStatus}
-            arabicFontSize={arabicFontSize}
-            arabicFontFamily={arabicFontFamily}
-            matraMode={matraMode}
-            selectedModel={selectedModel}
-            dockLayout={dockLayout}
-            setDockLayout={handleDockLayoutChange}
-          />
-        </div>
-      </main>
-
-      {/* Mobile Fixed Bottom Navigation Bar (Docked to bottom of screen) */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 flex items-center justify-around border-t border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 backdrop-blur-md text-xs font-sans font-medium h-12 shadow-lg">
-        <button
-          onClick={() => setMobileTab('chat')}
-          className={`flex items-center gap-1.5 h-full flex-1 justify-center transition-all ${
-            mobileTab === 'chat'
-              ? 'text-turath-emerald dark:text-emerald-400 font-bold bg-turath-emerald/10 dark:bg-turath-emerald/15 border-t-2 border-turath-emerald'
-              : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-100'
-          }`}
-        >
-          <MessageSquare className="w-4 h-4" />
-          <span>Musyawarah (Chat)</span>
-        </button>
-
-        <button
-          onClick={() => setMobileTab('dock')}
-          className={`flex items-center gap-1.5 h-full flex-1 justify-center transition-all ${
-            mobileTab === 'dock'
-              ? 'text-turath-emerald dark:text-emerald-400 font-bold bg-turath-emerald/10 dark:bg-turath-emerald/15 border-t-2 border-turath-emerald'
-              : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-100'
-          }`}
-        >
-          <BookOpen className="w-4 h-4" />
-          <span>Taswīdah & Ibarat</span>
-          {taswidahContent && (
-            <span className="w-2 h-2 rounded-full bg-turath-emerald" />
-          )}
-        </button>
-      </div>
+      )}
 
       {/* Model Selector Modal Drawer */}
       <ModelSelectorModal
@@ -376,13 +400,6 @@ export default function App() {
         isOpen={isTurathOpen}
         onClose={() => setIsTurathOpen(false)}
         onInsertToChat={handleInsertTurathQuote}
-      />
-
-      {/* Kajian Archive Modal Drawer */}
-      <KajianArchiveModal
-        isOpen={isArchiveOpen}
-        onClose={() => setIsArchiveOpen(false)}
-        onLoadToTaswidah={handleLoadToTaswidah}
       />
 
       {/* Settings Modal */}

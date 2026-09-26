@@ -561,7 +561,7 @@ function generateKajianSlug(titleOrTema = '') {
   return result || 'kajian-bahtsu';
 }
 
-// Kajian Repository - List all files with true Tema
+// Kajian Repository - List all files with true Tema, metadata, and full content for instant search
 app.get('/api/kajian', checkAuth, (req, res) => {
   try {
     const files = fs.readdirSync(KAJIAN_DIR)
@@ -577,11 +577,22 @@ app.get('/api/kajian', checkAuth, (req, res) => {
       // Extract true Tema from content
       const title = extractTemaFromContent(content, filename);
 
+      // Extract metadata tags
+      const matraMatch = content.match(/\*\*Klasifikasi:\*\*\s*([^\n\r]+)/i);
+      const fanMatch = content.match(/\*\*Kajian Fan:\*\*\s*([^\n\r]+)/i);
+      const penyusunMatch = content.match(/\*\*Penyusun Naskah:\*\*\s*([^\n\r]+)/i);
+      const waktuMatch = content.match(/\*\*Waktu Penyusunan:\*\*\s*([^\n\r]+)/i);
+
       return {
         filename,
         title,
         size: stat.size,
         updatedAt: stat.mtime,
+        matra: matraMatch ? matraMatch[1].replace(/[#*`_~[\]]/g, '').trim() : '',
+        fan: fanMatch ? fanMatch[1].replace(/[#*`_~[\]]/g, '').trim() : '',
+        penyusun: penyusunMatch ? penyusunMatch[1].replace(/[#*`_~[\]]/g, '').trim() : '',
+        waktu: waktuMatch ? waktuMatch[1].replace(/[#*`_~[\]]/g, '').trim() : '',
+        content, // Include full content for instantaneous client-side full-text search!
       };
     });
 
