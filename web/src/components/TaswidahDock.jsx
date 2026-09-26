@@ -122,12 +122,14 @@ export default function TaswidahDock({
   };
 
   const formatTextToHtml = (text) => {
+    if (!text) return '';
     return text
       .replace(/<u>\*\*【(.*?)】\*\*<\/u>/g, '<u class="mahallus-syahid"><strong>【 $1 】</strong></u>')
       .replace(/【(.*?)】/g, '<span class="mahallus-syahid">【 $1 】</span>')
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/`(.*?)`/g, '<code class="px-1 py-0.5 rounded bg-parchment-200 dark:bg-ink-800 text-xs font-mono">$1</code>');
+      .replace(/`(.*?)`/g, '<code class="px-1 py-0.5 rounded bg-parchment-200 dark:bg-ink-800 text-xs font-mono">$1</code>')
+      .replace(/\[(.*?)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline underline-offset-2 break-all transition-colors">$1 <svg class="w-3.5 h-3.5 inline-block shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a>');
   };
 
   return (
@@ -455,6 +457,15 @@ export default function TaswidahDock({
                       return (
                         <div key={idx} className="mt-3.5 pt-1 text-xs sm:text-sm font-sans font-bold uppercase tracking-wider text-turath-emerald dark:text-emerald-300">
                           <span dangerouslySetInnerHTML={{ __html: formatTextToHtml(trimmedLine) }} />
+                        </div>
+                      );
+                    }
+
+                    if (trimmedLine.includes('Tautan Verifikasi') || (trimmedLine.includes('Turath.io') && trimmedLine.includes('http'))) {
+                      return (
+                        <div key={idx} className="my-2.5 p-3 rounded-xl bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200/80 dark:border-blue-900/60 text-xs sm:text-sm text-blue-900 dark:text-blue-200 flex items-center gap-2 font-sans shadow-2xs">
+                          <span className="shrink-0 text-base">🔗</span>
+                          <div className="flex-1 break-words font-medium" dangerouslySetInnerHTML={{ __html: formatTextToHtml(trimmedLine) }} />
                         </div>
                       );
                     }

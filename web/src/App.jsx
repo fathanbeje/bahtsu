@@ -294,6 +294,11 @@ export default function App() {
             onResetChat={handleResetChat}
             onTransferToTaswidah={handleTransferToTaswidah}
             onOpenModelSelector={() => setIsModelSelectorOpen(true)}
+            onOpenTurath={() => setIsTurathOpen(true)}
+            onOpenArchive={() => setIsArchiveOpen(true)}
+            onOpenRouterCockpit={() => setIsRouterCockpitOpen(true)}
+            onOpenHistory={() => setIsHistoryOpen(true)}
+            onNewSession={handleNewSession}
             matraMode={matraMode}
             arabicFontSize={arabicFontSize}
             arabicFontFamily={arabicFontFamily}

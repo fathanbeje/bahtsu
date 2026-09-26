@@ -11,7 +11,16 @@ import {
   ChevronRight,
   RotateCcw,
   Feather,
-  Cpu
+  Cpu,
+  Search,
+  FolderArchive,
+  Activity,
+  History,
+  Plus,
+  X,
+  ArrowRight,
+  Settings2,
+  BookOpen
 } from 'lucide-react';
 
 export default function ChatPane({
@@ -22,6 +31,11 @@ export default function ChatPane({
   onResetChat,
   onTransferToTaswidah,
   onOpenModelSelector,
+  onOpenTurath,
+  onOpenArchive,
+  onOpenRouterCockpit,
+  onOpenHistory,
+  onNewSession,
   matraMode,
   arabicFontSize,
   arabicFontFamily,
@@ -176,6 +190,15 @@ export default function ChatPane({
             );
           }
 
+          if (p.includes('Tautan Verifikasi') || (p.includes('Turath.io') && p.includes('http'))) {
+            return (
+              <div key={idx} className="my-2.5 p-3 rounded-xl bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200/80 dark:border-blue-900/60 text-xs sm:text-sm text-blue-900 dark:text-blue-200 flex items-center gap-2 font-sans shadow-2xs">
+                <span className="shrink-0 text-base">🔗</span>
+                <div className="flex-1 break-words font-medium" dangerouslySetInnerHTML={{ __html: formatTextToHtml(p) }} />
+              </div>
+            );
+          }
+
           const arabicCount = (p.match(/[\u0600-\u06FF]/g) || []).length;
           const isArabic = arabicCount > 20 && (arabicCount / (p.length || 1) > 0.4);
 
@@ -200,49 +223,123 @@ export default function ChatPane({
   };
 
   const formatTextToHtml = (text) => {
+    if (!text) return '';
     return text
       .replace(/<u>\*\*【(.*?)】\*\*<\/u>/g, '<u class="mahallus-syahid"><strong>【 $1 】</strong></u>')
       .replace(/【(.*?)】/g, '<span class="mahallus-syahid">【 $1 】</span>')
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/`(.*?)`/g, '<code class="px-1 py-0.5 rounded bg-parchment-200 dark:bg-ink-800 text-xs font-mono">$1</code>');
+      .replace(/`(.*?)`/g, '<code class="px-1 py-0.5 rounded bg-parchment-200 dark:bg-ink-800 text-xs font-mono">$1</code>')
+      .replace(/\[(.*?)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline underline-offset-2 break-all transition-colors">$1 <svg class="w-3.5 h-3.5 inline-block shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a>');
   };
 
-  const samplePrompts = [
-    {
-      title: "Hukum Biaya Layanan & Bunga PayLater",
-      matra: "Wāqi'iyyah",
-      prompt: "Bagaimana hukum penggunaan fitur PayLater dalam transaksi e-commerce kontemporer? Tinjau dari akad qardh, bai' bithaman ajil, serta status denda keterlambatan menurut qaul mu'tamad madzhab Syafi'i.",
-    },
-    {
-      title: "Konsep Muwathanah & Kerukunan Bernegara",
-      matra: "Maudlū'iyyah",
-      prompt: "Uraikan konsep fiqh muwathanah (kewarganegaraan modern) dalam pandangan Islam dan keputusan Munas Alim Ulama NU. Bagaimana relasi muslim dan non-muslim dalam bingkai negara kesepakatan (darul mitsaq)?",
-    },
-    {
-      title: "Pajak Karbon & Regulasi Lingkungan",
-      matra: "Qānūniyyah",
-      prompt: "Bagaimana tinjauan fiqh siyasah syar'iyyah terhadap kebijakan pemerintah mengenai penerapan Pajak Karbon untuk mitigasi krisis iklim? Hubungkan dengan kaidah Tasharruful Imam manuthun bil maslahah.",
-    },
-    {
-      title: "Fidyah Shalat Bagi Mayit",
-      matra: "Wāqi'iyyah",
-      prompt: "Jelaskan khilaf ulama Syafi'iyyah mengenai fidyah shalat bagi orang yang meninggal dunia dan masih memiliki tanggungan shalat. Sajikan ibarat dari Al-Majmu', Tuhfah, dan Hawasyi.",
-    },
-  ];
+  // State for interactive template parameter popover
+  const [activeTemplateModal, setActiveTemplateModal] = useState(null);
+  const [paramTopic, setParamTopic] = useState('');
+  const [paramDetails, setParamDetails] = useState('');
+  const [paramQuestions, setParamQuestions] = useState('');
+  const [paramReference, setParamReference] = useState('');
+
+  const openTemplateModal = (templateId) => {
+    setActiveTemplateModal(templateId);
+    if (templateId === 'as_ilah') {
+      setParamTopic('Hukum Transaksi PayLater & Biaya Layanan Tambahan');
+      setParamDetails('Pengguna berbelanja online menggunakan fasilitas talangan belanja dengan skema angsuran bertahap dan pengenaan biaya administrasi serta denda keterlambatan.');
+      setParamQuestions('1. Bagaimana status akad antara konsumen, merchant, dan penyedia dana?\n2. Bagaimana hukum biaya layanan dan denda keterlambatan menurut qaul mu\'tamad madzhab Syafi\'i?');
+    } else if (templateId === 'muqaranah') {
+      setParamTopic('Batasan Niat Mukim dan Shalat Jamak Qashar bagi Musafir');
+      setParamDetails('Perbandingan qaul fuqaha 4 madzhab mengenai jumlah hari maksimal keringanan jamak qashar bagi musafir yang berada di kota tujuan.');
+      setParamQuestions('');
+    } else if (templateId === 'takhrij') {
+      setParamTopic('Hadits Peletakan Pelepah Kurma dan Batu Kerikil di Atas Makam (أن النبي ﷺ وضع على قبر جريدة رطبة وقال لعله يخفف عنهما)');
+      setParamReference('Shahih Bukhari & Shahih Muslim (Bab Ahkamul Janaiz wal Qubur)');
+    } else if (templateId === 'putusan') {
+      setParamTopic('Status Hukum Penggunaan Azimat, Rajah, dan Wifiq dalam Pengobatan');
+      setParamDetails('Sidang Komisi Fiqhiyyah Bahtsul Masail Nahdlatul Ulama');
+      setParamQuestions('Diktum: Diperinci antara azimat yang berisi ayat Al-Qur\'an dan asma Allah (mubah) dengan yang mengandung sihir/istianah bil jin (haram).');
+    }
+  };
+
+  const buildPrompt = (type) => {
+    if (type === 'as_ilah') {
+      return `Mohon telaah masalah waqi'iyyah berikut dengan metodologi resmi Bahtsul Masail Nahdlatul Ulama:
+
+**Judul / Kasus:** ${paramTopic || 'Masalah Waqi\'iyyah Kontemporer'}
+
+**Deskripsi Masalah (Tashawwur Mas'alah):**
+${paramDetails || 'Deskripsikan konteks fakta empiris masalah secara jelas di sini...'}
+
+**Pokok Masalah (As'ilah):**
+${paramQuestions || '1. Bagaimana status hukum kasus tersebut?\n2. Bagaimana batasan syar\'i dan solusinya?'}
+
+Sajikan rumusan jawaban terstruktur, ibarat mu'tamad Syafi'iyyah berharakat lengkap dari kutubus Syaikhoni dan Hawasyi Muta'akhirin, penandaan mahallus syahid 【 ... 】, serta uraian Wajhul Istidlal/Ilhaq.`;
+    } else if (type === 'muqaranah') {
+      return `Lakukan telaah komparasi fiqih lintas empat mazhab (Muqāranatul Madzāhib) untuk masalah berikut:
+
+**Isu Khilafiyyah:** ${paramTopic || 'Isu Khilafiyyah Fiqhiyyah'}
+${paramDetails ? `\n**Konteks Masalah:**\n${paramDetails}\n` : ''}
+Mohon uraikan:
+1. Qaul Mu'tamad Mazhab Syafi'i (disertai ibarat kitab induk dan hawasyi).
+2. Pandangan Mazhab Hanafi, Maliki, dan Hanbali (disertai penegasan tamyiz madzhab dan maraji' mu'tabar masing-masing).
+3. Titik temu dalil (wajhul istidlal) dan analisis tarjih / maslahah untuk konteks kekinian di Indonesia.`;
+    } else if (type === 'takhrij') {
+      return `Mohon lakukan takhrij dan validasi kesahihan dalil riwayat berikut:
+
+**Teks Dalil / Matan Hadits:** ${paramTopic || 'Matan atau teks riwayat dalil'}
+${paramReference ? `\n**Dugaan Sumber / Perawi:** ${paramReference}\n` : ''}
+Sajikan:
+1. Takhrij sumber kitab hadits primer (mukharrij, nomor hadits, bab & sanad).
+2. Status sanad dan derajat hadits (Shahih, Hasan, Dha'if, atau Maudhu') menurut para imam muhaqqiqin ahli hadits.
+3. Fiqhul Hadits dan pemahaman para fuqaha Syafi'iyyah terhadap dalil tersebut dalam istinbath hukum.`;
+    } else {
+      return `Susun naskah Draf Taswīdah Keputusan Sidang Bahtsul Masail resmi (Qarār Jamā'ī) untuk:
+
+**Forum / Majelis:** ${paramDetails || 'Sidang Bahtsul Masail'}
+**Tema Keputusan:** ${paramTopic || 'Keputusan Bahtsul Masail'}
+${paramQuestions ? `\n**Arah Keputusan / Diktum:**\n${paramQuestions}\n` : ''}
+Format naskah wajib mencakup:
+# DRAF TASWIDAH & BAHAN KAJIAN BAHTSUL MASA'IL
+**Tema:** ${paramTopic || 'Keputusan Bahtsul Masail'}
+**Klasifikasi:** Masā'il Wāqi'iyyah / Maudlū'iyyah
+I. Deskripsi Masalah & Kerangka Konseptual
+II. Pokok Masalah (As'ilah)
+III. Rumusan Draf Hukum (Taswīdah al-Qarār)
+IV. Dhawābith & Rekomendasi Solutif (Makhārij Fiqhiyyah)
+V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan ibarat Arab berharakat, mahallus syahid 【 ... 】, dan tautan verifikasi Turath.io).`;
+    }
+  };
+
+  const handleApplyPromptToInput = () => {
+    const prompt = buildPrompt(activeTemplateModal);
+    setInputText(prompt);
+    setActiveTemplateModal(null);
+    setTimeout(() => {
+      if (textareaRef.current) {
+        textareaRef.current.focus();
+        textareaRef.current.style.height = 'auto';
+        textareaRef.current.style.height = `${Math.min(textareaRef.current.scrollHeight, 180)}px`;
+      }
+    }, 100);
+  };
+
+  const handleDirectSendFromModal = () => {
+    const prompt = buildPrompt(activeTemplateModal);
+    setActiveTemplateModal(null);
+    onSendMessage(prompt);
+  };
 
   return (
     <div className="flex flex-col h-full bg-parchment-50 dark:bg-ink-950 transition-colors">
       {/* Messages Scroll Area */}
       <div className="flex-1 overflow-y-auto px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6">
         {messages.length === 0 ? (
-          /* Empty State */
-          <div className="max-w-2xl mx-auto py-6 sm:py-10 text-center space-y-5">
+          /* Empty State: Hub Operasional & 4 Template Formulasi */
+          <div className="max-w-2xl mx-auto py-6 sm:py-8 text-center space-y-5">
             <div className="inline-flex p-3 sm:p-4 rounded-2xl bg-turath-emerald/10 dark:bg-turath-emerald/20 text-turath-emerald dark:text-emerald-400 border border-turath-emerald/30 shadow-inner">
               <Feather className="w-8 h-8 sm:w-10 sm:h-10 text-turath-emerald dark:text-emerald-300" />
             </div>
 
-            <div className="space-y-1.5">
+            <div className="space-y-1">
               <h2 className="font-serif font-bold text-xl sm:text-3xl text-ink-900 dark:text-parchment-50">
                 Studio Bahtsu Klangopan
               </h2>
@@ -262,33 +359,185 @@ export default function ChatPane({
               </div>
             </div>
 
-            {/* Prompt Cards Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3 text-left pt-2 font-sans">
-              {samplePrompts.map((sample, idx) => (
+            {/* Horizontal Pill Strip: Quick Operational Tools */}
+            <div className="flex items-center justify-center gap-1.5 sm:gap-2 flex-wrap pt-1 font-sans">
+              <button
+                type="button"
+                onClick={onOpenTurath}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-turath-emerald text-parchment-50 hover:bg-turath-emerald-light transition-all shadow-xs border border-turath-gold/30 hover:scale-105"
+                title="Pencarian Kitab Turath.io"
+              >
+                <Search className="w-3.5 h-3.5 text-turath-gold" />
+                <span>Cari Turath.io</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={onOpenArchive}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-white dark:bg-ink-900 text-ink-800 dark:text-parchment-200 border border-parchment-300 dark:border-ink-800 hover:border-turath-emerald hover:text-turath-emerald transition-all shadow-xs hover:scale-105"
+                title="Buka Arsip Bahan Kajian (kajian/)"
+              >
+                <FolderArchive className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
+                <span>Arsip Kajian</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={onOpenRouterCockpit}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800 hover:bg-emerald-100 transition-all shadow-xs hover:scale-105"
+                title="Buka 9Router Remote Cockpit"
+              >
+                <Activity className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                <span>9Router Cockpit</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={onOpenHistory}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-300 border border-parchment-300 dark:border-ink-800 hover:text-ink-900 hover:border-parchment-400 transition-all shadow-xs"
+                title="Riwayat Musyawarah"
+              >
+                <History className="w-3.5 h-3.5 text-ink-500" />
+                <span className="hidden sm:inline">Riwayat Sesi</span>
+                <span className="sm:hidden">Riwayat</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={onNewSession}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-300 border border-parchment-300 dark:border-ink-800 hover:text-turath-emerald hover:border-turath-emerald transition-all shadow-xs"
+                title="Mulai Sesi Musyawarah Baru"
+              >
+                <Plus className="w-3.5 h-3.5 text-turath-emerald" />
+                <span>Sesi Baru</span>
+              </button>
+            </div>
+
+            {/* Section Divider & Title */}
+            <div className="pt-2 text-left">
+              <div className="text-xs font-bold uppercase tracking-wider text-ink-500 dark:text-ink-400 mb-2.5 flex items-center justify-between font-sans">
+                <span>Template Kerangka Rumusan (Standar NU)</span>
+                <span className="text-[11px] font-normal normal-case text-turath-emerald dark:text-emerald-400">Pilih untuk atur parameter</span>
+              </div>
+
+              {/* 4 Structured Template Buttons Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left font-sans">
+                {/* Template 1: Format As'ilah Waqi'iyyah */}
                 <button
-                  key={idx}
-                  onClick={() => onSendMessage(sample.prompt)}
-                  className="p-3.5 rounded-xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-sm group flex flex-col justify-between"
+                  type="button"
+                  onClick={() => openTemplateModal('as_ilah')}
+                  className="p-3.5 sm:p-4 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
                 >
-                  <div className="space-y-1">
+                  <div className="space-y-1.5">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-semibold text-ink-900 dark:text-parchment-100 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors">
-                        {sample.title}
+                      <span className="text-sm font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                        <span>📋</span>
+                        <span>Format As'ilah Waqi'iyyah</span>
                       </span>
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-parchment-100 dark:bg-ink-800 text-ink-500 dark:text-ink-400 font-medium">
-                        {sample.matra}
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-turath-emerald/10 text-turath-emerald font-semibold">
+                        Wāqi'iyyah / Qauli
                       </span>
                     </div>
-                    <p className="text-xs text-ink-500 dark:text-ink-400 line-clamp-2 leading-relaxed">
-                      {sample.prompt}
+                    <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
+                      Kerangka resmi Bahtsul Masail: Tashawwur Mas'alah (deskripsi fakta kasus empiris), rumusan pokok pertanyaan, dan batasan fiqih.
                     </p>
                   </div>
-                  <div className="mt-2.5 flex items-center gap-1 text-[11px] text-turath-emerald dark:text-emerald-400 font-medium">
-                    <span>Mulai Telaah Masalah</span>
-                    <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                  <div className="mt-3 flex items-center justify-between text-[11px] pt-2 border-t border-parchment-100 dark:border-ink-800/80">
+                    <span className="text-turath-emerald dark:text-emerald-400 font-semibold flex items-center gap-1">
+                      <span>Buka Parameter Template</span>
+                      <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                    </span>
+                    <span className="text-ink-400 font-mono text-[10px]">Tashawwur + As'ilah</span>
                   </div>
                 </button>
-              ))}
+
+                {/* Template 2: Komparasi 4 Mazhab */}
+                <button
+                  type="button"
+                  onClick={() => openTemplateModal('muqaranah')}
+                  className="p-3.5 sm:p-4 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
+                >
+                  <div className="space-y-1.5">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                        <span>⚖️</span>
+                        <span>Komparasi 4 Mazhab</span>
+                      </span>
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 font-semibold">
+                        Muqāranah Madzhab
+                      </span>
+                    </div>
+                    <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
+                      Perbandingan hukum lintas Mazhab Syafi'i, Hanafi, Maliki, dan Hanbali lengkap dengan penegasan tamyiz madzhab dan dalilnya.
+                    </p>
+                  </div>
+                  <div className="mt-3 flex items-center justify-between text-[11px] pt-2 border-t border-parchment-100 dark:border-ink-800/80">
+                    <span className="text-turath-emerald dark:text-emerald-400 font-semibold flex items-center gap-1">
+                      <span>Buka Parameter Template</span>
+                      <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                    </span>
+                    <span className="text-ink-400 font-mono text-[10px]">4 Madzhab</span>
+                  </div>
+                </button>
+
+                {/* Template 3: Takhrij & Validasi Hadits */}
+                <button
+                  type="button"
+                  onClick={() => openTemplateModal('takhrij')}
+                  className="p-3.5 sm:p-4 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
+                >
+                  <div className="space-y-1.5">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                        <span>🔍</span>
+                        <span>Takhrij & Validasi Hadits</span>
+                      </span>
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300 font-semibold">
+                        Takhrij & Sanad
+                      </span>
+                    </div>
+                    <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
+                      Uji keabsahan sanad, matan, derajat riwayat (Shahih/Dha'if), serta fiqhul hadits menurut pemahaman ulama muhaqqiqin.
+                    </p>
+                  </div>
+                  <div className="mt-3 flex items-center justify-between text-[11px] pt-2 border-t border-parchment-100 dark:border-ink-800/80">
+                    <span className="text-turath-emerald dark:text-emerald-400 font-semibold flex items-center gap-1">
+                      <span>Buka Parameter Template</span>
+                      <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                    </span>
+                    <span className="text-ink-400 font-mono text-[10px]">Sanad & Matan</span>
+                  </div>
+                </button>
+
+                {/* Template 4: Draf Taswīdah Putusan Sidang */}
+                <button
+                  type="button"
+                  onClick={() => openTemplateModal('putusan')}
+                  className="p-3.5 sm:p-4 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
+                >
+                  <div className="space-y-1.5">
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                        <span>📑</span>
+                        <span>Draf Putusan Sidang</span>
+                      </span>
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-semibold">
+                        Qarār Jamā'ī
+                      </span>
+                    </div>
+                    <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
+                      Sintesis naskah putusan konsensus Bahtsul Masail lengkap dengan maraji' berantai (3-5 ibarat), titik temu hukum, dan makharij.
+                    </p>
+                  </div>
+                  <div className="mt-3 flex items-center justify-between text-[11px] pt-2 border-t border-parchment-100 dark:border-ink-800/80">
+                    <span className="text-turath-emerald dark:text-emerald-400 font-semibold flex items-center gap-1">
+                      <span>Buka Parameter Template</span>
+                      <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                    </span>
+                    <span className="text-ink-400 font-mono text-[10px]">Siap Cetak / Arsip</span>
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
         ) : (
@@ -498,6 +747,160 @@ export default function ChatPane({
           </div>
         </div>
       </div>
+
+      {/* Interactive Template Parameter Popover Modal */}
+      {activeTemplateModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-ink-950/75 backdrop-blur-xs animate-fade-in font-sans">
+          <div className="bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 rounded-2xl w-full max-w-xl shadow-manuscript-lg overflow-hidden flex flex-col max-h-[90vh]">
+            {/* Header */}
+            <div className="px-5 py-4 border-b border-parchment-200 dark:border-ink-800 bg-parchment-50 dark:bg-ink-950 flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-lg bg-turath-emerald/15 dark:bg-turath-emerald/25 text-turath-emerald flex items-center justify-center text-lg">
+                  {activeTemplateModal === 'as_ilah' && '📋'}
+                  {activeTemplateModal === 'muqaranah' && '⚖️'}
+                  {activeTemplateModal === 'takhrij' && '🔍'}
+                  {activeTemplateModal === 'putusan' && '📑'}
+                </div>
+                <div>
+                  <h3 className="font-serif font-bold text-sm text-ink-900 dark:text-parchment-50">
+                    {activeTemplateModal === 'as_ilah' && "Format As'ilah Waqi'iyyah Formal"}
+                    {activeTemplateModal === 'muqaranah' && 'Komparasi 4 Mazhab (Muqāranah)'}
+                    {activeTemplateModal === 'takhrij' && 'Takhrij & Validasi Hadits / Dalil'}
+                    {activeTemplateModal === 'putusan' && 'Draf Taswīdah Putusan Sidang'}
+                  </h3>
+                  <p className="text-[11px] text-ink-500">
+                    Lengkapi parameter di bawah untuk memformulasikan telaah otomatis
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setActiveTemplateModal(null)}
+                className="p-1.5 rounded-lg text-ink-400 hover:text-ink-900 dark:hover:text-parchment-100 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-5 space-y-4 overflow-y-auto text-xs flex-1">
+              <div>
+                <label className="block font-semibold text-ink-800 dark:text-parchment-200 mb-1">
+                  {activeTemplateModal === 'takhrij' ? 'Teks Hadits / Matan / Dalil yang Ingin Divalidasi' : 'Topik / Judul Masalah'}
+                </label>
+                <input
+                  type="text"
+                  value={paramTopic}
+                  onChange={(e) => setParamTopic(e.target.value)}
+                  placeholder="Ketik topik atau teks dalil..."
+                  className="w-full px-3 py-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-parchment-50 dark:bg-ink-950 text-xs text-ink-900 dark:text-parchment-50 focus:outline-none focus:ring-1 focus:ring-turath-emerald font-serif"
+                />
+              </div>
+
+              {activeTemplateModal !== 'takhrij' && (
+                <div>
+                  <label className="block font-semibold text-ink-800 dark:text-parchment-200 mb-1">
+                    {activeTemplateModal === 'putusan' ? 'Nama Forum / Sidang Bahtsul Masail' : 'Deskripsi Kasus & Fakta Empiris (Tashawwur Mas\'alah)'}
+                  </label>
+                  <textarea
+                    rows={2}
+                    value={paramDetails}
+                    onChange={(e) => setParamDetails(e.target.value)}
+                    placeholder="Jelaskan kronologi atau deskripsi kasus secara objektif..."
+                    className="w-full px-3 py-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-parchment-50 dark:bg-ink-950 text-xs text-ink-900 dark:text-parchment-50 focus:outline-none focus:ring-1 focus:ring-turath-emerald leading-relaxed"
+                  />
+                </div>
+              )}
+
+              {activeTemplateModal === 'as_ilah' && (
+                <div>
+                  <label className="block font-semibold text-ink-800 dark:text-parchment-200 mb-1">
+                    Pokok Pertanyaan Fiqih (As'ilah)
+                  </label>
+                  <textarea
+                    rows={2}
+                    value={paramQuestions}
+                    onChange={(e) => setParamQuestions(e.target.value)}
+                    placeholder="1. Bagaimana status hukumnya?&#10;2. Bagaimana batasan syar'inya?"
+                    className="w-full px-3 py-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-parchment-50 dark:bg-ink-950 text-xs text-ink-900 dark:text-parchment-50 focus:outline-none focus:ring-1 focus:ring-turath-emerald leading-relaxed font-serif"
+                  />
+                </div>
+              )}
+
+              {activeTemplateModal === 'takhrij' && (
+                <div>
+                  <label className="block font-semibold text-ink-800 dark:text-parchment-200 mb-1">
+                    Dugaan Kitab Sumber / Perawi (Opsional)
+                  </label>
+                  <input
+                    type="text"
+                    value={paramReference}
+                    onChange={(e) => setParamReference(e.target.value)}
+                    placeholder="Contoh: Shahih Bukhari, Sunan Tirmidzi, Musnad Ahmad..."
+                    className="w-full px-3 py-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-parchment-50 dark:bg-ink-950 text-xs text-ink-900 dark:text-parchment-50 focus:outline-none focus:ring-1 focus:ring-turath-emerald font-serif"
+                  />
+                </div>
+              )}
+
+              {activeTemplateModal === 'putusan' && (
+                <div>
+                  <label className="block font-semibold text-ink-800 dark:text-parchment-200 mb-1">
+                    Arah Putusan / Diktum Konsensus (Opsional)
+                  </label>
+                  <textarea
+                    rows={2}
+                    value={paramQuestions}
+                    onChange={(e) => setParamQuestions(e.target.value)}
+                    placeholder="Catatan rumusan arah jawaban sementara jika ada..."
+                    className="w-full px-3 py-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-parchment-50 dark:bg-ink-950 text-xs text-ink-900 dark:text-parchment-50 focus:outline-none focus:ring-1 focus:ring-turath-emerald leading-relaxed font-serif"
+                  />
+                </div>
+              )}
+
+              {/* Live Preview Accordion */}
+              <div className="p-3 rounded-xl bg-parchment-100/70 dark:bg-ink-950 border border-parchment-200 dark:border-ink-800 text-[11px] space-y-1">
+                <span className="font-semibold text-ink-700 dark:text-parchment-300 block">
+                  Pratinjau Prompt Formulasi:
+                </span>
+                <p className="font-mono text-ink-600 dark:text-ink-400 max-h-24 overflow-y-auto whitespace-pre-wrap leading-relaxed">
+                  {buildPrompt(activeTemplateModal)}
+                </p>
+              </div>
+            </div>
+
+            {/* Footer Buttons */}
+            <div className="px-5 py-3 border-t border-parchment-200 dark:border-ink-800 bg-parchment-50 dark:bg-ink-950 flex items-center justify-between gap-2 flex-wrap sm:flex-nowrap">
+              <button
+                type="button"
+                onClick={() => setActiveTemplateModal(null)}
+                className="px-3 py-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 text-ink-700 dark:text-parchment-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors text-xs font-medium"
+              >
+                Batal
+              </button>
+
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={handleApplyPromptToInput}
+                  className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl border border-turath-emerald text-turath-emerald dark:text-emerald-300 hover:bg-turath-emerald/10 transition-colors text-xs font-semibold shadow-xs"
+                >
+                  <ArrowRight className="w-3.5 h-3.5" />
+                  <span>Terapkan ke Kotak Input</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handleDirectSendFromModal}
+                  className="flex items-center gap-1.5 px-4 py-1.5 rounded-xl bg-turath-emerald hover:bg-turath-emerald-light text-white text-xs font-semibold shadow-xs transition-colors"
+                >
+                  <Send className="w-3.5 h-3.5" />
+                  <span>Langsung Jalankan AI</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
