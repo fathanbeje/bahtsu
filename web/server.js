@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
+import http from 'http';
+import https from 'https';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 
@@ -135,7 +137,7 @@ Anda memfokuskan perumusan pada sinkronisasi hukum positif negara dan syariat Is
   return `${basePrompt}\n${matraDirective}\n\n[PENTING: Jangan gunakan tanda em-dash (—) di judul atau teks UI. Berikan ibarat Arab asli berharakat lengkap dengan maraji' jilid dan halaman.]`;
 }
 
-// Chat Streaming Proxy to 9Router
+// Chat Streaming Proxy to 9Router with infinite timeout protection
 app.post('/api/chat', checkAuth, async (req, res) => {
   const { messages, model, matraMode, temperature = 0.3 } = req.body;
 
@@ -152,75 +154,104 @@ app.post('/api/chat', checkAuth, async (req, res) => {
     ...messages.map(m => ({ role: m.role, content: m.content })),
   ];
 
+  const payload = JSON.stringify({
+    model: selectedModel,
+    messages: formattedMessages,
+    temperature: parseFloat(temperature),
+    stream: true,
+  });
+
   try {
-    const routerResponse = await fetch(`${ROUTER_URL}/chat/completions`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${ROUTER_API_KEY}`,
-      },
-      body: JSON.stringify({
-        model: selectedModel,
-        messages: formattedMessages,
-        temperature: parseFloat(temperature),
-        stream: true,
-      }),
-    });
+    const targetUrl = new URL(`${ROUTER_URL}/chat/completions`);
+    const transport = targetUrl.protocol === 'https:' ? https : http;
 
-    if (!routerResponse.ok) {
-      const errText = await routerResponse.text();
-      return res.status(routerResponse.status).json({
-        ok: false,
-        error: `Gagal berkomunikasi dengan 9Router (${routerResponse.status}): ${errText}`,
-      });
-    }
-
-    // Disable socket timeout for long generation
+    // Disable client socket timeout
     if (req.socket) {
       req.socket.setTimeout(0);
       req.socket.setNoDelay(true);
       req.socket.setKeepAlive(true, 5000);
     }
 
-    // Set headers for Server-Sent Events (SSE)
-    res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
-    res.setHeader('Cache-Control', 'no-cache, no-transform');
-    res.setHeader('Connection', 'keep-alive');
-    res.setHeader('X-Accel-Buffering', 'no');
-    if (typeof res.flushHeaders === 'function') {
-      res.flushHeaders();
-    }
+    const proxyReq = transport.request(
+      {
+        protocol: targetUrl.protocol,
+        hostname: targetUrl.hostname,
+        port: targetUrl.port || (targetUrl.protocol === 'https:' ? 443 : 80),
+        path: targetUrl.pathname + targetUrl.search,
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${ROUTER_API_KEY}`,
+          'Content-Length': Buffer.byteLength(payload),
+        },
+        timeout: 0, // Disable request timeout
+      },
+      (routerRes) => {
+        if (routerRes.statusCode !== 200) {
+          let errText = '';
+          routerRes.on('data', chunk => { errText += chunk; });
+          routerRes.on('end', () => {
+            if (!res.headersSent) {
+              res.status(routerRes.statusCode).json({
+                ok: false,
+                error: `Gagal berkomunikasi dengan 9Router (${routerRes.statusCode}): ${errText}`,
+              });
+            }
+          });
+          return;
+        }
 
-    // Send periodic SSE comment heartbeat to keep mobile 4G/5G connections alive
-    const heartbeat = setInterval(() => {
-      if (!res.writableEnded) {
-        res.write(':\n\n');
+        // Set headers for Server-Sent Events (SSE)
+        res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
+        res.setHeader('Cache-Control', 'no-cache, no-transform');
+        res.setHeader('Connection', 'keep-alive');
+        res.setHeader('X-Accel-Buffering', 'no');
+        if (typeof res.flushHeaders === 'function') {
+          res.flushHeaders();
+        }
+
+        // Send periodic SSE comment heartbeat to keep mobile connections alive
+        const heartbeat = setInterval(() => {
+          if (!res.writableEnded) {
+            res.write(':\n\n');
+          }
+        }, 4000);
+
+        routerRes.on('data', (chunk) => {
+          res.write(chunk);
+        });
+
+        routerRes.on('end', () => {
+          clearInterval(heartbeat);
+          res.end();
+        });
+
+        routerRes.on('error', (streamErr) => {
+          clearInterval(heartbeat);
+          console.error('9Router response stream error:', streamErr);
+          res.end();
+        });
+
+        req.on('close', () => {
+          clearInterval(heartbeat);
+          proxyReq.destroy();
+        });
       }
-    }, 5000);
+    );
 
-    const reader = routerResponse.body.getReader();
-    const decoder = new TextDecoder('utf-8');
-
-    // Handle client disconnect
-    req.on('close', () => {
-      clearInterval(heartbeat);
-      reader.cancel().catch(() => {});
+    proxyReq.on('error', (err) => {
+      console.error('Error connecting to 9Router:', err);
+      if (!res.headersSent) {
+        res.status(502).json({ ok: false, error: `Kesalahan koneksi ke 9Router: ${err.message}` });
+      } else {
+        res.end();
+      }
     });
 
-    try {
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        const chunk = decoder.decode(value, { stream: true });
-        res.write(chunk);
-      }
-    } finally {
-      clearInterval(heartbeat);
-    }
-
-    res.end();
+    proxyReq.write(payload);
+    proxyReq.end();
   } catch (err) {
-    console.error('Error during chat completion:', err);
+    console.error('Error initiating chat completion:', err);
     if (!res.headersSent) {
       res.status(500).json({ ok: false, error: `Kesalahan server streaming: ${err.message}` });
     } else {

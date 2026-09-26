@@ -146,20 +146,30 @@ export default function TaswidahDock({
           </button>
         </div>
 
-        {/* Clear Content Button */}
-        {taswidahContent && (
-          <button
-            onClick={() => {
-              if (window.confirm('Bersihkan draf taswidah aktif ini?')) {
-                setTaswidahContent('');
-              }
-            }}
-            className="p-1.5 rounded text-ink-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
-            title="Bersihkan draf taswidah"
+        <div className="flex items-center gap-1.5">
+          <div 
+            className="flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-sans font-medium bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-300 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300 shadow-2xs"
+            title="Auto-Sync aktif: ibarat dan draf otomatis terisi saat AI menghasilkan respon"
           >
-            <Trash2 className="w-3.5 h-3.5" />
-          </button>
-        )}
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+            <span className="hidden sm:inline">Auto-Sync</span>
+          </div>
+
+          {/* Clear Content Button */}
+          {taswidahContent && (
+            <button
+              onClick={() => {
+                if (window.confirm('Bersihkan draf taswidah aktif ini?')) {
+                  setTaswidahContent('');
+                }
+              }}
+              className="p-1.5 rounded text-ink-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+              title="Bersihkan draf taswidah"
+            >
+              <Trash2 className="w-3.5 h-3.5" />
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Dock Content Body */}
@@ -225,12 +235,22 @@ export default function TaswidahDock({
 
             {/* List of extracted ibarat cards */}
             {ibaratList.length === 0 ? (
-              <div className="p-8 text-center space-y-2 border border-dashed border-parchment-300 dark:border-ink-800 rounded-xl text-ink-500">
-                <BookOpen className="w-8 h-8 mx-auto text-ink-400 dark:text-ink-600" />
-                <p className="text-xs">Belum ada ibarat yang terdeteksi.</p>
-                <p className="text-[11px] text-ink-400">
-                  Klik tombol <b>"Ekstrak ke Taswīdah"</b> pada respon obrolan untuk mengalirkan kutipan maraji' ke sini.
-                </p>
+              <div className="p-6 sm:p-8 text-center space-y-2.5 border border-dashed border-parchment-300 dark:border-ink-800 rounded-2xl text-ink-500 bg-white/40 dark:bg-ink-900/40">
+                <div className="w-10 h-10 rounded-full bg-turath-emerald/10 text-turath-emerald flex items-center justify-center mx-auto shadow-xs">
+                  <BookOpen className="w-5 h-5" />
+                </div>
+                <div>
+                  <h4 className="font-serif font-bold text-sm text-ink-900 dark:text-parchment-100">
+                    Dock Ibarat & Marāji'
+                  </h4>
+                  <p className="text-xs text-ink-600 dark:text-ink-400 max-w-xs mx-auto leading-relaxed mt-1">
+                    Kutipan kitab turats, harakat, dan mahallus syahid akan otomatis terdeteksi dan tersusun rapi di sini saat Anda bermusyawarah di sebelah kiri.
+                  </p>
+                </div>
+                <div className="pt-2 flex items-center justify-center gap-1.5 text-[11px] text-turath-emerald dark:text-emerald-400 font-medium">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Auto-Sync aktif atau tekan "Ekstrak ke Taswīdah" di obrolan</span>
+                </div>
               </div>
             ) : (
               <div className="space-y-3">
@@ -358,9 +378,19 @@ export default function TaswidahDock({
                     );
                   })
                 ) : (
-                  <p className="text-ink-400 text-xs text-center py-10 font-sans">
-                    Draf naskah masih kosong. Gunakan tombol <b>"Ekstrak ke Taswīdah"</b> dari obrolan untuk mulai merumuskan draf kajian.
-                  </p>
+                  <div className="text-center py-12 px-4 space-y-2.5 font-sans">
+                    <div className="w-10 h-10 rounded-full bg-turath-emerald/10 text-turath-emerald flex items-center justify-center mx-auto shadow-xs">
+                      <FileText className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h4 className="font-serif font-bold text-sm text-ink-900 dark:text-parchment-100">
+                        Draf Naskah Taswīdah
+                      </h4>
+                      <p className="text-xs text-ink-600 dark:text-ink-400 max-w-xs mx-auto leading-relaxed mt-1">
+                        Draf naskah tersusun otomatis setelah AI merumuskan kajian, atau Anda dapat menekan tombol <b>"Ekstrak ke Taswīdah"</b> di obrolan, atau mengetik mandiri pada tab <b>Edit .md</b>.
+                      </p>
+                    </div>
+                  </div>
                 )}
               </div>
             ) : (

@@ -7,27 +7,38 @@ import KajianArchiveModal from './components/KajianArchiveModal';
 import PasscodeModal from './components/PasscodeModal';
 import SettingsModal from './components/SettingsModal';
 import ModelSelectorModal from './components/ModelSelectorModal';
+import SessionHistoryModal from './components/SessionHistoryModal';
 import { getAuthToken, clearAuthToken, checkStatus, streamChat } from './utils/api';
+import { 
+  getActiveSessionOrDefault, 
+  saveCurrentSessionState, 
+  createNewSession, 
+  setActiveSessionId 
+} from './utils/sessionStorage';
 import { MessageSquare, BookOpen } from 'lucide-react';
 
 export default function App() {
   const [token, setToken] = useState(getAuthToken());
   const [isAuthenticated, setIsAuthenticated] = useState(!!getAuthToken());
+
+  // Load initial active session from localStorage
+  const initialSession = getActiveSessionOrDefault();
+  const [activeSessionId, setActiveSessionIdState] = useState(() => initialSession?.id || null);
   
   // App Preferences
-  const [matraMode, setMatraMode] = useState('waqi_iyyah');
+  const [matraMode, setMatraMode] = useState(() => initialSession?.matraMode || 'waqi_iyyah');
   const [arabicFontSize, setArabicFontSize] = useState(24);
   const [arabicFontFamily, setArabicFontFamily] = useState('amiri');
   const [darkMode, setDarkMode] = useState(false);
   const [selectedModel, setSelectedModel] = useState(
-    () => localStorage.getItem('bahtsu_selected_model') || 'ag/gemini-3.8-flash-high'
+    () => initialSession?.model || localStorage.getItem('bahtsu_selected_model') || 'ag/gemini-3.8-flash-high'
   );
   const [temperature, setTemperature] = useState(0.3);
 
   // Data & State
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState(() => initialSession?.messages || []);
   const [isStreaming, setIsStreaming] = useState(false);
-  const [taswidahContent, setTaswidahContent] = useState('');
+  const [taswidahContent, setTaswidahContent] = useState(() => initialSession?.taswidahContent || '');
   const [routerStatus, setRouterStatus] = useState(null);
 
   // Mobile View Toggle ('chat' | 'dock')
@@ -38,6 +49,7 @@ export default function App() {
   const [isArchiveOpen, setIsArchiveOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isModelSelectorOpen, setIsModelSelectorOpen] = useState(false);
+  const [isHistoryOpen, setIsHistoryOpen] = useState(false);
 
   const abortControllerRef = useRef(null);
 
@@ -56,6 +68,19 @@ export default function App() {
       fetchRouterStatus();
     }
   }, [isAuthenticated]);
+
+  // Auto-save session state to localStorage on state change
+  useEffect(() => {
+    if (activeSessionId) {
+      saveCurrentSessionState({
+        id: activeSessionId,
+        matraMode,
+        model: selectedModel,
+        messages,
+        taswidahContent,
+      });
+    }
+  }, [activeSessionId, messages, taswidahContent, matraMode, selectedModel]);
 
   const fetchRouterStatus = async () => {
     const status = await checkStatus();
@@ -87,8 +112,37 @@ export default function App() {
     setIsAuthenticated(false);
   };
 
+  const handleSelectSession = (session) => {
+    if (!session) return;
+    setActiveSessionId(session.id);
+    setActiveSessionIdState(session.id);
+    setMessages(session.messages || []);
+    setTaswidahContent(session.taswidahContent || '');
+    if (session.matraMode) setMatraMode(session.matraMode);
+    if (session.model) {
+      setSelectedModel(session.model);
+      localStorage.setItem('bahtsu_selected_model', session.model);
+    }
+  };
+
+  const handleNewSession = () => {
+    handleStopStreaming();
+    const newSession = createNewSession('Telaah Masalah Baru', matraMode, selectedModel);
+    setActiveSessionIdState(newSession.id);
+    setMessages([]);
+    setTaswidahContent('');
+  };
+
   const handleSendMessage = async (text) => {
     if (!text.trim() || isStreaming) return;
+
+    // Ensure session ID exists
+    let curId = activeSessionId;
+    if (!curId) {
+      const newSession = createNewSession(text.substring(0, 50), matraMode, selectedModel);
+      setActiveSessionIdState(newSession.id);
+      curId = newSession.id;
+    }
 
     const userMessage = { role: 'user', content: text };
     const updatedMessages = [...messages, userMessage];
@@ -138,6 +192,15 @@ export default function App() {
       },
       onFinish: () => {
         setIsStreaming(false);
+        // Auto-sync into TaswidahDock if it's currently empty
+        if (fullAssistantResponse && fullAssistantResponse.length > 60) {
+          setTaswidahContent(prev => {
+            if (!prev.trim()) {
+              return fullAssistantResponse;
+            }
+            return prev;
+          });
+        }
       },
     });
   };
@@ -150,9 +213,8 @@ export default function App() {
   };
 
   const handleResetChat = () => {
-    if (window.confirm('Mulai sesi bahtsul masail baru dan bersihkan riwayat obrolan?')) {
-      handleStopStreaming();
-      setMessages([]);
+    if (window.confirm('Mulai sesi bahtsul masail baru? Topik saat ini akan tetap tersimpan aman di Riwayat.')) {
+      handleNewSession();
     }
   };
 
@@ -197,6 +259,8 @@ export default function App() {
         onOpenArchive={() => setIsArchiveOpen(true)}
         onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenModelSelector={() => setIsModelSelectorOpen(true)}
+        onOpenHistory={() => setIsHistoryOpen(true)}
+        onNewSession={handleNewSession}
         onLock={handleLock}
         routerStatus={routerStatus}
         selectedModel={selectedModel}
@@ -306,6 +370,15 @@ export default function App() {
         setTemperature={setTemperature}
         routerStatus={routerStatus}
         onRefreshStatus={fetchRouterStatus}
+      />
+
+      {/* Session History Modal Drawer */}
+      <SessionHistoryModal
+        isOpen={isHistoryOpen}
+        onClose={() => setIsHistoryOpen(false)}
+        activeSessionId={activeSessionId}
+        onSelectSession={handleSelectSession}
+        onNewSession={handleNewSession}
       />
     </div>
   );

@@ -9,7 +9,9 @@ import {
   Lock, 
   Cpu,
   Type,
-  ChevronDown
+  ChevronDown,
+  History,
+  Plus
 } from 'lucide-react';
 
 export default function Header({
@@ -25,6 +27,8 @@ export default function Header({
   onOpenArchive,
   onOpenSettings,
   onOpenModelSelector,
+  onOpenHistory,
+  onNewSession,
   onLock,
   routerStatus,
   selectedModel,
@@ -53,7 +57,6 @@ export default function Header({
     },
   ];
 
-  // Helper to format model display name
   const formatModelBadge = (name = '') => {
     return name.replace(/^ag\//, '');
   };
@@ -61,7 +64,7 @@ export default function Header({
   return (
     <header className="border-b border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 backdrop-blur-md sticky top-0 z-40 transition-colors duration-200">
       <div className="max-w-[1720px] mx-auto px-2.5 sm:px-6 py-2 flex items-center justify-between gap-1.5 sm:gap-3">
-        {/* Left: Brand / Title */}
+        {/* Left: Brand / Title + Sesi Navigation */}
         <div className="flex items-center gap-2 sm:gap-3 min-w-0">
           <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-turath-emerald text-parchment-50 flex items-center justify-center shadow-md border border-turath-gold/40 flex-shrink-0">
             <BookOpen className="w-4 h-4 text-turath-gold" />
@@ -71,15 +74,36 @@ export default function Header({
               <h1 className="font-serif font-bold text-sm sm:text-lg tracking-tight text-ink-900 dark:text-parchment-50 truncate">
                 Bahtsu Klangopan
               </h1>
-              <span className="hidden xl:inline-block font-arabic text-xs text-turath-emerald dark:text-emerald-400 font-medium px-2 py-0.2 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft border border-turath-emerald/20">
+              <span className="hidden 2xl:inline-block font-arabic text-xs text-turath-emerald dark:text-emerald-400 font-medium px-2 py-0.2 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft border border-turath-emerald/20">
                 بَحْثُ كِلَانْغُوفَانْ
               </span>
             </div>
-            <p className="hidden sm:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1 font-sans">
+            <p className="hidden md:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1 font-sans">
               <span>Studio Bahtsul Masail</span>
               <span>•</span>
-              <span className="text-emerald-700 dark:text-emerald-400 font-medium">9Router Online</span>
+              <span className="text-emerald-700 dark:text-emerald-400 font-medium">9Router Aktif</span>
             </p>
+          </div>
+
+          {/* Quick Session History & New Buttons */}
+          <div className="flex items-center gap-1 ml-1 sm:ml-2">
+            <button
+              onClick={onOpenHistory}
+              className="flex items-center gap-1 px-2 py-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald hover:text-turath-emerald text-xs font-sans font-medium transition-all shadow-xs"
+              title="Lihat riwayat topik bahasan yang tersimpan"
+            >
+              <History className="w-3.5 h-3.5 text-turath-emerald" />
+              <span className="hidden sm:inline">Riwayat</span>
+            </button>
+
+            <button
+              onClick={onNewSession}
+              className="p-1.5 sm:px-2 sm:py-1.5 rounded-xl border border-dashed border-turath-emerald/40 hover:border-turath-emerald bg-turath-emerald-soft/50 dark:bg-turath-emerald-dark-soft/40 text-turath-emerald dark:text-emerald-300 text-xs font-sans font-semibold transition-all flex items-center gap-1"
+              title="Mulai topik bahasan baru"
+            >
+              <Plus className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Baru</span>
+            </button>
           </div>
         </div>
 
@@ -111,7 +135,7 @@ export default function Header({
           {/* Direct Model Picker Button */}
           <button
             onClick={onOpenModelSelector}
-            className="flex items-center gap-1 px-2 sm:px-2.5 py-1.5 rounded-xl border border-turath-emerald/30 bg-turath-emerald-soft/80 dark:bg-turath-emerald-dark-soft/70 text-turath-emerald dark:text-emerald-300 hover:border-turath-emerald text-xs font-mono font-semibold transition-all max-w-[150px] sm:max-w-[210px] truncate"
+            className="flex items-center gap-1 px-2 sm:px-2.5 py-1.5 rounded-xl border border-turath-emerald/30 bg-turath-emerald-soft/80 dark:bg-turath-emerald-dark-soft/70 text-turath-emerald dark:text-emerald-300 hover:border-turath-emerald text-xs font-mono font-semibold transition-all max-w-[140px] sm:max-w-[210px] truncate"
             title="Klik untuk memilih model AI"
           >
             <Cpu className="w-3.5 h-3.5 flex-shrink-0 text-turath-emerald" />
@@ -128,7 +152,7 @@ export default function Header({
             title="Pencarian Kitab Turath.io"
           >
             <Search className="w-3.5 h-3.5 text-turath-gold" />
-            <span className="hidden md:inline">Turath</span>
+            <span className="hidden xl:inline">Turath</span>
           </button>
 
           {/* Kajian Archive Button */}
@@ -138,7 +162,7 @@ export default function Header({
             title="Arsip Kajian"
           >
             <FolderArchive className="w-3.5 h-3.5 text-ink-500" />
-            <span className="hidden md:inline">Arsip</span>
+            <span className="hidden xl:inline">Arsip</span>
           </button>
 
           {/* Typography Controls Popover */}
