@@ -4,6 +4,30 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.4.0] - 2026-09-26
+
+### 🔒 Security & Privacy
+- **Pengecualian Skrip Kredensial & Rotator (`.gitignore`):** Mengecualikan seluruh skrip otomasi internal, generator/rotator akun, serta kredensial (`scripts/buka_9router_dashboard.ps1`, `scripts/ekstrak_akun_antigravity.py`, `scripts/gemini_rotator.py`, `scripts/tambah_akun_gemini.ps1`, `*.token`, `*credentials*.json`, `*accounts*.json`) agar aman dan tidak pernah terdorong ke repositori publik.
+
+### ✨ New Features & Enhancements
+- **Protokol Kompatibilitas BiDi Multi-Bahasa (`SKILL.md`):** Menetapkan 4 aturan baku anti-scrambled layout untuk rendering dokumen Markdown campuran Arab-Latin di GitHub:
+  1. *Jangkar Judul LTR (BiDi Anchor):* Mewajibkan penomoran rujukan diawali teks Latin (`1. **Kitab: ...**`) agar nomor daftar menempel rapi di margin kiri.
+  2. *Pemisah Baris Kosong Ganda (`\n\n`):* Memisahkan judul, kutipan ibarat, terjemahan, wajhul istidlal, dan tautan dengan baris ganda agar terproses sebagai blok independen.
+  3. *Isolasi Blockquote Arab (`>`):* Kutipan ibarat Arab berdiri mandiri sehingga otomatis dievaluasi sebagai RTL murni dengan garis kutipan elegan.
+  4. *Paragraf Analisis LTR:* Menjamin makna murod dan wajhul istidlal berorientasi LTR murni sehingga tanda baca titik (`.`), petik (`"`), dan kurung (`]`) tidak lagi terbalik ke sisi kiri.
+- **Kewajiban Tamyīz Madzhab Non-Syafi'iyyah:** Menegaskan kewajiban label eksplisit pada rujukan Hanafi, Maliki, Hanbali, dan Muqaranah, serta pertanggungjawaban ilmiah status qaul dan makhraj syar'i guna mencegah talfiq bathil.
+
+### 🐛 Bug Fixes & Refactoring
+- **Restrukturisasi BiDi 8 Berkas Kajian (`kajian/`):** Mengaudit dan merevisi format 97 kutipan ibarat pada seluruh dokumen kajian di repositori (Hukum Asuransi BPJS Kesehatan, Shalat Arafah, Wasiat Haul, Azimat & Rajah, Model Bisnis Muse AI, Nasab Ba'alawi, Kuota Hangus, dan Shopee VIP) agar tampil rapi dan nyaman dibaca di GitHub web.
+- **Pembersihan Duplikasi & Teks `\n` Mentah:** Menghapus duplikasi sub-bab pada naskah Shalat Arafah serta membersihkan string literal `\n\n` pada naskah Wasiat Haul.
+
+### 📚 New Studies & Materials (Kajian Bahtsul Masail)
+- **Hukum Asuransi BPJS Kesehatan (`kajian/2026-09-26-hukum-asuransi-bpjs-kesehatan.md`):** Telaah fiqih muamalah dan siyasah syar'iyyah mengenai akad tabarru' jaminan sosial nasional, keabsahan kewajiban iuran oleh pemerintah, serta ketiadaan riba dan gharar terlarang.
+- **Hukum Azimat dan Rajah (`kajian/2026-09-26-hukum-penggunaan-azimat-rajah.md`):** Telaah akidah dan fiqih mengenai ta'widz ayat Al-Qur'an, batasan ilmu wifiq, dan adab membawa azimat ke toilet.
+- **Wasiat Harta Sawah untuk Haul (`kajian/2026-09-26-wasiat-harta-untuk-haul.md`):** Telaah batas sepertiga tirkah, keabsahan wasiat sedekah makanan dan doa haul, serta status tanah sawah sebagai wasiat manfaat abadi (*waqaf wasiyyah*).
+
+---
+
 ## [2.3.0] - 2026-09-26
 
 ### ✨ New Features & Improvements
