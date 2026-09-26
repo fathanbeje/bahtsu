@@ -67,7 +67,7 @@ Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    [Penjelasan logis korelasi mengapa kalimat yang disorot menjadi landasan hukum kasus tersebut]
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 2. **[Nama Kitab 2] (Juz/Halaman)**  
    *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Syarah Muktamadah Muta'akhirin*  
@@ -79,7 +79,7 @@ Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    [Korelasi dan elaborasi hukum]
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 3. **[Nama Kitab 3] (Juz/Halaman)**  
    *Karya: [Pengarang] (Wafat: [Tahun] H) | Lapisan: Kitab Hasyiyah / Fatawa Muktamadah*  
@@ -91,7 +91,7 @@ Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    [Penjelasan rincian/taqyid hukum]
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 4. **[Nama Kitab 4: Qawa'id Fiqhiyyah / Ushul] (Juz/Halaman)**  
    *Karya: [Pengarang] (Wafat: [Tahun] H)*  
@@ -103,7 +103,7 @@ Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    [Penyandaran pada kaidah universal syariat dan maqashidus syari'ah]
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 5. **[Nama Kitab 5: Muqaranah 4 Madzhab (Bila Ada Ikhtilaf / Solusi Alternatif)] (Juz/Halaman)**  
    *Karya: [Pengarang] (Wafat: [Tahun] H)*  
@@ -115,7 +115,7 @@ Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    [Alasan penggunaan qaul madzhab lain demi hajat dan kemaslahatan umum tanpa talfiq bathil]
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 ---
 

@@ -90,7 +90,9 @@ async function searchTurathSingle(query, categoryId, limit) {
     const authorName = meta.author_name || 'Ulama Salaf';
     const volume = meta.vol || '1';
     const printedPage = meta.page || pageId;
-    const directUrl = `https://app.turath.io/book/${bookId}?page=${pageId}`;
+    const cleanHighlight = query.replace(/[\u064B-\u0652]/g, '').trim();
+    const textFragment = cleanHighlight ? `#:~:text=${encodeURIComponent(cleanHighlight)}` : '';
+    const directUrl = `https://app.turath.io/book/${bookId}?page=${pageId}${textFragment}`;
 
     return {
       query,

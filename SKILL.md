@@ -53,7 +53,12 @@ Demi menjamin integritas ilmiah (*al-amānah al-'ilmiyyah*), kejelasan sanad pen
 - **Format Baku Penyusun Naskah:** Wajib mencantumkan secara tegas entitas model agen yang menyusun naskah pada baris metadata:  
   `**Penyusun Naskah:** [Entitas Model AI Aktif] — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)`  
   *(Contoh konkret saat ini:* `**Penyusun Naskah:** Gemini 3.8 Flash (High) — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)`*)*
-- **Jaminan Auditabilitas Sitasi (*Tasykīk wal Mu'āyanah*):** Entitas model AI yang bertugas bertanggung jawab menyajikan kutipan teks Arab yang autentik, nomor juz dan halaman yang akurat, serta tautan verifikasi digital (*Turath.io / Shamela*) yang valid sehingga seluruh alur penalaran dan istidlal dapat diaudit secara ilmiah oleh para musyawirin.
+- **Jaminan Auditabilitas Sitasi (*Tasykīk wal Mu'āyanah*):** Entitas model AI yang bertugas bertanggung jawab menyajikan kutipan teks Arab yang autentik, nomor juz dan halaman cetak yang akurat, serta tautan verifikasi digital resmi **Turath.io (`app.turath.io`)** yang presisi langsung menuju titik kalimat hukum (*mahallus syāhid*) dengan format Scroll-to-Text-Fragment (`#:~:text=...`). AI dilarang keras menggunakan atau menautkan ke situs non-presisi seperti `shamela.ws`.
+
+### 5. Larangan Mutlak Shamela.ws (Zero Shamela Policy)
+AI **DIHARAMKAN KERAS** mengutip ibarat atau menyertakan tautan rujukan dari `shamela.ws`, `al-maktaba.org`, atau situs non-presisi sejenisnya:
+- **Alasan Mutlak:** Shamela.ws menyajikan halaman statis yang kaku, tautannya tidak mampu melompat otomatis ke titik kalimat dalil (*mahallus syāhid*), sering terkendala verifikasi bot/captcha, dan nomor halamannya kerap tidak sinkron dengan cetakan yang umum dikaji di pesantren.
+- **Standar Wajib:** Seluruh maraji' dan verifikasi ibarat **WAJIB 100% menggunakan Turath.io (`app.turath.io`)** yang terintegrasi dengan penomoran juz, halaman cetak, serta fitur *Scroll-to-Text-Fragment* (`#:~:text=...`) untuk menyorot langsung kalimat kunci hukum.
 
 ---
 
@@ -154,28 +159,28 @@ Setiap kajian wajib disajikan dalam struktur naskah taswidah lengkap berikut:
    > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci / Mahallus Syāhid yang Menjadi Inti Dalil Diberi Sorotan Khusus】**</u> [Kelanjutan teks jika ada]  
    *Makna Murod / Terjemah:* [Terjemahan bahasa Indonesia kontekstual]  
    *Wajhul Istidlal / Wajhul Ilhāq:* [Penjelasan korelasi mengapa kalimat yang disorot menjadi landasan hukum kasus tersebut]  
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 2. **[Nama Kitab 2] (Juz/Halaman)**  
    *Karya: [Pengarang & Wafat] | Lapisan: [Kitab Syarah / Hasyiyah]*  
    > [Teks Ibarat Arab] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]  
    *Makna Murod / Terjemah:* [...]  
    *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 3. **[Nama Kitab 3] (Juz/Halaman)**  
    *Karya: [Pengarang & Wafat] | Lapisan: [Fatawa / Muqaranah]*  
    > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]  
    *Makna Murod / Terjemah:* [...]  
    *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 4. **[Nama Kitab 4: Qawa'id Fiqhiyyah / Ushul] (Juz/Halaman)**  
    *Karya: [Pengarang & Wafat]*  
    > [Teks Kaidah Fiqhiyyah Arab Berharakat Beserta Uraiannya] <u>**【Pernyataan Kaidah Universal】**</u> [Kelanjutan teks...]  
    *Makna Murod / Terjemah:* [...]  
    *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{id}?page={id})
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 ```
 
 ---
@@ -199,15 +204,51 @@ Setiap kali asisten selesai membahas dan menyusun rumusan suatu masalah keagamaa
 
 ---
 
-## 🌐 PROSEDUR PENELUSURAN ONLINE (TURATH.IO & SHAMELA)
+## 🌐 PROTOKOL PENELUSURAN ONLINE EKSKLUSIF TURATH.IO (MULTI-ENVIRONMENT)
 
-1. Jalankan `scripts/turath_search.js` dengan variasi kata kunci (*al-alfazh al-muta'addidah*):
-   - Contoh pencarian tunggal:
-     ```bash
-     node scripts/turath_search.js -q "من مات وعليه صلاة" -c 16 -l 5
-     ```
-   - Contoh pencarian multi-kueri paralel:
-     ```bash
-     node scripts/turath_search.js -m "فدية الصلاة,الاستئجار على الصلاة,قضاء الصلاة عن الميت" -l 3
-     ```
-2. Kumpulkan kutipan dari berbagai kitab otoritatif dan pastikan nomor juz, halaman cetak, serta tautan URL diverifikasi valid.
+Sistem ini mewajibkan seluruh verifikasi rujukan terhubung langsung ke **Turath.io (`app.turath.io`)**. Prosedur penelusuran disesuaikan dengan lingkungan aktif:
+
+### 1. Mode Lingkungan Terminal / Coding Agent (Antigravity / CLI)
+Gunakan skrip utilitas `scripts/turath_search.js` yang secara otomatis terhubung langsung ke REST API Turath.io dan menghasilkan tautan presisi ber-fragment teks:
+- **Pencarian Tunggal (Disertai Filter Kategori Fiqh Syafi'i `cat_id 16`):**
+  ```bash
+  node scripts/turath_search.js -q "من مات وعليه صلاة" -c 16 -l 5
+  ```
+- **Pencarian Multi-Kueri Paralel (*Al-Alfazh Al-Muta'addidah*):**
+  ```bash
+  node scripts/turath_search.js -m "فدية الصلاة,الاستئجار على الصلاة,قضاء الصلاة عن الميت" -l 3
+  ```
+
+### 2. Mode Lingkungan Gemini Spark / Google Gems / Chat UI (Tanpa Terminal Node.js)
+Jika AI berjalan di lingkungan antarmuka percakapan (Gemini Spark, Google AI Studio, ChatGPT/Claude web) yang tidak memiliki akses terminal lokal:
+- **Akses Langsung REST API Publik Turath (Bila memiliki Code Interpreter / Web Fetch):**
+  Panggil endpoint pencarian resmi:
+  `https://api.turath.io/search?q={kata_kunci_bahasa_arab}&cat_id=16&v=3`
+  *(Catatan ID Kategori: `16` = Al-Fiqh Asy-Syafi'i, `15` = Ushul Fiqh & Qawa'id, `18` = Fatawa & Fiqh 'Am)*.
+- **Peringatan Mesin Pencari Bawaan (Web Browsing / Google Search):**
+  Aplikasi web `app.turath.io` adalah Single-Page Application (SPA) yang tidak terindeks halaman per halaman di Google Search (sehingga pencarian `site:app.turath.io/book` menghasilkan 0 hasil). Jika AI menggunakan Google Search untuk mencari teks Arab, Google akan membanjiri hasil dengan tautan dari `shamela.ws`.  
+  ⚠️ **PERINGATAN KERAS:** AI **DILARANG MENYALIN TAUTAN SHAMELA.WS**. AI hanya boleh menggunakan teks dan data halaman yang ditemukan di web untuk mengonstruksi tautan verifikasi presisi Turath.io.
+
+### 3. Protokol Penautan Presisi ke Titik Kalimat Hukum (*Mahallus Syāhid*)
+Setiap tautan verifikasi Turath.io wajib mengikuti standar penautan peramban modern (*Scroll-to-Text-Fragment*):
+$$\text{https://app.turath.io/book/}\{\text{book\_id}\}\text{?page=}\{\text{page\_id}\}\#:\sim:\text{text=}\{\text{kata\_kunci\_mahallus\_syahid}\}$$
+- `book_id`: ID unik kitab di basis data Turath.
+- `page_id`: ID halaman internal Turath (mengarah langsung ke juz dan nomor halaman yang tepat).
+- `#:~:text=`: Fitur resmi peramban (Chrome, Edge, Safari, Android) untuk **otomatis melompat (*auto-scroll*) dan menyorot (*highlight* kuning)** kalimat dalil (*mahallus syāhid*). Gunakan kata kunci inti tanpa harakat dan URL-encoded (misal: `#:~:text=من%20مات%20وعليه%20صلاة`).
+
+### 4. Tabel Cepat ID Kitab Induk Fiqih Syafi'i di Turath.io (Turath ID Reference Table)
+Gunakan tabel referensi berikut untuk memastikan akurasi `book_id` rujukan utama tanpa perlu menebak:
+
+| Nama Kitab | Pengarang | Turath Book ID | Kategori Utama |
+| :--- | :--- | :---: | :--- |
+| **المجموع شرح المهذب** | الإمام النووي | `2186` | Fiqh Syafi'i (Kategori 16) |
+| **مغني المحتاج** | الخطيب الشربيني | `11444` | Fiqh Syafi'i (Kategori 16) |
+| **الموسوعة الفقهية الكويتية** | نخبة من العلماء | `11430` | Fiqh Muqaran (Kategori 18) |
+| **الحاوي الكبير** | الماوردي | `6157` | Fiqh Syafi'i (Kategori 16) |
+| **نهاية المطلب في دراية المذهب** | إمام الحرمين الجويني | `9851` | Fiqh Syafi'i (Kategori 16) |
+| **فتح القريب المجيب (شرح ابن قاسم)** | ابن قاسم الغزي | `35120` | Fiqh Syafi'i (Kategori 16) |
+| **التدريب في الفقه الشافعي** | البلقيني | `19230` | Fiqh Syafi'i (Kategori 16) |
+| **اللباب في الفقه الشافعي** | المحاملي | `8534` | Fiqh Syafi'i (Kategori 16) |
+| **الغاية في اختصار النهاية** | العز بن عبد السلام | `127703` | Fiqh Syafi'i (Kategori 16) |
+| **حلية العلماء في معرفة مذاهب الفقهاء** | الشاشي | `146126` | Fiqh Muqaran (Kategori 16) |
+| **تكملة السبكي على المجموع** | تقي الدين السبكي | `30083` | Fiqh Syafi'i (Kategori 16) |
