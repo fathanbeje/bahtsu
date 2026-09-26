@@ -56,6 +56,31 @@ function cleanHtml(html) {
     .trim();
 }
 
+function detectMadzhab(catId, bookName = '', authorName = '') {
+  const text = (bookName + ' ' + authorName).toLowerCase();
+  
+  if (catId === 16) return "Madzhab Syafi'i (Default/Mu'tamad)";
+  if (catId === 14) return "Madzhab Hanafi";
+  if (catId === 17) return "Madzhab Hanbali";
+  if (catId === 15) {
+    if (/مالك|سحنون|دردير|دسوقي|قرافي|حطاب|خليل|ابن رشد|قرطبي|عياض/.test(text)) return "Madzhab Maliki";
+    return "Ushul Fiqh / Qawa'id";
+  }
+  if (catId === 18) {
+    if (/كويتية|فقه السنة|مقارن|خلاف|بدائع|مغني/.test(text)) return "Muqaranah 4 Madzhab";
+    return "Fatawa / Fiqh 'Am";
+  }
+  
+  // Deteksi tekstual bila catId bukan kategori fiqh murni
+  if (/حنيف|سرخسي|كاساني|مرغيناني|ابن عابدين|زيلعي|طحاوي|نسفي|سمرقندي/.test(text)) return "Madzhab Hanafi";
+  if (/مالك|سحنون|ابن رشد|قرافي|خليل|دردير|دسوقي|حطاب|ابن عبد البر|عياض|نفراوي/.test(text)) return "Madzhab Maliki";
+  if (/حنب|ابن قدامة|مرداوي|بهوتي|ابن رجب|ابن تيمية|ابن القيم/.test(text)) return "Madzhab Hanbali";
+  if (/شافع|نووي|رافعي|هيثمي|رملي|شربيني|زكريا|بجيرمي|قليوبي|سيوطي|غزالي|جويني|ماوردي|محلي|باجروري|كردي|مليباري|عمران|سبكي|إسنوي|قفال/.test(text)) return "Madzhab Syafi'i (Mu'tamad)";
+  if (/كويتية|مقارن|مذاهب/.test(text)) return "Muqaranah 4 Madzhab";
+  
+  return "Ghairu Syafi'i / 'Am";
+}
+
 async function searchTurathSingle(query, categoryId, limit) {
   let url = `${API_ENDPOINT}?q=${encodeURIComponent(query)}&v=3`;
   if (categoryId) {
@@ -93,6 +118,7 @@ async function searchTurathSingle(query, categoryId, limit) {
     const cleanHighlight = query.replace(/[\u064B-\u0652]/g, '').trim();
     const textFragment = cleanHighlight ? `#:~:text=${encodeURIComponent(cleanHighlight)}` : '';
     const directUrl = `https://app.turath.io/book/${bookId}?page=${pageId}${textFragment}`;
+    const madzhab = detectMadzhab(item.cat_id, bookName, authorName);
 
     return {
       query,
@@ -100,6 +126,7 @@ async function searchTurathSingle(query, categoryId, limit) {
       catId: item.cat_id,
       bookName,
       authorName,
+      madzhab,
       volume,
       printedPage,
       pageId,
@@ -154,6 +181,7 @@ async function main() {
     allResults.forEach((item, index) => {
       console.log(`### ${index + 1}. ${item.bookName} (${item.volume ? item.volume + '/' : ''}${item.printedPage})`);
       console.log(`- **Pengarang:** ${item.authorName}`);
+      console.log(`- **Madzhab:** ${item.madzhab}`);
       if (item.headings && item.headings.length > 0) {
         console.log(`- **Bab / Judul:** ${item.headings.join(' > ')}`);
       }

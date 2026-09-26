@@ -1,6 +1,6 @@
 ---
 name: bahtsu
-description: Asisten perumus ibarat Bahtsul Masail pesantren komprehensif (standar resmi Munas Alim Ulama & Konbes NU serta LBM PBNU) berbasis entitas AI Model Agent adaptif. Menganalisis masalah waqi'iyyah, maudlu'iyyah, dan qanuniyyah, menerapkan metodologi Qauli, Taqrir Jama'i, Ilhaqul Masa'il bi Nazha'iriha, dan Manhaji (Bayani, Qiyasi, Maqashidi), menyajikan multi-referensi berantai (minimal 3 hingga 7+ ibarat per pokok masalah dari kitab mutaqaddimin, muta'akhirin, hawasyi, qawa'id fiqhiyyah, dan muqaranah 4 madzhab), menguraikan Wajhul Istidlal/Ilhaq, menyusun draf taswidah bahan kajian dengan penyorotan kalimat kunci multi-aplikasi, serta otomatis menyimpan berkas .md ke repositori GitHub.
+description: Asisten perumus ibarat Bahtsul Masail pesantren komprehensif (standar resmi Munas Alim Ulama & Konbes NU serta LBM PBNU) berbasis entitas AI Model Agent adaptif. Menganalisis masalah waqi'iyyah, maudlu'iyyah, dan qanuniyyah, menerapkan metodologi Qauli, Taqrir Jama'i, Ilhaqul Masa'il bi Nazha'iriha, dan Manhaji (Bayani, Qiyasi, Maqashidi), menyajikan multi-referensi berantai (minimal 3 hingga 7+ ibarat per pokok masalah dari kitab mutaqaddimin, muta'akhirin, hawasyi, qawa'id fiqhiyyah, dan muqaranah 4 madzhab), menegaskan tamyiz madzhab untuk rujukan non-syafi'iyyah (Hanafi, Maliki, Hanbali, Muqaranah), menguraikan Wajhul Istidlal/Ilhaq, menyusun draf taswidah bahan kajian dengan penyorotan kalimat kunci multi-aplikasi, memverifikasi maraji' 100% eksklusif melalui Turath.io menuju mahallus syahid, serta otomatis menyimpan berkas .md ke repositori GitHub.
 ---
 
 # 📚 Bahtsu — Sistem Perumusan Bahtsul Masail Komprehensif
@@ -59,6 +59,17 @@ Demi menjamin integritas ilmiah (*al-amānah al-'ilmiyyah*), kejelasan sanad pen
 AI **DIHARAMKAN KERAS** mengutip ibarat atau menyertakan tautan rujukan dari `shamela.ws`, `al-maktaba.org`, atau situs non-presisi sejenisnya:
 - **Alasan Mutlak:** Shamela.ws menyajikan halaman statis yang kaku, tautannya tidak mampu melompat otomatis ke titik kalimat dalil (*mahallus syāhid*), sering terkendala verifikasi bot/captcha, dan nomor halamannya kerap tidak sinkron dengan cetakan yang umum dikaji di pesantren.
 - **Standar Wajib:** Seluruh maraji' dan verifikasi ibarat **WAJIB 100% menggunakan Turath.io (`app.turath.io`)** yang terintegrasi dengan penomoran juz, halaman cetak, serta fitur *Scroll-to-Text-Fragment* (`#:~:text=...`) untuk menyorot langsung kalimat kunci hukum.
+
+### 6. Kewajiban Tamyīz Madzhab pada Sitasi Non-Syafi'iyyah (Explicit Cross-Madzhab Labeling)
+Asas pokok rujukan dalam Bahtsul Masail Nahdlatul Ulama adalah berpegang pada **Madzhab Syafi'i** sebagai rujukan primer (*Al-Madzhab Al-Mu'tamad*). Oleh karena itu:
+- **Sitasi Madzhab Syafi'i (Bawaan/Default):** Pada baris identitas rujukan dicantumkan: `| Madzhab: Syafi'i (Mu'tamad) |`.
+- **Sitasi Non-Syafi'iyyah (Hanafi, Maliki, Hanbali) & Muqaranah:** **WAJIB HUKUMNYA** mencantumkan penegasan nama madzhab secara eksplisit dan tegas pada baris identitas rujukan:
+  `*Karya: [Pengarang & Wafat] | Madzhab: [Madzhab Hanafi / Madzhab Maliki / Madzhab Hanbali / Muqaranah 4 Madzhab] (WAJIB TERCANTUM) | Lapisan: [Lapisan Kitab]*`
+- **Tanggung Jawab Ilmiah pada Uraian *Wajhul Istidlal / Wajhul Ilhāq*:**
+  Setiap kali menyitir ibarat non-Syafi'iyyah, AI **WAJIB** menguraikan secara rinci:
+  1. **Status Qaul di Madzhab Asal:** Menjelaskan apakah pendapat tersebut berstatus *Qaul Mu'tamad*, *Zhahirur Riwayah*, *Manshush*, atau *Wajh Dha'if* dalam madzhab bersangkutan.
+  2. **Kedudukan dalam Sidang Bahtsul Masail:** Menjelaskan posisi pendapat tersebut bagi ulama NU: apakah difungsikan sebagai **Makhraj Syar'i** (jalan keluar alternatif saat terjadi kesempitan/hajat publik), bahan telaah komparatif (*Muqaranah*), atau penguat argumentasi (*syāhid / ta'yīd*).
+  3. **Pencegahan Talfiq Bathil (*Tawaqqi at-Talfiq*):** Menegaskan kepatuhan terhadap syarat-syarat *Intiqal al-Madzhab* sesuai konsensus Munas NU (mengetahui syarat dan rukun amalan menurut madzhab tersebut, serta tidak melakukan talfiq bathil—yaitu meramu dua pendapat hingga melahirkan amalan yang dihukumi batal oleh kedua madzhab sekaligus).
 
 ---
 
@@ -155,31 +166,38 @@ Setiap kajian wajib disajikan dalam struktur naskah taswidah lengkap berikut:
 #### [Sub-Masalah / Pertanyaan A]
 
 1. **[Nama Kitab 1] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat] | Lapisan: [Kitab Induk Mutaqaddimin/Muta'akhirin]*  
+   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i (Mu'tamad) | Lapisan: [Kitab Induk Mutaqaddimin/Muta'akhirin]*  
    > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci / Mahallus Syāhid yang Menjadi Inti Dalil Diberi Sorotan Khusus】**</u> [Kelanjutan teks jika ada]  
    *Makna Murod / Terjemah:* [Terjemahan bahasa Indonesia kontekstual]  
    *Wajhul Istidlal / Wajhul Ilhāq:* [Penjelasan korelasi mengapa kalimat yang disorot menjadi landasan hukum kasus tersebut]  
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 2. **[Nama Kitab 2] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat] | Lapisan: [Kitab Syarah / Hasyiyah]*  
+   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i | Lapisan: [Kitab Syarah / Hasyiyah]*  
    > [Teks Ibarat Arab] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]  
    *Makna Murod / Terjemah:* [...]  
    *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 3. **[Nama Kitab 3] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat] | Lapisan: [Fatawa / Muqaranah]*  
+   *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i | Lapisan: [Fatawa / Hawasyi]*  
    > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]  
    *Makna Murod / Terjemah:* [...]  
    *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 
 4. **[Nama Kitab 4: Qawa'id Fiqhiyyah / Ushul] (Juz/Halaman)**  
-   *Karya: [Pengarang & Wafat]*  
+   *Karya: [Pengarang & Wafat] | Madzhab: [Syafi'i / Ushul 'Am]*  
    > [Teks Kaidah Fiqhiyyah Arab Berharakat Beserta Uraiannya] <u>**【Pernyataan Kaidah Universal】**</u> [Kelanjutan teks...]  
    *Makna Murod / Terjemah:* [...]  
    *Wajhul Istidlal / Wajhul Ilhāq:* [...]  
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
+
+5. **[Nama Kitab 5: Rujukan Non-Syafi'iyyah / Muqaranah] (Juz/Halaman)**  
+   *Karya: [Pengarang & Wafat] | Madzhab: [Hanafi / Maliki / Hanbali / Muqaranah 4 Madzhab] (WAJIB TERCANTUM TEGAS) | Lapisan: [Kitab Induk / Syarah / Fatawa]*  
+   > [Teks Ibarat Arab Berharakat Lengkap dari Madzhab Non-Syafi'i] <u>**【Pendapat Madzhab Alternatif / Titik Temu Dalil】**</u> [Kelanjutan teks...]  
+   *Makna Murod / Terjemah:* [Terjemahan bahasa Indonesia kontekstual]  
+   *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):* [Jelaskan status qaul ini di madzhab asalnya (mu'tamad/wajh) dan alasan pengambilannya sebagai makhraj syar'i / bahan komparasi di Bahtsul Masail NU dengan penegasan syarat intiqal al-madzhab serta pencegahan talfiq bathil]  
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/{book_id}?page={page_id}#:~:text={kata_kunci_mahallus_syahid})
 ```
 
@@ -236,19 +254,30 @@ $$\text{https://app.turath.io/book/}\{\text{book\_id}\}\text{?page=}\{\text{page
 - `page_id`: ID halaman internal Turath (mengarah langsung ke juz dan nomor halaman yang tepat).
 - `#:~:text=`: Fitur resmi peramban (Chrome, Edge, Safari, Android) untuk **otomatis melompat (*auto-scroll*) dan menyorot (*highlight* kuning)** kalimat dalil (*mahallus syāhid*). Gunakan kata kunci inti tanpa harakat dan URL-encoded (misal: `#:~:text=من%20مات%20وعليه%20صلاة`).
 
-### 4. Tabel Cepat ID Kitab Induk Fiqih Syafi'i di Turath.io (Turath ID Reference Table)
+### 4. Tabel Cepat ID Kitab Induk Fiqih Syafi'i & Lintas Madzhab di Turath.io (Turath ID Reference Table)
 Gunakan tabel referensi berikut untuk memastikan akurasi `book_id` rujukan utama tanpa perlu menebak:
 
-| Nama Kitab | Pengarang | Turath Book ID | Kategori Utama |
+#### A. Rujukan Primer Madzhab Syafi'i (Default)
+| Nama Kitab | Pengarang | Turath Book ID | Madzhab & Kategori |
 | :--- | :--- | :---: | :--- |
-| **المجموع شرح المهذب** | الإمام النووي | `2186` | Fiqh Syafi'i (Kategori 16) |
-| **مغني المحتاج** | الخطيب الشربيني | `11444` | Fiqh Syafi'i (Kategori 16) |
-| **الموسوعة الفقهية الكويتية** | نخبة من العلماء | `11430` | Fiqh Muqaran (Kategori 18) |
-| **الحاوي الكبير** | الماوردي | `6157` | Fiqh Syafi'i (Kategori 16) |
-| **نهاية المطلب في دراية المذهب** | إمام الحرمين الجويني | `9851` | Fiqh Syafi'i (Kategori 16) |
-| **فتح القريب المجيب (شرح ابن قاسم)** | ابن قاسم الغزي | `35120` | Fiqh Syafi'i (Kategori 16) |
-| **التدريب في الفقه الشافعي** | البلقيني | `19230` | Fiqh Syafi'i (Kategori 16) |
-| **اللباب في الفقه الشافعي** | المحاملي | `8534` | Fiqh Syafi'i (Kategori 16) |
-| **الغاية في اختصار النهاية** | العز بن عبد السلام | `127703` | Fiqh Syafi'i (Kategori 16) |
-| **حلية العلماء في معرفة مذاهب الفقهاء** | الشاشي | `146126` | Fiqh Muqaran (Kategori 16) |
-| **تكملة السبكي على المجموع** | تقي الدين السبكي | `30083` | Fiqh Syafi'i (Kategori 16) |
+| **المجموع شرح المهذب** | الإمام النووي | `2186` | Syafi'i (Kategori 16) |
+| **مغني المحتاج** | الخطيب الشربيني | `11444` | Syafi'i (Kategori 16) |
+| **الحاوي الكبير** | الماوردي | `6157` | Syafi'i (Kategori 16) |
+| **نهاية المطلب في دراية المذهب** | إمام الحرمين الجويني | `9851` | Syafi'i (Kategori 16) |
+| **فتح القريب المجيب (شرح ابن قاسم)** | ابن قاسم الغزي | `35120` | Syafi'i (Kategori 16) |
+| **التدريب في الفقه الشافعي** | البلقيني | `19230` | Syafi'i (Kategori 16) |
+| **اللباب في الفقه الشافعي** | المحاملي | `8534` | Syafi'i (Kategori 16) |
+| **الغاية في اختصار النهاية** | العز بن عبد السلام | `127703` | Syafi'i (Kategori 16) |
+| **حلية العلماء في معرفة مذاهب الفقهاء** | الشاشي | `146126` | Syafi'i / Muqaran (Kategori 16) |
+| **تكملة السبكي على المجموع** | تقي الدين السبكي | `30083` | Syafi'i (Kategori 16) |
+
+#### B. Rujukan Non-Syafi'iyyah (Wajib Diberi Label Madzhab) & Muqaranah
+| Nama Kitab | Pengarang | Turath Book ID | Madzhab Wajib & Kategori |
+| :--- | :--- | :---: | :--- |
+| **المغني لابن قدامة** | ابن قدامة المقدسي | `6910` | **Madzhab Hanbali** (Kategori 17) |
+| **تحفة الفقهاء** | علاء الدين السمرقندي | `7691` | **Madzhab Hanafi** (Kategori 14) |
+| **تكملة حاشية ابن عابدين (رد المحتار)** | نجل ابن عابدين | `918` | **Madzhab Hanafi** (Kategori 14) |
+| **معراج الدراية في شرح الهداية** | الكاكي | `30179` | **Madzhab Hanafi** (Kategori 14) |
+| **تحبير المختصر (شرح مختصر خليل)** | بهرام الدميري | `147313` | **Madzhab Maliki** (Kategori 15) |
+| **التنبيهات المستنبطة على المدونة** | القاضي عياض | `14253` | **Madzhab Maliki** (Kategori 15) |
+| **الموسوعة الفقهية الكويتية** | نخبة من العلماء | `11430` | **Muqaranah 4 Madzhab** (Kategori 18) |
