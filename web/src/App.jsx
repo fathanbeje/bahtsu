@@ -6,6 +6,7 @@ import TurathModal from './components/TurathModal';
 import KajianArchiveModal from './components/KajianArchiveModal';
 import PasscodeModal from './components/PasscodeModal';
 import SettingsModal from './components/SettingsModal';
+import ModelSelectorModal from './components/ModelSelectorModal';
 import { getAuthToken, clearAuthToken, checkStatus, streamChat } from './utils/api';
 import { MessageSquare, BookOpen } from 'lucide-react';
 
@@ -18,7 +19,9 @@ export default function App() {
   const [arabicFontSize, setArabicFontSize] = useState(24);
   const [arabicFontFamily, setArabicFontFamily] = useState('amiri');
   const [darkMode, setDarkMode] = useState(false);
-  const [selectedModel, setSelectedModel] = useState('gemini-2.5-pro');
+  const [selectedModel, setSelectedModel] = useState(
+    () => localStorage.getItem('bahtsu_selected_model') || 'ag/gemini-3.8-flash-high'
+  );
   const [temperature, setTemperature] = useState(0.3);
 
   // Data & State
@@ -34,6 +37,7 @@ export default function App() {
   const [isTurathOpen, setIsTurathOpen] = useState(false);
   const [isArchiveOpen, setIsArchiveOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [isModelSelectorOpen, setIsModelSelectorOpen] = useState(false);
 
   const abortControllerRef = useRef(null);
 
@@ -56,9 +60,19 @@ export default function App() {
   const fetchRouterStatus = async () => {
     const status = await checkStatus();
     setRouterStatus(status);
-    if (status.defaultModel && !selectedModel) {
-      setSelectedModel(status.defaultModel);
+    
+    // If current selectedModel is not set or invalid, sync with router available models
+    const saved = localStorage.getItem('bahtsu_selected_model');
+    if (!saved && status.availableModels && status.availableModels.length > 0) {
+      const topModel = status.availableModels.find(m => m.includes('3.8-flash-high')) || status.availableModels[0];
+      setSelectedModel(topModel);
+      localStorage.setItem('bahtsu_selected_model', topModel);
     }
+  };
+
+  const handleModelChange = (model) => {
+    setSelectedModel(model);
+    localStorage.setItem('bahtsu_selected_model', model);
   };
 
   const handleAuthSuccess = (newToken) => {
@@ -136,13 +150,11 @@ export default function App() {
   };
 
   const handleTransferToTaswidah = (content) => {
-    // If taswidah already has content, append cleanly; otherwise set directly
     if (!taswidahContent.trim()) {
       setTaswidahContent(content);
     } else {
       setTaswidahContent(prev => `${prev}\n\n---\n\n${content}`);
     }
-    // On mobile, automatically show the dock tab
     setMobileTab('dock');
   };
 
@@ -177,43 +189,15 @@ export default function App() {
         onOpenTurath={() => setIsTurathOpen(true)}
         onOpenArchive={() => setIsArchiveOpen(true)}
         onOpenSettings={() => setIsSettingsOpen(true)}
+        onOpenModelSelector={() => setIsModelSelectorOpen(true)}
         onLock={handleLock}
         routerStatus={routerStatus}
+        selectedModel={selectedModel}
       />
 
-      {/* Mobile Tab Navigation Bar (Visible only on small viewports) */}
-      <div className="md:hidden flex items-center justify-around border-b border-parchment-200 dark:border-ink-800 bg-parchment-100/90 dark:bg-ink-900/90 text-xs font-sans font-medium">
-        <button
-          onClick={() => setMobileTab('chat')}
-          className={`flex items-center gap-1.5 py-2.5 px-4 flex-1 justify-center border-b-2 transition-colors ${
-            mobileTab === 'chat'
-              ? 'border-turath-emerald text-turath-emerald dark:text-emerald-400 font-bold bg-white/40 dark:bg-ink-800/40'
-              : 'border-transparent text-ink-500'
-          }`}
-        >
-          <MessageSquare className="w-4 h-4" />
-          <span>Musyawarah (Chat)</span>
-        </button>
-
-        <button
-          onClick={() => setMobileTab('dock')}
-          className={`flex items-center gap-1.5 py-2.5 px-4 flex-1 justify-center border-b-2 transition-colors ${
-            mobileTab === 'dock'
-              ? 'border-turath-emerald text-turath-emerald dark:text-emerald-400 font-bold bg-white/40 dark:bg-ink-800/40'
-              : 'border-transparent text-ink-500'
-          }`}
-        >
-          <BookOpen className="w-4 h-4" />
-          <span>Taswīdah & Ibarat</span>
-          {taswidahContent && (
-            <span className="w-2 h-2 rounded-full bg-turath-emerald" />
-          )}
-        </button>
-      </div>
-
       {/* Main Dual-Pane Research Studio */}
-      <main className="flex-1 flex overflow-hidden">
-        {/* Left Column: Chat & Formulasi (Visible always on desktop, or when mobileTab === 'chat' on mobile) */}
+      <main className="flex-1 flex overflow-hidden pb-12 md:pb-0">
+        {/* Left Column: Chat & Formulasi */}
         <div
           className={`h-full flex-1 flex flex-col min-w-0 transition-all ${
             mobileTab === 'chat' ? 'flex' : 'hidden md:flex'
@@ -226,6 +210,7 @@ export default function App() {
             onStopStreaming={handleStopStreaming}
             onResetChat={handleResetChat}
             onTransferToTaswidah={handleTransferToTaswidah}
+            onOpenModelSelector={() => setIsModelSelectorOpen(true)}
             matraMode={matraMode}
             arabicFontSize={arabicFontSize}
             arabicFontFamily={arabicFontFamily}
@@ -233,7 +218,7 @@ export default function App() {
           />
         </div>
 
-        {/* Right Column: Taswīdah & Ibarat Dock (Visible always on desktop, or when mobileTab === 'dock' on mobile) */}
+        {/* Right Column: Taswīdah & Ibarat Dock */}
         <div
           className={`h-full w-full md:w-[420px] lg:w-[480px] xl:w-[540px] flex-shrink-0 transition-all ${
             mobileTab === 'dock' ? 'flex' : 'hidden md:flex'
@@ -250,6 +235,45 @@ export default function App() {
           />
         </div>
       </main>
+
+      {/* Mobile Fixed Bottom Navigation Bar (Docked to bottom of screen) */}
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 flex items-center justify-around border-t border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 backdrop-blur-md text-xs font-sans font-medium h-12 shadow-lg">
+        <button
+          onClick={() => setMobileTab('chat')}
+          className={`flex items-center gap-1.5 h-full flex-1 justify-center transition-all ${
+            mobileTab === 'chat'
+              ? 'text-turath-emerald dark:text-emerald-400 font-bold bg-turath-emerald/10 dark:bg-turath-emerald/15 border-t-2 border-turath-emerald'
+              : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-100'
+          }`}
+        >
+          <MessageSquare className="w-4 h-4" />
+          <span>Musyawarah (Chat)</span>
+        </button>
+
+        <button
+          onClick={() => setMobileTab('dock')}
+          className={`flex items-center gap-1.5 h-full flex-1 justify-center transition-all ${
+            mobileTab === 'dock'
+              ? 'text-turath-emerald dark:text-emerald-400 font-bold bg-turath-emerald/10 dark:bg-turath-emerald/15 border-t-2 border-turath-emerald'
+              : 'text-ink-500 hover:text-ink-900 dark:hover:text-parchment-100'
+          }`}
+        >
+          <BookOpen className="w-4 h-4" />
+          <span>Taswīdah & Ibarat</span>
+          {taswidahContent && (
+            <span className="w-2 h-2 rounded-full bg-turath-emerald" />
+          )}
+        </button>
+      </div>
+
+      {/* Model Selector Modal Drawer */}
+      <ModelSelectorModal
+        isOpen={isModelSelectorOpen}
+        onClose={() => setIsModelSelectorOpen(false)}
+        selectedModel={selectedModel}
+        onSelectModel={handleModelChange}
+        availableModels={routerStatus?.availableModels || []}
+      />
 
       {/* Turath.io API Modal Drawer */}
       <TurathModal
@@ -270,7 +294,7 @@ export default function App() {
         isOpen={isSettingsOpen}
         onClose={() => setIsSettingsOpen(false)}
         selectedModel={selectedModel}
-        setSelectedModel={setSelectedModel}
+        onOpenModelSelector={() => setIsModelSelectorOpen(true)}
         temperature={temperature}
         setTemperature={setTemperature}
         routerStatus={routerStatus}

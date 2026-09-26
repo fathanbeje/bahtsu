@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3001;
 const ROUTER_URL = process.env.ROUTER_URL || 'http://127.0.0.1:20128/v1';
 const ROUTER_API_KEY = process.env.ROUTER_API_KEY || 'sk-b0435a91b1afbc70-18t4z6-be53e7b7';
 const MASTER_PASSCODE = process.env.MASTER_PASSCODE || 'klangopan2026';
-const DEFAULT_MODEL = process.env.DEFAULT_MODEL || 'gemini-2.5-pro';
+const DEFAULT_MODEL = process.env.DEFAULT_MODEL || 'ag/gemini-3.8-flash-high';
 
 const KAJIAN_DIR = path.resolve(__dirname, '../kajian');
 const SKILL_FILE = path.resolve(__dirname, '../SKILL.md');

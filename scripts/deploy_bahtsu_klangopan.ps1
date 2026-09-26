@@ -64,7 +64,7 @@ Environment=NODE_ENV=production
 Environment=ROUTER_URL=http://127.0.0.1:20128/v1
 Environment=ROUTER_API_KEY=sk-b0435a91b1afbc70-18t4z6-be53e7b7
 Environment=MASTER_PASSCODE=klangopan2026
-Environment=DEFAULT_MODEL=gemini-2.5-pro
+Environment=DEFAULT_MODEL=ag/gemini-3.8-flash-high
 
 [Install]
 WantedBy=multi-user.target

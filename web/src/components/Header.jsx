@@ -7,11 +7,9 @@ import {
   Moon, 
   Sun, 
   Lock, 
-  Scale, 
-  Sparkles, 
-  CheckCircle2, 
-  AlertCircle,
-  Type
+  Cpu,
+  Type,
+  ChevronDown
 } from 'lucide-react';
 
 export default function Header({
@@ -26,8 +24,10 @@ export default function Header({
   onOpenTurath,
   onOpenArchive,
   onOpenSettings,
+  onOpenModelSelector,
   onLock,
   routerStatus,
+  selectedModel,
 }) {
   const matraList = [
     {
@@ -53,44 +53,37 @@ export default function Header({
     },
   ];
 
+  // Helper to format model display name
+  const formatModelBadge = (name = '') => {
+    return name.replace(/^ag\//, '');
+  };
+
   return (
-    <header className="border-b border-parchment-200 dark:border-ink-800 bg-parchment-50/90 dark:bg-ink-950/90 backdrop-blur-md sticky top-0 z-40 transition-colors duration-200">
-      <div className="max-w-[1720px] mx-auto px-3 sm:px-6 py-2.5 flex items-center justify-between gap-2">
-        {/* Brand / Title */}
-        <div className="flex items-center gap-3 min-w-0">
-          <div className="w-10 h-10 rounded-xl bg-turath-emerald text-parchment-50 flex items-center justify-center shadow-md border border-turath-gold/40 flex-shrink-0">
-            <BookOpen className="w-5 h-5 text-turath-gold" />
+    <header className="border-b border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 backdrop-blur-md sticky top-0 z-40 transition-colors duration-200">
+      <div className="max-w-[1720px] mx-auto px-2.5 sm:px-6 py-2 flex items-center justify-between gap-1.5 sm:gap-3">
+        {/* Left: Brand / Title */}
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+          <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-turath-emerald text-parchment-50 flex items-center justify-center shadow-md border border-turath-gold/40 flex-shrink-0">
+            <BookOpen className="w-4 h-4 text-turath-gold" />
           </div>
           <div className="min-w-0">
-            <div className="flex items-center gap-2">
-              <h1 className="font-serif font-bold text-lg sm:text-xl tracking-tight text-ink-900 dark:text-parchment-50 truncate">
+            <div className="flex items-center gap-1.5">
+              <h1 className="font-serif font-bold text-sm sm:text-lg tracking-tight text-ink-900 dark:text-parchment-50 truncate">
                 Bahtsu Klangopan
               </h1>
-              <span className="hidden md:inline-block font-arabic text-sm text-turath-emerald dark:text-emerald-400 font-medium px-2 py-0.5 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft border border-turath-emerald/20">
+              <span className="hidden xl:inline-block font-arabic text-xs text-turath-emerald dark:text-emerald-400 font-medium px-2 py-0.2 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft border border-turath-emerald/20">
                 بَحْثُ كِلَانْغُوفَانْ
               </span>
             </div>
-            <p className="text-[11px] sm:text-xs text-ink-500 dark:text-ink-400 truncate flex items-center gap-1.5 font-sans">
-              <span>Studio Bahtsul Masail Pesantren</span>
-              <span className="inline-block w-1 h-1 rounded-full bg-ink-300 dark:bg-ink-700" />
-              <span className="flex items-center gap-1">
-                {routerStatus?.routerConnected ? (
-                  <span className="inline-flex items-center text-emerald-700 dark:text-emerald-400 font-medium">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-1 animate-pulse" />
-                    9Router Aktif
-                  </span>
-                ) : (
-                  <span className="inline-flex items-center text-amber-700 dark:text-amber-400">
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-1" />
-                    9Router Cek Koneksi
-                  </span>
-                )}
-              </span>
+            <p className="hidden sm:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1 font-sans">
+              <span>Studio Bahtsul Masail</span>
+              <span>•</span>
+              <span className="text-emerald-700 dark:text-emerald-400 font-medium">9Router Online</span>
             </p>
           </div>
         </div>
 
-        {/* Center: Tri-Matra Mode Switcher */}
+        {/* Center: Tri-Matra Mode Switcher (Desktop only) */}
         <div className="hidden lg:flex items-center p-1 rounded-xl bg-parchment-100 dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-inner">
           {matraList.map(matra => {
             const isActive = matraMode === matra.id;
@@ -113,37 +106,50 @@ export default function Header({
           })}
         </div>
 
-        {/* Actions / Tools Bar */}
-        <div className="flex items-center gap-1 sm:gap-2">
+        {/* Right Tools Bar */}
+        <div className="flex items-center gap-1 sm:gap-1.5">
+          {/* Direct Model Picker Button */}
+          <button
+            onClick={onOpenModelSelector}
+            className="flex items-center gap-1 px-2 sm:px-2.5 py-1.5 rounded-xl border border-turath-emerald/30 bg-turath-emerald-soft/80 dark:bg-turath-emerald-dark-soft/70 text-turath-emerald dark:text-emerald-300 hover:border-turath-emerald text-xs font-mono font-semibold transition-all max-w-[150px] sm:max-w-[210px] truncate"
+            title="Klik untuk memilih model AI"
+          >
+            <Cpu className="w-3.5 h-3.5 flex-shrink-0 text-turath-emerald" />
+            <span className="truncate text-[11px] sm:text-xs">
+              {formatModelBadge(selectedModel)}
+            </span>
+            <ChevronDown className="w-3 h-3 flex-shrink-0 opacity-70" />
+          </button>
+
           {/* Turath Search Button */}
           <button
             onClick={onOpenTurath}
-            className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-sans font-medium bg-turath-emerald text-parchment-50 hover:bg-turath-emerald-light transition-all shadow-sm border border-turath-gold/30"
-            title="Pencarian Kitab Kuning Online di Turath.io"
+            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium bg-turath-emerald text-parchment-50 hover:bg-turath-emerald-light transition-all shadow-sm border border-turath-gold/30 flex items-center gap-1 flex-shrink-0"
+            title="Pencarian Kitab Turath.io"
           >
             <Search className="w-3.5 h-3.5 text-turath-gold" />
-            <span className="hidden sm:inline">Turath.io</span>
+            <span className="hidden md:inline">Turath</span>
           </button>
 
-          {/* Kajian Repository Archive */}
+          {/* Kajian Archive Button */}
           <button
             onClick={onOpenArchive}
-            className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-sans font-medium bg-parchment-100 dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-all border border-parchment-200 dark:border-ink-800"
-            title="Buka Repositori Berkas Kajian .md"
+            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium bg-parchment-100 dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-all border border-parchment-200 dark:border-ink-800 flex items-center gap-1 flex-shrink-0"
+            title="Arsip Kajian"
           >
             <FolderArchive className="w-3.5 h-3.5 text-ink-500" />
-            <span className="hidden sm:inline">Arsip</span>
+            <span className="hidden md:inline">Arsip</span>
           </button>
 
-          {/* Typography Controls Dropdown / Popover */}
+          {/* Typography Controls Popover */}
           <div className="relative group">
             <button
-              className="p-2 rounded-lg text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors border border-transparent hover:border-parchment-300 dark:hover:border-ink-700"
+              className="p-1.5 sm:p-2 rounded-xl text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
               title="Pengaturan Huruf Arab"
             >
               <Type className="w-4 h-4" />
             </button>
-            <div className="hidden group-hover:block absolute right-0 mt-1 w-56 p-3 bg-white dark:bg-ink-900 rounded-xl shadow-manuscript-lg border border-parchment-200 dark:border-ink-800 text-xs z-50 animate-fade-in font-sans">
+            <div className="hidden group-hover:block absolute right-0 mt-1 w-56 p-3 bg-white dark:bg-ink-900 rounded-2xl shadow-manuscript-lg border border-parchment-200 dark:border-ink-800 text-xs z-50 animate-fade-in font-sans">
               <div className="font-semibold text-ink-900 dark:text-parchment-50 mb-2">Ukuran Huruf Arab</div>
               <div className="flex items-center justify-between gap-2 mb-3">
                 <span className="text-[11px] text-ink-500">{arabicFontSize}px</span>
@@ -186,8 +192,8 @@ export default function Header({
           {/* Theme Mode Toggle */}
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="p-2 rounded-lg text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
-            title={darkMode ? "Ganti ke Mode Siang (Parchment Ivory)" : "Ganti ke Mode Malam (Obsidian Ink)"}
+            className="p-1.5 sm:p-2 rounded-xl text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+            title={darkMode ? "Ganti ke Mode Siang" : "Ganti ke Mode Malam"}
           >
             {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-ink-600" />}
           </button>
@@ -195,8 +201,8 @@ export default function Header({
           {/* Settings */}
           <button
             onClick={onOpenSettings}
-            className="p-2 rounded-lg text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
-            title="Pengaturan 9Router & Model AI"
+            className="p-1.5 sm:p-2 rounded-xl text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+            title="Pengaturan"
           >
             <Settings className="w-4 h-4" />
           </button>
@@ -204,25 +210,25 @@ export default function Header({
           {/* Lock App */}
           <button
             onClick={onLock}
-            className="p-2 rounded-lg text-ink-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
-            title="Kunci Sesi Bahtsu"
+            className="p-1.5 sm:p-2 rounded-xl text-ink-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+            title="Kunci Sesi"
           >
             <Lock className="w-4 h-4" />
           </button>
         </div>
       </div>
 
-      {/* Mobile Matra Selector (Only visible on small screens) */}
-      <div className="lg:hidden px-3 py-1.5 bg-parchment-100/70 dark:bg-ink-900/70 border-t border-parchment-200 dark:border-ink-800 flex items-center justify-around gap-1 overflow-x-auto">
+      {/* Mobile Matra Selector Strip */}
+      <div className="lg:hidden px-2 py-1 bg-parchment-100/90 dark:bg-ink-900/90 border-t border-parchment-200 dark:border-ink-800 flex items-center justify-around gap-1 overflow-x-auto no-scrollbar">
         {matraList.map(matra => {
           const isActive = matraMode === matra.id;
           return (
             <button
               key={matra.id}
               onClick={() => setMatraMode(matra.id)}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-md text-[11px] font-sans whitespace-nowrap ${
+              className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-sans whitespace-nowrap transition-all ${
                 isActive
-                  ? 'bg-turath-emerald text-white font-medium'
+                  ? 'bg-turath-emerald text-white font-semibold shadow-xs'
                   : 'text-ink-600 dark:text-ink-400'
               }`}
             >
