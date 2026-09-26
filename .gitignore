@@ -8,11 +8,28 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment
+# Environment & Secrets
 .env
 .env.local
+*.env
+*.token
+*.key
+*.pem
+*credentials*.json
+*accounts*.json
+tokens*.json
 
-# OS Generated
+# OS Generated & Archives
 .DS_Store
 Thumbs.db
 *.zip
+
+# Internal / Sensitive Automation & Rotator Scripts
+scripts/buka_9router_dashboard.ps1
+scripts/ekstrak_akun_antigravity.py
+scripts/gemini_rotator.py
+scripts/tambah_akun_gemini.ps1
+scripts/*rotator*
+scripts/*akun*
+scripts/*9router*
+scripts/*account*
