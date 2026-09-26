@@ -4,7 +4,7 @@
 **Tema:** Polemik Nasab Ba'alawi di Indonesia: Analisis Kritis Metodologi Itsbat Nasab, Kedudukan Kitab Ansab, Status Istifadhah, Otoritas Tes DNA, dan Sikap Proporsional dalam Perspektif Fiqih Muamalah & Ushul Fiqh  
 **Klasifikasi:** Masā'il Maudlū'iyyah — Wāqi'iyyah (Hibrida Tematik Doktrinal & Kasuistik Sosial-Keagamaan)  
 **Kajian Fan:** Fiqih Qadha & Syahadat (Thuruq Tsubut al-Ansab), Ushul Fiqh (Manahij al-Istidlal), & Akhlaq/Siyasah Syar'iyyah  
-**Disusun Oleh:** Tim Asistensi Telaah Bahtsul Masail (AI Research Assistant)  
+**Penyusun Naskah:** Gemini 3.8 Flash (High) — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)  
 **Waktu Penyusunan:** Jum'at, 14 Rabi'ul Akhir 1448 H / 25 September 2026 M  
 
 ---

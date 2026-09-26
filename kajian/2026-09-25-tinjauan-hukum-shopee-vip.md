@@ -4,7 +4,7 @@
 **Tema:** Tinjauan Fiqih Muamalah Komprehensif terhadap Program Shopee VIP: Analisis Tripartit dari Sisi Pembeli (*Buyer*), Penjual (*Seller*), dan Penyelenggara Pasar (*Marketplace*)  
 **Klasifikasi:** Masā'il Wāqi'iyyah — Maudlū'iyyah (Hibrida Kasuistik Transaksional & Regulasi Pasar Digital)  
 **Kajian Fan:** Fiqih Muamalah Maliyyah Mu'ashirah (Akad Ijarah, Jual Beli Diskon/Gharar, Samsarah, & Siyasah Iqtishadiyyah)  
-**Disusun Oleh:** Tim Asistensi Telaah Bahtsul Masail (AI Research Assistant)  
+**Penyusun Naskah:** Gemini 3.8 Flash (High) — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)  
 **Waktu Penyusunan:** Jum'at, 14 Rabi'ul Akhir 1448 H / 25 September 2026 M  
 
 ---

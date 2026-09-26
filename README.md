@@ -28,6 +28,8 @@ Skill ini secara komprehensif mengintegrasikan seluruh konsensus metodologis Bah
    Setiap kutipan teks wajib disertai penjelasan korelasi mengapa teks turats tersebut menjadi landasan hukum bagi kasus kontemporer yang dibahas.
 4. **Otomatisasi Pengarsipan Repositori (.md):**  
    Setiap rumusan yang telah dituntaskan otomatis disimpan ke berkas `kajian/YYYY-MM-DD-slug-tema.md` dan di-push ke repositori GitHub.
+5. **Akuntabilitas Entitas Model Agen (*Dynamic Attribution*):**  
+   Metadata draf taswidah wajib mencantumkan secara eksplisit entitas AI model agent yang sedang aktif (`**Penyusun Naskah:** [Model AI Aktif] — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)`) demi transparansi, auditabilitas ilmiah, dan kejelasan sanad penelaahan.
 
 ---
 

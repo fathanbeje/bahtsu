@@ -4,7 +4,7 @@
 **Tema:** Model Bisnis Muse AI (Meta): Monetisasi Transaksi Otonom, Layanan Berlangganan, dan Penguasaan Jalur Komersial Digital dalam Perspektif Fiqih Muamalah Kontemporer  
 **Klasifikasi:** Masā'il Wāqi'iyyah — Maudlū'iyyah (Hibrida Kasuistik & Tematik-Sistemik)  
 **Kajian Fan:** Fiqih Muamalah Maliyyah & Iqtishadiyyah Mu'ashirah (Komersial Digital, Kecerdasan Buatan, & Siyasah Iqtishadiyyah)  
-**Disusun Oleh:** Tim Asistensi Telaah Bahtsul Masail (AI Research Assistant)  
+**Penyusun Naskah:** Gemini 3.8 Flash (High) — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)  
 **Waktu Penyusunan:** Jum'at, 14 Rabi'ul Akhir 1448 H / 25 September 2026 M  
 
 ---

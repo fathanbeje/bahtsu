@@ -4,7 +4,7 @@
 **Tema:** Tinjauan Fiqih Muamalah Komprehensif terhadap Penghangusan Sisa Kuota Paket Data Internet Akibat Berakhirnya Masa Aktif: Analisis Multi-Perspektif Konsumen, Operator Telekomunikasi, dan Regulasi Pemerintah  
 **Klasifikasi:** Masā'il Wāqi'iyyah — Qānūniyyah (Hibrida Kasuistik Muamalah & Kebijakan Perlindungan Konsumen)  
 **Kajian Fan:** Fiqih Muamalah Maliyyah (Akad Ijarah, Jual Beli Manfaat, Klausul Baku/Idz'an, & Siyasah Syar'iyyah)  
-**Disusun Oleh:** Tim Asistensi Telaah Bahtsul Masail (AI Research Assistant)  
+**Penyusun Naskah:** Gemini 3.8 Flash (High) — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)  
 **Waktu Penyusunan:** Jum'at, 14 Rabi'ul Akhir 1448 H / 25 September 2026 M  
 
 ---

@@ -4,6 +4,14 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.3.0] - 2026-09-26
+
+### ✨ New Features & Improvements
+- **Redefinisi Metadata Penyusun Naskah (Dynamic AI Model Agent Attribution):** Mengganti baris `**Disusun Oleh:** Tim Asistensi Telaah Bahtsul Masail (AI Research Assistant)` menjadi konteks penyusun naskah yang akuntabel dan kondisional: `**Penyusun Naskah:** [Model AI Aktif] — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)` (misal saat ini: `Gemini 3.8 Flash (High)`).
+- **Penegasan Akuntabilitas Ilmiah (*Al-Amānah al-'Ilmiyyah*):** Menetapkan Protokol ke-4 pada `SKILL.md` yang melarang keras atribusi anonim atau samaran generik, mewajibkan deteksi model aktif secara dinamis (non-hardcoded), serta mewajibkan validitas sitasi agar alur istidlal dan ibarat dapat dipertanggungjawabkan serta diaudit (*auditable*) oleh para alim ulama.
+- **Pembaruan Menyeluruh Template & Arsip Kajian:** Memperbarui `SKILL.md`, `references/template_keputusan.md`, `docs/planning_and_architecture.md`, `README.md`, serta menyelaraskan metadata pada seluruh berkas draf kajian di direktori `kajian/`.
+- **Sinkronisasi Sistem Global Antigravity:** Menyelaraskan seluruh berkas repositori dengan instalasi skill global di `~/.gemini/config/skills/bahtsu/`.
+
 ---
 
 ## [2.2.0] - 2026-09-25

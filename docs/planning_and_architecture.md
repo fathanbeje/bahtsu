@@ -19,6 +19,7 @@ Sebelumnya, rumusan masalah dijawab dengan pola fatwa ringkas (ala tanya-jawab b
 | **Korelasi Hukum (*Wajhul Istidlal*)** | Hanya menampilkan teks Arab dan terjemahan biasa. | **Wajib menyertakan *Wajhul Istidlal / Wajhul Ilhāq*:** Analisis argumentatif mengapa nash klasik tersebut relevan dan menjadi 'illat bagi kasus kontemporer. |
 | **Penyikapan Ikhtilaf** | Langsung menyimpulkan satu fatwa. | **Taqrīr Jamā'i & Al-Jam'u wat Taufiq:** Mengkompromikan pendapat (*i'mālul kalāmayn awlā min ihmālihimā*), membedakan qaul mu'tamad vs muqabil mu'tamad, serta syarat *intiqal al-madzhab* tanpa talfiq bathil. |
 | **Format Penyorotan Teks** | Bold standar atau italic. | **Multi-App Highlight Protocol:** Format `<u>**【 ... 】**</u>` yang tahan uji dan tampil mencolok di **Capacities** maupun **Microsoft Word**. |
+| **Atribusi & Akuntabilitas** | Anonim / Tim fiktif tanpa identitas sistem. | **Transparansi AI Model Agent Dinamis:** Wajib mencantumkan entitas model AI yang aktif secara kondisional (misal: *Gemini 3.8 Flash High*, *Claude 3.7 Sonnet*, dll.) dan kapasitas tim asistensi telaah agar hasil kajian dapat diaudit dan dipertanggungjawabkan (*al-amānah al-'ilmiyyah*). |
 
 ---
 
@@ -68,7 +69,7 @@ Untuk menjamin ketersediaan referensi tanpa membebani penyimpanan perangkat, ski
 ## 4. Struktur Output Dokumen Keputusan
 
 Format naskah keputusan mengikuti tata urutan dokumen Munas Alim Ulama NU:
-1. **Tema & Klasifikasi Masalah** (*Wāqi'iyyah / Maudlū'iyyah / Qānūniyyah*)
+1. **Header Metadata & Akuntabilitas:** Tema, Klasifikasi, Fan Fiqih, **Penyusun Naskah** (Entitas AI Model Agent yang aktif secara kondisional), dan Waktu Hijriyah/Masehi.
 2. **I. Deskripsi Masalah & Kerangka Konseptual** (*Tashawwur Mas'alah*)
 3. **II. Pokok Masalah (*As'ilah*)**
 4. **III. Rumusan Keputusan Hukum (*Al-Qarār*)**

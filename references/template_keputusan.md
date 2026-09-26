@@ -3,16 +3,18 @@
 
 Gunakan format ini sebagai kerangka komprehensif resmi setiap kali menyusun draf taswidah bahan kajian Bahtsul Masail, baik untuk kategori **Masā'il Wāqi'iyyah**, **Masā'il Maudlū'iyyah**, maupun **Masā'il Qānūniyyah**.
 
+> **Akuntabilitas Model Agen:** Baris `Penyusun Naskah` bersifat kondisional/dinamis. AI wajib mencantumkan nama model yang sedang aktif menyusun naskah (contoh: `Gemini 3.8 Flash (High)`, `Claude 3.7 Sonnet`, dll.) demi integritas ilmiah (*al-amānah al-'ilmiyyah*) dan pertanggungjawaban naskah.
+
 ---
 
 ```markdown
 # DRAF TASWIDAH & BAHAN KAJIAN BAHTSUL MASA'IL
-> **Status Dokumen:** Draf telaah awal berbasis penelusuran turats & sintesis AI — *Belum menjadi keputusan resmi musyawarah dan memerlukan pembahasan serta tashīh alim ulama dalam sidang resmi Bahtsul Masail.*
+> **Status Dokumen & Akuntabilitas:** Draf telaah awal berbasis penelusuran turats & sintesis AI — *Belum menjadi keputusan resmi musyawarah dan memerlukan pembahasan serta tashīh alim ulama dalam sidang resmi Bahtsul Masail.*
 
 **Tema:** [Judul Masalah]
 **Klasifikasi:** [Masâil Wâqi’iyyah / Maudlû’iyyah / Qanûniyyah]
 **Kajian Fan:** [Fiqih Muamalah / Ibadah / Jinayah / Siyasah Syar'iyyah / Bi'ah / Bioetika]
-**Disusun Oleh:** Tim Asistensi Telaah Bahtsul Masail (AI Research Assistant)
+**Penyusun Naskah:** [Nama Entitas Model AI Aktif, contoh: Gemini 3.8 Flash (High)] — Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)
 **Waktu Penyusunan:** [Hari, Tanggal Hijriyah & Masehi]
 
 ---
