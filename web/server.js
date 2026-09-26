@@ -4,8 +4,12 @@ import fs from 'fs';
 import path from 'path';
 import http from 'http';
 import https from 'https';
+import { exec } from 'child_process';
+import util from 'util';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
+
+const execAsync = util.promisify(exec);
 
 dotenv.config();
 
@@ -376,8 +380,8 @@ app.get('/api/kajian/:filename', checkAuth, (req, res) => {
   }
 });
 
-// Kajian Repository - Save new kajian
-app.post('/api/kajian/save', checkAuth, (req, res) => {
+// Kajian Repository - Save new kajian & auto-push to git
+app.post('/api/kajian/save', checkAuth, async (req, res) => {
   const { title, slug, content, model, matraMode } = req.body;
 
   if (!content) {
@@ -397,11 +401,32 @@ app.post('/api/kajian/save', checkAuth, (req, res) => {
 
   try {
     fs.writeFileSync(fullPath, content, 'utf-8');
+
+    let gitPushed = false;
+    let gitNote = '';
+    const repoRoot = path.resolve(__dirname, '..');
+
+    if (fs.existsSync(path.join(repoRoot, '.git'))) {
+      try {
+        const commitTitle = (title || safeSlug).replace(/"/g, "'").substring(0, 72);
+        await execAsync(`git add "kajian/${filename}" && git commit -m "docs(kajian): tambah bahan kajian ${commitTitle}" && git push origin private/bahtsu-klangopan-app`, {
+          cwd: repoRoot,
+          timeout: 25000,
+        });
+        gitPushed = true;
+        gitNote = ' & di-push ke GitHub (private)';
+      } catch (gitErr) {
+        console.warn('Git push info/warning:', gitErr.message);
+        gitNote = ' (tersimpan di server, push git tertunda)';
+      }
+    }
+
     res.json({
       ok: true,
-      message: 'Kajian berhasil disimpan ke repositori.',
+      message: `Kajian berhasil disimpan${gitNote}.`,
       filename,
       fullPath,
+      gitPushed,
     });
   } catch (err) {
     res.status(500).json({ ok: false, error: `Gagal menyimpan berkas: ${err.message}` });
