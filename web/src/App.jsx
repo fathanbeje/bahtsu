@@ -257,31 +257,6 @@ export default function App() {
         onSuccess={handleAuthSuccess}
       />
 
-      {/* Header */}
-      <Header
-        matraMode={matraMode}
-        setMatraMode={setMatraMode}
-        arabicFontSize={arabicFontSize}
-        setArabicFontSize={setArabicFontSize}
-        arabicFontFamily={arabicFontFamily}
-        setArabicFontFamily={setArabicFontFamily}
-        darkMode={darkMode}
-        setDarkMode={setDarkMode}
-        activeMainView={activeMainView}
-        setActiveMainView={setActiveMainView}
-        onOpenTurath={() => setIsTurathOpen(true)}
-        onOpenArchive={() => setActiveMainView('arsip')}
-        onOpenSettings={() => setIsSettingsOpen(true)}
-        onOpenModelSelector={() => setIsModelSelectorOpen(true)}
-        onOpenHistory={() => setIsHistoryOpen(true)}
-        onOpenRouterCockpit={() => setIsRouterCockpitOpen(true)}
-        onOpenMatraInfo={() => setIsMatraInfoOpen(true)}
-        onNewSession={handleNewSession}
-        onLock={handleLock}
-        routerStatus={routerStatus}
-        selectedModel={selectedModel}
-      />
-
       {/* Main Workspace: Studio Bahtsu or Full Archive Page */}
       {activeMainView === 'arsip' ? (
         <main className="flex-1 flex overflow-hidden">
@@ -297,10 +272,40 @@ export default function App() {
             }}
             arabicFontSize={arabicFontSize}
             arabicFontFamily={arabicFontFamily}
+            darkMode={darkMode}
+            setDarkMode={setDarkMode}
+            onOpenSettings={() => setIsSettingsOpen(true)}
+            onLock={handleLock}
           />
         </main>
       ) : (
-        <main className="flex-1 flex overflow-hidden pb-12 md:pb-0">
+        <>
+          {/* Header (Studio Mode) */}
+          <Header
+            matraMode={matraMode}
+            setMatraMode={setMatraMode}
+            arabicFontSize={arabicFontSize}
+            setArabicFontSize={setArabicFontSize}
+            arabicFontFamily={arabicFontFamily}
+            setArabicFontFamily={setArabicFontFamily}
+            darkMode={darkMode}
+            setDarkMode={setDarkMode}
+            activeMainView={activeMainView}
+            setActiveMainView={setActiveMainView}
+            onOpenTurath={() => setIsTurathOpen(true)}
+            onOpenArchive={() => setActiveMainView('arsip')}
+            onOpenSettings={() => setIsSettingsOpen(true)}
+            onOpenModelSelector={() => setIsModelSelectorOpen(true)}
+            onOpenHistory={() => setIsHistoryOpen(true)}
+            onOpenRouterCockpit={() => setIsRouterCockpitOpen(true)}
+            onOpenMatraInfo={() => setIsMatraInfoOpen(true)}
+            onNewSession={handleNewSession}
+            onLock={handleLock}
+            routerStatus={routerStatus}
+            selectedModel={selectedModel}
+          />
+
+          <main className="flex-1 flex overflow-hidden pb-12 md:pb-0">
           {/* Left Column: Chat & Formulasi */}
           <div
             className={`h-full flex-1 flex flex-col min-w-0 transition-all ${
@@ -352,10 +357,8 @@ export default function App() {
             />
           </div>
         </main>
-      )}
 
-      {/* Mobile Fixed Bottom Navigation Bar (Only in Studio mode) */}
-      {activeMainView === 'studio' && (
+        {/* Mobile Fixed Bottom Navigation Bar (Only in Studio mode) */}
         <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 flex items-center justify-around border-t border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 backdrop-blur-md text-xs font-sans font-medium h-12 shadow-lg">
           <button
             onClick={() => setMobileTab('chat')}
@@ -384,7 +387,8 @@ export default function App() {
             )}
           </button>
         </div>
-      )}
+      </>
+    )}
 
       {/* Model Selector Modal Drawer */}
       <ModelSelectorModal

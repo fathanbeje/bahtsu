@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { 
   BookOpen, 
   Search, 
@@ -7,13 +7,16 @@ import {
   Moon, 
   Sun, 
   Lock, 
-  Cpu,
-  Type,
-  ChevronDown,
-  History,
-  Plus,
-  Activity,
-  HelpCircle
+  Cpu, 
+  Type, 
+  ChevronDown, 
+  History, 
+  Plus, 
+  Activity, 
+  HelpCircle,
+  MoreVertical,
+  X,
+  Sparkles
 } from 'lucide-react';
 
 export default function Header({
@@ -39,6 +42,8 @@ export default function Header({
   routerStatus,
   selectedModel,
 }) {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   const matraList = [
     {
       id: 'waqi_iyyah',
@@ -63,64 +68,87 @@ export default function Header({
     },
   ];
 
+  const currentMatra = matraList.find(m => m.id === matraMode) || matraList[0];
+
   const formatModelBadge = (name = '') => {
     return name.replace(/^ag\//, '');
   };
 
+  const formatShortModel = (name = '') => {
+    return name
+      .replace(/^ag\//, '')
+      .replace(/^gemini-/, '')
+      .replace(/-preview$/, '');
+  };
+
   return (
     <header className="border-b border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 backdrop-blur-md sticky top-0 z-40 transition-colors duration-200">
-      <div className="max-w-[1720px] mx-auto px-2.5 sm:px-6 py-2 flex items-center justify-between gap-1.5 sm:gap-3">
-        {/* Left: Brand / Title + Sesi Navigation */}
-        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-          <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-turath-emerald text-parchment-50 flex items-center justify-center shadow-md border border-turath-gold/40 flex-shrink-0">
-            <BookOpen className="w-4 h-4 text-turath-gold" />
-          </div>
-          <div className="min-w-0">
-            <div className="flex items-center gap-1.5">
-              <h1 className="font-serif font-bold text-sm sm:text-lg tracking-tight text-ink-900 dark:text-parchment-50 truncate">
-                Bahtsu Klangopan
-              </h1>
-              <span className="hidden 2xl:inline-block font-arabic text-xs text-turath-emerald dark:text-emerald-400 font-medium px-2 py-0.2 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft border border-turath-emerald/20">
-                بَحْثُ كِلَانْغُوفَانْ
-              </span>
-            </div>
-            
-            {/* Interactive View Switcher & 9Router status */}
-            <div className="hidden md:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1.5 font-sans">
-              <button
-                onClick={() => setActiveMainView && setActiveMainView('studio')}
-                className={`transition-colors font-medium cursor-pointer ${activeMainView === 'studio' ? 'text-turath-emerald font-bold' : 'hover:text-ink-900 dark:hover:text-parchment-200'}`}
-              >
-                Studio Musyawarah
-              </button>
-              <span>•</span>
-              <button
-                onClick={() => setActiveMainView && setActiveMainView('arsip')}
-                className={`transition-colors font-medium cursor-pointer ${activeMainView === 'arsip' ? 'text-turath-emerald font-bold' : 'hover:text-ink-900 dark:hover:text-parchment-200'}`}
-              >
-                Arsip Repositori
-              </button>
-              <span>•</span>
-              <button
-                onClick={onOpenRouterCockpit}
-                className="flex items-center gap-1 text-emerald-700 dark:text-emerald-400 font-semibold bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.2 rounded-full border border-emerald-300 dark:border-emerald-800 hover:border-turath-emerald group"
-                title="Klik untuk membuka 9Router Remote Cockpit"
-              >
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                <span>9Router</span>
-              </button>
-            </div>
+      <div className="max-w-[1720px] mx-auto px-2.5 sm:px-6 py-1.5 sm:py-2 flex items-center justify-between gap-1.5 sm:gap-3">
+        {/* Left: Brand + Matra Indicator */}
+        <div className="flex items-center gap-1.5 sm:gap-3 min-w-0">
+          <div className="w-7 h-7 sm:w-9 sm:h-9 rounded-xl bg-turath-emerald text-parchment-50 flex items-center justify-center shadow-md border border-turath-gold/40 shrink-0">
+            <BookOpen className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-turath-gold" />
           </div>
 
-          {/* Quick Session History & New Buttons */}
-          <div className="flex items-center gap-1 ml-1 sm:ml-2">
+          <div className="min-w-0 flex items-center gap-1.5 sm:gap-2">
+            <div>
+              <div className="flex items-center gap-1.5">
+                <h1 className="font-serif font-bold text-sm sm:text-lg tracking-tight text-ink-900 dark:text-parchment-50 truncate">
+                  Bahtsu Klangopan
+                </h1>
+                <span className="hidden 2xl:inline-block font-arabic text-xs text-turath-emerald dark:text-emerald-400 font-medium px-2 py-0.2 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft border border-turath-emerald/20">
+                  بَحْثُ كِلَانْغُوفَانْ
+                </span>
+              </div>
+
+              {/* Desktop View Switcher & 9Router indicator */}
+              <div className="hidden md:flex text-[11px] text-ink-500 dark:text-ink-400 truncate items-center gap-1.5 font-sans">
+                <button
+                  onClick={() => setActiveMainView && setActiveMainView('studio')}
+                  className={`transition-colors font-medium cursor-pointer ${activeMainView === 'studio' ? 'text-turath-emerald font-bold' : 'hover:text-ink-900 dark:hover:text-parchment-200'}`}
+                >
+                  Studio Musyawarah
+                </button>
+                <span>•</span>
+                <button
+                  onClick={() => setActiveMainView && setActiveMainView('arsip')}
+                  className={`transition-colors font-medium cursor-pointer ${activeMainView === 'arsip' ? 'text-turath-emerald font-bold' : 'hover:text-ink-900 dark:hover:text-parchment-200'}`}
+                >
+                  Arsip Repositori
+                </button>
+                <span>•</span>
+                <button
+                  onClick={onOpenRouterCockpit}
+                  className="flex items-center gap-1 text-emerald-700 dark:text-emerald-400 font-semibold bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.2 rounded-full border border-emerald-300 dark:border-emerald-800 hover:border-turath-emerald group"
+                  title="Buka 9Router Remote Cockpit"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  <span>9Router</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Mobile Compact Matra Selector Pill (Saves 42px vertical space) */}
+            <button
+              onClick={onOpenMatraInfo}
+              className="md:hidden flex items-center gap-1 px-2 py-1 rounded-xl bg-turath-emerald/10 dark:bg-turath-emerald/20 border border-turath-emerald/25 text-[11px] font-sans font-semibold text-turath-emerald dark:text-emerald-300 shrink-0"
+              title="Ganti Matra Metodologi Fiqih"
+            >
+              <span>{currentMatra.icon}</span>
+              <span className="truncate max-w-[85px]">{currentMatra.label}</span>
+              <ChevronDown className="w-3 h-3 opacity-60" />
+            </button>
+          </div>
+
+          {/* Desktop History & New Buttons */}
+          <div className="hidden sm:flex items-center gap-1 ml-1 sm:ml-2">
             <button
               onClick={onOpenHistory}
               className="flex items-center gap-1 px-2 py-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald hover:text-turath-emerald text-xs font-sans font-medium transition-all shadow-xs"
               title="Lihat riwayat topik bahasan yang tersimpan"
             >
               <History className="w-3.5 h-3.5 text-turath-emerald" />
-              <span className="hidden sm:inline">Riwayat</span>
+              <span>Riwayat</span>
             </button>
 
             <button
@@ -129,12 +157,12 @@ export default function Header({
               title="Mulai topik bahasan baru"
             >
               <Plus className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Baru</span>
+              <span>Baru</span>
             </button>
           </div>
         </div>
 
-        {/* Center: Tri-Matra Mode Switcher (Desktop only) */}
+        {/* Center: Desktop Tri-Matra Mode Switcher */}
         <div className="hidden lg:flex items-center gap-1">
           <div className="flex items-center p-1 rounded-xl bg-parchment-100 dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-inner">
             {matraList.map(matra => {
@@ -161,32 +189,35 @@ export default function Header({
           <button
             onClick={onOpenMatraInfo}
             className="p-1.5 rounded-lg text-ink-400 hover:text-turath-emerald hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
-            title="Pelajari fungsi ketiga Matra Bahtsul Masail (Waqi'iyyah, Maudlu'iyyah, Qanuniyyah)"
+            title="Pelajari fungsi ketiga Matra Bahtsul Masail"
           >
             <HelpCircle className="w-4 h-4" />
           </button>
         </div>
 
-        {/* Right Tools Bar */}
-        <div className="flex items-center gap-1 sm:gap-1.5">
-          {/* Direct 9Router Cockpit Button */}
+        {/* Right Tools Bar (Unified Desktop & Mobile) */}
+        <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
+          {/* Desktop 9Router Cockpit Button */}
           <button
             onClick={onOpenRouterCockpit}
-            className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-xl border border-emerald-300 dark:border-emerald-800 bg-emerald-50/80 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 hover:bg-emerald-100 dark:hover:bg-emerald-900 text-xs font-mono font-semibold transition-all shadow-2xs"
-            title="Buka 9Router Remote Cockpit (Kuota, Node Akun, Latensi)"
+            className="hidden xl:flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-emerald-300 dark:border-emerald-800 bg-emerald-50/80 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 hover:bg-emerald-100 dark:hover:bg-emerald-900 text-xs font-mono font-semibold transition-all shadow-2xs"
+            title="Buka 9Router Remote Cockpit"
           >
             <Activity className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
-            <span className="hidden xl:inline">9Router</span>
+            <span>9Router</span>
           </button>
 
-          {/* Direct Model Picker Button */}
+          {/* Canonical AI Model Selector (Sole Primary Model Picker) */}
           <button
             onClick={onOpenModelSelector}
-            className="flex items-center gap-1 px-2 sm:px-2.5 py-1.5 rounded-xl border border-turath-emerald/30 bg-turath-emerald-soft/80 dark:bg-turath-emerald-dark-soft/70 text-turath-emerald dark:text-emerald-300 hover:border-turath-emerald text-xs font-mono font-semibold transition-all max-w-[140px] sm:max-w-[210px] truncate"
+            className="flex items-center gap-1 px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-xl border border-turath-emerald/30 bg-turath-emerald-soft/80 dark:bg-turath-emerald-dark-soft/70 text-turath-emerald dark:text-emerald-300 hover:border-turath-emerald text-[11px] sm:text-xs font-mono font-semibold transition-all max-w-[95px] sm:max-w-[190px] truncate shadow-2xs"
             title="Klik untuk memilih model AI"
           >
-            <Cpu className="w-3.5 h-3.5 flex-shrink-0 text-turath-emerald" />
-            <span className="truncate text-[11px] sm:text-xs">
+            <Cpu className="w-3.5 h-3.5 shrink-0 text-turath-gold" />
+            <span className="truncate sm:hidden">
+              {formatShortModel(selectedModel)}
+            </span>
+            <span className="hidden sm:inline truncate">
               {formatModelBadge(selectedModel)}
             </span>
           </button>
@@ -194,14 +225,14 @@ export default function Header({
           {/* Turath Search Button */}
           <button
             onClick={onOpenTurath}
-            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium bg-turath-emerald text-parchment-50 hover:bg-turath-emerald-light transition-all shadow-sm border border-turath-gold/30 flex items-center gap-1 flex-shrink-0"
+            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium bg-turath-emerald text-parchment-50 hover:bg-turath-emerald-light transition-all shadow-2xs border border-turath-gold/30 flex items-center gap-1 shrink-0"
             title="Pencarian Kitab Turath.io"
           >
             <Search className="w-3.5 h-3.5 text-turath-gold" />
             <span className="hidden xl:inline">Turath</span>
           </button>
 
-          {/* Kajian Archive Button / Full Tab Switch */}
+          {/* Kajian Archive Button */}
           <button
             onClick={() => {
               if (activeMainView === 'arsip') {
@@ -210,19 +241,19 @@ export default function Header({
                 setActiveMainView && setActiveMainView('arsip');
               }
             }}
-            className={`p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium transition-all border flex items-center gap-1 flex-shrink-0 ${
+            className={`p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl text-xs font-sans font-medium transition-all border flex items-center gap-1 shrink-0 ${
               activeMainView === 'arsip'
                 ? 'bg-turath-emerald text-white border-turath-emerald shadow-xs font-semibold'
                 : 'bg-parchment-100 dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:bg-parchment-200 dark:hover:bg-ink-800 border-parchment-200 dark:border-ink-800'
             }`}
-            title={activeMainView === 'arsip' ? "Kembali ke Studio Musyawarah" : "Buka Repositori Arsip Kajian (Full Tab)"}
+            title="Buka Repositori Arsip Kajian (Full Tab)"
           >
-            <FolderArchive className={`w-3.5 h-3.5 ${activeMainView === 'arsip' ? 'text-turath-gold' : 'text-ink-500'}`} />
-            <span className="hidden xl:inline">Arsip</span>
+            <FolderArchive className={`w-3.5 h-3.5 ${activeMainView === 'arsip' ? 'text-turath-gold' : 'text-turath-emerald'}`} />
+            <span className="hidden sm:inline">Arsip</span>
           </button>
 
-          {/* Typography Controls Popover */}
-          <div className="relative group">
+          {/* Desktop Typography Controls Popover */}
+          <div className="hidden md:block relative group">
             <button
               className="p-1.5 sm:p-2 rounded-xl text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
               title="Pengaturan Huruf Arab"
@@ -269,55 +300,192 @@ export default function Header({
             </div>
           </div>
 
-          {/* Theme Mode Toggle */}
+          {/* Desktop Theme Toggle */}
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="p-1.5 sm:p-2 rounded-xl text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+            className="hidden md:flex p-1.5 sm:p-2 rounded-xl text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
             title={darkMode ? "Ganti ke Mode Siang" : "Ganti ke Mode Malam"}
           >
             {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-ink-600" />}
           </button>
 
-          {/* Settings */}
+          {/* Desktop Settings */}
           <button
             onClick={onOpenSettings}
-            className="p-1.5 sm:p-2 rounded-xl text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+            className="hidden md:flex p-1.5 sm:p-2 rounded-xl text-ink-600 dark:text-ink-300 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
             title="Pengaturan"
           >
             <Settings className="w-4 h-4" />
           </button>
 
-          {/* Lock App */}
+          {/* Desktop Lock App */}
           <button
             onClick={onLock}
-            className="p-1.5 sm:p-2 rounded-xl text-ink-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
+            className="hidden md:flex p-1.5 sm:p-2 rounded-xl text-ink-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-parchment-200 dark:hover:bg-ink-800 transition-colors"
             title="Kunci Sesi"
           >
             <Lock className="w-4 h-4" />
           </button>
+
+          {/* Mobile All-in-One Menu Button (Opens Drawer) */}
+          <button
+            onClick={() => setIsMobileMenuOpen(true)}
+            className="md:hidden p-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:text-turath-emerald"
+            title="Menu Fitur Lengkap"
+          >
+            <MoreVertical className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
-      {/* Mobile Matra Selector Strip */}
-      <div className="lg:hidden px-2 py-1 bg-parchment-100/90 dark:bg-ink-900/90 border-t border-parchment-200 dark:border-ink-800 flex items-center justify-around gap-1 overflow-x-auto no-scrollbar">
-        {matraList.map(matra => {
-          const isActive = matraMode === matra.id;
-          return (
+      {/* Mobile Drawer Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden fixed inset-0 z-50 flex flex-col justify-end bg-ink-950/60 backdrop-blur-xs animate-fade-in font-sans">
+          <div className="bg-white dark:bg-ink-900 rounded-t-3xl border-t border-parchment-300 dark:border-ink-800 p-4 space-y-4 shadow-manuscript-lg max-h-[85vh] overflow-y-auto">
+            {/* Header */}
+            <div className="flex items-center justify-between pb-2 border-b border-parchment-200 dark:border-ink-800">
+              <div className="flex items-center gap-2">
+                <BookOpen className="w-4 h-4 text-turath-emerald" />
+                <span className="font-serif font-bold text-sm text-ink-900 dark:text-parchment-50">
+                  Menu Bahtsu Klangopan
+                </span>
+              </div>
+              <button
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="p-1 rounded-lg text-ink-400 hover:text-ink-900 dark:hover:text-parchment-100"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Quick Sesi Tools */}
+            <div className="grid grid-cols-2 gap-2 text-xs">
+              <button
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  onNewSession();
+                }}
+                className="flex items-center gap-2 p-2.5 rounded-xl bg-turath-emerald-soft/60 dark:bg-turath-emerald-dark-soft/40 border border-turath-emerald/30 text-turath-emerald dark:text-emerald-300 font-semibold"
+              >
+                <Plus className="w-4 h-4" />
+                <span>Sesi Baru</span>
+              </button>
+
+              <button
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  onOpenHistory();
+                }}
+                className="flex items-center gap-2 p-2.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-parchment-50 dark:bg-ink-950 text-ink-700 dark:text-parchment-200 font-semibold"
+              >
+                <History className="w-4 h-4 text-turath-emerald" />
+                <span>Riwayat Sesi</span>
+              </button>
+            </div>
+
+            {/* 9Router Status & Cockpit */}
             <button
-              key={matra.id}
-              onClick={() => setMatraMode(matra.id)}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-sans whitespace-nowrap transition-all ${
-                isActive
-                  ? 'bg-turath-emerald text-white font-semibold shadow-xs'
-                  : 'text-ink-600 dark:text-ink-400'
-              }`}
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                onOpenRouterCockpit();
+              }}
+              className="w-full flex items-center justify-between p-3 rounded-xl border border-emerald-300 dark:border-emerald-800 bg-emerald-50/70 dark:bg-emerald-950/40 text-xs text-left"
             >
-              <span>{matra.icon}</span>
-              <span>{matra.label}</span>
+              <div className="flex items-center gap-2">
+                <Activity className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                <div>
+                  <div className="font-semibold text-emerald-800 dark:text-emerald-300">
+                    9Router Remote Cockpit
+                  </div>
+                  <div className="text-[10px] text-ink-500 font-mono">
+                    Model: {formatModelBadge(selectedModel)}
+                  </div>
+                </div>
+              </div>
+              <span className="text-[10px] font-bold text-emerald-700 dark:text-emerald-400 bg-white dark:bg-ink-900 px-2 py-0.5 rounded-full border border-emerald-200 dark:border-emerald-800">
+                Online
+              </span>
             </button>
-          );
-        })}
-      </div>
+
+            {/* Typography Controls on Mobile */}
+            <div className="p-3 rounded-xl bg-parchment-100/70 dark:bg-ink-950/70 border border-parchment-200 dark:border-ink-800 space-y-2 text-xs">
+              <div className="flex items-center justify-between font-semibold text-ink-800 dark:text-parchment-200">
+                <span>Ukuran Teks Arab</span>
+                <span className="font-mono text-turath-emerald">{arabicFontSize}px</span>
+              </div>
+              <input
+                type="range"
+                min="18"
+                max="34"
+                step="2"
+                value={arabicFontSize}
+                onChange={(e) => setArabicFontSize(parseInt(e.target.value, 10))}
+                className="w-full accent-turath-emerald cursor-pointer"
+              />
+              <div className="grid grid-cols-2 gap-2 pt-1">
+                <button
+                  onClick={() => setArabicFontFamily('amiri')}
+                  className={`py-1.5 px-2 rounded-lg text-center font-arabic text-sm ${
+                    arabicFontFamily === 'amiri'
+                      ? 'bg-turath-emerald text-white font-bold'
+                      : 'bg-white dark:bg-ink-900 border border-parchment-300 dark:border-ink-800'
+                  }`}
+                >
+                  الأميري (Amiri)
+                </button>
+                <button
+                  onClick={() => setArabicFontFamily('scheherazade')}
+                  className={`py-1.5 px-2 rounded-lg text-center font-arabic text-sm ${
+                    arabicFontFamily === 'scheherazade'
+                      ? 'bg-turath-emerald text-white font-bold'
+                      : 'bg-white dark:bg-ink-900 border border-parchment-300 dark:border-ink-800'
+                  }`}
+                >
+                  شهرزاد (Scheherazade)
+                </button>
+              </div>
+            </div>
+
+            {/* General Actions */}
+            <div className="space-y-1.5 text-xs">
+              <button
+                onClick={() => setDarkMode(!darkMode)}
+                className="w-full flex items-center justify-between p-2.5 rounded-xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200"
+              >
+                <span className="flex items-center gap-2">
+                  {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-ink-600" />}
+                  <span>Mode Tampilan</span>
+                </span>
+                <span className="font-semibold text-turath-emerald">
+                  {darkMode ? 'Mode Malam' : 'Mode Siang'}
+                </span>
+              </button>
+
+              <button
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  onOpenSettings();
+                }}
+                className="w-full flex items-center gap-2 p-2.5 rounded-xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200"
+              >
+                <Settings className="w-4 h-4 text-ink-500" />
+                <span>Pengaturan Sistem & Suhu</span>
+              </button>
+
+              <button
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  onLock();
+                }}
+                className="w-full flex items-center gap-2 p-2.5 rounded-xl border border-rose-200 dark:border-rose-900/40 bg-white dark:bg-ink-900 text-rose-600 dark:text-rose-400 font-semibold"
+              >
+                <Lock className="w-4 h-4" />
+                <span>Kunci Aplikasi (Passcode)</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

@@ -346,16 +346,11 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
               <p className="font-arabic text-base sm:text-lg text-turath-emerald dark:text-emerald-400">
                 مُسَاعِدُ بَحْثِ الْمَسَائِلِ عَلَى مَنْهَجِ عُلَمَاءِ أَهْلِ السُّنَّةِ وَالْجَمَاعَةِ
               </p>
-              <div className="pt-1 flex items-center justify-center gap-2">
-                <button
-                  type="button"
-                  onClick={onOpenModelSelector}
-                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-white dark:bg-ink-900 border border-parchment-300 dark:border-ink-700 text-turath-emerald dark:text-emerald-300 hover:border-turath-emerald shadow-xs transition-all"
-                >
-                  <Cpu className="w-3.5 h-3.5 text-turath-gold" />
-                  <span>Model: {selectedModel}</span>
-                  <span className="text-[10px] text-ink-400 font-sans">(Ganti)</span>
-                </button>
+              <div className="pt-0.5 flex items-center justify-center gap-2">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-medium text-ink-500 dark:text-ink-400 bg-parchment-200/50 dark:bg-ink-900/60 border border-parchment-300/50 dark:border-ink-800">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  <span>Mesin Penalaran: {selectedModel.replace(/^ag\//, '')}</span>
+                </span>
               </div>
             </div>
 
@@ -578,15 +573,12 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
                       {isUser ? 'Musyawirin / Pengkaji' : 'Tim Asistensi Bahtsu Klangopan'}
                     </span>
                     {!isUser && (
-                      <button
-                        type="button"
-                        onClick={onOpenModelSelector}
-                        className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-turath-gold/15 text-turath-gold-dark dark:text-amber-300 hover:bg-turath-gold/25 transition-colors flex items-center gap-1 font-bold"
-                        title="Klik untuk mengganti model AI"
+                      <span
+                        className="text-[10px] font-mono px-1.5 py-0.5 rounded text-ink-500 dark:text-ink-400 opacity-60 flex items-center gap-1 font-medium"
                       >
-                        <Cpu className="w-2.5 h-2.5" />
+                        <Cpu className="w-2.5 h-2.5 text-turath-gold" />
                         <span>{selectedModel.replace(/^ag\//, '')}</span>
-                      </button>
+                      </span>
                     )}
                   </div>
 
@@ -729,19 +721,10 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
             )}
           </form>
 
-          {/* Bottom Bar: Active Model Selector Pill + Advice */}
-          <div className="flex items-center justify-between text-[11px] text-ink-500 dark:text-ink-400 font-sans px-1">
-            <button
-              type="button"
-              onClick={onOpenModelSelector}
-              className="flex items-center gap-1 font-mono text-[11px] text-turath-emerald dark:text-emerald-400 font-semibold hover:underline"
-              title="Ganti model AI"
-            >
-              <Cpu className="w-3 h-3 text-turath-gold" />
-              <span className="truncate max-w-[180px] sm:max-w-none">{selectedModel}</span>
-              <span className="font-sans text-[10px] text-ink-400 opacity-80">(Ganti)</span>
-            </button>
-            <span className="font-arabic text-xs text-turath-emerald dark:text-emerald-400 hidden sm:inline">
+          {/* Bottom Bar: Advice on desktop only to save vertical space on mobile */}
+          <div className="hidden sm:flex items-center justify-between text-[11px] text-ink-400 dark:text-ink-500 font-sans px-1">
+            <span>Tekan Enter untuk kirim, Shift+Enter untuk baris baru</span>
+            <span className="font-arabic text-xs text-turath-emerald dark:text-emerald-400">
               والله أعلم بالصواب
             </span>
           </div>
