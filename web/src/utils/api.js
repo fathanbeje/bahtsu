@@ -163,6 +163,21 @@ export async function saveKajian({ title, slug, content, model, matraMode }) {
   }
 }
 
+export async function syncKajianFromGitHub() {
+  try {
+    const res = await fetch(`${API_BASE}/kajian/sync-github`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${getAuthToken()}`,
+      },
+    });
+    return await res.json();
+  } catch (err) {
+    return { ok: false, error: err.message };
+  }
+}
+
 // 9Router Remote Control Client API
 export async function getRouterOverview() {
   try {

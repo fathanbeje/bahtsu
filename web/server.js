@@ -788,6 +788,57 @@ app.post('/api/kajian/save', checkAuth, async (req, res) => {
   }
 });
 
+// Kajian Repository - Force sync / pull latest kajian from GitHub
+app.post('/api/kajian/sync-github', checkAuth, async (req, res) => {
+  const repoRoot = path.resolve(__dirname, '..');
+  if (!fs.existsSync(path.join(repoRoot, '.git'))) {
+    return res.status(400).json({ ok: false, error: 'Repositori git tidak ditemukan pada server.' });
+  }
+
+  try {
+    // 1. Deteksi branch aktif
+    const { stdout: branchOut } = await execAsync('git rev-parse --abbrev-ref HEAD', {
+      cwd: repoRoot,
+      timeout: 10000,
+    });
+    const currentBranch = branchOut.trim() || 'private/bahtsu-klangopan-app';
+
+    // 2. Fetch pembaruan dari GitHub
+    const { stdout: fetchOut } = await execAsync(`git fetch origin ${currentBranch}`, {
+      cwd: repoRoot,
+      timeout: 30000,
+    });
+
+    // 3. Reset hard ke origin branch untuk memastikan sinkronisasi 100% identik
+    const { stdout: resetOut } = await execAsync(`git reset --hard origin/${currentBranch}`, {
+      cwd: repoRoot,
+      timeout: 15000,
+    });
+
+    // 4. Ambil ringkasan commit terbaru
+    const { stdout: logOut } = await execAsync('git log -n 1 --pretty=format:"%h - %s (%cr)"', {
+      cwd: repoRoot,
+      timeout: 5000,
+    });
+
+    const totalFiles = fs.existsSync(KAJIAN_DIR)
+      ? fs.readdirSync(KAJIAN_DIR).filter(f => f.endsWith('.md')).length
+      : 0;
+
+    res.json({
+      ok: true,
+      message: 'Seluruh naskah kajian berhasil diperbarui dan disinkronkan dari GitHub!',
+      branch: currentBranch,
+      latestCommit: logOut.trim(),
+      details: `${fetchOut}\n${resetOut}`.trim(),
+      totalFiles,
+    });
+  } catch (err) {
+    console.error('Error syncing from GitHub:', err);
+    res.status(500).json({ ok: false, error: `Gagal memperbarui kajian dari GitHub: ${err.message}` });
+  }
+});
+
 // Serve frontend build if available (production mode)
 const distPath = path.join(__dirname, 'dist');
 if (fs.existsSync(distPath)) {

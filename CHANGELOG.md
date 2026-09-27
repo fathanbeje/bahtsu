@@ -4,6 +4,18 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.5] - 2026-09-27
+
+### 🔄 On-Demand GitHub Repository Synchronization
+- **Endpoint Paksa Pembaruan Kajian GitHub (`POST /api/kajian/sync-github`):**
+  - Mengimplementasikan endpoint API terotentikasi di `web/server.js` untuk menarik (*git fetch*) dan mereset (*git reset --hard*) repositori naskah kajian secara langsung ke commit remote GitHub terbaru pada branch aktif (`private/bahtsu-klangopan-app`).
+  - Mengembalikan metadata branch, ringkasan commit terbaru (*hash, message, time*), dan jumlah total berkas kajian aktif pasca-sinkronisasi.
+- **Tombol Aksi Cepat "Update GitHub" pada Antarmuka Arsip (`KajianArchivePage.jsx`):**
+  - Menambahkan tombol interaktif "Update GitHub" berdampingan dengan tombol Refresh di bilah navigasi arsip naskah kajian.
+  - Dilengkapi animasi indikator proses (*spin*), penonaktifan tombol ganda saat sinkronisasi berlangsung, serta banner notifikasi status real-time dengan rincian hash commit yang berhasil ditarik.
+
+---
+
 ## [2.5.4] - 2026-09-27
 
 ### 🎯 Strict Mahallus Syahid W3C Range Alignment

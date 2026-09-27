@@ -21,9 +21,10 @@ import {
   ArrowRight,
   Sun,
   Moon,
-  Settings
+  Settings,
+  GitPullRequest
 } from 'lucide-react';
-import { getKajianList } from '../utils/api';
+import { getKajianList, syncKajianFromGitHub } from '../utils/api';
 
 export default function KajianArchivePage({
   onBackToStudio,
@@ -44,6 +45,8 @@ export default function KajianArchivePage({
   const [filterMatra, setFilterMatra] = useState('all'); // 'all' | 'waqi_iyyah' | 'maudlu_iyyah' | 'qanuniyyah'
   const [sortBy, setSortBy] = useState('newest'); // 'newest' | 'oldest' | 'title' | 'size'
   const [copiedStatus, setCopiedStatus] = useState(null);
+  const [syncingGit, setSyncingGit] = useState(false);
+  const [syncNotice, setSyncNotice] = useState(null);
 
   // Mobile column switch: 'list' | 'reader'
   const [mobileView, setMobileView] = useState('list');
@@ -70,6 +73,36 @@ export default function KajianArchivePage({
       console.error('Gagal mengambil daftar kajian:', err);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleSyncGitHub = async () => {
+    setSyncingGit(true);
+    setSyncNotice(null);
+    try {
+      const res = await syncKajianFromGitHub();
+      if (res.ok) {
+        setSyncNotice({
+          type: 'success',
+          message: res.message || 'Kajian berhasil diperbarui dari GitHub!',
+          commit: res.latestCommit,
+          filesCount: res.totalFiles,
+        });
+        await fetchList();
+      } else {
+        setSyncNotice({
+          type: 'error',
+          message: res.error || 'Gagal menyinkronkan dari GitHub.',
+        });
+      }
+    } catch (err) {
+      setSyncNotice({
+        type: 'error',
+        message: err.message,
+      });
+    } finally {
+      setSyncingGit(false);
+      setTimeout(() => setSyncNotice(null), 6000);
     }
   };
 
@@ -257,17 +290,62 @@ export default function KajianArchivePage({
             </button>
           )}
 
+          {/* Force Update from GitHub Button */}
+          <button
+            onClick={handleSyncGitHub}
+            disabled={syncingGit || loading}
+            className={`flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-xl border text-xs font-semibold transition-all shadow-2xs ${
+              syncingGit
+                ? 'bg-amber-100 border-amber-300 text-amber-800 dark:bg-amber-950/60 dark:border-amber-700 dark:text-amber-200'
+                : 'border-turath-emerald/30 bg-turath-emerald/10 text-turath-emerald dark:text-emerald-300 hover:bg-turath-emerald/20'
+            }`}
+            title="Tarik & Paksa Sinkronisasi Berkas Kajian Terbaru dari GitHub"
+          >
+            <GitPullRequest className={`w-3.5 h-3.5 ${syncingGit ? 'animate-spin' : ''}`} />
+            <span className="hidden sm:inline">
+              {syncingGit ? 'Menarik...' : 'Update GitHub'}
+            </span>
+          </button>
+
           {/* Refresh Button */}
           <button
             onClick={fetchList}
             disabled={loading}
             className="p-1.5 sm:p-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-600 dark:text-parchment-300 hover:text-turath-emerald transition-colors"
-            title="Muat ulang repositori"
+            title="Muat ulang daftar lokal"
           >
             <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin text-turath-emerald' : ''}`} />
           </button>
         </div>
       </div>
+
+      {/* GitHub Sync Status Notification Banner */}
+      {syncNotice && (
+        <div className={`px-4 py-2 text-xs flex items-center justify-between border-b transition-all animate-fade-in shrink-0 z-20 ${
+          syncNotice.type === 'success'
+            ? 'bg-emerald-50 dark:bg-emerald-950/90 border-emerald-200 dark:border-emerald-800 text-emerald-900 dark:text-emerald-100'
+            : 'bg-rose-50 dark:bg-rose-950/90 border-rose-200 dark:border-rose-800 text-rose-900 dark:text-rose-100'
+        }`}>
+          <div className="flex items-center gap-2 flex-wrap min-w-0">
+            <span className="font-bold flex items-center gap-1">
+              {syncNotice.type === 'success' ? '✅' : '⚠️'} {syncNotice.message}
+            </span>
+            {syncNotice.commit && (
+              <span className="font-mono text-[11px] px-2 py-0.5 rounded bg-emerald-200/60 dark:bg-emerald-900/60 text-emerald-950 dark:text-emerald-200">
+                Commit: {syncNotice.commit}
+              </span>
+            )}
+            {typeof syncNotice.filesCount === 'number' && (
+              <span className="text-[11px] opacity-80">
+                ({syncNotice.filesCount} berkas naskah aktif)
+              </span>
+            )}
+          </div>
+          <button onClick={() => setSyncNotice(null)} className="p-1 hover:opacity-75 shrink-0 ml-2">
+            <X className="w-3.5 h-3.5" />
+          </button>
+        </div>
+      )}
 
       {/* Main Dual-Column Explorer Workspace */}
       <div className="flex-1 flex overflow-hidden">
