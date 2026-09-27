@@ -204,11 +204,20 @@ export default function App() {
       },
       onFinish: () => {
         setIsStreaming(false);
-        // Auto-sync into TaswidahDock if it's currently empty
-        if (fullAssistantResponse && fullAssistantResponse.length > 60) {
+        if (!fullAssistantResponse.trim()) {
+          setMessages(prev => {
+            const next = [...prev];
+            next[assistantIndex] = {
+              role: 'assistant',
+              content: '> ⚠️ *Model selesai menalar namun tidak menghasilkan draf jawaban. Silakan coba kirim ulang atau beralih ke model lain.*',
+            };
+            return next;
+          });
+        } else if (fullAssistantResponse && fullAssistantResponse.length > 60) {
+          // Auto-sync clean response into TaswidahDock if it's currently empty
           setTaswidahContent(prev => {
             if (!prev.trim()) {
-              return fullAssistantResponse;
+              return fullAssistantResponse.replace(/<think>[\s\S]*?<\/think>/, '').trim();
             }
             return prev;
           });
@@ -222,6 +231,13 @@ export default function App() {
       abortControllerRef.current.abort();
     }
     setIsStreaming(false);
+    // Bersihkan placeholder pesan kosong jika pengguna menghentikan respons sebelum teks masuk
+    setMessages(prev => {
+      if (prev.length > 0 && prev[prev.length - 1].role === 'assistant' && !prev[prev.length - 1].content.trim()) {
+        return prev.slice(0, -1);
+      }
+      return prev;
+    });
   };
 
   const handleResetChat = () => {

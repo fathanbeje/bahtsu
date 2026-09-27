@@ -177,36 +177,74 @@ export default function ChatPane({
   };
 
   const renderMessageContent = (content, msgIndex) => {
-    const thinkMatch = content.match(/<think>([\s\S]*?)<\/think>/);
-    let mainContent = content;
     let thoughtText = '';
+    let mainContent = content;
 
+    const thinkMatch = content.match(/<think>([\s\S]*?)<\/think>/);
     if (thinkMatch) {
       thoughtText = thinkMatch[1].trim();
       mainContent = content.replace(/<think>[\s\S]*?<\/think>/, '').trim();
+    } else {
+      const openThinkMatch = content.match(/^<think>([\s\S]*)$/);
+      if (openThinkMatch) {
+        thoughtText = openThinkMatch[1].trim();
+        mainContent = '';
+      }
     }
 
-    const paragraphs = mainContent.split('\n');
+    const isCurrentStreaming = isStreaming && msgIndex === messages.length - 1;
+    const isThoughtOpen = openThoughts[msgIndex] !== undefined ? openThoughts[msgIndex] : isCurrentStreaming;
+
+    const paragraphs = mainContent ? mainContent.split('\n') : [];
 
     return (
       <div className="space-y-3 font-serif">
         {thoughtText && (
-          <div className="mb-3 rounded-xl border border-parchment-300 dark:border-ink-800 bg-parchment-100/70 dark:bg-ink-900/70 p-3 text-xs text-ink-600 dark:text-ink-400 font-sans">
+          <div className={`mb-3 rounded-xl border p-3 text-xs font-sans transition-all ${
+            isCurrentStreaming
+              ? 'border-turath-gold/50 bg-amber-50/80 dark:bg-amber-950/40 text-ink-700 dark:text-amber-200'
+              : 'border-parchment-300 dark:border-ink-800 bg-parchment-100/70 dark:bg-ink-900/70 text-ink-600 dark:text-ink-400'
+          }`}>
             <button
+              type="button"
               onClick={() => toggleThought(msgIndex)}
-              className="flex items-center gap-1.5 font-medium hover:text-ink-900 dark:hover:text-parchment-200 transition-colors w-full text-left"
+              className="flex items-center justify-between font-medium hover:text-ink-900 dark:hover:text-parchment-200 transition-colors w-full text-left"
             >
-              {openThoughts[msgIndex] ? <ChevronDown className="w-3.5 h-3.5" /> : <ChevronRight className="w-3.5 h-3.5" />}
-              <span className="flex items-center gap-1">
-                <Sparkles className="w-3 h-3 text-turath-gold" />
-                <span>Nalar Ushul & Istinbath AI ({thoughtText.length} karakter)</span>
-              </span>
+              <div className="flex items-center gap-1.5">
+                {isThoughtOpen ? <ChevronDown className="w-3.5 h-3.5" /> : <ChevronRight className="w-3.5 h-3.5" />}
+                <Sparkles className={`w-3.5 h-3.5 text-turath-gold ${isCurrentStreaming ? 'animate-spin' : ''}`} />
+                <span className="font-semibold">Nalar Ushul & Istinbath AI ({thoughtText.length} karakter)</span>
+              </div>
+              {isCurrentStreaming && (
+                <span className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded-full bg-turath-gold/20 text-amber-800 dark:text-amber-300 font-bold animate-pulse">
+                  Sedang Menalar...
+                </span>
+              )}
             </button>
-            {openThoughts[msgIndex] && (
-              <div className="mt-2 pt-2 border-t border-parchment-200 dark:border-ink-800 whitespace-pre-wrap font-mono text-[11px] leading-relaxed text-ink-500 dark:text-ink-400">
+            {isThoughtOpen && (
+              <div className="mt-2.5 pt-2 border-t border-parchment-200 dark:border-ink-800 whitespace-pre-wrap font-mono text-[11px] leading-relaxed max-h-56 overflow-y-auto">
                 {thoughtText}
               </div>
             )}
+          </div>
+        )}
+
+        {isCurrentStreaming && !mainContent && (
+          <div className="flex items-center gap-2.5 py-3 px-1 text-sm text-ink-600 dark:text-parchment-200 font-sans">
+            <div className="flex items-center gap-1">
+              <span className="w-2.5 h-2.5 rounded-full bg-turath-emerald animate-bounce" style={{ animationDelay: '0ms' }} />
+              <span className="w-2.5 h-2.5 rounded-full bg-turath-emerald animate-bounce" style={{ animationDelay: '150ms' }} />
+              <span className="w-2.5 h-2.5 rounded-full bg-turath-emerald animate-bounce" style={{ animationDelay: '300ms' }} />
+            </div>
+            <span className="text-xs font-semibold text-turath-emerald dark:text-emerald-400">
+              {thoughtText ? 'Merumuskan ibarat & wajhul istidlal turats...' : 'Menghubungkan ke Tim Asistensi Bahtsul Masail...'}
+            </span>
+          </div>
+        )}
+
+        {!isCurrentStreaming && !mainContent && !thoughtText && (
+          <div className="py-2 px-1 text-xs text-ink-500 italic">
+            Respons belum selesai dimuat atau terputus saat koneksi terputus. Silakan ajukan ulang pertanyaan Anda.
           </div>
         )}
 
@@ -672,7 +710,7 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
                   )}
 
                   {/* Actions for Assistant Response */}
-                  {!isUser && (
+                  {!isUser && msg.content && msg.content.trim().length > 0 && (
                     <div className="mt-3 pt-2.5 border-t border-parchment-200 dark:border-ink-800 flex flex-wrap items-center justify-between gap-2 text-xs font-sans">
                       <button
                         onClick={() => onTransferToTaswidah(msg.content)}

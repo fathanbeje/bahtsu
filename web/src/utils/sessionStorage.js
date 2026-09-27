@@ -7,10 +7,19 @@
 const STORAGE_KEY_SESSIONS = 'bahtsu_sessions_v1';
 const STORAGE_KEY_ACTIVE_ID = 'bahtsu_active_session_id';
 
+function cleanSessionMessages(session) {
+  if (!session || !Array.isArray(session.messages)) return session;
+  return {
+    ...session,
+    messages: session.messages.filter(m => m.role !== 'assistant' || (m.content && m.content.trim().length > 0))
+  };
+}
+
 export function getAllSessions() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY_SESSIONS);
-    return raw ? JSON.parse(raw) : [];
+    const sessions = raw ? JSON.parse(raw) : [];
+    return sessions.map(cleanSessionMessages);
   } catch (err) {
     console.error('Gagal membaca riwayat sesi:', err);
     return [];
@@ -72,12 +81,16 @@ export function saveCurrentSessionState({ id, title, matraMode, model, messages,
     }
   }
 
+  const safeMessages = (messages || []).filter(
+    (m, idx) => !(m.role === 'assistant' && !m.content?.trim() && idx === messages.length - 1)
+  );
+
   const updatedSession = {
     id,
     title: derivedTitle || 'Telaah Masalah Bahtsu',
     matraMode: matraMode || 'waqi_iyyah',
     model: model || 'ag/gemini-3.8-flash-high',
-    messages: messages || [],
+    messages: safeMessages,
     taswidahContent: taswidahContent || '',
     updatedAt: new Date().toISOString(),
   };

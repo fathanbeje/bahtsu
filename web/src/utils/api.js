@@ -65,6 +65,7 @@ export async function streamChat({ messages, model, matraMode, temperature = 0.3
     const reader = res.body.getReader();
     const decoder = new TextDecoder('utf-8');
     let buffer = '';
+    let inThinkTag = false;
 
     while (true) {
       const { done, value } = await reader.read();
@@ -85,15 +86,37 @@ export async function streamChat({ messages, model, matraMode, temperature = 0.3
           }
           try {
             const parsed = JSON.parse(payload);
-            const delta = parsed.choices?.[0]?.delta?.content || '';
-            if (delta && onChunk) {
-              onChunk(delta);
+            const deltaObj = parsed.choices?.[0]?.delta || {};
+            const reasoning = deltaObj.reasoning_content || deltaObj.thought || '';
+            const content = deltaObj.content || '';
+
+            if (reasoning) {
+              if (!inThinkTag) {
+                inThinkTag = true;
+                if (onChunk) onChunk('<think>' + reasoning);
+              } else {
+                if (onChunk) onChunk(reasoning);
+              }
+            }
+
+            if (content) {
+              if (inThinkTag) {
+                inThinkTag = false;
+                if (onChunk) onChunk('</think>\n\n' + content);
+              } else {
+                if (onChunk) onChunk(content);
+              }
             }
           } catch (e) {
             // Ignore partial JSON parse errors in streaming
           }
         }
       }
+    }
+
+    if (inThinkTag) {
+      inThinkTag = false;
+      if (onChunk) onChunk('</think>\n\n');
     }
 
     if (onFinish) onFinish();
