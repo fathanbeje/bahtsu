@@ -224,7 +224,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 3. **Kitab: Durar al-Hukkam fi Syarh Majallah al-Ahkam (درر الحكام في شرح مجلة الأحكام) - (Juz 1, Hal. 511)**  
    *Karya: Ali Haidar Khwajah Amin Afandi | Lapisan: Kodifikasi Hukum Fiqih Muamalah / Majallah Al-Ahkam*
 
-   > المادة (٤٠٦) في الشروط الفاسدة في الإجارة: <u>**【الإجارة الفاسدة هي التي عرض فيها شيء من الشروط المفسدة؛ فكل شرط لا يقتضيه العقد وفيه إضرار بأحد الطرفين يكون شرطا باطلا يلزم إسقاطه】**</u>.
+   > الْمَادَّةُ (٤٠٦) فِي الشُّرُوطِ الْفَاسِدَةِ فِي الْإِجَارَةِ: <u>**【الْإِجَارَةُ الْفَاسِدَةُ】**</u>: هِيَ الَّتِي عُرِضَ فِيهَا شَيْءٌ مِنْ الشُّرُوطِ الْمُفْسِدَةِ؛ فَكُلُّ شَرْطٍ لَا يَقْتَضِيهِ الْعَقْدُ وَفِيهِ إضْرَارٌ بِأَحَدِ الطَّرَفَيْنِ يَكُونُ شَرْطًا بَاطِلًا يَلْزَمُ إسْقَاطُهُ.
 
    *Makna Murod / Terjemah:*  
    Pasal 406 Mengenai Syarat yang Merusak dalam Ijarah: Ijarah yang fasid adalah akad sewa yang disusupi klausul syarat yang merusak hakikat keadilan akad; maka setiap syarat yang tidak dituntut oleh tabiat asal akad dan di dalamnya menimbulkan kerugian sepihak bagi salah satu pihak yang berakad berstatus sebagai syarat batil yang wajib digugurkan.
@@ -232,7 +232,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Klausul pemusnahan total sisa hak data internet yang telah dibayar tunai oleh pembeli adalah klausul yang merugikan sepihak (*syarth bathil*), sehingga badan regulasi dan pengadilan berwenang membatalkannya dan mewajibkan mekanisme kompensasi atau *rollover*.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21692?page=474#:~:text=%D8%A7%D9%84%D8%A5%D8%AC%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D9%81%D8%A7%D8%B3%D8%AF%D8%A9%20%D9%87%D9%8A,%D8%A8%D8%A7%D8%B7%D9%84%D8%A7%20%D9%8A%D9%84%D8%B2%D9%85%20%D8%A5%D8%B3%D9%82%D8%A7%D8%B7%D9%87)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21692?page=474#:~:text=%D8%A7%D9%84%D9%92%D8%A5%D9%90%D8%AC%D9%8E%D8%A7%D8%B1%D9%8E%D8%A9%D9%8F%20%D8%A7%D9%84%D9%92%D9%81%D9%8E%D8%A7%D8%B3%D9%90%D8%AF%D9%8E%D8%A9%D9%8F)
 
 ---
 
