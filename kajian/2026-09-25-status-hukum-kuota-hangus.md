@@ -163,7 +163,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Operator menjual paket kuota dengan label "50 GB seharga Rp 100.000". Konsumen telah membayar penuh untuk kuota tersebut. Ketika sisa 20 GB hangus seketika tanpa opsi rollover sedikit pun, operator mengantongi kompensasi penuh atas kuota data yang tidak pernah mereka transmisikan, sehingga berpotensi menyerempet larangan *akl al-mal bil-bathil*.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21603?page=1054#:~:text=%D8%A8%D9%8E%D9%8A%D9%92%D9%86%D9%8E%D9%83%D9%8F%D9%85%D9%92%20%D8%A8%D9%90%D8%A7%D9%84%D9%92%D8%A8%D9%8E%D8%A7%D8%B7%D9%90%D9%84%D9%90%EF%B7%BD,%D9%85%D9%8E%D8%A7%D9%84%D9%8E%20%D8%A8%D9%8E%D8%B9%D9%92%D8%B6%D9%8F%D9%83%D9%8F%D9%85%D9%92%20%D8%A8%D9%90%D8%A7%D9%84%D9%92%D8%A8%D9%8E%D8%A7%D8%B7%D9%90%D9%84%D9%90)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21603?page=1054#:~:text=%D9%82%D9%88%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%EF%B4%BF%D9%84%D8%A7,%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%88%D8%A7%D9%84%D8%B9%D8%AF%D9%84%20%D8%A7%D9%84%D9%85%D8%AD%D8%B6)
 
 2. **Kitab: Ighatsatul Lahfan fi Mashayidisy Syaithan (إغاثة اللهفان في مصايد الشيطان) - (Juz 2, Hal. 727)**  
    *Karya: Al-Imam Syamsuddin Ibnu Qayyim Al-Jauziyyah (W. 751 H) | Lapisan: Maqashid Syari'ah & Keadilan Muamalah*
@@ -189,7 +189,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Sistem kuota hangus tanpa kompensasi menimbulkan kemudaratan sistemik (*dharar 'am*) bagi jutaan konsumen telekomunikasi, sehingga wajib dihilangkan dengan menyediakan skema penyelamatan kuota (*data rollover*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/18192?page=45#:~:text=%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89%20%D8%A7%D9%84%D9%8A%D9%82%D9%8A%D9%86%20%D9%84%D8%A7,%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A9%20%D9%85%D8%AD%D9%83%D9%85%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/18192?page=45#:~:text=%D8%A7%D9%84%D9%82%D8%A7%D8%B9%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B6%D8%B1%D8%B1%20%D9%8A%D8%B2%D8%A7%D9%84)
 
 ---
 
