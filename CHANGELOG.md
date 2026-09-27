@@ -60,6 +60,7 @@ Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelo
 - **Pembersihan Duplikasi & Teks `\n` Mentah:** Menghapus duplikasi sub-bab pada naskah Shalat Arafah serta membersihkan string literal `\n\n` pada naskah Wasiat Haul.
 
 ### 📚 New Studies & Materials
+- **Validasi Auto Push Bot Repositori Privat (`kajian/2026-09-27-validasi-auto-push-bot.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Uji Coba Sinkronisasi Repositori Privat (`kajian/2026-09-27-uji-coba-repositori-privat.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot. (Kajian Bahtsul Masail)
 - **Hukum Asuransi BPJS Kesehatan (`kajian/2026-09-26-hukum-asuransi-bpjs-kesehatan.md`):** Telaah fiqih muamalah dan siyasah syar'iyyah mengenai akad tabarru' jaminan sosial nasional, keabsahan kewajiban iuran oleh pemerintah, serta ketiadaan riba dan gharar terlarang.
 - **Hukum Azimat dan Rajah (`kajian/2026-09-26-hukum-penggunaan-azimat-rajah.md`):** Telaah akidah dan fiqih mengenai ta'widz ayat Al-Qur'an, batasan ilmu wifiq, dan adab membawa azimat ke toilet.
