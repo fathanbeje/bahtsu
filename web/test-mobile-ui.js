@@ -52,9 +52,32 @@ async function run() {
     await page.screenshot({ path: menuPath, fullPage: false });
     console.log('Saved menu screenshot to:', menuPath);
 
-    // Close menu (press Escape or click backdrop)
-    await page.keyboard.press('Escape');
-    await new Promise(r => setTimeout(r, 400));
+    // Open 9Router Cockpit from Menu
+    await page.evaluate(() => {
+      const buttons = Array.from(document.querySelectorAll('button'));
+      const routerBtn = buttons.find(b => b.innerText.includes('9Router Remote Cockpit'));
+      if (routerBtn) routerBtn.click();
+    });
+    await new Promise(r => setTimeout(r, 1200));
+
+    // Switch to 'Sisa Kuota Akun' tab
+    await page.evaluate(() => {
+      const buttons = Array.from(document.querySelectorAll('button'));
+      const quotaTab = buttons.find(b => b.innerText.includes('Sisa Kuota Akun'));
+      if (quotaTab) quotaTab.click();
+    });
+    await new Promise(r => setTimeout(r, 800));
+
+    const routerPath = path.join(ARTIFACT_DIR, 'mobile_9router.png');
+    await page.screenshot({ path: routerPath, fullPage: false });
+    console.log('Saved 9router screenshot to:', routerPath);
+
+    // Close 9Router modal (click X button)
+    await page.evaluate(() => {
+      const closeBtn = document.querySelector('button[title="Segarkan Data 9Router"]')?.nextElementSibling;
+      if (closeBtn) closeBtn.click();
+    });
+    await new Promise(r => setTimeout(r, 500));
   }
 
   // 3. Switch to Arsip View
