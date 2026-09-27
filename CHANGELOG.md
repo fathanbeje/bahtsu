@@ -4,6 +4,20 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.8] - 2026-09-27
+
+### 🎯 Preservasi Harakat Otentik Kitab Turats & Penyelarasan Halaman Presisi
+- **Pembedaan Kitab Berharakat Asli vs Kitab Gundul Turath.io:**
+  - Menemukan fakta bahwa basis data Turath.io terbagi menjadi dua kategori: kitab yang aslinya berharakat lengkap (seperti *Durar al-Hukkam*, *Al-Majmu'*, *Al-Hawi Al-Kabir*, *Mughni Al-Muhtaj*, *Tuhfatul Muhtaj*) dan kitab yang aslinya gundul (seperti *I'anatuth Thalibin*, *Al-Bayan*, *Bahrul Madzhab*, *Asna Al-Mathalib*).
+  - Memperbaiki linter agar tidak melakukan pembersihan harakat berlebihan (*over-cleansing*): teks dan parameter W3C Text Fragment pada kitab yang aslinya berharakat di Turath.io WAJIB mempertahankan harakat aslinya agar pencocokan kode karakter peramban (Chrome/Edge/Safari) berhasil menyorot kalimat hukum.
+- **Koreksi Halaman Rujukan Durar al-Hukkam (*Al-Kitab kal-Khithab*):**
+  - Mengoreksi tautan rujukan kaidah *Al-Kitāb kal-Khithāb* pada `2026-09-25-model-bisnis-muse-ai-meta.md` dari `page=1164` (Jilid 2, Hal 387 bab Hibah yang salah kamar) ke halaman yang benar yaitu `page=53` (Jilid 1, Hal 69), lengkap dengan harakat asli Turath `الْكِتَابُ كَالْخِطَابِ`.
+  - Mengoreksi tautan rujukan *Al-Ijarah al-Fasidah* pada `2026-09-25-status-hukum-kuota-hangus.md` (page=474) agar menggunakan teks berharakat asli `الْإِجَارَةُ الْفَاسِدَةُ`.
+- **Ketahanan Jaringan Linter (`scripts/turath_linter.js`):**
+  - Meningkatkan timeout dan retry penelusuran kitab ke 6000ms dan mencegah pencatatan cache `null` saat terjadi gangguan timeout jaringan sementara.
+
+---
+
 ## [2.5.7] - 2026-09-27
 
 ### 📖 Otentisitas Teks Turats & Penyingkiran Harakat Buatan

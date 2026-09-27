@@ -50,11 +50,11 @@ const BROWSER_HEADERS = {
   'Accept-Language': 'ar,en-US;q=0.9,en;q=0.8',
 };
 
-async function fetchTurathWithRetry(url, maxRetries = 2) {
+async function fetchTurathWithRetry(url, maxRetries = 3) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 4000);
+      const timeoutId = setTimeout(() => controller.abort(), 6000);
       const res = await fetch(url, {
         signal: controller.signal,
         headers: BROWSER_HEADERS
@@ -62,14 +62,14 @@ async function fetchTurathWithRetry(url, maxRetries = 2) {
       clearTimeout(timeoutId);
 
       if (res.status === 429) {
-        const waitMs = attempt * 800;
+        const waitMs = attempt * 1200;
         await new Promise(r => setTimeout(r, waitMs));
         continue;
       }
       return res;
     } catch (err) {
       if (attempt === maxRetries) return null;
-      await new Promise(r => setTimeout(r, 400));
+      await new Promise(r => setTimeout(r, 600));
     }
   }
   return null;
@@ -82,7 +82,7 @@ async function getBookMeta(bookId) {
   }
 
   try {
-    const res = await fetchTurathWithRetry(`${TURATH_API}/search?q=${encodeURIComponent('في')}&book_id=${bookId}&v=3`);
+    const res = await fetchTurathWithRetry(`${TURATH_API}/search?q=${encodeURIComponent('في')}&book_id=${bookId}&v=3`, 3);
     if (res && res.ok) {
       const d = await res.json();
       if (d.data && d.data.length > 0) {
@@ -95,11 +95,13 @@ async function getBookMeta(bookId) {
         };
         BOOK_CACHE.set(bookId, info);
         return info;
+      } else {
+        BOOK_CACHE.set(bookId, null);
+        return null;
       }
     }
   } catch (err) {}
 
-  BOOK_CACHE.set(bookId, null);
   return null;
 }
 
@@ -108,7 +110,11 @@ function generateW3CFragment(primaryText, fallbackSnip = '') {
   // 1. PRIORITAS UTAMA: Ambil langsung dari mahallus syahid asli yang ada di naskah!
   const raw = (primaryText || '').trim();
   if (raw) {
-    const clean = cleanArabic(raw);
+    // Bersihkan tanda kurung/tanda baca tanpa menghapus harakat asli teks
+    const clean = raw
+      .replace(/[،؛.:!؟\(\)\[\]«»"'_\-]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
     const words = clean.split(/\s+/).map(cleanPunct).filter(Boolean);
 
     if (words.length > 0 && words.length <= 4) {
@@ -132,11 +138,12 @@ function generateW3CFragment(primaryText, fallbackSnip = '') {
     .replace(/<\/span>/gi, '')
     .replace(/<[^>]+>/g, ' ')
     .replace(/&nbsp;/g, ' ')
+    .replace(/[،؛.:!؟\(\)\[\]«»"'_\-]+/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 
   const textWithoutTags = clean.replace(/<\/?em>/gi, '').trim();
-  const words = cleanArabic(textWithoutTags).split(/\s+/).map(cleanPunct).filter(Boolean);
+  const words = textWithoutTags.split(/\s+/).map(cleanPunct).filter(Boolean);
 
   if (words.length === 0) return '';
   if (words.length <= 4) {
@@ -521,8 +528,9 @@ function applyFixesToFile(filePath, auditedResults) {
       }
     }
 
-    // 2. Selaraskan kutipan naskah: buang harakat buatan agar persis sama dengan sumber Turath.io
-    if (citation.quoteLines && citation.quoteLines.length > 0) {
+    // 2. Selaraskan kutipan naskah: buang harakat buatan HANYA JIKA terdeteksi ARTIFICIAL_HARAKAT (sumber di Turath gundul)
+    const hasArtificialHarakat = item.issues && item.issues.some(iss => iss.type === 'ARTIFICIAL_HARAKAT');
+    if (hasArtificialHarakat && citation.quoteLines && citation.quoteLines.length > 0) {
       for (const qLine of citation.quoteLines) {
         const qIdx = qLine - 1;
         if (qIdx >= 0 && qIdx < lines.length) {

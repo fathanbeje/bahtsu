@@ -128,13 +128,13 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 4. **Kitab Al-Asybah wan Nazha'ir fi Qawa'id wa Furu' Fiqh Asy-Syafi'iyyah (Halaman 308) & Durar al-Hukkam Syarah Majallatil Ahkam (Juz 1, Halaman 69)**  
    *Karya: Al-Imam Jalaluddin As-Suyuthi (Wafat 911 H) & Ali Haidar | Lapisan: Kaidah Fiqhiyyah & Qanun Muamalah*  
 
-   > القاعدة: <u>**【الكتاب كالخطاب، والأصل أن البيان بالكتاب بمنزلة البيان باللسان】**</u>، ومعناها أن الإشارات والكتابات المنضبطة الصادرة عن الإرادة يترتب عليها من صحة العقود ولزومها ما يترتب على الألفاظ الشفهية عند عموم البلوى وجريان العرف بها.  
+   > (الْمَادَّةُ ٦٩): <u>**【الْكِتَابُ كَالْخِطَابِ】**</u>. هَذِهِ الْمَادَّةُ هِيَ نَفْسُ قَاعِدَةِ (الْكِتَابُ كَالْخِطَابِ) الْمَذْكُورَةِ فِي الْأَشْبَاهِ. وَالْمَقْصُودُ فِيهَا هُوَ أَنَّهُ كَمَا يَجُوزُ لِاثْنَيْنِ أَنْ يُعْقَدَ بَيْنَهُمَا مُشَافَهَةً عَقْدُ بَيْعٍ أَوْ إجَارَةٍ أَوْ كَفَالَةٍ أَوْ حَوَالَةٍ أَوْ رَهْنٍ أَوْ مَا إلَى ذَلِكَ مِنْ الْعُقُودِ، يَجُوزُ لَهُمَا عَقْدُ ذَلِكَ مُكَاتَبَةً أَيْضًا. وَالْحَاصِلُ أَنَّ كُلَّ كِتَابٍ يُحَرَّرُ عَلَى الْوَجْهِ الْمُتَعَارَفِ مِنْ النَّاسِ حُجَّةٌ عَلَى كَاتِبِهِ كَالنُّطْقِ بِاللِّسَانِ.  
 
    *Makna Murod / Terjemah:* Kaidah fiqih menetapkan: Tulisan/dokumen sama kedudukannya dengan ucapan langsung lisan, dan pada prinsipnya penjelasan melalui sarana tulisan menempati posisi penjelasan dengan lisan. Maknanya adalah bahwa sinyal kode digital, data transaksi tertulis, dan instruksi terdokumentasi yang memancarkan kehendak para pihak berkonsekuensi melahirkan keabsahan akad dan keharusan mengikatnya akad sebagaimana halnya ucapan lisan, terlebih saat hal itu telah menjadi kebutuhan umum (*'umumul balwa*) dan tradisi yang berlaku (*'urf*).  
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Pertukaran data instruksi dari aplikasi Meta ke server peritel (Walmart/Expedia) melalui API dan protokol data digital tergolong dalam payung hukum *Al-Kitāb kal-Khithāb*. Pengiriman data digital otomatis diakui sebagai *shighat* akad yang sah dan mengikat.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Durar al-Hukkam 1/69)](https://app.turath.io/book/21692?page=1164#:~:text=%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%20%D9%83%D8%A7%D9%84%D8%AE%D8%B7%D8%A7%D8%A8%20%D9%88%D8%A7%D9%84%D8%A3%D8%B5%D9%84,%D8%A8%D9%85%D9%86%D8%B2%D9%84%D8%A9%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20%D8%A8%D8%A7%D9%84%D9%84%D8%B3%D8%A7%D9%86)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Durar al-Hukkam 1/69)](https://app.turath.io/book/21692?page=53#:~:text=%D8%A7%D9%84%D9%92%D9%83%D9%90%D8%AA%D9%8E%D8%A7%D8%A8%D9%8F%20%D9%83%D9%8E%D8%A7%D9%84%D9%92%D8%AE%D9%90%D8%B7%D9%8E%D8%A7%D8%A8%D9%90)
 
 5. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 36, Halaman 350 & Juz 45, Halaman 14–16)**  
    *Karya: Kementerian Wakaf & Urusan Keislaman Kuwait | Lapisan: Muqaranah Madzahib al-Arba'ah*  

@@ -143,7 +143,7 @@ export default function SettingsModal({
           <div className="p-3 rounded-xl bg-parchment-100/60 dark:bg-ink-800/40 border border-parchment-200 dark:border-ink-800 flex items-center justify-between text-[11px] text-ink-600 dark:text-ink-300">
             <span className="font-serif font-bold text-ink-800 dark:text-parchment-100">Bahtsu Klangopan</span>
             <span className="font-mono text-[10px] font-bold px-2 py-0.5 rounded-md bg-turath-emerald/10 text-turath-emerald dark:bg-emerald-950/60 dark:text-emerald-400 border border-turath-emerald/20 tracking-wider">
-              v2.5.7 · Otentik Turats
+              v2.5.8 · Otentik Turats
             </span>
           </div>
         </div>
