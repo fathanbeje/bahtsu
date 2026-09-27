@@ -77,7 +77,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 1. **Kitab: Al-Majmu' Syarah Al-Muhadzdzab (المجموع شرح المهذب) — (Juz 4, Hal. 361)**  
    *Karya: Al-Imam Abu Zakariya Yahya bin Syaraf An-Nawawi (Wafat: 676 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-   > أَكْثَرَ **<u>**【مِنْ ثَلَاثَةِ أَيَّامٍ قَالَ الشَّافِعِيُّ وَالْأَصْحَابُ إنْ نَوَى إقَامَةَ أَرْبَعَةِ أَيَّامٍ صَارَ مُقِيمًا】**</u>**
+   > أكثر **<u>**【من ثلاثة أيام قال الشافعي والأصحاب إن نوى إقامة أربعة أيام صار مقيما】**</u>**
 
    *Makna Murod / Terjemah:*  
    Lebih dari **<u>**【tiga hari, Imam Syafi'i dan para Ashhab (ulama Syafi'iyyah) berkata: Jika seseorang berniat menetap empat hari, maka ia menjadi mukim】**</u>**.
@@ -103,7 +103,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 3. **Kitab: Bahrul Madzhab li Ar-Ruyani (بحر المذهب للروياني) — (Juz 3, Hal. 508)**  
    *Karya: Al-Imam Abu Al-Mahasin Abdul Wahid Ar-Ruyani (Wafat: 502 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-   > يجوز ذلك. فَرْعٌ آخَرُ: قد ذكرنا في كتاب الصلاة ما قيل في كتاب الجمع بين الصلاتين بعرفة، وأن **<u>**【المقيمين بعرفة لا يجوز لهم القصر】**</u>**.
+   > يجوز ذلك. فرع آخر: قد ذكرنا في كتاب الصلاة ما قيل في كتاب الجمع بين الصلاتين بعرفة، وأن **<u>**【المقيمين بعرفة لا يجوز لهم القصر】**</u>**.
 
    *Makna Murod / Terjemah:*  
    Itu dibolehkan. Cabang masalah lain: Kami telah sebutkan dalam Kitab Shalat apa yang dikatakan mengenai menjamak dua shalat di Arafah, dan bahwa **<u>**【bagi yang mukim di Arafah tidak boleh meng-qashar shalat】**</u>**.
@@ -116,7 +116,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 4. **Kitab: Asna Al-Mathalib fi Syarhi Raudh Ath-Thalib (أسنى المطالب في شرح روض الطالب) — (Juz 2, Hal. 83)**  
    *Karya: Syaikhul Islam Zakariya Al-Anshari (Wafat: 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
 
-   > فَقَالَ وَإِذَا ثَبَتَ أَنَّهُ لَا يَتَرَخَّصُ فَلَا يَجُوزُ لَهُ **<u>**【الْقَصْرُ فِي الصَّلَاةِ】**</u>**، وَالْفِطْرُ فِي شَهْرِ رَمَضَانَ إِلَى آخِرِهِ، فَاسْتَفَدْنَا مِنْ كَلَامِهِ أَنَّ كُلَّ مَنْ لَا يَتَرَخَّصُ لَا يَقْصُرُ.
+   > فقال وإذا ثبت أنه لا يترخص فلا يجوز له **<u>**【القصر في الصلاة】**</u>**، والفطر في شهر رمضان إلى آخره، فاستفدنا من كلامه أن كل من لا يترخص لا يقصر.
 
    *Makna Murod / Terjemah:*  
    Ia berkata, "Dan jika telah tetap bahwa ia tidak mendapatkan *rukhshah*, maka **<u>**【tidak boleh baginya meng-qashar shalat】**</u>**, dan berbuka puasa di bulan Ramadhan..." Dari perkataannya ini kita mengambil faidah bahwa setiap orang yang tidak berhak atas rukhshah musafir maka tidak boleh meng-qashar shalat.
@@ -129,7 +129,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 5. **Kitab: At-Tanbih fil Fiqh Asy-Syafi'i (التنبيه في الفقه الشافعي) — (Juz 1, Hal. 41)**  
    *Karya: Al-Imam Abu Ishaq Asy-Syirazi (Wafat: 476 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-   > وَإِنْ لَمْ يَنْوِ **<u>**【الْقَصْرَ، أَوْ ائْتَمَّ بِمُقِيمٍ فِي جُزْءٍ مِنْ صَلَاتِهِ، أَوْ بِمَنْ لَا يَعْرِفُ أَنَّهُ مُسَافِرٌ أَوْ مُقِيمٌ؛ لَزِمَهُ أَنْ يُتِمَّ】**</u>**.
+   > وإن لم ينو **<u>**【القصر، أو ائتم بمقيم في جزء من صلاته، أو بمن لا يعرف أنه مسافر أو مقيم؛ لزمه أن يتم】**</u>**.
 
    *Makna Murod / Terjemah:*  
    Jika ia tidak berniat **<u>**【qashar, atau bermakmum kepada imam yang mukim dalam sebagian shalatnya, atau kepada orang yang tidak diketahui apakah ia musafir atau mukim; maka ia wajib menyempurnakan shalat (ittmam 4 rakaat)】**</u>**.
@@ -146,7 +146,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 6. **Kitab: Al-Hawi Al-Kabir (الحاوي الكبير) — (Juz 4, Hal. 169)**  
    *Karya: Al-Imam Abul Hasan Ali bin Muhammad Al-Mawardi (Wafat: 450 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-   > رِوَايَةُ ابْنِ عُمَرَ أَنَّ النَّبِيَّ - ﷺ َ - **<u>**【جَمَعَ بَيْنَ الظُّهْرِ وَالْعَصْرِ بِعَرَفَةَ بأذانٍ وَإِقَامَتَيْنِ】**</u>**
+   > رواية ابن عمر أن النبي - ﷺ  - **<u>**【جمع بين الظهر والعصر بعرفة بأذان وإقامتين】**</u>**
 
    *Makna Murod / Terjemah:*  
    Riwayat dari Ibnu Umar bahwa Nabi ﷺ **<u>**【menggabungkan shalat Dhuhur dan Ashar di Arafah dengan satu azan dan dua iqamah】**</u>**.
@@ -159,7 +159,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 7. **Kitab: Asna Al-Mathalib fi Syarhi Raudh Ath-Thalib (أسنى المطالب في شرح روض الطالب) — (Juz 2, Hal. 97)**  
    *Karya: Syaikhul Islam Zakariya Al-Anshari (Wafat: 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
 
-   > رَوَى التِّرْمِذِيُّ وَحَسَّنَهُ، وَالْبَيْهَقِيُّ وَصَحَّحَهُ. وَرَوَى مُسْلِمٌ عَنْ جَابِرٍ أَنَّهُ ﷺ "**<u>**【جَمَعَ بَيْنَ الظُّهْرِ وَالْعَصْرِ بِعَرَفَةَ فِي وَقْتِ الظُّهْرِ】**</u>**" وَرَوَى الشَّيْخَانِ.
+   > روى الترمذي وحسنه، والبيهقي وصححه. وروى مسلم عن جابر أنه ﷺ "**<u>**【جمع بين الظهر والعصر بعرفة في وقت الظهر】**</u>**" وروى الشيخان.
 
    *Makna Murod / Terjemah:*  
    At-Tirmidzi menghasankannya, dan Al-Baihaqi mensahihkannya. Dan Muslim meriwayatkan dari Jabir bahwa Nabi ﷺ **<u>**【menggabungkan antara Dhuhur dan Ashar di Arafah pada waktu Dhuhur (jamak taqdim)】**</u>**. Dan diriwayatkan pula oleh Asy-Syaikhani (Bukhari-Muslim)...
@@ -172,7 +172,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 8. **Kitab: Fiqhul Ibadat 'ala Madzhab Asy-Syafi'i (فقه العبادات على المذهب الشافعي) — (Juz 1, Hal. 450)**  
    *Karya: Dr. Durriyah Al-'Aithah | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Fiqih Kontemporer Muktabar*
 
-   > حَالَاتٌ يُفَضَّلُ فِيهَا الْقَصْرُ وَالْجَمْعُ: (١) **<u>**【حَالَةُ الْحَاجِّ الْمُسَافِرِ فِي مُزْدَلِفَةَ وَعَرَفَةَ】**</u>**، لِمَا رَوَى عَبْدُ اللَّهِ بْنُ عُمَرَ.
+   > حالات يفضل فيها القصر والجمع: (١) **<u>**【حالة الحاج المسافر في مزدلفة وعرفة】**</u>**، لما روى عبد الله بن عمر.
 
    *Makna Murod / Terjemah:*  
    Keadaan-keadaan yang dianjurkan padanya qashar dan jamak: (1) **<u>**【Keadaan haji yang musafir di Muzdalifah dan Arafah】**</u>**, berdasarkan apa yang diriwayatkan oleh Abdullah bin Umar.
@@ -185,7 +185,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
 9. **Kitab: Nihayatul Mathlab fi Dirayatil Madzhab (نهاية المطلب في دراية المذهب) — (Juz 2, Hal. 466)**  
    *Karya: Imamul Haramain Abu Al-Ma'ali Abdul Malik Al-Juwaini (Wafat: 478 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
 
-   > النُّسُكُ، فَعَلَى هَذَا **<u>**【يَجْمَعُ الْمَكِّيُّ، وَيَجْمَعُ الْعَرَفِيُّ بِعَرَفَةَ أَيْضًا】**</u>**، فَهَذَا تَفْصِيلُ الْقَوْلِ فِي السَّبَبِ الَّذِي يَقْتَضِي الْجَمْعَ فِي هَذَا الْفَنِّ.
+   > النسك، فعلى هذا **<u>**【يجمع المكي، ويجمع العرفي بعرفة أيضا】**</u>**، فهذا تفصيل القول في السبب الذي يقتضي الجمع في هذا الفن.
 
    *Makna Murod / Terjemah:*  
    ...karena faktor manasik haji (*nusuk*). Maka berdasarkan pendapat ini, **<u>**【penduduk Makkah menjamak, dan penduduk Arafah juga menjamak di Arafah】**</u>**. Inilah perincian pendapat tentang sebab yang membolehkan jamak dalam masalah ini.

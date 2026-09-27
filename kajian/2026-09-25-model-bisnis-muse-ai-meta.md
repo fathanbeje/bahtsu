@@ -95,7 +95,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 1. **Kitab Al-Majmu' Syarah Al-Muhadzdzab (Juz 9, Halaman 164–172)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Mutaqaddimin / Syarah Hadits-Fiqh*  
 
-   > فَرْعٌ فِي مَذَاهِبِ الْعُلَمَاءِ فِي انْعِقَادِ الْبَيْعِ بِالْمُعَاطَاةِ: ... وَاخْتَارَ جَمَاعَةٌ مِنْ أَئِمَّتِنَا الْمُحَقِّقِينَ انْعِقَادَهُ بِالْمُعَاطَاةِ <u>**【فِي كُلِّ مَا يَعُدُّهُ النَّاسُ بَيْعًا؛ لِأَنَّ الشَّارِعَ أَطْلَقَ الْبَيْعَ وَلَمْ يَثْبُتْ فِي الشَّرْعِ اشْتِرَاطُ لَفْظٍ، فَوَجَبَ الرُّجُوعُ إِلَى الْعُرْفِ كَغَيْرِهِ مِنَ الْأَلْفَاظِ، وَهَذَا هُوَ الرَّاجِحُ دَلِيلًا】**</u> وَهُوَ الَّذِي رَجَّحَهُ الْمُصَنِّفُ فِي الرَّوْضَةِ وَشَرْحِ صَحِيحِ مُسْلِمٍ، وَصَوَّبَهُ فِي التَّحْقِيقِ.  
+   > فرع في مذاهب العلماء في انعقاد البيع بالمعاطاة: ... واختار جماعة من أئمتنا المحققين انعقاده بالمعاطاة <u>**【في كل ما يعده الناس بيعا؛ لأن الشارع أطلق البيع ولم يثبت في الشرع اشتراط لفظ، فوجب الرجوع إلى العرف كغيره من الألفاظ، وهذا هو الراجح دليلا】**</u> وهو الذي رجحه المصنف في الروضة وشرح صحيح مسلم، وصوبه في التحقيق.  
 
    *Makna Murod / Terjemah:* Cabang hukum mengenai pendapat para ulama tentang keabsahan jual-beli secara mu'athah (tanpa lafazh lisan): Sekelompok imam peneliti dari kalangan madzhab kami memilih keabsahan transaksi mu'athah pada segala sesuatu yang dipandang oleh manusia (*'urf*) sebagai jual-beli. Hal ini karena syariat melisankan akad jual-beli secara mutlak dan tidak menetapkan syarat keharusan ucapan lafazh tertentu, sehingga wajib dikembalikan pada kebiasaan adat (*'urf*). Pendapat inilah yang paling unggul secara dalil, dan inilah yang dikuatkan oleh An-Nawawi dalam *Ar-Raudhah*, *Syarah Shahih Muslim*, serta *At-Tahqiq*.  
 
@@ -106,7 +106,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 2. **Kitab Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazhil Minhaj (Juz 2, Halaman 326–327)**  
    *Karya: Al-Khathib Asy-Syirbini (Wafat 977 H) | Lapisan: Kitab Induk Syaikhoni & Muta'akhirin*  
 
-   > وَلَوْ كَاتَبَ غَائِبًا بِبَيْعٍ أَوْ إِجَارَةٍ أَوْ أَرْسَلَ إِلَيْهِ رَسُولًا بِذَلِكَ <u>**【فَقَبِلَ عِنْدَ بُلُوغِ الْكِتَابِ أَوِ الرَّسُولِ انْعَقَدَ الْبَيْعُ؛ لِأَنَّ الْكِتَابَ كَالْخِطَابِ، وَالرَّسُولَ مُؤَدٍّ عَنِ الْمُرْسِلِ نَاقِلٌ لِكَلَامِهِ، فَلَا يُشْتَرَطُ فِيهِ مَا يُشْتَرَطُ فِي الْعَاقِدِ الْمُسْتَقِلِّ】**</u>.  
+   > ولو كاتب غائبا ببيع أو إجارة أو أرسل إليه رسولا بذلك <u>**【فقبل عند بلوغ الكتاب أو الرسول انعقد البيع؛ لأن الكتاب كالخطاب، والرسول مؤد عن المرسل ناقل لكلامه، فلا يشترط فيه ما يشترط في العاقد المستقل】**</u>.  
 
    *Makna Murod / Terjemah:* Sekiranya seseorang berkirim surat kepada pihak yang tidak berada di tempat (*gha'ib*) untuk menawarkan jual-beli atau sewa-menyewa, atau ia mengutus seorang utusan untuk menyampaikan maksud tersebut, lalu pihak yang dituju menerima akad tersebut saat sampainya surat atau utusan itu, maka perikatan akad sah terlaksana. Hal ini dikarenakan tulisan berkedudukan sama seperti ucapan langsung, dan utusan (*rasul*) hanyalah penyampai maksud dari pengirim serta penutur perkataannya, sehingga pada diri utusan tidak disyaratkan kualifikasi kecakapan sebagaimana disyaratkan pada pihak yang berakad secara mandiri.  
 
@@ -117,7 +117,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 3. **Kitab Fathul Mu'in bi Syarhi Qurratil 'Ain & Hasyiyah I'anatuth Thalibin (Juz 3, Halaman 101–103)**  
    *Karya: Zainuddin Al-Malibari & Sayyid Abu Bakar Syatha Ad-Dimyathi (Wafat 1310 H) | Lapisan: Kitab Hawasyi & Fatawa Muktamadah*  
 
-   > (تَصِحُّ وِكَالَةٌ فِي كُلِّ عَقْدٍ) وَفَسْخٍ عَلَيْهِ وِلَايَةٌ لِمُوَكِّلٍ ... (قَوْلُهُ: مِمَّا تَدْخُلُهُ النِّيَابَةُ) <u>**【أَيْ كَبَيْعٍ وَشِرَاءٍ وَإِجَارَةٍ، وَحَيْثُ أَمَرَهُ بِفِعْلٍ مَضْبُوطٍ تَعَيَّنَ عَلَيْهِ عَدَمُ مُجَاوَزَتِهِ، فَإِنْ خَالَفَهُ أَوْ زَادَ عَلَيْهِ كَانَ فُضُولِيًّا غَيْرَ نَافِذٍ فِي حَقِّ الآمِرِ】**</u> حَتَّى يُجِيزَهُ، وَتَبِعَةُ التَّعَدِّي وَالتَّفْرِيطِ تَقَعُ عَلَى مَنْ صَدَرَ مِنْهُ التَّعَدِّي.  
+   > (تصح وكالة في كل عقد) وفسخ عليه ولاية لموكل ... (قوله: مما تدخله النيابة) <u>**【أي كبيع وشراء وإجارة، وحيث أمره بفعل مضبوط تعين عليه عدم مجاوزته، فإن خالفه أو زاد عليه كان فضوليا غير نافذ في حق الآمر】**</u> حتى يجيزه، وتبعة التعدي والتفريط تقع على من صدر منه التعدي.  
 
    *Makna Murod / Terjemah:* Sah pendelegasian kuasa (*wakalah*) dalam setiap akad dan pembatalan akad yang berada di bawah kewenangan pemberi kuasa... yakni pada urusan yang dapat menerima perwakilan seperti jual-beli dan sewa-menyewa. Manakala pemberi kuasa telah memerintahkan perbuatan yang dibatasi batasannya secara terperinci, maka wajib bagi pelaksana untuk tidak melampaui batasan tersebut. Sekiranya ia melanggar atau menambah-nambahi instruksi, maka tindakannya menjadi akad fudhuli (tidak berlaku mengikat bagi pemberi kuasa) hingga disetujui, dan akibat hukum dari kelalaian atau pelanggaran jatuh kepada pihak yang melakukan pelanggaran tersebut.  
 
@@ -128,7 +128,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 4. **Kitab Al-Asybah wan Nazha'ir fi Qawa'id wa Furu' Fiqh Asy-Syafi'iyyah (Halaman 308) & Durar al-Hukkam Syarah Majallatil Ahkam (Juz 1, Halaman 69)**  
    *Karya: Al-Imam Jalaluddin As-Suyuthi (Wafat 911 H) & Ali Haidar | Lapisan: Kaidah Fiqhiyyah & Qanun Muamalah*  
 
-   > القَاعِدَةُ: <u>**【الكِتَابُ كَالخِطَابِ، وَالأَصْلُ أَنَّ البَيَانَ بِالكِتَابِ بِمَنْزِلَةِ البَيَانِ بِاللِّسَانِ】**</u>، وَمَعْنَاهَا أَنَّ الإِشَارَاتِ وَالكِتَابَاتِ المُنْضَبِطَةَ الصَّادِرَةَ عَنِ الإِرَادَةِ يَتَرَتَّبُ عَلَيْهَا مِنْ صِحَّةِ العُقُودِ وَلُزُومِهَا مَا يَتَرَتَّبُ عَلَى الأَلْفَاظِ الشَّفَهِيَّةِ عِنْدَ عُمُومِ البَلْوَى وَجَرَيَانِ العُرْفِ بِهَا.  
+   > القاعدة: <u>**【الكتاب كالخطاب، والأصل أن البيان بالكتاب بمنزلة البيان باللسان】**</u>، ومعناها أن الإشارات والكتابات المنضبطة الصادرة عن الإرادة يترتب عليها من صحة العقود ولزومها ما يترتب على الألفاظ الشفهية عند عموم البلوى وجريان العرف بها.  
 
    *Makna Murod / Terjemah:* Kaidah fiqih menetapkan: Tulisan/dokumen sama kedudukannya dengan ucapan langsung lisan, dan pada prinsipnya penjelasan melalui sarana tulisan menempati posisi penjelasan dengan lisan. Maknanya adalah bahwa sinyal kode digital, data transaksi tertulis, dan instruksi terdokumentasi yang memancarkan kehendak para pihak berkonsekuensi melahirkan keabsahan akad dan keharusan mengikatnya akad sebagaimana halnya ucapan lisan, terlebih saat hal itu telah menjadi kebutuhan umum (*'umumul balwa*) dan tradisi yang berlaku (*'urf*).  
 
@@ -139,7 +139,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 5. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 36, Halaman 350 & Juz 45, Halaman 14–16)**  
    *Karya: Kementerian Wakaf & Urusan Keislaman Kuwait | Lapisan: Muqaranah Madzahib al-Arba'ah*  
 
-   > الفَرْقُ بَيْنَ الوَكِيلِ وَالرَّسُولِ: <u>**【أَنَّ الرَّسُولَ مَحْضُ مُعَبِّرٍ عَنْ كَلَامِ المُرْسِلِ وَنَاقِلٍ لإِرَادَتِهِ، فَلَا يُضِيفُ العَقْدَ إِلَى نَفْسِهِ، بَلْ يُضَافُ العَقْدُ إِلَى المُرْسِلِ مُبَاشَرَةً، وَلَا يُشْتَرَطُ فِي الرَّسُولِ أَهْلِيَّةُ التَّعَاقُدِ كَالبُلُوغِ وَالعَقْلِ الكَامِلِ، حَتَّى يَصِحَّ كَوْنُهُ صَبِيًّا أَوْ آلَةً نَاقِلَةً】**</u>، بِخِلَافِ الوَكِيلِ الَّذِي يُنْشِئُ العَقْدَ بِعِبَارَةِ نَفْسِهِ فَيُشْتَرَطُ فِيهِ كَمَالُ الأَهْلِيَّةِ.  
+   > الفرق بين الوكيل والرسول: <u>**【أن الرسول محض معبر عن كلام المرسل وناقل لإرادته، فلا يضيف العقد إلى نفسه، بل يضاف العقد إلى المرسل مباشرة، ولا يشترط في الرسول أهلية التعاقد كالبلوغ والعقل الكامل، حتى يصح كونه صبيا أو آلة ناقلة】**</u>، بخلاف الوكيل الذي ينشئ العقد بعبارة نفسه فيشترط فيه كمال الأهلية.  
 
    *Makna Murod / Terjemah:* Perbedaan mendasar antara wakil dan rasul (utusan): Bahwa utusan semata-mata menjadi penerjemah/penutur atas perkataan pihak yang mengutusnya dan pemindah kehendaknya semata; ia tidak menyandarkan perikatan akad kepada dirinya sendiri, melainkan akad disandarkan secara langsung kepada pihak pengirim. Oleh karena itu, pada diri utusan tidak disyaratkan kelayakan berakad penuh seperti baligh dan berakal sempurna, sehingga sah perantara tersebut berupa anak kecil mumayyiz ataupun perkakas/alat transmisi data. Berbeda halnya dengan wakil yang menciptakan akad dengan lafazh kehendak dirinya sendiri, sehingga disyaratkan padanya kesempurnaan kecakapan hukum (*kamalul ahliyyah*).  
 
@@ -154,7 +154,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 1. **Shahih Al-Bukhari (Juz 3, Halaman 92, Kitab al-Ijarah, Bab Ajris Samsarah)**  
    *Karya: Al-Imam Abu Abdillah Muhammad bin Isma'il Al-Bukhari (Wafat 256 H) | Lapisan: Kitab Induk Mutaqaddimin / Hadits & Atsar Sahabat-Tabi'in*  
 
-   > بَابُ أَجْرِ السَّمْسَرَةِ: <u>**【وَلَمْ يَرَ ابْنُ سِيرِينَ وَعَطَاءٌ وَإِبْرَاهِيمُ وَالحَسَنُ بِأَجْرِ السِّمْسَارِ بَأْسًا، وَقَالَ ابْنُ عَبَّاسٍ: لَا بَأْسَ أَنْ يَقُولَ: بِعْ هَذَا الثَّوْبَ فَمَا زَادَ عَلَى كَذَا وَكَذَا فَهُوَ لَكَ】**</u>.  
+   > باب أجر السمسرة: <u>**【ولم ير ابن سيرين وعطاء وإبراهيم والحسن بأجر السمسار بأسا، وقال ابن عباس: لا بأس أن يقول: بع هذا الثوب فما زاد على كذا وكذا فهو لك】**</u>.  
 
    *Makna Murod / Terjemah:* Bab tentang upah makelar (samsarah): Ulama terkemuka tabi'in seperti Ibnu Sirin, 'Atha bin Abi Rabah, Ibrahim An-Nakha'i, dan Al-Hasan Al-Bashri berpendapat bahwa tidak ada keburukan (halal) mengambil upah makelar/perantara. Sahabat Abdullah bin Abbas radhiyallahu 'anhuma berkata: Tidak mengapa seseorang berkata: 'Jualkan baju ini, lalu apa pun kelebihan dari harga sekian maka menjadi bagian hakmu'.  
 
@@ -165,7 +165,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 2. **Kitab Rawdhatuth Thalibin wa 'Umdatul Muftin (Juz 3, Halaman 20 & Juz 4, Halaman 305)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Syaikhoni*  
 
-   > كِتَابُ الجِعَالَةِ: وَهِيَ جَائِزَةٌ بِالإِجْمَاعِ لِحَاجَةِ النَّاسِ إِلَيْهَا ... <u>**【وَتَصِحُّ الجِعَالَةُ عَلَى كُلِّ عَمَلٍ مَقْصُودٍ يَصِحُّ الاسْتِئْجَارُ عَلَيْهِ، أَوْ عَلَى عَمَلٍ فِيهِ كُلْفَةٌ مَجْهُولِ القَدْرِ كَرَدِّ ضَالَّةٍ وَدَلَالَةٍ عَلَى طَرِيقٍ أَوْ سِلْعَةٍ، إِذَا كَانَ العِوَضُ مَعْلُومًا】**</u>.  
+   > كتاب الجعالة: وهي جائزة بالإجماع لحاجة الناس إليها ... <u>**【وتصح الجعالة على كل عمل مقصود يصح الاستئجار عليه، أو على عمل فيه كلفة مجهول القدر كرد ضالة ودلالة على طريق أو سلعة، إذا كان العوض معلوما】**</u>.  
 
    *Makna Murod / Terjemah:* Kitab mengenai Ju'alah: Akad ju'alah berstatus boleh secara ijmak karena kebutuhan manusia terhadapnya... Dan sah akad ju'alah atas setiap amal usaha yang memiliki tujuan rasional yang sah untuk disewa, atau atas amal yang mengandung jerih payah namun belum terukur persis bebannya, seperti mengembalikan barang hilang, memberi penunjukan jalan, atau memandu/menunjukkan barang komoditas dagang, manakala kompensasi upahnya (*al-ju'lu*) diketahui jelas.  
 
@@ -176,7 +176,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 3. **Kitab Bughyatul Mustarsyidin fi Talkhisi Fatawa Ba'dhil A'immatil Muta'akhirin (Halaman 165–167)**  
    *Karya: Al-Allamah As-Sayyid Abdurrahman bin Muhammad Ba'alawi Al-Hadhrami (Wafat 1320 H) | Lapisan: Kitab Fatawa Muktamadah Nuusantara*  
 
-   > مَسْأَلَةٌ: أَعْطَى دَلَّالًا سِلْعَةً لِيَبِيعَهَا بِقَدْرٍ مَعْلُومٍ، أَوْ جَعَلَ لَهُ نِسْبَةً شَائِعَةً مِمَّا يَبِيعُهُ <u>**【صَحَّ ذَلِكَ وَكَانَ جِعَالَةً أَوْ إِجَارَةً جَائِزَةً، وَاسْتَحَقَّ الدَّلَّالُ الجُعْلَ المُسَمَّى عِنْدَ تَمَامِ البَيْعِ؛ لِأَنَّ الدَّلَالَةَ عَمَلٌ مُبَاحٌ مَقْصُودٌ تَرْتَبِطُ بِهِ مَصَالِحُ التِّجَارِ】**</u>، وَلَا فَرْقَ بَيْنَ أَنْ تَكُونَ الدَّلَالَةُ بِالمُبَاشَرَةِ أَوْ بِوَاسِطَةِ أَعْوَانِهِ وَأَسْبَابِهِ.  
+   > مسألة: أعطى دلالا سلعة ليبيعها بقدر معلوم، أو جعل له نسبة شائعة مما يبيعه <u>**【صح ذلك وكان جعالة أو إجارة جائزة، واستحق الدلال الجعل المسمى عند تمام البيع؛ لأن الدلالة عمل مباح مقصود ترتبط به مصالح التجار】**</u>، ولا فرق بين أن تكون الدلالة بالمباشرة أو بواسطة أعوانه وأسبابه.  
 
    *Makna Murod / Terjemah:* Masalah: Seseorang menyerahkan barang kepada seorang makelar (*dallal*) untuk dijualkan dengan harga tertentu, atau menjanjikan persentase komisi tertentu dari hasil penjualan, maka transaksi tersebut sah berstatus ju'alah atau ijarah yang diperbolehkan. Makelar tersebut berhak atas upah yang dijanjikan pada saat tuntasnya penjualan; karena jasa perantaraan (*dalālah*) merupakan amal mubah yang bernilai ekonomis dan terikat dengan hajat maslahat para pedagang. Tidak ada perbedaan apakah perantaraan tersebut dilakukan secara langsung dengan tangan sendiri ataukah melalui sarana instrumen para pembantu dan perantara teknisnya.  
 
@@ -187,7 +187,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 4. **Kitab Qawa'idul Ahkam fi Mashalihil Anam (Juz 2, Halaman 72)**  
    *Karya: Sultanul Ulama Al-Imam Al-'Izz bin Abdis Salam (Wafat 660 H) | Lapisan: Kaidah Fiqhiyyah & Ushul Syariah*  
 
-   > قَاعِدَةٌ فِي الجَزَاءِ عَلَى المَنَافِعِ وَالأَعْمَالِ: <u>**【كُلُّ مَنْ بَذَلَ مَنْفَعَةً مُبَاحَةً أَوْ تَسَبَّبَ فِي تَحْصِيلِ مَصْلَحَةٍ مَالِيَّةٍ مَشْرُوعَةٍ لِغَيْرِهِ بِإِذْنِهِ جَازَ لَهُ أَخْذُ العِوَضِ عَلَيْهَا شَرْعًا، وَلَا يُعَدُّ ذَلِكَ مِنْ بَابِ أَكْلِ أَمْوَالِ النَّاسِ بِالبَاطِلِ؛ لِأَنَّ الأَعْوَاضَ تَقُومُ فِي مُقَابَلَةِ الجُهُودِ وَالمَرَافِقِ المَبْذُولَةِ】**</u>.  
+   > قاعدة في الجزاء على المنافع والأعمال: <u>**【كل من بذل منفعة مباحة أو تسبب في تحصيل مصلحة مالية مشروعة لغيره بإذنه جاز له أخذ العوض عليها شرعا، ولا يعد ذلك من باب أكل أموال الناس بالباطل؛ لأن الأعواض تقوم في مقابلة الجهود والمرافق المبذولة】**</u>.  
 
    *Makna Murod / Terjemah:* Kaidah mengenai pemberian imbalan atas manfaat dan amal: Setiap pihak yang mencurahkan suatu manfaat mubah atau menjadi sebab tercapainya maslahat finansial yang dibenarkan syariat bagi pihak lain atas izinnya, maka halal baginya mengambil kompensasi imbalan (*'iwadh*) atas hal tersebut secara hukum syariat. Hal ini sama sekali tidak tergolong memakan harta sesama secara batil, karena imbalan tersebut berdiri tegak sebagai kompensasi atas usaha, infrastruktur, dan fasilitasi manfaat yang telah dicurahkan.  
 
@@ -198,7 +198,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 5. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 10, Halaman 152 & Juz 25, Halaman 137)**  
    *Karya: Kementerian Wakaf & Urusan Keislaman Kuwait | Lapisan: Muqaranah Madzahib al-Arba'ah*  
 
-   > عَقْدُ السَّمْسَرَةِ: <u>**【وَالسَّمْسَرَةُ اصْطِلَاحًا: هِيَ التَّوَسُّطُ بَيْنَ البَائِعِ وَالمُشْتَرِي لإِمْضَاءِ البَيْعِ، وَهُوَ المُسَمَّى الدَّلَّالَ؛ لِأَنَّهُ يَدُلُّ المُشْتَرِي عَلَى السِّلَعِ وَيَدُلُّ البَائِعَ عَلَى الأَثْمَانِ، وَقَدْ اتَّفَقَ فُقَهَاءُ المَذَاهِبِ الأَرْبَعَةِ عَلَى جَوَازِ أَخْذِ الأُجْرَةِ عَلَى السَّمْسَرَةِ إِمَّا بِطَرِيقِ الإِجَارَةِ أَوْ الجِعَالَةِ إِذَا كَانَتِ المَنْفَعَةُ مَعْلُومَةً وَالسِّلْعَةُ حَلَالًا】**</u>.  
+   > عقد السمسرة: <u>**【والسمسرة اصطلاحا: هي التوسط بين البائع والمشتري لإمضاء البيع، وهو المسمى الدلال؛ لأنه يدل المشتري على السلع ويدل البائع على الأثمان، وقد اتفق فقهاء المذاهب الأربعة على جواز أخذ الأجرة على السمسرة إما بطريق الإجارة أو الجعالة إذا كانت المنفعة معلومة والسلعة حلالا】**</u>.  
 
    *Makna Murod / Terjemah:* Akad Samsarah: Samsarah secara istilah adalah penengah antara penjual dan pembeli untuk melangsungkan jual-beli, dan pelakunya disebut makelar (*dallal*) karena ia memandu pembeli menemukan barang dagangan dan memandu penjual menemukan pembeli yang membayar harga. Ulama empat madzhab telah sepakat mengenai kebolehan mengambil upah atas jasa samsarah, baik melalui skema ijarah ataupun ju'alah, manakala manfaatnya jelas dan komoditas yang diperjualbelikan halal.  
 
@@ -213,7 +213,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 1. **Kitab Al-Majmu' Syarah Al-Muhadzdzab (Juz 14, Halaman 12–18)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Mutaqaddimin*  
 
-   > بَابُ الإِجَارَةِ: <u>**【وَهِيَ عَقْدٌ عَلَى مَنْفَعَةٍ مَعْلُومَةٍ مَقْصُودَةٍ قَابِلَةٍ لِلْبَذْلِ وَالإِبَاحَةِ بِعِوَضٍ مَعْلُومٍ، وَشَرْطُهَا القُدْرَةُ عَلَى تَسْلِيمِ المَنْفَعَةِ، وَأَنْ تَكُونَ المَنْفَعَةُ مَعْلُومَةً إِمَّا بِتَقْدِيرِ المُدَّةِ كَشَهْرٍ أَوْ سَنَةٍ، أَوْ بِتَقْدِيرِ العَمَلِ، فَيَصِحُّ العَقْدُ وَيَلْزَمُ بِتَسْلِيمِ العَيْنِ أَوْ تَمْكِينِ المُسْتَأْجِرِ مِنَ الاسْتِيفَاءِ】**</u>.  
+   > باب الإجارة: <u>**【وهي عقد على منفعة معلومة مقصودة قابلة للبذل والإباحة بعوض معلوم، وشرطها القدرة على تسليم المنفعة، وأن تكون المنفعة معلومة إما بتقدير المدة كشهر أو سنة، أو بتقدير العمل، فيصح العقد ويلزم بتسليم العين أو تمكين المستأجر من الاستيفاء】**</u>.  
 
    *Makna Murod / Terjemah:* Bab Ijarah: Ijarah adalah akad pemindahan hak atas suatu manfaat yang diketahui, berfaedah rasional, dapat diserahkan dan dibolehkan pemanfaatannya, dengan imbalan kompensasi yang diketahui. Syarat keabsahannya adalah adanya kemampuan untuk menyerahkan manfaat tersebut, serta manfaat tersebut terukur jelas baik dengan pembatasan durasi masa waktu seperti sebulan atau setahun, maupun dengan takaran kuantitas pekerjaan. Maka akad ijarah sah dan mengikat dengan diserahkannya instrumen atau dibukanya akses bagi penyewa untuk mengambil manfaat secara nyata.  
 
@@ -224,7 +224,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 2. **Kitab Tuhfatul Muhtaj bi Syarh al-Minhaj (Juz 6, Halaman 120–125)**  
    *Karya: Al-Imam Ibnu Hajar Al-Haitami (Wafat 974 H) | Lapisan: Kitab Induk Muta'akhirin / Rujukan Mu'tamad Fatwa Nusantara*  
 
-   > (وَشَرْطُ المَنْفَعَةِ كَوْنُهَا مَعْلُومَةً) عِلْمًا يَمْنَعُ النِّزَاعَ <u>**【إِمَّا بِالزَّمَانِ كَسُكْنَى دَارٍ سَنَةً، أَوْ بِالعَمَلِ كَرَكُوبِ دَابَّةٍ إِلَى مَحَلٍّ مَعْلُومٍ، أَوْ بِهِمَا مَعًا حَيْثُ لَا تَنَافِيَ، فَيَجُوزُ اشْتِرَاطُ قَدْرٍ مَخْصُوصٍ مِنَ الاسْتِعْمَالِ مَعَ حَصْرِهِ فِي أَجَلٍ مُعَيَّنٍ】**</u>، فَإِذَا اسْتَوْفَاهُ أَوْ مَضَتِ المُدَّةُ انْقَضَتِ الإِجَارَةُ.  
+   > (وشرط المنفعة كونها معلومة) علما يمنع النزاع <u>**【إما بالزمان كسكنى دار سنة، أو بالعمل كركوب دابة إلى محل معلوم، أو بهما معا حيث لا تنافي، فيجوز اشتراط قدر مخصوص من الاستعمال مع حصره في أجل معين】**</u>، فإذا استوفاه أو مضت المدة انقضت الإجارة.  
 
    *Makna Murod / Terjemah:* Dan disyaratkan pada manfaat sewa adanya kejelasan yang memutus sengketa, baik terukur melalui waktu seperti menyewa rumah selama setahun, maupun terukur dengan takaran pekerjaan seperti menunggangi hewan ke lokasi tertentu, atau penggabungan keduanya selama tidak saling kontradiktif. Maka diperbolehkan menetapkan batas kuota penggunaan tertentu yang dibatasi di dalam jangka waktu tertentu. Apabila kuota tersebut telah habis digunakan atau masa durasinya telah berakhir, maka berakhirlah masa sewa ijarah tersebut.  
 
@@ -235,7 +235,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 3. **Kitab Hasyiyah Qalyubi wa 'Umairah (Juz 3, Halaman 70–73)**  
    *Karya: Syihabuddin Al-Qalyubi & Syihabuddin Ahmad Al-'Umairah | Lapisan: Kitab Hawasyi Syafi'iyyah*  
 
-   > قَوْلُهُ: (بِلاَ عِوَضٍ) <u>**【فَإِنْ بَذَلَ المَالِكُ مَنْفَعَةَ عَيْنِهِ أَوْ مِلْكِهِ لِلنَّاسِ مَجَّانًا إِلَى حَدٍّ مَعْلُومٍ فَهُوَ إِبَاحَةٌ مَحْضَةٌ وَإِعَارَةٌ تَطَوُّعِيَّةٌ يَجُوزُ لَهُ الرُّجُوعُ فِيهَا مَتَى شَاءَ، وَلَهُ أَنْ يَشْتَرِطَ العِوَضَ فِيمَا زَادَ عَلَى ذَلِكَ الحَدِّ، فَيَنْقَلِبُ الزَّائِدُ إِجَارَةً صَحِيحَةً بِالتَّرَاضِي】**</u>.  
+   > قوله: (بلا عوض) <u>**【فإن بذل المالك منفعة عينه أو ملكه للناس مجانا إلى حد معلوم فهو إباحة محضة وإعارة تطوعية يجوز له الرجوع فيها متى شاء، وله أن يشترط العوض فيما زاد على ذلك الحد، فينقلب الزائد إجارة صحيحة بالتراضي】**</u>.  
 
    *Makna Murod / Terjemah:* Ungkapan: 'Tanpa imbalan pengganti': Manakala pemilik fasilitas mencurahkan manfaat aset atau kepemilikannya kepada khalayak secara cuma-cuma hingga batasan tertentu, maka statusnya adalah murni pemberian izin pemanfaatan (*ibāhah mahdhah*) dan peminjaman sukarela (*i'ārah tathawwu'iyyah*) yang boleh ia batalkan/tarik kembali kapan pun ia kehendaki. Dan ia berhak menetapkan kompensasi berbayar atas pemakaian yang melampaui batasan cuma-cuma tersebut, sehingga kelebihan pemakaian tersebut beralih menjadi akad ijarah yang sah atas dasar saling rela.  
 
@@ -246,7 +246,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 4. **Kaidah Fiqhiyyah: Al-Ghurmu bil Ghunmi & Al-Kharaj bidh Dhaman**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 136) & Hadits Riwayat Ahmad, Abu Dawud, At-Tirmidzi*  
 
-   > القَاعِدَةُ الفِقْهِيَّةُ: <u>**【الغُرْمُ بِالغُنْمِ، وَالخَرَاجُ بِالضَّمَانِ】**</u>، وَأَصْلُهَا أَنَّ مَنِ اسْتَفَادَ نَفْعَ شَيْءٍ وَتَمَتَّعَ بِمَزَايَاهُ تَحَمَّلَ مَا يَتَرَتَّبُ عَلَيْهِ مِنْ نَفَقَةٍ وَعِوَضٍ.  
+   > القاعدة الفقهية: <u>**【الغرم بالغنم، والخراج بالضمان】**</u>، وأصلها أن من استفاد نفع شيء وتمتع بمزاياه تحمل ما يترتب عليه من نفقة وعوض.  
 
    *Makna Murod / Terjemah:* Kaidah Fiqih: Beban biaya dan risiko sebanding dengan keuntungan yang diperoleh, dan hak memperoleh hasil pendapatan lahir dari kesiapan menanggung risiko kerugian. Prinsip dasarnya adalah barangsiapa yang menikmati manfaat suatu fasilitas dan memanfaatkan keunggulannya, maka sewajarnya ia memikul biaya pemeliharaan dan kompensasi imbalannya.  
 
@@ -257,7 +257,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 5. **Kitab Bada'i' ash-Shana'i' fi Tartibisy Syara'i' (Juz 4, Halaman 174)**  
    *Karya: Al-Imam Al-Kasani Al-Hanafi (Wafat 587 H) | Lapisan: Muqaranah Madzhab Hanafi*  
 
-   > كِتَابُ الإِجَارَةِ: <u>**【الإِجَارَةُ شُرِعَتْ لِحَاجَةِ النَّاسِ إِلَى المَنَافِعِ، إِذِ الإِنْسَانُ قَدْ يَحْتَاجُ إِلَى مَنْفَعَةِ عَيْنٍ لَا يَمْلِكُهَا، فَجُوِّزَ لَهُ شِرَاءُ المَنْفَعَةِ مَعَ بَقَاءِ الأَصْلِ لِمَالِكِهِ، وَالمَنَافِعُ تُقَدَّرُ بِمَا تَعَارَفَ عَلَيْهِ أَهْلُ الصِّنَاعَةِ وَالتِّجَارَةِ فِي كُلِّ عَصْرٍ】**</u>.  
+   > كتاب الإجارة: <u>**【الإجارة شرعت لحاجة الناس إلى المنافع، إذ الإنسان قد يحتاج إلى منفعة عين لا يملكها، فجوز له شراء المنفعة مع بقاء الأصل لمالكه، والمنافع تقدر بما تعارف عليه أهل الصناعة والتجارة في كل عصر】**</u>.  
 
    *Makna Murod / Terjemah:* Kitab Ijarah: Akad ijarah disyariatkan karena hajat kebutuhan manusia terhadap aneka ragam manfaat. Seringkali manusia membutuhkan manfaat dari suatu aset yang tidak ia miliki secara fisik, maka diperbolehkan baginya membeli manfaat tersebut sementara pokok aset tetap berada pada pemiliknya. Dan ukuran manfaat dinilai berdasarkan apa yang telah menjadi konvensi adat (*'urf*) para pelaku industri dan perniagaan pada setiap zaman.  
 
@@ -272,7 +272,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 1. **Kitab Al-Umm (Juz 3, Halaman 90–92)**  
    *Karya: Al-Imam Muhammad bin Idris Asy-Syafi'i (Wafat 204 H) | Lapisan: Kitab Induk Mutaqaddimin / Ushul Madzhab Syafi'i*  
 
-   > بَابُ الغِشِّ وَالتَّدْلِيسِ فِي البُيُوعِ: <u>**【نَهَى رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ عَنِ الغِشِّ وَعَنِ النَّجْشِ، وَكُلُّ مَا أَوْهَمَ المُشْتَرِيَ خِلَافَ الحَقِيقَةِ لِيَحْمِلَهُ عَلَى الشِّرَاءِ أَوْ لِيَزِيدَ فِي الثَّمَنِ فَهُوَ حَرَامٌ لَا يَحِلُّ، لِأَنَّهُ أَخْذُ مَالٍ بِغَيْرِ طِيبِ نَفْسٍ】**</u>، وَلِلْمُشْتَرِي الخِيَارُ إِذَا ظَهَرَ تَدْلِيسُ البَائِعِ أَوْ وَسِيطِهِ.  
+   > باب الغش والتدليس في البيوع: <u>**【نهى رسول الله صلى الله عليه وسلم عن الغش وعن النجش، وكل ما أوهم المشتري خلاف الحقيقة ليحمله على الشراء أو ليزيد في الثمن فهو حرام لا يحل، لأنه أخذ مال بغير طيب نفس】**</u>، وللمشتري الخيار إذا ظهر تدليس البائع أو وسيطه.  
 
    *Makna Murod / Terjemah:* Bab Penipuan dan Pemalsuan Informasi dalam Jual-Beli: Rasulullah shallallahu 'alaihi wasallam melarang keras penipuan (*ghisy*) dan praktik najasy (rekayasa permintaan semu). Segala tindakan yang memberikan ilusi atau kesan keliru kepada pembeli yang menyalahi hakikat kebenaran demi mendorongnya melakukan pembelian atau demi menaikkan harga, maka hukumnya haram tidak dihalalkan; karena hal itu termasuk memungut harta orang lain tanpa kerelaan hati yang tulus. Dan bagi pembeli berlaku hak opsi khiyar pembatalan manakala terbukti adanya manipulasi penipuan dari penjual ataupun pihak perantaranya.  
 
@@ -283,7 +283,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 2. **Kitab Nihayatul Muhtaj ila Syarhil Minhaj (Juz 3, Halaman 450–452)**  
    *Karya: Al-Imam Syamsuddin Muhammad bin Ahmad Ar-Ramli (Wafat 1004 H) | Lapisan: Kitab Induk Muta'akhirin*  
 
-   > (وَيَحْرُمُ النَّجْشُ) <u>**【وَهُوَ أَنْ يَزِيدَ فِي السِّلْعَةِ لَا لِرَغْبَةٍ فِيهَا بَلْ لِيَغُرَّ غَيْرَهُ فَيَقَعَ فِيهَا، أَوْ يُوهِمَهُ رَوَاجَهَا وَكَثْرَةَ طَلَبِهَا؛ لِأَنَّ فِيهِ إِضْرَارًا بِالمُسْلِمِ وَخِدَاعًا لَهُ، وَكَذَا كُلُّ حِيلَةٍ تَجْعَلُ الرَّدِيءَ فِي صُورَةِ الجَيِّدِ】**</u>، فَمَنْ فَعَلَ ذَلِكَ عَصَى وَصَحَّ البَيْعُ مَعَ الإِثْمِ وَثُبُوتِ الخِيَارِ لِلْمَغْبُونِ إِنْ بَلَغَ الغَبْنُ حَدًّا لَا يُتَسَامَحُ بِهِ.  
+   > (ويحرم النجش) <u>**【وهو أن يزيد في السلعة لا لرغبة فيها بل ليغر غيره فيقع فيها، أو يوهمه رواجها وكثرة طلبها؛ لأن فيه إضرارا بالمسلم وخداعا له، وكذا كل حيلة تجعل الرديء في صورة الجيد】**</u>، فمن فعل ذلك عصى وصح البيع مع الإثم وثبوت الخيار للمغبون إن بلغ الغبن حدا لا يتسامح به.  
 
    *Makna Murod / Terjemah:* Dan diharamkan praktik najasy: Yaitu menaikkan penawaran pada barang bukan karena minat membelinya, melainkan untuk memperdaya orang lain agar terjerumus membelinya, atau memberinya ilusi tentang larisnya barang dan tingginya permintaan pasar; karena perbuatan tersebut mengandung bahaya bagi seorang muslim dan muslihat tipu daya kepadanya. Demikian pula diharamkan setiap siasat manipulatif yang menampilkan barang buruk dalam kemasan seolah-olah barang unggulan. Barangsiapa melakukan hal itu maka ia bermaksiat, namun jual-belinya tetap sah dengan menanggung dosa, disertai tetapnya hak khiyar bagi pihak yang tertipu jika selisih penipuannya melampaui toleransi umum.  
 
@@ -294,7 +294,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 3. **Kitab Qawa'idul Ahkam fi Mashalihil Anam (Juz 1, Halaman 124–126)**  
    *Karya: Sultanul Ulama Al-'Izz bin Abdis Salam (Wafat 660 H) | Lapisan: Qawa'id Syari'ah & Maqashid*  
 
-   > فَصْلٌ فِي تَحْرِيمِ الخِيَانَةِ فِي الأَمَانَاتِ: <u>**【الأَمَانَاتُ كُلُّهَا يَجِبُ حِفْظُهَا وَيَحْرُمُ التَّفْرِيطُ فِيهَا وَالاسْتِيلَاءُ عَلَيْهَا بِغَيْرِ إِذْنِ أَرْبَابِهَا، وَيَدْخُلُ فِي ذَلِكَ الأَسْرَارُ وَالمَعْلُومَاتُ الخَاصَّةُ الَّتِي يُفْضِي بِهَا المَرْءُ إِلَى غَيْرِهِ بِحُكْمِ الحَاجَةِ وَالتَّعَامُلِ؛ فَإِنَّ إِفْشَاءَهَا أَوْ بَيْعَهَا دُونَ إِذْنِهِ ظُلْمٌ وَخِيَانَةٌ لِلْمُرُوءَةِ وَالشَّرْعِ】**</u>.  
+   > فصل في تحريم الخيانة في الأمانات: <u>**【الأمانات كلها يجب حفظها ويحرم التفريط فيها والاستيلاء عليها بغير إذن أربابها، ويدخل في ذلك الأسرار والمعلومات الخاصة التي يفضي بها المرء إلى غيره بحكم الحاجة والتعامل؛ فإن إفشاءها أو بيعها دون إذنه ظلم وخيانة للمروءة والشرع】**</u>.  
 
    *Makna Murod / Terjemah:* Fasal mengenai pengharaman khianat dalam amanah: Seluruh amanah wajib dijaga dan diharamkan meremehkannya serta menguasainya tanpa izin para pemiliknya. Masuk dalam cakupan amanah ini adalah rahasia pribadi dan data informasi khusus yang disampaikan seseorang kepada pihak lain karena dorongan kebutuhan interaksi dan muamalah; sesungguhnya membocorkan atau memperjualbelikan data rahasia tersebut tanpa izin pemiliknya merupakan kezaliman dan pengkhianatan terhadap etika peradaban dan syariat.  
 
@@ -305,7 +305,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 4. **Kaidah Fiqhiyyah Kubra: Ad-Dhararu Yuzalu & La Dharara wa La Dhirar**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 83) & Hadits Riwayat Ahmad, Ibnu Majah, Malik*  
 
-   > القَاعِدَةُ الكُبْرَى: <u>**【الضَّرَرُ يُزَالُ، وَلَا ضَرَرَ وَلَا ضِرَارَ، وَدَرْءُ المَفَاسِدِ مُقَدَّمٌ عَلَى جَلْبِ المَصَالِحِ】**</u>؛ وَمُقْتَضَاهَا مَنْعُ الشَّرِكَاتِ الكُبْرَى مِنِ احْتِكَارِ مَنَافِذِ التِّجَارَةِ الإِلِكْتُرُونِيَّةِ أَوْ فَرْضِ شُرُوطٍ مُجْحِفَةٍ بِأَهْلِ الأَسْوَاقِ لِمَا فِيهِ مِنْ قَطْعِ أَرْزَاقِ النَّاسِ وَإِلْحَاقِ الضَّرَرِ العَامِّ بِالأُمَّةِ.  
+   > القاعدة الكبرى: <u>**【الضرر يزال، ولا ضرر ولا ضرار، ودرء المفاسد مقدم على جلب المصالح】**</u>؛ ومقتضاها منع الشركات الكبرى من احتكار منافذ التجارة الإلكترونية أو فرض شروط مجحفة بأهل الأسواق لما فيه من قطع أرزاق الناس وإلحاق الضرر العام بالأمة.  
 
    *Makna Murod / Terjemah:* Kaidah Fiqih Utama: Segala kemudaratan harus dihilangkan, tidak boleh memunculkan bahaya baru dan tidak boleh membalas bahaya dengan bahaya, serta menolak kerusakan harus didahulukan daripada mengejar kemaslahatan. Konsekuensi kaidah ini menuntut pencegahan perusahaan teknologi raksasa dari memonopoli pintu-pintu gerbang perdagangan elektronik atau memaksakan syarat sepihak yang mencekik pelaku pasar, karena hal itu memotong mata pencaharian khalayak dan menimbulkan kemudaratan publik (*dharar 'amm*) bagi umat.  
 
@@ -316,7 +316,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 5. **Resolusi Majma' Al-Fiqh Al-Islami Ad-Duwali (Organisasi Kerjasama Islam / OKI)**  
    *Rujukan: Keputusan No. 52 (6/2) tentang Transaksi Elektronik & Piagam Etika Kecerdasan Buatan Islam*  
 
-   > قَرَارُ مَجْمَعِ الفِقْهِ الإِسْلَامِيِّ الدَّوْلِيِّ: <u>**【إِنَّ التَّعَاقُدَ عَبْرَ شَبَكَاتِ المَعْلُومَاتِ وَالوَسَائِلِ الآلِيَّةِ يُعْتَبَرُ تَعَاقُدًا بَيْنَ حَاضِرَيْنِ حُكْمًا مِنْ حَيْثُ الزَّمَانُ، وَبَيْنَ غَائِبَيْنِ مِنْ حَيْثُ المَكَانُ، وَتَقُومُ الوَسَائِلُ البَرْمَجِيَّةُ وَالذَّكَاءُ الاصْطِنَاعِيُّ مَقَامَ الآلَاتِ المُنَفِّذَةِ لإِرَادَةِ العَاقِدِينَ، وَتَخْضَعُ لِأَحْكَامِ الشَّرِيعَةِ فِي لُزُومِ التَّرَاضِي وَانْتِفَاءِ الغَرَرِ وَحِمَايَةِ الخُصُوصِيَّةِ】**</u>.  
+   > قرار مجمع الفقه الإسلامي الدولي: <u>**【إن التعاقد عبر شبكات المعلومات والوسائل الآلية يعتبر تعاقدا بين حاضرين حكما من حيث الزمان، وبين غائبين من حيث المكان، وتقوم الوسائل البرمجية والذكاء الاصطناعي مقام الآلات المنفذة لإرادة العاقدين، وتخضع لأحكام الشريعة في لزوم التراضي وانتفاء الغرر وحماية الخصوصية】**</u>.  
 
    *Makna Murod / Terjemah:* Keputusan Lembaga Fiqih Islam Internasional: Sesungguhnya transaksi perikatan melalui jaringan informasi dan sarana otomatis diakui sebagai perikatan antara dua pihak yang hadir secara hukum dari aspek waktu, dan antara dua pihak yang berjauhan dari aspek tempat. Sarana perangkat lunak algoritma dan kecerdasan buatan menempati posisi perkakas teknis yang mengeksekusi kehendak para pihak yang berakad, serta tunduk sepenuhnya pada ketetapan hukum syariat dalam hal keharusan adanya saling rela, terbebas dari tipu daya/ketidakpastian (*gharar*), dan perlindungan hak privasi.  
 

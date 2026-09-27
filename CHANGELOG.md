@@ -4,6 +4,42 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.7] - 2026-09-27
+
+### 📖 Otentisitas Teks Turats & Penyingkiran Harakat Buatan
+- **Penyesuaian Metodologi Verifikasi Maraji' Turath.io:**
+  - Mengoreksi ketentuan terdahulu yang mewajibkan *"seluruh kutipan teks kitab wajib Bahasa Arab berharakat"*. Aturan tersebut terbukti memicu kegagalan fitur *Scroll-to-Text-Fragment* W3C (`#:~:text=...`) pada peramban karena basis data Turath.io (`app.turath.io`) mayoritas berupa teks gundul (*unvowelled*), sehingga perbedaan karakter diakritik menggagalkan penyorotan teks otomatis ke *mahallus syahid*.
+  - Menetapkan aturan otentik resmi pada `SKILL.md` (lokal repositori dan global) serta direktif prompt sistem `web/server.js`: *Kutipan teks ibarat Arab WAJIB mengikuti keaslian sumber Turath.io apa adanya (gundul jika di Turath.io gundul, berharakat jika memiliki harakat asli; dilarang keras menambahkan harakat buatan).*
+- **Peningkatan Utilitas Linter (`scripts/turath_linter.js`):**
+  - Mengimplementasikan fungsi `calculateHarakatDensity(text)` untuk mengukur rasio tanda baca harakat/tanwin/tasydid (`[\u064B-\u065F\u0670\u06D6-\u06ED]`) terhadap huruf dasar hijaiyah.
+  - Menambahkan deteksi pelanggaran `ARTIFICIAL_HARAKAT` (densitas naskah > 0.15 berbanding teks asli Turath < 0.08).
+  - Mengembangkan modul pembersihan otomatis pada opsi `--fix` yang mengeliminasi harakat buatan pada kutipan ibarat di berkas `.md` dengan tetap menjaga keutuhan penanda sorotan `<u>**【...】**</u>` dan format tanda baca.
+- **Audit & Penyelarasan Penuh 14 Berkas Kajian (121/121 Rujukan 100% Valid):**
+  - Menyinkronkan seluruh berkas kajian di direktori `kajian/` ke teks otentik Turath.io.
+  - Memastikan 100% dari 121 rujukan di 14 berkas kajian lolos pengujian linter dan *pre-push hook* tanpa anomali.
+- **Pembaruan Visual Aplikasi Web Bahtsu Klangopan (`v2.5.7`):**
+  - Menambahkan lencana versi interaktif `v2.5.7` di bilah atas (`Header.jsx`) baik pada tampilan desktop maupun seluler.
+  - Memperbarui informasi versi pada modal pengaturan (`SettingsModal.jsx`) dan manifest aplikasi (`package.json`).
+  - Sinkronisasi menyeluruh cabang repositori publik (`fathanbeje/bahtsu`) dan privat (`fathanbeje/bahtsu-app`) serta rilis ulang (*re-deploy*) ke server produksi VPS.
+
+---
+
+## [2.5.6] - 2026-09-27
+
+### 🛡️ Zero English Policy & Anti-Thinking Leak Architecture
+- **Pencegahan Kebocoran Penalaran (CoT Thinking Leakage):**
+  - Mengimplementasikan modul sanitasi `web/src/utils/thinkingHelper.js` (`extractThoughts`, `stripThinkingTags`) dengan regex multi-blok global (`/gi`) untuk mengisolasi penalaran model agen ke dalam panel kolapsibel *"Nalar Ushul & Istinbath AI"* dan mencegahnya bocor ke badan draf naskah.
+  - Memperbaiki pengalihan teks pada tombol *"Ekstrak ke Taswīdah"* (`ChatPane.jsx`), fungsi salin Word / teks biasa, pengunduhan `.md` (`TaswidahDock.jsx`), dan pembaca arsip (`KajianArchivePage.jsx`) agar senantiasa bersih dari tag `<think>`.
+  - Membersihkan 83 baris penalaran internal bahasa Inggris pada naskah kajian `kajian/2026-09-27-status-hukum-pemisahan-harta-bawaan-yang-bercampur.md`.
+- **Penegakan Metodologi Bahasa 100% Bahasa Indonesia & Arab Turats:**
+  - Menetapkan **Pasal 7: Larangan Mutlak Bahasa Inggris (Zero English Policy)** pada `SKILL.md` (lokal dan global), serta menyuntikkan `languageDirective` pada `getSystemPrompt` di `web/server.js`: model AI diharamkan menalar atau merumuskan dalam bahasa Inggris.
+- **Standarisasi Auto-Linter Pra-Commit Backend (`POST /api/kajian/save`):**
+  - Menyematkan pemanggilan otomatis `scripts/turath_linter.js <file> --fix` saat pengguna menyimpan naskah kajian dari studio, sehingga tautan verifikasi Turath.io dan text fragment W3C otomatis diperbaiki sebelum di-commit dan di-push ke GitHub.
+- **Audit Komprehensif Seluruh Repositori Kajian:**
+  - Melakukan auto-fix pada seluruh berkas kajian: 121 dari 121 rujukan (100%) di 14 berkas kajian kini terverifikasi valid dan presisi menuju mahallus syahid di Turath.io (0 errors, 0 warnings).
+
+---
+
 ## [2.5.5] - 2026-09-27
 
 ### 🔄 On-Demand GitHub Repository Synchronization
@@ -139,6 +175,10 @@ Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelo
 - **Pembersihan Duplikasi & Teks `\n` Mentah:** Menghapus duplikasi sub-bab pada naskah Shalat Arafah serta membersihkan string literal `\n\n` pada naskah Wasiat Haul.
 
 ### 📚 New Studies & Materials
+- **Keabsahan Shalat Berjamaah Bersama Anak Kecil dan Perolehan Fadhilah Jamaah Ketika Istri Berhalangan (Kajian Komparatif Empat Madzhab) (`kajian/2026-09-27-keabsahan-shalat-berjamaah-bersama-anak-kecil-dan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
+- **Status Hukum Pemisahan Harta Bawaan yang Bercampur Baur (Commingled Property) dan Hak Ahli Waris Pasca Perceraian atau Kematian (`kajian/2026-09-27-status-hukum-pemisahan-harta-bawaan-yang-bercampur.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
+- **Keabsahan Shalat Berjamaah Bersama Anak Kecil dan Perolehan Fadhilah Jamaah Ketika Istri Berhalangan (Kajian Komparatif Empat Madzhab) (`kajian/2026-09-27-keabsahan-shalat-berjamaah-bersama-anak-kecil-dan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
+- **Hukum Meletakkan Batu Kerikil di Atas Makam dan Faedahnya bagi Jenazah (`kajian/2026-09-27-hukum-meletakkan-batu-kerikil-di-atas-makam.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Validasi Auto Push Bot Repositori Privat (`kajian/2026-09-27-validasi-auto-push-bot.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Uji Coba Sinkronisasi Repositori Privat (`kajian/2026-09-27-uji-coba-repositori-privat.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot. (Kajian Bahtsul Masail)
 - **Hukum Asuransi BPJS Kesehatan (`kajian/2026-09-26-hukum-asuransi-bpjs-kesehatan.md`):** Telaah fiqih muamalah dan siyasah syar'iyyah mengenai akad tabarru' jaminan sosial nasional, keabsahan kewajiban iuran oleh pemerintah, serta ketiadaan riba dan gharar terlarang.

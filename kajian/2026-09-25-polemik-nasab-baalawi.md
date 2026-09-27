@@ -92,7 +92,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 1. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 26, Halaman 235)**  
    *Karya: Kementerian Wakaf & Urusan Keislaman Kuwait | Lapisan: Muqaranah Madzahib al-Arba'ah & Ijma' Ulama*  
 
-   > أَمَّا بَقِيَّةُ الأَئِمَّةِ <u>**【فَقَدْ أَجْمَعُوا عَلَى صِحَّةِ شَهَادَةِ التَّسَامُعِ فِي النَّسَبِ وَالوِلَادَةِ لِلضَّرُورَةِ، قَالَ ابْنُ المُنْذِرِ: أَمَّا النَّسَبُ، فَلَا أَعْلَمُ أَحَدًا مِنْ أَهْلِ العِلْمِ مَنَعَ مِنْهُ، وَلَوْ مُنِعَ ذَلِكَ لَاسْتَحَالَتْ مَعْرِفَةُ الشَّهَادَةِ بِهِ، إِذْ لَا سَبِيلَ إِلَى مَعْرِفَتِهِ قَطْعًا بِغَيْرِهِ وَلَا تُمْكِنُ المُشَاهَدَةُ فِيهِ، وَلَوِ اعْتُبِرَتِ المُشَاهَدَةُ لَمَا عَرَفَ أَحَدٌ أَبَاهُ وَلَا أُمَّهُ وَلَا أَحَدًا مِنْ أَقَارِبِهِ؛ فَلَوْ لَمْ تُقْبَلْ فِيهَا الشَّهَادَةُ بِالتَّسَامُعِ لَأَدَّى ذَلِكَ إِلَى الحَرَجِ وَالمَشَقَّةِ، وَتَعْطِيلِ الأَحْكَامِ وَضَيَاعِ الحُقُوقِ】**</u>.  
+   > أما بقية الأئمة <u>**【فقد أجمعوا على صحة شهادة التسامع في النسب والولادة للضرورة، قال ابن المنذر: أما النسب، فلا أعلم أحدا من أهل العلم منع منه، ولو منع ذلك لاستحالت معرفة الشهادة به، إذ لا سبيل إلى معرفته قطعا بغيره ولا تمكن المشاهدة فيه، ولو اعتبرت المشاهدة لما عرف أحد أباه ولا أمه ولا أحدا من أقاربه؛ فلو لم تقبل فيها الشهادة بالتسامع لأدى ذلك إلى الحرج والمشقة، وتعطيل الأحكام وضياع الحقوق】**</u>.  
 
    *Makna Murod / Terjemah:* Adapun seluruh imam madzhab lainnya, maka sungguh mereka telah berijmak (berkonsensus) atas keabsahan persaksian berbasis kabar kemasyhuran (*tasāmu' / istifādhah*) dalam masalah nasab dan kelahiran karena faktor kedaruratan. Al-Imam Ibnul Mundzir berkata: 'Adapun perihal nasab, aku tidak mengetahui seorang pun dari kalangan ulama yang melarang persaksian melalui istifadhah. Sekiranya hal itu dilarang, tentu mustahil bagi siapa pun mengetahui dan bersaksi atas suatu nasab, karena tidak ada jalan untuk mengetahuinya secara pasti selain melalui kabar yang beredar dan mustahil menyaksikan kelahiran secara langsung. Sekiranya menyaksikan sendiri disyaratkan, niscaya tidak ada seorang manusia pun yang dapat mengenali ayahnya, ibunya, dan sanak kerabatnya. Maka sekiranya persaksian tasamu'/istifadhah tidak diterima, niscaya hal itu akan menimbulkan kesulitan luar biasa, kesempitan ekstrem, lumpuhnya hukum-hukum syariat, dan lenyapnya hak-hak nasab'.  
 
@@ -103,7 +103,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 2. **Kitab Nihayatul Mathlab fi Dirayatil Madzhab (Juz 18, Halaman 608)**  
    *Karya: Imamul Haramain Abu Al-Ma'ali Abdul Malik Al-Juwaini (Wafat 478 H) | Lapisan: Kitab Induk Mutaqaddimin Madzhab Syafi'i*  
 
-   > كِتَابُ الشَّهَادَاتِ: بَابُ الشَّهَادَةِ بِالتَّسَامُعِ: <u>**【فَقَالُوا: النَّسَبُ وَالمَوْتُ وَالمِلْكُ المُطْلَقُ تَجُوزُ الشَّهَادَةُ عَلَيْهَا بِتَسَامُعِ الأَخْبَارِ وَاسْتِفَاضَتِهَا؛ لِأَنَّ هَذِهِ الأُمُورَ تَمْتَدُّ أَوْقَاتُهَا وَتَتَقَادَمُ عُهُودُهَا فَيَتَعَذَّرُ نَصْبُ الشُّهُودِ المُرَاقِبِينَ لِأَصْلِ الوِلَادَةِ، فَاكْتَفَى الشَّرْعُ بِالشُّهْرَةِ الظَّاهِرَةِ المُنْقَطِعِ فِيهَا النِّزَاعُ】**</u>.  
+   > كتاب الشهادات: باب الشهادة بالتسامع: <u>**【فقالوا: النسب والموت والملك المطلق تجوز الشهادة عليها بتسامع الأخبار واستفاضتها؛ لأن هذه الأمور تمتد أوقاتها وتتقادم عهودها فيتعذر نصب الشهود المراقبين لأصل الولادة، فاكتفى الشرع بالشهرة الظاهرة المنقطع فيها النزاع】**</u>.  
 
    *Makna Murod / Terjemah:* Kitab Kesaksian: Bab Persaksian dengan Berita Kemasyhuran: Para ulama menegaskan: 'Perkara nasab, kematian, dan kepemilikan mutlak diperbolehkan persaksian atasnya berdasarkan kabar yang didengar secara turun-temurun dan kemasyhuran yang meluas (*istifādhah*); karena perkara-perkara ini rentang waktunya memanjang dan masa peristiwanya telah berlangsung lampau, sehingga mustahil menghadirkan saksi mata yang mengawasi prosesi awal kelahiran. Oleh karenanya, syariat mencukupkan dengan kemasyhuran nyata yang tidak pernah diperselisihkan pada masanya'.  
 
@@ -114,7 +114,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 3. **Kitab Al-Mahshul fi 'Ilmi Ushulil Fiqh (Juz 2, Halaman 351)**  
    *Karya: Al-Imam Fakhruddin Muhammad bin Umar Ar-Razi (Wafat 606 H) | Lapisan: Kitab Induk Ushul Fiqh*  
 
-   > المَسْأَلَةُ فِي الاسْتِدْلَالِ بِعَدَمِ الوِجْدَانِ: <u>**【قُلْنَا: عَدَمُ الوِجْدَانِ لَا يَدُلُّ عَلَى عَدَمِ الوُجُودِ؛ لِأَنَّ مَنْ بَحَثَ عَنْ شَيْءٍ فِي مَظَانِّهِ فَلَمْ يَجِدْهُ جَازَ أَنْ يَكُونَ مَوْجُودًا فِي غَيْرِ ذَلِكَ المَوْضِعِ، أَوْ كَانَ مَوْجُودًا فِيهِ وَلَكِنْ لَمْ يَقِفْ عَلَيْهِ النَّاظِرُ، فَكَيْفَ يُجْعَلُ عَدَمُ الظَّفَرِ دَلِيلًا عَلَى الانْتِفَاءِ القَاطِعِ؟ هَذَا بَاطِلٌ عَقْلًا وَأُصُولًا】**</u>.  
+   > المسألة في الاستدلال بعدم الوجدان: <u>**【قلنا: عدم الوجدان لا يدل على عدم الوجود؛ لأن من بحث عن شيء في مظانه فلم يجده جاز أن يكون موجودا في غير ذلك الموضع، أو كان موجودا فيه ولكن لم يقف عليه الناظر، فكيف يجعل عدم الظفر دليلا على الانتفاء القاطع؟ هذا باطل عقلا وأصولا】**</u>.  
 
    *Makna Murod / Terjemah:* Masalah mengenai pendalilan dengan ketiadaan penemuan catatan: Kami tegaskan: 'Ketiadaan menemukan catatan tidak menunjukkan ketiadaan realitas eksistensi fisik; karena orang yang mencari sesuatu di tempat-tempat dugaannya lalu ia tidak menemukannya, sangat mungkin sesuatu itu sebenarnya ada di tempat lain, atau sesuatu itu sebenarnya ada di tempat tersebut namun luput dari penelusuran orang yang mencarinya. Maka bagaimana mungkin ketiadaan menemukan dijadikan sebagai dalil untuk penafian yang pasti? Pendalilan semacam ini batil secara logika akal maupun kaidah ushul!'  
 
@@ -125,7 +125,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 4. **Kitab Fathul Qarib Al-Mujib & Hasyiyah Al-Bujairimi 'alal Khatib (Juz 4, Halaman 443)**  
    *Karya: Al-Ghazi & Sulaiman Al-Bujairimi (Wafat 1221 H) | Lapisan: Kitab Syarah & Hawasyi Madzhab Syafi'i*  
 
-   > قَوْلُهُ: (وَتَجُوزُ الشَّهَادَةُ بِالاسْتِفَاضَةِ) <u>**【أَيْ بِأَنْ يَسْمَعَ مِنْ جَمْعٍ يَؤُولُ إِلَى الشُّهْرَةِ، وَيَثْبُتُ النَّسَبُ بِالاسْتِفَاضَةِ إِجْمَاعًا سَوَاءٌ اتَّصَلَ بِالأَبِ أَوِ الأُمِّ، وَلَا يُشْتَرَطُ أَنْ يُعَايِنَ الشَّاهِدُ الوِلَادَةَ وَلَا أَنْ يَطَّلِعَ عَلَى كُتُبِ النَّسَّابِينَ، بَلِ العُمْدَةُ شُهْرَةُ انْتِسَابِ القَبِيلَةِ أَوْ الشَّخْصِ فِي بَلَدِهِ مِنْ غَيْرِ مُنَازِعٍ】**</u>.  
+   > قوله: (وتجوز الشهادة بالاستفاضة) <u>**【أي بأن يسمع من جمع يؤول إلى الشهرة، ويثبت النسب بالاستفاضة إجماعا سواء اتصل بالأب أو الأم، ولا يشترط أن يعاين الشاهد الولادة ولا أن يطلع على كتب النسابين، بل العمدة شهرة انتساب القبيلة أو الشخص في بلده من غير منازع】**</u>.  
 
    *Makna Murod / Terjemah:* Ungkapan: 'Dan diperbolehkan persaksian melalui istifadhah': Yaitu dengan cara mendengar dari khalayak ramai yang bermuara pada kemasyhuran. Dan nasab sah ditetapkan dengan istifadhah berdasarkan ijmak, baik bersambung melalui jalur ayah maupun ibu. Tidak disyaratkan bagi saksi melihat langsung peristiwa kelahiran dan tidak disyaratkan pula memeriksa buku-buku pakar nasab; melainkan yang menjadi sandaran utama adalah kemasyhuran keterikatan nasab kabilah atau personal di negerinya tanpa ada pihak yang menggugat/menentang.  
 
@@ -136,7 +136,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 5. **Kaidah Ushul Fiqh: Al-Mutsbit Muqaddamun 'alan Nafi**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 58) & Al-Mutlaq wal Muqayyad (Juz 1, Halaman 343)*  
 
-   > القَاعِدَةُ الأُصُولِيَّةُ: <u>**【المُثْبِتُ مُقَدَّمٌ عَلَى النَّافِي؛ لِأَنَّ المُثْبِتَ مَعَهُ زِيَادَةُ عِلْمٍ لَمْ يَطَّلِعْ عَلَيْهَا النَّافِي، وَالنَّافِي يَبْنِي عَلَى عَدَمِ العِلْمِ، وَعَدَمُ العِلْمِ لَيْسَ عِلْمًا بِالعَدَمِ】**</u>.  
+   > القاعدة الأصولية: <u>**【المثبت مقدم على النافي؛ لأن المثبت معه زيادة علم لم يطلع عليها النافي، والنافي يبني على عدم العلم، وعدم العلم ليس علما بالعدم】**</u>.  
 
    *Makna Murod / Terjemah:* Kaidah Ushul: Pihak yang menetapkan bukti didahulukan daripada pihak yang menafikan; karena pihak yang menetapkan membawa tambahan ilmu yang tidak diketahui oleh pihak yang menafikan. Sedangkan pihak yang menafikan hanya berpijak pada ketidaktahuan (*'adamu al-'ilmi*), padahal ketidaktahuan akan sesuatu bukanlah bukti tentang ketiadaan sesuatu itu (*'adamu al-'ilmi laisa 'ilman bil-'adami*).  
 
@@ -151,7 +151,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 1. **Shahih Muslim (Kitab al-Iman, Bab Ithlaqi Ismil Kufri 'alat Tha'ni fin Nasab, Hadits No. 67)**  
    *Karya: Al-Imam Muslim bin Al-Hajjaj An-Naisaburi (Wafat 261 H) | Lapisan: Kitab Hadits Induk*  
 
-   > عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: <u>**【اثْنَتَانِ فِي النَّاسِ هُمَا بِهِمْ كُفْرٌ: الطَّعْنُ فِي النَّسَبِ، وَالنِّيَاحَةُ عَلَى المَيِّتِ】**</u>.  
+   > عن أبي هريرة رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: <u>**【اثنتان في الناس هما بهم كفر: الطعن في النسب، والنياحة على الميت】**</u>.  
 
    *Makna Murod / Terjemah:* Dari Abu Hurairah radhiyallahu 'anhu, ia berkata: Rasulullah shallallahu 'alaihi wasallam bersabda: 'Dua perkara pada manusia yang keduanya merupakan tabiat kekufuran: mencela/menafikan garis nasab, dan meratapi mayit secara histeris'.  
 
@@ -162,7 +162,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 2. **Kitab Syarah An-Nawawi 'ala Shahih Muslim (Juz 2, Halaman 57)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Syarah Hadits Madzhab Syafi'i*  
 
-   > قَوْلُهُ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: (الطَّعْنُ فِي النَّسَبِ): <u>**【مَعْنَاهُ القَدْحُ فِيهِ وَعَيْبُهُ وَنَفْيُ الإِنْسَانِ عَنْ نَسَبِهِ الثَّابِتِ ظَاهِرًا، وَهُوَ مَحْمُولٌ عَلَى مَا إِذَا فَعَلَهُ اسْتِحْلَالًا مَعَ عِلْمِهِ بِتَحْرِيمِهِ فَهُوَ كُفْرٌ مُخْرِجٌ عَنِ المِلَّةِ، أَوْ أَنَّهُ مِنْ أَفْعَالِ الجَاهِلِيَّةِ وَأَخْلَاقِ الكُفَّارِ، فَهُوَ كَبِيرَةٌ وَفِسْقٌ قَبِيحٌ يَجِبُ الزَّجْرُ عَنْهُ】**</u>.  
+   > قوله صلى الله عليه وسلم: (الطعن في النسب): <u>**【معناه القدح فيه وعيبه ونفي الإنسان عن نسبه الثابت ظاهرا، وهو محمول على ما إذا فعله استحلالا مع علمه بتحريمه فهو كفر مخرج عن الملة، أو أنه من أفعال الجاهلية وأخلاق الكفار، فهو كبيرة وفسق قبيح يجب الزجر عنه】**</u>.  
 
    *Makna Murod / Terjemah:* Sabda Nabi SAW mengenai 'mencela nasab': Maknanya adalah mencerca garis nasab, mencelanya, atau menafikan seseorang dari silsilah nasabnya yang telah terbukti secara lahiriah. Perbuatan ini jika dilakukan dengan keyakinan menghalalkannya padahal mengetahui keharamannya, maka itu adalah kekufuran yang mengeluarkan dari agama; atau jika tidak menghalalkannya maka maknanya adalah perbuatan tersebut tergolong tradisi kaum jahiliyah dan tabiat orang kafir, sehingga berstatus sebagai dosa besar dan kefasikan keji yang wajib dicegah secara keras.  
 
@@ -173,7 +173,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 3. **Kitab Al-Fatawa Al-Haditsiyyah (Halaman 314–316)**  
    *Karya: Al-Imam Syihabuddin Ahmad bin Hajar Al-Haitami (Wafat 974 H) | Lapisan: Kitab Fatawa Mu'tamadah Syafi'iyyah*  
 
-   > مَسْأَلَةٌ فِي سَادَاتِنَا آلِ بَاعَلَوِي: <u>**【وَقَدْ تَوَاتَرَ وَاسْتَفَاضَ فِي الأَقْطَارِ شَرَفُ نَسَبِ هَؤُلَاءِ السَّادَةِ الأَخْيَارِ آلِ أَبِي عَلَوِي، وَأَجْمَعَ عَلَى صِحَّةِ نَسَبِهِمْ جَمَاهِيرُ العُلَمَاءِ وَأَئِمَّةُ النَّسَبِ فِي الحَرَمَيْنِ وَاليَمَنِ وَمِصْرَ وَالشَّامِ، فَلَا يَجُوزُ لِأَحَدٍ أَنْ يَطْعَنَ فِي نَسَبِهِمْ وَلَا أَنْ يُشَكِّكَ فِي شَرَفِهِمْ، وَمَنْ طَعَنَ فِي نَسَبِهِمْ بَعْدَ هَذَا الشُّهْرَةِ فَقَدْ تَعَرَّضَ لِسَخَطِ اللهِ وَرَسُولِهِ】**</u>.  
+   > مسألة في ساداتنا آل باعلوي: <u>**【وقد تواتر واستفاض في الأقطار شرف نسب هؤلاء السادة الأخيار آل أبي علوي، وأجمع على صحة نسبهم جماهير العلماء وأئمة النسب في الحرمين واليمن ومصر والشام، فلا يجوز لأحد أن يطعن في نسبهم ولا أن يشكك في شرفهم، ومن طعن في نسبهم بعد هذا الشهرة فقد تعرض لسخط الله ورسوله】**</u>.  
 
    *Makna Murod / Terjemah:* Masalah mengenai para Sayyid klan Ba'alawi: Sungguh telah mutawatir dan masyhur secara istifadhah di berbagai penjuru dunia kemuliaan nasab para sayyid pilihan dari keluarga Ba'alawi ini. Mayoritas ulama dan para imam pakar nasab di Haramain (Makkah-Madinah), Yaman, Mesir, dan Syam telah sepakat atas kesahihan nasab mereka. Maka tidak boleh bagi siapa pun mencela nasab mereka atau meragukan kemuliaan mereka. Barangsiapa mencela nasab mereka setelah adanya kemasyhuran yang sedemikian rupa, sungguh ia telah menghadapkan dirinya pada kemurkaan Allah dan Rasul-Nya.  
 
@@ -188,7 +188,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 1. **Keputusan Majma' Al-Fiqh Al-Islami Ad-Duwali (OKI) No. 122 (13/5) Muktamar ke-13 Kuwait (2001 M)**  
    *Lembaga: Organisasi Kerjasama Islam (OKI) | Lapisan: Konsensus Lembaga Fiqih Internasional Kontemporer*  
 
-   > قَرَارُ مَجْمَعِ الفِقْهِ الإِسْلَامِيِّ الدَّوْلِيِّ بِشَأْنِ البَصْمَةِ الوِرَاثِيَّةِ: <u>**【ثَالِثًا: لَا يَجُوزُ شَرْعًا الاعْتِمَادُ عَلَى البَصْمَةِ الوِرَاثِيَّةِ فِي نَفْيِ النَّسَبِ الثَّابِتِ شَرْعًا؛ لِأَنَّ الشَّرِيعَةَ تَشَوَّفَتْ إِلَى إِثْبَاتِ الأَنْسَابِ وَحِمَايَتِهَا وَتَضْيِيقِ مَنَافِذِ نَفْيِهَا، وَلَا يَجُوزُ تَقْدِيمُ البَصْمَةِ الوِرَاثِيَّةِ عَلَى الفِرَاشِ وَالشُّهْرَةِ وَالاسْتِفَاضَةِ المَسْتَقِرَّةِ】**</u>.  
+   > قرار مجمع الفقه الإسلامي الدولي بشأن البصمة الوراثية: <u>**【ثالثا: لا يجوز شرعا الاعتماد على البصمة الوراثية في نفي النسب الثابت شرعا؛ لأن الشريعة تشوفت إلى إثبات الأنساب وحمايتها وتضييق منافذ نفيها، ولا يجوز تقديم البصمة الوراثية على الفراش والشهرة والاستفاضة المستقرة】**</u>.  
 
    *Makna Murod / Terjemah:* Keputusan Majma' Fiqih Islam Internasional mengenai Tes DNA: Ketiga: Tidak diperbolehkan secara syariat bersandar pada tes DNA (al-bashmah al-wiratsiyyah) untuk menafikan/membatalkan nasab yang telah sah secara syar'i; karena syariat Islam sangat condong untuk menjaga keutuhan nasab, melindunginya, dan mempersempit pintu-pintu penafiannya. Dan tidak boleh mengedepankan tes DNA di atas firasy pernikahan, kemasyhuran, serta istifadhah yang telah mapan.  
 
@@ -199,7 +199,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 2. **Kaidah Fiqhiyyah: Al-Ashlu Baqa'u ma Kana 'ala ma Kana & Al-Yaqinu la Yazulu bisy-Syakk**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 51) & Al-Bayan fil Madzhab (Juz 1, Halaman 120)*  
 
-   > القَاعِدَةُ الكُبْرَى: <u>**【اليَقِينُ لَا يَزُولُ بِالشَّكِّ، وَالأَصْلُ بَقَاءُ مَا كَانَ عَلَى مَا كَانَ】**</u>، فَمَا ثَبَتَ بِالاسْتِفَاضَةِ وَالشُّهْرَةِ المُتَطَاوِلَةِ عَبْرَ القُرُونِ لَا يَجُوزُ هَدْمُهُ بِفُحُوصَاتٍ ظَنِّيَّةٍ أَوْ شُبُهَاتٍ تَارِيخِيَّةٍ احْتِمَالِيَّةٍ.  
+   > القاعدة الكبرى: <u>**【اليقين لا يزول بالشك، والأصل بقاء ما كان على ما كان】**</u>، فما ثبت بالاستفاضة والشهرة المتطاولة عبر القرون لا يجوز هدمه بفحوصات ظنية أو شبهات تاريخية احتمالية.  
 
    *Makna Murod / Terjemah:* Kaidah Fiqih Utama: Keyakinan tidak dapat dihilangkan oleh keraguan, dan hukum asal adalah tetapnya apa yang telah ada sesuai kondisi asalnya. Maka sesuatu yang telah terbukti keabsahannya melalui istifadhah dan kemasyhuran yang membentang berabad-abad tidak boleh diruntuhkan oleh tes-tes DNA yang bersifat probabilistik-asumtif (*zhannī*) maupun syubhat sejarah yang spekulatif.  
 
@@ -214,7 +214,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 1. **Shahih Muslim (Kitabudz Dzikr wad Du'a, Bab Fadhlul Ijtima' 'alat Tilawah, Hadits No. 2699)**  
    *Karya: Al-Imam Muslim bin Al-Hajjaj An-Naisaburi (Wafat 261 H)*  
 
-   > عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ، عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ: <u>**【وَمَنْ بَطَّأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بِهِ نَسَبُهُ】**</u>.  
+   > عن أبي هريرة رضي الله عنه، عن النبي صلى الله عليه وسلم أنه قال: <u>**【ومن بطأ به عمله لم يسرع به نسبه】**</u>.  
 
    *Makna Murod / Terjemah:* Dari Abu Hurairah radhiyallahu 'anhu, dari Nabi shallallahu 'alaihi wasallam bahwa beliau bersabda: 'Dan barangsiapa yang amalnya lambat (kurang ketaatannya), maka kemuliaan nasab keturunannya tidak akan dapat mempercepat derajatnya di sisi Allah'.  
 
@@ -225,7 +225,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 2. **Kitab Tafsir Al-Qur'an Al-'Azhim (Juz 7, Halaman 200–202)**  
    *Karya: Al-Hafizh Ibnu Katsir (Wafat 774 H) | Lapisan: Tafsir Turats Mu'tabar*  
 
-   > عِنْدَ قَوْلِهِ تَعَالَى: ﴿قُلْ لَا أَسْأَلُكُمْ عَلَيْهِ أَجْرًا إِلَّا الْمَوَدَّةَ فِي الْقُرْبَى﴾: <u>**【وَإِنَّمَا نُوصِي بِخَيْرٍ أَهْلَ بَيْتِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَنَأْمُرُ بِإِكْرَامِهِمْ وَاحْتِرَامِهِمْ إِذَا كَانُوا مُتَّبِعِينَ لِسُنَّةِ جَدِّهِمْ الكَرِيمِ، كَمَا كَانَ سَلَفُهُمْ كَالْعَبَّاسِ وَعَلِيٍّ وَأَوْلَادِهِمَا، أَمَّا مَنْ خَالَفَ السُّنَّةَ فَلَا كَرَامَةَ لَهُ فِي مُخَالَفَتِهِ، وَإِنْ كَانَ نَسَبُهُ صَحِيحًا؛ لِأَنَّ الدِّينَ عِنْدَ اللهِ التَّقْوَى】**</u>.  
+   > عند قوله تعالى: ﴿قل لا أسألكم عليه أجرا إلا المودة في القربى﴾: <u>**【وإنما نوصي بخير أهل بيت رسول الله صلى الله عليه وسلم، ونأمر بإكرامهم واحترامهم إذا كانوا متبعين لسنة جدهم الكريم، كما كان سلفهم كالعباس وعلي وأولادهما، أما من خالف السنة فلا كرامة له في مخالفته، وإن كان نسبه صحيحا؛ لأن الدين عند الله التقوى】**</u>.  
 
    *Makna Murod / Terjemah:* Dalam menafsirkan firman Allah Ta'ala: 'Katakanlah: Aku tidak meminta kepadamu suatu upah pun atas seruanku kecuali kasih sayang dalam kekeluargaan' (QS. Asy-Syura: 23): 'Sesungguhnya kami berwasiat untuk memperlakukan keturunan keluarga Rasulullah SAW dengan sebaik-baiknya, dan kami memerintahkan untuk memuliakan dan menghormati mereka apabila mereka mengikuti sunnah kakek moyang mereka yang mulia, sebagaimana para pendahulu mereka seperti Abbas, Ali, dan anak-cucu keduanya. Adapun orang yang menyalahi sunnah dan syariat, maka tidak ada kemuliaan baginya dalam penyimpangannya, meskipun nasabnya sah; karena agama di sisi Allah bertumpu pada ketaqwaan'.  
 
@@ -236,7 +236,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 3. **Kitab Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 83)**  
    *Karya: Al-Imam Jalaluddin As-Suyuthi (Wafat 911 H) | Lapisan: Kaidah Fiqhiyyah Kubra*  
 
-   > القَاعِدَةُ الكُبْرَى: <u>**【دَرْءُ المَفَاسِدِ مُقَدَّمٌ عَلَى جَلْبِ المَصَالِحِ، وَالفِتْنَةُ إِذَا وَقَعَتْ وَجَبَ قَطْعُ مَادَّتِهَا بِمَنْعِ الخَوْضِ فِيمَا يُثِيرُ الضَّغَائِنَ وَيُفَرِّقُ جَمَاعَةَ المُسْلِمِينَ】**</u>.  
+   > القاعدة الكبرى: <u>**【درء المفاسد مقدم على جلب المصالح، والفتنة إذا وقعت وجب قطع مادتها بمنع الخوض فيما يثير الضغائن ويفرق جماعة المسلمين】**</u>.  
 
    *Makna Murod / Terjemah:* Kaidah Utama: Menolak kerusakan harus didahulukan daripada meraih kemaslahatan. Dan fitnah sosial manakala telah berkobar, wajib hukumnya memutus materi sumbernya dengan cara melarang perdebatan yang mengobarkan kedengkian dan memecah-belah persatuan kaum muslimin.  
 

@@ -103,7 +103,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 1. **Kitab: Al-Hawi Al-Kabir fi Fiqhi Madzhab Al-Imam Asy-Syafi'i (Juz 8, Hal. 263)**  
    *Karya: Al-Imam Abul Hasan Ali bin Muhammad Al-Mawardi (Wafat: 450 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*  
 
-   > وَالْأَصْلُ فِي الْوَصَايَا الْكِتَابُ وَالسُّنَّةُ وَالْإِجْمَاعُ: ... <u>**【وَأَمَّا السُّنَّةُ فَمَا رَوَاهُ الزُّهْرِيُّ عَنْ عَامِرِ بْنِ سَعْدٍ عَنْ أَبِيهِ قَالَ: قُلْتُ يَا رَسُولَ اللَّهِ أُوصِي بِمَالِي كُلِّهِ؟ قَالَ: لَا، قُلْتُ: فَبِالشَّطْرِ؟ قَالَ: لَا، قُلْتُ: فَبِالثُّلُثِ؟ قَالَ: الثُّلُثُ وَالثُّلُثُ كَثِيرٌ】**</u>. وَأَجْمَعَتِ الْأُمَّةُ عَلَى جَوَازِ الْوَصِيَّةِ بِالثُّلُثِ فَأَقَلَّ، <u>**【فَإِنْ أَوْصَى بِمَا دُونَ الثُّلُثِ كَالرُّبُعِ أَوِ الْخُمُسِ كَانَ جَائِزًا نَافِذًا مِنْ غَيْرِ إِذْنِ الْوَرَثَةِ بِإِجْمَاعِ الْمُسْلِمِينَ】**</u>.  
+   > والأصل في الوصايا الكتاب والسنة والإجماع: ... <u>**【وأما السنة فما رواه الزهري عن عامر بن سعد عن أبيه قال: قلت يا رسول الله أوصي بمالي كله؟ قال: لا، قلت: فبالشطر؟ قال: لا، قلت: فبالثلث؟ قال: الثلث والثلث كثير】**</u>. وأجمعت الأمة على جواز الوصية بالثلث فأقل، <u>**【فإن أوصى بما دون الثلث كالربع أو الخمس كان جائزا نافذا من غير إذن الورثة بإجماع المسلمين】**</u>.  
 
    *Makna Murod / Terjemah:*  
    "Landasan hukum wasiat bersumber dari Al-Qur'an, As-Sunnah, dan Ijma'. Adapun dari As-Sunnah adalah riwayat Az-Zuhri dari Amir bin Sa'ad dari ayahnya (Sa'ad bin Abi Waqqash RA), ia berkata: 'Wahai Rasulullah, apakah aku boleh mewasiatkan seluruh hartaku?' Nabi menjawab: 'Tidak.' Aku bertanya: 'Separuhnya?' Nabi menjawab: 'Tidak.' Aku bertanya: 'Sepertiganya?' Nabi bersabda: 'Ya, sepertiga, dan sepertiga itu sudah banyak.' Dan umat Islam telah bersepakat (*ijma'*) atas kebolehan wasiat sebesar sepertiga atau kurang. Maka jika seseorang berwasiat dengan kadar di bawah sepertiga—seperti seperempat atau seperlima—wasiat tersebut berstatus boleh dan langsung berlaku efektif (*nāfidz*) tanpa memerlukan izin para ahli waris berdasarkan konsensus kaum Muslimin."  
@@ -117,7 +117,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 2. **Kitab: Hasyiyata Qalyubi wa 'Umairah (Juz 4, Hal. 361)**  
    *Karya: Al-Imam Syihabuddin Ahmad bin Ahmad bin Salamah Al-Qalyubi (Wafat: 1069 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Hawasyi Muktamadah*  
 
-   > قَوْلُهُ: (مِنَ الثُّلُثِ) <u>**【وَشَرْطُ مَا يَنْفُذُ مِنَ الثُّلُثِ بَقَاءُ الثُّلُثَيْنِ لِلْوَرَثَةِ】**</u>، فَمَتَى خَرَجَ الْمُوصَى بِهِ مِنْ ثُلُثِ جَمِيعِ التَّرِكَةِ نَفَذَتِ الْوَصِيَّةُ قَهْرًا عَلَى الْوَرَثَةِ وَلَا عِبْرَةَ بِرِضَاهُمْ أَوْ كَرَاهَتِهِمْ، لِأَنَّ حَقَّهُمْ إِنَّمَا يَتَعَلَّقُ بِمَا فَضَلَ عَنِ الثُّلُثِ لِقَوْلِهِ تَعَالَى: {مِنْ بَعْدِ وَصِيَّةٍ يُوصَى بِهَا أَوْ دَيْنٍ}.  
+   > قوله: (من الثلث) <u>**【وشرط ما ينفذ من الثلث بقاء الثلثين للورثة】**</u>، فمتى خرج الموصى به من ثلث جميع التركة نفذت الوصية قهرا على الورثة ولا عبرة برضاهم أو كراهتهم، لأن حقهم إنما يتعلق بما فضل عن الثلث لقوله تعالى: {من بعد وصية يوصى بها أو دين}.  
 
    *Makna Murod / Terjemah:*  
    "Perkataan mushannif: '(dikeluarkan) dari sepertiga harta', syarat dari apa yang berlaku efektif dari sepertiga adalah tersisanya dua pertiga harta bagi para ahli waris. Maka kapan saja harta yang diwasiatkan itu tertutupi oleh sepertiga total harta peninggalan (*tirkah*), wasiat tersebut wajib dieksekusi secara mengikat (*qahran*) atas para ahli waris, dan tidak ada pengaruh sama sekali apakah ahli waris ridha atau tidak suka, karena hak waris mereka hanyalah bergantung pada sisa harta setelah dipotong sepertiga, berdasarkan firman Allah Ta'ala: '(Pembagian waris itu) setelah dipenuhi wasiat yang dibuat atau pelunasan utang'."  
@@ -134,7 +134,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 3. **Kitab: Tuhfatul Muhtaj fi Syarh Al-Minhaj (Juz 3, Hal. 208)**  
    *Karya: Al-Imam Syihabuddin Ahmad bin Hajar Al-Haitami (Wafat: 974 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*  
 
-   > وَدَعْوَى ذَلِكَ التَّضَمُّنِ مَمْنُوعَةٌ، <u>**【وَمِنْ ثَمَّ خَالَفَ ذَلِكَ بَعْضُهُمْ فَأَفْتَى بِصِحَّةِ الْوَصِيَّةِ بِإِطْعَامِ الْمُعَزِّينَ وَأَنَّهُ يَنْفُذُ مِنَ الثُّلُثِ وَبَالَغَ فَنَقَلَهُ عَنِ الْأَئِمَّةِ】**</u>، وَعَلَيْهِ فَالتَّقْيِيدُ بِالْيَوْمِ وَاللَّيْلَةِ فِي كَلَامِهِمْ لَعَلَّهُ لِلْأَفْضَلِ... <u>**【وَلَا يَحِلُّ فِعْلُ مَا لِلنَّائِحَاتِ أَوْ الْمُعَزِّينَ عَلَى الْأَوَّلِ مِنَ التَّرِكَةِ إِلَّا إِذَا لَمْ يَكُنْ عَلَيْهِ دَيْنٌ وَلَيْسَ فِي الْوَرَثَةِ مَحْجُورٌ وَلَا غَائِبٌ】**</u>.  
+   > ودعوى ذلك التضمن ممنوعة، <u>**【ومن ثم خالف ذلك بعضهم فأفتى بصحة الوصية بإطعام المعزين وأنه ينفذ من الثلث وبالغ فنقله عن الأئمة】**</u>، وعليه فالتقييد باليوم والليلة في كلامهم لعله للأفضل... <u>**【ولا يحل فعل ما للنائحات أو المعزين على الأول من التركة إلا إذا لم يكن عليه دين وليس في الورثة محجور ولا غائب】**</u>.  
 
    *Makna Murod / Terjemah:*  
    "Klaim bahwa memberi makan itu pasti mengandung unsur maksiat adalah tertolak. Oleh karena itu, sebagian ulama berbeda pendapat dan memfatwakan sahnya wasiat untuk memberi makan para penta'ziyah/hadirin yang berkumpul dan bahwasanya wasiat tersebut wajib dieksekusi dari sepertiga harta, bahkan ia bersungguh-sungguh menukil fatwa ini dari para imam madzhab... Dan tidak halal menyajikan makanan dari tirkah kecuali bila mayit tidak menanggung utang dan di antara ahli waris tidak terdapat anak yang mahjur 'alaih (di bawah umur/gila) atau orang yang tidak hadir (tanpa keridhaan mereka, red: jika tanpa wasiat)."  
@@ -148,7 +148,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 4. **Kitab: Hasyiyatul Bujairimi 'alal Manhaj = At-Tajrid li Naf'il 'Abid (Juz 1, Hal. 503)**  
    *Karya: Al-Allamah Sulaiman Al-Bujairimi (Wafat: 1221 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Hawasyi & Fatawa Muktamadah*  
 
-   > وَيُكْرَهُ لِأَهْلِ الْمَيِّتِ الْجُلُوسُ لِلتَّعْزِيَةِ، وَصَنْعُ طَعَامٍ يَجْمَعُونَ النَّاسَ عَلَيْهِ، لِمَا رَوَى أَحْمَدُ عَنْ جَرِيرِ بْنِ عَبْدِ اللَّهِ الْبَجَلِيِّ، قَالَ: كُنَّا نَعُدُّ الِاجْتِمَاعَ إِلَى أَهْلِ الْمَيِّتِ وَصَنْعَهُمُ الطَّعَامَ بَعْدَ دَفْنِهِ مِنَ النِّيَاحَةِ... <u>**【بَلْ كُلُّ ذَلِكَ حَرَامٌ إِنْ كَانَ مِنْ مَالِ مَحْجُورٍ وَلَوْ مِنَ التَّرِكَةِ أَوْ مِنْ مَالِ مَيِّتٍ عَلَيْهِ دَيْنٌ أَوْ تَرَتَّبَ عَلَيْهِ ضَرَرٌ】**</u>.  
+   > ويكره لأهل الميت الجلوس للتعزية، وصنع طعام يجمعون الناس عليه، لما روى أحمد عن جرير بن عبد الله البجلي، قال: كنا نعد الاجتماع إلى أهل الميت وصنعهم الطعام بعد دفنه من النياحة... <u>**【بل كل ذلك حرام إن كان من مال محجور ولو من التركة أو من مال ميت عليه دين أو ترتب عليه ضرر】**</u>.  
 
    *Makna Murod / Terjemah:*  
    "Dimakruhkan bagi keluarga mayit duduk berkumpul untuk menerima ta'ziyah dan membuat makanan yang mengumpulkan masyarakat atasnya, berdasarkan riwayat Imam Ahmad dari Jarir bin Abdillah Al-Bajali: 'Kami menganggap berkumpul di tempat keluarga mayit dan membuat makanan setelah pemakaman termasuk bagian dari niyahah (meratap).' ... Bahkan seluruh hal tersebut dihukumi haram apabila diambil dari harta anak yang mahjur (anak yatim yang belum baligh) meskipun dari harta tirkah, atau dari harta mayit yang masih menanggung utang, atau menimbulkan madharat bagi ahli waris."  
@@ -165,7 +165,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 5. **Kitab: Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazh Al-Minhaj (Juz 4, Hal. 75)**  
    *Karya: Al-Imam Muhammad Al-Khatib Asy-Syirbini (Wafat: 977 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*  
 
-   > <u>**【(وَ) تَصِحُّ الْوَصِيَّةُ (بِالْمَنَافِعِ) الْمُبَاحَةِ كَسُكْنَى دَارٍ وَخِدْمَةِ عَبْدٍ وَزِرَاعَةِ أَرْضٍ مُؤَبَّدَةً وَمُؤَقَّتَةً】**</u> لِأَنَّهَا أَمْوَالٌ تُقَابَلُ بِالْأَعْوَاضِ، وَيَجُوزُ إِفْرَادُهَا بِالْعَقْدِ كَالْإِجَارَةِ، فَجَازَتِ الْوَصِيَّةُ بِهَا كَالْأَعْيَانِ، <u>**【فَإِنْ أَوْصَى بِمَنْفَعَةِ أَرْضٍ مُؤَبَّدَةً لِجِهَةِ بِرٍّ انْتَقَلَتِ الْمَنْفَعَةُ إِلَيْهِمْ وَبَقِيَتِ الْعَيْنُ مَحْبُوسَةً عَلَى حُكْمِ الْوَقْفِ】**</u>.  
+   > <u>**【(و) تصح الوصية (بالمنافع) المباحة كسكنى دار وخدمة عبد وزراعة أرض مؤبدة ومؤقتة】**</u> لأنها أموال تقابل بالأعواض، ويجوز إفرادها بالعقد كالإجارة، فجازت الوصية بها كالأعيان، <u>**【فإن أوصى بمنفعة أرض مؤبدة لجهة بر انتقلت المنفعة إليهم وبقيت العين محبوسة على حكم الوقف】**</u>.  
 
    *Makna Murod / Terjemah:*  
    "Dan sah wasiat atas manfaat-manfaat yang mubah seperti hak menempati rumah, pelayanan sahaya, dan hak bercocok tanam/menggarap tanah sawah, baik secara abadi (*mu'abbadah*) maupun berjangka waktu (*mu'aqqatah*), karena manfaat adalah harta bernilai yang sah diakadkan secara mandiri seperti dalam sewa-menyewa (ijarah), maka sah pula diwasiatkan sebagaimana benda fisik ('ain). Maka apabila seseorang berwasiat dengan manfaat tanah secara abadi untuk tujuan kebajikan, manfaatnya berpindah kepada pos kebajikan tersebut dan pokok fisiknya ('ain) tetap ditahan mengikuti status hukum wakaf."  
@@ -182,8 +182,8 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 6. **Kitab: Al-Qawa'id al-Fiqhiyyah wa Tathbiqatuha fil Madzahib al-Arba'ah (Juz 1, Hal. 365)**  
    *Karya: Prof. Dr. Muhammad Musthafa Az-Zuhaili | Madzhab: Qawa'id Ushul 'Am / Muqaranah | Lapisan: Kaidah Fiqhiyyah Universal*  
 
-   > الْقَاعِدَةُ: [٥٣] <u>**【إِعْمَالُ الْكَلَامِ أَوْلَى مِنْ إِهْمَالِهِ】**</u>  
-   > التَّوْضِيحُ: إِنَّ إِعْمَالَ الْكَلَامِ بِمَا يُمْكِنُ إِعْمَالُهُ بِحَمْلِهِ عَلَى مَعْنًى صَحِيحٍ أَوْلَى مِنْ إِهْمَالِهِ، لِأَنَّ الْمُهْمَلَ لَغْوٌ، <u>**【وَكَلَامُ الْعَاقِلِ يُصَانُ عَنِ اللَّغْوِ، فَيَجِبُ حَمْلُهُ مَا أَمْكَنَ عَلَى أَقْرَبِ وَأَوْلَى وَجْهٍ يَجْعَلُهُ مَعْمُولًا بِهِ مِنْ حَقِيقَةٍ مُمْكِنَةٍ أَوْ مَجَازٍ】**</u>. وَيَتَفَرَّعُ عَنْهُ صِحَّةُ وَصِيَّةِ الْمُوصِي وَحَمْلُ أَلْفَاظِهِ عَلَى الْقُرَبِ الشَّرْعِيَّةِ وَسُبُلِ الْخَيْرِ.  
+   > القاعدة: [٥٣] <u>**【إعمال الكلام أولى من إهماله】**</u>  
+   > التوضيح: إن إعمال الكلام بما يمكن إعماله بحمله على معنى صحيح أولى من إهماله، لأن المهمل لغو، <u>**【وكلام العاقل يصان عن اللغو، فيجب حمله ما أمكن على أقرب وأولى وجه يجعله معمولا به من حقيقة ممكنة أو مجاز】**</u>. ويتفرع عنه صحة وصية الموصي وحمل ألفاظه على القرب الشرعية وسبل الخير.  
 
    *Makna Murod / Terjemah:*  
    "Kaidah ke-53: 'Memberlakukan suatu perkataan lebih utama daripada mengabaikannya.' Penjelasannya: Sesungguhnya memberlakukan perkataan semaksimal mungkin dengan membawanya pada pemaknaan yang sah secara syar'i lebih utama daripada menyia-nyiakannya, karena perkataan yang diabaikan menjadi sia-sia (*laghwu*), sedangkan perkataan orang yang berakal wajib dijaga dari kesia-siaan. Maka wajib membawa perkataan tersebut sebisa mungkin kepada arah yang menjadikannya berlaku efektif, baik secara hakikat maupun majaz. Dari kaidah ini bercabang hukum keabsahan wasiat seseorang dan membawa lafazh-lafazh wasiatnya pada pintu-pintu kebajikan syar'i."  
@@ -200,8 +200,8 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 7. **Kitab: Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 5, Hal. 122)**  
    *Karya: Tim Ahli Fiqih Kementerian Wakaf Kuwait | Madzhab: Muqaranah 4 Madzhab (Hanafi, Maliki, Syafi'i, Hanbali) | Lapisan: Ensiklopedia Fiqih Komparatif*  
 
-   > [الْوَصِيَّةُ بِالإِطْعَامِ]  
-   > ٣٠ - <u>**【الْوَصِيَّةُ بِالإِطْعَامِ إِذَا أَعَانَتْ عَلَى مُحَرَّمٍ فَهِيَ بَاطِلَةٌ فِي الأَصَحِّ، كَالْوَصِيَّةِ بِالإِطْعَامِ بَعْدَ الْمَوْتِ ثَلاَثَةَ أَيَّامٍ، حَيْثُ تَجْتَمِعُ النَّائِحَاتُ، لأَنَّهَا مِنَ الإِعَانَةِ عَلَى الْمُحَرَّمِ】**</u>، <u>**【فَإِذَا لَمْ تُعِنْ عَلَى حَرَامٍ جَازَتْ وَوَجَبَ إِخْرَاجُهَا مِنْ تَرِكَتِهِ فِي حُدُودِ الثُّلُثِ، كَمَنْ أَوْصَى بِالأُضْحِيَّةِ، أَوْ بِإِطْعَامِ الْفُقَرَاءِ، أَوْ بِفِطْرَةِ رَمَضَانَ أَوْ بِنَذْرٍ عَلَيْهِ】**</u>.  
+   > [الوصية بالإطعام]  
+   > ٣٠ - <u>**【الوصية بالإطعام إذا أعانت على محرم فهي باطلة في الأصح، كالوصية بالإطعام بعد الموت ثلاثة أيام، حيث تجتمع النائحات، لأنها من الإعانة على المحرم】**</u>، <u>**【فإذا لم تعن على حرام جازت ووجب إخراجها من تركته في حدود الثلث، كمن أوصى بالأضحية، أو بإطعام الفقراء، أو بفطرة رمضان أو بنذر عليه】**</u>.  
 
    *Makna Murod / Terjemah:*  
    "[Hukum Wasiat Memberi Makan / Jamuan]  
@@ -218,7 +218,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
 8. **Kitab: Kasyful Qina' 'an Matnil Iqna' (Juz 10, Hal. 265) & Al-Mumti' fi Syarh Al-Muqni' (Juz 3, Hal. 258)**  
    *Karya: Al-Imam Manshur bin Yunus Al-Buhuti (Wafat: 1051 H) & Ibnu Munajja | Madzhab: Hanbali (WAJIB TERCANTUM) | Lapisan: Kitab Syarah Induk Hanabilah*  
 
-   > <u>**【فَصْلٌ: وَتَصِحُّ الْوَصِيَّةُ بِالْمَنْفَعَةِ الْمُفْرَدَةِ، فَلَوْ وَصَّى لِجِهَةِ بِرٍّ بِمَنَافِعِ دَارِهِ أَوْ أَرْضِهِ أَبَدًا أَوْ مُدَّةً مَعْلُومَةً صَحَّتِ الْوَصِيَّةُ】**</u>، لِأَنَّ الْمَنَافِعَ يَصِحُّ تَمْلِيكُهَا فِي الْحَيَاةِ بِعِوَضٍ وَبِغَيْرِ عِوَضٍ فَصَحَّتِ الْوَصِيَّةُ بِهَا كَالْأَعْيَانِ، <u>**【وَتَكُونُ الْعَيْنُ مَمْلُوكَةً لِلْوَرَثَةِ لَكِنْ لَا يَمْلِكُونَ التَّصَرُّفَ فِيهَا بِمَا يُبْطِلُ الْمَنْفَعَةَ الْمُوصَى بِهَا】**</u>.  
+   > <u>**【فصل: وتصح الوصية بالمنفعة المفردة، فلو وصى لجهة بر بمنافع داره أو أرضه أبدا أو مدة معلومة صحت الوصية】**</u>، لأن المنافع يصح تمليكها في الحياة بعوض وبغير عوض فصحت الوصية بها كالأعيان، <u>**【وتكون العين مملوكة للورثة لكن لا يملكون التصرف فيها بما يبطل المنفعة الموصى بها】**</u>.  
 
    *Makna Murod / Terjemah:*  
    "Fasal: Dan sah berwasiat dengan manfaat tunggal (*al-manfa'ah al-mufradah*). Maka seandainya seseorang berwasiat untuk suatu pos kebajikan dengan manfaat rumahnya atau tanahnya untuk selamanya (*abadan*) atau untuk jangka waktu tertentu, wasiat tersebut sah. Karena manfaat sah dipindahtangankan kepemilikannya semasa hidup baik dengan imbalan (sewa) maupun tanpa imbalan (hibah), maka sah pula diwasiatkan sebagaimana benda fisik ('ain). Dan fisik tanah tersebut menjadi milik ahli waris, akan tetapi mereka tidak berhak melakukan tasarruf (menjual/membagi) yang membatalkan hak manfaat yang telah diwasiatkan tersebut."  
