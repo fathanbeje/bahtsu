@@ -84,7 +84,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam An-Nawawi menetapkan kaidah fundamental bahwa harta yang bercampur tanpa bisa dipisahkan status fisiknya secara otomatis beralih menjadi *syirkah amlak*. Jika modal asal diketahui, modal tersebut dikembalikan proporsional; jika modal awal tidak terbukti dan berada di bawah penguasaan bersama suami istri (*yad musytarakah*), penyelesaian akhirnya adalah sumpah timbal balik (*tahaluf*) dan dibagi rata menjadi dua.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2762#:~:text=%D8%B5%D8%A7%D8%B1%D8%A7%20%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A8%D9%8A%D9%86%D9%87%D9%85%D8%A7,%D8%B9%D9%84%D9%89%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D9%86%D8%AD%D9%88)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2762#:~:text=%D8%B5%D8%A7%D8%B1%D8%A7%20%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A8%D9%8A%D9%86%D9%87%D9%85%D8%A7%20%D8%B9%D9%84%D9%89)
 
 2. **Kitab: Rawdhatuth Thalibin wa 'Umdatul Muftin (روضة الطالبين وعمدة المفتين) : (Juz 4, Hal. 235)**  
    *Karya: Al-Imam An-Nawawi (w. 676 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Tahqiq Muta'akhirin*
@@ -97,7 +97,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Teks ini menjadi landasan primer sinkronisasi Pasal 97 KHI (pembagian separuh harta bersama). Dalam kasus suami istri yang hartanya bercampur tanpa pembukuan terpisah, kedudukan keduanya sama-sama memiliki *yad al-istila'* (penguasaan aset rumah tangga). Ketika timbul kesamaran mutlak dan tiada bukti, hukum syariat menetapkan pembagian setengah-setengah (*nisfaini*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=1966#:~:text=%D9%81%D8%A5%D9%86%20%D8%B9%D9%84%D9%85%20%D9%82%D8%AF%D8%B1,%D9%84%D8%A7%D8%B3%D8%AA%D9%88%D8%A7%D8%A1%20%D8%A3%D9%8A%D8%AF%D9%8A%D9%87%D9%85%D8%A7%20%D8%B9%D9%84%D9%8A%D9%87)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=1966#:~:text=%D9%81%D8%A5%D9%86%20%D8%B9%D9%84%D9%85%20%D9%82%D8%AF%D8%B1%20%D8%AD%D8%B5%D8%A9)
 
 3. **Kitab: Bughyatul Mustarsyidin fi Talkhis Fatawa Ba'dhil A'immah (بغية المسترشدين) : (Hal. 159)**  
    *Karya: As-Sayyid Abdurrahman bin Muhammad Ba'alawi (w. 1320 H) | Madzhab: Syafi'i | Lapisan: Kitab Fatawa Ulama Muta'akhirin*
@@ -110,7 +110,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Fatwa ini secara spesifik memotret dinamika ekonomi rumah tangga di Nusantara. Sayyid Abdurrahman Ba'alawi mengakui eksistensi perserikatan implisit antara suami dan istri dalam mencari nafkah dan mengumpulkan kekayaan. Pendekatan ini melegitimasi bahwa harta yang bertambah selama perkawinan adalah hasil perserikatan riil yang harus dihitung berdasarkan modal bawaan awal dan kontribusi kerja bersama.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=13179#:~:text=%D9%81%D8%A5%D9%86%20%D9%83%D8%A7%D9%86%20%D8%A8%D8%B7%D8%B1%D9%8A%D9%82,%D9%8A%D8%AF%D9%87%20%D9%85%D8%B9%20%D9%8A%D9%85%D9%8A%D9%86%D9%87)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=13179#:~:text=%D9%81%D9%8E%D8%A5%D9%90%D9%86%D9%92%20%D9%83%D9%8E%D8%A7%D9%86%D9%8E)
 
 4. **Kitab: Al-Asybah wan Nazha'ir (الأشباه والنظائر في قواعد وفروع فقه الشافعية) : (Hal. 182)**  
    *Karya: Al-Imam Jalaluddin As-Suyuthi (w. 911 H) | Madzhab: Syafi'i | Lapisan: Kaidah Fiqhiyyah & Ushul Fiqh*
@@ -123,7 +123,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Kaidah ini melandasi penyelesaian sengketa harta bawaan yang kabur (*majhul*). Kesulitan memisahkan lembar uang, mutasi kas, atau aset fisik tidak boleh menyebabkan hilangnya hak pemilik awal. Mekanisme *shulh* (musyawarah keluarga di peradilan atau mediasi) menjadi jalan keluar syar'i terdepan sebelum vonis hakim dijatuhkan.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/14450?page=39#:~:text=%D8%AA%D8%B9%D9%8A%D9%86%20%D8%A7%D9%84%D8%B5%D9%84%D8%AD%20%D8%A3%D9%88,%D8%A8%D8%A7%D9%84%D8%B9%D8%B3%D8%B1%20%D9%88%D8%AA%D8%B9%D8%B0%D8%B1%20%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%8A%D9%82)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/14450?page=39#:~:text=%D8%AA%D8%B9%D9%8A%D9%86%20%D8%A7%D9%84%D8%B5%D9%84%D8%AD%20%D8%A3%D9%88%20%D9%82%D8%B3%D9%85%D8%A9)
 
 5. **Kitab: Al-Mughni (المغني) : (Juz 5, Hal. 13)**  
    *Karya: Al-Imam Ibnu Qudamah Al-Maqdisi (w. 620 H) | Madzhab: Hanbali (WAJIB TERCANTUM) | Lapisan: Kitab Induk Fiqh Hanbali & Muqaranah 4 Madzhab*
@@ -136,7 +136,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):*  
    Ibarat ini berstatus Qaul Mu'tamad dalam Madzhab Hanbali. Pendapat ini diadopsi sebagai *makhraj syar'i* dan penguat (*syahid*) komparatif bagi perumusan Bahtsul Masail di Indonesia. Solusi Madzhab Hanbali sejalan dengan sistematika: pisahkan modal awal bawaan terlebih dahulu, bagi keuntungan secara proporsional, dan bila terjadi kebutaan data faktual, selesaikan melalui pembagian sama rata berdasarkan penguasaan bersama (*yad musytarakah*), guna mencegah kemudharatan yang berlarut-larut.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6910?page=7645#:~:text=%D8%B1%D8%AC%D8%B9%20%D9%83%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF,%D8%B9%D9%84%D9%8A%D9%87%20%D9%84%D9%87%D9%85%D8%A7%20%D9%85%D8%B9%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6910?page=7645#:~:text=%D8%B1%D9%8E%D8%AC%D9%8E%D8%B9%D9%8E%20%D9%83%D9%84%D9%91%D9%8F%20%D9%88%D8%A7%D8%AD%D8%AF%D9%8D%20%D9%85%D9%86%D9%87%D9%85%D8%A7)
 
 ---
 
@@ -153,7 +153,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam Asy-Syafi'i menegaskan secara sharih (eksplisit) bahwa harta perserikatan dan hak milik pihak lain yang menempel pada aset mayit bukanlah warisan (*laisa bi tarikatin lahu*). Membagikan harta sebelum membersihkan hak milik orang lain (dalam hal ini hak pasangan yang masih hidup atas harta bawaan dan harta bersama) berstatus batal demi hukum (*bathilun wa mardud*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2916#:~:text=%D8%AD%D8%AA%D9%89%20%D9%8A%D8%AE%D8%B1%D8%AC%20%D9%85%D9%86%D9%87%D8%A7,%D9%84%D9%8A%D8%B3%20%D8%A8%D8%AA%D8%B1%D9%83%D8%A9%20%D9%84%D9%87)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2916#:~:text=%D8%AD%D8%AA%D9%89%20%D9%8A%D8%AE%D8%B1%D8%AC%20%D9%85%D9%86%D9%87%D8%A7%20%D8%AD%D9%82%D9%88%D9%82)
 
 2. **Kitab: Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazhil Minhaj (مغني المحتاج) : (Juz 4, Hal. 7)**  
    *Karya: Al-Khatib Asy-Syirbini (w. 977 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Syarah Muta'akhirin*
@@ -166,7 +166,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Khatib Asy-Syirbini merumuskan hierarki mutlak: hak mitra serikat (pasangan hidup) menempati kasta tertinggi melampaui utang dan warisan. Sifat harta waris bersifat subordinatif: ia baru eksis secara yuridis apabila harta si mayit telah bersih dan murni dari hak kepemilikan orang lain (*khulush al-mal*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=1953#:~:text=%D9%88%D9%85%D8%A7%20%D9%84%D9%8A%D8%B3%20%D8%A8%D9%85%D9%84%D9%83,%D8%AE%D9%84%D9%88%D8%B5%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%20%D9%84%D9%84%D9%85%D9%8A%D8%AA)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=1953#:~:text=%D9%88%D9%85%D8%A7%20%D9%84%D9%8A%D8%B3%20%D8%A8%D9%85%D9%84%D9%83%20%D9%84%D9%84%D9%85%D9%8A%D8%AA)
 
 3. **Kitab: Hasyiyah I'anatuth Thalibin 'ala Fathil Mu'in (إعانة الطالبين) : (Juz 3, Hal. 250)**  
    *Karya: As-Sayyid Al-Bakri Syatha Ad-Dimyathi (w. 1310 H) | Madzhab: Syafi'i | Lapisan: Kitab Hasyiyah Muktamadah*
@@ -179,7 +179,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Sayyid Bakri Syatha secara gamblang mencontohkan kasus harta istri yang bercampur dengan harta suami (*kamali zawjatihi al-makhulth bimālih*). Status hukum tindakan ahli waris membagi harta sebelum pemisahan dinyatakan sebagai **keharaman murni (*harāmun mahdh*)** dan wajib dibekukan (*waqful qismah*) sampai hak pasangan yang ditinggalkan dipisahkan secara adil.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/95660?page=45#:~:text=%D9%85%D8%A7%20%D8%AF%D8%A7%D9%85%D8%AA%20%D9%85%D8%B4%D8%AA%D8%A8%D9%87%D8%A9,%D8%A5%D8%B0%D9%86%D9%87%20%D8%AD%D8%B1%D8%A7%D9%85%20%D9%85%D8%AD%D8%B6)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/95660?page=45#:~:text=%D9%85%D8%A7%20%D8%AF%D8%A7%D9%85%D8%AA%20%D9%85%D8%B4%D8%AA%D8%A8%D9%87%D8%A9%20%D8%A8%D8%AD%D9%82)
 
 4. **Kitab: Qawa'idul Ahkam fi Mashalihil Anam (قواعد الأحكام في مصالح الأنام) : (Juz 2, Hal. 17)**  
    *Karya: Al-Imam Sulthanul Ulama Izzuddin bin Abdis Salam (w. 660 H) | Madzhab: Syafi'i / Kaidah Universal | Lapisan: Kitab Induk Qawa'id Fiqhiyyah & Ushul Syariah*
@@ -192,7 +192,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Melalui timbangan *Maqāshid asy-Syarī'ah*, Syaikh Izzuddin bin Abdis Salam menegaskan kaidah prioritas perlindungan hak: melindungi hak milik orang yang masih hidup (*hifzh amwāl al-ahyā'*) harus didahulukan daripada mempercepat pembagian waris para ahli waris.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/127703?page=2451#:~:text=%D9%81%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2%20%D9%84%D9%84%D9%88%D8%A7%D8%B1%D8%AB,%D8%AA%D8%A3%D8%AE%D9%8A%D8%B1%20%D8%AA%D9%88%D8%B2%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D8%A7%D8%AA)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/127703?page=2451#:~:text=%D9%81%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2%20%D9%84%D9%84%D9%88%D8%A7%D8%B1%D8%AB%20%D8%A3%D9%86)
 
 5. **Kitab: Bada'i' ash-Shana'i' fi Tartibisy Syara'i' (بدائع الصنائع في ترتيب الشرائع) : (Juz 7, Hal. 18)**  
    *Karya: Al-Imam 'Alauddin Al-Kasani (w. 587 H) | Madzhab: Hanafi (WAJIB TERCANTUM) | Lapisan: Kitab Induk Syarah Fiqh Hanafi*
@@ -205,4 +205,4 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):*  
    Ibarat ini merupakan *Zhahirur Riwayah* yang mu'tamad dalam Madzhab Hanafi. Nash ini mempertegas kesepakatan lintas madzhab empat (*ijma' sukuti / ittifaq al-madzahib*) bahwa prinsip hukum waris di seluruh madzhab mensyaratkan kemurnian kepemilikan pewaris (*al-milk al-khalish*). Pandangan ini memperkokoh argumentasi Bahtsul Masail dalam menolak pembagian sepihak oleh ahli waris sebelum dituntaskannya hak gono-gini dan harta bawaan pasangan hidup.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7691?page=477#:~:text=%D9%84%D8%A3%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D9%84%D9%85,%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D8%A7%D8%B2%20%D8%A8%D8%A7%D8%B7%D9%84%D8%A9%20%D8%B4%D8%B1%D8%B9%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7691?page=477#:~:text=%D9%84%D8%A3%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D9%84%D9%85%20%D9%8A%D8%AE%D9%84%D8%B5)

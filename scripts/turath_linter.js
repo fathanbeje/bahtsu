@@ -105,60 +105,56 @@ async function getBookMeta(bookId) {
   return null;
 }
 
-// Ekstrak range W3C Text Fragment langsung dari teks mahallus syahid yang disorot
-function generateW3CFragment(primaryText, fallbackSnip = '') {
-  // 1. PRIORITAS UTAMA: Ambil langsung dari mahallus syahid asli yang ada di naskah!
+// Ekstrak frasa tunggal bersambung (single continuous phrase, 3-4 kata, TANPA KOMA)
+// Jika turathContext (teks/snip dari Turath API) tersedia, ekstrak harakat asli sebagaimana tercantum di Turath.io
+function generateW3CFragment(primaryText, turathContext = '') {
+  const rawTurath = (turathContext || '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/\s+/g, ' ');
+
+  const naskahClean = cleanArabic(primaryText);
+  const naskahWords = naskahClean.split(/\s+/).filter(Boolean);
+
+  // Jika teks asli dari Turath tersedia dan naskah memuat kata kunci
+  if (rawTurath && naskahWords.length >= 2) {
+    for (let len = Math.min(naskahWords.length, 4); len >= 2; len--) {
+      const searchSub = naskahWords.slice(0, len).join(' ');
+      const turathWords = rawTurath.split(/\s+/).map(cleanPunct).filter(Boolean);
+      for (let i = 0; i <= turathWords.length - len; i++) {
+        const sliceClean = turathWords.slice(i, i + len).map(w => cleanArabic(w)).join(' ');
+        if (sliceClean === searchSub) {
+          const nativeSlice = turathWords.slice(i, i + len).join(' ');
+          return `#:~:text=${encodeURIComponent(nativeSlice)}`;
+        }
+      }
+    }
+  }
+
+  // Fallback 1: Ambil langsung dari mahallus syahid naskah (3-4 kata pertama secara kontinu)
   const raw = (primaryText || '').trim();
   if (raw) {
-    // Bersihkan tanda kurung/tanda baca tanpa menghapus harakat asli teks
     const clean = raw
       .replace(/[،؛.:!؟\(\)\[\]«»"'_\-]+/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
     const words = clean.split(/\s+/).map(cleanPunct).filter(Boolean);
-
-    if (words.length > 0 && words.length <= 4) {
-      return `#:~:text=${encodeURIComponent(words.join(' '))}`;
-    }
-
-    if (words.length > 4) {
-      // Ambil 2-3 kata awal dan 2-3 kata akhir dari mahallus syahid
-      const startWords = words.slice(0, 3).join(' ');
-      const endWords = words.slice(-3).join(' ');
-      if (startWords && endWords && startWords !== endWords) {
-        return `#:~:text=${encodeURIComponent(startWords)},${encodeURIComponent(endWords)}`;
-      }
-      return `#:~:text=${encodeURIComponent(startWords)}`;
+    if (words.length > 0) {
+      const count = Math.min(words.length, 4);
+      return `#:~:text=${encodeURIComponent(words.slice(0, count).join(' '))}`;
     }
   }
 
-  // 2. Fallback HANYA JIKA tidak ada teks yang disorot
-  const clean = (fallbackSnip || '')
-    .replace(/<span[^>]*>/gi, '')
-    .replace(/<\/span>/gi, '')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/[،؛.:!؟\(\)\[\]«»"'_\-]+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-
-  const textWithoutTags = clean.replace(/<\/?em>/gi, '').trim();
-  const words = textWithoutTags.split(/\s+/).map(cleanPunct).filter(Boolean);
-
-  if (words.length === 0) return '';
-  if (words.length <= 4) {
-    return `#:~:text=${encodeURIComponent(words.join(' '))}`;
+  // Fallback 2: Ambil dari turathContext jika naskah kosong
+  if (rawTurath) {
+    const words = rawTurath.split(/\s+/).map(cleanPunct).filter(Boolean);
+    if (words.length > 0) {
+      const count = Math.min(words.length, 4);
+      return `#:~:text=${encodeURIComponent(words.slice(0, count).join(' '))}`;
+    }
   }
 
-  const startCandidates = words.slice(0, 3).filter(Boolean);
-  const endCandidates = words.slice(-3).filter(Boolean);
-  const startWords = startCandidates.join(' ');
-  const endWords = endCandidates.join(' ');
-
-  if (startWords && endWords && startWords !== endWords) {
-    return `#:~:text=${encodeURIComponent(startWords)},${encodeURIComponent(endWords)}`;
-  }
-  return startWords ? `#:~:text=${encodeURIComponent(startWords)}` : '';
+  return '';
 }
 
 // Parse berkas Markdown untuk mengekstrak entri-entri maraji' (khusus Bagian Maraji'/Ibarat)
@@ -363,21 +359,27 @@ async function auditCitation(citation, filePath) {
     const correctPageId = targetMatch.meta.page_id;
     const correctVol = targetMatch.meta.vol;
     const correctPrintedPage = targetMatch.meta.page;
-    const newFragment = generateW3CFragment(citation.highlightedText, targetMatch.item.snip);
+    const turathContext = targetMatch.item.text || targetMatch.item.snip || '';
+    const newFragment = generateW3CFragment(citation.highlightedText, turathContext);
     const correctUrl = `https://app.turath.io/book/${bookId}?page=${correctPageId}${newFragment}`;
 
     let fragmentMatches = false;
     if (textFrag && citation.highlightedText) {
-      const expectedFrag = generateW3CFragment(citation.highlightedText).replace('#:~:text=', '');
-      const [expectedStartRaw, expectedEndRaw] = expectedFrag.split(',');
-      const expectedStart = cleanArabic(decodeURIComponent(expectedStartRaw || '')).split(/\s+/).map(cleanPunct).filter(Boolean).join(' ');
-      const expectedEnd = expectedEndRaw ? cleanArabic(decodeURIComponent(expectedEndRaw)).split(/\s+/).map(cleanPunct).filter(Boolean).join(' ') : '';
+      // Jika fragment lama masih mengandung koma (sintaks range usang), anggap TIDAK MATCH agar diperbaiki ke frasa tunggal
+      if (textFrag.includes(',')) {
+        fragmentMatches = false;
+      } else {
+        const expectedFragDecoded = decodeURIComponent(newFragment.replace('#:~:text=', ''));
+        const currFragDecoded = decodeURIComponent(textFrag);
 
-      const [currStartRaw, currEndRaw] = textFrag.split(',');
-      const currStart = cleanArabic(currStartRaw || '').split(/\s+/).map(cleanPunct).filter(Boolean).join(' ');
-      const currEnd = currEndRaw ? cleanArabic(currEndRaw).split(/\s+/).map(cleanPunct).filter(Boolean).join(' ') : '';
+        const expectedClean = cleanArabic(expectedFragDecoded);
+        const currClean = cleanArabic(currFragDecoded);
+        const highlightedClean = cleanArabic(citation.highlightedText);
 
-      fragmentMatches = (currStart === expectedStart) && (expectedEnd ? currEnd === expectedEnd : !currEnd);
+        fragmentMatches = (currClean === expectedClean) ||
+                          (currClean.length >= 8 && highlightedClean.startsWith(currClean)) ||
+                          (currClean.length >= 8 && highlightedClean.includes(currClean));
+      }
     }
 
     if (pageId !== correctPageId) {
@@ -442,6 +444,7 @@ async function auditCitation(citation, filePath) {
               vol: topMeta.vol,
               page: topMeta.page,
               snip: topItem.snip,
+              text: topItem.text || '',
             };
             break;
           }
@@ -450,7 +453,8 @@ async function auditCitation(citation, filePath) {
     }
 
     if (globalCandidate) {
-      const newFragment = generateW3CFragment(citation.highlightedText, globalCandidate.snip);
+      const globalContext = globalCandidate.text || globalCandidate.snip || '';
+      const newFragment = generateW3CFragment(citation.highlightedText, globalContext);
       const correctUrl = `https://app.turath.io/book/${globalCandidate.bookId}?page=${globalCandidate.pageId}${newFragment}`;
       issues.push({
         type: 'MISMATCH_BOOK',

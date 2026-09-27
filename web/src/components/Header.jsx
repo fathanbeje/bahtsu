@@ -98,7 +98,7 @@ export default function Header({
                   <span className="sm:hidden font-bold">Bahtsu</span>
                   <span className="hidden sm:inline font-bold">Bahtsu Klangopan</span>
                   <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-md bg-turath-emerald/10 text-turath-emerald dark:bg-emerald-950/60 dark:text-emerald-400 font-bold border border-turath-emerald/20 tracking-wider">
-                    v2.5.8
+                    v2.5.9
                   </span>
                 </h1>
                 <span className="hidden 2xl:inline-block font-arabic text-xs text-turath-emerald dark:text-emerald-400 font-medium px-2 py-0.2 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft border border-turath-emerald/20">

@@ -85,7 +85,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ibarat ini adalah dasar utama dalam Madzhab Syafi'i yang menetapkan batas niat menetap 4 hari (tidak termasuk hari masuk dan keluar) yang mengubah status musafir menjadi mukim, sehingga gugur hak untuk meng-qashar shalat. Ini sangat relevan bagi jamaah haji yang tinggal lama di Makkah sebelum wukuf.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2018#:~:text=%D9%85%D9%86%20%D8%AB%D9%84%D8%A7%D8%AB%D8%A9%20%D8%A3%D9%8A%D8%A7%D9%85,%D8%A3%D9%8A%D8%A7%D9%85%20%D8%B5%D8%A7%D8%B1%20%D9%85%D9%82%D9%8A%D9%85%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2018#:~:text=%D9%85%D9%90%D9%86%D9%92%20%D8%AB%D9%8E%D9%84%D9%8E%D8%A7%D8%AB%D9%8E%D8%A9%D9%90%20%D8%A3%D9%8E%D9%8A%D9%91%D9%8E%D8%A7%D9%85%D9%8D%20%D9%82%D9%8E%D8%A7%D9%84%D9%8E)
 
 2. **Kitab: Al-Bayan fi Madzhab Al-Imam Asy-Syafi'i (البيان في مذهب الإمام الشافعي) — (Juz 2, Hal. 478)**  
    *Karya: Al-Imam Abul Husain Yahya bin Abil Khair Al-'Imrani (Wafat: 558 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
@@ -98,7 +98,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ibarat ini menegaskan bahwa niat menetap 4 hari atau lebih secara otomatis membatalkan hak qashar shalat bagi musafir. Ini merupakan penopang argumen bahwa jamaah haji yang sudah mukim di Makkah tidak boleh meng-qashar di Arafah.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21721?page=916#:~:text=%D9%86%D9%88%D9%89%20%D8%A5%D9%82%D8%A7%D9%85%D8%A9%20%D8%A3%D8%B1%D8%A8%D8%B9%D8%A9,%D8%B0%D9%84%D9%83%20%D9%84%D9%85%20%D9%8A%D9%82%D8%B5%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21721?page=916#:~:text=%D9%86%D9%88%D9%89%20%D8%A5%D9%82%D8%A7%D9%85%D8%A9%20%D8%A3%D8%B1%D8%A8%D8%B9%D8%A9%20%D8%A3%D9%8A%D8%A7%D9%85)
 
 3. **Kitab: Bahrul Madzhab li Ar-Ruyani (بحر المذهب للروياني) — (Juz 3, Hal. 508)**  
    *Karya: Al-Imam Abu Al-Mahasin Abdul Wahid Ar-Ruyani (Wafat: 502 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
@@ -111,7 +111,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ibarat ini secara eksplisit menyatakan larangan qashar bagi mereka yang berstatus mukim di Arafah. Ini adalah dalil kuat yang mendukung rumusan hukum bahwa jamaah haji yang sudah mukim tidak boleh meng-qashar shalatnya di Arafah.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/16934?page=1568#:~:text=%D8%A7%D9%84%D9%85%D9%82%D9%8A%D9%85%D9%8A%D9%86%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9%20%D9%84%D8%A7,%D9%8A%D8%AC%D9%88%D8%B2%20%D9%84%D9%87%D9%85%20%D8%A7%D9%84%D9%82%D8%B5%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/16934?page=1568#:~:text=%D8%A7%D9%84%D9%85%D9%82%D9%8A%D9%85%D9%8A%D9%86%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9%20%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2)
 
 4. **Kitab: Asna Al-Mathalib fi Syarhi Raudh Ath-Thalib (أسنى المطالب في شرح روض الطالب) — (Juz 2, Hal. 83)**  
    *Karya: Syaikhul Islam Zakariya Al-Anshari (Wafat: 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
@@ -137,7 +137,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ibarat ini memperkuat bahwa status mukim mengharuskan *ittmam* (menyempurnakan shalat 4 rakaat), serta menggarisbawahi keharusan *ittmam* jika bermakmum pada imam mukim di Arafah.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7589?page=29#:~:text=%D8%A7%D9%84%D9%82%D8%B5%D8%B1%20%D8%A3%D9%88%20%D8%A7%D8%A6%D8%AA%D9%85,%D9%84%D8%B2%D9%85%D9%87%20%D8%A3%D9%86%20%D9%8A%D8%AA%D9%85)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7589?page=29#:~:text=%D8%A7%D9%84%D9%82%D8%B5%D8%B1%20%D8%A3%D9%88%20%D8%A7%D8%A6%D8%AA%D9%85%20%D8%A8%D9%85%D9%82%D9%8A%D9%85)
 
 ---
 
@@ -154,7 +154,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ini adalah dalil sharih yang menunjukkan praktik Rasulullah ﷺ dalam menjamak shalat Dhuhur dan Ashar di Arafah. Ini menjadi dasar utama kesunnahan jamak di Arafah bagi seluruh jamaah haji.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=1635#:~:text=%D8%AC%D9%85%D8%B9%20%D8%A8%D9%8A%D9%86%20%D8%A7%D9%84%D8%B8%D9%87%D8%B1,%D8%A8%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A8%D8%A3%D8%B0%D8%A7%D9%86%20%D9%88%D8%A5%D9%82%D8%A7%D9%85%D8%AA%D9%8A%D9%86)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=1635#:~:text=%D8%AC%D9%8E%D9%85%D9%8E%D8%B9%D9%8E%20%D8%A8%D9%8E%D9%8A%D9%92%D9%86%D9%8E%20%D8%A7%D9%84%D8%B8%D9%91%D9%8F%D9%87%D9%92%D8%B1%D9%90%20%D9%88%D9%8E%D8%A7%D9%84%D9%92%D8%B9%D9%8E%D8%B5%D9%92%D8%B1%D9%90)
 
 7. **Kitab: Asna Al-Mathalib fi Syarhi Raudh Ath-Thalib (أسنى المطالب في شرح روض الطالب) — (Juz 2, Hal. 97)**  
    *Karya: Syaikhul Islam Zakariya Al-Anshari (Wafat: 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
@@ -167,7 +167,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ibarat ini menguatkan dalil praktik Nabi ﷺ menjamak shalat Dhuhur dan Ashar di Arafah pada waktu Dhuhur (jamak taqdim), yang menjadi dasar bagi musafir untuk jamak qashar, dan menjadi titik pembahasan khilaf bagi mukim untuk jamak shalat secara ittmam.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30130?page=737#:~:text=%D8%AC%D9%85%D8%B9%20%D8%A8%D9%8A%D9%86%20%D8%A7%D9%84%D8%B8%D9%87%D8%B1,%D9%81%D9%8A%20%D9%88%D9%82%D8%AA%20%D8%A7%D9%84%D8%B8%D9%87%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30130?page=737#:~:text=%D8%AC%D9%85%D8%B9%20%D8%A8%D9%8A%D9%86%20%D8%A7%D9%84%D8%B8%D9%87%D8%B1%20%D9%88%D8%A7%D9%84%D8%B9%D8%B5%D8%B1)
 
 8. **Kitab: Fiqhul Ibadat 'ala Madzhab Asy-Syafi'i (فقه العبادات على المذهب الشافعي) — (Juz 1, Hal. 450)**  
    *Karya: Dr. Durriyah Al-'Aithah | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Fiqih Kontemporer Muktabar*
@@ -180,7 +180,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ibarat ini secara eksplisit menegaskan bahwa qashar dan jamak dianjurkan (*yufadhdhalu*) bagi jamaah haji yang berstatus musafir saat berada di Arafah dan Muzdalifah.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/12895?page=450#:~:text=%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D8%AC%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%B1,%D9%81%D9%8A%20%D9%85%D8%B2%D8%AF%D9%84%D9%81%D8%A9%20%D9%88%D8%B9%D8%B1%D9%81%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/12895?page=450#:~:text=%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D8%AC%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%81%D8%B1%20%D9%81%D9%8A)
 
 9. **Kitab: Nihayatul Mathlab fi Dirayatil Madzhab (نهاية المطلب في دراية المذهب) — (Juz 2, Hal. 466)**  
    *Karya: Imamul Haramain Abu Al-Ma'ali Abdul Malik Al-Juwaini (Wafat: 478 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin*
@@ -193,5 +193,5 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ibarat ini menunjukkan adanya jalan keluar fiqih (*makhraj syar'i / muqabilul ashah*) yang membolehkan jamak saja (tanpa qashar, yakni 4 rakaat sempurna / ittmam) bagi jamaah mukim di Arafah semata-mata karena faktor kesibukan ibadah wukuf (*li ajlin nusuk*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9851?page=1326#:~:text=%D9%8A%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D9%85%D9%83%D9%8A%20%D9%88%D9%8A%D8%AC%D9%85%D8%B9,%D8%A7%D9%84%D8%B9%D8%B1%D9%81%D9%8A%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A3%D9%8A%D8%B6%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9851?page=1326#:~:text=%D9%8A%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D9%85%D9%83%D9%8A%20%D9%88%D9%8A%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%B9%D9%8E%D8%B1%D9%81%D9%8A)
 
