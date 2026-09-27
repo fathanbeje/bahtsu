@@ -125,7 +125,7 @@ Berdasarkan telaah mendalam terhadap kaidah fiqih, ushul, dan nash kitab-kitab m
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Kewajiban seluruh rakyat untuk mendaftar BPJS yang ditetapkan oleh Undang-Undang adalah kebijakan (*tasharruf al-imam*) yang bermuara langsung pada terwujudnya jaminan kesehatan semesta (*universal health coverage*). Karena membawa kemaslahatan vital bagi rakyat, maka penetapan kewajiban tersebut sah dan mengikat.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30157?page=553#:~:text=%D9%85%D9%86%D9%88%D8%B7%20%D8%A8%D8%A7%D9%84%D9%85%D8%B5%D9%84%D8%AD%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30157?page=553#:~:text=%D8%AA%D8%B5%D8%B1%D9%81%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20%D8%B9%D9%84%D9%89,%D8%B1%D8%B6%D9%8A%20%D8%A7%D9%84%D9%84%D9%87%20%D8%B9%D9%86%D9%87)
 
 5. **Kitab: Fatawa Ar-Ramli (فتاوى الرملي) — (Juz 3, Hal. 177)**  
    *Karya: شهاب الدين الرملي (ت 1004 هـ) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Fatawa Muktamadah*

@@ -94,7 +94,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Skema kuota internet (misal: 50 GB masa aktif 30 hari) secara metodologis di-ilhaq-kan pada keabsahan penggabungan batas volume (*miqdarul 'amal*) dan batas durasi waktu (*taqdiruz zaman*). Obyek sewa adalah kuota 50 GB, sedangkan masa aktif 30 hari adalah batas akhir masa pemanfaatan (*nihayatul intifa'*), sehingga akad tersebut sah secara syariat.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/19188?page=6994#:~:text=%D9%88%D9%8E%D9%84%D9%8E%D8%A7%20%D9%8A%D9%8E%D8%AC%D9%8F%D9%88%D8%B2%D9%8F%20%D8%A7%D9%84%D9%92%D8%AC%D9%8E%D9%85%D9%92%D8%B9%D9%8F,%D8%A7%D8%B3%D9%92%D8%AA%D9%8E%D8%A3%D9%92%D8%AC%D9%8E%D8%B1%D9%92%D8%AA%D9%8F%D9%83%D9%8E%20%D9%84%D9%90%D8%AA%D9%8E%D8%AE%D9%90%D9%8A%D8%B7%D9%8E%20%D9%84%D9%90%D9%8A%D9%8E)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/19188?page=6994#:~:text=%D9%88%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2%20%D8%A7%D9%84%D8%AC%D9%85%D8%B9,%D9%88%D8%AA%D9%82%D8%AF%D9%8A%D8%B1%20%D8%A7%D9%84%D9%85%D8%AF%D8%A9%20%D9%84%D9%84%D8%AA%D8%B9%D8%AC%D9%8A%D9%84)
 
 2. **Kitab: Al-Mu'amalat Al-Maliyyah Ashalah wa Mu'ashirah (المعاملات المالية أصالة ومعاصرة) - (Juz 9, Hal. 283)**  
    *Karya: Prof. Dr. Dubyan bin Muhammad Ad-Dubyan | Madzhab: Fatawa & Fiqh Mu'ashir*
@@ -107,7 +107,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Menegaskan keabsahan kontrak layanan kontemporer di mana penyedia jasa membatasi volume kuota tertentu sekaligus mematok tenggat waktu kedaluwarsa layanan.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/14474?page=4034#:~:text=%D8%A7%D9%84%D9%85%D8%A8%D8%AD%D8%AB%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%D9%81%D9%8A,%D8%A7%D9%84%D9%85%D8%AF%D8%A9%20%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/14474?page=4034#:~:text=%D8%A7%D9%84%D9%85%D8%A8%D8%AD%D8%AB%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%D9%81%D9%8A,%D9%88%D8%A8%D9%8A%D8%A7%D9%86%20%D8%BA%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AD%D9%82)
 
 3. **Kitab: Mukhtashar Tuhfatul Muhtaj bi Syarh al-Minhaj (مختصر تحفة المحتاج) - (Juz 2, Hal. 431)**  
    *Karya: Al-Imam Ibnu Hajar Al-Haitami (W. 974 H) / Ringkasan: Syaikh Mustafa Samith | Madzhab: Syafi'i (Mu'tamad)*
@@ -120,7 +120,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Inilah dalil hukum terkuat bagi pihak operator: Operator telah membuka akses jaringan seluler selama 30 hari penuh (*tamkin min al-intifa'*). Ketika waktu 30 hari habis, hak sewa gugur demi hukum karena berlalunya waktu, dan tidak dipakainya sisa kuota dinilai sebagai pilihan atau kelalaian konsumen sendiri (*tafrith minal musta'jir*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/20?page=978#:~:text=%D8%A7%D9%84%D8%AA%D9%85%D9%83%D9%8A%D9%86%20%D9%87%D9%86%D8%A7%20%D9%83%D8%A7%D9%81%D9%8D,%D8%A5%D9%86%20%D9%82%D9%8F%D8%AF%D9%91%D9%90%D8%B1%D8%AA%20%D8%A8%D8%B9%D9%85%D9%84)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/20?page=978#:~:text=%D9%84%D8%A3%D9%86%D9%87%20%D9%84%D9%85%20%D9%8A%D9%84%D8%AA%D8%B2%D9%85,%D8%A5%D9%86%20%D9%82%D8%AF%D8%B1%D8%AA%20%D8%A8%D8%B9%D9%85%D9%84)
 
 4. **Kitab: At-Tahdzib fil Fiqh Asy-Syafi'i (التهذيب في الفقه الشافعي) - (Juz 4, Hal. 455)**  
    *Karya: Al-Imam Abu Muhammad Al-Baghawi (W. 516 H) | Madzhab: Syafi'i (Mutaqaddimin)*
@@ -133,7 +133,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Menguatkan prinsip dasar ijarah mazhab Syafi'i bahwa berlalunya masa sewa tanpa dimanfaatkan oleh penyewa tidak menggugurkan kewajiban bayar dan tidak menimbulkan hak tagih atas sisa manfaat yang hangus.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/17885?page=1714#:~:text=%D9%88%D8%A5%D9%86%20%D8%B3%D9%84%D9%85%D9%87%D8%A7%20%D8%A5%D9%84%D9%8A%D9%87%D8%8C%20%D9%81%D8%A3%D9%85%D8%B3%D9%83%D9%87%D8%A7,%D9%88%D8%B9%D9%84%D9%8A%D9%87%20%D8%B1%D8%AF%D9%87%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/17885?page=1714#:~:text=%D9%88%D8%A5%D9%86%20%D8%B3%D9%84%D9%85%D9%87%D8%A7%20%D8%A5%D9%84%D9%8A%D9%87,%D8%A7%D9%84%D8%A3%D8%AC%D8%B1%D8%A9%20%D9%88%D8%B9%D9%84%D9%8A%D9%87%20%D8%B1%D8%AF%D9%87%D8%A7)
 
 5. **Kitab: Takmilat Al-Muthi'i 'alal Majmu' Syarah Al-Muhadzdzab (تكملة المطيعي على المجموع) - (Juz 15, Hal. 81)**  
    *Karya: Al-Imam Muhyiddin An-Nawawi (W. 676 H) / Takmilah: Syaikh Muhammad Najib Al-Muthi'i | Madzhab: Syafi'i*
@@ -146,7 +146,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Alokasi frekuensi internet terikat dengan dimensi waktu. Saat masa 30 hari telah lampau, hak pemanfaatan kapasitas frekuensi pada rentang tersebut telah kedaluwarsa dan tidak bisa diklaim ulang secara sepihak.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/1026?page=942#:~:text=%D9%81%D8%A5%D9%86%20%D8%B9%D8%A7%D8%AF%D8%AA%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86,%D8%A7%D9%84%D9%85%D8%B9%D9%82%D9%88%D8%AF%20%D8%B9%D9%84%D9%8A%D9%87)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/1026?page=942#:~:text=%D9%81%D8%A5%D9%86%20%D8%B9%D8%A7%D8%AF%D8%AA%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86,%D9%84%D9%81%D9%88%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B9%D9%82%D9%88%D8%AF%20%D8%B9%D9%84%D9%8A%D9%87)
 
 ---
 
@@ -176,7 +176,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Klausul baku hangus kuota sepihak menciptakan asimetri mutlak: operator selalu untung menerima uang muka 100% tanpa risiko liabilitas rollover, sementara konsumen selalu berada pada pihak yang dirugikan saat sisa kuota lenyap.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/18612?page=769#:~:text=%D9%88%D9%82%D8%A7%D8%B9%D8%AF%D8%A9%D9%8F%20%D8%A7%D9%84%D8%B9%D8%AF%D9%84,%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%82%D8%A7%D8%A9%20%D9%88%D8%A7%D9%84%D9%85%D8%B6%D8%A7%D8%B1%D8%A8%D8%A9%20%D9%88%D8%B3%D8%A7%D8%A6%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/18612?page=769#:~:text=%D9%88%D9%82%D8%A7%D8%B9%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B9%D8%AF%D9%84%20%D9%81%D9%8A,%D9%81%D9%87%D9%88%20%D8%A8%D8%A7%D8%B7%D9%84%20%D8%B8%D8%A7%D9%84%D9%85)
 
 3. **Kitab: Al-Asybah wan-Nazha'ir (الأشباه والنظائر لابن الملقن) - (Juz 1, Hal. 30)**  
    *Karya: Al-Imam Sirajuddin Ibnu Al-Mulaqqin Asy-Syafi'i (W. 804 H) | Lapisan: Kitab Induk Qawa'id Fiqhiyyah Syafi'iyyah*
@@ -206,7 +206,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Kemenkominfo dan otoritas negara berhak serta berkewajiban syariat untuk menetapkan regulasi yang mewajibkan seluruh operator seluler menerapkan sistem *data rollover*, demi melindungi maslahat publik konsumen dari praktik yang merugikan.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21588?page=361#:~:text=%D8%AA%D8%B5%D8%B1%D9%81%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B1%D8%B9%D9%8A%D8%A9%20%D9%85%D9%86%D9%88%D8%B7%20%D8%A8%D8%A7%D9%84%D9%85%D8%B5%D9%84%D8%AD%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21588?page=361#:~:text=%D8%A7%D9%84%D9%82%D8%A7%D8%B9%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9%20%D8%AA%D8%B5%D8%B1%D9%81,%D8%A7%D9%84%D8%B1%D8%B9%D9%8A%D8%A9%20%D9%85%D9%86%D9%88%D8%B7%20%D8%A8%D8%A7%D9%84%D9%85%D8%B5%D9%84%D8%AD%D8%A9)
 
 2. **Kitab: Abhats Hai'ah Kibaril Ulama (أبحاث هيئة كبار العلماء) - (Juz 4, Hal. 57)**  
    *Karya: Dewan Ulama Kibar Saudi Arabia | Lapisan: Fatwa & Regulasi Fiqih Kontemporer*
@@ -219,7 +219,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Memberikan justifikasi syariat kontemporer bagi kementerian regulator untuk mengintervensi aturan main industri telekomunikasi seluler guna menghapus klausul baku "kuota hangus otomatis tanpa ampun".
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21759?page=2122#:~:text=%D8%A7%D9%84%D8%AA%D9%82%D9%84%D9%8A%D9%84%20%D9%85%D9%86,%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7%20%D8%A7%D9%84%D8%AA%D8%B9%D8%B3%D9%81%D9%8A%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21759?page=2122#:~:text=%D8%AD%D9%85%D9%84%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA%20%D8%B9%D9%84%D9%89,%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D9%84%D9%84%D8%B7%D8%B1%D9%81%20%D8%A7%D9%84%D8%A3%D8%B6%D8%B9%D9%81)
 
 3. **Kitab: Durar al-Hukkam fi Syarh Majallah al-Ahkam (درر الحكام في شرح مجلة الأحكام) - (Juz 1, Hal. 511)**  
    *Karya: Ali Haidar Khwajah Amin Afandi | Lapisan: Kodifikasi Hukum Fiqih Muamalah / Majallah Al-Ahkam*
@@ -232,7 +232,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Klausul pemusnahan total sisa hak data internet yang telah dibayar tunai oleh pembeli adalah klausul yang merugikan sepihak (*syarth bathil*), sehingga badan regulasi dan pengadilan berwenang membatalkannya dan mewajibkan mekanisme kompensasi atau *rollover*.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21692?page=474#:~:text=%D8%A7%D9%84%D9%92%D8%A5%D9%90%D8%AC%D9%8E%D8%A7%D8%B1%D9%8E%D8%A9%D9%8F%20%D8%A7%D9%84%D9%92%D9%81%D9%8E%D8%A7%D8%B3%D9%90%D8%AF%D9%8E%D8%A9%D9%8F)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21692?page=474#:~:text=%D8%A7%D9%84%D8%A5%D8%AC%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D9%81%D8%A7%D8%B3%D8%AF%D8%A9%20%D9%87%D9%8A,%D8%A8%D8%A7%D8%B7%D9%84%D8%A7%20%D9%8A%D9%84%D8%B2%D9%85%20%D8%A5%D8%B3%D9%82%D8%A7%D8%B7%D9%87)
 
 ---
 

@@ -123,7 +123,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini menegaskan batasan otorisasi sistem kecerdasan buatan. Apabila Muse AI mengeksekusi transaksi yang melenceng dari spesifikasi (misalnya membeli barang melebihi pagu harga anggaran pengguna, memesan tiket pada tanggal yang salah akibat kesalahan model AI), maka transaksi tersebut tidak serta-merta mengikat pengguna (*status fudhuli*), dan pengguna berhak membatalkan perikatan serta menuntut ganti rugi pemulihan saldo kepada Meta jika kesalahan bersumber dari bug/malafungsi sistem platform.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (I'anatuth Thalibin 3/101)](https://app.turath.io/book/963?page=781#:~:text=%D9%88%D8%A5%D8%AC%D8%A7%D8%B1%D8%A9,%D8%A3%D9%88%20%D8%AC%D9%86%D8%B3%D9%87%20%D8%A3%D9%88)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (I'anatuth Thalibin 3/101)](https://app.turath.io/book/963?page=781#:~:text=%D8%A3%D9%8A%20%D9%83%D8%A8%D9%8A%D8%B9%20%D9%88%D8%B4%D8%B1%D8%A7%D8%A1,%D9%81%D9%8A%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%A2%D9%85%D8%B1)
 
 4. **Kitab Al-Asybah wan Nazha'ir fi Qawa'id wa Furu' Fiqh Asy-Syafi'iyyah (Halaman 308) & Durar al-Hukkam Syarah Majallatil Ahkam (Juz 1, Halaman 69)**  
    *Karya: Al-Imam Jalaluddin As-Suyuthi (Wafat 911 H) & Ali Haidar | Lapisan: Kaidah Fiqhiyyah & Qanun Muamalah*  
@@ -171,7 +171,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Kesepakatan antara peritel (misal Expedia atau Walmart) dengan Meta di mana peritel berjanji: "Setiap transaksi tiket atau belanja yang berhasil dibukukan melalui asisten Muse AI akan diberikan komisi sebesar 3% dari nilai transaksi", terkategori secara sah dalam akad **Ju'ālah** (sayembara pencapaian hasil kerja) atau **Simsārah**. Imbalan baru wajib dibayarkan saat hasil kerja (*injāzul 'amal* / transaksi sukses) terwujud.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Rawdhatuth Thalibin 3/20)](https://app.turath.io/book/499?page=827#:~:text=%D8%A7%D9%84%D9%92%D8%AC%D9%8E%D8%B9%D9%8E%D8%A7%D9%84%D9%8E%D8%A9%D9%8F%20%D8%B9%D9%8E%D9%84%D9%8E%D9%89%20%D9%83%D9%8F%D9%84%D9%91%D9%90,%D8%AA%D9%8E%D8%AC%D9%8F%D9%88%D8%B2%D9%8F%20%D8%B9%D9%8E%D9%84%D9%8E%D9%89%20%D8%A7%D9%84%D9%92%D8%B9%D9%8E%D9%85%D9%8E%D9%84%D9%90)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Rawdhatuth Thalibin 3/20)](https://app.turath.io/book/499?page=827#:~:text=%D9%88%D8%AA%D8%B5%D8%AD%20%D8%A7%D9%84%D8%AC%D8%B9%D8%A7%D9%84%D8%A9%20%D8%B9%D9%84%D9%89,%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D8%B9%D9%88%D8%B6%20%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7)
 
 3. **Kitab Bughyatul Mustarsyidin fi Talkhisi Fatawa Ba'dhil A'immatil Muta'akhirin (Halaman 165–167)**  
    *Karya: Al-Allamah As-Sayyid Abdurrahman bin Muhammad Ba'alawi Al-Hadhrami (Wafat 1320 H) | Lapisan: Kitab Fatawa Muktamadah Nuusantara*  
@@ -204,7 +204,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Ijmak lintas madzhab ini menjadi payung hukum kokoh atas operasional *transactional revenue* yang diterapkan Meta, selama produk yang diperjualbelikan suci dan mubah secara syariat.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 10/152)](https://app.turath.io/book/11430?page=6382#:~:text=%D9%88%D9%8E%D8%A7%D9%84%D8%B3%D9%91%D9%8E%D9%85%D9%92%D8%B3%D9%8E%D8%B1%D9%8E%D8%A9%D9%8F%20%D8%A7%D8%B5%D9%92%D8%B7%D9%90%D9%84%D8%A7%D9%8E%D8%AD%D9%8B%D8%A7,%D9%88%D9%8E%D8%A7%D9%84%D8%B3%D9%91%D9%90%D9%85%D9%92%D8%B3%D9%8E%D8%A7%D8%B1%D9%8F%20%D9%87%D9%8F%D9%88%D9%8E%20%D8%A7%D9%84%D9%91%D9%8E%D8%B0%D9%90%D9%8A)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 10/152)](https://app.turath.io/book/11430?page=6382#:~:text=%D9%88%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D8%B1%D8%A9%20%D8%A7%D8%B5%D8%B7%D9%84%D8%A7%D8%AD%D8%A7%20%D9%87%D9%8A,%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A9%20%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%B9%D8%A9%20%D8%AD%D9%84%D8%A7%D9%84%D8%A7)
 
 ---
 

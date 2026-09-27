@@ -4,6 +4,18 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.4] - 2026-09-27
+
+### 🎯 Strict Mahallus Syahid W3C Range Alignment
+- **Penegakan Kesetaraan Ketat Fragment W3C (`scripts/turath_linter.js`):**
+  - Mengeliminasi verifikasi fragment yang longgar (`cleanH.includes(fragStart)`) dan menggantikannya dengan validasi kesetaraan ketat simetris: kata awal dan kata akhir fragment wajib 100% sama persis dengan kata awal dan kata akhir dari kalimat mahallus syahid di dalam tag `<u>**【...】**</u>`.
+  - Memperluas pembersihan karakter pada `cleanArabic` untuk mencakup seluruh rentang harakat, tanwin, shaddah, dagger alif (`\u0670`), dan tanda waqaf Turath (`[\u064B-\u065F\u0670\u06D6-\u06ED]`).
+- **Pembersihan & Penyelarasan Menyeluruh 21 Tautan Bermasalah di Seluruh Repositori:**
+  - Melakukan auto-fix (`--all --fix`) pada seluruh repositori, menyelaraskan 21 tautan maraji' pada 7 berkas kajian (`2024-06-14-hukum-jamak-qashar-shalat-arafah.md`, `2026-09-25-model-bisnis-muse-ai-meta.md`, `2026-09-25-status-hukum-kuota-hangus.md`, `2026-09-25-tinjauan-hukum-shopee-vip.md`, `2026-09-26-hukum-asuransi-bpjs-kesehatan.md`, `2026-09-26-hukum-meletakkan-batu-kerikil-di-atas-makam.md`, `2026-09-26-wasiat-harta-untuk-haul.md`).
+  - Menuntaskan audit 100% sempurna: seluruh 95 rujukan di 11 berkas kajian kini memiliki W3C range text fragment presisi (`#:~:text=startWords,endWords`) yang terbukti melompat dan menyorot tepat pada kalimat ibarat yang ditekankan di Turath.io (0 errors, 0 warnings, 0 mismatches).
+
+---
+
 ## [2.5.3] - 2026-09-27
 
 ### 🔍 Automated Verification & Precision Tahqiq

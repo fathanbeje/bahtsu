@@ -125,7 +125,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Syaikh Al-Qalyubi menetapkan kriteria yuridis: selama ahli waris masih mendapatkan bagian minimal dua pertiga ($2/3$) dari total harta, wasiat sepertiga berlaku mutlak (*yanfudzu qahran*). Dalam kasus ini, anak-anak masih menerima 8.000 m² ($80\%$), yang jauh melebihi batas minimal dua pertiga ($66,67\%$).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21843?page=1577#:~:text=%D9%88%D8%B4%D8%B1%D8%B7%20%D9%85%D8%A7%20%D9%8A%D9%86%D9%81%D8%B0%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AB%D9%84%D8%AB%20%D8%A8%D9%82%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AB%D9%84%D8%AB%D9%8A%D9%86%20%D9%84%D9%84%D9%88%D8%B1%D8%AB%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21843?page=1577#:~:text=%D9%88%D8%B4%D8%B1%D8%B7%20%D9%85%D8%A7%20%D9%8A%D9%86%D9%81%D8%B0,%D8%A8%D9%82%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AB%D9%84%D8%AB%D9%8A%D9%86%20%D9%84%D9%84%D9%88%D8%B1%D8%AB%D8%A9)
 
 ---
 
@@ -142,7 +142,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam Ibnu Hajar Al-Haitami menegaskan fatwa mu'tamad dari para imam madzhab Syafi'i bahwa wasiat untuk memberi makan orang-orang yang berkumpul mendoakan mayit hukumnya adalah **SAH dan dieksekusi dari sepertiga harta**. Beliau juga menggarisbawahi mafhum bahwa keharaman menggunakan tirkah untuk jamuan makan hanya terjadi jika tanpa wasiat dan di antara waris terdapat anak yatim/mahjur 'alaih. Bila didasari wasiat sepertiga, pelaksanaannya sah dan berpahala.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=1206#:~:text=%D8%A8%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D8%A5%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%B9%D8%B2%D9%8A%D9%86%20%D9%88%D8%A3%D9%86%D9%87%20%D9%8A%D9%86%D9%81%D8%B0%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AB%D9%84%D8%AB)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=1206#:~:text=%D9%88%D9%85%D9%86%20%D8%AB%D9%85%20%D8%AE%D8%A7%D9%84%D9%81,%D9%81%D9%86%D9%82%D9%84%D9%87%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9)
 
 
 4. **Kitab: Hasyiyatul Bujairimi 'alal Manhaj = At-Tajrid li Naf'il 'Abid (Juz 1, Hal. 503)**  
@@ -212,7 +212,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    1. Jika memberi makan itu bercampur ratapan (*niyāhah*) atau maksiat, wasiatnya batil.  
    2. Jika memberi makan itu bersih dari maksiat (seperti sedekah makanan dan haul yang syar'i), maka **seluruh madzhab sepakat hukumnya JA'IZ (BOLEH) dan WAJIB DIKELUARKAN dari sepertiga tirkah**. Ini menjadi dalil komparatif qath'i yang membatalkan anggapan bahwa wasiat makanan haul dilarang secara mutlak.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=3119#:~:text=%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%A5%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A5%D8%B0%D8%A7%20%D8%A3%D8%B9%D8%A7%D9%86%D8%AA%20%D8%B9%D9%84%D9%89%20%D9%85%D8%AD%D8%B1%D9%85)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=3119#:~:text=%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%A5%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A5%D8%B0%D8%A7,%D8%A7%D9%84%D8%A5%D8%B9%D8%A7%D9%86%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%85)
 
 
 8. **Kitab: Kasyful Qina' 'an Matnil Iqna' (Juz 10, Hal. 265) & Al-Mumti' fi Syarh Al-Muqni' (Juz 3, Hal. 258)**  
@@ -227,7 +227,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    - **Status Qaul:** Ini adalah qaul mu'tamad dan zhahirul madzhab dalam Madzhab Hanbali yang selaras dengan pandangan Madzhab Syafi'i.  
    - **Makhraj Syar'i & Perlindungan Hak:** Madzhab Hanbali menegaskan harmoni kepemilikan: pokok tanah secara asal tetap terkait dengan ahli waris, namun tangan mereka terbelenggu (*mahjūr*) dari menjual atau membagi tanah 2.000 m² tersebut karena adanya hak manfaat abadi (*al-manfa'ah al-mu'abbadah*) yang telah diikrarkan oleh pewaris sebelum wafat. Hal ini memperkuat perlindungan tanah sawah wasiat dari sengketa antar-ahli waris.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/622?page=4687#:~:text=%D9%81%D8%B5%D9%84%20%D9%88%D8%AA%D8%B5%D8%AD,%D9%81%D8%B5%D8%AD%D8%AA%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D9%87%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/622?page=4687#:~:text=%D9%81%D8%B5%D9%84%20%D9%88%D8%AA%D8%B5%D8%AD%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9,%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A9%20%D8%B5%D8%AD%D8%AA%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9)
 
 ---
 

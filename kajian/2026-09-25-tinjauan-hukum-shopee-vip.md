@@ -126,7 +126,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Keabsahan paket Shopee VIP dari sisi buyer bersandar pada status **Ijārah 'alā al-Muddah** (sewa fasilitas berbasis waktu satu bulan). Selama Shopee membuka akses fitur prioritas dan menyediakan kuota voucher yang valid di aplikasi, tidak digunakannya kuota tersebut oleh pembeli karena pilihannya sendiri tidak menggugurkan kewajiban pembayaran dan tidak membatalkan keabsahan akad ijarah.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Rawdhatuth Thalibin 5/247)](https://app.turath.io/book/499?page=2085#:~:text=%D8%A7%D9%86%D9%8E%D8%AA%D9%87%D9%8E%D8%AA%D9%90%20%D8%A7%D9%84%D9%92%D8%A5%D9%90%D8%AC%D9%8E%D8%A7%D8%B1%D9%8E%D8%A9%D9%8F%20%D9%88%D9%8E%D8%A7%D8%B3%D9%92%D8%AA%D9%8E%D9%82%D9%8E%D8%B1%D9%91%D9%8E%D8%AA%D9%90,%D8%A7%D9%84%D9%92%D9%85%D9%8F%D8%AF%D9%91%D9%8E%D8%A9%D9%90%20%D8%A3%D9%8E%D9%85%D9%92%20%D9%84%D9%8E%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Rawdhatuth Thalibin 5/247)](https://app.turath.io/book/499?page=2085#:~:text=%D8%A7%D9%86%D8%AA%D9%87%D8%AA%20%D8%A7%D9%84%D8%A5%D8%AC%D8%A7%D8%B1%D8%A9%20%D9%88%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%AA,%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%81%D8%A7%D8%B9%20%D8%A8%D8%B9%D8%AF%20%D8%A7%D9%84%D9%85%D8%AF%D8%A9)
 
 4. **Kitab Hasyiyah I'anatuth Thalibin 'ala Halli Alfazhi Fathil Mu'in (Juz 3, Halaman 123–125)**  
    *Karya: As-Sayyid Abu Bakar Syatha Ad-Dimyathi (Wafat 1310 H) | Lapisan: Kitab Hawasyi Syafi'iyyah*  
@@ -163,7 +163,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Imam Asy-Syafi'i meletakkan asas *'an tarādhin* sebagai syarat mutlak. Jika Shopee memotong persentase biaya administrasi VIP dari seller secara sepihak atau mendesak seller melalui manipulasi algoritma penenggelaman produk, pemotongan tersebut haram dan tergolong memakan harta sesama secara zalim.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Umm / Sunan wal Atsar)](https://app.turath.io/book/2863?page=5905#:~:text=%D9%82%D9%8E%D8%A7%D9%84%D9%8E,%D9%85%D9%8E%D8%A7%20%D9%8A%D9%8F%D9%86%D9%92%D8%AA%D9%8E%D8%B8%D9%8E%D8%B1%D9%8F%20%D8%A8%D9%8E%D9%8A%D9%92%D9%86%D9%8E)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Umm / Sunan wal Atsar)](https://app.turath.io/book/2863?page=5905#:~:text=%D9%82%D8%A7%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%D8%B9%D8%B2,%D9%84%D8%A7%20%D9%8A%D8%B5%D8%AD%20%D8%AA%D9%85%D9%84%D9%83%D9%87)
 
 2. **Kitab Bughyatul Mustarsyidin (Halaman 165–167)**  
    *Karya: Al-Allamah As-Sayyid Abdurrahman bin Muhammad Ba'alawi (Wafat 1320 H) | Lapisan: Kitab Fatawa Muktamadah Nusantara*  
