@@ -60,13 +60,17 @@ function cleanHtml(html) {
 }
 
 function extractMahalSyahid(rawSnip, query) {
+  const cleanPunct = (s) => (s || '').replace(/^[،؛.:!؟\(\)\[\]«»"'_\-\s]+|[،؛.:!؟\(\)\[\]«»"'_\-\s]+$/g, '').trim();
+
   if (!rawSnip) {
-    const cleanQ = query.replace(/[\u064B-\u0652]/g, '').trim();
+    const cleanQ = (query || '').replace(/[،؛.:!؟\(\)\[\]«»"'_\-\s]+/g, ' ').trim();
+    const words = cleanQ.split(/\s+/).map(cleanPunct).filter(Boolean);
+    const phrase = words.slice(0, 4).join(' ');
     return {
       mahalSyahid: query,
       snippetWithHighlight: query,
-      textFragment: cleanQ ? `#:~:text=${encodeURIComponent(cleanQ)}` : '',
-      startWords: cleanQ,
+      textFragment: phrase ? `#:~:text=${encodeURIComponent(phrase)}` : '',
+      startWords: phrase,
       endWords: '',
     };
   }
@@ -82,16 +86,20 @@ function extractMahalSyahid(rawSnip, query) {
     .replace(/\s+/g, ' ')
     .trim();
 
-  // 2. Ambil teks murni tanpa tag em
-  const textWithoutTags = clean.replace(/<\/?em>/gi, '').trim();
+  // 2. Ambil teks mulai dari tag <em> pertama jika tersedia agar fokus pada mahallus syahid
+  let targetText = clean;
+  const emIndex = clean.indexOf('<em>');
+  if (emIndex !== -1) {
+    targetText = clean.slice(emIndex);
+  }
 
-  // 3. Helper pembersih tanda baca ekstrem untuk kecocokan Chrome Text Fragment
-  const cleanPunct = (s) => s.replace(/^[،؛.:!؟\(\)\[\]«»"'_\-\s]+|[،؛.:!؟\(\)\[\]«»"'_\-\s]+$/g, '').trim();
+  // Bersihkan tag <em> untuk mengambil kata-kata murni
+  const textWithoutTags = targetText.replace(/<\/?em>/gi, '').trim();
+  const words = textWithoutTags.split(/\s+/).map(cleanPunct).filter(Boolean);
 
-  const words = textWithoutTags.split(/\s+/).filter(Boolean);
   if (words.length === 0) {
     return {
-      mahalSyahid: textWithoutTags,
+      mahalSyahid: clean.replace(/<\/?em>/gi, '').trim(),
       snippetWithHighlight: clean.replace(/<em>/gi, '**').replace(/<\/em>/gi, '**'),
       textFragment: '',
       startWords: '',
@@ -99,37 +107,17 @@ function extractMahalSyahid(rawSnip, query) {
     };
   }
 
-  let textFragment = '';
-  let startWords = '';
-  let endWords = '';
-
-  if (words.length <= 5) {
-    // Frasa ringkas: gunakan teks utuh
-    const phrase = cleanPunct(words.join(' '));
-    startWords = phrase;
-    textFragment = phrase ? `#:~:text=${encodeURIComponent(phrase)}` : '';
-  } else {
-    // Frasa panjang: gunakan W3C text fragment range (startWords,endWords)
-    // yang diambil langsung dari teks kitab agar tahan terhadap variasi kata di tengah
-    const startCandidates = words.slice(0, 3).map(cleanPunct).filter(Boolean);
-    const endCandidates = words.slice(-3).map(cleanPunct).filter(Boolean);
-
-    startWords = startCandidates.join(' ');
-    endWords = endCandidates.join(' ');
-
-    if (startWords && endWords && startWords !== endWords) {
-      textFragment = `#:~:text=${encodeURIComponent(startWords)},${encodeURIComponent(endWords)}`;
-    } else if (startWords) {
-      textFragment = `#:~:text=${encodeURIComponent(startWords)}`;
-    }
-  }
+  // 3. Frasa Tunggal Bersambung (3-4 kata, TANPA KOMA/RANGE)
+  const count = Math.min(words.length, 4);
+  const keyPhrase = words.slice(0, count).join(' ');
+  const textFragment = keyPhrase ? `#:~:text=${encodeURIComponent(keyPhrase)}` : '';
 
   return {
-    mahalSyahid: textWithoutTags,
+    mahalSyahid: clean.replace(/<\/?em>/gi, '').trim(),
     snippetWithHighlight: clean.replace(/<em>/gi, '**').replace(/<\/em>/gi, '**'),
     textFragment,
-    startWords,
-    endWords,
+    startWords: keyPhrase,
+    endWords: '',
   };
 }
 

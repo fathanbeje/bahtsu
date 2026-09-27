@@ -259,7 +259,7 @@ Setiap kali asisten selesai membahas dan menyusun rumusan suatu masalah keagamaa
      ```powershell
      node scripts/turath_linter.js kajian/YYYY-MM-DD-slug-tema.md --fix
      ```
-   - Linter memvalidasi eksistensi kitab di basis data Turath.io, mencocokkan nomor halaman internal dan cetak, memverifikasi kesesuaian teks ibarat, serta menyematkan penanda *mahallus syahid* berbasis W3C Scroll-to-Text-Fragment (`#:~:text=startWords,endWords`).
+   - Linter memvalidasi eksistensi kitab di basis data Turath.io, mencocokkan nomor halaman internal dan cetak, memverifikasi kesesuaian teks ibarat, serta menyematkan penanda *mahallus syahid* berbasis W3C Scroll-to-Text-Fragment frasa tunggal bersambung (`#:~:text=kata1%20kata2%20kata3` tanpa sintaks koma/range).
    - **Pintu Gerbang Kualitas (Quality Gate):** Dilarang keras melanjutkan ke tahap commit/push jika linter masih menemukan ketidakcocokan (`WRONG_PAGE_ID`, `MISMATCH_BOOK`, atau `TEXT_NOT_FOUND`). Naskah wajib mencapai status `100% VALID & cocok dengan Turath.io`.
 4. **Pembaruan Berkas CHANGELOG.md (Skill changelog-generator):**
    - **WAJIB:** Setiap kali ada penambahan bahan kajian baru, perubahan metodologi, atau pembaruan repositori/keamanan, asisten **WAJIB memperbarui berkas `CHANGELOG.md`** mengadopsi standar Keep a Changelog (menggunakan panduan skill `changelog-generator`).
