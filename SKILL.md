@@ -249,9 +249,16 @@ Setiap kali asisten selesai membahas dan menyusun rumusan suatu masalah keagamaa
    - Tulis seluruh isi naskah draf tersebut ke dalam berkas Markdown di direktori `kajian/` pada repositori proyek (`c:\xampp\htdocs\bahtsu`).
    - Format penamaan berkas: `kajian/YYYY-MM-DD-slug-tema.md` (Gunakan tanggal hari ini dalam format angka ISO `YYYY-MM-DD` dan slug deskriptif bahasa Indonesia tanpa spasi).
      *Contoh:* `kajian/2026-09-25-status-transaksi-cryptocurrency.md`.
-3. **Pembaruan Berkas CHANGELOG.md (Skill changelog-generator):**
+3. **Audit & Auto-Fix Tautan Turath (Skill Turath Linter & Quality Gate):**
+   - **WAJIB:** Setiap kali selesai menyusun atau memperbarui berkas kajian `.md`, asisten **WAJIB MENJALANKAN LINTER OTOMATIS**:
+     ```powershell
+     node scripts/turath_linter.js kajian/YYYY-MM-DD-slug-tema.md --fix
+     ```
+   - Linter memvalidasi eksistensi kitab di basis data Turath.io, mencocokkan nomor halaman internal dan cetak, memverifikasi kesesuaian teks ibarat, serta menyematkan penanda *mahallus syahid* berbasis W3C Scroll-to-Text-Fragment (`#:~:text=startWords,endWords`).
+   - **Pintu Gerbang Kualitas (Quality Gate):** Dilarang keras melanjutkan ke tahap commit/push jika linter masih menemukan ketidakcocokan (`WRONG_PAGE_ID`, `MISMATCH_BOOK`, atau `TEXT_NOT_FOUND`). Naskah wajib mencapai status `100% VALID & cocok dengan Turath.io`.
+4. **Pembaruan Berkas CHANGELOG.md (Skill changelog-generator):**
    - **WAJIB:** Setiap kali ada penambahan bahan kajian baru, perubahan metodologi, atau pembaruan repositori/keamanan, asisten **WAJIB memperbarui berkas `CHANGELOG.md`** mengadopsi standar Keep a Changelog (menggunakan panduan skill `changelog-generator`).
-4. **Otomatisasi Git Commit & Push:**
+5. **Otomatisasi Git Commit & Push:**
    - Jalankan perintah terminal untuk menyimpan dan mengirim perubahan ke GitHub:
      ```powershell
      git add kajian/YYYY-MM-DD-slug-tema.md CHANGELOG.md
