@@ -755,10 +755,18 @@ app.post('/api/kajian/save', checkAuth, async (req, res) => {
         }
 
         const addTargets = changelogModified ? `"kajian/${filename}" "CHANGELOG.md"` : `"kajian/${filename}"`;
-        await execAsync(`git pull --rebase origin HEAD && git add ${addTargets} && git commit -m "docs(kajian): tambah bahan kajian ${commitTitle} & changelog" && git push origin HEAD`, {
-          cwd: repoRoot,
-          timeout: 30000,
-        });
+        try {
+          await execAsync(`git add ${addTargets} && git commit -m "docs(kajian): tambah bahan kajian ${commitTitle} & changelog" && git push origin HEAD`, {
+            cwd: repoRoot,
+            timeout: 30000,
+          });
+        } catch (firstPushErr) {
+          // Jika ada pembaruan di remote, lakukan rebase commit lokal lalu dorong kembali
+          await execAsync(`git pull --rebase origin HEAD && git push origin HEAD`, {
+            cwd: repoRoot,
+            timeout: 30000,
+          });
+        }
         gitPushed = true;
         gitNote = ' & di-push ke GitHub (private)';
       } catch (gitErr) {
