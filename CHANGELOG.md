@@ -4,6 +4,28 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.9] - 2026-09-27
+
+### ⚡ Standardisasi Frasa Tunggal Bersambung & Eliminasi Sintaks Range Berkoma
+- **Eliminasi Total Sintaks Range Berkoma (`startWords,endWords`):**
+  - Menghentikan sepenuhnya penggunaan sintaks range W3C Scroll-to-Text Fragment dengan koma (`#:~:text=start,end`).
+  - Analisis mendalam membuktikan bahwa traversal DOM peramban (Chrome/Edge/Safari) pada Single Page Application (SPA) Turath.io kerap gagal menyorot teks jika rentang `start` dan `end` terpotong oleh nomor catatan kaki `(١)`, tag HTML (`<span>`, `<em>`), atau jeda paragraf, sehingga peramban menyerah dan tidak menyorot apapun.
+  - Menetapkan standar baku **Frasa Tunggal Bersambung (*Single Continuous Phrase*)**: W3C Fragment kini secara eksklusif menggunakan 3–4 kata awal berturutan tanpa koma (`#:~:text=word1%20word2%20word3`), menjamin penyorotan kuning pada simpul teks (*text node*) dengan stabilitas 100%.
+- **Ekstraksi Diakritik Asli Berbasis Konteks Turath.io:**
+  - Utilitas linter (`scripts/turath_linter.js`) kini menyelaraskan teks fragment langsung dari simpul respons API Turath (`item.text` / `item.snip`). Jika naskah kitab di Turath berharakat asli (seperti *Durar al-Hukkam* dan *Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah*), fragment mengambil ejaan berharakat asli. Jika gundul, fragment mengambil ejaan gundul asli Turath.
+- **Koreksi Halaman Rujukan Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (*Al-Farqu baynar Rasul wal Wakil*):**
+  - Mengoreksi sitasi ke-5 pada `kajian/2026-09-25-model-bisnis-muse-ai-meta.md`:
+    - Mengoreksi parameter halaman dari `page=1241` (Jilid 2, Hal 293 bab *Ikhtilaf* yang salah kamar) ke halaman otentik `page=24958` (Jilid 36, Hal 350 bab *Al-Farqu baynar Rasul wal Wakil*).
+    - Menyelaraskan teks ibarat matan dan tautan verifikasi dengan teks otentik Turath: `الْفَرْقُ بَيْنَ الرَّسُول وَالْوَكِيل`.
+- **Audit Menyeluruh & Pembersihan Komprehensif (121/121 Rujukan 100% Valid):**
+  - Menjalankan migrasi otomatis linter pada seluruh 14 berkas kajian di direktori `kajian/`.
+  - Berhasil mengonversi 97 tautan yang sebelumnya menggunakan sintaks range berkoma menjadi frasa tunggal bersambung.
+  - Memastikan seluruh 121 rujukan berstatus `✅ Cocok` tanpa satupun tautan berkoma atau salah halaman.
+- **Pembaruan Antarmuka Web Bahtsu Klangopan (`v2.5.9`):**
+  - Memperbarui label versi aplikasi menjadi `v2.5.9` pada bilah navigasi (`Header.jsx`), modal pengaturan (`SettingsModal.jsx`), dan `package.json`.
+
+---
+
 ## [2.5.8] - 2026-09-27
 
 ### 🎯 Preservasi Harakat Otentik Kitab Turats & Penyelarasan Halaman Presisi

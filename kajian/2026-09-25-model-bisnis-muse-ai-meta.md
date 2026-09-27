@@ -101,7 +101,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Transaksi yang dijalankan oleh agen otonom Muse AI di mana pengguna cukup memasukkan instruksi pencarian/pembelian digital kemudian sistem memproses pembayaran dan peritel mengirim barang, sepenuhnya diakui sebagai akad yang sah berdasarkan kaidah *mu'āthāh* kontemporer (*at-ta'āqud al-iliktrūnī*), karena secara adat teknologi masa kini perbuatan tersebut telah secara qath'i menunjukkan kehendak jual-beli dan saling rela (*at-tarādhi*).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Ref: Buhuts Fiqhiyyah / Al-Majmu')](https://app.turath.io/book/1532?page=275#:~:text=%D9%81%D9%8A%20%D9%83%D9%84%20%D9%85%D8%A7,%D9%87%D9%88%20%D8%A7%D9%84%D8%B1%D8%A7%D8%AC%D8%AD%20%D8%AF%D9%84%D9%8A%D9%84%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Ref: Buhuts Fiqhiyyah / Al-Majmu')](https://app.turath.io/book/1532?page=275#:~:text=%D9%81%D9%8A%20%D9%83%D9%84%20%D9%85%D8%A7%20%D9%8A%D8%B9%D8%AF%D9%87)
 
 2. **Kitab Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazhil Minhaj (Juz 2, Halaman 326–327)**  
    *Karya: Al-Khathib Asy-Syirbini (Wafat 977 H) | Lapisan: Kitab Induk Syaikhoni & Muta'akhirin*  
@@ -112,7 +112,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Agen AI (Muse AI) secara yuridis syariah tidak berkedudukan sebagai agen mandiri (*bukan wakil haqiqi yang memiliki iradah bebas*), melainkan berstatus sebagai **instrumen utusan digital (*safīr / rasūl iliktrūnī*)** yang bertugas meneruskan dan mengeksekusi parameter instruksi yang ditetapkan oleh pemilik akun. Oleh karena itu, ketidakberdayaan AI sebagai makhluk berakal tidak membatalkan keabsahan transaksi, selama tindakan sistem berada dalam koridor mandat penggunanya.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mughni Al-Muhtaj 2/326)](https://app.turath.io/book/11444?page=3213#:~:text=%D9%81%D9%82%D8%A8%D9%84%20%D8%B9%D9%86%D8%AF%20%D8%A8%D9%84%D9%88%D8%BA,%D9%81%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D9%82%D8%AF%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mughni Al-Muhtaj 2/326)](https://app.turath.io/book/11444?page=3213#:~:text=%D9%81%D9%82%D8%A8%D9%84%20%D8%B9%D9%86%D8%AF%20%D8%A8%D9%84%D9%88%D8%BA%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8)
 
 3. **Kitab Fathul Mu'in bi Syarhi Qurratil 'Ain & Hasyiyah I'anatuth Thalibin (Juz 3, Halaman 101–103)**  
    *Karya: Zainuddin Al-Malibari & Sayyid Abu Bakar Syatha Ad-Dimyathi (Wafat 1310 H) | Lapisan: Kitab Hawasyi & Fatawa Muktamadah*  
@@ -123,7 +123,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini menegaskan batasan otorisasi sistem kecerdasan buatan. Apabila Muse AI mengeksekusi transaksi yang melenceng dari spesifikasi (misalnya membeli barang melebihi pagu harga anggaran pengguna, memesan tiket pada tanggal yang salah akibat kesalahan model AI), maka transaksi tersebut tidak serta-merta mengikat pengguna (*status fudhuli*), dan pengguna berhak membatalkan perikatan serta menuntut ganti rugi pemulihan saldo kepada Meta jika kesalahan bersumber dari bug/malafungsi sistem platform.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (I'anatuth Thalibin 3/101)](https://app.turath.io/book/963?page=781#:~:text=%D8%A3%D9%8A%20%D9%83%D8%A8%D9%8A%D8%B9%20%D9%88%D8%B4%D8%B1%D8%A7%D8%A1,%D9%81%D9%8A%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%A2%D9%85%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (I'anatuth Thalibin 3/101)](https://app.turath.io/book/963?page=781#:~:text=%D8%A3%D9%8A%20%D9%83%D8%A8%D9%8A%D8%B9%20%D9%88%D8%B4%D8%B1%D8%A7%D8%A1%20%D9%88%D8%A5%D8%AC%D8%A7%D8%B1%D8%A9)
 
 4. **Kitab Al-Asybah wan Nazha'ir fi Qawa'id wa Furu' Fiqh Asy-Syafi'iyyah (Halaman 308) & Durar al-Hukkam Syarah Majallatil Ahkam (Juz 1, Halaman 69)**  
    *Karya: Al-Imam Jalaluddin As-Suyuthi (Wafat 911 H) & Ali Haidar | Lapisan: Kaidah Fiqhiyyah & Qanun Muamalah*  
@@ -136,16 +136,16 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Durar al-Hukkam 1/69)](https://app.turath.io/book/21692?page=53#:~:text=%D8%A7%D9%84%D9%92%D9%83%D9%90%D8%AA%D9%8E%D8%A7%D8%A8%D9%8F%20%D9%83%D9%8E%D8%A7%D9%84%D9%92%D8%AE%D9%90%D8%B7%D9%8E%D8%A7%D8%A8%D9%90)
 
-5. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 36, Halaman 350 & Juz 45, Halaman 14–16)**  
+5. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 36, Halaman 350)**  
    *Karya: Kementerian Wakaf & Urusan Keislaman Kuwait | Lapisan: Muqaranah Madzahib al-Arba'ah*  
 
-   > الفرق بين الوكيل والرسول: <u>**【أن الرسول محض معبر عن كلام المرسل وناقل لإرادته، فلا يضيف العقد إلى نفسه، بل يضاف العقد إلى المرسل مباشرة، ولا يشترط في الرسول أهلية التعاقد كالبلوغ والعقل الكامل، حتى يصح كونه صبيا أو آلة ناقلة】**</u>، بخلاف الوكيل الذي ينشئ العقد بعبارة نفسه فيشترط فيه كمال الأهلية.  
+   > وَفِي الْمِعْرَاجِ قِيلَ: <u>**【الْفَرْقُ بَيْنَ الرَّسُول وَالْوَكِيل أَنَّ الْوَكِيل لاَ يُضِيفُ الْعَقْدَ إِلَى الْمُوَكِّل، وَالرَّسُول لاَ يَسْتَغْنِي عَنْ إِضَافَتِهِ إِلَى الْمُرْسِل】**</u>. وَقَالَ ابْنُ عَابِدِينَ: إِنَّ الرَّسُولَ لَا بُدَّ لَهُ مِنْ إِضَافَةِ الْعَقْدِ إِلَى مُرْسِلِهِ لِأَنَّهُ مُعَبِّرٌ وَسَفِيرٌ، بِخِلَافِ الْوَكِيلِ فَإِنَّهُ لَا يُضِيفُ الْعَقْدَ إِلَى الْمُوَكِّلِ.  
 
-   *Makna Murod / Terjemah:* Perbedaan mendasar antara wakil dan rasul (utusan): Bahwa utusan semata-mata menjadi penerjemah/penutur atas perkataan pihak yang mengutusnya dan pemindah kehendaknya semata; ia tidak menyandarkan perikatan akad kepada dirinya sendiri, melainkan akad disandarkan secara langsung kepada pihak pengirim. Oleh karena itu, pada diri utusan tidak disyaratkan kelayakan berakad penuh seperti baligh dan berakal sempurna, sehingga sah perantara tersebut berupa anak kecil mumayyiz ataupun perkakas/alat transmisi data. Berbeda halnya dengan wakil yang menciptakan akad dengan lafazh kehendak dirinya sendiri, sehingga disyaratkan padanya kesempurnaan kecakapan hukum (*kamalul ahliyyah*).  
+   *Makna Murod / Terjemah:* Disebutkan dalam kitab Al-Mi'raj: Perbedaan antara utusan (*rasul*) dan penerima kuasa (*wakil*) adalah bahwa wakil tidak menyandarkan akad kepada pihak yang mewakilkan (ia dapat mengikat atas nama kedudukannya), sedangkan utusan mutlak harus menyandarkan akad kepada pihak pengirim (*mursil*). Ibnu 'Abidin menegaskan: Sesungguhnya utusan niscaya menyandarkan perikatan kepada pengirimnya karena ia semata-mata penutur maksud (*mu'abbir*) dan duta perantara (*safir*), berbeda halnya dengan wakil yang tidak menyandarkan akad kepada pemberi kuasa (kecuali pada bab nikah, khulu', hibah, dan gadai).  
 
-   *Wajhul Istidlal / Wajhul Ilhāq:* Komparasi ini memberikan landasan ushuli yang sangat presisi: Agen AI Muse AI bertindak sebagai *ālah nāqilah* (perkakas transmisi kehendak) dan *rasūl*, sehingga ketiadaan nyawa dan akal biologis pada perangkat lunak AI tidak menjadi cacat hukum bagi sahnya transaksi e-commerce yang dijalankan.  
+   *Wajhul Istidlal / Wajhul Ilhāq:* Komparasi ini memberikan landasan ushuli yang sangat presisi: Agen AI Muse AI bertindak sebagai instrumen duta teknologis (*safīr wa mu'abbir*) dan utusan (*rasūl*), sehingga ketiadaan nyawa dan akal biologis pada perangkat lunak AI tidak menjadi cacat hukum bagi sahnya transaksi e-commerce yang dijalankan karena perikatan secara langsung kembali kepada pemilik akun (*al-mursil*).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 36/350)](https://app.turath.io/book/11430?page=1241#:~:text=%D8%A3%D9%86%20%D8%A7%D9%84%D8%B1%D8%B3%D9%88%D9%84%20%D9%85%D8%AD%D8%B6,%D8%A3%D9%88%20%D8%A2%D9%84%D8%A9%20%D9%86%D8%A7%D9%82%D9%84%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 36/350)](https://app.turath.io/book/11430?page=24958#:~:text=%D8%A7%D9%84%D9%92%D9%81%D9%8E%D8%B1%D9%92%D9%82%D9%8F%20%D8%A8%D9%8E%D9%8A%D9%92%D9%86%D9%8E%20%D8%A7%D9%84%D8%B1%D9%91%D9%8E%D8%B3%D9%8F%D9%88%D9%84%20%D9%88%D9%8E%D8%A7%D9%84%D9%92%D9%88%D9%8E%D9%83%D9%90%D9%8A%D9%84)
 
 ---
 
@@ -160,7 +160,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Kehadiran Meta melalui Muse AI yang mempertemukan peritel dengan pembeli dan menuntaskan penjualan secara otomatis adalah hakikat kerja kepialangan (*as-samsarah wad-dalālah*). Pengambilan komisi persentase atau biaya transaksi dari peritel mitra memiliki legalitas qath'i dari konsensus atsar para sahabat dan tabi'in yang diriwayatkan oleh Imam Al-Bukhari.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Shahih Al-Bukhari 3/92)](https://app.turath.io/book/1681?page=3609#:~:text=%D9%88%D9%84%D9%85%20%D9%8A%D8%B1%20%D8%A7%D8%A8%D9%86,%D9%88%D9%83%D8%B0%D8%A7%20%D9%81%D9%87%D9%88%20%D9%84%D9%83)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Shahih Al-Bukhari 3/92)](https://app.turath.io/book/1681?page=3609#:~:text=%D9%88%D9%8E%D9%84%D9%8E%D9%85%D9%92%20%D9%8A%D9%8E%D8%B1%D9%8E%20%D8%A7%D8%A8%D9%92%D9%86%D9%8F%20%D8%B3%D9%90%D9%8A%D8%B1%D9%90%D9%8A%D9%86%D9%8E)
 
 2. **Kitab Rawdhatuth Thalibin wa 'Umdatul Muftin (Juz 3, Halaman 20 & Juz 4, Halaman 305)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Syaikhoni*  
@@ -171,7 +171,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Kesepakatan antara peritel (misal Expedia atau Walmart) dengan Meta di mana peritel berjanji: "Setiap transaksi tiket atau belanja yang berhasil dibukukan melalui asisten Muse AI akan diberikan komisi sebesar 3% dari nilai transaksi", terkategori secara sah dalam akad **Ju'ālah** (sayembara pencapaian hasil kerja) atau **Simsārah**. Imbalan baru wajib dibayarkan saat hasil kerja (*injāzul 'amal* / transaksi sukses) terwujud.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Rawdhatuth Thalibin 3/20)](https://app.turath.io/book/499?page=827#:~:text=%D9%88%D8%AA%D8%B5%D8%AD%20%D8%A7%D9%84%D8%AC%D8%B9%D8%A7%D9%84%D8%A9%20%D8%B9%D9%84%D9%89,%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D8%B9%D9%88%D8%B6%20%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Rawdhatuth Thalibin 3/20)](https://app.turath.io/book/499?page=827#:~:text=%D9%88%D9%8E%D8%AA%D9%8E%D8%B5%D9%90%D8%AD%D9%91%D9%8F%20%D8%A7%D9%84%D9%92%D8%AC%D9%8E%D8%B9%D9%8E%D8%A7%D9%84%D9%8E%D8%A9%D9%8F%20%D8%B9%D9%8E%D9%84%D9%8E%D9%89%20%D9%83%D9%8F%D9%84%D9%91%D9%90)
 
 3. **Kitab Bughyatul Mustarsyidin fi Talkhisi Fatawa Ba'dhil A'immatil Muta'akhirin (Halaman 165–167)**  
    *Karya: Al-Allamah As-Sayyid Abdurrahman bin Muhammad Ba'alawi Al-Hadhrami (Wafat 1320 H) | Lapisan: Kitab Fatawa Muktamadah Nuusantara*  
@@ -182,7 +182,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Penegasan mufti Hadhramaut ini membuktikan bahwa perantaraan melalui perantara teknis otomatis (*bi wasithati asbabihi wa a'wanihi*, yang dalam konteks modern adalah bot agen AI) tetap berhak atas *ju'lu al-musamma* (komisi yang disepakati), sebab manfaat komersial berupa terjualnya produk mitra benar-benar terealisasi secara nyata (*manfa'ah mutahaqqiqah*).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Ref: Fatawa Iqtishadiyyah / Bughyah)](https://app.turath.io/book/1611?page=828#:~:text=%D8%B5%D8%AD%20%D8%B0%D9%84%D9%83%20%D9%88%D9%83%D8%A7%D9%86,%D8%A8%D9%87%20%D9%85%D8%B5%D8%A7%D9%84%D8%AD%20%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Ref: Fatawa Iqtishadiyyah / Bughyah)](https://app.turath.io/book/1611?page=828#:~:text=%D8%B5%D8%AD%20%D8%B0%D9%84%D9%83%20%D9%88%D9%83%D8%A7%D9%86%20%D8%AC%D8%B9%D8%A7%D9%84%D8%A9)
 
 4. **Kitab Qawa'idul Ahkam fi Mashalihil Anam (Juz 2, Halaman 72)**  
    *Karya: Sultanul Ulama Al-Imam Al-'Izz bin Abdis Salam (Wafat 660 H) | Lapisan: Kaidah Fiqhiyyah & Ushul Syariah*  
@@ -193,7 +193,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Meta membangun infrastruktur teknologi AI bernilai miliaran dolar yang menghubungkan peritel dengan jutaan konsumen siap beli (*ready-to-buy intent*). Komisi yang diterima Meta adalah kompensasi halal atas fasilitasi fasilitas komersial (*at-tasabbub fi tahshili al-mashlahah*) yang sah dan bukan pemerasan batil.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qawa'idul Ahkam 2/72)](https://app.turath.io/book/21786?page=824#:~:text=%D9%83%D9%84%20%D9%85%D9%86%20%D8%A8%D8%B0%D9%84,%D8%A7%D9%84%D8%AC%D9%87%D9%88%D8%AF%20%D9%88%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%81%D9%82%20%D8%A7%D9%84%D9%85%D8%A8%D8%B0%D9%88%D9%84%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qawa'idul Ahkam 2/72)](https://app.turath.io/book/21786?page=824#:~:text=%D9%83%D9%84%20%D9%85%D9%86%20%D8%A8%D8%B0%D9%84%20%D9%85%D9%86%D9%81%D8%B9%D8%A9)
 
 5. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 10, Halaman 152 & Juz 25, Halaman 137)**  
    *Karya: Kementerian Wakaf & Urusan Keislaman Kuwait | Lapisan: Muqaranah Madzahib al-Arba'ah*  
@@ -204,7 +204,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Ijmak lintas madzhab ini menjadi payung hukum kokoh atas operasional *transactional revenue* yang diterapkan Meta, selama produk yang diperjualbelikan suci dan mubah secara syariat.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 10/152)](https://app.turath.io/book/11430?page=6382#:~:text=%D9%88%D8%A7%D9%84%D8%B3%D9%85%D8%B3%D8%B1%D8%A9%20%D8%A7%D8%B5%D8%B7%D9%84%D8%A7%D8%AD%D8%A7%20%D9%87%D9%8A,%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A9%20%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%B9%D8%A9%20%D8%AD%D9%84%D8%A7%D9%84%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 10/152)](https://app.turath.io/book/11430?page=6382#:~:text=%D9%88%D9%8E%D8%A7%D9%84%D8%B3%D9%91%D9%8E%D9%85%D9%92%D8%B3%D9%8E%D8%B1%D9%8E%D8%A9%D9%8F%20%D8%A7%D8%B5%D9%92%D8%B7%D9%90%D9%84%D8%A7%D9%8E%D8%AD%D9%8B%D8%A7%20%D9%87%D9%90%D9%8A%D9%8E%20%D8%A7%D9%84%D8%AA%D9%91%D9%8E%D9%88%D9%8E%D8%B3%D9%91%D9%8F%D8%B7%D9%8F)
 
 ---
 
@@ -219,7 +219,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Sistem langganan Muse AI berbayar (misal tarif $20/bulan) adalah implementasi murni dari **Ijārah Taqdiril Muddah** (sewa manfaat berbasis durasi waktu bulanan), di mana Meta memberikan akses login dan hak pemakaian infrastruktur komputasi awan (*cloud inference capacity*). Selama masa sewa aktif dan server berfungsi baik, pembayaran langganan tersebut sah dan halal secara mutlak.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Majmu' Syarah Al-Muhadzdzab 14/201)](https://app.turath.io/book/1026?page=1317#:~:text=%D9%88%D9%87%D9%8A%20%D8%B9%D9%82%D8%AF%20%D8%B9%D9%84%D9%89,%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%A3%D8%AC%D8%B1%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%81%D8%A7%D8%A1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Majmu' Syarah Al-Muhadzdzab 14/201)](https://app.turath.io/book/1026?page=1317#:~:text=%D9%88%D9%87%D9%8A%20%D8%B9%D9%82%D8%AF%20%D8%B9%D9%84%D9%89%20%D9%85%D9%86%D9%81%D8%B9%D8%A9)
 
 2. **Kitab Tuhfatul Muhtaj bi Syarh al-Minhaj (Juz 6, Halaman 120–125)**  
    *Karya: Al-Imam Ibnu Hajar Al-Haitami (Wafat 974 H) | Lapisan: Kitab Induk Muta'akhirin / Rujukan Mu'tamad Fatwa Nusantara*  
@@ -230,7 +230,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Skema pembatasan kuota (misal batasan kuota token pemrosesan 100 juta token per pekan, atau batasan kuota prompt prioritas per bulan) memiliki legitimasi langsung dalam kaidah *jam'u bayna at-taqdir bil 'amal wa at-taqdir biz-zaman* (penggabungan batas volume kerja dan batas waktu durasi) yang dinyatakan sah oleh Ibnu Hajar Al-Haitami.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Tuhfatul Muhtaj 6/120)](https://app.turath.io/book/8356?page=18915#:~:text=%D8%A5%D9%85%D8%A7%20%D8%A8%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%86%20%D9%83%D8%B3%D9%83%D9%86%D9%89,%D9%81%D9%8A%20%D8%A3%D8%AC%D9%84%20%D9%85%D8%B9%D9%8A%D9%86)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Tuhfatul Muhtaj 6/120)](https://app.turath.io/book/8356?page=18915#:~:text=%D8%A5%D9%85%D8%A7%20%D8%A8%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%86%20%D9%83%D8%B3%D9%83%D9%86%D9%89%20%D8%AF%D8%A7%D8%B1)
 
 3. **Kitab Hasyiyah Qalyubi wa 'Umairah (Juz 3, Halaman 70–73)**  
    *Karya: Syihabuddin Al-Qalyubi & Syihabuddin Ahmad Al-'Umairah | Lapisan: Kitab Hawasyi Syafi'iyyah*  
@@ -241,7 +241,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Ibarat ini secara brilian memberikan dasar fikih bagi **Model Freemium**: Penyediaan akses dasar gratis hingga batas token tertentu diposisikan sebagai *ibāhah majjāniyyah* (hibah manfaat mubah), dan ketika pengguna menghendaki kapasitas melebihi batas gratis (*tier berbayar*), akad beralih menjadi ijarah mu'awadhah yang sah tanpa kontradiksi.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qalyubi wa 'Umairah 3/70)](https://app.turath.io/book/963?page=879#:~:text=%D9%81%D8%A5%D9%86%20%D8%A8%D8%B0%D9%84%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%83,%D8%A5%D8%AC%D8%A7%D8%B1%D8%A9%20%D8%B5%D8%AD%D9%8A%D8%AD%D8%A9%20%D8%A8%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qalyubi wa 'Umairah 3/70)](https://app.turath.io/book/963?page=879#:~:text=%D9%81%D8%A5%D9%86%20%D8%A8%D8%B0%D9%84%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%83%20%D9%85%D9%86%D9%81%D8%B9%D8%A9)
 
 4. **Kaidah Fiqhiyyah: Al-Ghurmu bil Ghunmi & Al-Kharaj bidh Dhaman**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 136) & Hadits Riwayat Ahmad, Abu Dawud, At-Tirmidzi*  
@@ -263,7 +263,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Penyewaan kapasitas komputasi digital (*software as a service / AI capacity*) diakui oleh lintas madzhab sebagai objek ijarah yang sah berdasarkan *'urf* teknologi modern.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Bada'i' ash-Shana'i' 4/174)](https://app.turath.io/book/11430?page=10530#:~:text=%D8%A7%D9%84%D8%A5%D8%AC%D8%A7%D8%B1%D8%A9%20%D8%B4%D8%B1%D8%B9%D8%AA%20%D9%84%D8%AD%D8%A7%D8%AC%D8%A9,%D9%81%D9%8A%20%D9%83%D9%84%20%D8%B9%D8%B5%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Bada'i' ash-Shana'i' 4/174)](https://app.turath.io/book/11430?page=10530#:~:text=%D8%A7%D9%84%D8%A5%D8%AC%D8%A7%D8%B1%D8%A9%20%D8%B4%D8%B1%D8%B9%D8%AA%20%D9%84%D8%AD%D8%A7%D8%AC%D8%A9%20%D8%A7%D9%84%D9%86%D8%A7%D8%B3)
 
 ---
 
@@ -278,7 +278,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Larangan penipuan ini mencakup manipulasi algoritma rekomendasi (*algorithmic ranking manipulation*). Jika Meta menyetel Muse AI untuk mengklaim bahwa produk dari mitra X adalah "opsi terbaik dan termurah" padahal pada kenyataannya produk dari pihak lain lebih berkualitas dan lebih murah—semata demi Meta mengejar komisi peritel X yang lebih gemuk—maka tindakan tersebut jatuh dalam kategori **Tadlīs wa Ghisy yang Diharamkan**.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Umm / Sunan wal Atsar 10/67)](https://app.turath.io/book/2863?page=1655#:~:text=%D9%86%D9%87%D9%89%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87,%D8%A8%D8%BA%D9%8A%D8%B1%20%D8%B7%D9%8A%D8%A8%20%D9%86%D9%81%D8%B3)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Umm / Sunan wal Atsar 10/67)](https://app.turath.io/book/2863?page=1655#:~:text=%D9%86%D9%8E%D9%87%D9%8E%D9%89%20%D8%B1%D9%8E%D8%B3%D9%8F%D9%88%D9%84%D9%8F%20%D8%A7%D9%84%D9%84%D9%91%D9%8E%D9%87%D9%90)
 
 2. **Kitab Nihayatul Muhtaj ila Syarhil Minhaj (Juz 3, Halaman 450–452)**  
    *Karya: Al-Imam Syamsuddin Muhammad bin Ahmad Ar-Ramli (Wafat 1004 H) | Lapisan: Kitab Induk Muta'akhirin*  
@@ -289,7 +289,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Penegasan ini menjadi landasan pengharaman rekayasa desakan transaksi semu (*artificial urgency / fake countdown / manipulative dark patterns*) yang dibuat oleh AI untuk menipu persepsi urgensi konsumen.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Nihayatul Muhtaj 3/450)](https://app.turath.io/book/14474?page=597#:~:text=%D9%88%D9%87%D9%88%20%D8%A3%D9%86%20%D9%8A%D8%B2%D9%8A%D8%AF,%D9%81%D9%8A%20%D8%B5%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%AF)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Nihayatul Muhtaj 3/450)](https://app.turath.io/book/14474?page=597#:~:text=%D9%88%D9%87%D9%88%20%D8%A3%D9%86%20%D9%8A%D8%B2%D9%8A%D8%AF%20%D9%81%D9%8A)
 
 3. **Kitab Qawa'idul Ahkam fi Mashalihil Anam (Juz 1, Halaman 124–126)**  
    *Karya: Sultanul Ulama Al-'Izz bin Abdis Salam (Wafat 660 H) | Lapisan: Qawa'id Syari'ah & Maqashid*  
@@ -300,7 +300,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Data riwayat belanja, preferensi personal, lokasi GPS, rekaman audio, dan percakapan intim pengguna dengan Muse AI berstatus sebagai **Amanah Syar'iyyah**. Meta diharamkan mengeksploitasi atau menjual profil perilaku (*behavioral profile*) pengguna kepada pengiklan pihak ketiga tanpa persetujuan eksplisit, guna menjaga maqashid *Hifzhul Māl*, *Hifzhun Nafs*, dan *Hifzhul 'Irdh*.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qawa'idul Ahkam 1/124)](https://app.turath.io/book/21786?page=841#:~:text=%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%86%D8%A7%D8%AA%20%D9%83%D9%84%D9%87%D8%A7%20%D9%8A%D8%AC%D8%A8,%D9%88%D8%AE%D9%8A%D8%A7%D9%86%D8%A9%20%D9%84%D9%84%D9%85%D8%B1%D9%88%D8%A1%D8%A9%20%D9%88%D8%A7%D9%84%D8%B4%D8%B1%D8%B9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qawa'idul Ahkam 1/124)](https://app.turath.io/book/21786?page=841#:~:text=%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%86%D8%A7%D8%AA%20%D9%83%D9%84%D9%87%D8%A7%20%D9%8A%D8%AC%D8%A8%20%D8%AD%D9%81%D8%B8%D9%87%D8%A7)
 
 4. **Kaidah Fiqhiyyah Kubra: Ad-Dhararu Yuzalu & La Dharara wa La Dhirar**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 83) & Hadits Riwayat Ahmad, Ibnu Majah, Malik*  
@@ -311,7 +311,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Hegemoni Meta atas *commercial intent* melalui ekosistem tertutup yang mengendalikan saluran distribusi komersial wajib diawasi secara ketat oleh regulasi negara (*siyasah syar'iyyah*) guna mencegah lahirnya monopoli digital (*al-ihtikar ar-raqami*) yang merugikan pedagang kecil dan UMKM.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi Halaman 83)](https://app.turath.io/book/2031?page=94#:~:text=%D8%A7%D9%84%D8%B6%D8%B1%D8%B1%20%D9%8A%D8%B2%D8%A7%D9%84%20%D9%88%D9%84%D8%A7,%D8%B9%D9%84%D9%89%20%D8%AC%D9%84%D8%A8%20%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D9%84%D8%AD)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi Halaman 83)](https://app.turath.io/book/2031?page=94#:~:text=%D8%A7%D9%84%D8%B6%D8%B1%D8%B1%20%D9%8A%D8%B2%D8%A7%D9%84)
 
 5. **Resolusi Majma' Al-Fiqh Al-Islami Ad-Duwali (Organisasi Kerjasama Islam / OKI)**  
    *Rujukan: Keputusan No. 52 (6/2) tentang Transaksi Elektronik & Piagam Etika Kecerdasan Buatan Islam*  
@@ -322,7 +322,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Fatwa kontemporer dunia Islam ini memantapkan bahwa Muse AI adalah wasilah sah, namun legalitas operasionalnya terikat dengan prinsip keterbukaan, ketiadaan penipuan, dan penghormatan hak asasi konsumen.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Majalah Majma' al-Fiqh al-Islami 5/973)](https://app.turath.io/book/8356?page=8522#:~:text=%D8%A5%D9%86%20%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%82%D8%AF%20%D8%B9%D8%A8%D8%B1,%D8%A7%D9%84%D8%BA%D8%B1%D8%B1%20%D9%88%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Majalah Majma' al-Fiqh al-Islami 5/973)](https://app.turath.io/book/8356?page=8522#:~:text=%D8%A5%D9%86%20%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%82%D8%AF)
 
 ---
 

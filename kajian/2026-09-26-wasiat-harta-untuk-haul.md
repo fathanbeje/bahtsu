@@ -111,7 +111,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam Al-Mawardi menegaskan konsensus kaum Muslimin (*ijmā'ul muslimīn*) bahwa wasiat yang nilainya berada di bawah sepertiga harta—sebagaimana dalam kasus sawah 2.000 m² dari 10.000 m² yang tepat bernilai seperlima ($1/5$)—adalah sah dan *nāfidz* secara otomatis. Ahli waris tidak memiliki hak veto untuk menolak atau membatalkan wasiat tersebut.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=7704#:~:text=%D9%88%D8%A3%D9%85%D8%A7%20%D8%A7%D9%84%D8%B3%D9%86%D8%A9%20%D9%81%D9%85%D8%A7,%D8%A7%D9%84%D8%AB%D9%84%D8%AB%20%D9%88%D8%A7%D9%84%D8%AB%D9%84%D8%AB%20%D9%83%D8%AB%D9%8A%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=7704#:~:text=%D9%88%D9%8E%D8%A3%D9%8E%D9%85%D9%91%D9%8E%D8%A7%20%D8%A7%D9%84%D8%B3%D9%91%D9%8F%D9%86%D9%91%D9%8E%D8%A9%D9%8F%20%D9%81%D9%8E%D9%85%D9%8E%D8%A7%20%D8%B1%D9%8E%D9%88%D9%8E%D8%A7%D9%87%D9%8F)
 
 
 2. **Kitab: Hasyiyata Qalyubi wa 'Umairah (Juz 4, Hal. 361)**  
@@ -125,7 +125,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Syaikh Al-Qalyubi menetapkan kriteria yuridis: selama ahli waris masih mendapatkan bagian minimal dua pertiga ($2/3$) dari total harta, wasiat sepertiga berlaku mutlak (*yanfudzu qahran*). Dalam kasus ini, anak-anak masih menerima 8.000 m² ($80\%$), yang jauh melebihi batas minimal dua pertiga ($66,67\%$).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21843?page=1577#:~:text=%D9%88%D8%B4%D8%B1%D8%B7%20%D9%85%D8%A7%20%D9%8A%D9%86%D9%81%D8%B0,%D8%A8%D9%82%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AB%D9%84%D8%AB%D9%8A%D9%86%20%D9%84%D9%84%D9%88%D8%B1%D8%AB%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21843?page=1577#:~:text=%D9%88%D9%8E%D8%B4%D9%8E%D8%B1%D9%92%D8%B7%D9%8F%20%D9%85%D9%8E%D8%A7%20%D9%8A%D9%8E%D9%86%D9%92%D9%81%D9%8F%D8%B0%D9%8F%20%D9%85%D9%90%D9%86%D9%92)
 
 ---
 
@@ -142,7 +142,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam Ibnu Hajar Al-Haitami menegaskan fatwa mu'tamad dari para imam madzhab Syafi'i bahwa wasiat untuk memberi makan orang-orang yang berkumpul mendoakan mayit hukumnya adalah **SAH dan dieksekusi dari sepertiga harta**. Beliau juga menggarisbawahi mafhum bahwa keharaman menggunakan tirkah untuk jamuan makan hanya terjadi jika tanpa wasiat dan di antara waris terdapat anak yatim/mahjur 'alaih. Bila didasari wasiat sepertiga, pelaksanaannya sah dan berpahala.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=1206#:~:text=%D9%88%D9%85%D9%86%20%D8%AB%D9%85%20%D8%AE%D8%A7%D9%84%D9%81,%D9%81%D9%86%D9%82%D9%84%D9%87%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=1206#:~:text=%D9%88%D9%8E%D9%85%D9%90%D9%86%D9%92%20%D8%AB%D9%8E%D9%85%D9%91%D9%8E%20%D8%AE%D9%8E%D8%A7%D9%84%D9%8E%D9%81%D9%8E%20%D8%B0%D9%8E%D9%84%D9%90%D9%83%D9%8E)
 
 
 4. **Kitab: Hasyiyatul Bujairimi 'alal Manhaj = At-Tajrid li Naf'il 'Abid (Juz 1, Hal. 503)**  
@@ -156,7 +156,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Syaikh Al-Bujairimi mengurai illat hukum (*manathul hukmi*) dari larangan berkumpul dan membuat makanan. Kemakruhan dan keharaman tersebut memiliki dua illat utama: 1) Jika dilakukan pada momen duka yang memberatkan keluarga sehingga menyerupai ratapan jahiliyah (*niyāhah*); dan 2) Jika dibiayai dari harta anak yatim/mahjur 'alaih tanpa izin syar'i. Dalam kasus wasiat haul ini, illat pertama gugur karena haul diselenggarakan berkala tiap tahun untuk mendoakan mayit, dan illat kedua gugur karena pembiayaan diambil dari wasiat sepertiga milik pewaris, bukan mengambil hak waris anak yatim.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21603?page=502#:~:text=%D8%A8%D9%84%20%D9%83%D9%84%20%D8%B0%D9%84%D9%83,%D8%AA%D8%B1%D8%AA%D8%A8%20%D8%B9%D9%84%D9%8A%D9%87%20%D8%B6%D8%B1%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21603?page=502#:~:text=%D8%A8%D9%8E%D9%84%D9%92%20%D9%83%D9%8F%D9%84%D9%91%D9%8F%20%D8%B0%D9%8E%D9%84%D9%90%D9%83%D9%8E%20%D8%AD%D9%8E%D8%B1%D9%8E%D8%A7%D9%85%D9%8C)
 
 ---
 
@@ -173,7 +173,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam Al-Khatib Asy-Syirbini menetapkan secara sharih bahwa wasiat manfaat tanah pertanian/sawah untuk selamanya (*zira'atu ardhin mu'abbadatan*) adalah sah. Konsekuensi yuridisnya: pokok tanah sawah 2.000 m² tersebut tidak boleh dibagi waris maupun diperjualbelikan, melainkan berstatus ditahan (*mahbūsah / waqaf*), dan seluruh hasil panennya dialokasikan untuk membiayai agenda wasiat (haul tahunan).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=1736#:~:text=%D9%88%20%D8%AA%D8%B5%D8%AD%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9,%D8%A3%D8%B1%D8%B6%20%D9%85%D8%A4%D8%A8%D8%AF%D8%A9%20%D9%88%D9%85%D8%A4%D9%82%D8%AA%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=1736#:~:text=%D9%88%D9%8E%20%D8%AA%D9%8E%D8%B5%D9%90%D8%AD%D9%91%D9%8F%20%D8%A7%D9%84%D9%92%D9%88%D9%8E%D8%B5%D9%90%D9%8A%D9%91%D9%8E%D8%A9%D9%8F%20%D8%A8%D9%90%D8%A7%D9%84%D9%92%D9%85%D9%8E%D9%86%D9%8E%D8%A7%D9%81%D9%90%D8%B9%D9%90)
 
 ---
 
@@ -191,7 +191,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Berdasarkan kaidah ini, perkataan almarhum ayah: *"sisihkan 2.000 m² sawah untuk cadangan acara haul tiap tahun"* tidak boleh dibatalkan atau diabaikan dengan alasan bahwa haul bukan istilah ibadah mahdhah. Perkataan tersebut wajib diberlakukan (*i'mālul kalām*) dengan membawanya pada makna syar'i yang sah, yaitu wasiat sedekah makanan dan majelis doa yang pahalanya ditujukan untuk almarhum.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21786?page=357#:~:text=%D9%88%D9%83%D9%84%D8%A7%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%82%D9%84%20%D9%8A%D8%B5%D8%A7%D9%86,%D9%85%D9%85%D9%83%D9%86%D8%A9%20%D8%A3%D9%88%20%D9%85%D8%AC%D8%A7%D8%B2)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21786?page=357#:~:text=%D9%88%D9%83%D9%84%D8%A7%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%82%D9%84%20%D9%8A%D8%B5%D8%A7%D9%86)
 
 ---
 
@@ -212,7 +212,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    1. Jika memberi makan itu bercampur ratapan (*niyāhah*) atau maksiat, wasiatnya batil.  
    2. Jika memberi makan itu bersih dari maksiat (seperti sedekah makanan dan haul yang syar'i), maka **seluruh madzhab sepakat hukumnya JA'IZ (BOLEH) dan WAJIB DIKELUARKAN dari sepertiga tirkah**. Ini menjadi dalil komparatif qath'i yang membatalkan anggapan bahwa wasiat makanan haul dilarang secara mutlak.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=3119#:~:text=%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D8%A7%D9%84%D8%A5%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A5%D8%B0%D8%A7,%D8%A7%D9%84%D8%A5%D8%B9%D8%A7%D9%86%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%85)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=3119#:~:text=%D8%A7%D9%84%D9%92%D9%88%D9%8E%D8%B5%D9%90%D9%8A%D9%91%D9%8E%D8%A9%D9%8F%20%D8%A8%D9%90%D8%A7%D9%84%D8%A5%D9%90%D9%92%D8%B7%D9%92%D8%B9%D9%8E%D8%A7%D9%85%D9%90%20%D8%A5%D9%90%D8%B0%D9%8E%D8%A7%20%D8%A3%D9%8E%D8%B9%D9%8E%D8%A7%D9%86%D9%8E%D8%AA%D9%92)
 
 
 8. **Kitab: Kasyful Qina' 'an Matnil Iqna' (Juz 10, Hal. 265) & Al-Mumti' fi Syarh Al-Muqni' (Juz 3, Hal. 258)**  
@@ -227,7 +227,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    - **Status Qaul:** Ini adalah qaul mu'tamad dan zhahirul madzhab dalam Madzhab Hanbali yang selaras dengan pandangan Madzhab Syafi'i.  
    - **Makhraj Syar'i & Perlindungan Hak:** Madzhab Hanbali menegaskan harmoni kepemilikan: pokok tanah secara asal tetap terkait dengan ahli waris, namun tangan mereka terbelenggu (*mahjūr*) dari menjual atau membagi tanah 2.000 m² tersebut karena adanya hak manfaat abadi (*al-manfa'ah al-mu'abbadah*) yang telah diikrarkan oleh pewaris sebelum wafat. Hal ini memperkuat perlindungan tanah sawah wasiat dari sengketa antar-ahli waris.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/622?page=4687#:~:text=%D9%81%D8%B5%D9%84%20%D9%88%D8%AA%D8%B5%D8%AD%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9,%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A9%20%D8%B5%D8%AD%D8%AA%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/622?page=4687#:~:text=%D9%81%D8%B5%D9%84%20%D9%88%D8%AA%D8%B5%D8%AD%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%D9%8F%20%D8%A8%D8%A7%D9%84%D9%85%D9%86%D9%81%D8%B9%D8%A9)
 
 ---
 
