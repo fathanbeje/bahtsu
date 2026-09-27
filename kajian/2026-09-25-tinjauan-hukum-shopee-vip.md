@@ -104,7 +104,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Fatwa ini menjadi manāth hukum krusial: Jika langganan Shopee VIP diposisikan sebagai "membeli paket voucher diskon", hukumnya haram karena berstatus *bithāqah takhfīdh madfū'ah* yang berputar antara untung dan buntung. Namun jika diposisikan sebagai biaya sewa layanan prioritas di mana voucher adalah bonus, maka hukumnya bergeser menjadi mubah.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Mu'amalat Al-Maliyyah 4/370)](https://app.turath.io/book/14474?page=1759)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Mu'amalat Al-Maliyyah 4/370)](https://app.turath.io/book/14474?page=6270#:~:text=%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D9%88%D9%82%D8%AF,%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%86%20%D9%88%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%89)
 
 2. **Kitab Al-Majmu' Syarah Al-Muhadzdzab (Juz 9, Halaman 258–260)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Mutaqaddimin Madzhab Syafi'i*  
@@ -115,7 +115,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Pembeli VIP yang membayar langganan demi mengejar penghematan ongkir menghadapi gharar. Apabila voucher dijadikan komoditas utama, gharar-nya adalah *gharar katsīr* yang merusak akad. Tetapi jika langganan ditujukan pada sewa fasilitas aplikasi dan voucher gratis ongkir berstatus ikutan (*tābi'*), maka kadar ketidakjelasannya beralih menjadi *gharar yasīr* yang ditoleransi (*yu'fā 'anhu*).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Majmu' Syarah Al-Muhadzdzab)](https://app.turath.io/book/11430?page=19474)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Majmu' Syarah Al-Muhadzdzab)](https://app.turath.io/book/11430?page=3172#:~:text=%D9%8A%D8%B0%D9%83%D9%8A%D9%87%D8%A7%20%D9%88%D8%B3%D9%86%D9%86%20%D8%A7%D9%84%D8%A8%D9%8A%D9%87%D9%82%D9%8A,%D8%A3%D9%86%20%D8%AA%D8%B4%D8%B1%D8%A8%20%D8%A3%D9%84%D8%A8%D8%A7%D9%86%D9%87%D8%A7)
 
 3. **Kitab Rawdhatuth Thalibin wa 'Umdatul Muftin (Juz 5, Halaman 220–225)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Syaikhoni*  
@@ -126,7 +126,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Keabsahan paket Shopee VIP dari sisi buyer bersandar pada status **Ijārah 'alā al-Muddah** (sewa fasilitas berbasis waktu satu bulan). Selama Shopee membuka akses fitur prioritas dan menyediakan kuota voucher yang valid di aplikasi, tidak digunakannya kuota tersebut oleh pembeli karena kelalaiannya sendiri tidak membatalkan keabsahan akad ijarah.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Rawdhatuth Thalibin 5/220)](https://app.turath.io/book/499?page=827)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Rawdhatuth Thalibin 5/220)](https://app.turath.io/book/499?page=2045#:~:text=%D9%81%D9%8E%D8%B5%D9%92%D9%84%D9%8C%20%D8%A7%D8%AE%D9%92%D8%AA%D9%8E%D9%84%D9%8E%D9%81%D9%8E,%D9%81%D9%8E%D9%82%D9%8E%D8%A7%D9%84%D9%8E%20%D8%A3%D9%8E%D8%A8%D9%8F%D9%88%20%D8%A5%D9%90%D8%B3%D9%92%D8%AD%D9%8E%D8%A7%D9%82%D9%8E)
 
 4. **Kitab Hasyiyah I'anatuth Thalibin 'ala Halli Alfazhi Fathil Mu'in (Juz 3, Halaman 123–125)**  
    *Karya: As-Sayyid Abu Bakar Syatha Ad-Dimyathi (Wafat 1310 H) | Lapisan: Kitab Hawasyi Syafi'iyyah*  
@@ -137,7 +137,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Apabila Shopee memungut biaya VIP namun di lapangan kuota voucher "selalu habis" karena pembatasan jam klaim atau sistem eror, maka Shopee dianggap gagal menyerahkan manfaat sewa (*'ajaza 'an taslīmil manfa'ah*). Akad langganan menjadi fasid dan uang langganan wajib dikembalikan (*raddul māl*) kepada pembeli.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (I'anatuth Thalibin 3/123)](https://app.turath.io/book/963?page=880)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (I'anatuth Thalibin 3/123)](https://app.turath.io/book/963?page=870#:~:text=%D8%A5%D8%B0%D8%A7%20%D9%83%D8%A7%D9%86%20%D9%84%D9%85%D8%AB%D9%84,%D9%83%D9%85%D8%A7%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D8%BA%D9%86%D9%89)
 
 5. **Kaidah Fiqhiyyah: Al-Ghurmu bil Ghunmi & Al-Ibratu fil 'Uqud lil Maqashid**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 136 & 280)*  
@@ -148,7 +148,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Mengemas skema "beli diskon" dengan istilah "langganan member" tidak mengubah substansinya jika di dalamnya murni pertaruhan uang receh untuk mengejar kupon diskon. Legalitasnya mutlak menuntut adanya substansi jasa layanan riil yang dapat diverifikasi.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi)](https://app.turath.io/book/14596?page=461)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi)](https://app.turath.io/book/14596?page=249#:~:text=%D8%AE%D9%84%D8%A7%D9%81%20%D9%8A%D9%84%D8%AA%D9%81%D8%AA%20%D8%A5%D9%84%D9%89,%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%86%D9%8A%20%D9%84%D8%A7%20%D8%A8%D8%A7%D9%84%D8%A3%D9%84%D9%81%D8%A7%D8%B8)
 
 ---
 
@@ -163,7 +163,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Imam Asy-Syafi'i meletakkan asas *'an tarādhin* sebagai syarat mutlak. Jika Shopee memotong persentase biaya administrasi VIP dari seller secara sepihak atau mendesak seller melalui manipulasi algoritma penenggelaman produk, pemotongan tersebut haram dan tergolong memakan harta sesama secara zalim.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Umm / Sunan wal Atsar)](https://app.turath.io/book/2863?page=5294)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Umm / Sunan wal Atsar)](https://app.turath.io/book/2863?page=5905#:~:text=%D9%82%D9%8E%D8%A7%D9%84%D9%8E,%D9%85%D9%8E%D8%A7%20%D9%8A%D9%8F%D9%86%D9%92%D8%AA%D9%8E%D8%B8%D9%8E%D8%B1%D9%8F%20%D8%A8%D9%8E%D9%8A%D9%92%D9%86%D9%8E)
 
 2. **Kitab Bughyatul Mustarsyidin (Halaman 165–167)**  
    *Karya: Al-Allamah As-Sayyid Abdurrahman bin Muhammad Ba'alawi (Wafat 1320 H) | Lapisan: Kitab Fatawa Muktamadah Nusantara*  
@@ -174,7 +174,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Potongan komisi tambahan program VIP dari saldo seller sah hukumnya manakala seller secara sadar mengaktifkan fitur tersebut (*opt-in*) demi meraih omzet lebih tinggi dan subsidi gratis ongkir bagi tokonya.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Bughyatul Mustarsyidin)](https://app.turath.io/book/1611?page=1478)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Bughyatul Mustarsyidin)](https://app.turath.io/book/879?page=2573#:~:text=%D9%82%D9%8E%D8%A7%D9%85%D9%8E%D8%AA%D9%92%20%D8%A8%D9%90%D9%87%D9%90%20%D8%A8%D9%8E%D9%8A%D9%91%D9%90%D9%86%D9%8E%D8%A9,%D8%A7%D9%84%D8%AF%D9%91%D9%8E%D9%84%D9%8E%D8%A7%D9%84%D9%90%20%5E%D9%A1%20%D9%82%D9%8E%D8%AF)
 
 3. **Kitab Nihayatul Muhtaj ila Syarhil Minhaj (Juz 3, Halaman 455–458)**  
    *Karya: Al-Imam Syamsuddin Muhammad bin Ahmad Ar-Ramli (Wafat 1004 H) | Lapisan: Kitab Induk Muta'akhirin*  
@@ -185,7 +185,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Fasilitas retur kilat bagi pembeli VIP tidak boleh merugikan seller. Jika buyer VIP meretur barang yang normal semata karena berubah pikiran (*frivolous return*), Shopee atau pembeli wajib menanggung ongkos kirim retur tersebut. Membebankan ongkos retur ke seller adalah kezaliman (*dhamān azh-zhulm*).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Nihayatul Muhtaj 3/455)](https://app.turath.io/book/14474?page=301)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Nihayatul Muhtaj 3/455)](https://app.turath.io/book/14474?page=2409#:~:text=%D9%88%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%20%D8%A7%D9%84%D8%B1%D8%A4%D9%8A%D8%A9,%D8%A7%D8%B3%D8%AA%D8%AD%D9%82%D8%A7%D9%82%20%D9%81%D9%8A%D8%AB%D8%A8%D8%AA%20%D8%A8%D9%81%D9%88%D8%A7%D8%AA)
 
 4. **Kaidah Fiqhiyyah: Adh-Dhararu Yuzalu & La Dharara wa La Dhirar**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 83)*  
@@ -196,7 +196,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Kaidah ini memagari praktik algoritma diskriminatif yang menindas seller UMKM.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi)](https://app.turath.io/book/2031?page=94)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi)](https://app.turath.io/book/2031?page=115#:~:text=%D8%A8%D8%AC%D8%A7%D9%85%D8%B9%20%D9%83%D9%88%D9%86%20%D9%83%D9%84,%D9%84%D8%A7%20%D9%8A%D8%B2%D8%A7%D9%84%20%D8%A8%D9%85%D8%AB%D9%84%D9%87)
 
 ---
 
@@ -211,7 +211,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Konsep ini membebaskan voucher diskon Shopee VIP dari jeratan hukum Riba (*Riba al-Fadhl*). Pembelian paket VIP tidak dipandang sebagai menukar uang Rp 30.000 dengan uang voucher Rp 100.000, melainkan pembeli membeli hak fasilitas yang di dalamnya terdapat komitmen pihak ketiga (Shopee) untuk menanggung sebagian harga belanja (*tabarru' bi ba'dhits tsaman*).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 19/240)](https://app.turath.io/book/11430?page=15047)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 19/240)](https://app.turath.io/book/11430?page=25336#:~:text=%D8%AA%D9%8F%D9%86%D9%8E%D8%A7%D9%84%20%D8%B1%D9%8F%D8%AA%D9%92%D8%A8%D9%8E%D8%A9%D9%8E,%D9%81%D9%90%D9%8A%20%D8%A7%D8%B3%D9%92%D8%AA%D9%90%D9%8A%D9%81%D9%8E%D8%A7%D8%A1%D9%90%20%D8%A7%D9%84%D8%AB%D9%91%D9%8E%D9%85%D9%8E%D9%86%D9%90)
 
 2. **Kitab Tuhfatul Muhtaj bi Syarh al-Minhaj (Juz 4, Halaman 310–314)**  
    *Karya: Al-Imam Ibnu Hajar Al-Haitami (Wafat 974 H) | Lapisan: Kitab Induk Muta'akhirin Madzhab Syafi'i*  
@@ -222,7 +222,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Shopee diharamkan menggunakan klausul jebakan, seperti membatasi jam penukaran voucher secara tidak rasional sehingga kuota langsung ludes dalam hitungan detik (*flash checkout limit*). Trik ini melanggar sabda Nabi SAW dan tergolong penipuan konsumen yang diharamkan.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Tuhfatul Muhtaj 4/310)](https://app.turath.io/book/13659?page=26)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Tuhfatul Muhtaj 4/310)](https://app.turath.io/book/13659?page=10#:~:text=%D8%AB%D9%84%D8%A7%D8%AB%D8%A9%20%D8%A3%D8%B1%D9%83%D8%A7%D9%86%20%D8%B7%D9%88%D9%8A%D9%84%D8%A9,%D8%A7%D9%84%D8%B4%D8%B1%D8%B7%20%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9)
 
 3. **Kitab Qawa'idul Ahkam fi Mashalihil Anam (Juz 2, Halaman 160–162)**  
    *Karya: Sultanul Ulama Al-'Izz bin Abdis Salam (Wafat 660 H) | Lapisan: Qawa'id Syari'ah & Siyasah Iqtishadiyyah*  
@@ -233,7 +233,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Sebagai *market gatekeeper*, Shopee tidak boleh bersikap serakah mengejar laba langganan dengan mengorbankan seller UMKM yang modalnya terbatas.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qawa'idul Ahkam 2/160)](https://app.turath.io/book/21786?page=148)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qawa'idul Ahkam 2/160)](https://app.turath.io/book/21786?page=820#:~:text=%D9%85%D8%B7%D8%A7%D9%84%D8%A8%D8%AA%D9%87%20%D8%A8%D8%A7%D9%84%D9%81%D8%AF%D8%A7%D8%A1%20%D9%84%D8%A3%D9%86,%D9%85%D8%A7%20%D8%A3%D8%AF%D8%A7%D9%87%20%D8%B9%D9%86%D9%87)
 
 ---
 

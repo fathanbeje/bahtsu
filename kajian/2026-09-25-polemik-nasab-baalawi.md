@@ -98,7 +98,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Ijmak ulama ini membuktikan bahwa nasab klan Ba'alawi yang telah masyhur secara *tasāmu'* dan *istifādhah* di Yaman, Hijaz, Mesir, hingga Nusantara selama ratusan tahun tanpa ada yang mengingkari nasab mereka pada masa hidup para kakek moyang mereka, berstatus **sah secara qath'i menurut neraca peradilan syariat Islam**. Menuntut bukti tertulis kontemporer untuk setiap generasi adalah syarat mengada-ada yang bertentangan dengan konsensus fuqaha.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 26/235)](https://app.turath.io/book/11430?page=17386)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 26/235)](https://app.turath.io/book/11430?page=17386#:~:text=%D8%A3%D9%8E%D9%85%D9%91%D9%8E%D8%A7%20%D8%A8%D9%8E%D9%82%D9%90%D9%8A%D9%91%D9%8E%D8%A9%D9%8F%20%D8%A7%D9%84%D8%A3%D9%8E%D9%92%D8%A6%D9%90%D9%85%D9%91%D9%8E%D8%A9%D9%90,%D8%A7%D9%84%D8%AA%D9%91%D9%8E%D8%B3%D9%8E%D8%A7%D9%85%D9%8F%D8%B9%D9%90%20%D9%81%D9%90%D9%8A%20%D8%A7%D9%84%D9%86%D9%91%D9%8E%D8%B3%D9%8E%D8%A8%D9%90)
 
 2. **Kitab Nihayatul Mathlab fi Dirayatil Madzhab (Juz 18, Halaman 608)**  
    *Karya: Imamul Haramain Abu Al-Ma'ali Abdul Malik Al-Juwaini (Wafat 478 H) | Lapisan: Kitab Induk Mutaqaddimin Madzhab Syafi'i*  
@@ -109,7 +109,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Penjelasan Imamul Haramain menjadi dalil mutlak bahwa silsilah nasab yang telah berusia ratusan tahun (melintasi puluhan generasi) tidak membutuhkan saksi mata fisik, melainkan cukup berpijak pada kemasyhuran yang meluas (*istifādhah*).  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Nihayatul Mathlab 18/608)](https://app.turath.io/book/9851?page=9970)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Nihayatul Mathlab 18/608)](https://app.turath.io/book/9851?page=9970#:~:text=%D9%81%D9%8A%D9%87%20%D9%81%D9%82%D8%A7%D9%84%D9%88%D8%A7,%D9%81%D9%8A%20%D8%A7%D9%84%D9%88%D9%82%D9%81%20%D9%88%D8%A7%D9%84%D9%86%D9%83%D8%A7%D8%AD)
 
 3. **Kitab Al-Mahshul fi 'Ilmi Ushulil Fiqh (Juz 2, Halaman 351)**  
    *Karya: Al-Imam Fakhruddin Muhammad bin Umar Ar-Razi (Wafat 606 H) | Lapisan: Kitab Induk Ushul Fiqh*  
@@ -120,7 +120,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Sangat ironis bahwa para penggugat nasab Ba'alawi menggunakan kitab *Al-Syajarah al-Mubārakah* yang dinisbatkan kepada Imam Fakhruddin Ar-Razi sebagai senjata utama penafian, padahal Imam Fakhruddin Ar-Razi sendiri dalam kitab ushul monumentalnya (*Al-Mahshūl*) menegaskan kaidah emas: **"عَدَمُ الوِجْدَانِ لَا يَدُلُّ عَلَى عَدَمِ الوُجُودِ"**. Fakta bahwa nama Ubaidillah tidak tercatat dalam kitab nasab Ar-Razi atau Al-Ubaidli sama sekali bukan bukti ketiadaan fisiknya, melainkan hanya bukti keterbatasan jangkauan informasi penulisnya saat itu.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Mahshul 2/351)](https://app.turath.io/book/2022?page=712)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Mahshul 2/351)](https://app.turath.io/book/2022?page=712#:~:text=%D8%A3%D8%AF%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D9%84%D9%81%D9%8A%D9%86%20%D9%81%D9%84%D9%85,%D8%A7%D9%84%D9%85%D8%B1%D8%AA%D8%B6%D9%89%20%D8%B9%D9%88%D9%84%20%D8%B9%D9%84%D9%89)
 
 4. **Kitab Fathul Qarib Al-Mujib & Hasyiyah Al-Bujairimi 'alal Khatib (Juz 4, Halaman 443)**  
    *Karya: Al-Ghazi & Sulaiman Al-Bujairimi (Wafat 1221 H) | Lapisan: Kitab Syarah & Hawasyi Madzhab Syafi'i*  
@@ -131,7 +131,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Syekh Al-Bujairimi menegaskan bahwa *kutubun nassābīn* (buku para ahli nasab) bukan syarat mutlak keabsahan nasab. Komunitas klan Ba'alawi di Hadhramaut telah masyhur sebagai anak cucu Ahmad bin Isa tanpa penentangan selama berabad-abad oleh ulama setempat, sehingga secara fikih Syafi'iyyah nasab mereka sah dan mengikat.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Hasyiyah Al-Bujairimi 4/443)](https://app.turath.io/book/21599?page=1912)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Hasyiyah Al-Bujairimi 4/443)](https://app.turath.io/book/21599?page=526#:~:text=%D9%8A%D9%8E%D8%B3%D9%92%D9%85%D9%8E%D8%B9%D9%8F%20%D8%A3%D9%8E%D8%AC%D9%92%D9%86%D9%8E%D8%A8%D9%90%D9%8A%D9%91%D9%8C%20%D9%88%D9%8E%D9%88%D9%8E%D9%82%D9%8E%D8%B9%D9%8E,%D8%A7%D9%84%D9%92%D8%A2%D9%8A%D9%8E%D8%A9%D9%8E%20%D8%A3%D9%8E%D9%8A%D9%92)
 
 5. **Kaidah Ushul Fiqh: Al-Mutsbit Muqaddamun 'alan Nafi**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 58) & Al-Mutlaq wal Muqayyad (Juz 1, Halaman 343)*  
@@ -142,7 +142,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Para ulama muta'akhirin (seperti Al-Janadi, Al-Khazraji, Ibnu Samurah, Al-Hafizh As-Sakhawi, Imam As-Suyuthi, Ibnu Hajar Al-Haitami, Murtadha Az-Zabidi) yang menetapkan dan mengonfirmasi silsilah Ba'alawi membawa tambahan data naskah, tradisi lokal Yaman, dan dokumen naqabah yang luput dari sebagian penulis nasab di wilayah Irak atau Persia. Maka ketetapan mereka mutlak didahulukan di atas klaim penafian.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Muthlaq wal Muqayyad 1/343)](https://app.turath.io/book/8556?page=319)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Muthlaq wal Muqayyad 1/343)](https://app.turath.io/book/11207?page=48#:~:text=%EF%B5%82,%D8%AD%D8%A7%D8%B4%D9%8A%D8%AA%D9%87%20%D8%B9%D9%84%D9%89%20%D8%AA%D9%81%D8%B3%D9%8A%D8%B1)
 
 ---
 
@@ -157,7 +157,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Hadits shahih ini memberikan ancaman keras (*wa'īd syadīd*) bagi siapa saja yang melakukan *at-tha'nu fin nasab* (meragukan, menuduh palsu, atau mencela silsilah orang lain yang telah diakui sah). Perbuatan ini dinilai sebagai bagian dari karakter jahiliyah dan kufur nikmat yang diharamkan secara ijmak.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Shahih Muslim / Tuhfatul Asyraf 9/381)](https://app.turath.io/book/11385?page=18494)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Shahih Muslim / Tuhfatul Asyraf 9/381)](https://app.turath.io/book/11385?page=18494#:~:text=%D9%A1%D9%A2%D9%A5%D9%A2%D9%A9%20%D9%85%20%D8%AD%D8%AF%D9%8A%D8%AB,%D9%A2%D9%A9%20%D8%B9%D9%86%20%D8%A3%D8%A8%D9%8A)
 
 2. **Kitab Syarah An-Nawawi 'ala Shahih Muslim (Juz 2, Halaman 57)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Syarah Hadits Madzhab Syafi'i*  
@@ -168,7 +168,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Imam An-Nawawi menegaskan bahwa menafikan silsilah nasab yang sudah tsabit secara lahiriah (*tsābitan zhāhiran*) adalah dosa besar (*kabīrah*) dan kefasikan. Tuduhan bahwa jutaan keturunan Ba'alawi adalah nasab palsu merupakan bentuk *tha'n fin nasab* dalam skala massal yang sangat berbahaya.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Syarah Muslim An-Nawawi)](https://app.turath.io/book/37024?page=175)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Syarah Muslim An-Nawawi)](https://app.turath.io/book/21567?page=1492#:~:text=%D9%88%D9%8E%D8%A3%D9%83%D9%92%D9%85%D9%8E%D8%AD%D9%92%D8%AA%D9%8E%D9%87%D9%8F%20%D9%88%D8%A3%D9%83%D9%92%D8%A8%D9%8E%D8%AD%D9%92%D8%AA%D9%8F%D9%87%D9%8F%20%D8%A3%D8%A8%D9%88,%D9%88%D8%AD%D9%82%D8%B1%D8%AA%D9%87%20%D9%88%D8%B1%D8%A3%D8%A8%D9%92%D8%AA%20%D8%A7%D9%84%D9%82%D9%90%D8%AF%D9%92%D8%AD)
 
 3. **Kitab Al-Fatawa Al-Haditsiyyah (Halaman 314–316)**  
    *Karya: Al-Imam Syihabuddin Ahmad bin Hajar Al-Haitami (Wafat 974 H) | Lapisan: Kitab Fatawa Mu'tamadah Syafi'iyyah*  
@@ -179,7 +179,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Fatwa Ibnu Hajar Al-Haitami—tokoh rujukan tertinggi fatwa madzhab Syafi'i di Nusantara—secara spesifik membela dan mengesahkan nasab Ba'alawi serta mengharamkan siapa pun meragukannya.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Fatawa Al-Haditsiyyah)](https://app.turath.io/book/13659?page=26)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Fatawa Al-Haditsiyyah)](https://app.turath.io/book/11430?page=14113#:~:text=%D8%A7%D9%84%D9%92%D8%AD%D9%8F%D8%B1%D9%91%D9%90%D9%8A%D9%91%D9%8E%D8%A9%D9%90%20%D9%88%D9%8E%D8%A7%D9%84%D9%92%D8%A8%D9%8F%D9%84%D9%8F%D9%88%D8%BA%D9%90%20%D9%88%D9%8E%D8%A7%D9%84%D9%92%D8%B9%D9%8E%D8%AF%D9%8E%D8%A7%D9%84%D9%8E%D8%A9%D9%90,%D8%A7%D8%B1%D9%92%D8%AA%D9%8E%D9%82%D9%8E%D8%AA%D9%92%20%D8%A8%D9%90%D9%87%D9%90%20%D8%A5%D9%90%D9%84%D9%8E%D9%89)
 
 ---
 
@@ -194,7 +194,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Resolusi fatwa internasional ini menetapkan larangan mutlak menggunakan tes DNA untuk membatalkan nasab yang telah diakui secara syar'i. Hasil tes genetika populasi (seperti haplogroup DNA) tidak memenuhi syarat kepastian hukum syar'i (*ghairu qath'i*) dan diharamkan merusak silsilah keluarga muslim.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Fiqh Al-Muyassar 12/129)](https://app.turath.io/book/5913?page=2507)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Fiqh Al-Muyassar 12/129)](https://app.turath.io/book/5913?page=2507#:~:text=%D8%A7%D9%84%D8%B4%D8%B1%D8%B9%D9%8A%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%A8%D8%B5%D9%85%D8%A9,%D9%8A%D8%AC%D9%88%D8%B2%20%D8%AA%D9%82%D8%AF%D9%8A%D9%85%D9%87%D8%A7%20%D8%B9%D9%84%D9%89)
 
 2. **Kaidah Fiqhiyyah: Al-Ashlu Baqa'u ma Kana 'ala ma Kana & Al-Yaqinu la Yazulu bisy-Syakk**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 51) & Al-Bayan fil Madzhab (Juz 1, Halaman 120)*  
@@ -205,7 +205,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Status kemuliaan dan keterikatan nasab Ba'alawi yang telah berjalan selama berabad-abad adalah keyakinan hukum (*yaqīn syar'ī*), sehingga tidak boleh dibatalkan oleh keraguan filologis atau klaim genetika sepihak.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi)](https://app.turath.io/book/2031?page=94)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi)](https://app.turath.io/book/2031?page=92#:~:text=%D9%88%D9%85%D9%86%20%D9%86%D8%B8%D8%B1%20%D8%A5%D9%84%D9%8A%D9%87,%D8%A7%D9%84%D9%8A%D9%82%D9%8A%D9%86%20%D9%84%D8%A7%20%D9%8A%D8%B2%D9%88%D9%84)
 
 ---
 
@@ -220,7 +220,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Hadits ini meruntuhkan segala bentuk kultus feodalistik atau kesombongan nasab (*al-fakhr bil-ansāb*). Garis keturunan mulia adalah amanah untuk berbuat taat lebih banyak, bukan lisensi untuk bertindak sesuka hati atau merasa suci dari hisab akhirat.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Shahih Muslim)](https://app.turath.io/book/1711?page=2379)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Shahih Muslim)](https://app.turath.io/book/1711?page=3739#:~:text=%D9%85%D9%8E%D9%81%D9%92%D9%87%D9%8F%D9%88%D9%85%D9%8C%20%D9%8A%D9%8F%D8%B9%D9%92%D9%85%D9%8E%D9%84%D9%8F%20%D8%A8%D9%90%D9%87%D9%90,%D9%85%D9%8E%D8%B9%D9%92%D9%86%D9%8E%D8%A7%D9%87%D9%8F%20%D9%85%D9%8E%D9%86%D9%92%20%D9%83%D9%8E%D8%A7%D9%86%D9%8E)
 
 2. **Kitab Tafsir Al-Qur'an Al-'Azhim (Juz 7, Halaman 200–202)**  
    *Karya: Al-Hafizh Ibnu Katsir (Wafat 774 H) | Lapisan: Tafsir Turats Mu'tabar*  
@@ -231,7 +231,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Pandangan Ibnu Katsir ini mencerminkan sikap *Tawassuth wa I'tidāl* (moderat-proporsional) Ahlussunnah wal Jama'ah: Menghormati dzurriyyah nabi karena cinta kepada Rasulullah, tetapi menolak pengkultusan buta jika ada oknum yang menyimpang dari syariat.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Tafsir Ibnu Katsir 3/445)](https://app.turath.io/book/1509?page=1597)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Tafsir Ibnu Katsir 3/445)](https://app.turath.io/book/27107?page=33010#:~:text=%D8%A7%D9%84%D8%AE%D8%B7%D8%A8%D8%A9%20%D8%A3%D8%AE%D8%A8%D8%B1%D8%AA%D9%87%D8%A7%20%D9%88%D8%A8%D8%AA%D9%82%D8%B1%D9%8A%D8%B1,%D9%8A%D9%83%D9%81%D9%8A%20%D8%A3%D9%86%D9%86%D9%8A%20%D8%A3%D8%AE%D8%A8%D8%B1%D8%AA)
 
 3. **Kitab Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 83)**  
    *Karya: Al-Imam Jalaluddin As-Suyuthi (Wafat 911 H) | Lapisan: Kaidah Fiqhiyyah Kubra*  
@@ -242,7 +242,7 @@ Mendasarkan telaah pada koridor *Bermadzhab secara Qauli*, *Taqrir Jama'i*, *Ilh
 
    *Wajhul Istidlal / Wajhul Ilhāq:* Menutup pintu perdebatan publik mengenai nasab Ba'alawi di ranah medsos adalah kewajiban syar'i demi mencegah bahaya perpecahan umat (*mafsadah at-tafriq*) yang jauh lebih besar daripada ambisi pembuktian historis yang spekulatif.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi Halaman 83)](https://app.turath.io/book/2031?page=94)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi Halaman 83)](https://app.turath.io/book/2031?page=100#:~:text=%D8%B4%D9%81%D8%A7%D8%A4%D9%87%20%D8%A3%D9%88%D9%84%D9%89%20%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85,%D9%88%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%20%D9%83%D8%B0%D9%84%D9%83%20%D8%A8%D8%A3%D9%86)
 
 ---
 

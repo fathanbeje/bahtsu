@@ -189,7 +189,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Sistem kuota hangus tanpa kompensasi menimbulkan kemudaratan sistemik (*dharar 'am*) bagi jutaan konsumen telekomunikasi, sehingga wajib dihilangkan dengan menyediakan skema penyelamatan kuota (*data rollover*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/18192?page=29#:~:text=%D8%A7%D9%84%D8%B6%D8%B1%D8%B1%20%D9%8A%D8%B2%D8%A7%D9%84)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/18192?page=45#:~:text=%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89%20%D8%A7%D9%84%D9%8A%D9%82%D9%8A%D9%86%20%D9%84%D8%A7,%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A9%20%D9%85%D8%AD%D9%83%D9%85%D8%A9)
 
 ---
 

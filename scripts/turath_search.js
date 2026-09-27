@@ -9,6 +9,9 @@
  *   node turath_search.js --multi "من مات وعليه صلاة,فدية الصلاة,الاستئجار على الصلاة"
  */
 
+const dns = require('dns');
+dns.setDefaultResultOrder('ipv4first');
+
 const API_ENDPOINT = 'https://api.turath.io/search';
 
 function parseArgs() {
@@ -163,8 +166,11 @@ async function searchTurathSingle(query, categoryId, limit) {
   
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Bahtsu-Skill/2.0',
-      'Accept': 'application/json',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      'Referer': 'https://app.turath.io/',
+      'Origin': 'https://app.turath.io',
+      'Accept': 'application/json, text/plain, */*',
+      'Accept-Language': 'ar,en-US;q=0.9,en;q=0.8',
     },
   });
 

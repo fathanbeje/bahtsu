@@ -111,7 +111,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam Al-Mawardi menegaskan konsensus kaum Muslimin (*ijmā'ul muslimīn*) bahwa wasiat yang nilainya berada di bawah sepertiga harta—sebagaimana dalam kasus sawah 2.000 m² dari 10.000 m² yang tepat bernilai seperlima ($1/5$)—adalah sah dan *nāfidz* secara otomatis. Ahli waris tidak memiliki hak veto untuk menolak atau membatalkan wasiat tersebut.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=3632#:~:text=%D8%A7%D9%84%D8%AB%D9%84%D8%AB%20%D9%88%D8%A7%D9%84%D8%AB%D9%84%D8%AB%20%D9%83%D8%AB%D9%8A%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6157?page=7704#:~:text=%D9%85%D9%8E%D8%B9%D9%92%D9%86%D9%8E%D9%89%20%D8%A7%D9%84%D9%86%D9%91%D9%8E%D8%B5%D9%91%D9%90%20%D9%88%D9%8E%D8%A3%D9%8E%D9%85%D9%91%D9%8E%D8%A7,%D8%A8%D9%92%D9%86%D9%90%20%D8%B9%D9%8F%D8%B1%D9%92%D9%88%D9%8E%D8%A9%D9%8E%20%D8%B9%D9%8E%D9%86%D9%92)
 
 
 2. **Kitab: Hasyiyata Qalyubi wa 'Umairah (Juz 4, Hal. 361)**  
@@ -145,8 +145,8 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=1206#:~:text=%D8%A8%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D8%A5%D8%B7%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%B9%D8%B2%D9%8A%D9%86%20%D9%88%D8%A3%D9%86%D9%87%20%D9%8A%D9%86%D9%81%D8%B0%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AB%D9%84%D8%AB)
 
 
-4. **Kitab: I'anatuth Thalibin 'ala Halli Alfazhi Fathil Mu'in (Juz 2, Hal. 165)**  
-   *Karya: As-Sayyid Abu Bakar bin Muhammad Syatha Ad-Dimyathi (Wafat: 1310 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Hawasyi & Fatawa Muktamadah*  
+4. **Kitab: Hasyiyatul Bujairimi 'alal Manhaj = At-Tajrid li Naf'il 'Abid (Juz 1, Hal. 503)**  
+   *Karya: Al-Allamah Sulaiman Al-Bujairimi (Wafat: 1221 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Hawasyi & Fatawa Muktamadah*  
 
    > وَيُكْرَهُ لِأَهْلِ الْمَيِّتِ الْجُلُوسُ لِلتَّعْزِيَةِ، وَصَنْعُ طَعَامٍ يَجْمَعُونَ النَّاسَ عَلَيْهِ، لِمَا رَوَى أَحْمَدُ عَنْ جَرِيرِ بْنِ عَبْدِ اللَّهِ الْبَجَلِيِّ، قَالَ: كُنَّا نَعُدُّ الِاجْتِمَاعَ إِلَى أَهْلِ الْمَيِّتِ وَصَنْعَهُمُ الطَّعَامَ بَعْدَ دَفْنِهِ مِنَ النِّيَاحَةِ... <u>**【بَلْ كُلُّ ذَلِكَ حَرَامٌ إِنْ كَانَ مِنْ مَالِ مَحْجُورٍ وَلَوْ مِنَ التَّرِكَةِ أَوْ مِنْ مَالِ مَيِّتٍ عَلَيْهِ دَيْنٌ أَوْ تَرَتَّبَ عَلَيْهِ ضَرَرٌ】**</u>.  
 
@@ -154,9 +154,9 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    "Dimakruhkan bagi keluarga mayit duduk berkumpul untuk menerima ta'ziyah dan membuat makanan yang mengumpulkan masyarakat atasnya, berdasarkan riwayat Imam Ahmad dari Jarir bin Abdillah Al-Bajali: 'Kami menganggap berkumpul di tempat keluarga mayit dan membuat makanan setelah pemakaman termasuk bagian dari niyahah (meratap).' ... Bahkan seluruh hal tersebut dihukumi haram apabila diambil dari harta anak yang mahjur (anak yatim yang belum baligh) meskipun dari harta tirkah, atau dari harta mayit yang masih menanggung utang, atau menimbulkan madharat bagi ahli waris."  
 
    *Wajhul Istidlal / Wajhul Ilhāq:*  
-   Sayyid Al-Bakri Syatha mengurai illat hukum (*manathul hukmi*) dari larangan berkumpul dan membuat makanan. Kemakruhan dan keharaman tersebut memiliki dua illat utama: 1) Jika dilakukan pada momen duka yang memberatkan keluarga sehingga menyerupai ratapan jahiliyah (*niyāhah*); dan 2) Jika dibiayai dari harta anak yatim/mahjur 'alaih tanpa izin syar'i. Dalam kasus wasiat haul ini, illat pertama gugur karena haul diselenggarakan berkala tiap tahun untuk mendoakan mayit, dan illat kedua gugur karena pembiayaan diambil dari wasiat sepertiga milik pewaris, bukan mengambil hak waris anak yatim.  
+   Syaikh Al-Bujairimi mengurai illat hukum (*manathul hukmi*) dari larangan berkumpul dan membuat makanan. Kemakruhan dan keharaman tersebut memiliki dua illat utama: 1) Jika dilakukan pada momen duka yang memberatkan keluarga sehingga menyerupai ratapan jahiliyah (*niyāhah*); dan 2) Jika dibiayai dari harta anak yatim/mahjur 'alaih tanpa izin syar'i. Dalam kasus wasiat haul ini, illat pertama gugur karena haul diselenggarakan berkala tiap tahun untuk mendoakan mayit, dan illat kedua gugur karena pembiayaan diambil dari wasiat sepertiga milik pewaris, bukan mengambil hak waris anak yatim.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/963?page=471#:~:text=%D9%83%D9%86%D8%A7%20%D9%86%D8%B9%D8%AF%20%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%20%D8%A5%D9%84%D9%89%20%D8%A3%D9%87%D9%84%20%D8%A7%D9%84%D9%85%D9%8A%D8%AA)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21603?page=502#:~:text=%D9%88%D9%8E%D9%86%D9%8E%D8%AD%D9%92%D9%88%D9%90%20%D8%B0%D9%8E%D9%84%D9%90%D9%83%D9%8E%20%D8%A8%D9%8E%D9%84%D9%92,%D8%A3%D9%8E%D9%88%D9%92%20%D9%85%D9%90%D9%86%D9%92%20%D9%85%D9%8E%D8%A7%D9%84%D9%90)
 
 ---
 
@@ -227,7 +227,7 @@ Agar pelaksanaan wasiat ini sejalan dengan tuntunan syariat dan tidak menimbulka
    - **Status Qaul:** Ini adalah qaul mu'tamad dan zhahirul madzhab dalam Madzhab Hanbali yang selaras dengan pandangan Madzhab Syafi'i.  
    - **Makhraj Syar'i & Perlindungan Hak:** Madzhab Hanbali menegaskan harmoni kepemilikan: pokok tanah secara asal tetap terkait dengan ahli waris, namun tangan mereka terbelenggu (*mahjūr*) dari menjual atau membagi tanah 2.000 m² tersebut karena adanya hak manfaat abadi (*al-manfa'ah al-mu'abbadah*) yang telah diikrarkan oleh pewaris sebelum wafat. Hal ini memperkuat perlindungan tanah sawah wasiat dari sengketa antar-ahli waris.  
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/622?page=4678#:~:text=%D8%AA%D8%B5%D8%AD%20%D8%A8%D9%85%D8%A7%20%D9%81%D9%8A%D9%87%20%D9%86%D9%81%D8%B9%20%D9%85%D8%A8%D8%A7%D8%AD)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/622?page=4687#:~:text=%D9%81%D8%B5%D9%84%20%D9%88%D8%AA%D8%B5%D8%AD,%D9%81%D8%B5%D8%AD%D8%AA%20%D8%A7%D9%84%D9%88%D8%B5%D9%8A%D8%A9%20%D8%A8%D9%87%D8%A7)
 
 ---
 

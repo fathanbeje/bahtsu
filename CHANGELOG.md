@@ -4,6 +4,36 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.3] - 2026-09-27
+
+### 🔍 Automated Verification & Precision Tahqiq
+- **Pengembangan Utilitas Linter Maraji' Turath (`scripts/turath_linter.js`):**
+  - Mengembangkan CLI tool otomatis untuk mengaudit dan memverifikasi keabsahan kitab, pengarang, nomor juz, nomor halaman, dan teks ibarat pada naskah kajian terhadap database Turath.io (`api.turath.io`).
+  - Dilengkapi fitur `--fix` (line-precise auto-fix) yang otomatis mengoreksi tautan keliru, menyematkan ID halaman presisi, dan menempelkan parameter W3C Scroll-to-Text-Fragment (`#:~:text=startWords,endWords`).
+  - Mengoptimalkan performa penelusuran jaringan: konfigurasi `dns.setDefaultResultOrder('ipv4first')` untuk mengeliminasi socket hang pada sistem Windows, pengaturan timeout adaptif 4 detik, in-memory negative book caching, dan penyertaan header browser lengkap (`Referer: https://app.turath.io/`) guna mencegah pemblokiran Cloudflare HTTP 429 Too Many Requests.
+  - Menghasilkan status audit real-time per sitasi dan kode keluar non-nol (`exit 1`) saat ditemukan pelanggaran rujukan.
+
+- **Tahqiq & Sinkronisasi 100% Seluruh Naskah Kajian Repositori (95/95 Rujukan Valid):**
+  - Melakukan audit dan re-tahqiq komprehensif pada seluruh 11 berkas kajian di direktori `kajian/`, menghasilkan **100% rujukan valid & terverifikasi** (95 dari 95 sitasi):
+    1. `2024-06-14-hukum-jamak-qashar-shalat-arafah.md` (9 rujukan) — 100% valid.
+    2. `2026-09-25-model-bisnis-muse-ai-meta.md` (20 rujukan) — 20 rujukan diperbaiki dan 100% valid mengarah ke teks otentik.
+    3. `2026-09-25-polemik-nasab-baalawi.md` (13 rujukan) — 100% valid.
+    4. `2026-09-25-status-hukum-kuota-hangus.md` (11 rujukan) — 100% valid.
+    5. `2026-09-25-tinjauan-hukum-shopee-vip.md` (12 rujukan) — 100% valid.
+    6. `2026-09-26-hukum-asuransi-bpjs-kesehatan.md` (7 rujukan) — 100% valid.
+    7. `2026-09-26-hukum-meletakkan-batu-kerikil-di-atas-makam.md` (7 rujukan) — 100% valid.
+    8. `2026-09-26-hukum-penggunaan-azimat-rajah.md` (8 rujukan) — 8 rujukan diperbaiki dan 100% valid.
+    9. `2026-09-26-wasiat-harta-untuk-haul.md` (8 rujukan) — 8 rujukan diperbaiki (termasuk verifikasi ibarat Hasyiyatul Bujairimi 1/503) dan 100% valid.
+    10. `2026-09-27-uji-coba-repositori-privat.md` & `2026-09-27-validasi-auto-push-bot.md` — Terverifikasi bersih.
+
+### 🛡️ Quality Gate & Workflow Standardization
+- **Integrasi Protokol Baku Linter pada Skill (`SKILL.md`):**
+  - Menetapkan kewajiban mutlak (*Mandatory Quality Gate*) pada `SKILL.md` (Langkah 3) bahwa setiap draf kajian yang selesai disusun **WAJIB lolos linter otomatis** (`node scripts/turath_linter.js kajian/YYYY-MM-DD-slug.md --fix`) sebelum diperbolehkan lanjut ke tahap commit dan push.
+- **Git Pre-Push Hook Enforcer (`.git/hooks/pre-push`):**
+  - Memasang hook git pre-push otomatis yang menjalankan audit seluruh berkas kajian sebelum perintah `git push` dieksekusi. Jika ditemukan satu saja rujukan yang tidak valid atau link broken, proses push akan otomatis digagalkan.
+
+---
+
 ## [2.5.2] - 2026-09-27
 
 ### 🐛 Bug Fixes & Precision Tahqiq
