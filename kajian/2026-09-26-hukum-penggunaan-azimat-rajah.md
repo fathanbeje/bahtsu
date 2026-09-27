@@ -77,7 +77,7 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam An-Nawawi menegaskan pembedaan mendasar antara tamimah jahiliyah yang diharamkan (karena berakidah syirik menolak takdir mandiri) dengan ta'widz islami yang bersumber dari kalamullah dan asma-Nya untuk tujuan tabarruk.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=4531#:~:text=%EF%B5%82%20%D9%82%D9%8E%D8%A7%D9%84%D9%8E%D8%AA%D9%92,%D9%8A%D9%8F%D8%B9%D9%8E%D9%84%D9%91%D9%8E%D9%82%D9%8F%20%D8%A8%D9%8E%D8%B9%D9%92%D8%AF%D9%8E%20%D8%A7%D9%84%D9%92%D8%A8%D9%8E%D9%84%D9%8E%D8%A7%D8%A1%D9%90)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=4531#:~:text=%D9%84%D9%8A%D8%B3%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D9%85%D8%A9%20%D9%85%D8%A7,%D9%8A%D8%B9%D9%84%D9%82%20%D9%82%D8%A8%D9%84%20%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%A1)
 
 2. **Kitab: Fathul Bari Syarah Shahih Al-Bukhari (Juz 10, Hal. 195)**  
    *Karya: Al-Hafizh Ahmad bin Ali bin Hajar Al-Asqalani (Wafat: 852 H) | Lapisan: Kitab Syarah Hadits Induk*
@@ -90,7 +90,7 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ijma' ulama yang dinukil oleh Ibnu Hajar Al-Asqalani menjadi fondasi qath'i bahwa hadits-hadits larangan tamimah diarahkan pada praktik jahiliyah yang mengandung syirik atau mantra yang tidak dipahami maknanya.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30034?page=41#:~:text=%D8%A7%D9%84%D9%84%D9%87%20%D8%B1%D8%B3%D9%88%D9%84%D9%87%20%EF%B7%BA,%D8%B4%D8%B1%D9%88%D8%B7%20%D8%A3%D9%86%20%D9%8A%D9%83%D9%88%D9%86)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/30034?page=41#:~:text=%D9%88%D9%82%D8%AF%20%D8%A3%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1,%D8%A8%D8%A8%D8%B0%D8%A7%D8%AA%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89)
 
 3. **Kitab: Tuhfatul Muhtaj fi Syarh Al-Minhaj (Juz 1, Hal. 149)**  
    *Karya: Al-Imam Syihabuddin Ahmad bin Hajar Al-Haitami (Wafat: 974 H) | Lapisan: Kitab Induk Muta'akhirin Madzhab Syafi'i*
@@ -103,7 +103,7 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam Ibnu Hajar Al-Haitami secara sharih menetapkan keabsahan tamimah dari ayat Al-Qur'an untuk tabarruk dan membedakan hukum fiqihnya dari mushaf Al-Qur'an standar.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=150#:~:text=%D8%AF%D9%90%D8%B1%D9%8E%D8%A7%D8%B3%D9%8E%D8%A9%D9%8D%20%D9%83%D9%8E%D8%A7%D9%84%D8%AA%D9%91%D9%8E%D9%85%D9%90%D9%8A%D9%85%D9%8E%D8%A9%D9%90,%D8%B9%D9%8E%D9%84%D9%8E%D9%89%20%D8%A7%D9%84%D8%B1%D9%91%D9%8E%D8%A3%D9%92%D8%B3%D9%90%20%D9%85%D9%8E%D8%AB%D9%8E%D9%84%D9%8B%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=150#:~:text=%D9%83%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D9%85%D8%A9%20%D9%88%D9%87%D9%8A%20%D9%88%D8%B1%D9%82%D8%A9,%D8%A7%D9%84%D8%B1%D8%A3%D8%B3%20%D9%85%D8%AB%D9%84%D8%A7%20%D9%84%D9%84%D8%AA%D8%A8%D8%B1%D9%83)
 
 4. **Kitab: Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazh Al-Minhaj (Juz 1, Hal. 150)**  
    *Karya: Al-Imam Muhammad Al-Khatib Asy-Syirbini (Wafat: 977 H) | Lapisan: Kitab Induk Muta'akhirin*
@@ -116,7 +116,7 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Menegaskan kebolehan pemakaian azimat ayat suci untuk tujuan pengobatan orang yang sakit (*istisyfa'*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=66#:~:text=%D9%84%D9%90%D9%84%D8%AF%D9%91%D9%8E%D9%88%D9%8E%D8%A7%D9%85%D9%90%20%D9%83%D9%8E%D8%A7%D9%84%D9%92%D9%85%D9%8F%D8%B5%D9%92%D8%AD%D9%8E%D9%81%D9%90%20%D8%A3%D9%8E%D9%85%D9%91%D9%8E%D8%A7,%D9%8A%D9%8F%D9%83%D9%92%D8%AA%D9%8E%D8%A8%D9%8F%20%D9%81%D9%90%D9%8A%D9%87%D9%8E%D8%A7%20%D8%B4%D9%8E%D9%8A%D9%92%D8%A1%D9%8C)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=66#:~:text=%D9%83%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D9%85%D8%A9%20%D9%88%D9%87%D9%8A%20%D9%88%D8%B1%D9%82%D8%A9,%D9%84%D8%B9%D8%AF%D9%85%20%D8%A7%D9%84%D9%82%D8%B5%D8%AF%20%D9%84%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9)
 
 ---
 
@@ -133,7 +133,7 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Menjadi dalil spesifik pembeda hukum ilmu wifiq/rajah. Wifiq Al-Qur'an untuk ikhtiar kebaikan hukumnya mubah, sedangkan wifiq sihir dengan bantuan jin/setan hukumnya haram qath'i.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2215?page=947#:~:text=%D8%A7%D9%84%D9%92%D8%A3%D9%8E%D8%B1%D9%92%D8%A8%D9%8E%D8%B9%D9%8E%D8%A9%D9%8F%20%D8%A7%D9%84%D9%92%D9%85%D9%8E%D8%B0%D9%92%D9%83%D9%8F%D9%88%D8%B1%D9%8E%D8%A9%D9%8F%20%D9%88%D9%8E%D8%A7%D9%84%D9%92%D8%AE%D9%8E%D9%88%D9%8E%D8%A7%D8%B5%D9%91%D9%8F,%D9%88%D9%8E%D8%A7%D9%84%D8%B7%D9%91%D9%8E%D9%84%D9%92%D8%B3%D9%8E%D9%85%D9%8E%D8%A7%D8%AA%D9%90%20%D9%88%D9%8E%D8%A7%D9%84%D9%92%D8%A3%D9%8E%D9%88%D9%92%D9%81%D9%8E%D8%A7%D9%82%D9%90%20%D9%88%D9%8E%D8%A7%D9%84%D9%92%D8%B9%D9%8E%D8%B2%D9%8E%D8%A7%D8%A6%D9%90%D9%85%D9%90)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2215?page=947#:~:text=%D8%B9%D9%84%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%81%D8%A7%D9%82%20%D9%84%D9%8A%D8%B3,%D8%A7%D9%84%D8%A3%D8%B9%D8%AF%D8%A7%D8%AF%20%D9%88%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B1%D9%88%D9%81)
 
 6. **Kitab: Al-Fatawa Al-Haditsiyyah (Hal. 4-5)**  
    *Karya: Al-Imam Ibnu Hajar Al-Haitami (Wafat: 974 H) | Lapisan: Kitab Fatawa Muta'akhirin*
@@ -146,7 +146,7 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Penegasan fatwa Ibnu Hajar Al-Haitami bahwa rajah/wifiq yang mengagungkan jin atau menggunakan mantra tidak jelas (*syubhat*) diharamkan, sedangkan yang bersumber dari asmaullah diperbolehkan.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=7#:~:text=%D8%A8%D9%90%D8%A7%D9%84%D9%92%D9%82%D9%8F%D8%B1%D9%92%D8%A2%D9%86%D9%90%20%D9%81%D9%8E%D9%8A%D9%8E%D9%85%D9%90%D9%8A%D9%86%D9%8C%20%D8%A7%D9%87%D9%80,%D8%B4%D9%8F%D9%85%D9%8F%D9%88%D9%84%D9%90%D9%8A%D9%91%D9%8B%D8%A7%20%D8%A5%D8%B0%D9%8E%D8%A7%20%D9%83%D9%8E%D8%A7%D9%86%D9%8E%D8%AA%D9%92)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=7#:~:text=%D8%A5%D9%86%20%D9%83%D8%A7%D9%86%D8%AA%20%D9%85%D9%83%D8%AA%D9%88%D8%A8%D8%A9,%D8%A7%D9%84%D8%B9%D8%AF%D8%AF%D9%8A%D8%A9%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%85%D8%AF%D8%A9%20%D9%85%D9%86%D9%87%D8%A7)
 
 ---
 
@@ -163,7 +163,7 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Azimat yang dijadikan wasilah ikhtiar dengan tujuan ridha Allah berstatus mubah mengikuti hukum niat tujuannya (*al-wasā'ilu lahā ahkāmul maqāshid*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=3406#:~:text=%D8%A3%D9%8E%D8%AD%D9%8E%D8%AF%D9%8F%D9%87%D9%8F%D9%85%D9%8E%D8%A7%20%D9%81%D9%8E%D9%82%D9%92%D8%AF%D9%8F%20%D8%A8%D8%B9%D8%B6,%D8%A7%D9%84%D9%92%D8%AC%D9%90%D9%85%D9%8E%D8%A7%D8%B9%D9%90%20%D9%88%D9%8E%D9%83%D9%8E%D8%B0%D9%8E%D8%A7%20%D8%B9%D9%8E%D9%86%D9%92)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=3406#:~:text=%D8%A7%D9%84%D9%82%D8%A7%D8%B9%D8%AF%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89%20%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%B1%20%D8%A8%D9%85%D9%82%D8%A7%D8%B5%D8%AF%D9%87%D8%A7)
 
 8. **Kitab: I'anatuth Thalibin 'ala Hall Alfazh Fathil Mu'in (Juz 1, Hal. 84)**  
    *Karya: As-Sayyid Abu Bakar bin Muhammad Syatha Ad-Dimyathi (Wafat: 1310 H) | Lapisan: Kitab Hawasyi Fiqh Syafi'i*
@@ -176,4 +176,4 @@ Berdasarkan konsensus (*ijmā'*) para ulama muhaqqiqin (sebagaimana ditegaskan A
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Memberikan panduan praktis dan jalan keluar fiqih (*makhraj syar'i*) bahwa kemakruhan membawa azimat ke kamar mandi gugur apabila azimat terbungkus rapat atau dalam kondisi hajat/khawatir hilang.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=1009#:~:text=%D8%A7%D9%84%D9%92%D9%85%D9%8E%D9%86%D9%8E%D8%A7%D9%81%D9%90%D8%B9%D9%8E%20%D9%85%D9%8F%D8%AA%D9%8E%D9%85%D9%8E%D9%8A%D9%91%D9%90%D8%B2%D9%8E%D8%A9%D9%8C%20%D8%B9%D9%8E%D9%86%D9%92,%D8%B9%D9%8E%D8%A7%D9%84%D9%90%D9%85%D9%8B%D8%A7%20%D9%81%D9%8E%D9%84%D9%8E%D8%A7%20%D8%A3%D9%8F%D8%AC%D9%92%D8%B1%D9%8E%D8%A9%D9%8E)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=1009#:~:text=%D9%86%D8%B9%D9%85%20%D8%A5%D8%B0%D8%A7%20%D9%83%D8%A7%D9%86,%D8%B6%D9%8A%D8%A7%D8%B9%D9%87%20%D8%A3%D9%88%20%D8%B3%D8%B1%D9%82%D8%AA%D9%87)

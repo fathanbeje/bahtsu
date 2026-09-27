@@ -82,7 +82,7 @@ Berdasarkan telaah mendalam terhadap kaidah fiqih, ushul, dan nash kitab-kitab m
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Asuransi sosial BPJS Kesehatan berakar pada akad tabarru' gotong-royong (*takaful*). Larangan gharar dan riba hanya berlaku mutlak pada akad bisnis tukar-menukar uang/harta (*mu'awadhah*), sedangkan pada akad dana sosial penolong sesama, ketidaktahuan besaran santunan medis yang kelak diterima hukumnya sah dan halal.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/968?page=1146#:~:text=%D9%8A%D8%AE%D8%AA%D9%84%20%D9%84%D8%A3%D9%86%20%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D9%84%D8%A9,%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D8%B0%D9%87%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%83%D9%8A)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/968?page=1146#:~:text=%D9%88%D8%A7%D9%84%D8%BA%D8%B1%D8%B1%20%D9%88%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D9%84%D8%A9%20%D9%85%D8%AA%D8%B3%D8%A7%D9%85%D8%AD,%D9%84%D8%A7%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%88%D8%B6%D8%A9%20%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A8%D8%A7%D8%AD)
 
 2. **Kitab: Fiqh al-Mu'amalat (فقه المعاملات) — (Juz 2, Hal. 44)**  
    *Karya: نخبة من العلماء | Madzhab: Muqaranah 4 Madzhab | Lapisan: Kitab Fiqih Kontemporer*
@@ -95,7 +95,7 @@ Berdasarkan telaah mendalam terhadap kaidah fiqih, ushul, dan nash kitab-kitab m
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Dalam BPJS Kesehatan, iuran yang dibayarkan bukan premi pembelian 'kompensasi medis' secara spekulatif, melainkan hibah sukarela untuk kas sosial. Oleh karenanya, tidak adanya kepastian apakah peserta akan sakit atau tidak sama sekali tidak merusak keabsahan syariat program ini.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/968?page=1147#:~:text=%D9%81%D8%A5%D9%86%D9%87%D8%A7%20%D9%85%D8%B9%D8%A7%D9%88%D8%B6%D8%A9%20%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9,%D8%AD%20%D9%82%D9%8A%D8%A7%D8%B3%20%D8%B9%D9%82%D9%88%D8%AF)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/968?page=1147#:~:text=%D8%A8%D8%AE%D9%84%D8%A7%D9%81%20%D8%B9%D9%82%D9%88%D8%AF%20%D8%A7%D9%84%D8%AA%D8%A8%D8%B1%D8%B9%D8%A7%D8%AA,%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%85%D8%AD%D8%A9%20%D9%84%D8%A7%20%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%8A%D8%B3%D8%A9)
 
 3. **Kitab: Al-Asybah wan Nazha'ir As-Suyuthi (الأشباه والنظائر للسيوطي) — (Juz 1, Hal. 382)**  
    *Karya: جلال الدين السيوطي (ت 911 هـ) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Qawa'id Fiqhiyyah & Ushul*
@@ -108,7 +108,7 @@ Berdasarkan telaah mendalam terhadap kaidah fiqih, ushul, dan nash kitab-kitab m
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Kaidah induk dalam madzhab Syafi'i ini menegaskan bahwa ketidakpastian klaim biaya rumah sakit peserta BPJS yang tidak sebanding dengan total iuran yang pernah disetorkan sama sekali tidak melanggar syariat, karena kedudukannya adalah ta'awun dan tabarru'.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=4686#:~:text=%D8%AA%D9%8E%D8%B3%D9%92%D9%84%D9%90%D9%8A%D9%85%D9%90%20%D9%85%D9%8E%D8%A7%20%D8%B9%D9%90%D9%86%D9%92%D8%AF%D9%8E%D9%87%D9%8F,%D8%B6%D9%8E%D8%B9%D9%90%D9%8A%D9%81%D9%8C%20%D8%A3%D9%8E%D9%86%D9%91%D9%8E%D9%87%D9%8F%20%D9%84%D9%8E%D9%8A%D9%92%D8%B3%D9%8E)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=4686#:~:text=%D9%8A%D8%BA%D8%AA%D9%81%D8%B1%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%A8%D8%B1%D8%B9%D8%A7%D8%AA,%D9%8A%D8%BA%D8%AA%D9%81%D8%B1%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%88%D8%B6%D8%A7%D8%AA)
 
 ---
 
@@ -138,7 +138,7 @@ Berdasarkan telaah mendalam terhadap kaidah fiqih, ushul, dan nash kitab-kitab m
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Pemerintah berhak membuat regulasi kewajiban iuran jaminan kesehatan demi menopang biaya pengobatan rakyat banyak yang kurang mampu melalui mekanisme subsidi silang nasional.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21623?page=742#:~:text=%D9%85%D9%86%D9%88%D8%B7%20%D8%A8%D8%A7%D9%84%D9%85%D8%B5%D9%84%D8%AD%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21623?page=742#:~:text=%D8%B5%D8%AD%D8%A9%20%D8%AA%D8%B5%D8%B1%D9%81%20%D8%A7%D9%84%D9%88%D9%84%D9%8A,%D9%88%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20%D9%85%D9%86%D9%88%D8%B7%D8%A9%20%D8%A8%D8%A7%D9%84%D9%85%D8%B5%D9%84%D8%AD%D8%A9)
 
 6. **Kitab: Al-Fiqh Al-Manhaji 'ala Madzhab Al-Imam Asy-Syafi'i (الفقه المنهجي على مذهب الإمام الشافعي) — (Juz 8, Hal. 271)**  
    *Karya: د. مصطفى الخن، د. مصطفى البغا، علي الشربجي | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Fiqih Kontemporer*
@@ -151,7 +151,7 @@ Berdasarkan telaah mendalam terhadap kaidah fiqih, ushul, dan nash kitab-kitab m
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Mewajibkan keikutsertaan BPJS bukanlah perintah maksiat, melainkan rekayasa sosial demi kemaslahatan kesehatan publik. Oleh karenanya, perintah pemerintah tersebut melahirkan kewajiban taat bagi warga negara (*wujubul imtisal*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6369?page=1671#:~:text=%D8%B7%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20%D9%81%D9%8A%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D8%B5%D9%8A%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6369?page=1671#:~:text=%D9%81%D8%A5%D8%B0%D8%A7%20%D8%A3%D9%85%D8%B1%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85,%D8%B7%D8%A7%D8%B9%D8%AA%D9%87%20%D8%AD%D8%B1%D9%85%D8%AA%20%D9%85%D8%AE%D8%A7%D9%84%D9%81%D8%AA%D9%87)
 
 7. **Kitab: Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (الموسوعة الفقهية الكويتية) — (Juz 11, Hal. 157)**  
    *Karya: نخبة من كبار العلماء | Madzhab: Muqaranah 4 Madzhab (WAJIB TERCANTUM) | Lapisan: Ensiklopedia Fiqih Kontemporer*
@@ -164,6 +164,6 @@ Berdasarkan telaah mendalam terhadap kaidah fiqih, ushul, dan nash kitab-kitab m
    *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):*  
    Disepakati oleh 4 madzhab (khususnya Malikiyyah dan Hanabilah dalam bab *Dharibah 'Adilah / Nawaib*) bahwa negara berhak menarik iuran gotong royong teratur dari masyarakat untuk membiayai sektor-sektor darurat kemaslahatan umum (*hifzh an-nafs*) apabila APBN memerlukan penopang dana iuran bersama.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7299?page=930#:~:text=%D9%81%D8%B0%D9%83%D8%B1%20%D8%A7%D9%84%D9%87%D9%85%D8%AF%D8%A7%D9%86%D9%8A,%D8%A3%D8%A8%D9%88%20%D9%86%D8%B5%D8%B1%20%D9%88%D8%A2%D8%A8%D8%A7%D8%A4%D9%87)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7299?page=930#:~:text=%D8%B9%D9%86%D8%AF%20%D9%82%D8%B5%D9%88%D8%B1%20%D9%85%D9%88%D8%A7%D8%B1%D8%AF,%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9%20%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B3%D8%A7%D8%A9)
 
 ---

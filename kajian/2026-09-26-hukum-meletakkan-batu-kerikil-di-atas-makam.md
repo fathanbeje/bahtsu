@@ -75,7 +75,7 @@ Peletakan batu kerikil di atas makam **MEMBERIKAN MANFAAT NYATA** bagi mayit, ya
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Nash sharih langsung dari Imam Asy-Syafi'i menetapkan kesunnahan meletakkan kerikil di atas makam karena adanya perbuatan (*fi'il*) langsung dari Rasulullah SAW (*Sunnah Fi'liyyah*) pada makam putra beliau, Ibrahim.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=350#:~:text=%D9%81%D9%90%D9%8A%20%D8%A8%D9%8E%D8%A7%D8%A8%D9%90%20%D8%A5%D8%B2%D9%8E%D8%A7%D9%84%D9%8E%D8%A9%D9%90,%D8%A7%D8%B3%D9%92%D8%AA%D9%90%D8%AD%D9%92%D8%A8%D9%8E%D8%A7%D8%A8%D9%8F%20%D8%A7%D9%84%D9%90%D8%A7%D8%AD%D9%92%D8%AA%D9%90%D9%8A%D9%8E%D8%A7%D8%B7%D9%90%20%D9%81%D9%90%D9%8A)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=350#:~:text=%D9%88%D9%82%D8%AF%20%D8%B1%D8%B4%20%D8%B1%D8%B3%D9%88%D9%84,%D9%88%D9%88%D8%B6%D8%B9%20%D8%B9%D9%84%D9%8A%D9%87%20%D8%AD%D8%B5%D8%A8%D8%A7%D8%A1)
 
 2. **Kitab: Al-Majmu' Syarah Al-Muhadzdzab (المجموع شرح المهذب) - (Juz 5, Hal. 297)**  
    *Karya: Al-Imam Yahya bin Syaraf An-Nawawi (W. 676 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Syaikhoni*
@@ -88,7 +88,7 @@ Peletakan batu kerikil di atas makam **MEMBERIKAN MANFAAT NYATA** bagi mayit, ya
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Imam An-Nawawi mengukuhkan ijma' ashab madzhab Syafi'i mengenai status hukum istihbab (kesunnahan) meletakkan kerikil di atas makam serta anjuran memilih kerikil yang baik dan bersih seperti kerikil merah lembah Al-'Aqiq.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2611#:~:text=%D8%A7%D9%84%D8%B1%D9%91%D9%8E%D8%A7%D8%A8%D9%90%D8%B9%D9%8E%D8%A9%D9%8F%20%D9%8A%D9%8F%D8%B3%D9%92%D8%AA%D9%8E%D8%AD%D9%8E%D8%A8%D9%91%D9%8F%20%D8%A3%D9%8E%D9%86%D9%92,%D8%B3%D9%8E%D8%A8%D9%8E%D9%82%D9%8E%20%D9%88%D9%8E%D8%A3%D9%8E%D9%86%D9%92%20%D9%8A%D9%8F%D8%B1%D9%8E%D8%B4%D9%91%D9%8E)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2611#:~:text=%D9%8A%D8%B3%D8%AA%D8%AD%D8%A8%20%D8%A3%D9%86%20%D9%8A%D9%88%D8%B6%D8%B9,%D9%88%D9%8A%D8%B1%D8%B4%20%D8%B9%D9%84%D9%8A%D9%87%20%D9%85%D8%A7%D8%A1)
 
 3. **Kitab: Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazh Al-Minhaj (مغني المحتاج) - (Juz 2, Hal. 57)**  
    *Karya: Al-Khathib Asy-Syirbini (W. 977 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
@@ -101,7 +101,7 @@ Peletakan batu kerikil di atas makam **MEMBERIKAN MANFAAT NYATA** bagi mayit, ya
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Al-Khathib Asy-Syirbini merumuskan dua 'illat hukum sekaligus: 'illat ta'abbudiyyah (mengikuti sunnah Nabi SAW) dan 'illat maslahat ma'qulatul ma'na (menjaga keutuhan tanah makam dari erosi angin dan air).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/96231?page=599#:~:text=%D9%88%D8%B6%D8%B9%20%D8%B9%D9%84%D9%89%20%D9%82%D8%A8%D8%B1,%D8%A8%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%AD%20%D9%88%D8%A7%D8%B3%D8%AA%D9%85%D8%B1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/96231?page=599#:~:text=%D9%88%D9%84%D8%A3%D9%86%D9%87%D8%A7%20%D8%A3%D9%85%D9%86%D8%B9%20%D9%84%D8%AA%D8%B1%D8%A7%D8%A8%D9%87,%D8%B9%D9%86%20%D9%83%D8%AF%D8%B1%20%D8%A7%D9%84%D9%85%D9%88%D8%AA)
 
 4. **Kitab: Al-Mughni (المغني لابن قدامة) - (Juz 2, Hal. 385)**  
    *Karya: Ibnu Qudamah Al-Maqdisi (W. 620 H) | Madzhab: Hanbali (Mu'tamad) | Lapisan: Kitab Induk Madzhab Hanbali*
@@ -114,7 +114,7 @@ Peletakan batu kerikil di atas makam **MEMBERIKAN MANFAAT NYATA** bagi mayit, ya
    *Wajhul Istidlal / Wajhul Ilhaq (Status Madzhab dan Makhraj Syar'i):*  
    Ibarat ini membuktikan kesepakatan lintas madzhab (khususnya madzhab Hanbali) yang sejalan dengan madzhab Syafi'i bahwa hukum meletakkan kerikil adalah sunnah dengan sandaran riwayat hadits dan maslahat perlindungan tanah kubur.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6910?page=828#:~:text=%D8%B4%D9%8E%D8%B1%D9%92%D8%B7%D9%90%20%D8%A7%D9%84%D8%B5%D9%91%D9%8E%D9%84%D8%A7%D8%A9%D9%90%20%D9%81%D9%84%D9%85,%D8%A7%D9%84%D9%88%D9%82%D8%AA%D9%90%20%D9%88%D9%87%D8%B0%D8%A7%20%D9%85%D8%B0%D9%87%D8%A8%D9%8F)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6910?page=828#:~:text=%D9%88%D9%87%D8%B0%D8%A7%20%D9%85%D8%B3%D8%AA%D8%AD%D8%A8%20%D8%B9%D9%86%D8%AF,%D8%A8%D9%82%D8%A8%D8%B1%20%D8%A7%D8%A8%D9%86%D9%87%20%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85)
 
 ---
 
@@ -131,7 +131,7 @@ Peletakan batu kerikil di atas makam **MEMBERIKAN MANFAAT NYATA** bagi mayit, ya
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Sayyid Abu Bakar Syatha menegaskan wajhul ilhaq secara gamblang: bahwa batu kerikil di atas makam yang disiram air memiliki 'illat yang sama dengan pelepah kurma basah, yaitu bertasbih memuji Allah secara hakiki sehingga mendatangkan barakah dan takhfif (keringanan siksa) bagi penghuni kubur.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=495#:~:text=%D9%8A%D9%8F%D8%B4%D9%92%D8%AA%D9%8E%D8%B1%D9%8E%D8%B7%D9%8F%20%D9%81%D9%90%D9%8A%20%D8%A7%D9%84%D9%92%D8%AE%D9%8F%D9%81%D9%91%D9%90,%D8%A3%D9%86%20%D9%8A%D9%85%D9%83%D9%86%20%D8%A7%D9%84%D9%85%D8%B4%D9%89)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=495#:~:text=%D9%88%D8%A7%D9%84%D9%85%D8%B9%D9%86%D9%89%20%D9%81%D9%8A%20%D8%B0%D9%84%D9%83,%D8%A8%D8%B1%D8%B4%20%D8%A7%D9%84%D9%85%D8%A7%D8%A1%20%D8%B9%D9%84%D9%8A%D9%87%D8%A7)
 
 2. **Kitab: Tuhfatul Muhtaj fi Syarhil Minhaj (تحفة المحتاج بشرح المنهاج) - (Juz 3, Hal. 198)**  
    *Karya: Al-Imam Ahmad bin Hajar Al-Haitami (W. 974 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Fatawa Muta'akhirin*
@@ -144,7 +144,7 @@ Peletakan batu kerikil di atas makam **MEMBERIKAN MANFAAT NYATA** bagi mayit, ya
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Imam Ibnu Hajar Al-Haitami menjelaskan bahwa manfaat ukhrawi bagi mayit bersumber dari mujawarah (keberadaan berdampingan) dengan benda-benda yang memuliakan makam serta tasbih hakiki dari bebatuan yang memicu turunnya rahmat Allah SWT.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7695?page=1112#:~:text=%D9%8A%D9%81%D9%8A%D8%AF%20%D8%A3%D9%86%20%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%AF%D8%A7%D8%AA,%D8%A8%D9%90%D8%AD%D9%8E%D9%85%D9%92%D8%AF%D9%90%D9%87%D9%90%20%D9%88%D9%8E%D9%84%D9%8E%D9%83%D9%90%D9%86%D9%92%20%D9%84%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7695?page=1112#:~:text=%D9%88%D8%AA%D8%B3%D8%A8%D9%8A%D8%AD%20%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%AF%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%B1%D8%A9,%D9%88%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D9%8A%D8%AA)
 
 3. **Kitab: Al-Mausu'ah Al-Fiqhiyyah Al-Kuwaitiyyah (الموسوعة الفقهية الكويتية) - (Juz 32, Hal. 251)**  
    *Karya: Tim Ulama Kementerian Wakaf Kuwait | Madzhab: Muqaranah 4 Madzhab | Lapisan: Ensiklopedia Fiqih Kontemporer*

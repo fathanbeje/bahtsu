@@ -95,9 +95,31 @@ async function getBookMeta(bookId) {
   return null;
 }
 
-// Ekstrak range W3C Text Fragment dari potongan snip
-function generateW3CFragment(snipText) {
-  const clean = (snipText || '')
+// Ekstrak range W3C Text Fragment langsung dari teks mahallus syahid yang disorot
+function generateW3CFragment(primaryText, fallbackSnip = '') {
+  // 1. PRIORITAS UTAMA: Ambil langsung dari mahallus syahid asli yang ada di naskah!
+  const raw = (primaryText || '').trim();
+  if (raw) {
+    const clean = cleanArabic(raw);
+    const words = clean.split(/\s+/).map(cleanPunct).filter(Boolean);
+
+    if (words.length > 0 && words.length <= 4) {
+      return `#:~:text=${encodeURIComponent(words.join(' '))}`;
+    }
+
+    if (words.length > 4) {
+      // Ambil 2-3 kata awal dan 2-3 kata akhir dari mahallus syahid
+      const startWords = words.slice(0, 3).join(' ');
+      const endWords = words.slice(-3).join(' ');
+      if (startWords && endWords && startWords !== endWords) {
+        return `#:~:text=${encodeURIComponent(startWords)},${encodeURIComponent(endWords)}`;
+      }
+      return `#:~:text=${encodeURIComponent(startWords)}`;
+    }
+  }
+
+  // 2. Fallback HANYA JIKA tidak ada teks yang disorot
+  const clean = (fallbackSnip || '')
     .replace(/<span[^>]*>/gi, '')
     .replace(/<\/span>/gi, '')
     .replace(/<[^>]+>/g, ' ')
@@ -106,16 +128,15 @@ function generateW3CFragment(snipText) {
     .trim();
 
   const textWithoutTags = clean.replace(/<\/?em>/gi, '').trim();
-  const words = textWithoutTags.split(/\s+/).filter(Boolean);
+  const words = cleanArabic(textWithoutTags).split(/\s+/).map(cleanPunct).filter(Boolean);
 
   if (words.length === 0) return '';
-  if (words.length <= 5) {
-    const phrase = cleanPunct(words.join(' '));
-    return phrase ? `#:~:text=${encodeURIComponent(phrase)}` : '';
+  if (words.length <= 4) {
+    return `#:~:text=${encodeURIComponent(words.join(' '))}`;
   }
 
-  const startCandidates = words.slice(0, 3).map(cleanPunct).filter(Boolean);
-  const endCandidates = words.slice(-3).map(cleanPunct).filter(Boolean);
+  const startCandidates = words.slice(0, 3).filter(Boolean);
+  const endCandidates = words.slice(-3).filter(Boolean);
   const startWords = startCandidates.join(' ');
   const endWords = endCandidates.join(' ');
 
@@ -325,8 +346,17 @@ async function auditCitation(citation, filePath) {
     const correctPageId = targetMatch.meta.page_id;
     const correctVol = targetMatch.meta.vol;
     const correctPrintedPage = targetMatch.meta.page;
-    const newFragment = generateW3CFragment(targetMatch.item.snip);
+    const newFragment = generateW3CFragment(citation.highlightedText, targetMatch.item.snip);
     const correctUrl = `https://app.turath.io/book/${bookId}?page=${correctPageId}${newFragment}`;
+
+    let fragmentMatches = false;
+    if (textFrag && citation.highlightedText) {
+      const cleanH = cleanArabic(citation.highlightedText);
+      const fragStart = cleanPunct(cleanArabic(textFrag.split(',')[0]));
+      if (fragStart && cleanH.includes(fragStart)) {
+        fragmentMatches = true;
+      }
+    }
 
     if (pageId !== correctPageId) {
       issues.push({
@@ -347,6 +377,20 @@ async function auditCitation(citation, filePath) {
         type: 'MISSING_FRAGMENT',
         severity: 'LOW',
         message: 'Tautan belum dilengkapi Scroll-to-Text-Fragment (#:~:text=...)',
+      });
+      suggestedFix = {
+        correctUrl,
+        correctPageId,
+        correctVol,
+        correctPrintedPage,
+        bookName: bookMeta?.bookName || `Kitab ${bookId}`,
+        authorName: bookMeta?.authorName || '',
+      };
+    } else if (citation.highlightedText && !fragmentMatches) {
+      issues.push({
+        type: 'MISMATCH_FRAGMENT',
+        severity: 'HIGH',
+        message: `Tautan tidak mengarah ke mahallus syahid! Fragment '${textFrag}' tidak cocok dengan teks naskah yang disorot`,
       });
       suggestedFix = {
         correctUrl,
@@ -384,7 +428,7 @@ async function auditCitation(citation, filePath) {
     }
 
     if (globalCandidate) {
-      const newFragment = generateW3CFragment(globalCandidate.snip);
+      const newFragment = generateW3CFragment(citation.highlightedText, globalCandidate.snip);
       const correctUrl = `https://app.turath.io/book/${globalCandidate.bookId}?page=${globalCandidate.pageId}${newFragment}`;
       issues.push({
         type: 'MISMATCH_BOOK',
