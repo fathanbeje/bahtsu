@@ -157,7 +157,7 @@ Peletakan batu kerikil di atas makam **MEMBERIKAN MANFAAT NYATA** bagi mayit, ya
    *Wajhul Istidlal / Wajhul Ilhaq (Konsensus Muqaranah):*  
    Ibarat ensiklopedia fiqih ini menyimpulkan konsensus komparatif madzhab tentang sunnahnya peletakan kerikil dan keabsahan qiyas manfaat tasbih jamadat terhadap hadits pelepah kurma basah.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=21846#:~:text=%D9%82%D9%8E%D8%A8%D9%92%D8%B1%D9%90%20%D8%A7%D8%A8%D9%92%D9%86%D9%90%D9%87%D9%90%20%D8%A5%D8%A8%D9%92%D8%B1%D9%8E%D8%A7%D9%87%D9%90%D9%8A%D9%85%D9%8E,%D9%A1%20%2F%20%D9%A6%D9%A0%D9%A1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=21846#:~:text=%D9%8A%D8%B3%D8%AA%D8%AD%D8%A8%20%D9%88%D8%B6%D8%B9%20%D8%A7%D9%84%D8%AD%D8%B5%D8%A8%D8%A7%D8%A1,%D8%A8%D9%82%D8%A8%D8%B1%20%D8%A7%D8%A8%D9%86%D9%87%20%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85)
 
 ---
 

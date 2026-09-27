@@ -111,7 +111,7 @@ Berdasarkan tinjauan dalil-dalil dari kitab-kitab muktabar dalam Mazhab Syafi'i,
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Ibarat ini secara eksplisit menyatakan larangan qashar bagi mereka yang berstatus mukim di Arafah. Ini adalah dalil kuat yang mendukung rumusan hukum bahwa jamaah haji yang sudah mukim tidak boleh meng-qashar shalatnya di Arafah.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/16934?page=1568#:~:text=%D8%A7%D9%84%D9%85%D9%82%D9%8A%D9%85%D9%8A%D9%86%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9%20%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/16934?page=1568#:~:text=%D8%A7%D9%84%D9%85%D9%82%D9%8A%D9%85%D9%8A%D9%86%20%D8%A8%D8%B9%D8%B1%D9%81%D8%A9%20%D9%84%D8%A7,%D9%8A%D8%AC%D9%88%D8%B2%20%D9%84%D9%87%D9%85%20%D8%A7%D9%84%D9%82%D8%B5%D8%B1)
 
 4. **Kitab: Asna Al-Mathalib fi Syarhi Raudh Ath-Thalib (أسنى المطالب في شرح روض الطالب) — (Juz 2, Hal. 83)**  
    *Karya: Syaikhul Islam Zakariya Al-Anshari (Wafat: 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*

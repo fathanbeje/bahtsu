@@ -29,7 +29,7 @@ function cleanPunct(s) {
 
 function cleanArabic(s) {
   return (s || '')
-    .replace(/[\u064B-\u0652]/g, '') // hilangkan harakat
+    .replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g, '') // hilangkan seluruh harakat, tanwin, shaddah, dagger alif
     .replace(/[،؛.:!؟\(\)\[\]«»"'_\-\s]+/g, ' ')
     .trim();
 }
@@ -351,11 +351,16 @@ async function auditCitation(citation, filePath) {
 
     let fragmentMatches = false;
     if (textFrag && citation.highlightedText) {
-      const cleanH = cleanArabic(citation.highlightedText);
-      const fragStart = cleanPunct(cleanArabic(textFrag.split(',')[0]));
-      if (fragStart && cleanH.includes(fragStart)) {
-        fragmentMatches = true;
-      }
+      const expectedFrag = generateW3CFragment(citation.highlightedText).replace('#:~:text=', '');
+      const [expectedStartRaw, expectedEndRaw] = expectedFrag.split(',');
+      const expectedStart = cleanArabic(decodeURIComponent(expectedStartRaw || '')).split(/\s+/).map(cleanPunct).filter(Boolean).join(' ');
+      const expectedEnd = expectedEndRaw ? cleanArabic(decodeURIComponent(expectedEndRaw)).split(/\s+/).map(cleanPunct).filter(Boolean).join(' ') : '';
+
+      const [currStartRaw, currEndRaw] = textFrag.split(',');
+      const currStart = cleanArabic(currStartRaw || '').split(/\s+/).map(cleanPunct).filter(Boolean).join(' ');
+      const currEnd = currEndRaw ? cleanArabic(currEndRaw).split(/\s+/).map(cleanPunct).filter(Boolean).join(' ') : '';
+
+      fragmentMatches = (currStart === expectedStart) && (expectedEnd ? currEnd === expectedEnd : !currEnd);
     }
 
     if (pageId !== correctPageId) {
