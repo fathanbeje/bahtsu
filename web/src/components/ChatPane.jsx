@@ -421,28 +421,28 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
                 <button
                   type="button"
                   onClick={() => openTemplateModal('as_ilah')}
-                  className="p-3.5 sm:p-4 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
+                  className="p-4 sm:p-4.5 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
                 >
-                  <div className="space-y-1.5">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-[15px] sm:text-base font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
                         <span>📋</span>
                         <span>Format As'ilah Waqi'iyyah</span>
                       </span>
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-turath-emerald/10 text-turath-emerald font-semibold">
+                      <span className="text-xs px-2.5 py-0.5 rounded-full bg-turath-emerald/10 text-turath-emerald font-semibold shrink-0">
                         Wāqi'iyyah / Qauli
                       </span>
                     </div>
-                    <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-ink-600 dark:text-ink-400 leading-relaxed">
                       Kerangka resmi Bahtsul Masail: Tashawwur Mas'alah (deskripsi fakta kasus empiris), rumusan pokok pertanyaan, dan batasan fiqih.
                     </p>
                   </div>
-                  <div className="mt-3 flex items-center justify-between text-[11px] pt-2 border-t border-parchment-100 dark:border-ink-800/80">
+                  <div className="mt-3.5 flex items-center justify-between text-xs pt-2.5 border-t border-parchment-100 dark:border-ink-800/80">
                     <span className="text-turath-emerald dark:text-emerald-400 font-semibold flex items-center gap-1">
                       <span>Buka Parameter Template</span>
-                      <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                     </span>
-                    <span className="text-ink-400 font-mono text-[10px]">Tashawwur + As'ilah</span>
+                    <span className="text-ink-500 font-mono text-xs">Tashawwur + As'ilah</span>
                   </div>
                 </button>
 
@@ -450,28 +450,28 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
                 <button
                   type="button"
                   onClick={() => openTemplateModal('muqaranah')}
-                  className="p-3.5 sm:p-4 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
+                  className="p-4 sm:p-4.5 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
                 >
-                  <div className="space-y-1.5">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-[15px] sm:text-base font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
                         <span>⚖️</span>
                         <span>Komparasi 4 Mazhab</span>
                       </span>
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 font-semibold">
+                      <span className="text-xs px-2.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 font-semibold shrink-0">
                         Muqāranah Madzhab
                       </span>
                     </div>
-                    <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-ink-600 dark:text-ink-400 leading-relaxed">
                       Perbandingan hukum lintas Mazhab Syafi'i, Hanafi, Maliki, dan Hanbali lengkap dengan penegasan tamyiz madzhab dan dalilnya.
                     </p>
                   </div>
-                  <div className="mt-3 flex items-center justify-between text-[11px] pt-2 border-t border-parchment-100 dark:border-ink-800/80">
+                  <div className="mt-3.5 flex items-center justify-between text-xs pt-2.5 border-t border-parchment-100 dark:border-ink-800/80">
                     <span className="text-turath-emerald dark:text-emerald-400 font-semibold flex items-center gap-1">
                       <span>Buka Parameter Template</span>
-                      <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                     </span>
-                    <span className="text-ink-400 font-mono text-[10px]">4 Madzhab</span>
+                    <span className="text-ink-500 font-mono text-xs">4 Madzhab</span>
                   </div>
                 </button>
 
@@ -479,28 +479,28 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
                 <button
                   type="button"
                   onClick={() => openTemplateModal('takhrij')}
-                  className="p-3.5 sm:p-4 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
+                  className="p-4 sm:p-4.5 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
                 >
-                  <div className="space-y-1.5">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-[15px] sm:text-base font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
                         <span>🔍</span>
                         <span>Takhrij & Validasi Hadits</span>
                       </span>
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300 font-semibold">
+                      <span className="text-xs px-2.5 py-0.5 rounded-full bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300 font-semibold shrink-0">
                         Takhrij & Sanad
                       </span>
                     </div>
-                    <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-ink-600 dark:text-ink-400 leading-relaxed">
                       Uji keabsahan sanad, matan, derajat riwayat (Shahih/Dha'if), serta fiqhul hadits menurut pemahaman ulama muhaqqiqin.
                     </p>
                   </div>
-                  <div className="mt-3 flex items-center justify-between text-[11px] pt-2 border-t border-parchment-100 dark:border-ink-800/80">
+                  <div className="mt-3.5 flex items-center justify-between text-xs pt-2.5 border-t border-parchment-100 dark:border-ink-800/80">
                     <span className="text-turath-emerald dark:text-emerald-400 font-semibold flex items-center gap-1">
                       <span>Buka Parameter Template</span>
-                      <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                     </span>
-                    <span className="text-ink-400 font-mono text-[10px]">Sanad & Matan</span>
+                    <span className="text-ink-500 font-mono text-xs">Sanad & Matan</span>
                   </div>
                 </button>
 
@@ -508,28 +508,28 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
                 <button
                   type="button"
                   onClick={() => openTemplateModal('putusan')}
-                  className="p-3.5 sm:p-4 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
+                  className="p-4 sm:p-4.5 rounded-2xl border border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 hover:border-turath-emerald dark:hover:border-emerald-600 transition-all shadow-xs hover:shadow-md group flex flex-col justify-between"
                 >
-                  <div className="space-y-1.5">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-[15px] sm:text-base font-bold font-serif text-ink-900 dark:text-parchment-50 group-hover:text-turath-emerald dark:group-hover:text-emerald-300 transition-colors flex items-center gap-1.5">
                         <span>📑</span>
                         <span>Draf Putusan Sidang</span>
                       </span>
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-semibold">
+                      <span className="text-xs px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 font-semibold shrink-0">
                         Qarār Jamā'ī
                       </span>
                     </div>
-                    <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-ink-600 dark:text-ink-400 leading-relaxed">
                       Sintesis naskah putusan konsensus Bahtsul Masail lengkap dengan maraji' berantai (3-5 ibarat), titik temu hukum, dan makharij.
                     </p>
                   </div>
-                  <div className="mt-3 flex items-center justify-between text-[11px] pt-2 border-t border-parchment-100 dark:border-ink-800/80">
+                  <div className="mt-3.5 flex items-center justify-between text-xs pt-2.5 border-t border-parchment-100 dark:border-ink-800/80">
                     <span className="text-turath-emerald dark:text-emerald-400 font-semibold flex items-center gap-1">
                       <span>Buka Parameter Template</span>
-                      <ChevronRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                     </span>
-                    <span className="text-ink-400 font-mono text-[10px]">Siap Cetak / Arsip</span>
+                    <span className="text-ink-500 font-mono text-xs">Siap Cetak / Arsip</span>
                   </div>
                 </button>
               </div>
@@ -647,39 +647,43 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
       {/* Prompts Input Area */}
       <div className="border-t border-parchment-200 dark:border-ink-800 bg-parchment-50/95 dark:bg-ink-950/95 p-2.5 sm:p-4 backdrop-blur-md">
         <div className="max-w-4xl mx-auto space-y-2">
-          {/* Quick Action Chips */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 text-xs font-sans no-scrollbar">
+          {/* Quick Action Chips with comfortable touch targets & readable font */}
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 text-xs sm:text-sm font-sans no-scrollbar">
             <button
               onClick={() => onSendMessage("Formulasikan deskripsi masalah ini menjadi as'ilah (pertanyaan hukum) yang presisi sesuai standar bahtsul masail.")}
-              className="px-2.5 py-1 rounded-full border border-parchment-300 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald hover:text-turath-emerald whitespace-nowrap transition-colors"
+              className="px-3.5 py-1.5 rounded-full border border-parchment-300 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-800 dark:text-parchment-100 hover:border-turath-emerald hover:text-turath-emerald font-semibold whitespace-nowrap transition-colors shadow-2xs min-h-[32px] flex items-center gap-1.5"
             >
-              📝 As'ilah
+              <span>📝</span>
+              <span>As'ilah</span>
             </button>
             <button
               onClick={() => onSendMessage("Carikan minimal 3-5 ibarat dari kitab Syafi'iyyah (Syaikhoni & Hawasyi) yang sharih membahas masalah ini beserta wajhul istidlal-nya.")}
-              className="px-2.5 py-1 rounded-full border border-parchment-300 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald hover:text-turath-emerald whitespace-nowrap transition-colors"
+              className="px-3.5 py-1.5 rounded-full border border-parchment-300 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-800 dark:text-parchment-100 hover:border-turath-emerald hover:text-turath-emerald font-semibold whitespace-nowrap transition-colors shadow-2xs min-h-[32px] flex items-center gap-1.5"
             >
-              📚 Multi-Ibarat
+              <span>📚</span>
+              <span>Multi-Ibarat</span>
             </button>
             <button
               onClick={() => onSendMessage("Korelasikan kasus ini dengan Qawa'id Fiqhiyyah dan Ushul Fiqh (Asybah wan Nazhair / Qawa'idul Ahkam).")}
-              className="px-2.5 py-1 rounded-full border border-parchment-300 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald hover:text-turath-emerald whitespace-nowrap transition-colors"
+              className="px-3.5 py-1.5 rounded-full border border-parchment-300 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-800 dark:text-parchment-100 hover:border-turath-emerald hover:text-turath-emerald font-semibold whitespace-nowrap transition-colors shadow-2xs min-h-[32px] flex items-center gap-1.5"
             >
-              ⚖️ Qawa'id
+              <span>⚖️</span>
+              <span>Qawa'id</span>
             </button>
             <button
               onClick={() => onSendMessage("Susun draf taswidah resmi bahan kajian Bahtsul Masail lengkap: Judul, Deskripsi Masalah, Pertanyaan, Jawaban Berjenjang, Ibarat Berantai, dan Kesimpulan.")}
-              className="px-2.5 py-1 rounded-full border border-parchment-300 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald hover:text-turath-emerald whitespace-nowrap transition-colors"
+              className="px-3.5 py-1.5 rounded-full border border-parchment-300 dark:border-ink-800 bg-white dark:bg-ink-900 text-ink-800 dark:text-parchment-100 hover:border-turath-emerald hover:text-turath-emerald font-semibold whitespace-nowrap transition-colors shadow-2xs min-h-[32px] flex items-center gap-1.5"
             >
-              📜 Taswidah
+              <span>📜</span>
+              <span>Taswidah</span>
             </button>
             {messages.length > 0 && (
               <button
                 onClick={onResetChat}
-                className="px-2.5 py-1 rounded-full border border-rose-200 dark:border-rose-900/40 text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/30 whitespace-nowrap transition-colors flex items-center gap-1"
+                className="px-3 py-1.5 rounded-full border border-rose-200 dark:border-rose-900/40 text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/30 whitespace-nowrap transition-colors flex items-center gap-1 font-semibold text-xs min-h-[32px]"
                 title="Reset Sesi Diskusi Baru"
               >
-                <RotateCcw className="w-3 h-3" />
+                <RotateCcw className="w-3.5 h-3.5" />
                 <span>Reset</span>
               </button>
             )}
@@ -688,7 +692,7 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
           {/* Textarea & Send Input Box */}
           <form
             onSubmit={handleSubmit}
-            className="flex items-end gap-2 bg-white dark:bg-ink-900 rounded-2xl p-2 border border-parchment-300 dark:border-ink-800 shadow-xs focus-within:border-turath-emerald focus-within:ring-1 focus-within:ring-turath-emerald transition-all"
+            className="flex items-end gap-2 bg-white dark:bg-ink-900 rounded-2xl p-2.5 border border-parchment-300 dark:border-ink-800 shadow-xs focus-within:border-turath-emerald focus-within:ring-1 focus-within:ring-turath-emerald transition-all"
           >
             <textarea
               ref={textareaRef}
@@ -697,14 +701,14 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
               onChange={(e) => setInputText(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder="Tuliskan masalah fiqih, pertanyaan as'ilah, atau telaah ibarat..."
-              className="flex-1 bg-transparent px-2 py-1 text-sm text-ink-900 dark:text-parchment-50 placeholder-ink-400 dark:placeholder-ink-500 focus:outline-none resize-none font-serif leading-relaxed max-h-36"
+              className="flex-1 bg-transparent px-2.5 py-1 text-[15px] sm:text-base text-ink-900 dark:text-parchment-50 placeholder-ink-400 dark:placeholder-ink-500 focus:outline-none resize-none font-serif leading-relaxed max-h-36"
             />
 
             {isStreaming ? (
               <button
                 type="button"
                 onClick={onStopStreaming}
-                className="p-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white transition-colors shadow-xs flex-shrink-0"
+                className="p-3 rounded-xl bg-rose-600 hover:bg-rose-700 text-white transition-colors shadow-xs flex-shrink-0"
                 title="Hentikan respons streaming"
               >
                 <Square className="w-4 h-4 fill-current" />
@@ -713,7 +717,7 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
               <button
                 type="submit"
                 disabled={!inputText.trim()}
-                className="p-2.5 rounded-xl bg-turath-emerald hover:bg-turath-emerald-light disabled:opacity-40 disabled:hover:bg-turath-emerald text-parchment-50 transition-colors shadow-xs flex-shrink-0 border border-turath-gold/30"
+                className="p-3 rounded-xl bg-turath-emerald hover:bg-turath-emerald-light disabled:opacity-40 disabled:hover:bg-turath-emerald text-parchment-50 transition-colors shadow-xs flex-shrink-0 border border-turath-gold/30"
                 title="Kirim pesan (Enter)"
               >
                 <Send className="w-4 h-4" />

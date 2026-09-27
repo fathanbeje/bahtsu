@@ -195,24 +195,26 @@ export default function KajianArchivePage({
 
   return (
     <div className="flex flex-col h-full w-full bg-parchment-50 dark:bg-ink-950 text-ink-900 dark:text-parchment-50 overflow-hidden font-sans">
-      {/* Top Explorer Navigation Bar (Sleek Single 44px Row on Mobile) */}
-      <div className="px-3 sm:px-6 py-2 border-b border-parchment-200 dark:border-ink-800 bg-white/95 dark:bg-ink-900/95 backdrop-blur-md flex items-center justify-between gap-2 flex-shrink-0 z-10 shadow-2xs">
+      {/* Top Explorer Navigation Bar (Hidden on mobile when in reader mode to prevent double headers) */}
+      <div className={`px-3 sm:px-6 py-2 border-b border-parchment-200 dark:border-ink-800 bg-white/95 dark:bg-ink-900/95 backdrop-blur-md items-center justify-between gap-2 flex-shrink-0 z-10 shadow-2xs ${
+        mobileView === 'reader' ? 'hidden md:flex' : 'flex'
+      }`}>
         <div className="flex items-center gap-2 min-w-0">
           <button
             onClick={onBackToStudio}
-            className="flex items-center gap-1 px-2 py-1 rounded-xl border border-turath-emerald/30 bg-turath-emerald/10 text-turath-emerald dark:text-emerald-300 hover:bg-turath-emerald/20 text-xs font-semibold transition-all shrink-0 group shadow-2xs"
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-turath-emerald/30 bg-turath-emerald/10 text-turath-emerald dark:text-emerald-300 hover:bg-turath-emerald/20 text-xs font-semibold transition-all shrink-0 group shadow-2xs"
             title="Kembali ke Studio Musyawarah"
           >
             <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" />
             <span className="hidden sm:inline">Studio</span>
           </button>
 
-          <div className="flex items-center gap-1.5 min-w-0">
+          <div className="flex items-center gap-2 min-w-0">
             <FolderArchive className="w-4 h-4 text-turath-gold shrink-0" />
-            <span className="font-serif font-bold text-xs sm:text-base text-ink-900 dark:text-parchment-50 truncate">
+            <span className="font-serif font-bold text-sm sm:text-base text-ink-900 dark:text-parchment-50 truncate">
               Arsip Kajian
             </span>
-            <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-parchment-200/80 dark:bg-ink-800 text-ink-600 dark:text-ink-400 shrink-0">
+            <span className="text-xs font-mono px-2 py-0.5 rounded-full bg-parchment-200/80 dark:bg-ink-800 text-ink-700 dark:text-ink-300 shrink-0 font-medium">
               {totalDocs}
             </span>
           </div>
@@ -224,9 +226,9 @@ export default function KajianArchivePage({
           <div className="flex md:hidden items-center bg-parchment-200 dark:bg-ink-800 p-0.5 rounded-lg text-xs shrink-0">
             <button
               onClick={() => setMobileView('list')}
-              className={`px-2 py-0.5 rounded-md font-medium text-[11px] transition-all ${
+              className={`px-2.5 py-1 rounded-md font-semibold text-xs transition-all ${
                 mobileView === 'list'
-                  ? 'bg-white dark:bg-ink-900 text-turath-emerald font-bold shadow-2xs'
+                  ? 'bg-white dark:bg-ink-900 text-turath-emerald shadow-2xs'
                   : 'text-ink-600 dark:text-ink-400'
               }`}
             >
@@ -234,9 +236,9 @@ export default function KajianArchivePage({
             </button>
             <button
               onClick={() => setMobileView('reader')}
-              className={`px-2 py-0.5 rounded-md font-medium text-[11px] transition-all ${
+              className={`px-2.5 py-1 rounded-md font-semibold text-xs transition-all ${
                 mobileView === 'reader'
-                  ? 'bg-white dark:bg-ink-900 text-turath-emerald font-bold shadow-2xs'
+                  ? 'bg-white dark:bg-ink-900 text-turath-emerald shadow-2xs'
                   : 'text-ink-600 dark:text-ink-400'
               }`}
             >
@@ -248,10 +250,10 @@ export default function KajianArchivePage({
           {setDarkMode && (
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className="p-1 sm:p-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-600 dark:text-parchment-300 hover:text-turath-emerald transition-colors"
+              className="p-1.5 sm:p-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-600 dark:text-parchment-300 hover:text-turath-emerald transition-colors"
               title={darkMode ? "Ganti ke Mode Siang" : "Ganti ke Mode Malam"}
             >
-              {darkMode ? <Sun className="w-3.5 h-3.5 text-amber-400" /> : <Moon className="w-3.5 h-3.5 text-ink-600" />}
+              {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-ink-600" />}
             </button>
           )}
 
@@ -259,10 +261,10 @@ export default function KajianArchivePage({
           <button
             onClick={fetchList}
             disabled={loading}
-            className="p-1 sm:p-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-600 dark:text-parchment-300 hover:text-turath-emerald transition-colors"
+            className="p-1.5 sm:p-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-600 dark:text-parchment-300 hover:text-turath-emerald transition-colors"
             title="Muat ulang repositori"
           >
-            <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin text-turath-emerald' : ''}`} />
+            <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin text-turath-emerald' : ''}`} />
           </button>
         </div>
       </div>
@@ -275,34 +277,34 @@ export default function KajianArchivePage({
             mobileView === 'list' ? 'flex' : 'hidden md:flex'
           }`}
         >
-          {/* Compact Instant Search & Filter Header (Saves 60% vertical space) */}
-          <div className="p-2.5 sm:p-3 border-b border-parchment-200 dark:border-ink-800 space-y-2 bg-white/70 dark:bg-ink-900/70 backdrop-blur-xs">
+          {/* Instant Search & Filter Header with comfortable editorial typography */}
+          <div className="p-3 sm:p-3.5 border-b border-parchment-200 dark:border-ink-800 space-y-2.5 bg-white/70 dark:bg-ink-900/70 backdrop-blur-xs">
             {/* Search Input */}
             <div className="relative">
-              <Search className="w-3.5 h-3.5 text-ink-400 absolute left-2.5 top-1/2 -translate-y-1/2" />
+              <Search className="w-4 h-4 text-ink-400 absolute left-3 top-1/2 -translate-y-1/2" />
               <input
                 ref={searchInputRef}
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                placeholder="Cari kata kunci isi naskah, kitab, ibarat..."
-                className="w-full pl-8 pr-7 py-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-950 text-xs text-ink-900 dark:text-parchment-50 placeholder-ink-400 focus:outline-none focus:ring-1 focus:ring-turath-emerald shadow-2xs font-sans"
+                placeholder="Cari isi naskah, kitab, ibarat..."
+                className="w-full pl-9 pr-8 py-2 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-950 text-sm text-ink-900 dark:text-parchment-50 placeholder-ink-400 focus:outline-none focus:ring-1 focus:ring-turath-emerald shadow-2xs font-sans"
               />
               {search && (
                 <button
                   onClick={() => setSearch('')}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 text-ink-400 hover:text-ink-700 dark:hover:text-parchment-200"
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-ink-400 hover:text-ink-700 dark:hover:text-parchment-200"
                 >
-                  <X className="w-3 h-3" />
+                  <X className="w-3.5 h-3.5" />
                 </button>
               )}
             </div>
 
-            {/* Compact Horizontal Matra Filter Chips */}
-            <div className="flex items-center gap-1 overflow-x-auto no-scrollbar text-[11px]">
+            {/* Matra Filter Chips with comfortable touch targets */}
+            <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar text-xs py-0.5">
               <button
                 onClick={() => setFilterMatra('all')}
-                className={`px-2 py-0.5 rounded-full whitespace-nowrap transition-all font-medium ${
+                className={`px-3 py-1.5 rounded-full whitespace-nowrap transition-all font-medium min-h-[30px] flex items-center ${
                   filterMatra === 'all'
                     ? 'bg-turath-emerald text-white shadow-2xs font-semibold'
                     : 'bg-white dark:bg-ink-900 text-ink-600 dark:text-ink-400 border border-parchment-300 dark:border-ink-800'
@@ -312,7 +314,7 @@ export default function KajianArchivePage({
               </button>
               <button
                 onClick={() => setFilterMatra('waqi_iyyah')}
-                className={`px-2 py-0.5 rounded-full whitespace-nowrap transition-all font-medium ${
+                className={`px-3 py-1.5 rounded-full whitespace-nowrap transition-all font-medium min-h-[30px] flex items-center ${
                   filterMatra === 'waqi_iyyah'
                     ? 'bg-turath-emerald text-white shadow-2xs font-semibold'
                     : 'bg-white dark:bg-ink-900 text-ink-600 dark:text-ink-400 border border-parchment-300 dark:border-ink-800'
@@ -322,7 +324,7 @@ export default function KajianArchivePage({
               </button>
               <button
                 onClick={() => setFilterMatra('maudlu_iyyah')}
-                className={`px-2 py-0.5 rounded-full whitespace-nowrap transition-all font-medium ${
+                className={`px-3 py-1.5 rounded-full whitespace-nowrap transition-all font-medium min-h-[30px] flex items-center ${
                   filterMatra === 'maudlu_iyyah'
                     ? 'bg-turath-emerald text-white shadow-2xs font-semibold'
                     : 'bg-white dark:bg-ink-900 text-ink-600 dark:text-ink-400 border border-parchment-300 dark:border-ink-800'
@@ -332,7 +334,7 @@ export default function KajianArchivePage({
               </button>
               <button
                 onClick={() => setFilterMatra('qanuniyyah')}
-                className={`px-2 py-0.5 rounded-full whitespace-nowrap transition-all font-medium ${
+                className={`px-3 py-1.5 rounded-full whitespace-nowrap transition-all font-medium min-h-[30px] flex items-center ${
                   filterMatra === 'qanuniyyah'
                     ? 'bg-turath-emerald text-white shadow-2xs font-semibold'
                     : 'bg-white dark:bg-ink-900 text-ink-600 dark:text-ink-400 border border-parchment-300 dark:border-ink-800'
@@ -343,7 +345,7 @@ export default function KajianArchivePage({
             </div>
 
             {/* Results count & Sort */}
-            <div className="flex items-center justify-between text-[10px] sm:text-[11px] text-ink-500 pt-0.5">
+            <div className="flex items-center justify-between text-xs text-ink-500 pt-0.5 font-sans">
               <span>
                 {search ? (
                   <span className="font-semibold text-turath-emerald dark:text-emerald-400">
@@ -357,7 +359,7 @@ export default function KajianArchivePage({
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="bg-transparent border-0 text-[10px] sm:text-[11px] text-ink-600 dark:text-ink-400 font-medium focus:ring-0 cursor-pointer p-0"
+                className="bg-transparent border-0 text-xs text-ink-700 dark:text-ink-300 font-semibold focus:ring-0 cursor-pointer p-0"
               >
                 <option value="newest">Terbaru</option>
                 <option value="oldest">Terlama</option>
@@ -367,8 +369,8 @@ export default function KajianArchivePage({
             </div>
           </div>
 
-          {/* High-Density Results Document Cards List (Fits 4 cards on screen) */}
-          <div className="flex-1 overflow-y-auto p-2 sm:p-3 space-y-2">
+          {/* High-Density Results Document Cards List with comfortable font sizes */}
+          <div className="flex-1 overflow-y-auto p-2.5 sm:p-3 space-y-2.5">
             {filteredAndSearched.length === 0 ? (
               <div className="text-center py-12 px-4 text-xs text-ink-400 space-y-2">
                 <Search className="w-6 h-6 mx-auto text-ink-300 dark:text-ink-700" />
@@ -391,38 +393,38 @@ export default function KajianArchivePage({
                       setSelectedFile(item);
                       setMobileView('reader');
                     }}
-                    className={`w-full text-left p-2.5 sm:p-3 rounded-xl border transition-all flex flex-col gap-1.5 relative ${
+                    className={`w-full text-left p-3 sm:p-3.5 rounded-xl border transition-all flex flex-col gap-2 relative ${
                       isSelected
                         ? 'bg-white dark:bg-ink-900 border-turath-emerald dark:border-emerald-600 shadow-xs ring-1 ring-turath-emerald'
-                        : 'bg-white/80 dark:bg-ink-900/80 border-parchment-200 dark:border-ink-800 hover:border-parchment-300 dark:hover:border-ink-700'
+                        : 'bg-white/85 dark:bg-ink-900/85 border-parchment-200 dark:border-ink-800 hover:border-parchment-300 dark:hover:border-ink-700'
                     }`}
                   >
                     {/* Title */}
-                    <div className="font-serif font-bold text-xs sm:text-[13.5px] leading-snug text-ink-900 dark:text-parchment-50 line-clamp-2">
+                    <div className="font-serif font-bold text-[14.5px] sm:text-base leading-snug text-ink-950 dark:text-parchment-50 line-clamp-2">
                       {item.title}
                     </div>
 
                     {/* Metadata Inline Strip */}
-                    <div className="flex items-center gap-1.5 text-[10px] text-ink-500 dark:text-ink-400 font-mono">
+                    <div className="flex items-center gap-1.5 text-xs text-ink-500 dark:text-ink-400 font-sans flex-wrap">
                       {item.matra && (
-                        <span className="text-[9.5px] px-1.5 py-0.2 rounded-md bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft text-turath-emerald dark:text-emerald-300 font-semibold shrink-0">
+                        <span className="text-xs px-2 py-0.5 rounded-md bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft text-turath-emerald dark:text-emerald-300 font-semibold shrink-0">
                           {item.matra.split('(')[0].trim()}
                         </span>
                       )}
                       <span>•</span>
-                      <span className="flex items-center gap-1">
-                        <Calendar className="w-2.5 h-2.5" />
+                      <span className="flex items-center gap-1 font-mono text-xs text-ink-500 dark:text-ink-400">
+                        <Calendar className="w-3 h-3 text-ink-400" />
                         <span>{item.filename.substring(0, 10)}</span>
                       </span>
                       <span>•</span>
-                      <span className="ml-auto">{(item.size / 1024).toFixed(1)} KB</span>
+                      <span className="ml-auto font-mono text-xs text-ink-500 dark:text-ink-400">{(item.size / 1024).toFixed(1)} KB</span>
                     </div>
 
                     {/* Search match snippet */}
                     {search && item.snippet && (
-                      <div className="p-1.5 rounded-lg bg-amber-50/80 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/60 text-[10.5px] leading-relaxed text-ink-800 dark:text-parchment-200 font-sans">
-                        <div className="text-[9.5px] font-bold text-amber-700 dark:text-amber-400 flex items-center gap-1 mb-0.5">
-                          <Sparkles className="w-2.5 h-2.5" />
+                      <div className="p-2 rounded-lg bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900/60 text-xs sm:text-[13px] leading-relaxed text-ink-800 dark:text-parchment-200 font-sans">
+                        <div className="text-xs font-bold text-amber-800 dark:text-amber-300 flex items-center gap-1 mb-1">
+                          <Sparkles className="w-3 h-3 text-amber-600 dark:text-amber-400" />
                           <span>Cocok {item.matchCount}x dalam isi:</span>
                         </div>
                         <div className="line-clamp-2">{highlightSnippet(item.snippet, search)}</div>
@@ -443,13 +445,13 @@ export default function KajianArchivePage({
         >
           {selectedFile ? (
             <>
-              {/* Document Action Toolbar (Compact 38px on Mobile) */}
-              <div className="px-3 sm:px-5 py-2 border-b border-parchment-200 dark:border-ink-800 bg-white/85 dark:bg-ink-900/85 backdrop-blur-md flex items-center justify-between gap-2 flex-shrink-0 shadow-2xs">
+              {/* Document Action Toolbar (Comfortable touch targets & single top bar on mobile) */}
+              <div className="px-3 sm:px-5 py-2 sm:py-2.5 border-b border-parchment-200 dark:border-ink-800 bg-white/95 dark:bg-ink-900/95 backdrop-blur-md flex items-center justify-between gap-2 flex-shrink-0 shadow-2xs">
                 {/* Left: Mobile back button & View Switcher */}
                 <div className="flex items-center gap-1.5 min-w-0 flex-1">
                   <button
                     onClick={() => setMobileView('list')}
-                    className="md:hidden flex items-center gap-1 px-2 py-1 rounded-xl bg-parchment-200 dark:bg-ink-800 text-ink-700 dark:text-parchment-200 text-xs font-semibold shrink-0"
+                    className="md:hidden flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-parchment-200 dark:bg-ink-800 text-ink-800 dark:text-parchment-100 text-xs font-semibold shrink-0 shadow-2xs"
                     title="Kembali ke Daftar Naskah"
                   >
                     <ArrowLeft className="w-3.5 h-3.5" />
@@ -459,41 +461,41 @@ export default function KajianArchivePage({
                   <div className="flex items-center bg-parchment-200 dark:bg-ink-800 p-0.5 rounded-lg text-xs font-sans shrink-0">
                     <button
                       onClick={() => setActiveTab('preview')}
-                      className={`px-2 sm:px-2.5 py-0.5 rounded-md flex items-center gap-1 transition-all ${
+                      className={`px-2.5 sm:px-3 py-1 rounded-md flex items-center gap-1 transition-all ${
                         activeTab === 'preview'
                           ? 'bg-white dark:bg-ink-900 text-turath-emerald font-bold shadow-2xs'
                           : 'text-ink-600 dark:text-ink-400'
                       }`}
                     >
-                      <Eye className="w-3 h-3" />
+                      <Eye className="w-3.5 h-3.5" />
                       <span>Baca</span>
                     </button>
                     <button
                       onClick={() => setActiveTab('raw')}
-                      className={`px-2 sm:px-2.5 py-0.5 rounded-md flex items-center gap-1 transition-all ${
+                      className={`px-2.5 sm:px-3 py-1 rounded-md flex items-center gap-1 transition-all ${
                         activeTab === 'raw'
                           ? 'bg-white dark:bg-ink-900 text-turath-emerald font-bold shadow-2xs'
                           : 'text-ink-600 dark:text-ink-400'
                       }`}
                     >
-                      <Edit3 className="w-3 h-3" />
+                      <Edit3 className="w-3.5 h-3.5" />
                       <span>.md</span>
                     </button>
                   </div>
                 </div>
 
                 {/* Right Action Buttons */}
-                <div className="flex items-center gap-1 sm:gap-1.5 text-xs font-sans shrink-0">
+                <div className="flex items-center gap-1 sm:gap-2 text-xs font-sans shrink-0">
                   {/* Load to Dock */}
                   <button
                     onClick={() => {
                       onLoadToTaswidah(selectedFile.content);
                       onBackToStudio();
                     }}
-                    className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-turath-emerald text-white hover:bg-turath-emerald-light transition-all shadow-2xs font-semibold text-[11px] sm:text-xs"
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-turath-emerald text-white hover:bg-turath-emerald-light transition-all shadow-2xs font-semibold text-xs"
                     title="Muat ke Dock Taswidah dan buka Studio"
                   >
-                    <BookOpen className="w-3 h-3 text-turath-gold" />
+                    <BookOpen className="w-3.5 h-3.5 text-turath-gold" />
                     <span>Muat ke Dock</span>
                   </button>
 
@@ -504,10 +506,10 @@ export default function KajianArchivePage({
                         onLoadToChat(`Telaah lebih lanjut dari berkas kajian "${selectedFile.title}":\n\n${selectedFile.content.substring(0, 500)}...`);
                         onBackToStudio();
                       }}
-                      className="hidden xl:flex items-center gap-1 px-2.5 py-1 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald text-xs"
+                      className="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald text-xs"
                       title="Lanjutkan musyawarah naskah ini di Chat"
                     >
-                      <MessageSquare className="w-3 h-3" />
+                      <MessageSquare className="w-3.5 h-3.5" />
                       <span>Bahas di Chat</span>
                     </button>
                   )}
@@ -515,17 +517,17 @@ export default function KajianArchivePage({
                   {/* Copy Word */}
                   <button
                     onClick={() => handleCopyWord(selectedFile.content)}
-                    className="flex items-center gap-1 px-2 py-1 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald transition-all shadow-2xs text-[11px] sm:text-xs"
+                    className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald transition-all shadow-2xs text-xs font-medium"
                     title="Salin untuk Word"
                   >
                     {copiedStatus === 'word' ? (
                       <>
-                        <Check className="w-3 h-3 text-emerald-600" />
+                        <Check className="w-3.5 h-3.5 text-emerald-600" />
                         <span className="text-emerald-600 font-semibold">Tersalin!</span>
                       </>
                     ) : (
                       <>
-                        <Copy className="w-3 h-3 text-turath-gold" />
+                        <Copy className="w-3.5 h-3.5 text-turath-gold" />
                         <span className="hidden sm:inline">Salin Word</span>
                       </>
                     )}
@@ -534,34 +536,34 @@ export default function KajianArchivePage({
                   {/* Download */}
                   <button
                     onClick={() => handleDownload(selectedFile)}
-                    className="p-1 sm:px-2 sm:py-1 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald transition-all shadow-2xs text-xs flex items-center gap-1"
+                    className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl border border-parchment-300 dark:border-ink-700 bg-white dark:bg-ink-900 text-ink-700 dark:text-parchment-200 hover:border-turath-emerald transition-all shadow-2xs text-xs flex items-center gap-1"
                     title="Unduh .md"
                   >
-                    <Download className="w-3 h-3 text-ink-500" />
+                    <Download className="w-3.5 h-3.5 text-ink-500" />
                     <span className="hidden sm:inline">Unduh</span>
                   </button>
                 </div>
               </div>
 
               {/* Document Reading View */}
-              <div className="flex-1 overflow-y-auto p-3 sm:p-8 space-y-4 sm:space-y-6">
+              <div className="flex-1 overflow-y-auto p-3.5 sm:p-8 space-y-4 sm:space-y-6">
                 <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6">
                   {/* Meta Callout Card */}
-                  <div className="p-3.5 sm:p-6 rounded-xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-xs space-y-2 font-sans">
+                  <div className="p-4 sm:p-6 rounded-2xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-xs space-y-2.5 font-sans">
                     <div className="flex items-center justify-between gap-2 flex-wrap">
-                      <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft text-turath-emerald dark:text-emerald-300">
+                      <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft text-turath-emerald dark:text-emerald-300">
                         {selectedFile.matra || "Bahtsul Masail Nahdlatul Ulama"}
                       </span>
-                      <span className="font-mono text-[10px] sm:text-xs text-ink-400">
+                      <span className="font-mono text-xs text-ink-500 dark:text-ink-400">
                         {selectedFile.filename}
                       </span>
                     </div>
 
-                    <h1 className="font-serif font-bold text-base sm:text-2xl text-ink-950 dark:text-parchment-50 leading-snug">
+                    <h1 className="font-serif font-bold text-lg sm:text-2xl text-ink-950 dark:text-parchment-50 leading-snug">
                       {selectedFile.title}
                     </h1>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-[11px] pt-1.5 border-t border-parchment-100 dark:border-ink-800 text-ink-600 dark:text-ink-400">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm pt-2 border-t border-parchment-100 dark:border-ink-800 text-ink-600 dark:text-ink-400">
                       {selectedFile.fan && (
                         <div>
                           <span className="font-semibold text-ink-900 dark:text-parchment-200">Kajian Fan:</span> {selectedFile.fan}
@@ -577,18 +579,18 @@ export default function KajianArchivePage({
 
                   {/* Rendered Markdown or Raw Code View */}
                   {activeTab === 'preview' ? (
-                    <div className="p-4 sm:p-8 rounded-xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-xs space-y-3 font-serif text-sm sm:text-[17px] leading-[1.85] text-ink-900 dark:text-parchment-100">
+                    <div className="p-4 sm:p-8 rounded-2xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-xs space-y-3.5 font-serif text-[15.5px] sm:text-[17.5px] leading-[1.85] text-ink-900 dark:text-parchment-100">
                       {selectedFile.content ? (
                         selectedFile.content.split('\n').map((line, idx) => {
                           const trimmed = line.trim();
-                          if (!trimmed) return <div key={idx} className="h-1.5" />;
+                          if (!trimmed) return <div key={idx} className="h-2" />;
 
                           if (trimmed.startsWith('#')) {
                             const level = trimmed.match(/^#+/)[0].length;
                             const text = trimmed.replace(/^#+\s*/, '');
-                            if (level === 1) return <h2 key={idx} className="font-serif font-bold text-lg sm:text-2xl text-turath-emerald dark:text-emerald-300 mt-4 mb-2 pb-1 border-b border-parchment-200 dark:border-ink-800">{text}</h2>;
-                            if (level === 2) return <h3 key={idx} className="font-serif font-bold text-base sm:text-xl text-ink-900 dark:text-parchment-100 mt-3 mb-1.5">{text}</h3>;
-                            return <h4 key={idx} className="font-serif font-bold text-sm sm:text-lg text-ink-800 dark:text-parchment-200 mt-2 mb-1">{text}</h4>;
+                            if (level === 1) return <h2 key={idx} className="font-serif font-bold text-xl sm:text-2xl text-turath-emerald dark:text-emerald-300 mt-5 mb-2.5 pb-1.5 border-b border-parchment-200 dark:border-ink-800">{text}</h2>;
+                            if (level === 2) return <h3 key={idx} className="font-serif font-bold text-lg sm:text-xl text-ink-900 dark:text-parchment-100 mt-4 mb-2">{text}</h3>;
+                            return <h4 key={idx} className="font-serif font-bold text-base sm:text-lg text-ink-800 dark:text-parchment-200 mt-3 mb-1.5">{text}</h4>;
                           }
 
                           if (trimmed.startsWith('>')) {
@@ -601,7 +603,7 @@ export default function KajianArchivePage({
                                 <blockquote
                                   key={idx}
                                   dir="rtl"
-                                  className={`my-3 p-3.5 sm:p-5 rounded-xl border-r-4 border-r-turath-gold border-l-0 bg-parchment-100/70 dark:bg-ink-950/60 text-right arabic-text break-words overflow-x-hidden ${
+                                  className={`my-3.5 p-4 sm:p-5 rounded-2xl border-r-4 border-r-turath-gold border-l-0 bg-parchment-100/70 dark:bg-ink-950/60 text-right arabic-text break-words overflow-x-hidden ${
                                     arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'
                                   }`}
                                   style={{ fontSize: `${arabicFontSize}px` }}
@@ -615,7 +617,7 @@ export default function KajianArchivePage({
                             return (
                               <blockquote
                                 key={idx}
-                                className="my-2.5 pl-3.5 border-l-3 border-l-turath-emerald/50 italic text-ink-700 dark:text-parchment-300"
+                                className="my-3 pl-4 border-l-4 border-l-turath-emerald/60 italic text-ink-800 dark:text-parchment-200 text-sm sm:text-base leading-relaxed"
                                 dangerouslySetInnerHTML={{
                                   __html: formatTextToHtml(quoteContent),
                                 }}
@@ -625,8 +627,8 @@ export default function KajianArchivePage({
 
                           if (trimmed.includes('Tautan Verifikasi') || (trimmed.includes('Turath.io') && trimmed.includes('http'))) {
                             return (
-                              <div key={idx} className="my-2 p-2.5 rounded-xl bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200/80 dark:border-blue-900/60 text-xs text-blue-900 dark:text-blue-200 flex items-center gap-2 font-sans shadow-2xs">
-                                <span className="shrink-0 text-sm">🔗</span>
+                              <div key={idx} className="my-2.5 p-3 rounded-xl bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200/80 dark:border-blue-900/60 text-xs sm:text-sm text-blue-900 dark:text-blue-200 flex items-center gap-2.5 font-sans shadow-2xs">
+                                <span className="shrink-0 text-base">🔗</span>
                                 <div className="flex-1 break-words font-medium" dangerouslySetInnerHTML={{ __html: formatTextToHtml(trimmed) }} />
                               </div>
                             );
@@ -641,8 +643,8 @@ export default function KajianArchivePage({
                               dir={isArabic ? 'rtl' : 'ltr'}
                               className={`leading-relaxed text-ink-900 dark:text-parchment-50 break-words ${
                                 isArabic
-                                  ? `arabic-text ${arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'} my-2 px-1`
-                                  : 'text-sm sm:text-[17px] leading-[1.8] my-1'
+                                  ? `arabic-text ${arabicFontFamily === 'scheherazade' ? 'font-scheherazade' : 'font-arabic'} my-2.5 px-1`
+                                  : 'text-[15.5px] sm:text-[17.5px] leading-[1.85] my-1.5'
                               }`}
                               style={isArabic ? { fontSize: `${arabicFontSize}px` } : undefined}
                               dangerouslySetInnerHTML={{
@@ -656,7 +658,7 @@ export default function KajianArchivePage({
                       )}
                     </div>
                   ) : (
-                    <div className="p-4 sm:p-6 rounded-xl bg-ink-950 border border-ink-800 text-parchment-200 font-mono text-xs overflow-x-auto whitespace-pre-wrap leading-relaxed">
+                    <div className="p-4 sm:p-6 rounded-2xl bg-ink-950 border border-ink-800 text-parchment-200 font-mono text-xs sm:text-sm overflow-x-auto whitespace-pre-wrap leading-relaxed">
                       {selectedFile.content}
                     </div>
                   )}

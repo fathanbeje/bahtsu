@@ -4,6 +4,28 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.0] - 2026-09-27
+
+### ✨ New Features & Enhancements
+- **Telemetri Sisa Kuota Multi-Akun Gemini (`RouterCockpitModal.jsx` & `server.js`):**
+  - Menyajikan pemantauan sisa kuota harian riil untuk masing-masing akun Google Gemini (`fathanbejo@gmail.com`, `fathanbeje@gmail.com`, `mia02database@gmail.com`, `mia02sgs@gmail.com`) dengan batas standar 1.500 RPD (Request Per Day) dan 15 RPM.
+  - Kartu Ringkasan Kuota Tergabung (*Combined Pool Quota*): Menghitung agregasi kuota 6.000 RPD, persentase ketersediaan pool dinamis, serta total kueri dan token terpakai hari ini.
+  - Rincian Metrik Per Akun: Progress bar sisa kuota dengan kode warna cerdas (hijau >50%, kuning 20-50%, merah <20%), status keaktifan sesi token OAuth, estimasi waktu kedaluwarsa auto-refresh, dan tombol sakelar kendali node akun.
+- **Rekalibrasi Tipografi Editorial Mobile Skala Awwwards (`KajianArchivePage.jsx`, `ChatPane.jsx`, `Header.jsx`):**
+  - Mengangkat skala font mobile dari sub-10px mikro ke standar ergonomis editorial kontemporer: teks bacaan naskah fiqih 15.5px–17.5px (`leading-[1.85]`), judul kartu kajian 14.5px–16px, badge metadata 12px, serta chips filter 12px–13px.
+  - Menghilangkan beban mata dan kebutuhan *squinting* pada layar ponsel beresolusi tinggi (Retina/OLED).
+- **Arsitektur Halaman Arsip Kajian Full View (`KajianArchivePage.jsx`):**
+  - Mengubah penampil arsip dari modal pop-up sempit menjadi halaman penuh (*dedicated full page*) dengan bilah navigasi mandiri 44px.
+  - Menghilangkan redundansi tumpukan dua baris header pada mode pembaca naskah di perangkat mobile (*Distraction-Free Editorial View*).
+  - Mengimplementasikan pencarian instan mendalam berbasis konten (*full-text in-content search*) dengan penyorotan kata kunci (*highlight snippet*) dan penghitung frekuensi kemunculan lafadz.
+
+### 🐛 Bug Fixes & Refactoring
+- **Koreksi Title Anti-Slop (`index.html`):** Mengganti karakter em-dash pada tag `<title>` dengan mid-dot (`·`) sesuai protokol anti-slop.
+- **Pencegahan iOS Safari Auto-Zoom:** Memperbesar ukuran teks input pencarian dan textarea percakapan ke skala 15px–16px agar peramban mobile tidak melakukan zoom paksa saat kolom kueri difokuskan.
+- **Portal Rendering Menu Mobile (`Header.jsx`):** Mengisolasi drawer menu mobile ke dalam React Portal (`createPortal`) pada `document.body` guna mencegah terpotongnya menu akibat batasan konteks *backdrop-blur* header.
+
+---
+
 ## [2.4.0] - 2026-09-26
 
 ### 🔒 Security & Privacy

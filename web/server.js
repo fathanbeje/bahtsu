@@ -138,25 +138,47 @@ app.get('/api/9router/overview', checkAuth, async (req, res) => {
   if (fs.existsSync(ROUTER_DB_PATH)) {
     try {
       hasDbAccess = true;
-      // Fetch provider connections
+      // Fetch provider connections with their metadata (data column)
       const { stdout: accStdout } = await execAsync(
-        `sqlite3 -json "${ROUTER_DB_PATH}" "SELECT id, provider, authType, name, email, isActive, priority, updatedAt FROM providerConnections ORDER BY priority ASC, name ASC;"`,
+        `sqlite3 -json "${ROUTER_DB_PATH}" "SELECT id, provider, authType, name, email, isActive, priority, updatedAt, data FROM providerConnections ORDER BY priority ASC, name ASC;"`,
         { timeout: 4000 }
       );
       if (accStdout && accStdout.trim()) {
-        accounts = JSON.parse(accStdout.trim());
+        const rawAccounts = JSON.parse(accStdout.trim());
+        accounts = rawAccounts.map(acc => {
+          let parsedData = {};
+          try {
+            parsedData = JSON.parse(acc.data || '{}');
+          } catch (e) {}
+
+          return {
+            id: acc.id,
+            provider: acc.provider,
+            authType: acc.authType,
+            name: acc.name,
+            email: acc.email,
+            isActive: acc.isActive,
+            priority: acc.priority,
+            updatedAt: acc.updatedAt,
+            testStatus: parsedData.testStatus || 'active',
+            expiresAt: parsedData.expiresAt || null,
+            lastRefreshAt: parsedData.lastRefreshAt || null,
+            projectId: parsedData.projectId || 'aicode-consumers',
+          };
+        });
       }
 
-      // Fetch today's usage row
+      // Fetch today's or latest usage row
       const todayKey = new Date().toISOString().split('T')[0];
       const { stdout: usageStdout } = await execAsync(
-        `sqlite3 -json "${ROUTER_DB_PATH}" "SELECT dateKey, data FROM usageDaily WHERE dateKey = '${todayKey}';"`,
+        `sqlite3 -json "${ROUTER_DB_PATH}" "SELECT dateKey, data FROM usageDaily ORDER BY dateKey DESC LIMIT 1;"`,
         { timeout: 4000 }
       );
       if (usageStdout && usageStdout.trim()) {
         const usageRows = JSON.parse(usageStdout.trim());
         if (usageRows.length > 0 && usageRows[0].data) {
           usageToday = JSON.parse(usageRows[0].data);
+          usageToday.dateKey = usageRows[0].dateKey;
         }
       }
     } catch (dbErr) {
@@ -167,12 +189,53 @@ app.get('/api/9router/overview', checkAuth, async (req, res) => {
   // Fallback data if DB is not present
   if (accounts.length === 0) {
     accounts = [
-      { id: 'ag-fathanbejo', provider: 'antigravity', name: 'Antigravity (fathanbejo@gmail.com)', email: 'fathanbejo@gmail.com', isActive: 1, priority: 1 },
-      { id: 'ag-fathanbeje', provider: 'antigravity', name: 'Antigravity (fathanbeje@gmail.com)', email: 'fathanbeje@gmail.com', isActive: 1, priority: 1 },
-      { id: 'ag-mia02database', provider: 'antigravity', name: 'Antigravity (mia02database@gmail.com)', email: 'mia02database@gmail.com', isActive: 1, priority: 1 },
-      { id: 'ag-mia02sgs', provider: 'antigravity', name: 'Antigravity (mia02sgs@gmail.com)', email: 'mia02sgs@gmail.com', isActive: 1, priority: 1 },
+      { id: 'ag-fathanbejo', provider: 'antigravity', name: 'Antigravity (fathanbejo@gmail.com)', email: 'fathanbejo@gmail.com', isActive: 1, priority: 1, testStatus: 'active' },
+      { id: 'ag-fathanbeje', provider: 'antigravity', name: 'Antigravity (fathanbeje@gmail.com)', email: 'fathanbeje@gmail.com', isActive: 1, priority: 1, testStatus: 'active' },
+      { id: 'ag-mia02database', provider: 'antigravity', name: 'Antigravity (mia02database@gmail.com)', email: 'mia02database@gmail.com', isActive: 1, priority: 1, testStatus: 'active' },
+      { id: 'ag-mia02sgs', provider: 'antigravity', name: 'Antigravity (mia02sgs@gmail.com)', email: 'mia02sgs@gmail.com', isActive: 1, priority: 1, testStatus: 'active' },
     ];
   }
+
+  // Standard limits for Google Gemini Free/Consumer tier on Antigravity
+  const GEMINI_DAILY_REQUEST_LIMIT = 1500;
+  const GEMINI_RPM_LIMIT = 15;
+  const GEMINI_TPM_LIMIT = 1000000;
+
+  const enrichedAccounts = accounts.map(acc => {
+    const accUsage = usageToday?.byAccount?.[acc.id] || {};
+    const requestsUsed = accUsage.requests || 0;
+    const promptTokens = accUsage.promptTokens || 0;
+    const completionTokens = accUsage.completionTokens || 0;
+    const totalTokens = promptTokens + completionTokens;
+    const cachedTokens = accUsage.cachedTokens || 0;
+    const cost = accUsage.cost || 0;
+
+    const requestsRemaining = Math.max(0, GEMINI_DAILY_REQUEST_LIMIT - requestsUsed);
+    const quotaPercent = Math.max(0, Math.min(100, Math.round((requestsRemaining / GEMINI_DAILY_REQUEST_LIMIT) * 100)));
+
+    return {
+      ...acc,
+      quota: {
+        dailyLimit: GEMINI_DAILY_REQUEST_LIMIT,
+        rpmLimit: GEMINI_RPM_LIMIT,
+        tpmLimit: GEMINI_TPM_LIMIT,
+        requestsUsed,
+        requestsRemaining,
+        quotaPercent,
+        promptTokens,
+        completionTokens,
+        totalTokens,
+        cachedTokens,
+        cost,
+        resetWindow: '00:00 UTC / 07:00 WIB',
+      }
+    };
+  });
+
+  const totalPoolLimit = enrichedAccounts.length * GEMINI_DAILY_REQUEST_LIMIT;
+  const totalPoolUsed = enrichedAccounts.reduce((sum, a) => sum + (a.quota?.requestsUsed || 0), 0);
+  const totalPoolRemaining = Math.max(0, totalPoolLimit - totalPoolUsed);
+  const poolPercentRemaining = totalPoolLimit > 0 ? Math.round((totalPoolRemaining / totalPoolLimit) * 100) : 100;
 
   res.json({
     ok: true,
@@ -181,7 +244,15 @@ app.get('/api/9router/overview', checkAuth, async (req, res) => {
     routerUrl: ROUTER_URL,
     defaultModel: DEFAULT_MODEL,
     hasDbAccess,
-    accounts,
+    accounts: enrichedAccounts,
+    poolSummary: {
+      totalAccounts: enrichedAccounts.length,
+      activeAccounts: enrichedAccounts.filter(a => a.isActive === 1).length,
+      totalPoolLimit,
+      totalPoolUsed,
+      totalPoolRemaining,
+      poolPercentRemaining,
+    },
     usageToday,
     availableModels,
     webConsoleUrl: 'http://103.177.95.140:20128',

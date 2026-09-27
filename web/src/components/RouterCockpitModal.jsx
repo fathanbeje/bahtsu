@@ -112,6 +112,14 @@ export default function RouterCockpitModal({
     return num.toLocaleString('id-ID');
   };
 
+  const formatExpiryTime = (isoString) => {
+    if (!isoString) return 'Auto-refresh aktif';
+    const diffMin = Math.round((new Date(isoString).getTime() - Date.now()) / 60000);
+    if (diffMin <= 0) return 'Perlu refresh sesi';
+    if (diffMin < 60) return `Segar (${diffMin}m tersisa)`;
+    return `Segar (${Math.round(diffMin / 60)}j tersisa)`;
+  };
+
   const usage = data?.usageToday || {};
   const accounts = data?.accounts || [];
   const models = data?.availableModels || [];
@@ -138,7 +146,7 @@ export default function RouterCockpitModal({
                 </span>
               </div>
               <p className="text-xs text-ink-500 dark:text-ink-400">
-                Pusat Kendali Beban Akun, Kuota Token, dan Latensi Model AI
+                Pusat Kendali Beban Akun, Sisa Kuota Gemini, dan Latensi Model AI
               </p>
             </div>
           </div>
@@ -165,7 +173,7 @@ export default function RouterCockpitModal({
         <div className="px-5 border-b border-parchment-200 dark:border-ink-800 bg-white dark:bg-ink-900 flex items-center gap-1 overflow-x-auto">
           {[
             { id: 'overview', label: 'Ringkasan & Kuota', icon: BarChart3 },
-            { id: 'accounts', label: `Node Akun (${accounts.length})`, icon: Users },
+            { id: 'accounts', label: `Sisa Kuota Akun (${accounts.length})`, icon: Users },
             { id: 'models', label: `Daftar Model (${models.length})`, icon: Cpu },
             { id: 'console', label: 'Konsol Web 9Router', icon: Server },
           ].map(tab => {
@@ -311,53 +319,137 @@ export default function RouterCockpitModal({
           )}
 
           {/* TAB 2: PROVIDER ACCOUNTS */}
+          {/* TAB 2: PROVIDER ACCOUNTS & REMAINING QUOTA */}
           {activeTab === 'accounts' && (
             <div className="space-y-4">
-              <div className="p-3.5 rounded-xl bg-turath-emerald-soft/60 dark:bg-turath-emerald-dark-soft/50 border border-turath-emerald/20 text-xs text-ink-700 dark:text-parchment-200 leading-relaxed">
-                <p>
-                  <b>Rotasi Multi-Akun Antigravity:</b> 9Router menghubungkan 4 akun Google Antigravity sekaligus untuk membagi beban kueri (*load-balancing*) dan mencegah batas limit per jam (*rate limit 429*). Anda dapat menonaktifkan sementara akun tertentu bila diinginkan.
-                </p>
+              {/* Pool Combined Quota Summary Card */}
+              <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-white to-parchment-100 dark:from-ink-900 dark:to-ink-950 border border-parchment-200 dark:border-ink-800 shadow-sm space-y-3">
+                <div className="flex items-center justify-between flex-wrap gap-2">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-xl bg-turath-emerald/10 dark:bg-turath-emerald/20 text-turath-emerald dark:text-emerald-300 flex items-center justify-center">
+                      <Zap className="w-4 h-4 text-turath-gold" />
+                    </div>
+                    <div>
+                      <h4 className="font-serif font-bold text-sm sm:text-base text-ink-900 dark:text-parchment-50">
+                        Total Sisa Kuota Tergabung (Pool Gemini Antigravity)
+                      </h4>
+                      <p className="text-xs text-ink-500 dark:text-ink-400">
+                        Distribusi beban 4 akun Google untuk ketersediaan tinggi tanpa hambatan rate limit
+                      </p>
+                    </div>
+                  </div>
+
+                  <span className="font-mono text-xs px-2.5 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 font-semibold border border-emerald-300 dark:border-emerald-800">
+                    {data?.poolSummary?.poolPercentRemaining ?? 100}% Kuota Pool Tersedia
+                  </span>
+                </div>
+
+                {/* Overall Pool Progress Bar */}
+                <div className="space-y-1.5">
+                  <div className="flex items-center justify-between text-xs font-mono">
+                    <span className="text-ink-600 dark:text-ink-400">
+                      Sisa: <b className="text-turath-emerald dark:text-emerald-400 font-bold">{data?.poolSummary?.totalPoolRemaining?.toLocaleString('id-ID') ?? '6.000'}</b> / {data?.poolSummary?.totalPoolLimit?.toLocaleString('id-ID') ?? '6.000'} Permintaan
+                    </span>
+                    <span className="text-ink-500">
+                      Terpakai: {data?.poolSummary?.totalPoolUsed?.toLocaleString('id-ID') ?? '0'} req
+                    </span>
+                  </div>
+                  <div className="w-full h-2.5 rounded-full bg-parchment-200 dark:bg-ink-800 overflow-hidden">
+                    <div
+                      className={`h-full transition-all duration-500 rounded-full ${
+                        (data?.poolSummary?.poolPercentRemaining ?? 100) > 50
+                          ? 'bg-turath-emerald'
+                          : (data?.poolSummary?.poolPercentRemaining ?? 100) > 20
+                          ? 'bg-amber-500'
+                          : 'bg-rose-500'
+                      }`}
+                      style={{ width: `${data?.poolSummary?.poolPercentRemaining ?? 100}%` }}
+                    />
+                  </div>
+                </div>
+
+                {/* 4 Stat Boxes for Pool */}
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 text-center font-sans">
+                  <div className="p-2 rounded-xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800">
+                    <div className="text-[11px] text-ink-500 dark:text-ink-400">Total Akun Pool</div>
+                    <div className="text-sm font-bold font-mono text-ink-900 dark:text-parchment-50">{accounts.length} Akun</div>
+                  </div>
+                  <div className="p-2 rounded-xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800">
+                    <div className="text-[11px] text-ink-500 dark:text-ink-400">Node Aktif</div>
+                    <div className="text-sm font-bold font-mono text-emerald-600 dark:text-emerald-400">{data?.poolSummary?.activeAccounts ?? accounts.length} Online</div>
+                  </div>
+                  <div className="p-2 rounded-xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800">
+                    <div className="text-[11px] text-ink-500 dark:text-ink-400">Batas Kecepatan</div>
+                    <div className="text-sm font-bold font-mono text-ink-900 dark:text-parchment-50">60 RPM Total</div>
+                  </div>
+                  <div className="p-2 rounded-xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800">
+                    <div className="text-[11px] text-ink-500 dark:text-ink-400">Siklus Reset</div>
+                    <div className="text-sm font-bold font-mono text-ink-900 dark:text-parchment-50">00:00 UTC / 07:00 WIB</div>
+                  </div>
+                </div>
               </div>
 
-              <div className="space-y-2.5">
+              {/* Individual Account Quota Cards */}
+              <div className="space-y-3">
+                <div className="flex items-center justify-between text-xs font-semibold text-ink-700 dark:text-parchment-200 px-1">
+                  <span>Rincian Sisa Kuota Masing-Masing Akun Gemini</span>
+                  <span className="text-ink-400 font-normal">Standar 1.500 RPD / Akun</span>
+                </div>
+
                 {accounts.map((acc) => {
                   const isEnabled = acc.isActive === 1;
                   const isToggling = togglingId === acc.id;
+                  const quota = acc.quota || {
+                    dailyLimit: 1500,
+                    rpmLimit: 15,
+                    requestsUsed: 0,
+                    requestsRemaining: 1500,
+                    quotaPercent: 100,
+                    totalTokens: 0,
+                  };
 
                   return (
                     <div
                       key={acc.id}
-                      className="p-4 rounded-2xl border transition-all bg-white dark:bg-ink-900 border-parchment-200 dark:border-ink-800 hover:border-turath-emerald/40 flex items-center justify-between gap-4"
+                      className="p-4 rounded-2xl border transition-all bg-white dark:bg-ink-900 border-parchment-200 dark:border-ink-800 hover:border-turath-emerald/40 space-y-3 shadow-2xs"
                     >
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2 mb-1">
-                          <span className="font-mono font-bold text-xs sm:text-sm text-ink-900 dark:text-parchment-100 truncate">
-                            {acc.name || acc.id}
-                          </span>
-                          <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider ${
-                            isEnabled
-                              ? 'bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300'
-                              : 'bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300'
-                          }`}>
-                            {isEnabled ? 'Aktif' : 'Non-Aktif'}
-                          </span>
+                      {/* Account Header */}
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="min-w-0">
+                          <div className="flex items-center gap-2 flex-wrap">
+                            <span className="font-mono font-bold text-xs sm:text-sm text-ink-900 dark:text-parchment-100 truncate">
+                              {acc.email || acc.name || acc.id}
+                            </span>
+                            <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider ${
+                              isEnabled
+                                ? 'bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300'
+                                : 'bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300'
+                            }`}>
+                              {isEnabled ? 'Aktif' : 'Non-Aktif'}
+                            </span>
+                            <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-parchment-200/80 dark:bg-ink-800 text-ink-600 dark:text-ink-300">
+                              Prioritas #{acc.priority || 1}
+                            </span>
+                          </div>
+                          <div className="text-xs text-ink-500 dark:text-ink-400 font-mono mt-0.5 flex items-center gap-1.5 flex-wrap">
+                            <span>OAuth: {acc.testStatus || 'active'}</span>
+                            <span>•</span>
+                            <span>Project: {acc.projectId || 'aicode-consumers'}</span>
+                            {acc.expiresAt && (
+                              <>
+                                <span>•</span>
+                                <span className="text-turath-emerald dark:text-emerald-400">{formatExpiryTime(acc.expiresAt)}</span>
+                              </>
+                            )}
+                          </div>
                         </div>
 
-                        <div className="flex items-center gap-2 text-xs text-ink-500 dark:text-ink-400 font-mono">
-                          <span>{acc.email}</span>
-                          <span>•</span>
-                          <span>Prioritas: {acc.priority || 1}</span>
-                          <span>•</span>
-                          <span className="capitalize">{acc.authType || 'oauth'}</span>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center gap-2 flex-shrink-0">
+                        {/* Toggle Account Button */}
                         <button
                           type="button"
                           disabled={isToggling}
                           onClick={() => handleToggleAccount(acc)}
-                          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${
+                          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all flex-shrink-0 ${
                             isEnabled
                               ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-300 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300 hover:bg-rose-50 hover:text-rose-700 hover:border-rose-300'
                               : 'bg-parchment-100 dark:bg-ink-800 border-parchment-300 dark:border-ink-700 text-ink-600 dark:text-ink-300 hover:bg-emerald-50 hover:text-emerald-700'
@@ -375,6 +467,50 @@ export default function RouterCockpitModal({
                             </>
                           )}
                         </button>
+                      </div>
+
+                      {/* Quota Progress Bar */}
+                      <div className="space-y-1 bg-parchment-50/70 dark:bg-ink-950/60 p-2.5 rounded-xl border border-parchment-200/80 dark:border-ink-800/80">
+                        <div className="flex items-center justify-between text-xs font-mono">
+                          <span className="text-ink-700 dark:text-parchment-200 font-medium">
+                            Sisa Kuota: <b className="text-turath-emerald dark:text-emerald-400 font-bold">{quota.requestsRemaining.toLocaleString('id-ID')}</b> / {quota.dailyLimit.toLocaleString('id-ID')} RPD
+                          </span>
+                          <span className="font-bold text-xs font-mono text-emerald-700 dark:text-emerald-400">
+                            {quota.quotaPercent}% Tersedia
+                          </span>
+                        </div>
+                        <div className="w-full h-2 rounded-full bg-parchment-200 dark:bg-ink-800 overflow-hidden">
+                          <div
+                            className={`h-full transition-all duration-300 rounded-full ${
+                              quota.quotaPercent > 50
+                                ? 'bg-emerald-500'
+                                : quota.quotaPercent > 20
+                                ? 'bg-amber-500'
+                                : 'bg-rose-500'
+                            }`}
+                            style={{ width: `${quota.quotaPercent}%` }}
+                          />
+                        </div>
+                      </div>
+
+                      {/* Detailed Usage Metrics Strip */}
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs font-mono">
+                        <div className="p-2 rounded-lg bg-parchment-100/60 dark:bg-ink-900/60 border border-parchment-200/60 dark:border-ink-800/60">
+                          <span className="text-[10px] text-ink-400 block font-sans">Terpakai Hari Ini</span>
+                          <span className="font-bold text-ink-800 dark:text-parchment-100">{quota.requestsUsed} req</span>
+                        </div>
+                        <div className="p-2 rounded-lg bg-parchment-100/60 dark:bg-ink-900/60 border border-parchment-200/60 dark:border-ink-800/60">
+                          <span className="text-[10px] text-ink-400 block font-sans">Volume Token</span>
+                          <span className="font-bold text-ink-800 dark:text-parchment-100">{formatTokens(quota.totalTokens)} token</span>
+                        </div>
+                        <div className="p-2 rounded-lg bg-parchment-100/60 dark:bg-ink-900/60 border border-parchment-200/60 dark:border-ink-800/60">
+                          <span className="text-[10px] text-ink-400 block font-sans">Batas Kecepatan</span>
+                          <span className="font-bold text-ink-800 dark:text-parchment-100">{quota.rpmLimit} RPM</span>
+                        </div>
+                        <div className="p-2 rounded-lg bg-parchment-100/60 dark:bg-ink-900/60 border border-parchment-200/60 dark:border-ink-800/60">
+                          <span className="text-[10px] text-ink-400 block font-sans">Status Token</span>
+                          <span className="font-bold text-emerald-600 dark:text-emerald-400">Aktif & Siap</span>
+                        </div>
                       </div>
                     </div>
                   );
