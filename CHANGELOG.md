@@ -23,6 +23,9 @@ Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelo
   - Memastikan seluruh 121 rujukan berstatus `✅ Cocok` tanpa satupun tautan berkoma atau salah halaman.
 - **Pembaruan Antarmuka Web Bahtsu Klangopan (`v2.5.9`):**
   - Memperbarui label versi aplikasi menjadi `v2.5.9` pada bilah navigasi (`Header.jsx`), modal pengaturan (`SettingsModal.jsx`), dan `package.json`.
+- **Penyelarasan CLI Pencarian (`scripts/turath_search.js`):**
+  - Menghapus total sintaks range berkoma pada generator tautan verifikasi `extractMahalSyahid`.
+  - Memfokuskan pemotongan frasa tepat pada tag kueri `<em>` Turath API dan menghasilkan frasa tunggal bersambung (3–4 kata) dengan mempertahankan harakat/ejaan asli Turath.io.
 
 ---
 
