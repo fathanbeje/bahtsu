@@ -139,6 +139,7 @@ Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelo
 - **Pembersihan Duplikasi & Teks `\n` Mentah:** Menghapus duplikasi sub-bab pada naskah Shalat Arafah serta membersihkan string literal `\n\n` pada naskah Wasiat Haul.
 
 ### 📚 New Studies & Materials
+- **Keabsahan Shalat Berjamaah Bersama Anak Kecil dan Perolehan Fadhilah Jamaah Ketika Istri Berhalangan (Kajian Komparatif Empat Madzhab) (`kajian/2026-09-27-keabsahan-shalat-berjamaah-bersama-anak-kecil-dan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Status Hukum Pemisahan Harta Bawaan yang Bercampur Baur (Commingled Property) dan Hak Ahli Waris Pasca Perceraian atau Kematian (`kajian/2026-09-27-status-hukum-pemisahan-harta-bawaan-yang-bercampur.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Keabsahan Shalat Berjamaah Bersama Anak Kecil dan Perolehan Fadhilah Jamaah Ketika Istri Berhalangan (Kajian Komparatif Empat Madzhab) (`kajian/2026-09-27-keabsahan-shalat-berjamaah-bersama-anak-kecil-dan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Hukum Meletakkan Batu Kerikil di Atas Makam dan Faedahnya bagi Jenazah (`kajian/2026-09-27-hukum-meletakkan-batu-kerikil-di-atas-makam.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
