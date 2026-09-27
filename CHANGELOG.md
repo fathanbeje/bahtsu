@@ -4,6 +4,22 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.6] - 2026-09-27
+
+### 🛡️ Zero English Policy & Anti-Thinking Leak Architecture
+- **Pencegahan Kebocoran Penalaran (CoT Thinking Leakage):**
+  - Mengimplementasikan modul sanitasi `web/src/utils/thinkingHelper.js` (`extractThoughts`, `stripThinkingTags`) dengan regex multi-blok global (`/gi`) untuk mengisolasi penalaran model agen ke dalam panel kolapsibel *"Nalar Ushul & Istinbath AI"* dan mencegahnya bocor ke badan draf naskah.
+  - Memperbaiki pengalihan teks pada tombol *"Ekstrak ke Taswīdah"* (`ChatPane.jsx`), fungsi salin Word / teks biasa, pengunduhan `.md` (`TaswidahDock.jsx`), dan pembaca arsip (`KajianArchivePage.jsx`) agar senantiasa bersih dari tag `<think>`.
+  - Membersihkan 83 baris penalaran internal bahasa Inggris pada naskah kajian `kajian/2026-09-27-status-hukum-pemisahan-harta-bawaan-yang-bercampur.md`.
+- **Penegakan Metodologi Bahasa 100% Bahasa Indonesia & Arab Turats:**
+  - Menetapkan **Pasal 7: Larangan Mutlak Bahasa Inggris (Zero English Policy)** pada `SKILL.md` (lokal dan global), serta menyuntikkan `languageDirective` pada `getSystemPrompt` di `web/server.js`: model AI diharamkan menalar atau merumuskan dalam bahasa Inggris.
+- **Standarisasi Auto-Linter Pra-Commit Backend (`POST /api/kajian/save`):**
+  - Menyematkan pemanggilan otomatis `scripts/turath_linter.js <file> --fix` saat pengguna menyimpan naskah kajian dari studio, sehingga tautan verifikasi Turath.io dan text fragment W3C otomatis diperbaiki sebelum di-commit dan di-push ke GitHub.
+- **Audit Komprehensif Seluruh Repositori Kajian:**
+  - Melakukan auto-fix pada seluruh berkas kajian: 121 dari 121 rujukan (100%) di 14 berkas kajian kini terverifikasi valid dan presisi menuju mahallus syahid di Turath.io (0 errors, 0 warnings).
+
+---
+
 ## [2.5.5] - 2026-09-27
 
 ### 🔄 On-Demand GitHub Repository Synchronization

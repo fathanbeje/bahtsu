@@ -1,86 +1,3 @@
-<think>Considering the Indonesian legal context, the questions pertain to the division of commingled marital assets (harta campur baur) in cases of divorce or death. The core issue revolves around determining how to divide assets that were originally separate but have become indistinguishable. The user also inquires about the inheritance rights.
-
-
-The active skill, `bahtsu`, necessitates focusing on *Masā'il Qānūniyyah* (legal/statutory studies). The approach involves aligning positive law with Islamic law, applying the principle of *Tasharruful Imam 'alar Ra'iyyah Manuthun bil Maslahah*, and analyzing legal coherence. The analysis requires multiple references from various sources and emphasizes specific formatting and avoiding em-dashes.
-
-
-</think>
-
-
-
----
-
-<think>Determining the separation of commingled assets after marriage requires establishing the initial separate property contributions and tracing their growth. Apportionment might involve expert valuation, perhaps accounting for improvements or contributions made during the marriage. The specific legal framework and evidence available will be pivotal in resolving this division.
-
-
-Analyzing whether heirs can immediately distribute an estate before clarity is achieved requires a Bahtsul Masail approach, focusing on legal and jurisprudential aspects. Reviewing active skills indicates the need for comprehensive legal reasoning, drawing from multiple sources and prioritizing specific formatting requirements.
-
-I'm thinking through how to approach this.
-
-
-I'm thinking through how to approach this. I need to determine the relevant schools of thought (Syafi'i, Hanafi, Maliki, Hanbali) and ensure sourced information is from Turath.io, avoiding other websites. Also, I need to dynamically attribute the AI model used in the final response.
-**Penyusun Naskah:** Gemini 3.8 Flash (High) : Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)
-
-
-Analyzing the prompt reveals a focus on legal synchronization between state law and Islamic law, specifically within the context of NU (Nahdlatul Ulama) and LBM PBNU (Lajnah Bahtsul Masail Pengurus Besar Nahdlatul Ulama). The task requires connecting legal articles to sharia principles, applying *Tasharruful Imam* principles, analyzing alignment/conflict, and proposing *maslahah 'ammah* solutions. The crucial dalil should be highlighted using a specific formatting pattern.
-
-
-This appears to be a Bahtsul Masail query regarding the division of commingled marital assets, not a coding request. The previous empty response was likely due to model confusion between distinct agent behaviors. The task now is to generate a comprehensive legal analysis according to fiqh principles. I need to focus on relevant jurisprudential principles and avoid the code-generation mode.
-
-
-The query requires a Bahtsul Masail analysis, not code generation. The "lazy senior developer" instruction is likely irrelevant here as it is not a coding task. Reconciling the prompt's structure with the expected output format is crucial. The previous empty response was probably due to conflict between code-first instruction and non-coding request. The task requires a structured, complete legal analysis adhering to the Bahtsul Masail format.
-
-
-The initial "lazy senior developer" instruction appears to apply to code generation, which is irrelevant to this Bahtsul Masail question. The model may have been wrongly associating the instruction with all tasks because of the way the skills are activated. Recognizing that the prompt is a fiqh question, not a coding task, is crucial for producing the correct response. Prioritizing correct legal analysis is now the focus, not efficient code.
-
-
-The absence of a terminal or scripting tools confirms this is a direct chat environment, eliminating the need for code. Examining the prompt reveals a focus on legal and fiqh analysis of commingled marital assets, a Bahtsul Masail topic. The 'lazy senior developer' instruction is thus irrelevant, and the focus must shift to a complete legal response.
-
-
-Analyzing relevant legal articles and Syariah principles reveals the need to connect marriage law (UU No. 1/1974) and Islamic Law Compilation (KHI) articles to establish harta bersama and separate property definitions. *Tasharruful Imam* principles are applicable for resolving potential conflicts and ensuring *maslahah 'ammah*. The goal is to interpret legal articles within the Bahtsul Masail context.
-
-
-State regulation of communal assets aims to protect spousal rights, particularly the financially weaker spouse (often the wife), by safeguarding their financial interests. Examining Syafi'i and other schools of thought, the mixing of assets creating indistinguishable commingling (*ikhtilath*) results in joint ownership (*syirkah amlak*). The method for resolving disputes without clear proof will be the next step.
-
-
-The NU decision recognizes joint assets under *Syirkah* principles (*Mu'awadhah, 'Inan, Abdan*) or sound custom (*'Urf Shahih*) and reconciliation (*Ishlah*).  Dividing the estate before purification (*tashfiyatut tarikah*) is forbidden, as stipulated in An-Nisa':11; ("مِنْ بَعْدِ وَصِيَّةٍ يُوصِي بِهَا أَوْ دَيْنٍ") to fulfill obligations like debt settlement, including spousal rights.  Distributing assets before clearing these obligations constitutes consuming others' wealth unlawfully.
-
-
-Analyzing legal sources necessitates referencing multiple levels of legal texts, including foundational texts and later commentaries, from various schools of thought. I need to be precise, especially when not dealing with the Syafi'i school, and cite from Turath.io only, ensuring proper formatting. The final response should include dynamic attribution of the AI model.
-**Penyusun Naskah:** Gemini 3.8 Flash (High) : Tim Asistensi Telaah Bahtsul Masail (AI Model Agent)
-
-
-Verifying the accuracy of Turath Book IDs and constructing precise Arabic texts and citations is the next required step. The focus will be on the question of how to separate commingled assets, examining legal articles and the Islamic Law Compilation (KHI) to define joint and separate property.
-
-
-If assets are commingled and individual contributions are known, division follows the proportion of each contribution. When contributions are indistinguishable but the increase is from joint effort during the marriage, *Syirkah* principles apply, typically leading to a 50:50 division, which aligns with Indonesian custom and legal precedents.  If proof of separate contributions is entirely absent and claims are unsubstantiated, reconciliation is offered, and if unsuccessful, mutual oaths and equal division are applied due to shared possession.
-
-
-If evidence exists for a party's possession and claim, their statement with an oath prevails. If possession is shared and evidence is absent, both parties must take an oath and divide the assets equally. The *Rawdhatuth Thalibin* by Imam An-Nawawi confirms that if shares are known, they are given accordingly; if unclear and disputed without evidence, it is divided equally after oaths are taken to deny the other party's excess claim.
-
-
-If the nature of the *syirkah* is clear (each contributed capital, or one assists the other with the intent of partnership), division follows their agreement, or proportional to labor and capital. If this is not established and they dispute, each party's statement regarding what is in their possession is accepted, supported by an oath.
-
-When differentiating assets is impossible and equitable division is infeasible, reconciliation or amicable division is preferred because rights are not forfeited due to difficulty or inability to ascertain the amounts involved. This principle applies to unclear partnership assets.
-
-
-Analyzing *Al-Mughni* by Ibnu Qudamah (Hanbali school) shows that if assets are mixed and indistinguishable, each party takes their original capital if known, with profits divided proportionally. If the original capital is unknown, reconciliation is attempted; if unsuccessful and possession is shared, equal division occurs. The relevant passage needs to be correctly formatted. The Islamic Law Compilation (KHI) needs to be consulted to support the analysis of the commingled marital assets.
-
-
-Heirs cannot immediately distribute an estate with commingled assets. It's legally *haram* according to Sharia principles until the surviving spouse's rights and debts are settled.  Distributing mixed assets before separation constitutes unlawful possession of another's property (*ghashab*) and illegitimate consumption of wealth (*akl amwal an-nas bil bathil*). Prior to division, the assets are under *tasharruf fudhuli*, meaning unauthorized possession. A precedent is described in Al-Umm where rights of others must be separated from the inheritance before distribution can occur.
-
-
-The provided legal texts establish that distributing an estate with commingled assets is invalid because it constitutes dividing property that does not belong solely to the deceased. Rights pertaining to the commingled portion, whether the deceased's or others', must be separated first. The texts highlight the hierarchy of rights: rights related to the assets themselves take precedence over funeral expenses, debts, bequests, and inheritance.
-
-
-The distribution of the estate should be halted if there's ambiguity regarding assets, as dealing with others' assets without permission is forbidden. Actions causing loss of rights or uncertainty about shares are invalid. Heirs cannot seize commingled assets until a clear legal separation is established. Protecting the living's rights takes precedence over delaying estate distribution.
-
-
-The Hanafi school, according to Al-Kasani's work, states that when one partner or spouse dies and assets are commingled, heirs cannot divide the estate. <u>**【لِأَنَّ المِلْكَ لَمْ يَخْلُصْ لِلْمُوَرِّثِ، وَالإِرْثُ إِنَّمَا يَجْرِي فِي الخَالِصِ مِنْ مَالِ المَيِّتِ لَا فِي المَالِ المَشُوبِ بِحَقِّ الحَيِّ، فَكَانَتْ قِسْمَتُهُمْ قَبْلَ الإِفْرَازِ بَاطِلَةً شَرْعًا】**</u>. Inheritance applies only to the deceased's pure assets, not those mixed with the living's rights. Therefore, pre-separation distribution is invalid.
-
-
-</think>
-
 # DRAF TASWIDAH & BAHAN KAJIAN BAHTSUL MASA'IL
 > **Status Dokumen & Akuntabilitas:** Draf telaah awal berbasis penelusuran turats & sintesis AI : *Belum menjadi keputusan resmi musyawarah dan memerlukan pembahasan serta tashīh alim ulama dalam sidang resmi Bahtsul Masail.*
 
@@ -167,7 +84,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam An-Nawawi menetapkan kaidah fundamental bahwa harta yang bercampur tanpa bisa dipisahkan status fisiknya secara otomatis beralih menjadi *syirkah amlak*. Jika modal asal diketahui, modal tersebut dikembalikan proporsional; jika modal awal tidak terbukti dan berada di bawah penguasaan bersama suami istri (*yad musytarakah*), penyelesaian akhirnya adalah sumpah timbal balik (*tahaluf*) dan dibagi rata menjadi dua.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=7350#:~:text=وان%20اختلط%20المالان)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2762#:~:text=%D8%B5%D8%A7%D8%B1%D8%A7%20%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A8%D9%8A%D9%86%D9%87%D9%85%D8%A7,%D8%B9%D9%84%D9%89%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D9%86%D8%AD%D9%88)
 
 2. **Kitab: Rawdhatuth Thalibin wa 'Umdatul Muftin (روضة الطالبين وعمدة المفتين) : (Juz 4, Hal. 235)**  
    *Karya: Al-Imam An-Nawawi (w. 676 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Tahqiq Muta'akhirin*
@@ -180,7 +97,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Teks ini menjadi landasan primer sinkronisasi Pasal 97 KHI (pembagian separuh harta bersama). Dalam kasus suami istri yang hartanya bercampur tanpa pembukuan terpisah, kedudukan keduanya sama-sama memiliki *yad al-istila'* (penguasaan aset rumah tangga). Ketika timbul kesamaran mutlak dan tiada bukti, hukum syariat menetapkan pembagian setengah-setengah (*nisfaini*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2140#:~:text=جعل%20بينهما%20نصفين)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=1966#:~:text=%D9%81%D8%A5%D9%86%20%D8%B9%D9%84%D9%85%20%D9%82%D8%AF%D8%B1,%D9%84%D8%A7%D8%B3%D8%AA%D9%88%D8%A7%D8%A1%20%D8%A3%D9%8A%D8%AF%D9%8A%D9%87%D9%85%D8%A7%20%D8%B9%D9%84%D9%8A%D9%87)
 
 3. **Kitab: Bughyatul Mustarsyidin fi Talkhis Fatawa Ba'dhil A'immah (بغية المسترشدين) : (Hal. 159)**  
    *Karya: As-Sayyid Abdurrahman bin Muhammad Ba'alawi (w. 1320 H) | Madzhab: Syafi'i | Lapisan: Kitab Fatawa Ulama Muta'akhirin*
@@ -193,7 +110,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Fatwa ini secara spesifik memotret dinamika ekonomi rumah tangga di Nusantara. Sayyid Abdurrahman Ba'alawi mengakui eksistensi perserikatan implisit antara suami dan istri dalam mencari nafkah dan mengumpulkan kekayaan. Pendekatan ini melegitimasi bahwa harta yang bertambah selama perkawinan adalah hasil perserikatan riil yang harus dihitung berdasarkan modal bawaan awal dan kontribusi kerja bersama.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=4520#:~:text=رجل%20وامراته%20يكتسبان)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=13179#:~:text=%D9%81%D8%A5%D9%86%20%D9%83%D8%A7%D9%86%20%D8%A8%D8%B7%D8%B1%D9%8A%D9%82,%D9%8A%D8%AF%D9%87%20%D9%85%D8%B9%20%D9%8A%D9%85%D9%8A%D9%86%D9%87)
 
 4. **Kitab: Al-Asybah wan Nazha'ir (الأشباه والنظائر في قواعد وفروع فقه الشافعية) : (Hal. 182)**  
    *Karya: Al-Imam Jalaluddin As-Suyuthi (w. 911 H) | Madzhab: Syafi'i | Lapisan: Kaidah Fiqhiyyah & Ushul Fiqh*
@@ -206,7 +123,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Kaidah ini melandasi penyelesaian sengketa harta bawaan yang kabur (*majhul*). Kesulitan memisahkan lembar uang, mutasi kas, atau aset fisik tidak boleh menyebabkan hilangnya hak pemilik awal. Mekanisme *shulh* (musyawarah keluarga di peradilan atau mediasi) menjadi jalan keluar syar'i terdepan sebelum vonis hakim dijatuhkan.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2184?page=182#:~:text=تعين%20الصلح)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/14450?page=39#:~:text=%D8%AA%D8%B9%D9%8A%D9%86%20%D8%A7%D9%84%D8%B5%D9%84%D8%AD%20%D8%A3%D9%88,%D8%A8%D8%A7%D9%84%D8%B9%D8%B3%D8%B1%20%D9%88%D8%AA%D8%B9%D8%B0%D8%B1%20%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%8A%D9%82)
 
 5. **Kitab: Al-Mughni (المغني) : (Juz 5, Hal. 13)**  
    *Karya: Al-Imam Ibnu Qudamah Al-Maqdisi (w. 620 H) | Madzhab: Hanbali (WAJIB TERCANTUM) | Lapisan: Kitab Induk Fiqh Hanbali & Muqaranah 4 Madzhab*
@@ -219,7 +136,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):*  
    Ibarat ini berstatus Qaul Mu'tamad dalam Madzhab Hanbali. Pendapat ini diadopsi sebagai *makhraj syar'i* dan penguat (*syahid*) komparatif bagi perumusan Bahtsul Masail di Indonesia. Solusi Madzhab Hanbali sejalan dengan sistematika: pisahkan modal awal bawaan terlebih dahulu, bagi keuntungan secara proporsional, dan bila terjadi kebutaan data faktual, selesaikan melalui pembagian sama rata berdasarkan penguasaan bersama (*yad musytarakah*), guna mencegah kemudharatan yang berlarut-larut.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6910?page=2415#:~:text=رجع%20كل%20واحد%20منهما%20براس%20ماله)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6910?page=7645#:~:text=%D8%B1%D8%AC%D8%B9%20%D9%83%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF,%D8%B9%D9%84%D9%8A%D9%87%20%D9%84%D9%87%D9%85%D8%A7%20%D9%85%D8%B9%D8%A7)
 
 ---
 
@@ -236,7 +153,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Imam Asy-Syafi'i menegaskan secara sharih (eksplisit) bahwa harta perserikatan dan hak milik pihak lain yang menempel pada aset mayit bukanlah warisan (*laisa bi tarikatin lahu*). Membagikan harta sebelum membersihkan hak milik orang lain (dalam hal ini hak pasangan yang masih hidup atas harta bawaan dan harta bersama) berstatus batal demi hukum (*bathilun wa mardud*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=1320#:~:text=حتى%20يخرج%20منها%20حقوق%20الناس)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2916#:~:text=%D8%AD%D8%AA%D9%89%20%D9%8A%D8%AE%D8%B1%D8%AC%20%D9%85%D9%86%D9%87%D8%A7,%D9%84%D9%8A%D8%B3%20%D8%A8%D8%AA%D8%B1%D9%83%D8%A9%20%D9%84%D9%87)
 
 2. **Kitab: Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazhil Minhaj (مغني المحتاج) : (Juz 4, Hal. 7)**  
    *Karya: Al-Khatib Asy-Syirbini (w. 977 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Syarah Muta'akhirin*
@@ -249,7 +166,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Khatib Asy-Syirbini merumuskan hierarki mutlak: hak mitra serikat (pasangan hidup) menempati kasta tertinggi melampaui utang dan warisan. Sifat harta waris bersifat subordinatif: ia baru eksis secara yuridis apabila harta si mayit telah bersih dan murni dari hak kepemilikan orang lain (*khulush al-mal*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=1530#:~:text=وتقدم%20الحقوق%20العينية)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=1953#:~:text=%D9%88%D9%85%D8%A7%20%D9%84%D9%8A%D8%B3%20%D8%A8%D9%85%D9%84%D9%83,%D8%AE%D9%84%D9%88%D8%B5%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%20%D9%84%D9%84%D9%85%D9%8A%D8%AA)
 
 3. **Kitab: Hasyiyah I'anatuth Thalibin 'ala Fathil Mu'in (إعانة الطالبين) : (Juz 3, Hal. 250)**  
    *Karya: As-Sayyid Al-Bakri Syatha Ad-Dimyathi (w. 1310 H) | Madzhab: Syafi'i | Lapisan: Kitab Hasyiyah Muktamadah*
@@ -262,7 +179,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Sayyid Bakri Syatha secara gamblang mencontohkan kasus harta istri yang bercampur dengan harta suami (*kamali zawjatihi al-makhulth bimālih*). Status hukum tindakan ahli waris membagi harta sebelum pemisahan dinyatakan sebagai **keharaman murni (*harāmun mahdh*)** dan wajib dibekukan (*waqful qismah*) sampai hak pasangan yang ditinggalkan dipisahkan secara adil.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=5620#:~:text=فلا%20يجوز%20للورثة%20التصرف)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/95660?page=45#:~:text=%D9%85%D8%A7%20%D8%AF%D8%A7%D9%85%D8%AA%20%D9%85%D8%B4%D8%AA%D8%A8%D9%87%D8%A9,%D8%A5%D8%B0%D9%86%D9%87%20%D8%AD%D8%B1%D8%A7%D9%85%20%D9%85%D8%AD%D8%B6)
 
 4. **Kitab: Qawa'idul Ahkam fi Mashalihil Anam (قواعد الأحكام في مصالح الأنام) : (Juz 2, Hal. 17)**  
    *Karya: Al-Imam Sulthanul Ulama Izzuddin bin Abdis Salam (w. 660 H) | Madzhab: Syafi'i / Kaidah Universal | Lapisan: Kitab Induk Qawa'id Fiqhiyyah & Ushul Syariah*
@@ -275,7 +192,7 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq:*  
    Melalui timbangan *Maqāshid asy-Syarī'ah*, Syaikh Izzuddin bin Abdis Salam menegaskan kaidah prioritas perlindungan hak: melindungi hak milik orang yang masih hidup (*hifzh amwāl al-ahyā'*) harus didahulukan daripada mempercepat pembagian waris para ahli waris.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/127703?page=170#:~:text=فلا%20يجوز%20للوارث)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/127703?page=2451#:~:text=%D9%81%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2%20%D9%84%D9%84%D9%88%D8%A7%D8%B1%D8%AB,%D8%AA%D8%A3%D8%AE%D9%8A%D8%B1%20%D8%AA%D9%88%D8%B2%D9%8A%D8%B9%20%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D8%A7%D8%AA)
 
 5. **Kitab: Bada'i' ash-Shana'i' fi Tartibisy Syara'i' (بدائع الصنائع في ترتيب الشرائع) : (Juz 7, Hal. 18)**  
    *Karya: Al-Imam 'Alauddin Al-Kasani (w. 587 H) | Madzhab: Hanafi (WAJIB TERCANTUM) | Lapisan: Kitab Induk Syarah Fiqh Hanafi*
@@ -288,4 +205,4 @@ Para ahli waris **DIHARAMKAN SECARA SYARIAT dan TIDAK SAH SECARA HUKUM (BATAL)**
    *Wajhul Istidlal / Wajhul Ilhāq (Status Madzhab & Makhraj Syar'i):*  
    Ibarat ini merupakan *Zhahirur Riwayah* yang mu'tamad dalam Madzhab Hanafi. Nash ini mempertegas kesepakatan lintas madzhab empat (*ijma' sukuti / ittifaq al-madzahib*) bahwa prinsip hukum waris di seluruh madzhab mensyaratkan kemurnian kepemilikan pewaris (*al-milk al-khalish*). Pandangan ini memperkokoh argumentasi Bahtsul Masail dalam menolak pembagian sepihak oleh ahli waris sebelum dituntaskannya hak gono-gini dan harta bawaan pasangan hidup.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7691?page=1820#:~:text=لم%20يجز%20للورثة%20قسمته)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7691?page=477#:~:text=%D9%84%D8%A3%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D9%84%D9%85,%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D8%A7%D8%B2%20%D8%A8%D8%A7%D8%B7%D9%84%D8%A9%20%D8%B4%D8%B1%D8%B9%D8%A7)

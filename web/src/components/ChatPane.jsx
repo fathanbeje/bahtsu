@@ -24,6 +24,7 @@ import {
   Mic,
   MicOff
 } from 'lucide-react';
+import { extractThoughts, stripThinkingTags } from '../utils/thinkingHelper';
 
 export default function ChatPane({
   messages,
@@ -158,13 +159,15 @@ export default function ChatPane({
   };
 
   const handleCopyText = (id, text) => {
-    navigator.clipboard.writeText(text);
+    const cleanText = stripThinkingTags(text);
+    navigator.clipboard.writeText(cleanText);
     setCopiedId(id);
     setTimeout(() => setCopiedId(null), 2000);
   };
 
   const handleCopyFormattedWord = (id, content) => {
-    const formatted = content
+    const cleanContent = stripThinkingTags(content);
+    const formatted = cleanContent
       .replace(/<u>\*\*【/g, '<u><b>')
       .replace(/】\*\*<\/u>/g, '</b></u>');
     navigator.clipboard.writeText(formatted);
@@ -177,20 +180,7 @@ export default function ChatPane({
   };
 
   const renderMessageContent = (content, msgIndex) => {
-    let thoughtText = '';
-    let mainContent = content;
-
-    const thinkMatch = content.match(/<think>([\s\S]*?)<\/think>/);
-    if (thinkMatch) {
-      thoughtText = thinkMatch[1].trim();
-      mainContent = content.replace(/<think>[\s\S]*?<\/think>/, '').trim();
-    } else {
-      const openThinkMatch = content.match(/^<think>([\s\S]*)$/);
-      if (openThinkMatch) {
-        thoughtText = openThinkMatch[1].trim();
-        mainContent = '';
-      }
-    }
+    const { thoughtText, mainContent } = extractThoughts(content);
 
     const isCurrentStreaming = isStreaming && msgIndex === messages.length - 1;
     const isThoughtOpen = openThoughts[msgIndex] !== undefined ? openThoughts[msgIndex] : isCurrentStreaming;
@@ -713,7 +703,7 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
                   {!isUser && msg.content && msg.content.trim().length > 0 && (
                     <div className="mt-3 pt-2.5 border-t border-parchment-200 dark:border-ink-800 flex flex-wrap items-center justify-between gap-2 text-xs font-sans">
                       <button
-                        onClick={() => onTransferToTaswidah(msg.content)}
+                        onClick={() => onTransferToTaswidah(stripThinkingTags(msg.content))}
                         className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-turath-emerald-soft dark:bg-turath-emerald-dark-soft text-turath-emerald dark:text-emerald-300 hover:bg-turath-emerald hover:text-white transition-all font-medium text-xs"
                         title="Ekstrak kutipan dan masukkan ke Panel Draf Taswidah"
                       >

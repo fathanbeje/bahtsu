@@ -24,6 +24,7 @@ import {
   Settings,
   GitPullRequest
 } from 'lucide-react';
+import { stripThinkingTags } from '../utils/thinkingHelper';
 import { getKajianList, syncKajianFromGitHub } from '../utils/api';
 
 export default function KajianArchivePage({
@@ -183,7 +184,8 @@ export default function KajianArchivePage({
   const totalDocs = kajianList.filter(f => f.filename !== 'README.md').length;
 
   const handleCopyWord = (content) => {
-    const formatted = content
+    const clean = stripThinkingTags(content);
+    const formatted = clean
       .replace(/<u>\*\*【/g, '<u><b>')
       .replace(/】\*\*<\/u>/g, '</b></u>');
     navigator.clipboard.writeText(formatted);
@@ -193,7 +195,8 @@ export default function KajianArchivePage({
 
   const handleDownload = (item) => {
     if (!item?.content) return;
-    const blob = new Blob([item.content], { type: 'text/markdown;charset=utf-8' });
+    const clean = stripThinkingTags(item.content);
+    const blob = new Blob([clean], { type: 'text/markdown;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
@@ -658,8 +661,8 @@ export default function KajianArchivePage({
                   {/* Rendered Markdown or Raw Code View */}
                   {activeTab === 'preview' ? (
                     <div className="p-4 sm:p-8 rounded-2xl bg-white dark:bg-ink-900 border border-parchment-200 dark:border-ink-800 shadow-xs space-y-3.5 font-serif text-[15.5px] sm:text-[17.5px] leading-[1.85] text-ink-900 dark:text-parchment-100">
-                      {selectedFile.content ? (
-                        selectedFile.content.split('\n').map((line, idx) => {
+                      {stripThinkingTags(selectedFile.content) ? (
+                        stripThinkingTags(selectedFile.content).split('\n').map((line, idx) => {
                           const trimmed = line.trim();
                           if (!trimmed) return <div key={idx} className="h-2" />;
 
@@ -737,7 +740,7 @@ export default function KajianArchivePage({
                     </div>
                   ) : (
                     <div className="p-4 sm:p-6 rounded-2xl bg-ink-950 border border-ink-800 text-parchment-200 font-mono text-xs sm:text-sm overflow-x-auto whitespace-pre-wrap leading-relaxed">
-                      {selectedFile.content}
+                      {stripThinkingTags(selectedFile.content)}
                     </div>
                   )}
                 </div>

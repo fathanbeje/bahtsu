@@ -79,7 +79,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Nash sharih Imam An-Nawawi menegaskan konsensus (*bila khilaf*) internal madzhab Syafi'i bahwa keikutsertaan anak mumayyiz sebagai makmum sah membentuk shalat berjamaah dan secara otomatis menghasilkan *fadhilah al-jama'ah*.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=1874#:~:text=%D9%88%D8%B3%D9%88%D8%A7%D8%A1%20%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%85%20%D8%B1%D8%AC%D9%84%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2186?page=2526#:~:text=%D9%88%D8%B3%D9%88%D8%A7%D8%A1%20%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%85,%D8%A8%D9%84%D8%A7%20%D8%AE%D9%84%D8%A7%D9%81%20%D8%B9%D9%86%D8%AF%D9%86%D8%A7)
 
 2. **Kitab: Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazh Al-Minhaj (مغني المحتاج) (Juz 1, Hal. 473)**  
    *Karya: Asy-Syaikh Muhammad Al-Khathib Asy-Syirbini (w. 977 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
@@ -92,7 +92,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Khatib Asy-Syirbini memberikan landasan hukum (*ta'lil*) bahwa fadhilah jamaah diperoleh karena shalat anak mumayyiz itu sah secara syar'i (*mu'taddun biha syar'an*). Keabsahan shalat anak inilah yang menjadi prasyarat sahnya rabithah (ikatan) makmum dan imam.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=477#:~:text=%D9%88%D8%AA%D8%AD%D8%B5%D9%84%20%D9%81%D8%B6%D9%8A%D9%84%D8%A9%20%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9%20%D8%A8%D8%A7%D8%AB%D9%86%D9%8A%D9%86)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=383#:~:text=%D9%88%D8%AA%D8%AD%D8%B5%D9%84%20%D9%81%D8%B6%D9%8A%D9%84%D8%A9%20%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9,%D9%85%D8%B9%D8%AA%D8%AF%20%D8%A8%D9%87%D8%A7%20%D8%B4%D8%B1%D8%B9%D8%A7)
 
 3. **Kitab: Fathul Wahhab bi Syarhi Manhajith Thullab (فتح الوهاب) (Juz 1, Hal. 68)**  
    *Karya: Syaikhul Islam Zakariyya Al-Anshari (w. 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
@@ -105,7 +105,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Syaikhul Islam menegaskan bahwa substansi jamaah adalah *irtibath* (ikatan) dan *ittiba'* (mengikuti gerakan). Kedua unsur ini terealisasi sempurna antara orang dewasa dan anak mumayyiz. Beliau juga menganjurkan agar orang baligh yang menjadi imam guna menghindari perselisihan madzhab lain.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=478#:~:text=%D8%A8%D8%A7%D9%84%D8%BA%20%D9%88%D8%B5%D8%A8%D9%8A%20%D9%85%D9%85%D9%8A%D8%B2)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11444?page=554#:~:text=%D8%A8%D8%A7%D9%84%D8%BA%20%D9%88%D8%B5%D8%A8%D9%8A%20%D9%85%D9%85%D9%8A%D8%B2,%D9%84%D8%AD%D8%B5%D9%88%D9%84%20%D8%A7%D9%84%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%20%D9%88%D8%A7%D9%84%D8%A7%D8%AA%D8%A8%D8%A7%D8%B9)
 
 4. **Kitab: Hasyiyah I'anatuth Thalibin 'ala Halli Alfazh Fathil Mu'in (إعانة الطالبين) (Juz 2, Hal. 9)**  
    *Karya: Sayyid Abu Bakar Syatha Ad-Dimyathi (w. 1310 H) | Madzhab: Syafi'i | Lapisan: Hawasyi Muta'akhirin*
@@ -118,7 +118,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Ibarat Sayyid Bakri Syatha dalam Hasyiyah I'anah secara spesifik menjawab kasus waqi'iyyah ini: seorang ayah yang shalat bersama anaknya yang mumayyiz di rumah mendapatkan fadhilah 27 derajat secara penuh selama ia menyertakan niat imamah.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/947?page=346#:~:text=%D9%88%D8%AD%D8%A7%D8%B5%D9%84%D9%87%20%D8%A7%D9%86%D9%87%20%D9%8A%D8%AD%D8%B5%D9%84%20%D9%81%D8%B6%D9%84%20%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/17791?page=938#:~:text=%D9%88%D8%AD%D8%A7%D8%B5%D9%84%D9%87%20%D8%A3%D9%86%D9%87%20%D9%8A%D8%AD%D8%B5%D9%84,%D8%B3%D8%A8%D8%B9%D8%A7%20%D9%88%D8%B9%D8%B4%D8%B1%D9%8A%D9%86%20%D8%AF%D8%B1%D8%AC%D8%A9)
 
 ---
 
@@ -135,7 +135,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Kaidah ini menjadi basis perumusan rekomendasi bahwa dalam kondisi istri haid, sang suami/ayah harus memposisikan diri sebagai imam dan anak kecil sebagai makmum, agar shalatnya sah secara ijma' dan terhindar dari batalnya shalat menurut tiga madzhab lainnya.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/2189?page=138#:~:text=%D8%A7%D9%84%D8%AE%D8%B1%D9%88%D8%AC%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AE%D9%84%D8%A7%D9%81%20%D9%85%D8%B3%D8%AA%D8%AD%D8%A8)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/8463?page=615#:~:text=%D9%81%D9%84%D8%B0%D9%84%D9%83%20%D9%83%D8%A7%D9%86%D8%AA%20%D8%A5%D9%85%D8%A7%D9%85%D8%A9,%D8%AC%D9%85%D9%8A%D8%B9%20%D8%A7%D9%84%D8%B9%D9%84%D9%85%D8%A7%D8%A1%20%D8%A8%D8%A7%D8%AA%D9%81%D8%A7%D9%82)
 
 6. **Kitab: Qawa'idul Ahkam fi Mashalihil Anam (قواعد الأحكام في مصالح الأنام) (Juz 2, Hal. 12)**  
    *Karya: Sulthanul Ulama Al-Izz bin Abdis Salam (w. 660 H) | Madzhab: Syafi'i / Maqashid & Qawa'id*
@@ -148,7 +148,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq:*  
    Pendekatan maqashidi-istinbhathi menunjukkan bahwa meraih fadhilah shalat berjamaah di rumah bersama anak mumayyiz adalah implementasi penjagaan syiar ibadah ketika sarana jamaah ideal (di masjid atau bersama sesama mukallaf) sedang tidak dapat dilaksanakan.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/127703?page=12#:~:text=%D9%85%D8%A7%20%D9%84%D8%A7%20%D9%8A%D8%AF%D8%B1%D9%83%20%D9%83%D9%84%D9%87)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/127703?page=409#:~:text=%D9%85%D8%A7%20%D9%84%D8%A7%20%D9%8A%D8%AF%D8%B1%D9%83,%D9%85%D8%B9%20%D8%A7%D9%84%D8%B5%D8%A8%D9%8A%20%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2)
 
 ---
 
@@ -165,7 +165,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq (Status Madzhab & Tamyiz Madzhab Hanafi):*  
    Dalam madzhab Hanafi, status qaul mu'tamad menyatakan bahwa jamaah terwujud dan sah apabila orang dewasa menjadi imam dan anak mumayyiz menjadi makmum. Sebaliknya, bila anak kecil menjadi imam shalat fardhu, shalat orang dewasa batal karena tidak bolehnya mengaitkan shalat fardhu pada shalat nafl.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/7691?page=156#:~:text=%D9%88%D8%B3%D9%88%D8%A7%D8%A1%20%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%85%20%D8%B1%D8%AC%D9%84%D8%A7%20%D8%A3%D9%88%20%D8%A7%D9%85%D8%B1%D8%A3%D8%A9%20%D8%A3%D9%88%20%D8%B5%D8%A8%D9%8A%D8%A7)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/127663?page=951#:~:text=%D9%88%D8%B3%D9%88%D8%A7%D8%A1%20%D9%83%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%85,%D8%A7%D9%84%D8%B6%D8%B9%D9%8A%D9%81%20%D9%84%D8%A7%20%D9%8A%D8%AC%D9%88%D8%B2)
 
 8. **Kitab: Al-Mughni fi Fiqhil Imam Ahmad (المغني لابن قدامة) (Juz 2, Hal. 13)**  
    *Karya: Al-Imam Muwaffaquddin Ibnu Qudamah Al-Maqdisi (w. 620 H) | Madzhab: Hanbali (Mu'tamad) | Lapisan: Kitab Induk Fiqih Hanbali*
@@ -178,7 +178,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq (Status Madzhab & Tamyiz Madzhab Hanbali):*  
    Ibnu Qudamah menegaskan qaul mu'tamad Hanbali bahwa orang baligh yang mengimami anak kecil sah shalatnya dan memperoleh fadhilah jamaah secara meyakinkan (*tashihhu wa tahshulu bihil fadhilah*). Kaidahnya adalah: setiap orang yang shalatnya sah pada dirinya sendiri, sah pula menjadi makmum.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6910?page=113#:~:text=%D9%88%D8%A5%D8%B0%D8%A7%20%D8%B5%D9%84%D9%89%20%D8%A7%D9%84%D8%B1%D8%AC%D9%84%20%D8%A8%D8%B9%D8%A8%D8%AF%D9%87%20%D8%A3%D9%88%20%D8%B5%D8%A8%D9%8A)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/6910?page=1575#:~:text=%D9%88%D8%A5%D8%B0%D8%A7%20%D8%B5%D9%84%D9%89%20%D8%A7%D9%84%D8%B1%D8%AC%D9%84,%D9%85%D8%A3%D9%85%D9%88%D9%85%D8%A7%20%D9%83%D8%A7%D9%84%D8%B1%D8%AC%D9%84%20%D8%A7%D9%84%D8%A8%D8%A7%D9%84%D8%BA)
 
 9. **Kitab: Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (الموسوعة الفقهية الكويتية) (Juz 15, Hal. 288-289)**  
    *Karya: Tim Ahli Fiqih Kementerian Wakaf Kuwait | Madzhab: Muqaranah 4 Madzhab | Lapisan: Ensiklopedia Fiqih Kontemporer*
@@ -191,7 +191,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
    *Wajhul Istidlal / Wajhul Ilhaq (Sintesis Muqaranah 4 Madzhab):*  
    Komparasi empat madzhab menunjukkan adanya titik temu jumhur: ketika seorang suami/ayah mengimami anak mumayyiz saat istrinya haid, shalatnya sah dan pahala fadhilah jamaah diraih secara meyakinkan.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=4288#:~:text=%D9%88%D8%B0%D9%87%D8%A8%20%D8%AC%D9%85%D9%87%D9%88%D8%B1%20%D8%A7%D9%84%D9%81%D9%82%D9%87%D8%A7%D8%A1)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/11430?page=15484#:~:text=%D9%88%D8%B0%D9%87%D8%A8%20%D8%AC%D9%85%D9%87%D9%88%D8%B1%20%D8%A7%D9%84%D9%81%D9%82%D9%87%D8%A7%D8%A1,%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20%D9%81%D8%B6%D9%8A%D9%84%D8%A9%20%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A9)
 
 ---
 

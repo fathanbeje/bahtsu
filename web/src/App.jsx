@@ -18,6 +18,7 @@ import {
   setActiveSessionId 
 } from './utils/sessionStorage';
 import { MessageSquare, BookOpen } from 'lucide-react';
+import { stripThinkingTags } from './utils/thinkingHelper';
 
 export default function App() {
   const [token, setToken] = useState(getAuthToken());
@@ -217,7 +218,7 @@ export default function App() {
           // Auto-sync clean response into TaswidahDock if it's currently empty
           setTaswidahContent(prev => {
             if (!prev.trim()) {
-              return fullAssistantResponse.replace(/<think>[\s\S]*?<\/think>/, '').trim();
+              return stripThinkingTags(fullAssistantResponse);
             }
             return prev;
           });
@@ -247,16 +248,17 @@ export default function App() {
   };
 
   const handleTransferToTaswidah = (content) => {
+    const clean = stripThinkingTags(content);
     if (!taswidahContent.trim()) {
-      setTaswidahContent(content);
+      setTaswidahContent(clean);
     } else {
-      setTaswidahContent(prev => `${prev}\n\n---\n\n${content}`);
+      setTaswidahContent(prev => `${prev}\n\n---\n\n${clean}`);
     }
     setMobileTab('dock');
   };
 
   const handleLoadToTaswidah = (content) => {
-    setTaswidahContent(content);
+    setTaswidahContent(stripThinkingTags(content));
     setMobileTab('dock');
   };
 

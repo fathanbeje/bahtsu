@@ -18,6 +18,7 @@ import {
 import { extractIbaratFromText, formatIbaratForWord } from '../utils/ibaratExtractor';
 import { extractTemaFromContent, generateKajianSlug } from '../utils/kajianMeta';
 import { saveKajian } from '../utils/api';
+import { stripThinkingTags } from '../utils/thinkingHelper';
 
 export default function TaswidahDock({
   taswidahContent,
@@ -36,11 +37,12 @@ export default function TaswidahDock({
   const [isSaving, setIsSaving] = useState(false);
   const [saveMessage, setSaveMessage] = useState('');
 
-  // Extract ibarat dynamically from current taswidahContent
-  const ibaratList = extractIbaratFromText(taswidahContent);
+  // Extract ibarat dynamically from current taswidahContent (clean of thinking tags)
+  const cleanTaswidah = stripThinkingTags(taswidahContent);
+  const ibaratList = extractIbaratFromText(cleanTaswidah);
 
   // Derive true Tema from content (not generic # DRAF TASWIDAH)
-  const derivedTitle = extractTemaFromContent(taswidahContent, 'Draf Taswidah Bahtsul Masail');
+  const derivedTitle = extractTemaFromContent(cleanTaswidah, 'Draf Taswidah Bahtsul Masail');
   const derivedSlug = generateKajianSlug(derivedTitle);
 
   // Save Modal state
@@ -57,7 +59,7 @@ export default function TaswidahDock({
 
   const handleCopyWord = () => {
     // Copy the entire taswidah formatted for Word / Capacities
-    const wordFormatted = taswidahContent
+    const wordFormatted = cleanTaswidah
       .replace(/<u>\*\*【/g, '<u><b>')
       .replace(/】\*\*<\/u>/g, '</b></u>');
     navigator.clipboard.writeText(wordFormatted);
@@ -73,7 +75,7 @@ export default function TaswidahDock({
   };
 
   const handleDownloadMd = () => {
-    const blob = new Blob([taswidahContent], { type: 'text/markdown;charset=utf-8' });
+    const blob = new Blob([cleanTaswidah], { type: 'text/markdown;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     const now = new Date().toISOString().split('T')[0];
@@ -85,8 +87,8 @@ export default function TaswidahDock({
   };
 
   const openSaveModal = () => {
-    if (!taswidahContent.trim()) return;
-    const currentTema = extractTemaFromContent(taswidahContent, 'Draf Taswidah Bahtsul Masail');
+    if (!cleanTaswidah.trim()) return;
+    const currentTema = extractTemaFromContent(cleanTaswidah, 'Draf Taswidah Bahtsul Masail');
     const currentSlug = generateKajianSlug(currentTema);
     setSaveTitleInput(currentTema);
     setSaveSlugInput(currentSlug);
@@ -101,7 +103,7 @@ export default function TaswidahDock({
       const res = await saveKajian({
         title: saveTitleInput || derivedTitle,
         slug: saveSlugInput || derivedSlug,
-        content: taswidahContent,
+        content: cleanTaswidah,
         model: selectedModel,
         matraMode,
       });

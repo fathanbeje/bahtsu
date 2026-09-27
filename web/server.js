@@ -365,7 +365,15 @@ Anda memfokuskan perumusan pada sinkronisasi hukum positif negara dan syariat Is
 `;
   }
 
-  return `${basePrompt}\n${matraDirective}\n\n[PENTING: Jangan gunakan tanda em-dash (—) di judul atau teks UI. Berikan ibarat Arab asli berharakat lengkap dengan maraji' jilid dan halaman.]`;
+  const languageDirective = `
+### [KEBIJAKAN MUTLAK BAHASA & PENALARAN: 100% BAHASA INDONESIA RESMI BAHTSUL MASAIL NU & BAHASA ARAB TURATS]
+1. ZERO ENGLISH POLICY: Dilarang keras mengeluarkan bahasa Inggris dalam bentuk apa pun (baik dalam penalaran internal/thinking, naskah akhir, teks penjelasan, istilah penghubung, maupun catatan pinggir).
+2. Jika model AI melakukan proses bernalar (internal thinking/reasoning), penalaran tersebut WAJIB 100% dirumuskan dalam Bahasa Indonesia baku resmi atau Bahasa Arab, DILARANG KERAS MENGGUNAKAN BAHASA INGGRIS.
+3. Seluruh draf naskah, deskripsi masalah, rumusan jawaban, dan wajhul istidlal WAJIB menggunakan Bahasa Indonesia ilmiah baku forum Bahtsul Masail Nahdlatul Ulama.
+4. Seluruh kutipan nash ibarat turats WAJIB menggunakan Bahasa Arab asli berharakat lengkap.
+`;
+
+  return `${basePrompt}\n${matraDirective}\n${languageDirective}\n\n[PENTING: Jangan gunakan tanda em-dash (—) di judul atau teks UI. Berikan ibarat Arab asli berharakat lengkap dengan maraji' jilid dan halaman.]`;
 }
 
 // Chat Streaming Proxy to 9Router with infinite timeout protection
@@ -703,8 +711,14 @@ app.post('/api/kajian/save', checkAuth, async (req, res) => {
   const now = new Date();
   const dateStr = now.toISOString().split('T')[0];
 
+  // Sanitize content: strip any lingering thinking tags or CoT blocks
+  const cleanContent = content
+    .replace(/<think>[\s\S]*?<\/think>/gi, '')
+    .replace(/<think>[\s\S]*$/gi, '')
+    .trim();
+
   // Resolve best Tema and Slug
-  const extractedTema = extractTemaFromContent(content);
+  const extractedTema = extractTemaFromContent(cleanContent);
   const finalTitle = (title && !/draf\s+tasw[iī]dah/i.test(title)) ? title : extractedTema;
   
   let finalSlug = slug;
@@ -722,11 +736,24 @@ app.post('/api/kajian/save', checkAuth, async (req, res) => {
   const fullPath = path.join(KAJIAN_DIR, filename);
 
   try {
-    fs.writeFileSync(fullPath, content, 'utf-8');
+    fs.writeFileSync(fullPath, cleanContent, 'utf-8');
 
     let gitPushed = false;
     let gitNote = '';
     const repoRoot = path.resolve(__dirname, '..');
+
+    // Otomatis jalankan turath_linter --fix sebelum commit & push
+    const linterPath = path.join(repoRoot, 'scripts/turath_linter.js');
+    if (fs.existsSync(linterPath)) {
+      try {
+        await execAsync(`node "${linterPath}" "kajian/${filename}" --fix`, {
+          cwd: repoRoot,
+          timeout: 25000,
+        });
+      } catch (lintErr) {
+        console.warn('Turath linter autofix info:', lintErr.message);
+      }
+    }
 
     if (fs.existsSync(path.join(repoRoot, '.git'))) {
       try {

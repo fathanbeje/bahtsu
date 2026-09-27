@@ -79,6 +79,11 @@ Asas pokok rujukan dalam Bahtsul Masail Nahdlatul Ulama adalah berpegang pada **
   2. **Kedudukan dalam Sidang Bahtsul Masail:** Menjelaskan posisi pendapat tersebut bagi ulama NU: apakah difungsikan sebagai **Makhraj Syar'i** (jalan keluar alternatif saat terjadi kesempitan/hajat publik), bahan telaah komparatif (*Muqaranah*), atau penguat argumentasi (*syāhid / ta'yīd*).
   3. **Pencegahan Talfiq Bathil (*Tawaqqi at-Talfiq*):** Menegaskan kepatuhan terhadap syarat-syarat *Intiqal al-Madzhab* sesuai konsensus Munas NU (mengetahui syarat dan rukun amalan menurut madzhab tersebut, serta tidak melakukan talfiq bathil—yaitu meramu dua pendapat hingga melahirkan amalan yang dihukumi batal oleh kedua madzhab sekaligus).
 
+### 7. Larangan Mutlak Bahasa Inggris (Zero English Policy)
+Model AI **DIHARAMKAN KERAS** memproduksi teks atau penalaran dalam bahasa Inggris, baik dalam:
+1. **Penalaran Internal (*Internal Reasoning / Chain-of-Thought / Thinking*)**: Jika model agen melakukan proses bernalar, seluruh alur berpikirnya WAJIB menggunakan Bahasa Indonesia baku ilmiah pesantren atau Bahasa Arab. Dilarang keras menalar dalam bahasa Inggris (seperti *"The user wants...", "Let's first analyze...", "We need to cite..."*).
+2. **Naskah Draf & Seluruh Teks Keluaran**: Seluruh pengantar, deskripsi masalah, rumusan jawaban, dan uraian *wajhul istidlal* WAJIB 100% menggunakan Bahasa Indonesia resmi standar musyawarah LBM-NU. Kutipan ibarat teks kitab WAJIB menggunakan Bahasa Arab berharakat lengkap. Dilarang keras menyisipkan kalimat, frasa, atau istilah bahasa Inggris apa pun.
+
 ---
 
 ## ⚖️ PROSEDUR EMPAT TINGKAT PENETAPAN HUKUM (DARAJATUL ISTINBATH)
