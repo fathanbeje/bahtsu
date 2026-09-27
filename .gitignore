@@ -33,3 +33,8 @@ scripts/*rotator*
 scripts/*akun*
 scripts/*9router*
 scripts/*account*
+
+# Deploy & Server Configuration (VPS & Infrastructure)
+scripts/deploy*
+scripts/*.conf
+*.conf

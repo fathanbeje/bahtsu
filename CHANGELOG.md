@@ -4,6 +4,44 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.6.0] - 2026-09-27
+
+### 🎨 4 Tema Visual Taste Skill & Tipografi Ergonomis
+- **Implementasi 4 Tema Estetika Anti-Slop:**
+  - `pesantren-klasik` (Default): Palet hangat perkamen makhtutah kuno dengan aksen amber/gold, nyaman untuk telaah kitab maraton tanpa radiasi cahaya biru yang tajam.
+  - `modern-editorial`: Tipografi Swiss yang presisi, monokrom abu-abu hangat terstruktur, dan tata letak lapang bernapas lega.
+  - `emerald-syariah`: Identitas resmi jam'iyyah Nahdlatul Ulama, hijau zamrud wibawa berpadu aksen mint dan garis pemisah halus.
+  - `midnight-tajrid`: Mode gelap sejuk menggunakan latar arang redup (bukan hitam legam pekat atau neon violet) dipadukan aksen emas padang pasir.
+- **Koleksi Font Kustom Arab & Latin:**
+  - *Khat Arab*: Mendukung font klasik pesantren **Amiri** (Naskhi tradisional bertakwil) dan **Scheherazade New** (Khat Utsmani renggang dengan keterbacaan tinggi).
+  - *Teks Latin/Terjemahan*: Pilihan font **Newsreader Serif** untuk nuansa baca jurnal ilmiah dan **Plus Jakarta Sans** untuk kejernihan antarmuka modern.
+  - Penyetelan skala ukuran font instan (Kecil, Normal, Besar) yang tersimpan otomatis di *localStorage*.
+
+### 📱 Optimasi Layout Minimalis & Pembersihan Noise (/impeccable)
+- **Reklamasi Ruang Layar Vertikal Ponsel (>260px):**
+  - Mengeliminasi *sticky footer* bawah setinggi 110px pada Dok Taswīdah yang sebelumnya menutupi bilah navigasi ponsel.
+  - Mengintegrasikan tombol utama `[ 💾 Simpan ]` ke sudut atas header dok secara ringkas dan praktis.
+  - Mengonsolidasikan aksi sekunder (*Salin Word*, *Unduh .md*, *Bersihkan Draf*) ke dalam menu popover `···` pada perangkat bergerak.
+  - Mengubah panel Skor Kepatuhan NU setinggi 130px menjadi bilah status satu baris kolapsibel (`✓ Terverifikasi Standar NU ▾`), hanya membuka detail bila diketuk.
+  - Mengelompokkan 5 tombol chip formulasi cepat di atas input chat ke balik pemicu subtil `✨ Pilihan Formulasi Prompt ▾`.
+- **Dekonstruksi Kartu Bertingkat (*De-nesting Containers*):**
+  - Menghapus kontainer kartu bertumpuk (*card-inside-card*) pada kutipan ibarat matan, terjemahan, dan wajhul istidlal; kini teks mengalir natural dengan aksen garis vertikal tepi kiri (*border-l-2*).
+- **Mode Baca Fokus Penuh (*Zen Reader Mode*):**
+  - Menambahkan tombol fokus `[ ⛶ ]` di header dan menu samping untuk menyembunyikan seluruh header dan navigasi bawah, memberikan pengalaman membaca telaah 100% layar penuh.
+
+### ⚙️ Infrastruktur & Standardisasi Skill
+- **Pemasangan Skill Changelog Generator ke Repositori:**
+  - Menginstal modul skill `changelog-generator` langsung ke repositori lokal di `.agents/skills/changelog-generator/SKILL.md` guna memastikan setiap komit dan rilis terdokumentasi terstruktur secara berkelanjutan.
+- **Ketahanan Skrip Deploy VPS (`scripts/deploy_bahtsu_klangopan.ps1`):**
+  - Menambahkan sanitasi otomatis pembersihan karakter baris Windows (CRLF ke LF) saat mengeksekusi instruksi remote bash di server Ubuntu, mencegah galat `\r: command not found`.
+- **Keamanan Kredensial & Sanitasi Git Tracking:**
+  - Mengabaikan skrip deployment VPS (`scripts/deploy*`) dan konfigurasi Nginx vhost (`scripts/*.conf`) dari repositori git melalui `.gitignore`.
+  - Menghapus berkas sensitif dari pelacakan git (`git rm --cached`) untuk menjaga kerahasiaan konfigurasi server dan kredensial.
+- **Rilis & Sinkronisasi VPS Produksi:**
+  - Memperbarui build aset produksi Vite dan menyinkronkan seluruh bundle ke VPS `bahtsu.mia02sgs.sch.id`.
+
+---
+
 ## [2.5.9] - 2026-09-27
 
 ### ⚡ Standardisasi Frasa Tunggal Bersambung & Eliminasi Sintaks Range Berkoma
