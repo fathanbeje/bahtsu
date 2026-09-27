@@ -38,3 +38,7 @@ scripts/*account*
 scripts/deploy*
 scripts/*.conf
 *.conf
+
+# Private Web Application (Separated to private repo bahtsu-app)
+web/
+
