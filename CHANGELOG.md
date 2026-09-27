@@ -4,6 +4,26 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.7] - 2026-09-27
+
+### 📖 Otentisitas Teks Turats & Penyingkiran Harakat Buatan
+- **Penyesuaian Metodologi Verifikasi Maraji' Turath.io:**
+  - Mengoreksi ketentuan terdahulu yang mewajibkan *"seluruh kutipan teks kitab wajib Bahasa Arab berharakat"*. Aturan tersebut terbukti memicu kegagalan fitur *Scroll-to-Text-Fragment* W3C (`#:~:text=...`) pada peramban karena basis data Turath.io (`app.turath.io`) mayoritas berupa teks gundul (*unvowelled*), sehingga perbedaan karakter diakritik menggagalkan penyorotan teks otomatis ke *mahallus syahid*.
+  - Menetapkan aturan otentik resmi pada `SKILL.md` (lokal repositori dan global) serta direktif prompt sistem `web/server.js`: *Kutipan teks ibarat Arab WAJIB mengikuti keaslian sumber Turath.io apa adanya (gundul jika di Turath.io gundul, berharakat jika memiliki harakat asli; dilarang keras menambahkan harakat buatan).*
+- **Peningkatan Utilitas Linter (`scripts/turath_linter.js`):**
+  - Mengimplementasikan fungsi `calculateHarakatDensity(text)` untuk mengukur rasio tanda baca harakat/tanwin/tasydid (`[\u064B-\u065F\u0670\u06D6-\u06ED]`) terhadap huruf dasar hijaiyah.
+  - Menambahkan deteksi pelanggaran `ARTIFICIAL_HARAKAT` (densitas naskah > 0.15 berbanding teks asli Turath < 0.08).
+  - Mengembangkan modul pembersihan otomatis pada opsi `--fix` yang mengeliminasi harakat buatan pada kutipan ibarat di berkas `.md` dengan tetap menjaga keutuhan penanda sorotan `<u>**【...】**</u>` dan format tanda baca.
+- **Audit & Penyelarasan Penuh 14 Berkas Kajian (121/121 Rujukan 100% Valid):**
+  - Menyinkronkan seluruh berkas kajian di direktori `kajian/` ke teks otentik Turath.io.
+  - Memastikan 100% dari 121 rujukan di 14 berkas kajian lolos pengujian linter dan *pre-push hook* tanpa anomali.
+- **Pembaruan Visual Aplikasi Web Bahtsu Klangopan (`v2.5.7`):**
+  - Menambahkan lencana versi interaktif `v2.5.7` di bilah atas (`Header.jsx`) baik pada tampilan desktop maupun seluler.
+  - Memperbarui informasi versi pada modal pengaturan (`SettingsModal.jsx`) dan manifest aplikasi (`package.json`).
+  - Sinkronisasi menyeluruh cabang repositori publik (`fathanbeje/bahtsu`) dan privat (`fathanbeje/bahtsu-app`) serta rilis ulang (*re-deploy*) ke server produksi VPS.
+
+---
+
 ## [2.5.6] - 2026-09-27
 
 ### 🛡️ Zero English Policy & Anti-Thinking Leak Architecture
