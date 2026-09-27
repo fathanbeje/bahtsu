@@ -4,6 +4,28 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.2] - 2026-09-27
+
+### 🐛 Bug Fixes & Precision Tahqiq
+- **Perbaikan Utilitas Penelusuran Turath (`scripts/turath_search.js`):**
+  - Mengatasi masalah tautan yang tidak mengarah ke *mahallus syahid* dengan merekonstruksi fungsi `extractMahalSyahid`.
+  - Mengganti pembentukan parameter fragment URL yang sebelumnya menggunakan kueri mentah (`query`) dengan teks kalimat asli dari kitab yang ditandai tag `<em>` oleh API Turath.
+  - Menerapkan format standar W3C Scroll-to-Text-Fragment range `#:~:text=startWords,endWords` yang tahan terhadap perbedaan harakat/tashkeel dan variasi tata letak kalimat di peramban Chromium.
+  - Memperbarui format output antarmuka CLI agar menyajikan nama kitab, juz, halaman cetak, teks mahallus syahid bergaris bawah `<u>**【...】**</u>`, serta tautan verifikasi presisi yang siap disalin ke draf kajian.
+- **Audit & Sinkronisasi 100% Maraji' Kuota Hangus (`kajian/2026-09-25-status-hukum-kuota-hangus.md`):**
+  - Mengoreksi seluruh 9 rujukan fiqih yang sebelumnya mengalami ketidakcocokan ID kitab, nomor halaman, atau pengarang:
+    1. *Asy-Syarhul Kabir 'alal Muqni'* (Ibnu Abi 'Umar Al-Maqdisi, 14/376) & *Al-Mu'amalat Al-Maliyyah* (Dr. Dubyan, 9/283) — Keabsahan menggabungkan durasi waktu dan volume.
+    2. *Mukhtashar Tuhfatul Muhtaj* (Ibnu Hajar Al-Haitami / Mustafa Samith, 2/431, Book ID 20, Page ID 978) — Mengoreksi tautan yang sebelumnya mengarah ke halaman keliru 991.
+    3. *At-Tahdzib fil Fiqh Asy-Syafi'i* (Al-Baghawi, 4/455, Book ID 17885, Page ID 1714) — Kepastian ongkos sewa (*istiqrar al-ujrah*) saat masa aktif berakhir tanpa digunakan.
+    4. *Takmilat Al-Muthi'i 'alal Majmu' Syarah Al-Muhadzdzab* (An-Nawawi / Al-Muthi'i, 15/81, Book ID 1026, Page ID 942) — Mengoreksi nomor halaman dari 642 ke 942.
+    5. *Hasyiyatul Bujairimi 'alal Manhaj* (Al-Bujairimi, 3/109, Book ID 21603, Page ID 1054) — Larangan *akl al-mal bil-bathil*.
+    6. *Ighatsatul Lahfan fi Mashayidisy Syaithan* (Ibnu Qayyim Al-Jauziyyah, 2/727, Book ID 18612, Page ID 769) — Kaidah keadilan dalam akad mu'awadhah (*takafu'ul 'iwadhain*).
+    7. *Al-Asybah wan-Nazha'ir* (Ibnu Al-Mulaqqin, 1/30, Book ID 18192, Page ID 29) — Kaidah *adh-dhararu yuzal*.
+    8. *Ghamzu 'Uyunil Basha'ir fi Syarhi Al-Asybah* (Al-Hamawi, 1/369, Book ID 21588, Page ID 361) — Kaidah siyasah syar'iyyah *tasharruful imam manuthun bil mashlahah*.
+    9. *Abhats Hai'ah Kibaril Ulama* (4/57, Book ID 21759, Page ID 2122) & *Durar al-Hukkam fi Syarh Majallah al-Ahkam* (Ali Haidar, 1/511, Book ID 21692, Page ID 474) — Kewenangan otoritas regulasi membatalkan klausul baku yang sewenang-wenang (*syuruth ta'assufiyyah*).
+
+---
+
 ## [2.5.1] - 2026-09-27
 
 ### 🔒 Security & Privacy Architecture

@@ -81,114 +81,158 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 
 ---
 
-#### A. Dalil Keabsahan Ijarah Menggabungkan Waktu dan Volume Kerja (*Al-Jam'u bayna az-Zaman wal-'Amal*)
+#### A. Dalil Keabsahan Ijarah Menggabungkan Waktu dan Volume (*Al-Jam'u bayna az-Zaman wal-'Amal*)
 
-1. **Kitab Al-Mughni (Juz 6, Halaman 21–23)**  
-   *Karya: Al-Imam Muwaffaquddin Ibnu Qudamah Al-Maqdisi (Wafat 620 H) | Lapisan: Kitab Induk Fiqih Perbandingan Madzhab*  
+1. **Kitab: Asy-Syarhul Kabir 'alal Muqni' (الشرح الكبير على المقنع) - (Juz 14, Hal. 376)**  
+   *Karya: Al-Imam Syamsuddin Ibnu Abi 'Umar Al-Maqdisi (W. 682 H) | Madzhab: Hanbali | Lapisan: Kitab Induk Fiqih Perbandingan*
 
-   > كِتَابُ الإِجَارَةِ: مَسْأَلَةُ الجَمْعِ بَيْنَ المُدَّةِ وَالعَمَلِ: <u>**【فَإِنْ قَدَّرَ الإِجَارَةَ بِالعَمَلِ وَجَعَلَ لَهُ مُدَّةً يَنْتَهِي إِلَيْهَا لَا لِيَسْتَوْعِبَهَا، كَقَوْلِهِ: اسْتَأْجَرْتُكَ لِتَحْمِلَ لِي هَذَا إِلَى مَوْضِعِ كَذَا فِي مُدَّةِ عَشَرَةِ أَيَّامٍ، صَحَّ العَقْدُ بِلَا خِلَافٍ؛ لِأَنَّ المَعْقُودَ عَلَيْهِ هُوَ العَمَلُ، وَالمُدَّةُ ذُكِرَتْ لِلتَّعْجِيلِ وَبَيَانِ غَايَةِ الحَقِّ لَا لِتَكُونَ ظَرْفًا لِلْعَمَلِ كُلِّهِ】**</u>.  
+   > بَابُ الإِجَارَةِ: مَسْأَلَةُ الجَمْعِ بَيْنَ المُدَّةِ وَالعَمَلِ: <u>**【وَلَا يَجُوزُ الْجَمْعُ بَينَ تَقْدِيرِ الْمُدَّةِ وَالْعَمَلِ، كَقَوْلِهِ: اسْتَأْجَرْتُكَ لِتَخِيطَ لِيَ هَذَا الثَّوْبَ فِي يَوْمٍ. وَيَحْتَمِلُ أَنْ يَصِحَّ؛ لِأَنَّ الْمَعْقُودَ عَلَيْهِ هُوَ الْعَمَلُ، وَتَقْدِيرُ الْمُدَّةِ لِلتَّعْجِيلِ】**</u>.
 
-   *Makna Murod / Terjemah:* Kitab Ijarah: Masalah menggabungkan durasi waktu dan volume pekerjaan: Manakala seseorang membatasi akad sewa dengan takaran volume pekerjaan dan menetapkan batas waktu maksimal berakhirnya pekerjaan tersebut—bukan untuk menghabiskan seluruh rentang waktu itu—seperti ucapannya: 'Aku menyewamu untuk mengangkut barang ini ke lokasi anu dalam jangka waktu maksimal 10 hari', maka akad tersebut sah tanpa ada perselisihan ulama. Hal ini karena obyek yang diakadkan pada hakikatnya adalah volume pekerjaannya, sedangkan durasi waktu disebutkan semata-mata untuk target penyelesaian dan batas akhir hak pemanfaatan, bukan sebagai wadah yang harus menghabiskan seluruh satuan waktu tersebut.  
+   *Makna Murod / Terjemah:*  
+   Bab Ijarah: Masalah menggabungkan takaran durasi waktu dan volume pekerjaan: (Secara hukum asal) tidak boleh menggabungkan antara takaran waktu dan target pekerjaan, seperti ucapannya: 'Aku menyewamu untuk menjahit baju ini dalam waktu sehari'. Namun berkemungkinan besar akad tersebut SAH; karena obyek akad yang hakiki adalah pekerjaannya, sedangkan pembatasan durasi waktu semata-mata dimaksudkan untuk percepatan target penyelesaian dan batas akhir hak pemanfaatan.
 
-   *Wajhul Istidlal / Wajhul Ilhāq:* Skema paket data internet (misal: kuota 50 GB selama 30 hari) secara metodologis di-ilhaq-kan pada kaidah ini. Obyek sewa adalah kuota 50 GB, sedangkan masa aktif 30 hari adalah batas akhir pemanfaatan (*ghāyah al-intifā'*). Penggabungan kedua batas ini sah secara syariat dan tidak membatalkan akad ijarah.  
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Skema kuota internet (misal: 50 GB masa aktif 30 hari) secara metodologis di-ilhaq-kan pada keabsahan penggabungan batas volume (*miqdarul 'amal*) dan batas durasi waktu (*taqdiruz zaman*). Obyek sewa adalah kuota 50 GB, sedangkan masa aktif 30 hari adalah batas akhir masa pemanfaatan (*nihayatul intifa'*), sehingga akad tersebut sah secara syariat.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Mughni 6/21 / Al-Ma'amalat Al-Maliyyah)](https://app.turath.io/book/14474?page=4354)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/19188?page=6994#:~:text=%D9%88%D9%8E%D9%84%D9%8E%D8%A7%20%D9%8A%D9%8E%D8%AC%D9%8F%D9%88%D8%B2%D9%8F%20%D8%A7%D9%84%D9%92%D8%AC%D9%8E%D9%85%D9%92%D8%B9%D9%8F,%D8%A7%D8%B3%D9%92%D8%AA%D9%8E%D8%A3%D9%92%D8%AC%D9%8E%D8%B1%D9%92%D8%AA%D9%8F%D9%83%D9%8E%20%D9%84%D9%90%D8%AA%D9%8E%D8%AE%D9%90%D9%8A%D8%B7%D9%8E%20%D9%84%D9%90%D9%8A%D9%8E)
 
-2. **Kitab Tuhfatul Muhtaj bi Syarh al-Minhaj & Mukhtashar Tuhfatul Muhtaj (Juz 2, Halaman 444)**  
-   *Karya: Al-Imam Ibnu Hajar Al-Haitami (Wafat 974 H) | Lapisan: Kitab Induk Muta'akhirin Madzhab Syafi'i*  
+2. **Kitab: Al-Mu'amalat Al-Maliyyah Ashalah wa Mu'ashirah (المعاملات المالية أصالة ومعاصرة) - (Juz 9, Hal. 283)**  
+   *Karya: Prof. Dr. Dubyan bin Muhammad Ad-Dubyan | Madzhab: Fatawa & Fiqh Mu'ashir*
 
-   > بَابُ اسْتِقْرَارِ الأُجْرَةِ فِي الإِجَارَةِ: <u>**【وَتَسْتَقِرُّ الأُجْرَةُ بِمُضِيِّ مُدَّةِ الإِمْكَانِ لِتَمَكُّنِهِ مِنَ الاسْتِيفَاءِ، وَسَوَاءٌ فِيهِ إِجَارَةُ العَيْنِ وَالذِّمَّةِ إِذَا سَلَّمَ العَيْنَ المُؤَجَّرَةَ؛ لِأَنَّ تَعَيُّنَ حَقِّهِ حَصَلَ بِالتَّسْلِيمِ وَالتَّمْكِينِ، فَلَوْ مَضَتِ المُدَّةُ وَلَمْ يَنْتَفِعِ المُسْتَأْجِرُ بِاخْتِيَارِهِ اسْتَقَرَّتْ عَلَيْهِ الأُجْرَةُ كَامِلَةً وَلَا شَيْءَ لَهُ】**</u>.  
+   > كِتَابُ الإِجَارَةِ > بَيَانُ مُدَّةِ الإِجَارَةِ: <u>**【المَبْحَثُ السَّادِسُ: فِي الجَمْعِ بَيْنَ المُدَّةِ وَالعَمَلِ: فَلَوْ جَعَلَ لِلْعَمَلِ مُدَّةً يَنْتَهِي إِلَيْهَا جَازَ، وَيَكُونُ ذِكْرُ المُدَّةِ لِلتَّعْجِيلِ وَبَيَانِ غَايَةِ الحَقِّ】**</u>.
 
-   *Makna Murod / Terjemah:* Bab Kepastian Pembayaran Ongkos Sewa dalam Ijarah: Dan ongkos sewa (*ujrah*) berstatus tetap mengikat penuh dengan berlalunya waktu yang memungkinkan bagi penyewa untuk memanfaatkannya, karena adanya kesempatan baginya untuk mengambil manfaat tersebut. Sama saja dalam hal ini baik sewa aset fisik (*ijāratul 'ain*) maupun sewa jasa dalam tanggungan (*ijāratudz-dzimmah*) manakala pemberi sewa telah menyerahkan obyek sewa tersebut; karena pemenuhan hak penyewa telah tercapai dengan adanya penyerahan dan pembukaan akses (*at-tamkīn*). Maka sekiranya masa sewa telah berlalu dan penyewa tidak memanfaatkannya atas kehendak pilihannya sendiri, maka ongkos sewa tetap menjadi hak penuh pemilik sewa secara sempurna dan tidak ada hak ganti rugi bagi penyewa.  
+   *Makna Murod / Terjemah:*  
+   Kitab Ijarah: Pembahasan mengenai durasi ijarah: Pembahasan Keenam: Mengenai penggabungan durasi waktu dan pekerjaan: Sekiranya penyewa menetapkan batas waktu maksimal berakhirnya pemanfaatan pekerjaan tersebut, maka hal itu DIPERBOLEHKAN; dan penyebutan durasi waktu tersebut berfungsi sebagai batas tenggat (*ta'jil*) dan penjelasan batas akhir hak pemanfaatan.
 
-   *Wajhul Istidlal / Wajhul Ilhāq:* Ini adalah landasan hukum terkuat pihak operator telekomunikasi: Operator telah membuka akses jaringan transmisi data (*at-tamkīn min al-intifā'*) selama 30 hari penuh. Ketika masa 30 hari berakhir, kewajiban penyediaan manfaat telah terlaksana, dan tidak dihabiskannya kuota oleh konsumen merupakan pilihan konsumen sendiri (*tafrīth minal musta'jir*), sehingga hangusnya hak sisa kuota sah secara fiqih ijarah murni.  
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Menegaskan keabsahan kontrak layanan kontemporer di mana penyedia jasa membatasi volume kuota tertentu sekaligus mematok tenggat waktu kedaluwarsa layanan.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mukhtashar Tuhfatul Muhtaj 2/444)](https://app.turath.io/book/20?page=991)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/14474?page=4034#:~:text=%D8%A7%D9%84%D9%85%D8%A8%D8%AD%D8%AB%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%D9%81%D9%8A,%D8%A7%D9%84%D9%85%D8%AF%D8%A9%20%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84)
 
-3. **Kitab Al-Majmu' Syarah Al-Muhadzdzab (Juz 14, Halaman 124–126)**  
-   *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Mutaqaddimin*  
+3. **Kitab: Mukhtashar Tuhfatul Muhtaj bi Syarh al-Minhaj (مختصر تحفة المحتاج) - (Juz 2, Hal. 431)**  
+   *Karya: Al-Imam Ibnu Hajar Al-Haitami (W. 974 H) / Ringkasan: Syaikh Mustafa Samith | Madzhab: Syafi'i (Mu'tamad)*
 
-   > كِتَابُ الإِجَارَةِ: مَسْأَلَةُ انْقِضَاءِ الإِجَارَةِ: <u>**【إِذَا اسْتَأْجَرَ دَارًا شَهْرًا أَوْ عَيْنًا لِمُدَّةٍ مَعْلُومَةٍ فَانْقَضَتِ المُدَّةُ، انْفَسَخَتِ الإِجَارَةُ وَانْتَهَى العَقْدُ بِاتِّفَاقِ الأَصْحَابِ؛ لِأَنَّ المَعْقُودَ عَلَيْهِ هُوَ المَنْفَعَةُ فِي تِلْكَ المُدَّةِ المَخْصُوصَةِ، فَإِذَا فَاتَتِ المُدَّةُ فَاتَ المَعْقُودُ عَلَيْهِ، فَلَا يَجُوزُ لِلْمُسْتَأْجِرِ أَنْ يُطَالِبَ بِبَدَلِهَا فِي زَمَانٍ آخَرَ】**</u>.  
+   > بَابُ اسْتِقْرَارِ الأُجْرَةِ بِالتَّمْكِينِ: <u>**【لِأَنَّهُ لَمْ يَلْتَزِمْ سِوَى التَّمْكِينِ مِنْهَا، وَمُجَرَّدُ التَّمْكِينِ هُنَا كَافٍ فِي اسْتِقْرَارِ الأُجْرَةِ بِمُضِيِّ مُدَّةِ الإِجَارَةِ إِنْ قُدِّرَتِ المَنْفَعَةُ بِوَقْتٍ، وَبِمُضِيِّ مُدَّةِ إِمْكَانِ الِاسْتِيفَاءِ إِنْ قُدِّرَتْ بِعَمَلٍ】**</u>.
 
-   *Makna Murod / Terjemah:* Kitab Ijarah: Masalah Berakhirnya Akad Ijarah: Manakala seseorang menyewa rumah selama sebulan atau menyewa suatu aset untuk jangka waktu tertentu lalu masa waktu tersebut berakhir, maka akad ijarah berakhir dan tuntas masa perikatannya berdasarkan kesepakatan para ulama madzhab kami; hal itu karena obyek yang diakadkan adalah manfaat pada rentang waktu khusus tersebut. Manakala waktu tersebut telah lewat, maka lewat pula obyek akadnya, sehingga tidak diperbolehkan bagi penyewa menuntut pengganti manfaat tersebut pada waktu yang lain.  
+   *Makna Murod / Terjemah:*  
+   Bab Kepastian Kewajiban Ongkos Sewa dengan Adanya Tamkin (Pembukaan Akses): Karena pihak yang menyewakan tidak menanggung kewajiban selain membuka kesempatan akses pemanfaatan (*at-tamkin*). Dan semata-mata pembukaan akses di sini telah mencukupi bagi tetapnya hak ongkos sewa secara utuh seiring berlalunya rentang waktu sewa manakala manfaat dibatasi waktu, atau seiring berlalunya durasi yang memungkinkan untuk memanfaatkannya manakala dibatasi dengan pekerjaan, meskipun penyewa tidak memanfaatkannya secara nyata.
 
-   *Wajhul Istidlal / Wajhul Ilhāq:* Sifat manfaat internet terikat dengan dimensi waktu operasional frekuensi. Ketika waktu 30 hari telah terlewati, hak atas alokasi kanal frekuensi pada periode tersebut telah berakhir dan tidak bisa serta-merta diklaim pada bulan berikutnya tanpa kesepakatan baru.  
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Inilah dalil hukum terkuat bagi pihak operator: Operator telah membuka akses jaringan seluler selama 30 hari penuh (*tamkin min al-intifa'*). Ketika waktu 30 hari habis, hak sewa gugur demi hukum karena berlalunya waktu, dan tidak dipakainya sisa kuota dinilai sebagai pilihan atau kelalaian konsumen sendiri (*tafrith minal musta'jir*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Majmu' Syarah Al-Muhadzdzab 14/201)](https://app.turath.io/book/1026?page=642)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/20?page=978#:~:text=%D8%A7%D9%84%D8%AA%D9%85%D9%83%D9%8A%D9%86%20%D9%87%D9%86%D8%A7%20%D9%83%D8%A7%D9%81%D9%8D,%D8%A5%D9%86%20%D9%82%D9%8F%D8%AF%D9%91%D9%90%D8%B1%D8%AA%20%D8%A8%D8%B9%D9%85%D9%84)
 
----
+4. **Kitab: At-Tahdzib fil Fiqh Asy-Syafi'i (التهذيب في الفقه الشافعي) - (Juz 4, Hal. 455)**  
+   *Karya: Al-Imam Abu Muhammad Al-Baghawi (W. 516 H) | Madzhab: Syafi'i (Mutaqaddimin)*
 
-#### B. Dalil Perlindungan Hak Konsumen: Larangan Memakan Harta secara Batil & Syarat yang Merugikan (*Al-Idz'an*)
+   > بَابُ اسْتِيفَاءِ مَنَافِعِ الإِجَارَةِ: <u>**【وَإِنْ سَلَّمَهَا إِلَيْهِ، فَأَمْسَكَهَا المُسْتَأْجِرُ تِلْكَ المُدَّةَ، وَلَمْ يَنْتَفِعْ بِهَا: تَسْتَقِرُّ الأُجْرَةُ، وَعَلَيْهِ رَدُّهَا】**</u>.
 
-1. **Kitab Al-Umm (Juz 3, Halaman 90–93)**  
-   *Karya: Al-Imam Muhammad bin Idris Asy-Syafi'i (Wafat 204 H) | Lapisan: Kitab Induk Mutaqaddimin Madzhab Syafi'i*  
+   *Makna Murod / Terjemah:*  
+   Bab Pemenuhan Manfaat Sewa: Dan sekiranya pihak penyewa telah menerima penyerahan barang/fasilitas yang disewa, lalu penyewa menahannya selama rentang durasi sewa tersebut namun ia tidak memanfaatkannya: maka ongkos sewa tetap mengikat wajib secara utuh, dan penyewa berkewajiban mengembalikan aset sewa tersebut.
 
-   > بَابُ الشُّرُوطِ الَّتِي لَا تَجُوزُ فِي البَيْعِ وَالإِجَارَةِ: <u>**【قَالَ اللهُ تَعَالَى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُمْ بَيْنَكُمْ بِالْبَاطِلِ﴾، فَمَنْ شَرَطَ شَرْطًا يَأْخُذُ بِهِ مَالَ غَيْرِهِ بِلَا عِوَضٍ يُقَابِلُهُ، أَوْ يَسْتَوْفِي الثَّمَنَ كَامِلًا مَعَ عِلْمِهِ بِتَعَذُّرِ اسْتِيفَاءِ المَنْفَعَةِ عَلَى الوَجْهِ العَادِلِ، فَهُوَ شَرْطٌ بَاطِلٌ لَا يَحِلُّ مَغْرَمُهُ؛ لِأَنَّ العُقُودَ مَبْنِيَّةٌ عَلَى العَدْلِ وَالتَّنَاصُفِ لَا عَلَى الاسْتِغْلَالِ وَالإِجْحَافِ】**</u>.  
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Menguatkan prinsip dasar ijarah mazhab Syafi'i bahwa berlalunya masa sewa tanpa dimanfaatkan oleh penyewa tidak menggugurkan kewajiban bayar dan tidak menimbulkan hak tagih atas sisa manfaat yang hangus.
 
-   *Makna Murod / Terjemah:* Bab Syarat-Syarat yang Tidak Boleh dalam Jual Beli dan Ijarah: Allah Ta'ala berfirman: 'Wahai orang-orang yang beriman, janganlah kalian memakan harta sesama kalian dengan cara yang batil' (QS. An-Nisa: 29). Maka barangsiapa menetapkan suatu syarat yang dengannya ia mengambil harta orang lain tanpa ada kompensasi riil yang mengimbanginya, atau ia memungut harga secara penuh padahal mengetahui sulitnya pemanfaatan secara adil bagi pihak konsumen, maka itu adalah syarat batil yang tidak halal penarikannya; karena akad-akad muamalah dibangun di atas prinsip keadilan dan keseimbangan timbal balik (*at-tanāshuf*), bukan di atas eksploitasi dan perlakuan yang merugikan sepihak (*al-ijhhaf*).  
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/17885?page=1714#:~:text=%D9%88%D8%A5%D9%86%20%D8%B3%D9%84%D9%85%D9%87%D8%A7%20%D8%A5%D9%84%D9%8A%D9%87%D8%8C%20%D9%81%D8%A3%D9%85%D8%B3%D9%83%D9%87%D8%A7,%D9%88%D8%B9%D9%84%D9%8A%D9%87%20%D8%B1%D8%AF%D9%87%D8%A7)
 
-   *Wajhul Istidlal / Wajhul Ilhāq:* Ini adalah dalil pembelaan hak konsumen: Operator menjual paket data dengan branding "Kuota 50 GB" dan mematok tarif penuh untuk 50 GB. Ketika sisa 20 GB hangus, operator menerima bayaran penuh untuk layanan yang sebenarnya belum mereka transmisikan. Sikap operator yang menyita sisa kuota tanpa membuka opsi akumulasi tergolong memakan harta konsumen secara batil (*akl al-māl bil-bāthil*) melalui klausul baku yang eksploitatif (*'uqūd al-idz'ān*).  
+5. **Kitab: Takmilat Al-Muthi'i 'alal Majmu' Syarah Al-Muhadzdzab (تكملة المطيعي على المجموع) - (Juz 15, Hal. 81)**  
+   *Karya: Al-Imam Muhyiddin An-Nawawi (W. 676 H) / Takmilah: Syaikh Muhammad Najib Al-Muthi'i | Madzhab: Syafi'i*
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Umm / Sunan wal Atsar 10/67)](https://app.turath.io/book/2863?page=5294)
+   > بَابُ انْفِسَاخِ الإِجَارَةِ بِانْقِضَاءِ المَدَّةِ: <u>**【فَإِنْ عَادَتِ العَيْنُ فِي أَثْنَاءِ المُدَّةِ اسْتَوْفَى مَا بَقِيَ مِنْهَا، فَإِنِ انْقَضَتِ المُدَّةُ انْفَسَخَتِ الإِجَارَةُ لِفَوَاتِ المَعْقُودِ عَلَيْهِ】**</u>.
 
-2. **Kitab Qawa'idul Ahkam fi Mashalihil Anam (Juz 2, Halaman 145–148)**  
-   *Karya: Sultanul Ulama Al-Imam Al-'Izz bin Abdis Salam (Wafat 660 H) | Lapisan: Qawa'id Syari'ah & Maqashid*  
+   *Makna Murod / Terjemah:*  
+   Bab Berakhirnya Sewa dengan Berakhirnya Durasi: Manakala obyek sewa kembali dapat dimanfaatkan di tengah-tengah masa sewa maka penyewa mengambil sisa hak pemanfaatannya. Namun manakala durasi waktu sewa telah habis tuntas, maka akad sewa berakhir demi hukum karena telah lewatnya obyek yang diakadkan (*fawatul ma'qud 'alaih*).
 
-   > فَصْلٌ فِي تَحْقِيقِ العَدْلِ فِي المُعَاوَضَاتِ: <u>**【الأَصْلُ فِي عُقُودِ المُعَاوَضَاتِ الْمَالِيَّةِ تَسْلِيمُ العِوَضَيْنِ عَلَى وَجْهِ التَّكَافُؤِ، فَكُلُّ شَرْطٍ يُؤَدِّي إِلَى حُصُولِ أَحَدِ الطَّرَفَيْنِ عَلَى مَالِ الآخَرِ بِلَا مُقَابِلٍ يُعَدُّ غَبْنًا وَإِجْحَافًا تَأْبَاهُ مَقَاصِدُ الشَّرِيعَةِ فِي حِفْظِ الأَمْوَالِ، وَعَلَى الحَاكِمِ رَفْعُ هَذَا الإِجْحَافِ بِمَا يُعِيدُ التَّوَازُنَ إِلَى السُّوقِ】**</u>.  
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Alokasi frekuensi internet terikat dengan dimensi waktu. Saat masa 30 hari telah lampau, hak pemanfaatan kapasitas frekuensi pada rentang tersebut telah kedaluwarsa dan tidak bisa diklaim ulang secara sepihak.
 
-   *Makna Murod / Terjemah:* Fasal Mengenai Perwujudan Keadilan dalam Transaksi Komersial: Prinsip dasar dalam akad mu'awadhah maliyyah (tukar-menukar finansial) adalah penyerahan kedua belah kompensasi secara seimbang dan setara. Maka setiap klausul syarat yang mengakibatkan salah satu pihak memperoleh harta pihak lainnya tanpa adanya imbalan yang setimpal tergolong sebagai penipuan/ketidakadilan (*ghabn*) dan kerugian sepihak (*ijhāf*) yang ditolak oleh maqashid syariat dalam perlindungan harta (*hifzhul māl*). Dan wajib atas pemerintah menghapuskan ketidakadilan ini dengan langkah-langkah yang memulihkan keseimbangan pasar.  
-
-   *Wajhul Istidlal / Wajhul Ilhāq:* Syeikh Izzuddin menegaskan perlunya keseimbangan nilai imbal balik (*takāfu'ul 'iwadhain*). Penghangusan kuota sepihak merusak neraca keadilan komersial, sehingga menuntut adanya mekanisme penyelamatan kuota konsumen.  
-
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Qawa'idul Ahkam 2/145)](https://app.turath.io/book/21786?page=148)
-
-3. **Kitab Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 83 & 120)**  
-   *Karya: Al-Imam Jalaluddin As-Suyuthi (Wafat 911 H) | Lapisan: Kaidah Fiqhiyyah Kubra*  
-
-   > القَاعِدَةُ: <u>**【الضَّرَرُ يُزَالُ، وَلَا ضَرَرَ وَلَا ضِرَارَ】**</u>، وَيَتَفَرَّعُ عَنْهَا مَنْعُ الشَّرِكَاتِ ذَاتِ النُّفُوذِ الِاحْتِكَارِيِّ مِنْ فَرْضِ شُرُوطٍ مُجْحِفَةٍ بِعَامَّةِ النَّاسِ تَقْضِي بِمَصَادَرَةِ أَمْوَالِهِمْ أَوْ حُقُوقِهِمْ عِنْدَ انْتِهَاءِ الآجَالِ مَعَ إِمْكَانِ تَرْحِيلِهَا بِلَا ضَرَرٍ بَالِغٍ يَلْحَقُ الشَّرِكَةَ.  
-
-   *Makna Murod / Terjemah:* Kaidah Fiqih: Kemudaratan harus dihilangkan, tidak boleh memunculkan bahaya dan tidak boleh membalas bahaya dengan bahaya. Dan bercabang dari kaidah ini larangan bagi korporasi yang memiliki pengaruh monopoli/oligopoli untuk memaksakan syarat-syarat yang merugikan khalayak luas, yang menetapkan penyitaan harta atau hak mereka saat berakhirnya tempo masa waktu, padahal memungkinkan bagi korporasi tersebut untuk mengakumulasikan/memindahkan hak tersebut tanpa adanya kemudaratan fatal yang menimpa korporasi.  
-
-   *Wajhul Istidlal / Wajhul Ilhāq:* Fitur rollover kuota secara teknis sangat memungkinkan diterapkan oleh operator (sebagaimana telah dibuktikan oleh beberapa operator seluler modern). Menolak fitur rollover dan memilih menghanguskan kuota konsumen secara sepihak adalah bentuk pembiaran bahaya (*dharar*) yang wajib dihilangkan.  
-
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair lis-Suyuthi Halaman 83)](https://app.turath.io/book/2031?page=94)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/1026?page=942#:~:text=%D9%81%D8%A5%D9%86%20%D8%B9%D8%A7%D8%AF%D8%AA%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86,%D8%A7%D9%84%D9%85%D8%B9%D9%82%D9%88%D8%AF%20%D8%B9%D9%84%D9%8A%D9%87)
 
 ---
 
-#### C. Dalil Siyasah Syar'iyyah: Kewenangan Pemerintah Mengatur Perlindungan Konsumen & Kuota Rollover
+#### B. Dalil Perlindungan Konsumen: Larangan Memakan Harta secara Batil & Syarat Eksploitatif
 
-1. **Kitab Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 121)**  
-   *Karya: Al-Imam Jalaluddin As-Suyuthi (Wafat 911 H) | Lapisan: Kaidah Fiqhiyyah Siyasah Syar'iyyah*  
+1. **Kitab: Hasyiyatul Bujairimi 'alal Manhaj = At-Tajrid li Naf'il 'Abid (حاشية البجيرمي على شرح المنهج) - (Juz 3, Hal. 109)**  
+   *Karya: Syaikh Sulaiman bin Muhammad Al-Bujairimi (W. 1221 H) | Madzhab: Syafi'i (Hawasyi Muta'akhirin)*
 
-   > القَاعِدَةُ الفِقْهِيَّةُ: <u>**【تَصَرُّفُ الإِمَامِ عَلَى الرَّعِيَّةِ مَنُوطٌ بِالمَصْلَحَةِ】**</u>؛ وَمُقْتَضَاهَا أَنَّ لِوَلِيِّ الأَمْرِ وَالمُؤَسَّسَاتِ التَّنْظِيمِيَّةِ التَّدَخُّلَ لِإِلْزَامِ شَرِكَاتِ الاتِّصَالَاتِ بِتَرْحِيلِ الكَمِّيَّاتِ المُتَبَقِّيَةِ مِنَ البَيَانَاتِ (Data Rollover) أَوْ إِعْطَاءِ مُهْلَةٍ كَافِيَةٍ لِاسْتِيفَائِهَا رِعَايَةً لِمَصَالِحِ عَامَّةِ المُسْتَهْلِكِينَ وَمَنْعًا لِلْخِلَافِ.  
+   > كِتَابُ البُيُوعِ وَالمُعَامَلَاتِ: <u>**【قَوْلُهُ تَعَالَى: ﴿لَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ﴾ [النساء: ٢٩] أَيْ لَا يَأْكُلْ بَعْضُكُمْ مَالَ بَعْضٍ بِالْبَاطِلِ... لِأَنَّ العُقُودَ مَبْنِيَّةٌ عَلَى التَّرَاضِي الصَّحِيحِ وَالعَدْلِ المَحْضِ】**</u>.
 
-   *Makna Murod / Terjemah:* Kaidah Fiqih: Kebijakan dan tindakan pemimpin/pemerintah terhadap rakyatnya wajib berorientasi pada kemaslahatan umum. Konsekuensi dari kaidah ini adalah bahwa pemerintah dan otoritas regulasi berhak dan berwenang secara syar'i untuk mengintervensi regulasi dengan mewajibkan perusahaan telekomunikasi mengakumulasikan sisa volume data internet (data rollover) atau memberikan masa tenggang yang cukup untuk pemanfaatannya, demi menjaga maslahat publik konsumen dan mencegah persengketaan.  
+   *Makna Murod / Terjemah:*  
+   Kitab Transaksi Komersial: Firman Allah Ta'ala: 'Janganlah kalian memakan harta sesama kalian dengan jalan yang batil' (QS. An-Nisa: 29), maknanya adalah janganlah sebagian dari kalian mengambil dan memakan harta milik sebagian yang lain dengan cara batil tanpa kompensasi yang seimbang, karena akad-akad muamalah wajib didasarkan pada kerelaan yang sahih dan keadilan murni.
 
-   *Wajhul Istidlal / Wajhul Ilhāq:* Pemerintah (Kemenkominfo) memiliki mandat syariat untuk membuat regulasi yang mengikat operator telekomunikasi agar tidak menghanguskan kuota data rakyat begitu saja, melainkan mewajibkan skema *rollover* dan transparansi paket data.  
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Operator menjual paket kuota dengan label "50 GB seharga Rp 100.000". Konsumen telah membayar penuh untuk kuota tersebut. Ketika sisa 20 GB hangus seketika tanpa opsi rollover sedikit pun, operator mengantongi kompensasi penuh atas kuota data yang tidak pernah mereka transmisikan, sehingga berpotensi menyerempet larangan *akl al-mal bil-bathil*.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Asybah wan Nazhair / Qawa'id Fiqhiyyah)](https://app.turath.io/book/14596?page=461)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21603?page=1054#:~:text=%D8%A8%D9%8E%D9%8A%D9%92%D9%86%D9%8E%D9%83%D9%8F%D9%85%D9%92%20%D8%A8%D9%90%D8%A7%D9%84%D9%92%D8%A8%D9%8E%D8%A7%D8%B7%D9%90%D9%84%D9%90%EF%B7%BD,%D9%85%D9%8E%D8%A7%D9%84%D9%8E%20%D8%A8%D9%8E%D8%B9%D9%92%D8%B6%D9%8F%D9%83%D9%8F%D9%85%D9%92%20%D8%A8%D9%90%D8%A7%D9%84%D9%92%D8%A8%D9%8E%D8%A7%D8%B7%D9%90%D9%84%D9%90)
 
-2. **Kitab Al-Hisbah fil Islam (Halaman 25–28)**  
-   *Karya: Syaikhul Islam Ibnu Taimiyyah (Wafat 728 H) | Lapisan: Fiqih Siyasah Iqtishadiyyah & Pengawasan Pasar*  
+2. **Kitab: Ighatsatul Lahfan fi Mashayidisy Syaithan (إغاثة اللهفان في مصايد الشيطان) - (Juz 2, Hal. 727)**  
+   *Karya: Al-Imam Syamsuddin Ibnu Qayyim Al-Jauziyyah (W. 751 H) | Lapisan: Maqashid Syari'ah & Keadilan Muamalah*
 
-   > فَصْلٌ فِي التَّسْعِيرِ وَتَنْظِيمِ المَرَافِقِ العَامَّةِ: <u>**【إِذَا كَانَ أَرْبَابُ الأَمْوَالِ أَوِ الخَدَمَاتِ الَّتِي يَحْتَاجُ إِلَيْهَا النَّاسُ حَاجَةً عَامَّةً يَمْتَنِعُونَ مِنْ بَذْلِهَا إِلَّا بِشُرُوطٍ فِيهَا إِجْحَافٌ بِالنَّاسِ، أَوْ يَسْتَغِلُّونَ حَاجَةَ الكَافَّةِ لِتَحْقِيقِ أَرْبَاحٍ بِلَا عِوَضٍ، كَانَ عَلَى وَلِيِّ الأَمْرِ أَنْ يَتَدَخَّلَ بِتَحْدِيدِ القَوَاعِدِ العَادِلَةِ الَّتِي تَمْنَعُ الظُّلْمَ وَتَحْفَظُ حُقُوقَ الطَّرَفَيْنِ】**</u>.  
+   > فَصْلٌ فِي تَحْقِيقِ العَدْلِ فِي المُعَاوَضَاتِ: <u>**【وَقَاعِدَةُ العَدْلِ فِي المُعَاوَضَاتِ: أَنْ يَسْتَوِيَ المُتَعَاقِدَانِ فِي الرَّجَاءِ وَالخَوْفِ... فَكُلُّ عَقْدٍ يَكُونُ فِيهِ أَحَدُهُمَا غَانِمًا دَائِمًا وَالآخَرُ غَارِمًا فَهُوَ بَاطِلٌ ظَالِمٌ】**</u>.
 
-   *Makna Murod / Terjemah:* Fasal Mengenai Regulasi Harga dan Penataan Fasilitas Publik: Manakala para pemilik modal atau penyedia jasa layanan yang dibutuhkan oleh khalayak luas secara umum menolak untuk memberikannya kecuali dengan syarat-syarat yang menindas/merugikan masyarakat, atau mereka mengeksploitasi hajat kebutuhan publik untuk mengeruk laba tanpa kompensasi nyata, maka wajib atas pemerintah untuk turun tangan menetapkan aturan-aturan main yang adil yang mencegah kezaliman dan memelihara hak-hak kedua belah pihak secara berimbang.  
+   *Makna Murod / Terjemah:*  
+   Fasal Mengenai Penegakan Keadilan dalam Akad Komersial: Kaidah keadilan dalam akad mu'awadhah (tukar-menukar finansial) adalah bahwa kedua belah pihak yang berakad harus berada dalam posisi seimbang antara peluang dan risiko. Maka setiap akad yang mengondisikan salah satu pihak selalu untung pasti (*ghanim*) sedangkan pihak lainnya menanggung kerugian mutlak (*gharim*), adalah akad yang zalim dan menyalahi keadilan syariat.
 
-   *Wajhul Istidlal / Wajhul Ilhāq:* Layanan internet adalah fasilitas publik modern (*marāfiq 'āmmah*). Kehadiran regulasi yang melarang penghangusan sepihak adalah wujud intervensi pasar yang sah menurut prinsip hisbah dan siyasah syar'iyyah.  
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Klausul baku hangus kuota sepihak menciptakan asimetri mutlak: operator selalu untung menerima uang muka 100% tanpa risiko liabilitas rollover, sementara konsumen selalu berada pada pihak yang dirugikan saat sisa kuota lenyap.
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Al-Hisbah fil Islam)](https://app.turath.io/book/11430?page=15047)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/18612?page=769#:~:text=%D9%88%D9%82%D8%A7%D8%B9%D8%AF%D8%A9%D9%8F%20%D8%A7%D9%84%D8%B9%D8%AF%D9%84,%D9%88%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D9%82%D8%A7%D8%A9%20%D9%88%D8%A7%D9%84%D9%85%D8%B6%D8%A7%D8%B1%D8%A8%D8%A9%20%D9%88%D8%B3%D8%A7%D8%A6%D8%B1)
 
-3. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 9, Halaman 220–225)**  
-   *Karya: Kementerian Wakaf & Urusan Keislaman Kuwait | Lapisan: Muqaranah Madzahib al-Arba'ah*  
+3. **Kitab: Al-Asybah wan-Nazha'ir (الأشباه والنظائر لابن الملقن) - (Juz 1, Hal. 30)**  
+   *Karya: Al-Imam Sirajuddin Ibnu Al-Mulaqqin Asy-Syafi'i (W. 804 H) | Lapisan: Kitab Induk Qawa'id Fiqhiyyah Syafi'iyyah*
 
-   > عُقُودُ الإِذْعَانِ وَالشُّرُوطُ التَّعَسُّفِيَّةُ: <u>**【إِذَا تَضَمَّنَ عَقْدُ الإِذْعَانِ شَرْطًا تَعَسُّفِيًّا يُلْحِقُ ضَرَرًا فَاحِشًا بِالطَّرَفِ الضَّعِيفِ، كَاشْتِرَاطِ سُقُوطِ حَقِّهِ كَامِلًا عِنْدَ تَأَخُّرٍ يَسِيرٍ مَعَ اسْتِيفَاءِ الطَّرَفِ القَوِيِّ كَامِلَ العِوَضِ، فَإِنَّ لِلْقَضَاءِ أَوْ لِلْجِهَةِ المُنَظِّمَةِ تَعْدِيلَ هَذَا الشَّرْطِ أَوْ إِلْغَاءَهُ تَحْقِيقًا لِلْعَدْلِ وَرَفْعًا لِلْحَرَجِ】**</u>.  
+   > القَوَاعِدُ الكُلِّيَّةُ الكُبْرَى: <u>**【القَاعِدَةُ الرَّابِعَةُ: الضَّرَرُ يُزَالُ】**</u>، وَأَصْلُهَا قَوْلُهُ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «لَا ضَرَرَ وَلَا ضِرَارَ»، فَيَجِبُ شَرْعًا رَفْعُ كُلِّ مَا فِيهِ إِضْرَارٌ بِمَالِ المُسْلِمِ دُونَ وَجْهِ حَقٍّ.
 
-   *Makna Murod / Terjemah:* Kontrak Adhesi (Klausul Baku) dan Syarat Eksploitatif: Manakala suatu kontrak adhesi (perjanjian sepihak yang wajib diterima tanpa negosiasi) memuat klausul syarat yang sewenang-wenang yang menimbulkan kemudaratan besar pada pihak yang lemah—seperti mensyaratkan gugurnya seluruh hak pihak lemah saat lewatnya sedikit waktu padahal pihak yang kuat telah memungut kompensasi penuh—maka pengadilan atau otoritas pembuat regulasi berhak merevisi syarat tersebut atau membatalkannya demi mewujudkan keadilan dan melenyapkan kesempitan.  
+   *Makna Murod / Terjemah:*  
+   Kaidah Universal Induk Fikih: Kaidah Keempat: Kemudaratan wajib dihilangkan. Landasan asalnya adalah sabda Rasulullah SAW: 'Tidak boleh memunculkan bahaya dan tidak boleh membalas bahaya dengan bahaya'. Maka wajib secara syariat menghapuskan segala bentuk tindakan yang menimbulkan kerugian finansial pada harta seorang muslim tanpa alasan hak.
 
-   *Wajhul Istidlal / Wajhul Ilhāq:* Klausul "kuota hangus otomatis tanpa sisa" pada paket data seluler adalah tipikal klausul baku yang sewenang-wenang (*syarth ta'assufī*), sehingga otoritas negara berhak membatalkannya demi keadilan hukum.  
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Sistem kuota hangus tanpa kompensasi menimbulkan kemudaratan sistemik (*dharar 'am*) bagi jutaan konsumen telekomunikasi, sehingga wajib dihilangkan dengan menyediakan skema penyelamatan kuota (*data rollover*).
 
-   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io (Mausu'ah Fiqhiyyah Kuwaitiyyah 9/220)](https://app.turath.io/book/11430?page=6382)
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/18192?page=29#:~:text=%D8%A7%D9%84%D8%B6%D8%B1%D8%B1%20%D9%8A%D8%B2%D8%A7%D9%84)
+
+---
+
+#### C. Dalil Siyasah Syar'iyyah: Kewenangan Pemerintah Mengatur Pasar & Mewajibkan Kuota Rollover
+
+1. **Kitab: Ghamzu 'Uyunil Basha'ir fi Syarhi Al-Asybah wan-Nazha'ir (غمز عيون البصائر) - (Juz 1, Hal. 369)**  
+   *Karya: Al-Imam Ahmad bin Muhammad Al-Hamawi (W. 1098 H) | Lapisan: Qawa'id Siyasah Syar'iyyah*
+
+   > الفَنُّ الأَوَّلُ > النَّوْعُ الثَّانِي مِنَ القَوَاعِدِ: <u>**【القَاعِدَةُ الخَامِسَةُ: تَصَرُّفُ الإِمَامِ عَلَى الرَّعِيَّةِ مَنُوطٌ بِالمَصْلَحَةِ】**</u>؛ وَمُقْتَضَاهَا أَنَّ كُلَّ تَدَبُّرٍ يَقُومُ بِهِ وَلِيُّ الأَمْرِ لِصِيَانَةِ أَمْوَالِ النَّاسِ وَمَنْعِ التَّعَسُّفِ هُوَ وَاجِبٌ شَرْعِيٌّ يَلْزَمُ الكَافَّةَ اتِّبَاعُهُ.
+
+   *Makna Murod / Terjemah:*  
+   Kaidah Siyasah Syar'iyyah: Kaidah Kelima: Kebijakan dan tindakan pemimpin/pemerintah terhadap rakyat wajib berorientasi pada kemaslahatan umum. Konsekuensi dari kaidah ini adalah bahwa setiap langkah regulasi yang diambil oleh pemerintah untuk melindungi harta masyarakat dan mencegah kesewenang-wenangan korporasi adalah kewajiban syar'i yang mengikat seluruh pihak.
+
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Kemenkominfo dan otoritas negara berhak serta berkewajiban syariat untuk menetapkan regulasi yang mewajibkan seluruh operator seluler menerapkan sistem *data rollover*, demi melindungi maslahat publik konsumen dari praktik yang merugikan.
+
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21588?page=361#:~:text=%D8%AA%D8%B5%D8%B1%D9%81%20%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B1%D8%B9%D9%8A%D8%A9%20%D9%85%D9%86%D9%88%D8%B7%20%D8%A8%D8%A7%D9%84%D9%85%D8%B5%D9%84%D8%AD%D8%A9)
+
+2. **Kitab: Abhats Hai'ah Kibaril Ulama (أبحاث هيئة كبار العلماء) - (Juz 4, Hal. 57)**  
+   *Karya: Dewan Ulama Kibar Saudi Arabia | Lapisan: Fatwa & Regulasi Fiqih Kontemporer*
+
+   > بَابُ عُقُودِ الإِذْعَانِ وَحِمَايَةِ المُسْتَهْلِكِ: <u>**【حَمْلُ الشَّرِكَاتِ عَلَى التَّقْلِيلِ مِنَ الشُّرُوطِ التَّعَسُّفِيَّةِ وَوَضْعُ شُرُوطٍ أَكْثَرَ مُلَاءَمَةً لِمَصَالِحِ عَامَّةِ المُتَعَاقِدِينَ، وَتَدَخُّلُ وَلِيِّ الأَمْرِ لِمَنْعِ الإِجْحَافِ حِمَايَةً لِلطَّرَفِ الأَضْعَفِ】**</u>.
+
+   *Makna Murod / Terjemah:*  
+   Bab Kontrak Baku (Adhesi) dan Perlindungan Konsumen: Mewajibkan korporasi-korporasi untuk meminimalisasi syarat-syarat sepihak yang eksploitatif (*asy-syuruth at-ta'assufiyyah*) dan merumuskan klausul yang lebih seimbang bagi kemaslahatan khalayak umum yang berakad, serta intervensi pemerintah untuk mencegah kezaliman sepihak demi melindungi pihak yang lemah (konsumen).
+
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Memberikan justifikasi syariat kontemporer bagi kementerian regulator untuk mengintervensi aturan main industri telekomunikasi seluler guna menghapus klausul baku "kuota hangus otomatis tanpa ampun".
+
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21759?page=2122#:~:text=%D8%A7%D9%84%D8%AA%D9%82%D9%84%D9%8A%D9%84%20%D9%85%D9%86,%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7%20%D8%A7%D9%84%D8%AA%D8%B9%D8%B3%D9%81%D9%8A%D8%A9)
+
+3. **Kitab: Durar al-Hukkam fi Syarh Majallah al-Ahkam (درر الحكام في شرح مجلة الأحكام) - (Juz 1, Hal. 511)**  
+   *Karya: Ali Haidar Khwajah Amin Afandi | Lapisan: Kodifikasi Hukum Fiqih Muamalah / Majallah Al-Ahkam*
+
+   > المَادَّةُ (٤٠٦) فِي الشُّرُوطِ الفَاسِدَةِ فِي الإِجَارَةِ: <u>**【الْإِجَارَةُ الْفَاسِدَةُ هِيَ الَّتِي عُرِضَ فِيهَا شَيْءٌ مِنْ الشُّرُوطِ الْمُفْسِدَةِ؛ فَكُلُّ شَرْطٍ لَا يَقْتَضِيهِ العَقْدُ وَفِيهِ إِضْرَارٌ بِأَحَدِ الطَّرَفَيْنِ يَكُونُ شَرْطًا بَاطِلًا يَلْزَمُ إِسْقَاطُهُ】**</u>.
+
+   *Makna Murod / Terjemah:*  
+   Pasal 406 Mengenai Syarat yang Merusak dalam Ijarah: Ijarah yang fasid adalah akad sewa yang disusupi klausul syarat yang merusak hakikat keadilan akad; maka setiap syarat yang tidak dituntut oleh tabiat asal akad dan di dalamnya menimbulkan kerugian sepihak bagi salah satu pihak yang berakad berstatus sebagai syarat batil yang wajib digugurkan.
+
+   *Wajhul Istidlal / Wajhul Ilhaq:*  
+   Klausul pemusnahan total sisa hak data internet yang telah dibayar tunai oleh pembeli adalah klausul yang merugikan sepihak (*syarth bathil*), sehingga badan regulasi dan pengadilan berwenang membatalkannya dan mewajibkan mekanisme kompensasi atau *rollover*.
+
+   🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/21692?page=474#:~:text=%D8%A7%D9%84%D9%92%D8%A5%D9%90%D8%AC%D9%8E%D8%A7%D8%B1%D9%8E%D8%A9%D9%8F%20%D8%A7%D9%84%D9%92%D9%81%D9%8E%D8%A7%D8%B3%D9%90%D8%AF%D9%8E%D8%A9%D9%8F)
 
 ---
 
