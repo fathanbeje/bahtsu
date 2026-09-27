@@ -86,7 +86,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 1. **Kitab: Asy-Syarhul Kabir 'alal Muqni' (الشرح الكبير على المقنع) - (Juz 14, Hal. 376)**  
    *Karya: Al-Imam Syamsuddin Ibnu Abi 'Umar Al-Maqdisi (W. 682 H) | Madzhab: Hanbali | Lapisan: Kitab Induk Fiqih Perbandingan*
 
-   > بَابُ الإِجَارَةِ: مَسْأَلَةُ الجَمْعِ بَيْنَ المُدَّةِ وَالعَمَلِ: <u>**【وَلَا يَجُوزُ الْجَمْعُ بَينَ تَقْدِيرِ الْمُدَّةِ وَالْعَمَلِ، كَقَوْلِهِ: اسْتَأْجَرْتُكَ لِتَخِيطَ لِيَ هَذَا الثَّوْبَ فِي يَوْمٍ. وَيَحْتَمِلُ أَنْ يَصِحَّ؛ لِأَنَّ الْمَعْقُودَ عَلَيْهِ هُوَ الْعَمَلُ، وَتَقْدِيرُ الْمُدَّةِ لِلتَّعْجِيلِ】**</u>.
+   > باب الإجارة: مسألة الجمع بين المدة والعمل: <u>**【ولا يجوز الجمع بين تقدير المدة والعمل، كقوله: استأجرتك لتخيط لي هذا الثوب في يوم. ويحتمل أن يصح؛ لأن المعقود عليه هو العمل، وتقدير المدة للتعجيل】**</u>.
 
    *Makna Murod / Terjemah:*  
    Bab Ijarah: Masalah menggabungkan takaran durasi waktu dan volume pekerjaan: (Secara hukum asal) tidak boleh menggabungkan antara takaran waktu dan target pekerjaan, seperti ucapannya: 'Aku menyewamu untuk menjahit baju ini dalam waktu sehari'. Namun berkemungkinan besar akad tersebut SAH; karena obyek akad yang hakiki adalah pekerjaannya, sedangkan pembatasan durasi waktu semata-mata dimaksudkan untuk percepatan target penyelesaian dan batas akhir hak pemanfaatan.
@@ -99,7 +99,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 2. **Kitab: Al-Mu'amalat Al-Maliyyah Ashalah wa Mu'ashirah (المعاملات المالية أصالة ومعاصرة) - (Juz 9, Hal. 283)**  
    *Karya: Prof. Dr. Dubyan bin Muhammad Ad-Dubyan | Madzhab: Fatawa & Fiqh Mu'ashir*
 
-   > كِتَابُ الإِجَارَةِ > بَيَانُ مُدَّةِ الإِجَارَةِ: <u>**【المَبْحَثُ السَّادِسُ: فِي الجَمْعِ بَيْنَ المُدَّةِ وَالعَمَلِ: فَلَوْ جَعَلَ لِلْعَمَلِ مُدَّةً يَنْتَهِي إِلَيْهَا جَازَ، وَيَكُونُ ذِكْرُ المُدَّةِ لِلتَّعْجِيلِ وَبَيَانِ غَايَةِ الحَقِّ】**</u>.
+   > كتاب الإجارة > بيان مدة الإجارة: <u>**【المبحث السادس: في الجمع بين المدة والعمل: فلو جعل للعمل مدة ينتهي إليها جاز، ويكون ذكر المدة للتعجيل وبيان غاية الحق】**</u>.
 
    *Makna Murod / Terjemah:*  
    Kitab Ijarah: Pembahasan mengenai durasi ijarah: Pembahasan Keenam: Mengenai penggabungan durasi waktu dan pekerjaan: Sekiranya penyewa menetapkan batas waktu maksimal berakhirnya pemanfaatan pekerjaan tersebut, maka hal itu DIPERBOLEHKAN; dan penyebutan durasi waktu tersebut berfungsi sebagai batas tenggat (*ta'jil*) dan penjelasan batas akhir hak pemanfaatan.
@@ -112,7 +112,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 3. **Kitab: Mukhtashar Tuhfatul Muhtaj bi Syarh al-Minhaj (مختصر تحفة المحتاج) - (Juz 2, Hal. 431)**  
    *Karya: Al-Imam Ibnu Hajar Al-Haitami (W. 974 H) / Ringkasan: Syaikh Mustafa Samith | Madzhab: Syafi'i (Mu'tamad)*
 
-   > بَابُ اسْتِقْرَارِ الأُجْرَةِ بِالتَّمْكِينِ: <u>**【لِأَنَّهُ لَمْ يَلْتَزِمْ سِوَى التَّمْكِينِ مِنْهَا، وَمُجَرَّدُ التَّمْكِينِ هُنَا كَافٍ فِي اسْتِقْرَارِ الأُجْرَةِ بِمُضِيِّ مُدَّةِ الإِجَارَةِ إِنْ قُدِّرَتِ المَنْفَعَةُ بِوَقْتٍ، وَبِمُضِيِّ مُدَّةِ إِمْكَانِ الِاسْتِيفَاءِ إِنْ قُدِّرَتْ بِعَمَلٍ】**</u>.
+   > باب استقرار الأجرة بالتمكين: <u>**【لأنه لم يلتزم سوى التمكين منها، ومجرد التمكين هنا كاف في استقرار الأجرة بمضي مدة الإجارة إن قدرت المنفعة بوقت، وبمضي مدة إمكان الاستيفاء إن قدرت بعمل】**</u>.
 
    *Makna Murod / Terjemah:*  
    Bab Kepastian Kewajiban Ongkos Sewa dengan Adanya Tamkin (Pembukaan Akses): Karena pihak yang menyewakan tidak menanggung kewajiban selain membuka kesempatan akses pemanfaatan (*at-tamkin*). Dan semata-mata pembukaan akses di sini telah mencukupi bagi tetapnya hak ongkos sewa secara utuh seiring berlalunya rentang waktu sewa manakala manfaat dibatasi waktu, atau seiring berlalunya durasi yang memungkinkan untuk memanfaatkannya manakala dibatasi dengan pekerjaan, meskipun penyewa tidak memanfaatkannya secara nyata.
@@ -125,7 +125,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 4. **Kitab: At-Tahdzib fil Fiqh Asy-Syafi'i (التهذيب في الفقه الشافعي) - (Juz 4, Hal. 455)**  
    *Karya: Al-Imam Abu Muhammad Al-Baghawi (W. 516 H) | Madzhab: Syafi'i (Mutaqaddimin)*
 
-   > بَابُ اسْتِيفَاءِ مَنَافِعِ الإِجَارَةِ: <u>**【وَإِنْ سَلَّمَهَا إِلَيْهِ، فَأَمْسَكَهَا المُسْتَأْجِرُ تِلْكَ المُدَّةَ، وَلَمْ يَنْتَفِعْ بِهَا: تَسْتَقِرُّ الأُجْرَةُ، وَعَلَيْهِ رَدُّهَا】**</u>.
+   > باب استيفاء منافع الإجارة: <u>**【وإن سلمها إليه، فأمسكها المستأجر تلك المدة، ولم ينتفع بها: تستقر الأجرة، وعليه ردها】**</u>.
 
    *Makna Murod / Terjemah:*  
    Bab Pemenuhan Manfaat Sewa: Dan sekiranya pihak penyewa telah menerima penyerahan barang/fasilitas yang disewa, lalu penyewa menahannya selama rentang durasi sewa tersebut namun ia tidak memanfaatkannya: maka ongkos sewa tetap mengikat wajib secara utuh, dan penyewa berkewajiban mengembalikan aset sewa tersebut.
@@ -138,7 +138,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 5. **Kitab: Takmilat Al-Muthi'i 'alal Majmu' Syarah Al-Muhadzdzab (تكملة المطيعي على المجموع) - (Juz 15, Hal. 81)**  
    *Karya: Al-Imam Muhyiddin An-Nawawi (W. 676 H) / Takmilah: Syaikh Muhammad Najib Al-Muthi'i | Madzhab: Syafi'i*
 
-   > بَابُ انْفِسَاخِ الإِجَارَةِ بِانْقِضَاءِ المَدَّةِ: <u>**【فَإِنْ عَادَتِ العَيْنُ فِي أَثْنَاءِ المُدَّةِ اسْتَوْفَى مَا بَقِيَ مِنْهَا، فَإِنِ انْقَضَتِ المُدَّةُ انْفَسَخَتِ الإِجَارَةُ لِفَوَاتِ المَعْقُودِ عَلَيْهِ】**</u>.
+   > باب انفساخ الإجارة بانقضاء المدة: <u>**【فإن عادت العين في أثناء المدة استوفى ما بقي منها، فإن انقضت المدة انفسخت الإجارة لفوات المعقود عليه】**</u>.
 
    *Makna Murod / Terjemah:*  
    Bab Berakhirnya Sewa dengan Berakhirnya Durasi: Manakala obyek sewa kembali dapat dimanfaatkan di tengah-tengah masa sewa maka penyewa mengambil sisa hak pemanfaatannya. Namun manakala durasi waktu sewa telah habis tuntas, maka akad sewa berakhir demi hukum karena telah lewatnya obyek yang diakadkan (*fawatul ma'qud 'alaih*).
@@ -155,7 +155,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 1. **Kitab: Hasyiyatul Bujairimi 'alal Manhaj = At-Tajrid li Naf'il 'Abid (حاشية البجيرمي على شرح المنهج) - (Juz 3, Hal. 109)**  
    *Karya: Syaikh Sulaiman bin Muhammad Al-Bujairimi (W. 1221 H) | Madzhab: Syafi'i (Hawasyi Muta'akhirin)*
 
-   > كِتَابُ البُيُوعِ وَالمُعَامَلَاتِ: <u>**【قَوْلُهُ تَعَالَى: ﴿لَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ﴾ [النساء: ٢٩] أَيْ لَا يَأْكُلْ بَعْضُكُمْ مَالَ بَعْضٍ بِالْبَاطِلِ... لِأَنَّ العُقُودَ مَبْنِيَّةٌ عَلَى التَّرَاضِي الصَّحِيحِ وَالعَدْلِ المَحْضِ】**</u>.
+   > كتاب البيوع والمعاملات: <u>**【قوله تعالى: ﴿لا تأكلوا أموالكم بينكم بالباطل﴾ [النساء: ٢٩] أي لا يأكل بعضكم مال بعض بالباطل... لأن العقود مبنية على التراضي الصحيح والعدل المحض】**</u>.
 
    *Makna Murod / Terjemah:*  
    Kitab Transaksi Komersial: Firman Allah Ta'ala: 'Janganlah kalian memakan harta sesama kalian dengan jalan yang batil' (QS. An-Nisa: 29), maknanya adalah janganlah sebagian dari kalian mengambil dan memakan harta milik sebagian yang lain dengan cara batil tanpa kompensasi yang seimbang, karena akad-akad muamalah wajib didasarkan pada kerelaan yang sahih dan keadilan murni.
@@ -168,7 +168,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 2. **Kitab: Ighatsatul Lahfan fi Mashayidisy Syaithan (إغاثة اللهفان في مصايد الشيطان) - (Juz 2, Hal. 727)**  
    *Karya: Al-Imam Syamsuddin Ibnu Qayyim Al-Jauziyyah (W. 751 H) | Lapisan: Maqashid Syari'ah & Keadilan Muamalah*
 
-   > فَصْلٌ فِي تَحْقِيقِ العَدْلِ فِي المُعَاوَضَاتِ: <u>**【وَقَاعِدَةُ العَدْلِ فِي المُعَاوَضَاتِ: أَنْ يَسْتَوِيَ المُتَعَاقِدَانِ فِي الرَّجَاءِ وَالخَوْفِ... فَكُلُّ عَقْدٍ يَكُونُ فِيهِ أَحَدُهُمَا غَانِمًا دَائِمًا وَالآخَرُ غَارِمًا فَهُوَ بَاطِلٌ ظَالِمٌ】**</u>.
+   > فصل في تحقيق العدل في المعاوضات: <u>**【وقاعدة العدل في المعاوضات: أن يستوي المتعاقدان في الرجاء والخوف... فكل عقد يكون فيه أحدهما غانما دائما والآخر غارما فهو باطل ظالم】**</u>.
 
    *Makna Murod / Terjemah:*  
    Fasal Mengenai Penegakan Keadilan dalam Akad Komersial: Kaidah keadilan dalam akad mu'awadhah (tukar-menukar finansial) adalah bahwa kedua belah pihak yang berakad harus berada dalam posisi seimbang antara peluang dan risiko. Maka setiap akad yang mengondisikan salah satu pihak selalu untung pasti (*ghanim*) sedangkan pihak lainnya menanggung kerugian mutlak (*gharim*), adalah akad yang zalim dan menyalahi keadilan syariat.
@@ -181,7 +181,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 3. **Kitab: Al-Asybah wan-Nazha'ir (الأشباه والنظائر لابن الملقن) - (Juz 1, Hal. 30)**  
    *Karya: Al-Imam Sirajuddin Ibnu Al-Mulaqqin Asy-Syafi'i (W. 804 H) | Lapisan: Kitab Induk Qawa'id Fiqhiyyah Syafi'iyyah*
 
-   > القَوَاعِدُ الكُلِّيَّةُ الكُبْرَى: <u>**【القَاعِدَةُ الرَّابِعَةُ: الضَّرَرُ يُزَالُ】**</u>، وَأَصْلُهَا قَوْلُهُ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «لَا ضَرَرَ وَلَا ضِرَارَ»، فَيَجِبُ شَرْعًا رَفْعُ كُلِّ مَا فِيهِ إِضْرَارٌ بِمَالِ المُسْلِمِ دُونَ وَجْهِ حَقٍّ.
+   > القواعد الكلية الكبرى: <u>**【القاعدة الرابعة: الضرر يزال】**</u>، وأصلها قوله صلى الله عليه وسلم: «لا ضرر ولا ضرار»، فيجب شرعا رفع كل ما فيه إضرار بمال المسلم دون وجه حق.
 
    *Makna Murod / Terjemah:*  
    Kaidah Universal Induk Fikih: Kaidah Keempat: Kemudaratan wajib dihilangkan. Landasan asalnya adalah sabda Rasulullah SAW: 'Tidak boleh memunculkan bahaya dan tidak boleh membalas bahaya dengan bahaya'. Maka wajib secara syariat menghapuskan segala bentuk tindakan yang menimbulkan kerugian finansial pada harta seorang muslim tanpa alasan hak.
@@ -198,7 +198,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 1. **Kitab: Ghamzu 'Uyunil Basha'ir fi Syarhi Al-Asybah wan-Nazha'ir (غمز عيون البصائر) - (Juz 1, Hal. 369)**  
    *Karya: Al-Imam Ahmad bin Muhammad Al-Hamawi (W. 1098 H) | Lapisan: Qawa'id Siyasah Syar'iyyah*
 
-   > الفَنُّ الأَوَّلُ > النَّوْعُ الثَّانِي مِنَ القَوَاعِدِ: <u>**【القَاعِدَةُ الخَامِسَةُ: تَصَرُّفُ الإِمَامِ عَلَى الرَّعِيَّةِ مَنُوطٌ بِالمَصْلَحَةِ】**</u>؛ وَمُقْتَضَاهَا أَنَّ كُلَّ تَدَبُّرٍ يَقُومُ بِهِ وَلِيُّ الأَمْرِ لِصِيَانَةِ أَمْوَالِ النَّاسِ وَمَنْعِ التَّعَسُّفِ هُوَ وَاجِبٌ شَرْعِيٌّ يَلْزَمُ الكَافَّةَ اتِّبَاعُهُ.
+   > الفن الأول > النوع الثاني من القواعد: <u>**【القاعدة الخامسة: تصرف الإمام على الرعية منوط بالمصلحة】**</u>؛ ومقتضاها أن كل تدبر يقوم به ولي الأمر لصيانة أموال الناس ومنع التعسف هو واجب شرعي يلزم الكافة اتباعه.
 
    *Makna Murod / Terjemah:*  
    Kaidah Siyasah Syar'iyyah: Kaidah Kelima: Kebijakan dan tindakan pemimpin/pemerintah terhadap rakyat wajib berorientasi pada kemaslahatan umum. Konsekuensi dari kaidah ini adalah bahwa setiap langkah regulasi yang diambil oleh pemerintah untuk melindungi harta masyarakat dan mencegah kesewenang-wenangan korporasi adalah kewajiban syar'i yang mengikat seluruh pihak.
@@ -211,7 +211,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 2. **Kitab: Abhats Hai'ah Kibaril Ulama (أبحاث هيئة كبار العلماء) - (Juz 4, Hal. 57)**  
    *Karya: Dewan Ulama Kibar Saudi Arabia | Lapisan: Fatwa & Regulasi Fiqih Kontemporer*
 
-   > بَابُ عُقُودِ الإِذْعَانِ وَحِمَايَةِ المُسْتَهْلِكِ: <u>**【حَمْلُ الشَّرِكَاتِ عَلَى التَّقْلِيلِ مِنَ الشُّرُوطِ التَّعَسُّفِيَّةِ وَوَضْعُ شُرُوطٍ أَكْثَرَ مُلَاءَمَةً لِمَصَالِحِ عَامَّةِ المُتَعَاقِدِينَ، وَتَدَخُّلُ وَلِيِّ الأَمْرِ لِمَنْعِ الإِجْحَافِ حِمَايَةً لِلطَّرَفِ الأَضْعَفِ】**</u>.
+   > باب عقود الإذعان وحماية المستهلك: <u>**【حمل الشركات على التقليل من الشروط التعسفية ووضع شروط أكثر ملاءمة لمصالح عامة المتعاقدين، وتدخل ولي الأمر لمنع الإجحاف حماية للطرف الأضعف】**</u>.
 
    *Makna Murod / Terjemah:*  
    Bab Kontrak Baku (Adhesi) dan Perlindungan Konsumen: Mewajibkan korporasi-korporasi untuk meminimalisasi syarat-syarat sepihak yang eksploitatif (*asy-syuruth at-ta'assufiyyah*) dan merumuskan klausul yang lebih seimbang bagi kemaslahatan khalayak umum yang berakad, serta intervensi pemerintah untuk mencegah kezaliman sepihak demi melindungi pihak yang lemah (konsumen).
@@ -224,7 +224,7 @@ Mengenai hukum penghangusan sisa kuota secara otomatis dan mutlak, terdapat 2 (d
 3. **Kitab: Durar al-Hukkam fi Syarh Majallah al-Ahkam (درر الحكام في شرح مجلة الأحكام) - (Juz 1, Hal. 511)**  
    *Karya: Ali Haidar Khwajah Amin Afandi | Lapisan: Kodifikasi Hukum Fiqih Muamalah / Majallah Al-Ahkam*
 
-   > المَادَّةُ (٤٠٦) فِي الشُّرُوطِ الفَاسِدَةِ فِي الإِجَارَةِ: <u>**【الْإِجَارَةُ الْفَاسِدَةُ هِيَ الَّتِي عُرِضَ فِيهَا شَيْءٌ مِنْ الشُّرُوطِ الْمُفْسِدَةِ؛ فَكُلُّ شَرْطٍ لَا يَقْتَضِيهِ العَقْدُ وَفِيهِ إِضْرَارٌ بِأَحَدِ الطَّرَفَيْنِ يَكُونُ شَرْطًا بَاطِلًا يَلْزَمُ إِسْقَاطُهُ】**</u>.
+   > المادة (٤٠٦) في الشروط الفاسدة في الإجارة: <u>**【الإجارة الفاسدة هي التي عرض فيها شيء من الشروط المفسدة؛ فكل شرط لا يقتضيه العقد وفيه إضرار بأحد الطرفين يكون شرطا باطلا يلزم إسقاطه】**</u>.
 
    *Makna Murod / Terjemah:*  
    Pasal 406 Mengenai Syarat yang Merusak dalam Ijarah: Ijarah yang fasid adalah akad sewa yang disusupi klausul syarat yang merusak hakikat keadilan akad; maka setiap syarat yang tidak dituntut oleh tabiat asal akad dan di dalamnya menimbulkan kerugian sepihak bagi salah satu pihak yang berakad berstatus sebagai syarat batil yang wajib digugurkan.

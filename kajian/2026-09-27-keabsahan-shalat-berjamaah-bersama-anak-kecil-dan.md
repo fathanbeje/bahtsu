@@ -71,7 +71,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 1. **Kitab: Al-Majmu' Syarah Al-Muhadzdzab (المجموع شرح المهذب) (Juz 4, Hal. 361)**  
    *Karya: Imam Abi Zakariyya Muhyiddin Yahya bin Syaraf An-Nawawi (w. 676 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Mutaqaddimin / Syarah*
 
-   > قَالَ الْمُصَنِّفُ رَحِمَهُ اللَّهُ: (وَتَنْعَقِدُ الْجَمَاعَةُ بِاثْنَيْنِ فَصَاعِدًا لِمَا رَوَى أَبُو مُوسَى الْأَشْعَرِيُّ أَنَّ النَّبِيَّ ﷺ قَالَ: الِاثْنَانِ فَمَا فَوْقَهُمَا جَمَاعَةٌ). الشَّرْحُ: أَقَلُّ الْجَمَاعَةِ إمَامٌ وَمَأْمُومٌ، <u>**【وَسَوَاءٌ كَانَ الْمَأْمُومُ رَجُلًا كَبِيرًا أَوْ صَبِيًّا مُمَيِّزًا أَوْ امْرَأَةً أَوْ عَبْدًا، وَحَصَلَتْ فَضِيلَةُ الْجَمَاعَةِ بِذَلِكَ بِلَا خِلَافٍ عِنْدَنَا】**</u> فِي غَيْرِ صَلَاةِ الْجُمُعَةِ.
+   > قال المصنف رحمه الله: (وتنعقد الجماعة باثنين فصاعدا لما روى أبو موسى الأشعري أن النبي ﷺ قال: الاثنان فما فوقهما جماعة). الشرح: أقل الجماعة إمام ومأموم، <u>**【وسواء كان المأموم رجلا كبيرا أو صبيا مميزا أو امرأة أو عبدا، وحصلت فضيلة الجماعة بذلك بلا خلاف عندنا】**</u> في غير صلاة الجمعة.
 
    *Makna Murod / Terjemah:*  
    Mushannif (Asy-Syirazi) berkata: Jamaah terwujud dengan dua orang atau lebih berdasarkan sabda Nabi ﷺ: "Dua orang atau lebih adalah jamaah". Imam An-Nawawi menjelaskan: Minimal jamaah adalah seorang imam dan seorang makmum. Sama saja apakah makmumnya itu laki-laki dewasa, anak kecil yang sudah tamyiz (mumayyiz), wanita, ataupun budak; fadhilah jamaah berhasil didapatkan dengan hal tersebut tanpa ada ikhtilaf di antara ulama kami (Syafi'iyyah) pada selain shalat Jumat.
@@ -84,7 +84,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 2. **Kitab: Mughni Al-Muhtaj ila Ma'rifati Ma'ani Alfazh Al-Minhaj (مغني المحتاج) (Juz 1, Hal. 473)**  
    *Karya: Asy-Syaikh Muhammad Al-Khathib Asy-Syirbini (w. 977 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
 
-   > (وَأَقَلُّهَا) أَيْ الْجَمَاعَةِ فِي غَيْرِ الْجُمُعَةِ (إمَامٌ وَمَأْمُومٌ) لِحَدِيثِ: الِاثْنَانِ فَمَا فَوْقَهُمَا جَمَاعَةٌ... <u>**【وَتَحْصُلُ فَضِيلَةُ الْجَمَاعَةِ بِاثْنَيْنِ، وَإِنْ كَانَ أَحَدُهُمَا صَبِيًّا أَوْ رَقِيقًا أَوْ امْرَأَةً فِي غَيْرِ جُمُعَةٍ، لِأَنَّ صَلَاةَ الصَّبِيِّ صَحِيحَةٌ مَعْتَدٌّ بِهَا شَرْعًا】**</u>، فَانْعَقَدَتْ بِهِ الْجَمَاعَةُ كَالْبَالِغِ.
+   > (وأقلها) أي الجماعة في غير الجمعة (إمام ومأموم) لحديث: الاثنان فما فوقهما جماعة... <u>**【وتحصل فضيلة الجماعة باثنين، وإن كان أحدهما صبيا أو رقيقا أو امرأة في غير جمعة، لأن صلاة الصبي صحيحة معتد بها شرعا】**</u>، فانعقدت به الجماعة كالبالغ.
 
    *Makna Murod / Terjemah:*  
    Dan paling sedikitnya jamaah selain shalat Jumat adalah seorang imam dan seorang makmum. Dan fadhilah jamaah berhasil didapatkan dengan dua orang, meskipun salah satunya adalah anak kecil, budak, atau perempuan pada selain shalat Jumat, karena shalat anak kecil adalah sah dan diakui secara syariat, sehingga jamaah terwujud dengannya sebagaimana orang baligh.
@@ -97,7 +97,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 3. **Kitab: Fathul Wahhab bi Syarhi Manhajith Thullab (فتح الوهاب) (Juz 1, Hal. 68)**  
    *Karya: Syaikhul Islam Zakariyya Al-Anshari (w. 926 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Kitab Induk Muta'akhirin*
 
-   > (وَأَقَلُّهَا فِي غَيْرِهَا) أَيْ الْجُمُعَةِ (إمَامٌ وَمَأْمُومٌ) حُرَّانِ أَوْ عَبْدَانِ أَوْ هُمَا أَوْ خُنْثَيَانِ أَوْ امْرَأَتَانِ أَوْ هُمَا أَوْ <u>**【بَالِغٌ وَصَبِيٌّ مُمَيِّزٌ لِحُصُولِ الِارْتِبَاطِ وَالِاتِّبَاعِ】**</u>، نَعَمْ الْبَالِغُ أَوْلَى بِالْإِمَامَةِ مِنْ الصَّبِيِّ خُرُوجًا مِنْ خِلَافِ مَنْ مَنَعَهَا.
+   > (وأقلها في غيرها) أي الجمعة (إمام ومأموم) حران أو عبدان أو هما أو خنثيان أو امرأتان أو هما أو <u>**【بالغ وصبي مميز لحصول الارتباط والاتباع】**</u>، نعم البالغ أولى بالإمامة من الصبي خروجا من خلاف من منعها.
 
    *Makna Murod / Terjemah:*  
    Paling sedikitnya jamaah selain Jumat adalah seorang imam dan seorang makmum: baik keduanya orang merdeka, hamba sahaya, seorang pria dan banci, dua wanita, atau seorang baligh bersama anak mumayyiz, karena telah terwujud ikatan keimaman (*irtibath*) dan proses mengikuti gerakan (*ittiba'*). Benar bahwa orang baligh lebih utama menjadi imam daripada anak kecil demi keluar dari perbedaan pendapat ulama yang melarangnya.
@@ -110,7 +110,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 4. **Kitab: Hasyiyah I'anatuth Thalibin 'ala Halli Alfazh Fathil Mu'in (إعانة الطالبين) (Juz 2, Hal. 9)**  
    *Karya: Sayyid Abu Bakar Syatha Ad-Dimyathi (w. 1310 H) | Madzhab: Syafi'i | Lapisan: Hawasyi Muta'akhirin*
 
-   > قَوْلُهُ: (وَأَقَلُّهَا فِي غَيْرِهَا إمَامٌ وَمَأْمُومٌ) أَيْ وَلَوْ كَانَ أَحَدُهُمَا امْرَأَةً أَوْ صَبِيًّا. <u>**【وَحَاصِلُهُ أَنَّهُ يَحْصُلُ فَضْلُ الْجَمَاعَةِ لِلْمُصَلِّي مَعَ وَلَدِهِ الصَّغِيرِ الْمُمَيِّزِ فِي بَيْتِهِ حَيْثُ حَصَلَتْ نِيَّةُ الْإِمَامَةِ، فَيَنَالُ بِذَلِكَ سَبْعًا وَعِشْرِينَ دَرَجَةً】**</u> لِعُمُومِ الْأَحَادِيثِ الْوَارِدَةِ فِي فَضْلِ الْجَمَاعَةِ.
+   > قوله: (وأقلها في غيرها إمام ومأموم) أي ولو كان أحدهما امرأة أو صبيا. <u>**【وحاصله أنه يحصل فضل الجماعة للمصلي مع ولده الصغير المميز في بيته حيث حصلت نية الإمامة، فينال بذلك سبعا وعشرين درجة】**</u> لعموم الأحاديث الواردة في فضل الجماعة.
 
    *Makna Murod / Terjemah:*  
    Ungkapan mushannif: "Minimal jamaah selain Jumat adalah imam dan makmum", yakni meskipun salah satunya wanita atau anak kecil. Kesimpulannya adalah bahwa pahala fadhilah jamaah berhasil didapatkan bagi orang yang shalat bersama anaknya yang masih kecil yang telah mumayyiz di rumahnya sekiranya ia berniat menjadi imam, sehingga ia memperoleh 27 derajat berkat keumuman hadits-hadits tentang keutamaan shalat berjamaah.
@@ -127,7 +127,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 5. **Kitab: Al-Asybah wan Nazha'ir (الأشباه والنظائر في قواعد وفروع فقه الشافعية) (Juz 1, Hal. 138)**  
    *Karya: Imam Jalaluddin As-Suyuthi (w. 911 H) | Madzhab: Syafi'i / Qawa'id Fiqhiyyah*
 
-   > الْقَاعِدَةُ: (الْخُرُوجُ مِنْ الْخِلَافِ مُسْتَحَبٌّ). <u>**【فَلِذَلِكَ كَانَتْ إمَامَةُ الْبَالِغِ لِلصَّبِيِّ أَوْلَى وَأَحْوَطَ مِنْ إمَامَةِ الصَّبِيِّ لِلْبَالِغِ، لِأَنَّ إمَامَةَ الْبَالِغِ صَحِيحَةٌ عِنْدَ جَمِيعِ الْعُلَمَاءِ بِاتِّفَاقٍ】**</u>، بِخِلَافِ عَكْسِهِ حَيْثُ مَنَعَهُ أَبُو حَنِيفَةَ وَمَالِكٌ وَأَحْمَدُ فِي الْفَرْضِ.
+   > القاعدة: (الخروج من الخلاف مستحب). <u>**【فلذلك كانت إمامة البالغ للصبي أولى وأحوط من إمامة الصبي للبالغ، لأن إمامة البالغ صحيحة عند جميع العلماء باتفاق】**</u>، بخلاف عكسه حيث منعه أبو حنيفة ومالك وأحمد في الفرض.
 
    *Makna Murod / Terjemah:*  
    Kaidah Fiqhiyyah: "Keluar dari perbedaan pendapat ulama adalah hal yang disunnahkan". Oleh sebab itulah, keimaman orang baligh terhadap anak kecil lebih utama dan lebih berhati-hati (*ahwath*) daripada keimaman anak kecil terhadap orang baligh, karena keimaman orang baligh adalah sah menurut seluruh ulama dengan kesepakatan (ittifaq), berbeda dengan sebaliknya di mana Abu Hanifah, Malik, dan Ahmad melarangnya dalam shalat fardhu.
@@ -140,7 +140,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 6. **Kitab: Qawa'idul Ahkam fi Mashalihil Anam (قواعد الأحكام في مصالح الأنام) (Juz 2, Hal. 12)**  
    *Karya: Sulthanul Ulama Al-Izz bin Abdis Salam (w. 660 H) | Madzhab: Syafi'i / Maqashid & Qawa'id*
 
-   > قَاعِدَةٌ: (مَنْ كُلِّفَ بِعِبَادَةٍ فَقَدَرَ عَلَى بَعْضِهَا وَعَجَزَ عَنْ بَعْضِهَا، فَإِنَّهُ يَأْتِي بِمَا قَدَرَ عَلَيْهِ وَيَسْقُطُ عَنْهُ مَا عَجَزَ عَنْهُ). وَيَتَفَرَّعُ عَنْهَا: <u>**【مَا لَا يُدْرَكُ كُلُّهُ لَا يُتْرَكُ جُلُّهُ؛ فَإِذَا تَعَذَّرَتْ الْجَمَاعَةُ مَعَ الْبَالِغِينَ فِي الْمَسْجِدِ، فَلَا يَنْبَغِي تَرْكُ فَضِيلَةِ الْجَمَاعَةِ بِالْكُلِّيَّةِ، بَلْ يُقِيمُهَا مَعَ مَنْ حَضَرَ مِنْ أَهْلِ بَيْتِهِ وَلَوْ مَعَ الصَّبِيِّ الْمُمَيِّزِ】**</u>.
+   > قاعدة: (من كلف بعبادة فقدر على بعضها وعجز عن بعضها، فإنه يأتي بما قدر عليه ويسقط عنه ما عجز عنه). ويتفرع عنها: <u>**【ما لا يدرك كله لا يترك جله؛ فإذا تعذرت الجماعة مع البالغين في المسجد، فلا ينبغي ترك فضيلة الجماعة بالكلية، بل يقيمها مع من حضر من أهل بيته ولو مع الصبي المميز】**</u>.
 
    *Makna Murod / Terjemah:*  
    Kaidah: "Barangsiapa dibebani suatu ibadah lalu ia mampu melaksanakan sebagiannya dan tidak mampu melaksanakan sebagian yang lain, maka ia wajib mendatangkan apa yang ia mampui dan gugur darinya apa yang tidak ia mampui". Dari kaidah ini bercabang kaidah: "Apa yang tidak bisa diraih semuanya, tidak boleh ditinggalkan sebagian besarnya". Maka apabila terhalang shalat berjamaah bersama orang-orang baligh di masjid, tidak sepatutnya ia meninggalkan fadhilah jamaah secara menyeluruh, melainkan ia tetap mendirikannya bersama siapa yang hadir dari keluarganya sekalipun bersama anak kecil yang mumayyiz.
@@ -157,7 +157,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 7. **Kitab: Bada'i' ash-Shana'i' fi Tartibisy Syara'i' (بدائع الصنائع في ترتيب الشرائع) (Juz 1, Hal. 156)**  
    *Karya: Al-Imam 'Alauddin Al-Kasani (w. 587 H) | Madzhab: Hanafi (Mu'tamad) | Lapisan: Kitab Induk Fiqih Hanafi*
 
-   > فَأَمَّا أَقَلُّ مَنْ تَنْعَقِدُ بِهِ الْجَمَاعَةُ: فَاثْنَانِ فِي غَيْرِ الْجُمُعَةِ، أَحَدُهُمَا الْإِمَامُ وَالْآخَرُ الْمَأْمُومُ. <u>**【وَسَوَاءٌ كَانَ الْمَأْمُومُ رَجُلًا أَوْ امْرَأَةً أَوْ صَبِيًّا يَعْقِلُ الصَّلَاةَ؛ لِأَنَّ الِاثْنَيْنِ جَمْعٌ... أَمَّا إمَامَةُ الصَّبِيِّ لِلْبَالِغِ فِي الْفَرَائِضِ فَلَا تَجُوزُ عِنْدَنَا؛ لِأَنَّ صَلَاةَ الصَّبِيِّ نَفْلٌ وَصَلَاةَ الْبَالِغِ فَرْضٌ، وَبِنَاءُ الْقَوِيِّ عَلَى الضَّعِيفِ لَا يَجُوزُ】**</u>.
+   > فأما أقل من تنعقد به الجماعة: فاثنان في غير الجمعة، أحدهما الإمام والآخر المأموم. <u>**【وسواء كان المأموم رجلا أو امرأة أو صبيا يعقل الصلاة؛ لأن الاثنين جمع... أما إمامة الصبي للبالغ في الفرائض فلا تجوز عندنا؛ لأن صلاة الصبي نفل وصلاة البالغ فرض، وبناء القوي على الضعيف لا يجوز】**</u>.
 
    *Makna Murod / Terjemah:*  
    Adapun minimal orang yang dengannya jamaah dapat terwujud: adalah dua orang selain Jumat, salah satunya imam dan yang lain makmum. Sama saja apakah makmumnya itu laki-laki, perempuan, atau anak kecil yang mengerti shalat (mumayyiz); karena dua orang sudah dinamakan jam'un (kelompok)... Adapun anak kecil menjadi imam bagi orang baligh dalam shalat-shalat fardhu, maka hukumnya tidak boleh menurut madzhab kami; karena shalat anak kecil itu nafl (sunnah) sedangkan shalat orang baligh itu fardhu, dan membangun yang kuat di atas yang lemah tidak diperbolehkan.
@@ -170,7 +170,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 8. **Kitab: Al-Mughni fi Fiqhil Imam Ahmad (المغني لابن قدامة) (Juz 2, Hal. 13)**  
    *Karya: Al-Imam Muwaffaquddin Ibnu Qudamah Al-Maqdisi (w. 620 H) | Madzhab: Hanbali (Mu'tamad) | Lapisan: Kitab Induk Fiqih Hanbali*
 
-   > (فَصْلٌ: وَتَنْعَقِدُ الْجَمَاعَةُ بِاثْنَيْنِ فَصَاعِدًا، لَا نَعْلَمُ فِيهِ خِلَافًا). وَقَدْ رَوَى أَبُو مُوسَى أَنَّ النَّبِيَّ ﷺ قَالَ: الِاثْنَانِ فَمَا فَوْقَهُمَا جَمَاعَةٌ. <u>**【وَإِذَا صَلَّى الرَّجُلُ بِعَبْدِهِ أَوْ صَبِيٍّ، حَصَلَتْ لَهُ فَضِيلَةُ الْجَمَاعَةِ، وَتَنْعَقِدُ بِهِ الْجَمَاعَةُ؛ لِأَنَّهُ مَنْ تَصِحُّ صَلَاتُهُ صَحَّ أَنْ يَكُونَ مَأْمُومًا كَالرَّجُلِ الْبَالِغِ】**</u>.
+   > (فصل: وتنعقد الجماعة باثنين فصاعدا، لا نعلم فيه خلافا). وقد روى أبو موسى أن النبي ﷺ قال: الاثنان فما فوقهما جماعة. <u>**【وإذا صلى الرجل بعبده أو صبي، حصلت له فضيلة الجماعة، وتنعقد به الجماعة؛ لأنه من تصح صلاته صح أن يكون مأموما كالرجل البالغ】**</u>.
 
    *Makna Murod / Terjemah:*  
    (Fasal: Shalat berjamaah terwujud dengan dua orang atau lebih, kami tidak mengetahui adanya perselisihan ulama dalam hal ini). Abu Musa meriwayatkan bahwa Nabi ﷺ bersabda: "Dua orang atau lebih adalah jamaah". Dan apabila seorang laki-laki shalat mengimami budaknya atau seorang anak kecil, ia memperoleh keutamaan fadhilah jamaah, dan jamaah sah terwujud dengannya; karena siapa saja yang shalatnya sah, maka sah pula ia menjadi makmum sebagaimana laki-laki baligh.
@@ -183,7 +183,7 @@ Setelah menelaah ibarat dari kitab-kitab induk mu'tabarah, merujuk kaidah ushuli
 9. **Kitab: Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (الموسوعة الفقهية الكويتية) (Juz 15, Hal. 288-289)**  
    *Karya: Tim Ahli Fiqih Kementerian Wakaf Kuwait | Madzhab: Muqaranah 4 Madzhab | Lapisan: Ensiklopedia Fiqih Kontemporer*
 
-   > اتَّفَقَ الْفُقَهَاءُ عَلَى أَنَّ أَقَلَّ عَدَدٍ تَنْعَقِدُ بِهِ الْجَمَاعَةُ فِي غَيْرِ الْجُمُعَةِ اثْنَانِ: إمَامٌ وَمَأْمُومٌ. <u>**【وَذَهَبَ جُمْهُورُ الْفُقَهَاءِ (الْحَنَفِيَّةُ وَالشَّافِعِيَّةُ وَالْحَنَابِلَةُ) إلَى أَنَّ الْجَمَاعَةَ تَنْعَقِدُ بِالصَّبِيِّ الْمُمَيِّزِ إِذَا كَانَ مَأْمُومًا، وَيَنَالُ بِهِ الْإِمَامُ فَضِيلَةَ الْجَمَاعَةِ】**</u>. أَمَّا الْمَالِكِيَّةُ فَيَرَوْنَ أَنَّ الصَّبِيَّ لَا تَنْعَقِدُ بِهِ جَمَاعَةُ الْفَرْضِ الَّتِي يَتَرَتَّبُ عَلَيْهَا الْفَضْلُ الْكَامِلُ عِنْدَ بَعْضِهِمْ، مَعَ صِحَّةِ الصَّلَاةِ، وَالْمُعْتَمَدُ حُصُولُ الْجَمَاعَةِ فِي النَّفْلِ اتِّفَاقًا وَفِي الْفَرْضِ عَلَى الرَّاجِحِ.
+   > اتفق الفقهاء على أن أقل عدد تنعقد به الجماعة في غير الجمعة اثنان: إمام ومأموم. <u>**【وذهب جمهور الفقهاء (الحنفية والشافعية والحنابلة) إلى أن الجماعة تنعقد بالصبي المميز إذا كان مأموما، وينال به الإمام فضيلة الجماعة】**</u>. أما المالكية فيرون أن الصبي لا تنعقد به جماعة الفرض التي يترتب عليها الفضل الكامل عند بعضهم، مع صحة الصلاة، والمعتمد حصول الجماعة في النفل اتفاقا وفي الفرض على الراجح.
 
    *Makna Murod / Terjemah:*  
    Para ahli fiqih sepakat bahwa jumlah minimal terwujudnya jamaah pada selain Jumat adalah dua orang: imam dan makmum. Dan jumhur fuqaha (Hanafiyyah, Syafi'iyyah, dan Hanabilah) berpendapat bahwa jamaah sah terwujud dengan makmum anak kecil yang mumayyiz, dan sang imam memperoleh fadhilah jamaah dengannya. Adapun Malikiyyah berpendapat bahwa shalat anak kecil tidak membentuk jamaah fardhu yang menghasilkan fadhilah sempurna menurut sebagian ulama mereka kendati shalatnya tetap sah, dan yang mu'tamad jamaah tetap terwujud dalam shalat nafl secara ittifaq dan dalam shalat fardhu menurut pendapat yang rajih.

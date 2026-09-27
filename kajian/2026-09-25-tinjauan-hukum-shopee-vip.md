@@ -98,7 +98,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 1. **Kitab Al-Mu'amalat Al-Maliyyah Ashalah wa Mu'ashirah (Juz 4, Halaman 370–378)**  
    *Karya: Dr. Dubyan bin Muhammad Ad-Dubyan | Lapisan: Ensiklopedia Fiqih Muamalah Kontemporer*  
 
-   > الصُّورَةُ الخَامِسَةُ: بِطَاقَاتُ التَّخْفِيضِ: <u>**【وَقَدْ صَدَرَ قَرَارُ مَجْمَعِ الفِقْهِ الإِسْلَامِيِّ بِتَحْرِيمِ بِطَاقَاتِ التَّخْفِيضِ إِذَا كَانَتْ بِمُقَابِلٍ مَالِيٍّ؛ لِأَنَّ شِرَاءَهَا بِمُقَابِلٍ يَدْخُلُ فِي الغَرَرِ وَالمُقَامَرَةِ، حَيْثُ يَدْفَعُ المُشْتَرِي مَالًا وَلَا يَدْرِي هَلْ يَسْتَفِيدُ مِنَ التَّخْفِيضِ قَدْرَ مَا دَفَعَ أَوْ أَكْثَرَ أَوْ أَقَلَّ، وَكُلُّ عَقْدٍ تَرَدَّدَ بَيْنَ الغُنْمِ وَالغُرْمِ فَهُوَ قِمَارٌ مَنْهِيٌّ عَنْهُ شَرْعًا】**</u>، إِلَّا إِذَا كَانَتِ البِطَاقَةُ مَجَّانِيَّةً، أَوْ كَانَ المُقَابِلُ أُجْرَةً فِعْلِيَّةً لِخَدَمَاتٍ حَقِيقِيَّةٍ مَعْلُومَةٍ لَا لِمُجَرَّدِ التَّخْفِيضِ.  
+   > الصورة الخامسة: بطاقات التخفيض: <u>**【وقد صدر قرار مجمع الفقه الإسلامي بتحريم بطاقات التخفيض إذا كانت بمقابل مالي؛ لأن شراءها بمقابل يدخل في الغرر والمقامرة، حيث يدفع المشتري مالا ولا يدري هل يستفيد من التخفيض قدر ما دفع أو أكثر أو أقل، وكل عقد تردد بين الغنم والغرم فهو قمار منهي عنه شرعا】**</u>، إلا إذا كانت البطاقة مجانية، أو كان المقابل أجرة فعلية لخدمات حقيقية معلومة لا لمجرد التخفيض.  
 
    *Makna Murod / Terjemah:* Bentuk Kelima: Kartu Diskon: Sungguh telah terbit keputusan Majma' Fiqih Islam Internasional mengenai pengharaman kartu diskon berbayar apabila diterbitkan dengan kompensasi biaya uang; karena pembelian hak diskon tersebut masuk ke dalam kategori gharar dan perjudian (spekulasi). Hal itu di mana pembeli menyetorkan uang tunai tanpa mengetahui secara pasti apakah ia akan menikmati diskon sebanding dengan apa yang ia bayarkan, ataukah lebih banyak, ataukah lebih sedikit. Setiap akad yang berputar antara potensi untung (*ghunm*) dan rugi uang amblas (*ghurm*) adalah esensi perjudian yang dilarang syariat; kecuali apabila kartu tersebut diberikan secara cuma-cuma (gratis), atau biaya yang dipungut murni merupakan upah riil atas jasa layanan nyata yang diketahui, bukan untuk membeli diskon itu sendiri.  
 
@@ -109,7 +109,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 2. **Kitab Al-Majmu' Syarah Al-Muhadzdzab (Juz 9, Halaman 258–260)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Mutaqaddimin Madzhab Syafi'i*  
 
-   > بَابُ البُيُوعِ المَنْهِيِّ عَنْهَا: <u>**【نَهَى رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ عَنْ بَيْعِ الغَرَرِ، وَالغَرَرُ هُوَ مَا انْطَوَتْ عَنَّا عَاقِبَتُهُ، أَوْ مَا تَرَدَّدَ بَيْنَ أَمْرَيْنِ أَغْلَبُهُمَا أَخْوَفُهُمَا، وَأَجْمَعَ العُلَمَاءُ عَلَى أَنَّ الغَرَرَ الكَثِيرَ مَفْسِدٌ لِلْعُقُودِ إِذَا كَانَ فِي المَعْقُودِ عَلَيْهِ أَصَالَةً، أَمَّا الغَرَرُ اليَسِيرُ أَوْ مَا دَعَتْ إِلَيْهِ الحَاجَةُ وَكَانَ تَابِعًا فَإِنَّهُ يُعْفَى عَنْهُ】**</u>.  
+   > باب البيوع المنهي عنها: <u>**【نهى رسول الله صلى الله عليه وسلم عن بيع الغرر، والغرر هو ما انطوت عنا عاقبته، أو ما تردد بين أمرين أغلبهما أخوفهما، وأجمع العلماء على أن الغرر الكثير مفسد للعقود إذا كان في المعقود عليه أصالة، أما الغرر اليسير أو ما دعت إليه الحاجة وكان تابعا فإنه يعفى عنه】**</u>.  
 
    *Makna Murod / Terjemah:* Bab Jual Beli yang Dilarang: Rasulullah shallallahu 'alaihi wasallam melarang jual-beli gharar. Gharar adalah transaksi yang tersembunyi kesudahan akibatnya bagi kita, atau perkara yang berputar di antara dua kemungkinan yang paling dominan adalah hal yang paling mengkhawatirkan (merugikan). Ulama telah berijmak bahwa gharar dalam kadar besar (*al-gharar al-katsīr*) membatalkan akad manakala menimpa obyek akad utama secara mandiri. Adapun gharar kecil (*al-gharar al-yasīr*) atau perkara yang didorong oleh kebutuhan hajat umum serta berstatus sebagai ikutan (*tābi'*), maka dimaafkan dalam syariat.  
 
@@ -120,7 +120,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 3. **Kitab Rawdhatuth Thalibin wa 'Umdatul Muftin (Juz 5, Halaman 247)**  
    *Karya: Al-Imam Abu Zakariya Muhyiddin Yahya bin Syaraf An-Nawawi (Wafat 676 H) | Lapisan: Kitab Induk Syaikhoni*  
 
-   > (فَصْلٌ): إِذَا اكْتَرَى دَابَّةً أَوْ دَارًا مُدَّةً، وَقَبَضَهَا وَأَمْسَكَهَا حَتَّى مَضَتِ الْمُدَّةُ، <u>**【انْتَهَتِ الْإِجَارَةُ وَاسْتَقَرَّتِ الْأُجْرَةُ سَوَاءٌ انْتَفَعَ بِهَا فِي الْمُدَّةِ، أَمْ لَا، وَلَيْسَ لَهُ الِانْتِفَاعُ بَعْدَ الْمُدَّةِ】**</u>، فَإِنْ فَعَلَ، لَزِمَهُ أُجْرَةُ الْمِثْلِ مَعَ الْمُسَمَّى.  
+   > (فصل): إذا اكترى دابة أو دارا مدة، وقبضها وأمسكها حتى مضت المدة، <u>**【انتهت الإجارة واستقرت الأجرة سواء انتفع بها في المدة، أم لا، وليس له الانتفاع بعد المدة】**</u>، فإن فعل، لزمه أجرة المثل مع المسمى.  
 
    *Makna Murod / Terjemah:* Pasal: Apabila seseorang menyewa hewan tunggangan atau rumah untuk jangka waktu tertentu, lalu ia telah menerima dan memegang obyek sewa tersebut hingga habis jangka waktu sewa, maka berakhirlah akad ijarah dan ongkos sewa (*ujrah*) tetap wajib dibayar secara pasti, baik ia memanfaatkan obyek tersebut selama masa sewa maupun tidak. Dan ia tidak berhak lagi memanfaatkannya setelah habisnya masa waktu tersebut.  
 
@@ -131,7 +131,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 4. **Kitab Hasyiyah I'anatuth Thalibin 'ala Halli Alfazhi Fathil Mu'in (Juz 3, Halaman 123–125)**  
    *Karya: As-Sayyid Abu Bakar Syatha Ad-Dimyathi (Wafat 1310 H) | Lapisan: Kitab Hawasyi Syafi'iyyah*  
 
-   > قَوْلُهُ: (وَأَنْ تَكُونَ المَنْفَعَةُ مَقْدُورًا عَلَى تَسْلِيمِهَا) <u>**【فَلَوْ آجَرَهُ مَنْفَعَةً لَا يَقْدِرُ عَلَى تَسْلِيمِهَا شَرْعًا أَوْ حِسًّا، أَوْ مَنْفَعَةً مُعَلَّقَةً عَلَى مَحْضِ الصُّدْفَةِ وَالاحْتِمَالِ، بَطَلَتِ الإِجَارَةُ لِتَعَذُّرِ قَبْضِ المَعْقُودِ عَلَيْهِ، فَإِنْ تَمَّ العَقْدُ عَلَى ذَلِكَ كَانَتْ إِجَارَةً فَاسِدَةً يَجِبُ فِيهَا رَدُّ المَالِ لِصَاحِبِهِ أَوْ أُجْرَةُ المِثْلِ لِمَا اسْتَوْفَى】**</u>.  
+   > قوله: (وأن تكون المنفعة مقدورا على تسليمها) <u>**【فلو آجره منفعة لا يقدر على تسليمها شرعا أو حسا، أو منفعة معلقة على محض الصدفة والاحتمال، بطلت الإجارة لتعذر قبض المعقود عليه، فإن تم العقد على ذلك كانت إجارة فاسدة يجب فيها رد المال لصاحبه أو أجرة المثل لما استوفى】**</u>.  
 
    *Makna Murod / Terjemah:* Ungkapan: 'Dan disyaratkan manfaat mampu diserahterimakan': Sekiranya seseorang menyewakan manfaat yang tidak mampu ia serahterimakan secara syariat maupun secara fisik, atau manfaat yang digantungkan semata-mata pada faktor kebetulan dan probabilitas yang tak menentu, maka batallah akad ijarah tersebut karena mustahilnya serah-terima obyek akad. Sekiranya akad terlanjur berlangsung atas dasar demikian, maka akadnya berstatus ijarah fasidah yang mewajibkan pengembalian uang kepada pemiliknya, atau pembayaran upah wajar (*ujratul mitsl*) atas manfaat yang sempat dinikmati.  
 
@@ -142,7 +142,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 5. **Kaidah Fiqhiyyah: Al-Ghurmu bil Ghunmi & Al-Ibratu fil 'Uqud lil Maqashid**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 136 & 280)*  
 
-   > القَاعِدَةُ: <u>**【العِبْرَةُ فِي العُقُودِ لِلْمَقَاصِدِ وَالمَعَانِي لَا لِلْأَلْفَاظِ وَالمَبَانِي، وَكُلُّ عَقْدٍ دَارَ بَيْنَ غُنْمٍ مُؤَكَّدٍ وَغُرْمٍ مُحَقَّقٍ بِلَا عِوَضٍ رَائِجٍ فَهُوَ مَيْسِرٌ】**</u>.  
+   > القاعدة: <u>**【العبرة في العقود للمقاصد والمعاني لا للألفاظ والمباني، وكل عقد دار بين غنم مؤكد وغرم محقق بلا عوض رائج فهو ميسر】**</u>.  
 
    *Makna Murod / Terjemah:* Kaidah: Hakikat yang diperhitungkan dalam akad perikatan adalah substansi maksud dan maknanya, bukan semata lafazh dan bungkus bentuk lahiriahnya. Dan setiap akad yang berputar antara potensi meraup keuntungan atau menderita kerugian tanpa adanya kompensasi riil yang berlaku umum, maka akad tersebut adalah bentuk maisir (perjudian).  
 
@@ -157,7 +157,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 1. **Kitab Al-Umm (Juz 3, Halaman 12–15)**  
    *Karya: Al-Imam Muhammad bin Idris Asy-Syafi'i (Wafat 204 H) | Lapisan: Kitab Induk Mutaqaddimin / Nash Imam Asy-Syafi'i*  
 
-   > بَابُ مَنْ لَا يَجُوزُ بَيْعُهُ: <u>**【قَالَ اللهُ عَزَّ وَجَلَّ: ﴿إِلَّا أَنْ تَكُونَ تِجَارَةً عَنْ تَرَاضٍ مِنْكُمْ﴾، فَلَا يَحِلُّ مَالُ امْرِئٍ مُسْلِمٍ إِلَّا بِطِيبِ نَفْسٍ مِنْهُ، فَإِذَا أُخِذَ مِنْ مَالِ البَائِعِ أَوْ المُشْتَرِي شَيْءٌ عَلَى وَجْهِ الإِكْرَاهِ أَوِ الإِلْجَاءِ الَّذِي لَا يَسْتَطِيعُ الامْتِنَاعَ مِنْهُ لِتَسْلِيطِ غَيْرِهِ عَلَيْهِ، فَهُوَ أَخْذُ مَالٍ بِالبَاطِلِ لَا يَصِحُّ تَمَلُّكُهُ】**</u>.  
+   > باب من لا يجوز بيعه: <u>**【قال الله عز وجل: ﴿إلا أن تكون تجارة عن تراض منكم﴾، فلا يحل مال امرئ مسلم إلا بطيب نفس منه، فإذا أخذ من مال البائع أو المشتري شيء على وجه الإكراه أو الإلجاء الذي لا يستطيع الامتناع منه لتسليط غيره عليه، فهو أخذ مال بالباطل لا يصح تملكه】**</u>.  
 
    *Makna Murod / Terjemah:* Bab Pihak yang Tidak Sah Jual-Belinya: Allah Azza wa Jalla berfirman: 'Kecuali dengan perniagaan yang berlaku atas dasar suka sama suka di antara kalian' (QS. An-Nisa: 29). Maka tidak halal harta seorang muslim melainkan dengan kerelaan tulus dari jiwanya. Manakala dipungut dari harta penjual atau pembeli suatu potongan dengan cara pemaksaan (*ikrāh*) atau keterdesakan (*iljā'*) di mana ia tidak memiliki daya untuk menolaknya karena dominasi kekuasaan pihak lain atasnya, maka itu adalah pemungutan harta secara batil yang tidak sah kepemilikannya.  
 
@@ -168,7 +168,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 2. **Kitab Bughyatul Mustarsyidin (Halaman 165–167)**  
    *Karya: Al-Allamah As-Sayyid Abdurrahman bin Muhammad Ba'alawi (Wafat 1320 H) | Lapisan: Kitab Fatawa Muktamadah Nusantara*  
 
-   > مَسْأَلَةٌ فِي الدَّلَالَةِ وَأُجْرَةِ التَّرْوِيجِ: <u>**【إِذَا رَضِيَ التَّاجِرُ بِأَنْ يَأْخُذَ الدَّلَّالُ أَوْ صَاحِبُ السُّوقِ قَدْرًا مَعْلُومًا مِنْ ثَمَنِ السِّلْعَةِ فِي مُقَابَلَةِ تَرْوِيجِهَا وَإِظْهَارِهَا لِلرَّاغِبِينَ، أَوْ فِي مُقَابَلَةِ حَطِّ بَعْضِ مَؤُونَةِ النَّقْلِ، صَحَّ ذَلِكَ وَكَانَ جِعَالَةً أَوْ إِجَارَةً جَائِزَةً لَا حَرَجَ فِيهَا؛ لِأَنَّ الحَقَّ لَا يَعْدُوهُمَا مَعَ التَّرَاضِي】**</u>.  
+   > مسألة في الدلالة وأجرة الترويج: <u>**【إذا رضي التاجر بأن يأخذ الدلال أو صاحب السوق قدرا معلوما من ثمن السلعة في مقابلة ترويجها وإظهارها للراغبين، أو في مقابلة حط بعض مؤونة النقل، صح ذلك وكان جعالة أو إجارة جائزة لا حرج فيها؛ لأن الحق لا يعدوهما مع التراضي】**</u>.  
 
    *Makna Murod / Terjemah:* Masalah Mengenai Makelar dan Biaya Promosi: Manakala seorang pedagang secara sukarela rela bahwa pihak makelar atau pengelola pasar mengambil potongan tertentu yang diketahui dari harga barang komoditas sebagai imbalan atas promosi barang dan menampilkannya kepada para peminat, atau sebagai imbalan atas subsidi pemotongan biaya ongkos kirim, maka hal itu sah berstatus ju'alah atau ijarah yang diperbolehkan tanpa dosa; karena hak tersebut tidak keluar dari kesepakatan kedua belah pihak atas dasar saling rela.  
 
@@ -179,7 +179,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 3. **Kitab Nihayatul Muhtaj ila Syarhil Minhaj (Juz 3, Halaman 455–458)**  
    *Karya: Al-Imam Syamsuddin Muhammad bin Ahmad Ar-Ramli (Wafat 1004 H) | Lapisan: Kitab Induk Muta'akhirin*  
 
-   > بَابُ الخِيَارِ وَالرَّدِّ بِالعَيْبِ: <u>**【الرَّدُّ بِالعَيْبِ أَوْ بِفَوَاتِ الوَصْفِ المَشْرُوطِ حَقٌّ ثَابِتٌ لِلْمُشْتَرِي شَرْعًا لِدَفْعِ الضَّرَرِ عَنْهُ، أَمَّا الرَّدُّ بِمُجَرَّدِ التَّشَهِّي دُونَ عَيْبٍ فِي المَبِيعِ فَلَا يَلْزَمُ البَائِعَ قَبُولُهُ إِلَّا بِطَرِيقِ الإِقَالَةِ، فَإِنْ أَلْزَمَهُ صَاحِبُ السُّوقِ بِقَبُولِهِ وَحَمَّلَهُ غُرْمَ النَّقْلِ ظُلْمًا كَانَ ضَامِنًا لِمَا أَتْلَفَهُ عَلَى البَائِعِ】**</u>.  
+   > باب الخيار والرد بالعيب: <u>**【الرد بالعيب أو بفوات الوصف المشروط حق ثابت للمشتري شرعا لدفع الضرر عنه، أما الرد بمجرد التشهي دون عيب في المبيع فلا يلزم البائع قبوله إلا بطريق الإقالة، فإن ألزمه صاحب السوق بقبوله وحمله غرم النقل ظلما كان ضامنا لما أتلفه على البائع】**</u>.  
 
    *Makna Murod / Terjemah:* Bab Hak Khiyar dan Pengembalian karena Cacat: Pengembalian barang akibat cacat (*'aib*) atau karena tidak terpenuhinya kriteria spesifikasi yang disepakati adalah hak yang sah bagi pembeli secara syariat demi menolak kemudaratan darinya. Adapun pengembalian barang semata-mata karena berubah selera (*tasyahhī*) tanpa adanya cacat pada barang, maka penjual tidak berkewajiban menerimanya kecuali melalui jalan pembatalan sukarela (*iqālah*). Maka sekiranya pengelola pasar memaksa penjual menerimanya dan membebankan ongkos kirim retur kepadanya secara zalim, maka pengelola pasar tersebut menanggung ganti rugi atas apa yang ia rugikan pada pedagang.  
 
@@ -190,7 +190,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 4. **Kaidah Fiqhiyyah: Adh-Dhararu Yuzalu & La Dharara wa La Dhirar**  
    *Rujukan: Al-Asybah wan Nazha'ir lis-Suyuthi (Halaman 83)*  
 
-   > القَاعِدَةُ: <u>**【الضَّرَرُ يُزَالُ، فَلَا يَجُوزُ لِمَنْ مَلَكَ مَنَصَّةَ التَّعَامُلِ أَنْ يُلْحِقَ الضَّرَرَ بِأَرْبَابِ السِّلَعِ عَبْرَ حَجْبِ مَبِيعَاتِهِمْ أَوْ إِجْبَارِهِمْ عَلَى نَفَقَاتٍ لَا تَلْزَمُهُمْ شَرْعًا】**</u>.  
+   > القاعدة: <u>**【الضرر يزال، فلا يجوز لمن ملك منصة التعامل أن يلحق الضرر بأرباب السلع عبر حجب مبيعاتهم أو إجبارهم على نفقات لا تلزمهم شرعا】**</u>.  
 
    *Makna Murod / Terjemah:* Kaidah: Kemudaratan wajib dihilangkan. Maka tidak boleh bagi pihak yang menguasai platform transaksi pasar untuk menimbulkan kemudaratan pada para pemilik barang dagangan melalui penenggelaman barang jualan mereka atau memaksa mereka menanggung biaya-biaya yang tidak wajib atas mereka secara syariat.  
 
@@ -205,7 +205,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 1. **Kitab Al-Mausu'ah al-Fiqhiyyah al-Kuwaitiyyah (Juz 19, Halaman 240–245)**  
    *Karya: Kementerian Wakaf & Urusan Keislaman Kuwait | Lapisan: Muqaranah Madzahib al-Arba'ah*  
 
-   > الحَطِيطَةُ وَالتَّخْفِيضُ مِنَ الثَّمَنِ: <u>**【وَحَطُّ بَعْضِ الثَّمَنِ جَائِزٌ شَرْعًا بِاتِّفَاقِ الفُقَهَاءِ، سَوَاءٌ كَانَ ذَلِكَ مِنَ البَائِعِ نَفْسِهِ أَوْ كَانَ بِتَبَرُّعِ ثَالِثٍ يَتَحَمَّلُ عَنِ المُشْتَرِي جُزْءًا مِنَ الثَّمَنِ، وَلَا يُعَدُّ قَسِيمَةُ التَّخْفِيضِ (الكُوبُون) بَيْعَ نَقْدٍ بِنَقْدٍ؛ لِأَنَّهَا لَيْسَتْ عُمْلَةً رَائِجَةً، وَإِنَّمَا هِيَ صَكُّ التِزَامٍ بِإِسْقَاطِ جُزْءٍ مِنَ الثَّمَنِ عِنْدَ الشِّرَاءِ】**</u>.  
+   > الحطيطة والتخفيض من الثمن: <u>**【وحط بعض الثمن جائز شرعا باتفاق الفقهاء، سواء كان ذلك من البائع نفسه أو كان بتبرع ثالث يتحمل عن المشتري جزءا من الثمن، ولا يعد قسيمة التخفيض (الكوبون) بيع نقد بنقد؛ لأنها ليست عملة رائجة، وإنما هي صك التزام بإسقاط جزء من الثمن عند الشراء】**</u>.  
 
    *Makna Murod / Terjemah:* Pemotongan dan Pengurangan Harga: Pemotongan sebagian harga (*hathīthah / takhfīdh*) hukumnya boleh secara syariat berdasarkan kesepakatan para ahli fikih, baik pemotongan tersebut berasal dari pihak penjual sendiri maupun berasal dari kerelaan pihak ketiga (seperti platform marketplace) yang menanggung sebagian harga atas nama pembeli. Dan kupon/voucher diskon tidak tergolong jual-beli mata uang dengan mata uang (*bai'u naqdin bi naqdin*); karena kupon tersebut bukan mata uang yang beredar bebas, melainkan dokumen bukti komitmen pemotongan sebagian harga belanja saat transaksi.  
 
@@ -216,7 +216,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 2. **Kitab Tuhfatul Muhtaj bi Syarh al-Minhaj (Juz 4, Halaman 310–314)**  
    *Karya: Al-Imam Ibnu Hajar Al-Haitami (Wafat 974 H) | Lapisan: Kitab Induk Muta'akhirin Madzhab Syafi'i*  
 
-   > بَابُ الشُّرُوطِ فِي البَيْعِ: <u>**【وَكُلُّ شَرْطٍ فِيهِ خِدَاعٌ أَوْ تَدْلِيسٌ يُخَالِفُ مُقْتَضَى العَقْدِ أَوْ يَحْرِمُ العَاقِدَ مِنِ اسْتِيفَاءِ حَقِّهِ كَأَنْ يُشْرِطَ عَلَيْهِ مَنْفَعَةً ثُمَّ يَمْنَعُهُ مِنْهَا عِنْدَ الطَّلَبِ بِحِيَلٍ خَفِيَّةٍ فَهُوَ شَرْطٌ بَاطِلٌ مَأْثُومٌ فَاعِلُهُ، لِقَوْلِهِ ﷺ: المَسْلِمُونَ عَلَى شُرُوطِهِمْ إِلَّا شَرْطًا حَرَّمَ حَلَالًا أَوْ أَحَلَّ حَرَامًا】**</u>.  
+   > باب الشروط في البيع: <u>**【وكل شرط فيه خداع أو تدليس يخالف مقتضى العقد أو يحرم العاقد من استيفاء حقه كأن يشرط عليه منفعة ثم يمنعه منها عند الطلب بحيل خفية فهو شرط باطل مأثوم فاعله، لقوله ﷺ: المسلمون على شروطهم إلا شرطا حرم حلالا أو أحل حراما】**</u>.  
 
    *Makna Murod / Terjemah:* Bab Syarat-Syarat dalam Jual-Beli: Setiap syarat yang di dalamnya mengandung unsur muslihat tipu daya (*khidā'*) atau pemalsuan informasi (*tadlīs*) yang menyalahi tuntutan substansi akad, atau menghalangi pihak yang berakad untuk menuntut haknya—seperti menjanjikan suatu manfaat kepadanya kemudian menghalanginya saat dituntut melalui trik-trik tersembunyi—maka syarat tersebut adalah syarat batil dan pelakunya berdosa. Hal ini berdasarkan sabda Rasulullah SAW: 'Kaum muslimin terikat pada syarat-syarat yang mereka sepakati, kecuali syarat yang mengharamkan hal yang halal atau menghalalkan hal yang haram'.  
 
@@ -227,7 +227,7 @@ Mendasarkan telaah pada metodologi resmi Bahtsul Masail Nahdlatul Ulama melalui 
 3. **Kitab Qawa'idul Ahkam fi Mashalihil Anam (Juz 2, Halaman 160–162)**  
    *Karya: Sultanul Ulama Al-'Izz bin Abdis Salam (Wafat 660 H) | Lapisan: Qawa'id Syari'ah & Siyasah Iqtishadiyyah*  
 
-   > قَاعِدَةٌ فِي وِلَايَةِ السُّوقِ وَسِيَاسَةِ المُعَامَلَاتِ: <u>**【وَاجِبُ مَنْ قَامَ عَلَى تَنْظِيمِ أَسْوَاقِ المُسْلِمِينَ حِفْظُ التَّوَازُنِ بَيْنَ أَهْلِ التِّجَارَاتِ وَعَامَّةِ المُسْتَهْلِكِينَ، فَلَا يُمَكَّنُ القَوِيُّ مِنْ هَضْمِ حَقِّ الضَّعِيفِ، وَلَا يُسْمَحُ بِاحْتِكَارِ مَسَالِكِ البَيْعِ؛ فَإِنَّ المَصَالِحَ العَامَّةَ تَقْتَضِي عَدَالَةَ الفُرَصِ وَحُرِّيَّةَ الاخْتِيَارِ】**</u>.  
+   > قاعدة في ولاية السوق وسياسة المعاملات: <u>**【واجب من قام على تنظيم أسواق المسلمين حفظ التوازن بين أهل التجارات وعامة المستهلكين، فلا يمكن القوي من هضم حق الضعيف، ولا يسمح باحتكار مسالك البيع؛ فإن المصالح العامة تقتضي عدالة الفرص وحرية الاختيار】**</u>.  
 
    *Makna Murod / Terjemah:* Kaidah mengenai Pengawasan Pasar dan Kebijakan Transaksi Ekonomi: Kewajiban bagi pihak yang mengelola dan mengatur pasar kaum muslimin adalah memelihara keseimbangan antara para pelaku usaha perniagaan dan khalayak konsumen umum. Pihak yang kuat tidak boleh dibiarkan menindas hak pihak yang lemah, dan tidak boleh dibiarkan terjadinya monopoli jalur-jalur perdagangan; karena kemaslahatan umum menuntut adanya kesetaraan kesempatan berusaha dan kebebasan memilih tanpa intimidasi.  
 

@@ -82,7 +82,7 @@ Asas pokok rujukan dalam Bahtsul Masail Nahdlatul Ulama adalah berpegang pada **
 ### 7. Larangan Mutlak Bahasa Inggris (Zero English Policy)
 Model AI **DIHARAMKAN KERAS** memproduksi teks atau penalaran dalam bahasa Inggris, baik dalam:
 1. **Penalaran Internal (*Internal Reasoning / Chain-of-Thought / Thinking*)**: Jika model agen melakukan proses bernalar, seluruh alur berpikirnya WAJIB menggunakan Bahasa Indonesia baku ilmiah pesantren atau Bahasa Arab. Dilarang keras menalar dalam bahasa Inggris (seperti *"The user wants...", "Let's first analyze...", "We need to cite..."*).
-2. **Naskah Draf & Seluruh Teks Keluaran**: Seluruh pengantar, deskripsi masalah, rumusan jawaban, dan uraian *wajhul istidlal* WAJIB 100% menggunakan Bahasa Indonesia resmi standar musyawarah LBM-NU. Kutipan ibarat teks kitab WAJIB menggunakan Bahasa Arab berharakat lengkap. Dilarang keras menyisipkan kalimat, frasa, atau istilah bahasa Inggris apa pun.
+2. **Naskah Draf & Seluruh Teks Keluaran**: Seluruh pengantar, deskripsi masalah, rumusan jawaban, dan uraian *wajhul istidlal* WAJIB 100% menggunakan Bahasa Indonesia resmi standar musyawarah LBM-NU. Kutipan ibarat teks kitab WAJIB mengikuti keaslian sumber Turath.io apa adanya (gundul jika di Turath.io gundul, berharakat jika di Turath.io memiliki harakat asli; dilarang keras menambahkan harakat buatan demi menjamin kecocokan penyorotan teks peramban). Dilarang keras menyisipkan kalimat, frasa, atau istilah bahasa Inggris apa pun.
 
 ---
 
@@ -181,7 +181,7 @@ Setiap kajian wajib disajikan dalam struktur naskah taswidah lengkap berikut:
 1. **Kitab: [Nama Transliterasi Kitab 1] ([Nama Asli Arab]) — ([Juz/Halaman])**  
    *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i (Mu'tamad) | Lapisan: [Kitab Induk Mutaqaddimin/Muta'akhirin]*
 
-   > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci / Mahallus Syāhid yang Menjadi Inti Dalil Diberi Sorotan Khusus】**</u> [Kelanjutan teks jika ada]
+   > [Teks Ibarat Arab Asli Sesuai Turath.io (Gundul jika sumber gundul)] <u>**【Kalimat Kunci / Mahallus Syāhid yang Menjadi Inti Dalil Diberi Sorotan Khusus】**</u> [Kelanjutan teks jika ada]
 
    *Makna Murod / Terjemah:*  
    [Terjemahan bahasa Indonesia kontekstual]
@@ -194,7 +194,7 @@ Setiap kajian wajib disajikan dalam struktur naskah taswidah lengkap berikut:
 2. **Kitab: [Nama Transliterasi Kitab 2] ([Nama Asli Arab]) — ([Juz/Halaman])**  
    *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i | Lapisan: [Kitab Syarah / Hasyiyah]*
 
-   > [Teks Ibarat Arab] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]
+   > [Teks Ibarat Arab Asli Sesuai Turath.io] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]
 
    *Makna Murod / Terjemah:*  
    [...]
@@ -207,7 +207,7 @@ Setiap kajian wajib disajikan dalam struktur naskah taswidah lengkap berikut:
 3. **Kitab: [Nama Transliterasi Kitab 3] ([Nama Asli Arab]) — ([Juz/Halaman])**  
    *Karya: [Pengarang & Wafat] | Madzhab: Syafi'i | Lapisan: [Fatawa / Hawasyi]*
 
-   > [Teks Ibarat Arab Berharakat Lengkap] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]
+   > [Teks Ibarat Arab Asli Sesuai Turath.io] <u>**【Kalimat Kunci yang Disorot】**</u> [Kelanjutan teks...]
 
    *Makna Murod / Terjemah:*  
    [...]
@@ -220,7 +220,7 @@ Setiap kajian wajib disajikan dalam struktur naskah taswidah lengkap berikut:
 4. **Kitab: [Nama Transliterasi Kaidah / Ushul] ([Nama Asli Arab]) — ([Juz/Halaman])**  
    *Karya: [Pengarang & Wafat] | Madzhab: [Syafi'i / Ushul 'Am]*
 
-   > [Teks Kaidah Fiqhiyyah Arab Berharakat Beserta Uraiannya] <u>**【Pernyataan Kaidah Universal】**</u> [Kelanjutan teks...]
+   > [Teks Kaidah Fiqhiyyah Arab Asli Beserta Uraiannya] <u>**【Pernyataan Kaidah Universal】**</u> [Kelanjutan teks...]
 
    *Makna Murod / Terjemah:*  
    [...]
@@ -233,7 +233,7 @@ Setiap kajian wajib disajikan dalam struktur naskah taswidah lengkap berikut:
 5. **Kitab: [Nama Transliterasi Rujukan Non-Syafi'iyyah] ([Nama Asli Arab]) — ([Juz/Halaman])**  
    *Karya: [Pengarang & Wafat] | Madzhab: [Hanafi / Maliki / Hanbali / Muqaranah 4 Madzhab] (WAJIB TERCANTUM TEGAS) | Lapisan: [Kitab Induk / Syarah / Fatawa]*
 
-   > [Teks Ibarat Arab Berharakat Lengkap dari Madzhab Non-Syafi'i] <u>**【Pendapat Madzhab Alternatif / Titik Temu Dalil】**</u> [Kelanjutan teks...]
+   > [Teks Ibarat Arab Asli Sesuai Turath.io dari Madzhab Non-Syafi'i] <u>**【Pendapat Madzhab Alternatif / Titik Temu Dalil】**</u> [Kelanjutan teks...]
 
    *Makna Murod / Terjemah:*  
    [Terjemahan bahasa Indonesia kontekstual]

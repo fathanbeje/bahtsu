@@ -34,6 +34,14 @@ function cleanArabic(s) {
     .trim();
 }
 
+function calculateHarakatDensity(text) {
+  if (!text) return 0;
+  const arabicLetters = (text.match(/[\u0621-\u064A]/g) || []).length;
+  if (arabicLetters === 0) return 0;
+  const harakat = (text.match(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g) || []).length;
+  return harakat / arabicLetters;
+}
+
 const BROWSER_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
   'Referer': 'https://app.turath.io/',
@@ -185,6 +193,7 @@ function parseCitations(filePath) {
         author: '',
         metaLine: '',
         arabicQuotes: [],
+        quoteLines: [],
         highlightedText: '',
         linkUrl: '',
         linkText: '',
@@ -204,6 +213,7 @@ function parseCitations(filePath) {
     if (line.trim().startsWith('>')) {
       const quoteContent = line.replace(/^>\s*/, '').trim();
       current.arabicQuotes.push(quoteContent);
+      current.quoteLines.push(i + 1);
 
       // Cari mahallus syahid di dalam <u>**【...】**</u>
       const syahidMatch = quoteContent.match(/【(.*?)】/);
@@ -458,6 +468,30 @@ async function auditCitation(citation, filePath) {
     }
   }
 
+  // 5. Cek konsistensi harakat: apakah kutipan di naskah memiliki harakat buatan padahal sumber di Turath.io gundul?
+  const matchedItem = targetMatch ? targetMatch.item : null;
+  const rawQuote = citation.arabicQuotes.join(' ');
+  const naskahDensity = calculateHarakatDensity(rawQuote);
+  const turathDensity = calculateHarakatDensity(matchedItem?.text || matchedItem?.snip || '');
+
+  if (naskahDensity > 0.15 && turathDensity < 0.08) {
+    issues.push({
+      type: 'ARTIFICIAL_HARAKAT',
+      severity: 'MEDIUM',
+      message: `Kutipan teks Arab memuat harakat buatan (densitas ${(naskahDensity * 100).toFixed(0)}%), padahal sumber asli di Turath.io gundul (${(turathDensity * 100).toFixed(0)}%). Teks perlu diselaraskan agar konsisten dengan sumber aslinya.`,
+    });
+    if (!suggestedFix) {
+      suggestedFix = {
+        correctUrl: citation.linkUrl,
+        correctBookId: bookId,
+        correctPageId: pageId,
+        bookName: bookMeta?.bookName || `Kitab ${bookId}`,
+        authorName: bookMeta?.authorName || '',
+      };
+    }
+    suggestedFix.stripArtificialHarakat = true;
+  }
+
   return { citation, issues, suggestedFix };
 }
 
@@ -468,22 +502,39 @@ function applyFixesToFile(filePath, auditedResults) {
   let fixedCount = 0;
 
   for (const item of auditedResults) {
-    if (!item.suggestedFix) continue;
     const { citation, suggestedFix } = item;
 
-    if (citation.linkLine > 0 && citation.linkLine <= lines.length) {
+    // 1. Perbaiki URL tautan jika ada saran perbaikan
+    if (suggestedFix && citation.linkLine > 0 && citation.linkLine <= lines.length) {
       const lineIdx = citation.linkLine - 1;
       if (citation.linkUrl && lines[lineIdx].includes(citation.linkUrl)) {
-        lines[lineIdx] = lines[lineIdx].replace(citation.linkUrl, suggestedFix.correctUrl);
-        fixedCount++;
-        continue;
+        if (suggestedFix.correctUrl && lines[lineIdx] !== lines[lineIdx].replace(citation.linkUrl, suggestedFix.correctUrl)) {
+          lines[lineIdx] = lines[lineIdx].replace(citation.linkUrl, suggestedFix.correctUrl);
+          fixedCount++;
+        }
+      } else {
+        const m = lines[lineIdx].match(/(https:\/\/app\.turath\.io\/book\/[^\s\)]+)/);
+        if (m && suggestedFix.correctUrl && m[1] !== suggestedFix.correctUrl) {
+          lines[lineIdx] = lines[lineIdx].replace(m[1], suggestedFix.correctUrl);
+          fixedCount++;
+        }
       }
-      // Atau jika linkLine memuat markdown link apapun
-      const m = lines[lineIdx].match(/(https:\/\/app\.turath\.io\/book\/[^\s\)]+)/);
-      if (m && suggestedFix.correctUrl) {
-        lines[lineIdx] = lines[lineIdx].replace(m[1], suggestedFix.correctUrl);
-        fixedCount++;
-        continue;
+    }
+
+    // 2. Selaraskan kutipan naskah: buang harakat buatan agar persis sama dengan sumber Turath.io
+    if (citation.quoteLines && citation.quoteLines.length > 0) {
+      for (const qLine of citation.quoteLines) {
+        const qIdx = qLine - 1;
+        if (qIdx >= 0 && qIdx < lines.length) {
+          const originalLine = lines[qIdx];
+          if (/[\u064B-\u065F\u0670\u06D6-\u06ED]/.test(originalLine)) {
+            const strippedLine = originalLine.replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g, '');
+            if (strippedLine !== originalLine) {
+              lines[qIdx] = strippedLine;
+              fixedCount++;
+            }
+          }
+        }
       }
     }
   }

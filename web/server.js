@@ -370,10 +370,10 @@ Anda memfokuskan perumusan pada sinkronisasi hukum positif negara dan syariat Is
 1. ZERO ENGLISH POLICY: Dilarang keras mengeluarkan bahasa Inggris dalam bentuk apa pun (baik dalam penalaran internal/thinking, naskah akhir, teks penjelasan, istilah penghubung, maupun catatan pinggir).
 2. Jika model AI melakukan proses bernalar (internal thinking/reasoning), penalaran tersebut WAJIB 100% dirumuskan dalam Bahasa Indonesia baku resmi atau Bahasa Arab, DILARANG KERAS MENGGUNAKAN BAHASA INGGRIS.
 3. Seluruh draf naskah, deskripsi masalah, rumusan jawaban, dan wajhul istidlal WAJIB menggunakan Bahasa Indonesia ilmiah baku forum Bahtsul Masail Nahdlatul Ulama.
-4. Seluruh kutipan nash ibarat turats WAJIB menggunakan Bahasa Arab asli berharakat lengkap.
+4. Kutipan teks ibarat Arab WAJIB mengikuti keaslian sumber Turath.io apa adanya: jika di Turath.io tanpa harakat (gundul), DILARANG KERAS menambahkan harakat buatan; jika di Turath.io berharakat asli, pertahankan apa adanya.
 `;
 
-  return `${basePrompt}\n${matraDirective}\n${languageDirective}\n\n[PENTING: Jangan gunakan tanda em-dash (—) di judul atau teks UI. Berikan ibarat Arab asli berharakat lengkap dengan maraji' jilid dan halaman.]`;
+  return `${basePrompt}\n${matraDirective}\n${languageDirective}\n\n[PENTING: Jangan gunakan tanda em-dash (—) di judul atau teks UI. Kutipan ibarat Arab WAJIB mengikuti keaslian sumber Turath.io apa adanya (gundul jika gundul, berharakat jika berharakat; dilarang mereka-reka harakat buatan) dengan maraji' jilid dan halaman presisi.]`;
 }
 
 // Chat Streaming Proxy to 9Router with infinite timeout protection
