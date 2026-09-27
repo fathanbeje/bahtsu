@@ -731,9 +731,33 @@ app.post('/api/kajian/save', checkAuth, async (req, res) => {
     if (fs.existsSync(path.join(repoRoot, '.git'))) {
       try {
         const commitTitle = finalTitle.replace(/"/g, "'").substring(0, 72);
-        await execAsync(`git add "kajian/${filename}" && git commit -m "docs(kajian): tambah bahan kajian ${commitTitle}" && git push origin private/bahtsu-klangopan-app`, {
+
+        // Kepatuhan Keep a Changelog: Otomatis catat bahan kajian baru ke CHANGELOG.md
+        const changelogPath = path.join(repoRoot, 'CHANGELOG.md');
+        let changelogModified = false;
+        if (fs.existsSync(changelogPath)) {
+          try {
+            let changelogContent = fs.readFileSync(changelogPath, 'utf-8');
+            const entryLine = `- **${finalTitle} (\`kajian/${filename}\`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.`;
+            if (changelogContent.includes('### 📚 New Studies & Materials')) {
+              changelogContent = changelogContent.replace('### 📚 New Studies & Materials', `### 📚 New Studies & Materials\n${entryLine}`);
+              changelogModified = true;
+            } else if (changelogContent.includes('### ✨ New Features')) {
+              changelogContent = changelogContent.replace('### ✨ New Features', `### 📚 New Studies & Materials\n${entryLine}\n\n### ✨ New Features`);
+              changelogModified = true;
+            }
+            if (changelogModified) {
+              fs.writeFileSync(changelogPath, changelogContent, 'utf-8');
+            }
+          } catch (clErr) {
+            console.warn('Gagal memutakhirkan CHANGELOG.md:', clErr.message);
+          }
+        }
+
+        const addTargets = changelogModified ? `"kajian/${filename}" "CHANGELOG.md"` : `"kajian/${filename}"`;
+        await execAsync(`git pull --rebase origin HEAD && git add ${addTargets} && git commit -m "docs(kajian): tambah bahan kajian ${commitTitle} & changelog" && git push origin HEAD`, {
           cwd: repoRoot,
-          timeout: 25000,
+          timeout: 30000,
         });
         gitPushed = true;
         gitNote = ' & di-push ke GitHub (private)';

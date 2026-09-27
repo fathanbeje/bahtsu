@@ -4,6 +4,22 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.1] - 2026-09-27
+
+### 🔒 Security & Privacy Architecture
+- **Pemisahan Total Repositori Privat (`fathanbeje/bahtsu-app`):**
+  - Mengisolasi seluruh kode aplikasi web Bahtsu Klangopan, konfigurasi server, basis data, dan arsip kajian ke repositori khusus privat `fathanbeje/bahtsu-app` guna mencegah paparan kode internal ke publik.
+  - Menghapus branch aplikasi `private/bahtsu-klangopan-app` dari repositori publik `fathanbeje/bahtsu`, sehingga repositori publik bersih dan murni hanya memuat dokumentasi skill publik Bahtsul Masail.
+  - Menerbitkan dan mendaftarkan SSH Deploy Key berhak baca-tulis (`vps-bahtsu-app-deploy`) khusus untuk server VPS, memisahkan otentikasi dari kunci akun global.
+
+### ✨ New Features & Automation
+- **Kepatuhan Otomatisasi Changelog oleh Bot (`server.js`):**
+  - Mengintegrasikan mekanisme auto-append entri `CHANGELOG.md` pada endpoint `/api/kajian/save` di server backend.
+  - Setiap naskah kajian baru yang dirumuskan dan disimpan oleh bot Bahtsu Klangopan otomatis tercatat pada daftar bahan kajian di `CHANGELOG.md` sebelum dieksekusi `git commit` dan `git push` ke repositori privat.
+  - Menjamin transparansi riwayat kajian dan kepatuhan penuh pada protokol Keep a Changelog.
+
+---
+
 ## [2.5.0] - 2026-09-27
 
 ### ✨ New Features & Enhancements
