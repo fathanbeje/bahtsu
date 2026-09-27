@@ -4,6 +4,66 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.5.2] - 2026-09-27
+
+### 🐛 Bug Fixes & Precision Tahqiq
+- **Perbaikan Utilitas Penelusuran Turath (`scripts/turath_search.js`):**
+  - Mengatasi masalah tautan yang tidak mengarah ke *mahallus syahid* dengan merekonstruksi fungsi `extractMahalSyahid`.
+  - Mengganti pembentukan parameter fragment URL yang sebelumnya menggunakan kueri mentah (`query`) dengan teks kalimat asli dari kitab yang ditandai tag `<em>` oleh API Turath.
+  - Menerapkan format standar W3C Scroll-to-Text-Fragment range `#:~:text=startWords,endWords` yang tahan terhadap perbedaan harakat/tashkeel dan variasi tata letak kalimat di peramban Chromium.
+  - Memperbarui format output antarmuka CLI agar menyajikan nama kitab, juz, halaman cetak, teks mahallus syahid bergaris bawah `<u>**【...】**</u>`, serta tautan verifikasi presisi yang siap disalin ke draf kajian.
+- **Audit & Sinkronisasi 100% Maraji' Kuota Hangus (`kajian/2026-09-25-status-hukum-kuota-hangus.md`):**
+  - Mengoreksi seluruh 9 rujukan fiqih yang sebelumnya mengalami ketidakcocokan ID kitab, nomor halaman, atau pengarang:
+    1. *Asy-Syarhul Kabir 'alal Muqni'* (Ibnu Abi 'Umar Al-Maqdisi, 14/376) & *Al-Mu'amalat Al-Maliyyah* (Dr. Dubyan, 9/283) — Keabsahan menggabungkan durasi waktu dan volume.
+    2. *Mukhtashar Tuhfatul Muhtaj* (Ibnu Hajar Al-Haitami / Mustafa Samith, 2/431, Book ID 20, Page ID 978) — Mengoreksi tautan yang sebelumnya mengarah ke halaman keliru 991.
+    3. *At-Tahdzib fil Fiqh Asy-Syafi'i* (Al-Baghawi, 4/455, Book ID 17885, Page ID 1714) — Kepastian ongkos sewa (*istiqrar al-ujrah*) saat masa aktif berakhir tanpa digunakan.
+    4. *Takmilat Al-Muthi'i 'alal Majmu' Syarah Al-Muhadzdzab* (An-Nawawi / Al-Muthi'i, 15/81, Book ID 1026, Page ID 942) — Mengoreksi nomor halaman dari 642 ke 942.
+    5. *Hasyiyatul Bujairimi 'alal Manhaj* (Al-Bujairimi, 3/109, Book ID 21603, Page ID 1054) — Larangan *akl al-mal bil-bathil*.
+    6. *Ighatsatul Lahfan fi Mashayidisy Syaithan* (Ibnu Qayyim Al-Jauziyyah, 2/727, Book ID 18612, Page ID 769) — Kaidah keadilan dalam akad mu'awadhah (*takafu'ul 'iwadhain*).
+    7. *Al-Asybah wan-Nazha'ir* (Ibnu Al-Mulaqqin, 1/30, Book ID 18192, Page ID 29) — Kaidah *adh-dhararu yuzal*.
+    8. *Ghamzu 'Uyunil Basha'ir fi Syarhi Al-Asybah* (Al-Hamawi, 1/369, Book ID 21588, Page ID 361) — Kaidah siyasah syar'iyyah *tasharruful imam manuthun bil mashlahah*.
+    9. *Abhats Hai'ah Kibaril Ulama* (4/57, Book ID 21759, Page ID 2122) & *Durar al-Hukkam fi Syarh Majallah al-Ahkam* (Ali Haidar, 1/511, Book ID 21692, Page ID 474) — Kewenangan otoritas regulasi membatalkan klausul baku yang sewenang-wenang (*syuruth ta'assufiyyah*).
+
+---
+
+## [2.5.1] - 2026-09-27
+
+### 🔒 Security & Privacy Architecture
+- **Pemisahan Total Repositori Privat (`fathanbeje/bahtsu-app`):**
+  - Mengisolasi seluruh kode aplikasi web Bahtsu Klangopan, konfigurasi server, basis data, dan arsip kajian ke repositori khusus privat `fathanbeje/bahtsu-app` guna mencegah paparan kode internal ke publik.
+  - Menghapus branch aplikasi `private/bahtsu-klangopan-app` dari repositori publik `fathanbeje/bahtsu`, sehingga repositori publik bersih dan murni hanya memuat dokumentasi skill publik Bahtsul Masail.
+  - Menerbitkan dan mendaftarkan SSH Deploy Key berhak baca-tulis (`vps-bahtsu-app-deploy`) khusus untuk server VPS, memisahkan otentikasi dari kunci akun global.
+
+### ✨ New Features & Automation
+- **Kepatuhan Otomatisasi Changelog oleh Bot (`server.js`):**
+  - Mengintegrasikan mekanisme auto-append entri `CHANGELOG.md` pada endpoint `/api/kajian/save` di server backend.
+  - Setiap naskah kajian baru yang dirumuskan dan disimpan oleh bot Bahtsu Klangopan otomatis tercatat pada daftar bahan kajian di `CHANGELOG.md` sebelum dieksekusi `git commit` dan `git push` ke repositori privat.
+  - Menjamin transparansi riwayat kajian dan kepatuhan penuh pada protokol Keep a Changelog.
+
+---
+
+## [2.5.0] - 2026-09-27
+
+### ✨ New Features & Enhancements
+- **Telemetri Sisa Kuota Multi-Akun Gemini (`RouterCockpitModal.jsx` & `server.js`):**
+  - Menyajikan pemantauan sisa kuota harian riil untuk masing-masing akun Google Gemini (`fathanbejo@gmail.com`, `fathanbeje@gmail.com`, `mia02database@gmail.com`, `mia02sgs@gmail.com`) dengan batas standar 1.500 RPD (Request Per Day) dan 15 RPM.
+  - Kartu Ringkasan Kuota Tergabung (*Combined Pool Quota*): Menghitung agregasi kuota 6.000 RPD, persentase ketersediaan pool dinamis, serta total kueri dan token terpakai hari ini.
+  - Rincian Metrik Per Akun: Progress bar sisa kuota dengan kode warna cerdas (hijau >50%, kuning 20-50%, merah <20%), status keaktifan sesi token OAuth, estimasi waktu kedaluwarsa auto-refresh, dan tombol sakelar kendali node akun.
+- **Rekalibrasi Tipografi Editorial Mobile Skala Awwwards (`KajianArchivePage.jsx`, `ChatPane.jsx`, `Header.jsx`):**
+  - Mengangkat skala font mobile dari sub-10px mikro ke standar ergonomis editorial kontemporer: teks bacaan naskah fiqih 15.5px–17.5px (`leading-[1.85]`), judul kartu kajian 14.5px–16px, badge metadata 12px, serta chips filter 12px–13px.
+  - Menghilangkan beban mata dan kebutuhan *squinting* pada layar ponsel beresolusi tinggi (Retina/OLED).
+- **Arsitektur Halaman Arsip Kajian Full View (`KajianArchivePage.jsx`):**
+  - Mengubah penampil arsip dari modal pop-up sempit menjadi halaman penuh (*dedicated full page*) dengan bilah navigasi mandiri 44px.
+  - Menghilangkan redundansi tumpukan dua baris header pada mode pembaca naskah di perangkat mobile (*Distraction-Free Editorial View*).
+  - Mengimplementasikan pencarian instan mendalam berbasis konten (*full-text in-content search*) dengan penyorotan kata kunci (*highlight snippet*) dan penghitung frekuensi kemunculan lafadz.
+
+### 🐛 Bug Fixes & Refactoring
+- **Koreksi Title Anti-Slop (`index.html`):** Mengganti karakter em-dash pada tag `<title>` dengan mid-dot (`·`) sesuai protokol anti-slop.
+- **Pencegahan iOS Safari Auto-Zoom:** Memperbesar ukuran teks input pencarian dan textarea percakapan ke skala 15px–16px agar peramban mobile tidak melakukan zoom paksa saat kolom kueri difokuskan.
+- **Portal Rendering Menu Mobile (`Header.jsx`):** Mengisolasi drawer menu mobile ke dalam React Portal (`createPortal`) pada `document.body` guna mencegah terpotongnya menu akibat batasan konteks *backdrop-blur* header.
+
+---
+
 ## [2.4.0] - 2026-09-26
 
 ### 🔒 Security & Privacy
@@ -21,7 +81,9 @@ Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelo
 - **Restrukturisasi BiDi 8 Berkas Kajian (`kajian/`):** Mengaudit dan merevisi format 97 kutipan ibarat pada seluruh dokumen kajian di repositori (Hukum Asuransi BPJS Kesehatan, Shalat Arafah, Wasiat Haul, Azimat & Rajah, Model Bisnis Muse AI, Nasab Ba'alawi, Kuota Hangus, dan Shopee VIP) agar tampil rapi dan nyaman dibaca di GitHub web.
 - **Pembersihan Duplikasi & Teks `\n` Mentah:** Menghapus duplikasi sub-bab pada naskah Shalat Arafah serta membersihkan string literal `\n\n` pada naskah Wasiat Haul.
 
-### 📚 New Studies & Materials (Kajian Bahtsul Masail)
+### 📚 New Studies & Materials
+- **Validasi Auto Push Bot Repositori Privat (`kajian/2026-09-27-validasi-auto-push-bot.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
+- **Uji Coba Sinkronisasi Repositori Privat (`kajian/2026-09-27-uji-coba-repositori-privat.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot. (Kajian Bahtsul Masail)
 - **Hukum Asuransi BPJS Kesehatan (`kajian/2026-09-26-hukum-asuransi-bpjs-kesehatan.md`):** Telaah fiqih muamalah dan siyasah syar'iyyah mengenai akad tabarru' jaminan sosial nasional, keabsahan kewajiban iuran oleh pemerintah, serta ketiadaan riba dan gharar terlarang.
 - **Hukum Azimat dan Rajah (`kajian/2026-09-26-hukum-penggunaan-azimat-rajah.md`):** Telaah akidah dan fiqih mengenai ta'widz ayat Al-Qur'an, batasan ilmu wifiq, dan adab membawa azimat ke toilet.
 - **Wasiat Harta Sawah untuk Haul (`kajian/2026-09-26-wasiat-harta-untuk-haul.md`):** Telaah batas sepertiga tirkah, keabsahan wasiat sedekah makanan dan doa haul, serta status tanah sawah sebagai wasiat manfaat abadi (*waqaf wasiyyah*).

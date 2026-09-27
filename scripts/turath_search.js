@@ -56,6 +56,80 @@ function cleanHtml(html) {
     .trim();
 }
 
+function extractMahalSyahid(rawSnip, query) {
+  if (!rawSnip) {
+    const cleanQ = query.replace(/[\u064B-\u0652]/g, '').trim();
+    return {
+      mahalSyahid: query,
+      snippetWithHighlight: query,
+      textFragment: cleanQ ? `#:~:text=${encodeURIComponent(cleanQ)}` : '',
+      startWords: cleanQ,
+      endWords: '',
+    };
+  }
+
+  // 1. Bersihkan elemen HTML non-em
+  const clean = rawSnip
+    .replace(/<span[^>]*>/gi, '')
+    .replace(/<\/span>/gi, '')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // 2. Ambil teks murni tanpa tag em
+  const textWithoutTags = clean.replace(/<\/?em>/gi, '').trim();
+
+  // 3. Helper pembersih tanda baca ekstrem untuk kecocokan Chrome Text Fragment
+  const cleanPunct = (s) => s.replace(/^[،؛.:!؟\(\)\[\]«»"'_\-\s]+|[،؛.:!؟\(\)\[\]«»"'_\-\s]+$/g, '').trim();
+
+  const words = textWithoutTags.split(/\s+/).filter(Boolean);
+  if (words.length === 0) {
+    return {
+      mahalSyahid: textWithoutTags,
+      snippetWithHighlight: clean.replace(/<em>/gi, '**').replace(/<\/em>/gi, '**'),
+      textFragment: '',
+      startWords: '',
+      endWords: '',
+    };
+  }
+
+  let textFragment = '';
+  let startWords = '';
+  let endWords = '';
+
+  if (words.length <= 5) {
+    // Frasa ringkas: gunakan teks utuh
+    const phrase = cleanPunct(words.join(' '));
+    startWords = phrase;
+    textFragment = phrase ? `#:~:text=${encodeURIComponent(phrase)}` : '';
+  } else {
+    // Frasa panjang: gunakan W3C text fragment range (startWords,endWords)
+    // yang diambil langsung dari teks kitab agar tahan terhadap variasi kata di tengah
+    const startCandidates = words.slice(0, 3).map(cleanPunct).filter(Boolean);
+    const endCandidates = words.slice(-3).map(cleanPunct).filter(Boolean);
+
+    startWords = startCandidates.join(' ');
+    endWords = endCandidates.join(' ');
+
+    if (startWords && endWords && startWords !== endWords) {
+      textFragment = `#:~:text=${encodeURIComponent(startWords)},${encodeURIComponent(endWords)}`;
+    } else if (startWords) {
+      textFragment = `#:~:text=${encodeURIComponent(startWords)}`;
+    }
+  }
+
+  return {
+    mahalSyahid: textWithoutTags,
+    snippetWithHighlight: clean.replace(/<em>/gi, '**').replace(/<\/em>/gi, '**'),
+    textFragment,
+    startWords,
+    endWords,
+  };
+}
+
 function detectMadzhab(catId, bookName = '', authorName = '') {
   const text = (bookName + ' ' + authorName).toLowerCase();
   
@@ -115,9 +189,10 @@ async function searchTurathSingle(query, categoryId, limit) {
     const authorName = meta.author_name || 'Ulama Salaf';
     const volume = meta.vol || '1';
     const printedPage = meta.page || pageId;
-    const cleanHighlight = query.replace(/[\u064B-\u0652]/g, '').trim();
-    const textFragment = cleanHighlight ? `#:~:text=${encodeURIComponent(cleanHighlight)}` : '';
-    const directUrl = `https://app.turath.io/book/${bookId}?page=${pageId}${textFragment}`;
+    
+    // Ekstrak mahallus syahid presisi dari teks kitab asli
+    const syahidInfo = extractMahalSyahid(item.snip, query);
+    const directUrl = `https://app.turath.io/book/${bookId}?page=${pageId}${syahidInfo.textFragment}`;
     const madzhab = detectMadzhab(item.cat_id, bookName, authorName);
 
     return {
@@ -132,7 +207,8 @@ async function searchTurathSingle(query, categoryId, limit) {
       pageId,
       url: directUrl,
       headings: meta.headings || [],
-      snippet: cleanHtml(item.snip),
+      mahalSyahid: syahidInfo.mahalSyahid,
+      snippet: syahidInfo.snippetWithHighlight,
       fullText: cleanHtml(item.text),
     };
   });
@@ -179,14 +255,15 @@ async function main() {
     console.log(`================================================================\n`);
 
     allResults.forEach((item, index) => {
-      console.log(`### ${index + 1}. ${item.bookName} (${item.volume ? item.volume + '/' : ''}${item.printedPage})`);
+      console.log(`### ${index + 1}. ${item.bookName} (${item.volume ? 'Juz ' + item.volume + ', ' : ''}Halaman ${item.printedPage})`);
       console.log(`- **Pengarang:** ${item.authorName}`);
       console.log(`- **Madzhab:** ${item.madzhab}`);
       if (item.headings && item.headings.length > 0) {
-        console.log(`- **Bab / Judul:** ${item.headings.join(' > ')}`);
+        console.log(`- **Bab / Jalur Kitab:** ${item.headings.join(' > ')}`);
       }
-      console.log(`- **Tautan Verifikasi:** ${item.url}`);
-      console.log(`- **Kutipan Teks Asli:**`);
+      console.log(`- **Mahallus Syahid:** <u>**【${item.mahalSyahid}】**</u>`);
+      console.log(`- **Tautan Verifikasi Presisi:** [Buka Teks di Turath.io](${item.url})`);
+      console.log(`- **Konteks Kitab:**`);
       console.log(`> ${item.snippet.replace(/\n/g, '\n> ')}`);
       console.log('\n---\n');
     });
