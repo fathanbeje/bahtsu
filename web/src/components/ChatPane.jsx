@@ -20,7 +20,9 @@ import {
   X,
   ArrowRight,
   Settings2,
-  BookOpen
+  BookOpen,
+  Mic,
+  MicOff
 } from 'lucide-react';
 
 export default function ChatPane({
@@ -44,8 +46,86 @@ export default function ChatPane({
   const [inputText, setInputText] = useState('');
   const [copiedId, setCopiedId] = useState(null);
   const [openThoughts, setOpenThoughts] = useState({});
+  const [isListening, setIsListening] = useState(false);
   const messagesEndRef = useRef(null);
   const textareaRef = useRef(null);
+  const recognitionRef = useRef(null);
+
+  // Setup SpeechRecognition for Bahasa Indonesia dictation
+  const isSpeechSupported = typeof window !== 'undefined' && ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window);
+
+  const toggleListening = () => {
+    if (!isSpeechSupported) {
+      alert('Browser Anda belum mendukung fitur Web Speech Recognition (Dikte Suara). Coba gunakan Google Chrome atau Microsoft Edge.');
+      return;
+    }
+
+    if (isListening) {
+      if (recognitionRef.current) {
+        recognitionRef.current.stop();
+      }
+      setIsListening(false);
+      return;
+    }
+
+    try {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new SpeechRecognition();
+      recognition.lang = 'id-ID';
+      recognition.interimResults = false;
+      recognition.continuous = false;
+      recognition.maxAlternatives = 1;
+
+      recognition.onstart = () => {
+        setIsListening(true);
+      };
+
+      recognition.onresult = (event) => {
+        const transcript = event.results?.[0]?.[0]?.transcript;
+        if (transcript) {
+          setInputText((prev) => {
+            const trimmed = prev.trim();
+            return trimmed ? `${trimmed} ${transcript}` : transcript;
+          });
+          setTimeout(() => {
+            if (textareaRef.current) {
+              textareaRef.current.focus();
+              textareaRef.current.style.height = 'auto';
+              textareaRef.current.style.height = `${Math.min(textareaRef.current.scrollHeight, 160)}px`;
+            }
+          }, 50);
+        }
+      };
+
+      recognition.onerror = (event) => {
+        console.warn('SpeechRecognition error:', event.error);
+        setIsListening(false);
+      };
+
+      recognition.onend = () => {
+        setIsListening(false);
+        recognitionRef.current = null;
+      };
+
+      recognitionRef.current = recognition;
+      recognition.start();
+    } catch (err) {
+      console.warn('Gagal memulai SpeechRecognition:', err);
+      setIsListening(false);
+    }
+  };
+
+  useEffect(() => {
+    return () => {
+      if (recognitionRef.current) {
+        try {
+          recognitionRef.current.stop();
+        } catch (e) {
+          // ignore
+        }
+      }
+    };
+  }, []);
 
   // Auto-scroll on new messages
   useEffect(() => {
@@ -700,9 +780,33 @@ V. Multi-Referensi Marāji' Kutubut Turāts (minimal 3-5 kitab mu'tamad dengan i
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Tuliskan masalah fiqih, pertanyaan as'ilah, atau telaah ibarat..."
-              className="flex-1 bg-transparent px-2.5 py-1 text-[15px] sm:text-base text-ink-900 dark:text-parchment-50 placeholder-ink-400 dark:placeholder-ink-500 focus:outline-none resize-none font-serif leading-relaxed max-h-36"
+              placeholder={isListening ? "Mendengarkan ucapan Anda (IDN)... silakan bicara..." : "Tuliskan masalah fiqih, pertanyaan as'ilah, atau telaah ibarat..."}
+              className={`flex-1 bg-transparent px-2.5 py-1 text-[15px] sm:text-base text-ink-900 dark:text-parchment-50 placeholder-ink-400 dark:placeholder-ink-500 focus:outline-none resize-none font-serif leading-relaxed max-h-36 ${isListening ? 'placeholder-emerald-600 dark:placeholder-emerald-400' : ''}`}
             />
+
+            {/* Tombol Dikte Suara (Speech to Text IDN) */}
+            <button
+              type="button"
+              onClick={toggleListening}
+              className={`p-3 rounded-xl transition-all shadow-xs flex-shrink-0 relative ${
+                isListening
+                  ? 'bg-rose-500 hover:bg-rose-600 text-white animate-pulse ring-2 ring-rose-400/50'
+                  : 'bg-parchment-100 hover:bg-parchment-200 dark:bg-ink-800 dark:hover:bg-ink-700 text-ink-600 dark:text-parchment-200 border border-parchment-200 dark:border-ink-700 hover:text-turath-emerald dark:hover:text-emerald-400'
+              }`}
+              title={isListening ? 'Hentikan dikte suara' : 'Mulai dikte suara (Speech to Text - Bahasa Indonesia)'}
+            >
+              {isListening ? (
+                <>
+                  <MicOff className="w-4 h-4" />
+                  <span className="absolute -top-1 -right-1 flex h-2.5 w-2.5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-600"></span>
+                  </span>
+                </>
+              ) : (
+                <Mic className="w-4 h-4" />
+              )}
+            </button>
 
             {isStreaming ? (
               <button
