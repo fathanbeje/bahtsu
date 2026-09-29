@@ -4,6 +4,45 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.7.1] - 2026-09-29
+
+### 📚 Penambahan Bahan Kajian Bahtsul Masail
+- **Kajian Shalat Jamaah Anak Belum Khitan di Shaf Depan & Hak Takmir:**
+  - Menambahkan draf taswidah `kajian/2026-09-29-hukum-anak-belum-khitan-di-shaf-depan-masjid.md` yang mengurai secara tuntas keabsahan shalat anak belum baligh dan belum khitan (*al-aqlaf*), penegasan tidak adanya pemutusan shaf (*la yaqtha'us shaff*), perlindungan hak mendahului tempat mubah (*haqqus sabq*), serta larangan bagi takmir menggeser anak yang tertib berdasarkan 10 rujukan turats primer (Madzhab Syafi'i, Hanafi, dan Maliki) yang 100% lolos verifikasi presisi Turath.io.
+
+---
+
+## [2.7.0] - 2026-09-27
+
+### 🧠 Klasifikasi Matra Masail Otomatis Penuh & Pembersihan Header
+- **Auto-Detect Tri-Matra oleh AI:**
+  - AI secara dinamis menganalisis deskripsi masalah pengguna dan otomatis mengklasifikasikan ke dalam salah satu dari tiga matra resmi Munas Alim Ulama & Konbes Nahdlatul Ulama:
+    - *Masā'il Wāqi'iyyah* (kasuistik aktual: tahqiqul manath, Syaikhoni, qaul mu'tamad).
+    - *Masā'il Maudlū'iyyah* (tematik konseptual: peradaban, kebangsaan, maqashid asy-syari'ah, muqaranatul madzahib).
+    - *Masā'il Qānūniyyah* (telaah yuridis: sinkronisasi UU/kebijakan negara & tasharruful imam).
+  - Klasifikasi dicantumkan otomatis pada metadata naskah (`**Klasifikasi:** Masā'il ...`).
+- **Eliminasi Tombol Matra Manual di Header:**
+  - Menghapus 3 tombol matra di desktop header dan pil matra mobile yang sebelumnya mempersempit ruang layar, menghasilkan antarmuka studio yang lapang dan bersih.
+
+### ⚡ Kapasitas Penuh 65.536 Token & Background Task Auto-Recovery
+- **Alokasi Token Maksimal Setara Antigravity (65.536 Tokens):**
+  - Mengonfigurasi `max_tokens: 65536` dan `max_completion_tokens: 65536` pada gateway backend, menyamai batas output native Google Gemini di Antigravity sehingga seluruh draf taswidah panjang selesai 100% utuh tanpa terputus.
+  - Mengeliminasi tombol manual "Lanjutkan" yang mengganggu alur fokus telaah.
+- **Arsitektur Background Task & Auto-Reconnect Senyap:**
+  - Server mengelola `activeChatJobs` yang tetap berjalan di latar belakang meski koneksi klien terputus (layar HP terkunci, beralih aplikasi, atau sinyal drop sesaat).
+  - Dilengkapi mekanisme *polling auto-recovery* dan endpoint `GET /api/chat/job/:jobId`; saat peramban kembali aktif atau tersambung online, naskah otomatis tersambung penuh dan langsung mengisi Taswidah Dock beserta kurasi kartu ibaratnya secara mulus.
+
+### 🗑️ Fitur Hapus Berkas Arsip & Sinkronisasi Git Otomatis
+- **Endpoint `DELETE /api/kajian/:filename`:**
+  - Menghapus berkas fisik kajian `.md` dari server lokal.
+  - Membersihkan baris catatan berkas terkait di `CHANGELOG.md` secara otomatis.
+  - Melakukan otomatisasi `git add -A && git commit` serta `git push` ke repositori remote GitHub.
+- **Antarmuka Pratinjau & Modal Konfirmasi Hapus:**
+  - Menambahkan tombol *Hapus* (merah) pada bilah tindakan pembaca arsip kajian.
+  - Dilengkapi dialog konfirmasi aman (*Delete Confirmation Modal*) dengan ringkasan judul naskah dan status sinkronisasi git.
+
+---
+
 ## [2.6.0] - 2026-09-27
 
 ### 🎨 4 Tema Visual Taste Skill & Tipografi Ergonomis
@@ -252,12 +291,12 @@ Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelo
 - **Pembersihan Duplikasi & Teks `\n` Mentah:** Menghapus duplikasi sub-bab pada naskah Shalat Arafah serta membersihkan string literal `\n\n` pada naskah Wasiat Haul.
 
 ### 📚 New Studies & Materials
+- **Status Hukum Uang Kondangan (Buwuhan/Sumbangan Resepsi Walimah): Hibah Murni atau Hutang Piutang? (`kajian/2026-09-27-status-hukum-uang-kondangan-buwuhan-sumbangan-resepsi.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
+- **Hukum Mengambil Harta Orang Lain Secara Melawan Hukum (Mencuri) Demi Kepentingan Kebaikan dan Filantropi Sosial (Sindrom Robin Hood) (`kajian/2026-09-27-hukum-mengambil-harta-orang-lain-secara-melawan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Keabsahan Shalat Berjamaah Bersama Anak Kecil dan Perolehan Fadhilah Jamaah Ketika Istri Berhalangan (Kajian Komparatif Empat Madzhab) (`kajian/2026-09-27-keabsahan-shalat-berjamaah-bersama-anak-kecil-dan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Status Hukum Pemisahan Harta Bawaan yang Bercampur Baur (Commingled Property) dan Hak Ahli Waris Pasca Perceraian atau Kematian (`kajian/2026-09-27-status-hukum-pemisahan-harta-bawaan-yang-bercampur.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Keabsahan Shalat Berjamaah Bersama Anak Kecil dan Perolehan Fadhilah Jamaah Ketika Istri Berhalangan (Kajian Komparatif Empat Madzhab) (`kajian/2026-09-27-keabsahan-shalat-berjamaah-bersama-anak-kecil-dan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Hukum Meletakkan Batu Kerikil di Atas Makam dan Faedahnya bagi Jenazah (`kajian/2026-09-27-hukum-meletakkan-batu-kerikil-di-atas-makam.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
-- **Validasi Auto Push Bot Repositori Privat (`kajian/2026-09-27-validasi-auto-push-bot.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
-- **Uji Coba Sinkronisasi Repositori Privat (`kajian/2026-09-27-uji-coba-repositori-privat.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot. (Kajian Bahtsul Masail)
 - **Hukum Asuransi BPJS Kesehatan (`kajian/2026-09-26-hukum-asuransi-bpjs-kesehatan.md`):** Telaah fiqih muamalah dan siyasah syar'iyyah mengenai akad tabarru' jaminan sosial nasional, keabsahan kewajiban iuran oleh pemerintah, serta ketiadaan riba dan gharar terlarang.
 - **Hukum Azimat dan Rajah (`kajian/2026-09-26-hukum-penggunaan-azimat-rajah.md`):** Telaah akidah dan fiqih mengenai ta'widz ayat Al-Qur'an, batasan ilmu wifiq, dan adab membawa azimat ke toilet.
 - **Wasiat Harta Sawah untuk Haul (`kajian/2026-09-26-wasiat-harta-untuk-haul.md`):** Telaah batas sepertiga tirkah, keabsahan wasiat sedekah makanan dan doa haul, serta status tanah sawah sebagai wasiat manfaat abadi (*waqaf wasiyyah*).
