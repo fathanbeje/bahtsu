@@ -291,6 +291,9 @@ Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelo
 - **Pembersihan Duplikasi & Teks `\n` Mentah:** Menghapus duplikasi sub-bab pada naskah Shalat Arafah serta membersihkan string literal `\n\n` pada naskah Wasiat Haul.
 
 ### 📚 New Studies & Materials
+- **Penetapan Batas Minimal Nominal Uang Infaq pada Lembaga Pendidikan (`kajian/2026-10-03-penetapan-batas-minimal-nominal-uang-infaq-pada.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
+- **Legitimasi Fikih Larangan Tidur di Masjid dan Pengetatan Pemanfaatan Fasilitas Toilet/MCK Masjid (`kajian/2026-10-01-legitimasi-fikih-larangan-tidur-di-masjid-dan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
+- **Pembelaan Syar'i (Ad-Difā' asy-Syar'ī) atas Kebijakan Diskresi Mantan Menteri Agama (Gus Yaqut Cholil Qoumas) dalam Optimalisasi Penyerapan Kuota Haji Tambahan 1445 H Ditinjau dari Prinsip Siyāsah Syar'iyyah, Penyelamatan Maslahat Agung (Inqādzul Mashlahah), dan Manajemen Kedaruratan Operasional (Idāratul Azamāt) (`kajian/2026-09-29-pembelaan-syari-ad-difa-asy-syari-atas.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Status Hukum Uang Kondangan (Buwuhan/Sumbangan Resepsi Walimah): Hibah Murni atau Hutang Piutang? (`kajian/2026-09-27-status-hukum-uang-kondangan-buwuhan-sumbangan-resepsi.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Hukum Mengambil Harta Orang Lain Secara Melawan Hukum (Mencuri) Demi Kepentingan Kebaikan dan Filantropi Sosial (Sindrom Robin Hood) (`kajian/2026-09-27-hukum-mengambil-harta-orang-lain-secara-melawan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
 - **Keabsahan Shalat Berjamaah Bersama Anak Kecil dan Perolehan Fadhilah Jamaah Ketika Istri Berhalangan (Kajian Komparatif Empat Madzhab) (`kajian/2026-09-27-keabsahan-shalat-berjamaah-bersama-anak-kecil-dan.md`):** Draf bahan kajian bahtsul masail disimpan otomatis oleh bot.
