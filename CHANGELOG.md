@@ -4,6 +4,15 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.7.2] - 2026-10-06
+
+### 📚 Penambahan Bahan Kajian Bahtsul Masail
+- **Kajian Hukum Pemanfaatan Turath.io, PDF Kitab Kuning, & Komersialisasi Aplikasi Telaah:**
+  - Menambahkan draf taswidah `kajian/2026-10-06-hukum-komersialisasi-aplikasi-turats-dan-hak-cipta-kitab-kuning.md` yang mengurai secara tuntas status hak cipta (*haqqut ta'līf*) naskah ulama salaf sebagai hak milik umum umat Islam (*milk 'ām*), kebolehan pemanfaatan basis data terbuka Turath.io dan PDF internet untuk ta'lim, serta keabsahan komersialisasi aplikasi perangkat lunak berbasis akad *ijārah 'alal 'amal* (rekayasa sistem) dan *ijārah 'alal manfa'ah* (komputasi peladen/AI).
+  - Dilengkapi 8 maraji' komprehensif lintas lima lapisan (Madzhab Syafi'i, Hanafi, Qawa'id Fiqhiyyah, dan Majma' al-Fiqh al-Islami) yang 100% tervalidasi presisi melalui Turath Linter (`turath_linter.js`).
+
+---
+
 ## [2.7.1] - 2026-09-29
 
 ### 📚 Penambahan Bahan Kajian Bahtsul Masail

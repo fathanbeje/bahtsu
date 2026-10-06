@@ -1,6 +1,9 @@
 # 📁 Direktori Kajian & Taswidah Bahtsul Masail
 
-Direktori ini berfungsi sebagai repositori arsip naskah draf telaah, kompilasi ibarat, dan bahan kajian awal Bahtsul Masail yang dihasilkan oleh asisten AI `/bahtsu`.
+> [!NOTE]
+> Seluruh naskah kajian Bahtsul Masail (berkas `.md`) dipublikasikan dan dikelola secara terbuka di repositori publik:  
+> 🌐 **[fathanbeje/bahtsu (Branch main)](https://github.com/fathanbeje/bahtsu/tree/main/kajian)** agar dapat diakses dan dibaca oleh masyarakat luas.  
+> Repositori privat ini (`bahtsu-app`) dikhususkan murni untuk pengembangan dan aset aplikasi web.
 
 ---
 
