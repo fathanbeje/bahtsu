@@ -4,6 +4,15 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.7.3] - 2026-10-12
+
+### 📚 Penambahan Bahan Kajian Bahtsul Masail
+- **Kajian Hukum Perayaan Maulid Nabi Muhammad ﷺ:**
+  - Menambahkan draf taswidah `kajian/2026-10-12-hukum-perayaan-maulid-nabi.md` yang merumuskan hukum maulid secara tafshil: bid'ah hasanah (mandubah) yang berpahala bila esensinya ibadah (tilawah, shadaqah, ta'zhim Nabi) tanpa munkarat, dan bid'ah madzmumah yang haram bila dicampuri kemunkaran — berdasarkan 6 maraji' lintas lima lapisan (An-Nawawi, Al-'Izz bin 'Abdissalam, Hasyiyah asy-Syirwani menukil fatwa As-Suyuthi & Ibn Hajar al-'Asqalani, I'anatuth Thalibin, Al-Fakihani al-Maliki, Ibn Taimiyah al-Hanbali) yang tervalidasi Turath.io.
+  - Catatan audit: Turath Linter sempat menandai 1 tautan (I'anatuth Thalibin) sebagai WRONG_PAGE_ID dan menggantinya otomatis ke halaman keliru; verifikasi ulang via Turath API memastikan ibarat berada di halaman yang benar (book 963, page 1141, juz 3 hal. 414) sehingga tautan dikembalikan manual.
+
+---
+
 ## [2.7.2] - 2026-10-06
 
 ### 📚 Penambahan Bahan Kajian Bahtsul Masail
