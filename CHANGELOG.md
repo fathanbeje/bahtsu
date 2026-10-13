@@ -4,6 +4,16 @@ Semua pembaruan penting dan evolusi metodologis pada repositori skill `/bahtsu` 
 
 Format changelog ini mengadopsi standar [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.7.4] - 2026-10-13
+
+### 📚 Penambahan Bahan Kajian Bahtsul Masail
+- **Kajian Fiqih Mabit di Mina, Tanazul ke Hotel, Privasi Aurat, dan Keterbatasan Lahan:**
+  - Menambahkan draf taswidah `kajian/2026-10-13-hukum-tanazul-mabit-mina-hotel-syisyah-aurat.md` yang mengurai tuntas polemik program tanazul ke hotel bagi lansia, sakit, disabilitas (gugur kewajiban mabit tanpa dam berdasarkan kesepakatan madzhab dan rukhshah bagi *ashhabul a'dzar*), serta tafshil bagi jemaah sehat wal afiat.
+  - Menguraikan tarjih ushul fiqh dan maqashid syari'ah: kewajiban mutlak menjaga pandangan dari aurat bukan mahram (*ghaddhul bashar*), menjaga kesucian pakaian saat ibadah, dan memelihara keselamatan jiwa (*hifzhun nafs*) mutlak didahulukan daripada memaksakan mabit di tenda Mina berdasarkan kaidah *Dar'ul Mafāsid Muqaddamun 'alā Jalbil Mashālih*.
+  - Dilengkapi 8 maraji' komprehensif lintas lapisan (Madzhab Syafi'i, Hanafi, Maliki, Qawa'id Fiqhiyyah, dan Muqaranah 4 Madzhab) yang 100% lolos uji verifikasi presisi Turath Linter (`turath_linter.js`).
+
+---
+
 ## [2.7.3] - 2026-10-12
 
 ### 📚 Penambahan Bahan Kajian Bahtsul Masail
