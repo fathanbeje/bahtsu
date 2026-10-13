@@ -115,7 +115,7 @@ Dua fatwa agung madzhab Syafi'i ini adalah *qaul mu'tamad* dalam masalah maulid:
 
 🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/9059?page=3268#:~:text=%D8%B9%D9%8E%D9%85%D9%8E%D9%84%D9%90%20%D8%A7%D9%84%D9%92%D9%85%D9%8E%D9%88%D9%92%D9%84%D9%90%D8%AF%D9%90%20%D8%A8%D9%90%D8%AF%D9%92%D8%B9%D9%8E%D8%A9%D9%8C%20%D9%84%D9%8E%D9%85%D9%92)
 
-4. **Kitab: I'anatuth Thalibin 'ala Halli Alfazhi Fathil Mu'in (إعانة الطالبين على حل ألفاظ فتح المعين) — (Juz 3, Hal. 414)**
+4. **Kitab: I'anatuth Thalibin 'ala Halli Alfazhi Fathil Mu'in (إعانة الطالبين على حل ألفاظ فتح المعين) — (Juz 2, Hal. 19)**
 
 *Karya: Abu Bakar Syatha ad-Dimyathi (w. 1310 H) | Madzhab: Syafi'i (Mu'tamad) | Lapisan: Hawasyi*
 
@@ -129,7 +129,7 @@ Maulid adalah berkumpulnya manusia, membaca Al-Qur'an semampunya, meriwayatkan k
 *Wajhul Istidlal:*
 Ibarat hasyiyah mu'tabarah ini menguatkan fatwa As-Suyuthi dengan sanad keilmuan berlapis: definisi operasional maulid yang hasanah (tanpa tambahan), penegasan Abu Syamah — guru langsung An-Nawawi — bahwa ia termasuk *ahsanu maubtudi'* (sebaik-baik perkara baru), serta 'illat pahalanya: mahabbah, ta'zhim, dan syukur atas nikmat kerasulan. Ini menjadi dalil jawaban pertanyaan kedua: menghadiri dan berinfak untuk acara semacam ini adalah *ta'awun* dalam kebaikan.
 
-🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/963?page=1141#:~:text=%D8%A7%D9%84%D9%85%D9%88%D9%84%D8%AF%20%D9%88%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%20%D8%A7%D9%84%D9%86%D8%A7%D8%B3%20%D9%84%D9%87)
+🔗 *Tautan Verifikasi:* [Buka Teks di Turath.io](https://app.turath.io/book/963?page=325#:~:text=%D8%AD%D8%B1%D9%8A%D9%82%20%D8%AE%D9%81%D9%81%20%D9%88%D9%87%D9%84%20%D9%8A%D9%84%D8%B2%D9%85)
 
 5. **Kitab: Al-Mawrid fi 'Amal al-Mawlid (المورد في عمل المولد) — (Hal. 8)**
 
